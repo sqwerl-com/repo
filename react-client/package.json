@@ -1,6 +1,6 @@
 {
   "name": "sqwerl-react-client",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@types/d3": "7.4.0",
@@ -48,7 +48,6 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "http-proxy-middleware": "2.0.6",
-    "husky": "8.0.3",
     "jest": "29.6.1",
     "jest-axe": "7.0.0",
     "jest-fetch-mock": "3.0.3",
@@ -116,7 +115,6 @@
     "build-css": "npx sass src/",
     "build-doc": "typedoc --entryPointStrategy expand src --exclude **/*.test.tsx --out build/docs",
     "build-translations": "rm -f src/translations/locales/en.json && node ./translation-runner.js",
-    "prepare": "husky install",
     "standard": "npx ts-standard src/**/*.tsx",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom --coverage src/**/*.test.ts? --transformIgnorePatterns \"node_modules/(?!d3|d3-array|d3-time|internmap|delaunator|robust-predicates)/\"",
