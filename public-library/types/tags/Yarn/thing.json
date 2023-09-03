@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-10-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Yarn",
+  "path": "/Types/Tags/Yarn",
+  "shortDescription": "Things that refer to the Yarn Javascript package manager.",
+  "tagged": {
+    "</types/webPages/How You Should Pin Dependencies and Why>": "",
+    "</types/webPages/Yarn Determinism>": "",
+    "</types/webPages/Yarn Home Page>": "",
+    "</types/webPages/Yarn vs NPM Everything You Need to Know>": ""
+  },
+  "text": "Yarn"
+}

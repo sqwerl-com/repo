@@ -1,0 +1,35 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Donald A Norman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/The Design of Everyday Things>": ""
+  },
+  "name": "The Design of Everyday Things: Revised and Expanded Edition",
+  "notes": {
+    "</types/notes/The Design of Everyday Things Revised and Expanded Edition>": ""
+  },
+  "path": "/Types/Books/The Design of Everyday Things: Revised and Expanded Edition",
+  "pictures": {
+    "</types/pictures/The Design of Everyday Things Revised and Expanded Edition Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Designing Interactions>": "",
+    "</types/books/Different>": "",
+    "</types/books/Sketching User Experiences>": "",
+    "</types/books/The Checklist Manifesto>": "",
+    "</types/books/The Design of Future Things>": "",
+    "</types/books/Things that Make Us Smart>": "",
+    "</types/books/Thinking Fast and Slow>": ""
+  },
+  "shortDescription": ""
+}

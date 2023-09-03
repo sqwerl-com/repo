@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-23T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The 7 Habits of Highly Effective People Book",
+  "path": "/Types/Pictures/The 7 Habits of Highly Effective People Book",
+  "pictureOf": {
+    "</types/books/The 7 Habits of Highly Effective People>": ""
+  },
+  "representations": {
+    "the_7_habits_of_highly_effective_people_book_large.jpg.lnk.json": "",
+    "the_7_habits_of_highly_effective_people_book_medium.jpg.lnk.json": "",
+    "the_7_habits_of_highly_effective_people_book_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

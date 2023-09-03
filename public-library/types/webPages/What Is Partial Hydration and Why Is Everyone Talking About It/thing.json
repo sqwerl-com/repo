@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-21T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What Is Partial Hydration an Why Is Everyone Talking About It?",
+  "path": "/Types/Web Pages/What Is Partial Hydration an Why Is Everyone Talking About It?",
+  "recommendedBy": {
+    "</types/webPages/The Future of Micro Frontends>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dev.to/ajcwebdev/what-is-partial-hydration-and-why-is-everyone-talking-about-it-3k56#adding-partial-hydration-to-existing-frameworks"
+}

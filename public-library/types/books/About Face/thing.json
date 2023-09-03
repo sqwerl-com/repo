@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alan Cooper>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "About Face",
+  "notes": {
+    "</types/notes/About Face>": ""
+  },
+  "path": "/Types/Books/About Face",
+  "pictures": {
+    "</types/pictures/About Face Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-03-15T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the React podcast.",
+  "name": "React Podcast home page",
+  "path": "/Types/Web Pages/React Podcast home page",
+  "shortDescription": "",
+  "url": "https://reactpodcast.com/"
+}

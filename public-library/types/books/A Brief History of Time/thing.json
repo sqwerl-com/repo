@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Stephen Hawking>"
+  ],
+  "collections": {
+    "</types/collections/Science/Physics>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "A Brief History of Time",
+  "path": "/Types/Books/A Brief History of Time",
+  "pictures": {
+    "</types/pictures/A Brief History of Time Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

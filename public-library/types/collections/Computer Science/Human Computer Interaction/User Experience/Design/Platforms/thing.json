@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Platforms/iOS>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Platforms/Web>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Platforms",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Platforms",
+  "shortDescription": "Things related to designing users' experiences with computing platforms."
+}

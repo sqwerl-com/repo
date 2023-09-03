@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-09-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Projects/Build a Raspberry Pi Cluster>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kubernetes>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for K3S: a lightweight Kubernetes.",
+  "name": "K3S",
+  "path": "/Types/Web Pages/K3S",
+  "shortDescription": "K3S (Lightweight Kubernetes) Home Page",
+  "tags": {
+    "</types/tags/Kubernetes>": ""
+  },
+  "url": "https://k3s.io/"
+}

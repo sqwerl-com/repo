@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/J C R Licklider>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Man-Computer Symbiosis",
+  "path": "/Types/Papers/Man-Computer Symbiosis",
+  "recommendedBy": {
+    "</types/papers/Augmenting Human Intellect>": "",
+    "</types/books/The Innovators>": ""
+  },
+  "shortDescription": ""
+}

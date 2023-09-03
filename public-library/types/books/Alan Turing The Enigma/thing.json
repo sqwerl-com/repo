@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-08-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Andrew Hodges>"
+  ],
+  "collections": {
+    "</types/collections/History/Computation>": "",
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/authors/A M Turing>": ""
+  },
+  "name": "Alan Turing: The Enigma",
+  "path": "/Types/Books/Alan Turing: The Enigma",
+  "pictures": {
+    "</types/pictures/Alan Turing The Enigma Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

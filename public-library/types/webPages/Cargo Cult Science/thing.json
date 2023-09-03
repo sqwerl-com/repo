@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Richard P Feynman>"
+  ],
+  "collections": {
+    "</types/collections/Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/talks/Cargo Cult Science>": ""
+  },
+  "name": "Cargo Cult Science",
+  "path": "/Types/Web Pages/Cargo Cult Science",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://calteches.library.caltech.edu/51/2/CargoCult.htm"
+}

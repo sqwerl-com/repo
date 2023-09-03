@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-15T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the ripgrep command-line tool for recursively searching directories.",
+  "name": "ripgrep",
+  "path": "/Types/Web Pages/ripgrep",
+  "recommendedBy": {
+    "</types/videos/The Missing Semester of Your CS Education Lecture 2 Shell Tools and Scripting>": ""
+  },
+  "shortDescription": "GitHub home page for ripgrep command-line tool.",
+  "url": "https://github.com/BurntSushi/ripgrep"
+}

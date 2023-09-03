@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-11-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mike Cantelon>",
+    "</types/authors/Mark Harter>",
+    "</types/authors/T J Holowaychuk>",
+    "</types/authors/Nathan Rajlich>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Node.js In Action",
+  "path": "/Types/Books/Node.js In Action",
+  "pictures": {
+    "</types/pictures/NodeJS in Action Book>": ""
+  },
+  "shortDescription": ""
+}

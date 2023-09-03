@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "On Writing Well Book",
+  "path": "/Types/Pictures/On Writing Well Book",
+  "pictureOf": {
+    "</types/books/On Writing Well>": ""
+  },
+  "representations": {
+    "on_writing_well_book_cover_large.png.lnk.json": "",
+    "on_writing_well_book_cover_medium.png.lnk.json": "",
+    "on_writing_well_book_cover_preview.png.lnk.json": "",
+    "on_writing_well_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

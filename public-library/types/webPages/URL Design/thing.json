@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Neath>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "URL Design",
+  "path": "/Types/Web Pages/URL Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "url": "https://warpspire.com/posts/url-design"
+}

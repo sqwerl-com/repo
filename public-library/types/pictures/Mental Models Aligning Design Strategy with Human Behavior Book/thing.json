@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mental Models: Aligning Design Strategy with Human Behavior Book",
+  "path": "/types/pictures/Mental Models Aligning Design Strategy with Human Behavior Book",
+  "pictureOf": {
+    "</types/books/Mental Models Aligning Design Strategy with Human Behavior>": ""
+  },
+  "representations": {
+    "mental_models_aligning_design_strategy_with_human_behavior_book_cover_large.png.lnk.json": "",
+    "mental_models_aligning_design_strategy_with_human_behavior_book_cover_medium.png.lnk.json": "",
+    "mental_models_aligning_design_strategy_with_human_behavior_book_cover_preview.png.lnk.json": "",
+    "mental_models_aligning_design_strategy_with_human_behavior_book_cover_small.png.lnk.json": ""
+  }
+}

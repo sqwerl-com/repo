@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-07-12T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Code>": "",
+    "</types/books/The Annotated Turing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Charles",
+  "lastName": "Petzold",
+  "middleNameOrInitial": "",
+  "name": "Charles Petzold",
+  "path": "/Types/Authors/Charles Petzold"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-07-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Amor Towles>"
+  ],
+  "collections": {
+    "</types/collections/Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "A Gentleman in Moscow",
+  "path": "/Types/Books/A Gentleman in Moscow",
+  "pictures": {
+    "</types/pictures/A Gentleman in Moscow Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

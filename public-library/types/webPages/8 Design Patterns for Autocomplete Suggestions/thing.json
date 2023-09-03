@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jamie Appleseed>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/General>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Baymard Institute>": ""
+  },
+  "name": "8 Design Patterns for Autocomplete Suggestions",
+  "notes": {
+    "</types/notes/8 Design Patterns for Autocomplete Suggestions>": ""
+  },
+  "path": "/Types/Web Pages/8 Design Patterns for Autocomplete Suggestions",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Getting the Search Pattern Right>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/search>": ""
+  },
+  "url": "https://baymard.com/blog/autocomplete-design"
+}

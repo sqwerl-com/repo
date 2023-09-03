@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-01-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ryan Singer>"
+  ],
+  "books": {
+    "</types/books/Shape Up>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the book Shape Up",
+  "name": "Shape Up",
+  "path": "/Types/Web Pages/Shape Up",
+  "shortDescription": "",
+  "url": "https://basecamp.com/shapeup"
+}

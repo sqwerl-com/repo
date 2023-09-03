@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Freakonomics>": "",
+    "</types/books/Superfreakonomics>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Stephen",
+  "lastName": "Dubner",
+  "middleNameOrInitial": "J",
+  "name": "Stephen J. Dubner",
+  "path": "/Types/Authors/Stephen J. Dubner"
+}

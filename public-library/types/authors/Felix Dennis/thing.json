@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/How to Get Rich>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Felix",
+  "lastName": "Dennis",
+  "middleNameOrInitial": "",
+  "name": "Felix Dennis",
+  "path": "/Types/Authors/Felix Dennis"
+}

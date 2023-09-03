@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Geerling>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Better than Netflix: Jellyfin on my NAS",
+  "path": "/Types/Videos/Better than Netflix: Jellyfin on my NAS",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=4VkY1vTpCJY",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

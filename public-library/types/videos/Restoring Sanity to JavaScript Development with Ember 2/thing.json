@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kevin Pfefferle>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Restoring Sanity to JavaScript Development with Ember 2",
+  "path": "/Types/Videos/Restoring Sanity to JavaScript Development with Ember 2",
+  "recommendations": {
+    "</types/webPages/Ember Addons>": "",
+    "</types/webPages/Ember CLI Mirage>": "",
+    "</types/webPages/Ember Observer>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=npsaDBiO3n4",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

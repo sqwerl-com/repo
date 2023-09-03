@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-03-22T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Learning JavaScript Design Patterns>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Learning JavaScript Design Patterns",
+  "path": "/Types/Web Pages/Learning JavaScript Design Patterns",
+  "shortDescription": "",
+  "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+}

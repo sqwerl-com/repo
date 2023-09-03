@@ -1,0 +1,17 @@
+{
+  "name": "sqwerl-catalog",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "del": "3.0.0",
+    "gulp": "3.9.1",
+    "gulp-zip": "4.2.0",
+    "minimist": "1.2.0",
+    "moment": "2.22.2"
+  },
+  "scripts": {
+    "test": "node ../sqwerl-nodejs-server/src/main/javascript/checker.js ./src/main/test/resources/configuration.json"
+  },
+  "packageManager": "yarn@3.1.1"
+}

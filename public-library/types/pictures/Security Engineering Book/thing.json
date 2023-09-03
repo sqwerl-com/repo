@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Security Engineering Book",
+  "path": "/Types/Pictures/Security Engineering Book",
+  "pictureOf": {
+    "</types/books/Security Engineering>": ""
+  },
+  "representations": {
+    "security_engineering.png.lnk.json": "",
+    "security_engineering_preview.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

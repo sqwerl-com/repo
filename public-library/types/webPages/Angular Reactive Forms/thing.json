@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-03-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/courses/Angular Reactive Forms>": ""
+  },
+  "name": "Angular Reactive Forms",
+  "path": "/Types/Web Pages/Angular Reactive Forms",
+  "shortDescription": "Pluralsight course home page",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://app.pluralsight.com/library/courses/angular-2-reactive-forms/table-of-contents"
+}

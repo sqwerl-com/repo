@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-12-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/On Writing Well>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "William",
+  "lastName": "Zinsser",
+  "middleNameOrInitial": "",
+  "name": "William Zinsser",
+  "path": "/Types/Authors/William Zinsser"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-06-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React Transition Group",
+  "path": "/Types/Web Pages/React Transition Group",
+  "recommendedBy": {
+    "</types/webPages/UI Animations with React The Right Way>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "https://reactcommunity.org/react-transition-group/"
+}

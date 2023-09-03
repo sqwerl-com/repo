@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ed Finkler>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/Graph>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Graph Databases Will Change Your Freakin' Life",
+  "path": "/Types/Videos/Graph Databases Will Change Your Freakin' Life",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=GekQqFZm7mA",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

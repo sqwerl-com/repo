@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-17T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Do Not Use git checkout Anymore",
+  "path": "/Types/Web Pages/Do Not Use git checkout Anymore",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://materokatti.medium.com/do-not-use-git-checkout-anymore-aa73c0a43c13"
+}

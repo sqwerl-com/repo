@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-07T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Amazing Adventures of Kavalier and Clay>": "",
+    "</types/books/The Yiddish Policemans Union>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Michael",
+  "lastName": "Chabon",
+  "middleNameOrInitial": "",
+  "name": "Michael Chabon",
+  "path": "/Types/Authors/Michael Chabon"
+}

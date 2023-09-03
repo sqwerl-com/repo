@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Trevor Indrek Lasn>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Setup Webpack +2.0 from Scratch in 2017",
+  "path": "/Types/Web Pages/How to Setup Webpack +2.0 from Scratch in 2017",
+  "recommendedBy": {
+    "</types/webPages/Learn How to Build Astronomy Picture of the Day App with NASA API and React Redux Part 1>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Webpack>": ""
+  },
+  "url": "https://codeburst.io/easy-guide-for-webpack-2-0-from-scratch-fe508a3ce44e"
+}

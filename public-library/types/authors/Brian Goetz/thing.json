@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Java Concurrency in Practice>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Brian",
+  "lastName": "Goetz",
+  "middleNameOrInitial": "",
+  "name": "Brian Goetz",
+  "path": "/Types/Authors/Brian Goetz"
+}

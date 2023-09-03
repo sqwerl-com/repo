@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-05-23T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Husky>": "",
+    "</types/webPages/Tig Text Mode Interface for Git>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Contains information regarding tools for the Git distributed version control system.",
+  "name": "Tools",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git/Tools",
+  "shortDescription": "Software tools for Git"
+}

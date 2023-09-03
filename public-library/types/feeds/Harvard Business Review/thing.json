@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://feeds.harvardbusiness.org/harvardbusiness",
+  "items": {
+    "</types/webPages/Dont Let the Minimum Win Over the Viable>": "",
+    "</types/webPages/The Hidden In Plain Sight Legacy of Steve Jobs>": "",
+    "</types/webPages/The Value of Wowing Your Customers>": ""
+  },
+  "name": "Harvard Business Review",
+  "path": "/Types/Feeds/Harvard Business Review",
+  "shortDescription": ""
+}

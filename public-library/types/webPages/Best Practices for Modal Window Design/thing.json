@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nick Babich>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Dialogs>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Best Practices for Modal Window Design",
+  "path": "/Types/Web Pages/Best Practices for Modal Window Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://uxplanet.org/best-practices-for-modal-window-design-627f7aba57f1"
+}

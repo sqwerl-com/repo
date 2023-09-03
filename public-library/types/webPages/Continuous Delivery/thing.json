@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-12-30T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Continuous Delivery>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Delivery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Web page for the book 'Continuous Delivery'",
+  "name": "Continuous Delivery",
+  "path": "/Types/Web Pages/Continuous Delivery",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Continuous delivery>": ""
+  },
+  "url": "http://continuousdelivery.com/"
+}

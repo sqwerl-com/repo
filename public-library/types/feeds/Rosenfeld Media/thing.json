@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-09-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Louis Rosenfeld>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "items": {
+    "</types/podcasts/Getting to Done>": ""
+  },
+  "name": "Rosenfeld Media",
+  "path": "/Types/Feeds/Rosenfeld Media",
+  "shortDescription": "",
+  "webPage": "</types/webPages/Rosenfeld Media Podcasts>"
+}

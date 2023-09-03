@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Walter M Miller Jr>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "A Canticle for Leibowitz",
+  "path": "/Types/Books/A Canticle for Leibowitz",
+  "pictures": {
+    "</types/pictures/A Canticle for Leibowitz>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

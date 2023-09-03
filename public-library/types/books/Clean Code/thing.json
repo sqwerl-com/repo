@@ -1,0 +1,48 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert C Martin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Clean Architecture>": "",
+    "</types/documents/Clean Code Cheat Sheet>": ""
+  },
+  "name": "Clean Code",
+  "notes": {
+    "</types/notes/Clean Code>": ""
+  },
+  "path": "/Types/Books/Clean Code",
+  "pictures": {
+    "</types/pictures/Clean Code Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Agile Software Development Principles Patterns and Practices>": "",
+    "</types/webPages/Aspect Oriented Software Development>": "",
+    "</types/books/Design Patterns>": "",
+    "</types/books/Extreme Programming Explained>": "",
+    "</types/webPages/Inversion of Control Containers and the Dependency Injection Pattern>": "",
+    "</types/books/Refactoring>": "",
+    "</types/books/Test Driven Development By Example>": "",
+    "</types/books/The Pragmatic Programmer>": "",
+    "</types/books/The Timeless Way of Building>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Let the Code Speak>": "",
+    "</types/webPages/Reading Clean Code Week 1>": "",
+    "</types/webPages/Software Engineering 101 for Front end Developers>": "",
+    "</types/webPages/These Four Clean Code Tips Will Dramatically Improve Your Engineering Teams Productivity>": "",
+    "</types/webPages/What is Clean Code>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Clean code>": ""
+  }
+}

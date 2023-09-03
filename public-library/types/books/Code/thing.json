@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-07-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Charles Petzold>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Code",
+  "path": "/Types/Books/Code",
+  "pictures": {
+    "</types/pictures/Code Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Code: The Hidden Language of Computer Hardware and Software"
+}

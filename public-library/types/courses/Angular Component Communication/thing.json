@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-23T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Deborah Kurata>": ""
+  },
+  "links": {
+    "</types/webPages/Angular Component Communication>": ""
+  },
+  "name": "Angular Component Communication",
+  "path": "/Types/Courses/Angular Component Communication",
+  "recommendations": {
+    "</types/courses/Angular Forms>": "",
+    "</types/courses/Angular Reactive Forms>": "",
+    "</types/courses/Angular Routing>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  }
+}

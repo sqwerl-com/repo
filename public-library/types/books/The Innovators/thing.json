@@ -1,0 +1,37 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Walter Isaacson>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Innovators",
+  "notes": {
+    "</types/notes/The Innovators>": ""
+  },
+  "path": "/Types/Books/The Innovators",
+  "pictures": {
+    "</types/pictures/The Innovators Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/A Personal Computer for Children of All Ages>": "",
+    "</types/webPages/Augmenting Human Intellect>": "",
+    "</types/books/Godel Escher Bach>": "",
+    "</types/books/Hackers>": "",
+    "</types/papers/Man Computer Symbiosis>": "",
+    "</types/documents/Science The Endless Frontier>": "",
+    "</types/papers/Sketchpad A Man Machine Graphical Communication System>": "",
+    "</types/books/The Cathedral and the Bazaar>": "",
+    "</types/books/The Language Instinct>": "",
+    "</types/books/The Wealth of Networks>": "",
+    "</types/books/Who Owns the Future>": ""
+  },
+  "shortDescription": "",
+  "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution"
+}

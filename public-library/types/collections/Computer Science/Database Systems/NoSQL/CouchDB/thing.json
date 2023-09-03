@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Should I Use MongoDB or CouchDB>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/NoSQL>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "CouchDB",
+  "path": "/Types/Collections/Computer Science/Database Systems/NoSQL/CouchDB",
+  "shortDescription": "Things related to the CouchDB NoSQL database management system."
+}

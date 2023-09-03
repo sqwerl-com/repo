@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Shalitha Suranga>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Unix/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Built-in Bash Parameters That Every Developer Should Know",
+  "path": "/Types/Web Pages/Built-in Bash Parameters That Every Developer Should Know",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://levelup.gitconnected.com/built-in-bash-parameters-that-every-developer-should-know-b6d7b73ccb7a"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Graphical User Interface Design and Evaluation Book",
+  "path": "/Types/Pictures/Graphical User Interface Design and Evaluation Book",
+  "pictureOf": {
+    "</types/books/Graphical User Interface Design and Evaluation>": ""
+  },
+  "representations": {
+    "graphical_user_interface_design_and_evaluation_book_cover_large.jpg.lnk.json": "",
+    "graphical_user_interface_design_and_evaluation_book_cover_medium.jpg.lnk.json": "",
+    "graphical_user_interface_design_and_evaluation_book_cover_preview.jpg.lnk.json": "",
+    "graphical_user_interface_design_and_evaluation_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

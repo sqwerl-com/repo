@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-12-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jakob Nielsen>",
+    "</types/authors/Page Laubheimer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Top 10 Application-Design Mistakes",
+  "notes": {
+    "</types/notes/Top 10 Application Design Mistakes>": ""
+  },
+  "path": "/Types/Web Pages/Top 10 Application-Design Mistakes",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.nngroup.com/articles/top-10-application-design-mistakes/"
+}

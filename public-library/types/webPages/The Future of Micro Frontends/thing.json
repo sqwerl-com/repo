@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Luca Mezzalira>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Micro Front Ends>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Future of Micro Frontends",
+  "path": "/Types/Web Pages/The Future of Micro Frontends",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Islands Architecture>": "",
+    "</types/webPages/Turbo>": "",
+    "</types/webPages/What Is Partial Hydration and Why Is Everyone Talking About It>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Micro frontend>": ""
+  },
+  "url": "https://betterprogramming.pub/the-future-of-micro-frontends-2f527f97d506"
+}

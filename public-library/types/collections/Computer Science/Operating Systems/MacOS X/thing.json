@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Apple Developer Forum>": "",
+    "</types/documents/Become an Xcoder>": "",
+    "</types/documents/Cocoa Fundamentals>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "MacOS X",
+  "path": "/Types/Collections/Computer Science/Operating Systems/MacOS X",
+  "shortDescription": ""
+}

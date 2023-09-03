@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-11-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert Coram>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Boyd",
+  "path": "/Types/Books/Boyd",
+  "pictures": {
+    "</types/pictures/Boyd Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Founders and VCs Reveal 21 Books Every Entrepreneur Should Read>": ""
+  },
+  "shortDescription": "",
+  "title": "Boyd: The Fighter Pilot Who Changed the Art of War"
+}

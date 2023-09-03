@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-12-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David McCullough>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Great Bridge",
+  "path": "/Types/Books/The Great Bridge",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Great Bridge: The Epic Story of the Building of the Brooklyn Bridge"
+}

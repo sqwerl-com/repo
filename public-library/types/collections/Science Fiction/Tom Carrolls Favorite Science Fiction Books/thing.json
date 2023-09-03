@@ -1,0 +1,35 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-06T00:00:00.00-07:00",
+  "children": {
+    "</types/books/1984>": "",
+    "</types/books/A Princess of Mars>": "",
+    "</types/books/Cryptonomicon>": "",
+    "</types/books/Dune>": "",
+    "</types/books/Enders Game>": "",
+    "</types/books/Fahrenheit 451>": "",
+    "</types/books/Flowers for Algernon>": "",
+    "</types/books/Foundation>": "",
+    "</types/books/Gateway>": "",
+    "</types/books/Lucifers Hammer>": "",
+    "</types/books/Neuromancer>": "",
+    "</types/books/Rendezvous with Rama>": "",
+    "</types/books/Starship Troopers>": "",
+    "</types/books/The Amazing Adventures of Kavalier and Clay>": "",
+    "</types/books/The Forever War>": "",
+    "</types/books/The Left Hand of Darkness>": "",
+    "</types/books/The Legacy of Heorot>": "",
+    "</types/books/The Man in the High Castle>": "",
+    "</types/books/The Moon is a Harsh Mistress>": "",
+    "</types/books/The Space Merchants>": "",
+    "</types/books/The Windup Girl>": ""
+  },
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Tom Carroll's Favorite Science Fiction Books",
+  "path": "/Types/Collections/Science Fiction/Tom Carroll's Favorite Science Fiction Books",
+  "shortDescription": "Tom Carroll's favorite sci-fi books"
+}

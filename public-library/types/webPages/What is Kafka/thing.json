@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-05T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kafka>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is Kafka?",
+  "path": "/Types/Web Pages/What is Kafka?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Kafka>": ""
+  },
+  "url": "http://www.igfasouza.com/blog/what-is-kafka/"
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kubernetes>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is Kubernetes and How to Use It?",
+  "path": "/Types/Web Pages/What is Kubernetes and How to Use It?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Interactive Tutorial Creating a Cluster>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Kubernetes>": ""
+  },
+  "url": "https://faun.pub/what-is-kubernetes-and-how-to-use-it-aac6908ab682"
+}

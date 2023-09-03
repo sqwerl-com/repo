@@ -1,0 +1,32 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Anjana Vakil>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Learning Functional Programming with JavaScript",
+  "notes": {
+    "</types/notes/Learning Functional Programming with JavaScript Vakil>": ""
+  },
+  "path": "/Types/Videos/Learning Functional Programming with JavaScript",
+  "recommendations": {
+    "</types/webPages/An Introduction to Functional Programming>": "",
+    "</types/webPages/ImmutableJS>": "",
+    "</types/webPages/Mori>": "",
+    "</types/webPages/RambdaJS>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=e-5obm1G_FY",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

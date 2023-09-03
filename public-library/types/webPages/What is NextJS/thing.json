@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Anjalee Sudasinghe>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NextJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is NextJS?",
+  "path": "/Types/Web Pages/What is NextJS?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "What is NextJS? A Hands-On Introduction to Developing Faster Websites with Next",
+  "url": "https://livecodestream.dev/post/what-is-nextjs-a-hands-on-introduction-to-developing-faster-websites-with-next/"
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Patrick J Lynch>",
+    "</types/authors/Sarah Horton>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/Web>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Web Style Guide 3rd Edition",
+  "path": "/Types/Books/Web Style Guide 3rd Edition",
+  "pictures": {
+    "</types/pictures/Web Style Guide 3rd Edition Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "webPages": {
+    "</types/webPages/Web Style Guide 3rd Edition>": ""
+  }
+}

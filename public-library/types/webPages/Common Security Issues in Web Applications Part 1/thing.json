@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-12-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Narek Harutyunyan>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Common Security Issues in Web Applications. Part 1",
+  "notes": {
+    "</types/notes/Common Security Issues in Web Applications Part 1>": ""
+  },
+  "path": "/Types/Web Pages/Common Security Issues in Web Applications. Part 1",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/XSS>": ""
+  },
+  "url": "https://codeburst.io/common-security-issues-in-web-applications-part-1-af339360c646"
+}

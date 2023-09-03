@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Pro Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Scott",
+  "lastName": "Chacon",
+  "middleNameOrInitial": "",
+  "name": "Scott Chacon",
+  "path": "/Types/Authors/Scott Chacon"
+}

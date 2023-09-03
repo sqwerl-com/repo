@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eugenio Moggi>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Notions of Computation and Monads",
+  "path": "/Types/Papers/Notions of Computation and Monads",
+  "recommendedBy": {
+    "</types/webPages/Why I Still Lisp and You Should Too>": ""
+  },
+  "shortDescription": ""
+}

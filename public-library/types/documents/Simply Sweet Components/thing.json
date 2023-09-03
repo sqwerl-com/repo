@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-10-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ken Orr>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Simply Sweet Components",
+  "path": "/Types/Documents/Simply Sweet Components",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Simply Sweet Components: Component-oriented Design"
+}

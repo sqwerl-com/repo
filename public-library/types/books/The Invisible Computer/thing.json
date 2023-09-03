@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Donald A Norman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Invisible Computer",
+  "path": "/Types/Books/The Invisible Computer",
+  "pictures": {
+    "</types/pictures/The Invisible Computer Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

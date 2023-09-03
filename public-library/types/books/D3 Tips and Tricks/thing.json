@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-12-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Malcolm Maclean>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "D3 Tips and Tricks",
+  "path": "/Types/Books/D3 Tips and Tricks",
+  "pictures": {
+    "</types/pictures/D3 Tips and Tricks Book>": ""
+  },
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "title": "D3 Tips and Tricks: Interactive Data Visualization in a Web Browser"
+}

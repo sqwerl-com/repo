@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-25T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Pluralsight class home page.",
+  "links": {
+    "</types/courses/TypeScript Getting Started>": ""
+  },
+  "name": "TypeScript: Getting Started",
+  "path": "/Types/Web Pages/TypeScript: Getting Started",
+  "shortDescription": "Pluralsight class home page",
+  "url": "https://app.pluralsight.com/library/courses/getting-started-typescript/table-of-contents"
+}

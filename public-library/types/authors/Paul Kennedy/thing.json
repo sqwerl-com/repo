@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-08-30T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Engineers of Victory>": "",
+    "</types/books/The Rise and Fall of the Great Powers>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Paul",
+  "lastName": "Kennedy",
+  "middleNameOrInitial": "",
+  "name": "Paul Kennedy",
+  "path": "/Types/Authors/Paul Kennedy"
+}

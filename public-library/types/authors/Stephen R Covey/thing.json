@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-07-28T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The 7 Habits of Highly Effective People>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Stephen",
+  "lastName": "Covey",
+  "middleNameOrInitial": "R",
+  "name": "Stephen R. Covey",
+  "path": "/Types/Authors/Stephen R. Covey"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-08-14T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/China Has Started a Grand Experiment in AI Education>": "",
+    "</types/books/The Thinking Effect>": ""
+  },
+  "collections": {
+    "</types/collections/Education>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to education and training delivered through computer applications.",
+  "name": "Computer-based Training",
+  "path": "/Types/Collections/Education/Computer-based Training",
+  "shortDescription": ""
+}

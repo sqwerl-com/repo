@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-10-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/M Mitchell Waldrop>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Dream Machine",
+  "path": "/Types/Books/The Dream Machine",
+  "pictures": {
+    "</types/pictures/The Dream Machine Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/A Symbolic Analysis of Relay and Switching Circuits>": ""
+  },
+  "shortDescription": "",
+  "title": "The Dream Machine: J. C. R. Licklider and the Revolution That Made Computing Personal"
+}

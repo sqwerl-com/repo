@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-06-07T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/Gradle User Guide Version 1 6>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Build Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Gradle",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Build Tools/Gradle",
+  "shortDescription": ""
+}
+

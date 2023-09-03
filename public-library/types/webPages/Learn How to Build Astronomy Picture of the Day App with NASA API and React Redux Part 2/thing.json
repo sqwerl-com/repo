@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Trevor Indrek Lasn>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Learn How to Build: Astronomy Picture of the Day App with NASA API and React + Redux - Part 2",
+  "path": "/Types/Web Pages/Learn How to Build: Astronomy Picture of the Day App with NASA API and React + Redux - Part 2",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Learn How to Build Astronomy Picture of the Day App with NASA API and React Redux Part 1>": ""
+  },
+  "shortDescription": "",
+  "url": "https://betterprogramming.pub/learn-how-to-build-astronomy-picture-of-the-day-app-with-nasa-api-and-react-redux-part-ii-83f15970d0e3"
+}

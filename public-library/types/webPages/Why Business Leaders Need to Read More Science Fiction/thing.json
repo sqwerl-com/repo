@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eliot Peper>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": "",
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why Business Leaders Need to Read More Science Fiction",
+  "path": "/Types/Web Pages/Why Business Leaders Need to Read More Science Fiction",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/1984>": "",
+    "</types/books/Neuromancer>": "",
+    "</types/books/New York 2140>": "",
+    "</types/books/Snow Crash>": "",
+    "</types/books/The Diamond Age>": ""
+  },
+  "shortDescription": "",
+  "url": "https://hbr.org/2017/07/why-business-leaders-need-to-read-more-science-fiction"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Microsoft Edge Book",
+  "path": "/Types/Pictures/The Microsoft Edge Book",
+  "pictureOf": {
+    "</types/books/The Microsoft Edge>": ""
+  },
+  "representations": {
+    "the_microsoft_edge_book_cover_large.jpg.lnk.json": "",
+    "the_microsoft_edge_book_cover_medium.jpg.lnk.json": "",
+    "the_microsoft_edge_book_cover_preview.jpg.lnk.json": "",
+    "the_microsoft_edge_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

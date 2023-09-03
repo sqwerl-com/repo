@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Java>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://feeds.feedburner.com/JavaCodeGeeks",
+  "items": {
+    "</types/webPages/Java Code Geeks Resources>": "",
+    "</types/webPages/Java Concurrency Tutorial Semaphores>": "",
+    "</types/webPages/Logging Exceptions Root Cause First>": "",
+    "</types/webPages/Selling Yourself Why and How>": ""
+  },
+  "name": "Java Code Geeks",
+  "path": "/Types/Feeds/Java Code Geeks",
+  "shortDescription": ""
+}

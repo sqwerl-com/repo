@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-10-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kathy Sierra>"
+  ],
+  "collections": {
+    "</types/collections/Psychology>": "",
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Making Badass Developers",
+  "path": "/Types/Videos/Making Badass Developers",
+  "shortDescription": "",
+  "title": "Making Badass Developers",
+  "url": "https://www.youtube.com/watch?v=FKTxC9pl-WM",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

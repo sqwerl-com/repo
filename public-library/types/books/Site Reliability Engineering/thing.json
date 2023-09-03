@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Betsy Beyer>",
+    "</types/authors/Chris Jones>",
+    "</types/authors/Jennifer Petoff>",
+    "</types/authors/Niall Murphy>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Site Reliability Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Site Reliability Engineering",
+  "path": "/Types/Books/Site Reliability Engineering",
+  "pictures": {
+    "</types/pictures/Site Reliability Engineering Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/What is a Site Reliability Engineer Should You Become One>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Site Reliability Engineering>": ""
+  },
+  "title": "Site Reliability Engineering: How Google Runs Production Systems"
+}

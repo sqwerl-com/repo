@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-10-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Thomas H Cormen>",
+    "</types/authors/Charles E Leiserson>",
+    "</types/authors/Ronald L Rivest>",
+    "</types/authors/Clifford Stein>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Introduction to Algorithms 3rd Edition",
+  "path": "/Types/Books/Introduction to Algorithms 3rd Edition",
+  "pictures": {
+    "</types/pictures/Introduction to Algorithms 3rd Edition Book>": ""
+  },
+  "shortDescription": ""
+}

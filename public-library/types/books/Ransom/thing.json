@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jay McInerney>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Ransom",
+  "path": "/Types/Books/Ransom",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

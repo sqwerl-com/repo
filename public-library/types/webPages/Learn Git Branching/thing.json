@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-05-20T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Learn Git Branching",
+  "path": "/Types/Web Pages/Learn Git Branching",
+  "recommendedBy": {
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 3 Version>": ""
+  },
+  "shortDescription": "",
+  "url": "http://pcottle.github.io/learnGitBranching/"
+}

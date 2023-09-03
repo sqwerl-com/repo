@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Everett McKay>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Intuitive Design",
+  "path": "/Types/Books/Intuitive Design",
+  "pictures": {
+    "</types/pictures/Intuitive Design Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Intuitive Design: Eight Steps to an Intuitive UI"
+}

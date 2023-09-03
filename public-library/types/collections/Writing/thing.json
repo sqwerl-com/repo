@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Letting Go of the Words>": "",
+    "</types/webPages/Microcontent A Few Small Words Have a Mega Impact on Business>": "",
+    "</types/books/On Writing Well>": "",
+    "</types/courses/Technical Writing for Computer Scientists>": "",
+    "</types/webPages/The Most Common Grammar Gaffes Writers Make and How to Avoid Them>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Writing",
+  "path": "/Types/Collections/Writing",
+  "shortDescription": "Things related to how to write in English."
+}

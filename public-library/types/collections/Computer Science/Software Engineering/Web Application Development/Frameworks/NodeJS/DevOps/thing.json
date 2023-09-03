@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-06-26T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Dealing with NodeJS High CPU in Production>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS/DevOps/PM2>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "DevOps",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Node.js/DevOps",
+  "shortDescription": "How to deploy and monitor NodeJS applications."
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-02-01T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/CompressorIO>": "",
+    "</types/webPages/Documentationjs>": "",
+    "</types/webPages/Getting Started with Bower>": "",
+    "</types/webPages/Glyphter>": "",
+    "</types/webPages/httpie>": "",
+    "</types/webPages/MobiReady>": "",
+    "</types/webPages/Yarn Determinism>": "",
+    "</types/webPages/Yarn Home Page>": "",
+    "</types/webPages/Yarn vs NPM Everything You Need to Know>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Tools",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Tools",
+  "shortDescription": "Tools that can be used to develop web applications."
+}
+
+
+
+

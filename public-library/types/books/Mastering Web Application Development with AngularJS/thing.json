@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-10-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Peter Bacon Darwin>",
+    "</types/authors/Pawel Kozlowski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Mastering Web Application Development with AngularJS",
+  "path": "/Types/Books/Mastering Web Application Development with AngularJS",
+  "pictures":{
+    "</types/pictures/Mastering Web Application Development with AngularJS Book>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/AngularJS is Amazing and Hard as Hell>": ""
+  }
+}

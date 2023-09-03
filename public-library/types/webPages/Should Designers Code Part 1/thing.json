@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-05-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alan Cooper>"
+  ],
+  "collections": {
+      "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Should Designers Code? No, Part 1",
+  "notes": {
+    "</types/notes/Should Designers Code Part 1>": ""
+  },
+  "path": "/Types/Web Pages/Should Designers Code? No, Part 1",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@MrAlanCooper/should-designers-code-f7b745b8cd03"
+}

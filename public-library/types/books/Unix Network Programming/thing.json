@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-04-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/W Richard Stevens>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Networking>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Unix Network Programming: 1st edition",
+  "path": "/Types/Books/Unix Network Programming",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

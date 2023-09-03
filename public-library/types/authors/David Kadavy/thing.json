@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-30T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Design for Hackers>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "David",
+  "lastName": "Kadavy",
+  "middleNameOrInitial": "",
+  "name": "David Kadavy",
+  "path": "/Types/Authors/David Kadavy"
+}

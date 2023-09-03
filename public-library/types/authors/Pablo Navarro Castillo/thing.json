@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-31T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Mastering D3js>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Pablo",
+  "lastName": "Castillo",
+  "middleNameOrInitial": "Navarro",
+  "name": "Pablo Navarro Castillo",
+  "path": "/Types/Authors/Pablo Navarro Castillo"
+}

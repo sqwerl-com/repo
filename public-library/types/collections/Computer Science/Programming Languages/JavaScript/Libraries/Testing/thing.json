@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-02-26T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Cypressio The State of the Art End to End Testing Tool>": "",
+    "</types/webPages/JavaScript Unit Testing with Jasmine Part 1>": "",
+    "</types/webPages/Jest Home Page>": "",
+    "</types/webPages/JSCover>": "",
+    "</types/books/Testing JavaScript Applications>": "",
+    "</types/webPages/Why I Use Tape Instead of Mocha and So Should You>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Testing",
+  "path": "/Types/Collections/Computer Science/Programming Languages/JavaScript/Libraries/Testing",
+  "shortDescription": "Libraries for developing automated tests for JavaScript applications."
+}

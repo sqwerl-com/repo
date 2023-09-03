@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Bootstrapping Design Book",
+  "path": "/Types/Pictures/Bootstrapping Design Book",
+  "pictureOf": {
+    "</types/books/Bootstrapping Design>": ""
+  },
+  "representations": {
+    "bootstrapping_design_book_cover_large.png.lnk.json": "",
+    "bootstrapping_design_book_cover_medium.png.lnk.json": "",
+    "bootstrapping_design_book_cover_preview.png.lnk.json": "",
+    "bootstrapping_design_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

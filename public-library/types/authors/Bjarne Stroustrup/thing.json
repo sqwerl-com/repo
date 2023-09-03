@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-16T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/Bjarne Stroustrup>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Bjarne",
+  "lastName": "Stroustrup",
+  "middleNameOrInitial": "",
+  "name": "Bjarne Stroustrup",
+  "path": "/Types/Authors/Bjarne Stroustrup"
+}

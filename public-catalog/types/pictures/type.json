@@ -1,0 +1,88 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2017-03-29T00:00:00.00-07:00",
+  "description": "Pictures and images",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/authored>": "",
+    "</types/facets/collectable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/taggable>": ""
+  },
+  "name": "Pictures",
+  "controller": "</types/users/Administrator>",
+  "path": "/Types/Pictures",
+  "properties": {
+    "authors": {
+      "description": "A picture's authors. The people or organizations who created or own the copyright to a picture or image.",
+      "inverse": "authorOf",
+      "shortDescription": "Authors",
+      "type": [
+        "</types/authors>"
+      ]
+    },
+    "collections": {
+      "description": "The collections of things that a picture belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes a picture.",
+      "name": "Description",
+      "shortDescription": "A picture's description.",
+      "type": "text"
+    },
+    "links": {
+      "description": "Links to things a picture is related to.",
+      "inverse": "links",
+      "shortDescription": "Links to related things",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "name": {
+      "description": "A picture's name.",
+      "name": "Name",
+      "shortDescription": "A picture's name.",
+      "type": "text"
+    },
+    "pictureOf": {
+      "description": "The things a picture depicts.",
+      "inverse": "pictures",
+      "name": "Picture of",
+      "shortDescription": "The things that a picture represents, illustrates, or depicts.",
+      "type": {
+        "</types>": ""
+      }
+    },
+    "representations": {
+      "description": "A picture's digital (electronic) versions.",
+      "shortDescription": "Digital copies of a picture.",
+      "type": "representations"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a picture.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    }
+  },
+  "shortDescription": "Pictures or images.",
+  "singularName": "Picture"
+}

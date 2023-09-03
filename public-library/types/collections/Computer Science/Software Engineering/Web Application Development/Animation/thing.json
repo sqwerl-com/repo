@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-11-30T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Animation at Work>": "",
+    "</types/webPages/Best Practices for Animated Progress Indicators>": "",
+    "</types/books/CSS Animations A Pocket Guide>": "",
+    "</types/webPages/Cubic Bezier>": "",
+    "</types/books/Designing Interface Animation>": "",
+    "</types/webPages/Easing Functions Cheat Sheet>": "",
+    "</types/webPages/How Functional Animation Helps Improve User Experience>": "",
+    "</types/webPages/Popular Web Animation Techniques>": "",
+    "</types/webPages/Smart Transitions in User Experience Design>": "",
+    "</types/books/The Functional Art>": "",
+    "</types/webPages/UI Buttons>": "",
+    "</types/webPages/Val Head on Interface Animation>": "",
+    "</types/webPages/Web Animation Weekly>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to animating web user interfaces.",
+  "name": "Animation",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Animation",
+  "shortDescription": ""
+}

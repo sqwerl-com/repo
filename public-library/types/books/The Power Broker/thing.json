@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-12-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert A Caro>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Wrestling with Moses>": ""
+  },
+  "name": "The Power Broker",
+  "path": "/Types/Books/The Power Broker",
+  "pictures": {
+    "</types/pictures/The Power Broker Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/33 Books Everyone Should Read Before Turning 30>": ""
+  },
+  "shortDescription": "",
+  "title": "The Power Broker: Robert Moses and the Fall of New York"
+}

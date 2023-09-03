@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Philip Roth>"
+  ],
+  "collections": {
+    "</types/collections/History/Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Plot Against America",
+  "path": "/Types/Books/The Plot Against America",
+  "pictures": {
+    "</types/pictures/The Plot Against America Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

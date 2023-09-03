@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "jQuery in Action Second Edition Book",
+  "path": "</types/pictures/jQuery in Action Second Edition Book>",
+  "pictureOf": {
+    "</types/books/jQuery in Action Second Edition>": ""
+  },
+  "representations": {
+    "jquery_in_action_second_edition_book_cover_large.png.lnk.json": "",
+    "jquery_in_action_second_edition_book_cover_medium.png.lnk.json": "",
+    "jquery_in_action_second_edition_book_cover_preview.png.lnk.json": "",
+    "jquery_in_action_second_edition_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

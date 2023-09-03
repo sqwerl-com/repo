@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "YAML Tutorial",
+  "path": "/Types/Web Pages/YAML Tutorialy",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/YAML>": ""
+  },
+  "title": "YAML Tutorial: Everything You Need to Get Started in Minutes",
+  "url": "https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started"
+}

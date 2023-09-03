@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nick Babich>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Disabled Buttons in User Interface",
+  "path": "/Types/Web Pages/Disabled Buttons in User Interface",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://uxplanet.org/disabled-buttons-in-user-interface-4dafda3e6fe7"
+}

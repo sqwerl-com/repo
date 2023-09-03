@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-12-30T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Different>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Youngme",
+  "lastName": "Moon",
+  "middleNameOrInitial": "",
+  "name": "Youngme Moon",
+  "path": "/Types/Authors/Youngme Moon"
+}

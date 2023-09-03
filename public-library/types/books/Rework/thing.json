@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jason Fried>",
+    "</types/authors/David Heinemeier Hansson>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Rework",
+  "notes": {
+    "</types/notes/Rework>": ""
+  },
+  "path": "/Types/Books/Rework",
+  "pictures": {
+    "</types/pictures/Rework Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

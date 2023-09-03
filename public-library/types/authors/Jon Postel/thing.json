@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-19T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/documents/RFC 793 Transmission Control Protocol>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jon",
+  "lastName": "Postel",
+  "middleNameOrInitial": "",
+  "name": "Jon Postel",
+  "path": "/Types/Authors/Jon Postel"
+}

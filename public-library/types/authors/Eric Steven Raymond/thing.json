@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Cathedral and the Bazaar>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Eric",
+  "lastName": "Raymond",
+  "middleNameOrInitial": "Steven",
+  "name": "Eric Steven Raymond",
+  "path": "/Types/Authors/Eric Steven Raymond"
+}

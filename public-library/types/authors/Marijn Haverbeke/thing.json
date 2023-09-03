@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Eloquent JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Marijn",
+  "lastName": "Haverbeke",
+  "middleNameOrInitial": "",
+  "name": "Marijn Haverbeke",
+  "path": "/Types/Authors/Marijn Haverbeke"
+}

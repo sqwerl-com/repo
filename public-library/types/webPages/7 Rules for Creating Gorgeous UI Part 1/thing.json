@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Erik D Kennedy>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/General>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/7 Rules for Creating Gorgeous UI Part 2>": ""
+  },
+  "name": "7 Rules for Creating Gorgeous UI (Part 1)",
+  "notes": {
+    "</types/notes/7 Rules for Creating Gorgeous UI Part 1>": ""
+  },
+  "path": "/Types/Web Pages/7 Rules for Creating Gorgeous UI (Part 1)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Design Tip Never Use Black>": ""
+  },
+  "shortDescription": "",
+  "title": "7 Rules for Creating Gorgeous UI (Part 1): A Non-Artsy Primer in Digital Aesthetics",
+  "url": "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda"
+}

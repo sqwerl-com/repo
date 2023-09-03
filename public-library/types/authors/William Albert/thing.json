@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-09-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Measuring the User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "William",
+  "lastName": "Albert",
+  "middleNameOrInitial": "",
+  "name": "William Albert",
+  "path": "/Types/Authors/William Albert"
+}

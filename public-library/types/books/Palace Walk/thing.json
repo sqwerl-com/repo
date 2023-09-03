@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Naguib Mahfouz>"
+  ],
+  "collections": {
+    "</types/collections/History/Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Palace of Desire>": "",
+    "</types/books/Sugar Street>": ""
+  },
+  "name": "Palace Walk: The Cairo Trilogy, Volume 1",
+  "path": "/Types/Books/Palace Walk: The Cairo Trilogy, Volume 1",
+  "pictures":{
+    "</types/pictures/Palace Walk Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

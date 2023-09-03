@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Cassidy Beeve Morris>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Determining the Greatest Science Fiction and Fantasy Novels Since 1970",
+  "path": "/Types/Web Pages/Determining the Greatest Science Fiction and Fantasy Novels Since 1970",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Ancillary Justice>": "",
+    "</types/books/Enders Game>": "",
+    "</types/books/Gateway>": "",
+    "</types/books/Neuromancer>": "",
+    "</types/books/Rendezvous with Rama>": "",
+    "</types/books/Ringworld>": "",
+    "</types/books/Speaker for the Dead>": "",
+    "</types/books/Startide Rising>": "",
+    "</types/books/The Diamond Age>": "",
+    "</types/books/The Forever War>": "",
+    "</types/books/The Left Hand of Darkness>": "",
+    "</types/books/The Windup Girl>": "",
+    "</types/books/The Yiddish Policemans Union>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@cassidybeevemorris/determining-best-science-fiction-fantasy-novels-since-1970-e232ecbdc34d"
+}

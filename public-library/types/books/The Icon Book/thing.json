@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/William Horton>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Icons>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Icon Book",
+  "path": "/Types/Books/The Icon Book",
+  "pictures": {
+    "</types/pictures/The Icon Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Icons>": ""
+  }
+}

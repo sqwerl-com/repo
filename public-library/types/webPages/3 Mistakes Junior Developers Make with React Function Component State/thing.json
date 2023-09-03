@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tyler Hawkins>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "3 Mistakes Junior Developers Make with React Function Component State",
+  "path": "/Types/Web Pages/3 Mistakes Junior Developers Make with React Function Component State",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/React hooks>": ""
+  },
+  "url": "https://medium.com/better-programming/3-mistakes-junior-developers-make-with-react-function-component-state-8a744ab99a0d"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-16T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Introduction to Prolog A Programming Language for Artificial Intelligence>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Declarative>": ""
+  },
+  "name": "Prolog",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Prolog",
+  "shortDescription": "Things related to the Prolog programming language"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-08-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Paul Kennedy>"
+  ],
+  "collections": {
+    "</types/collections/History>": "",
+    "</types/collections/Political Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Rise and Fall of the Great Powers",
+  "path": "/Types/Books/The Rise and Fall of the Great Powers",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

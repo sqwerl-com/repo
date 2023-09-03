@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-09-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Atwood>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Coding Horror>": ""
+  },
+  "name": "The Magpie Developer",
+  "path": "/Types/Web Pages/The Magpie Developer",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Why Did So Many Startups Choose MongoDB Part 1>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.codinghorror.com/the-magpie-developer/"
+}

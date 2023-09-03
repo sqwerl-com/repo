@@ -1,0 +1,140 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "description": "Talks or seminars.",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/collectable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/notable>": "",
+    "</types/facets/taggable>": "",
+    "</types/facets/titled>": ""
+  },
+  "name": "Talks",
+  "controller": "</types/users/Administrator>",
+  "path": "/Types/Talks",
+  "properties": {
+    "attendedBy": {
+      "description": "Individuals who attended a talk.",
+      "inverse": "hasAttended",
+      "shortDescription": "Attended by",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "collections": {
+      "description": "The collections of things that a talk belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes a talk.",
+      "name": "Description",
+      "shortDescription": "A talk's description.",
+      "type": "text"
+    },
+    "links": {
+      "description": "Links to things related to a talk.",
+      "name": "Links",
+      "shortDescription": "Links to related things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</type>": ""
+      }
+    },
+    "listeners": {
+      "description": "People who listened to the talk.",
+      "inverse": "hasListenedTo",
+      "name": "Listened To",
+      "shortDescription": "People who listened to the talk.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "name": {
+      "description": "A talk's name.",
+      "name": "Name",
+      "required": true,
+      "shortDescription": "A talk's name.",
+      "type": "text"
+    },
+    "notes": {
+      "description": "Notes regarding a talk.",
+      "inverse": "notesFor",
+      "shortDescription": "Notes",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/notes>": ""
+      }
+    },
+    "recommendations": {
+      "description": "Related things that a talk recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that a talk suggests to look at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Related things that have recommended a talk.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended a talk.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "representations": {
+      "description": "A talk's digital (electronic) versions.",
+      "shortDescription": "Digital versions of a talk.",
+      "type": "representations"
+    },
+    "speakers": {
+      "description": "Individuals who present a talk to an audience.",
+      "inverse": "spokeAt",
+      "shortDescription": "A talk's speakers.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/authors>": ""
+      }
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a talk.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    }
+  },
+  "shortDescription": "Talks or presentations.",
+  "singularName": "Talk"
+}

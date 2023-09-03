@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-02-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Laura Klein>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Build Better Products",
+  "path": "/Types/Books/Build Better Products",
+  "pictures": {
+    "</types/pictures/Build Better Products Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Build Better Products: A Modern Approach to Building Successful User-Centered Products"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-09-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/Cindy Alvarez>": "",
+    "</types/books/Lean Customer Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Cindy",
+  "lastName": "Alvarez",
+  "links": {
+    "</types/podcasts/Getting to Done>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Cindy Alvarez",
+  "path": "/Types/Authors/Cindy Alvarez"
+}

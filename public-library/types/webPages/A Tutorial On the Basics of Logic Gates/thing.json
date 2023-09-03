@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Jenkins>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Tutorial On the Basics of Logic Gates",
+  "path": "/Types/Web Pages/A Tutorial On the Basics of Logic Gates",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@CircuitCrush/a-tutorial-on-the-basics-of-logic-gates-e9a73bde0022"
+}

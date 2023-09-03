@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-05-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Killer Visual Strategies Book",
+  "path": "</types/pictures/Killer Visual Strategies Book>",
+  "pictureOf": {
+    "</types/books/Killer Visual Strategies>": ""
+  },
+  "representations": {
+    "killer_visual_strategies_book_cover_large.jpg.lnk.json": "",
+    "killer_visual_strategies_book_cover_medium.jpg.lnk.json": "",
+    "killer_visual_strategies_book_cover_preview.jpg.lnk.json": "",
+    "killer_visual_strategies_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

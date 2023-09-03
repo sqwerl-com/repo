@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Chan Jing Hong>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is __proto__ in JavaScript?",
+  "path": "/Types/Web Pages/What is __proto__ in JavaScript?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/javascript-in-plain-english/what-is-proto-b15f16e10b72"
+}

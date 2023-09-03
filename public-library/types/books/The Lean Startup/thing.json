@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Ries>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Lean Startup",
+  "notes": {
+    "</types/notes/The Lean Startup>": ""
+  },
+  "path": "/Types/Books/The Lean Startup",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/23 Tweetable Insights from The Lean Startup>": "",
+    "</types/webPages/Dont Let the Minimum Win Over the Viable>": "",
+    "</types/webPages/How to Become a Bestselling Author Lessons From Eric Ries>": "",
+    "</types/webPages/Lean Startup Action Summary and Outline>": "",
+    "</types/webPages/Why FastCompany Gets The Lean Startup Almost Completely Wrong>": ""
+  },
+  "shortDescription": "",
+  "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+  "webPages": {
+    "</types/webPages/The Lean Startup>": ""
+  }
+}

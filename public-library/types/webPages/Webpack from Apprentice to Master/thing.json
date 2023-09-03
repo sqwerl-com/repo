@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Juho Vepsalainen>",
+    "</types/authors/Tobias Koppers>",
+    "</types/authors/Jesus Rodriguez Rodriguez>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Software Engineering/Build Tools/Webpack>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Webpack from Apprentice to Master",
+  "path": "/Types/Webpack from Apprentice to Master",
+  "recommendedBy": {
+    "</types/webPages/webpack JavaScript bundler>": ""
+  },
+  "shortDescription": "",
+  "url": "http://survivejs.com/webpack/"
+}

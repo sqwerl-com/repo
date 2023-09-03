@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alberto Cairo>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Animation>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Functional Art",
+  "path": "/Types/Books/The Functional Art",
+  "recommendedBy": {
+    "</types/books/Animation at Work>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "title": "The Functional Art: An Introduction to Information Graphics and Visualization"
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-20T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Steve Jobs>": "",
+    "</types/books/The Innovators>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Walter",
+  "lastName": "Isaacson",
+  "middleNameOrInitial": "",
+  "name": "Walter Isaacson",
+  "path": "/Types/Authors/Walter Isaacson"
+}

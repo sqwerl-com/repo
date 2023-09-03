@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bear Bibeault>",
+    "</types/authors/Yehuda Katz>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/JQuery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "jQuery in Action 2nd Edition",
+  "path": "/Types/Books/jQuery in Action 2nd Edition",
+  "pictures": {
+    "</types/pictures/jQuery in Action Second Edition Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "jQuery in Action Second Edition"
+}

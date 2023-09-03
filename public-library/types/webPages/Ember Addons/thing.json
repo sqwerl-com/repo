@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-25T00:00:00.00-07:00",
+  "archived": true,
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ember Addons",
+  "path": "/Types/Web Pages/Ember Addons",
+  "recommendedBy": {
+    "</types/videos/Restoring Sanity to JavaScript Development with Ember 2>": ""
+  },
+  "url": "http://www.emberaddons.com/"
+}
+

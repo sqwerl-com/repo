@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-08-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/James Archer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Hamburger Menu Doesn't Work",
+  "path": "/Types/Web Pages/The Hamburger Menu Doesn't Work",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Hamburger menu>": ""
+  },
+  "url": "http://jamesarcher.me/hamburger-menu"
+}

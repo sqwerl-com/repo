@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-09-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Here Comes Everybody Book",
+  "path": "/Types/Pictures/Here Comes Everybody Book",
+  "pictureOf": {
+    "</types/books/Here Comes Everybody>": ""
+  },
+  "representations": {
+    "here_comes_everybody_book_cover_large.jpg.lnk.json": "",
+    "here_comes_everybody_book_cover_medium.jpg.lnk.json": "",
+    "here_comes_everybody_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

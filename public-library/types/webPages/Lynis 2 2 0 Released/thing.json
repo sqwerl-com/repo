@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-04-29T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Lynis 2.2.0 Released",
+  "path": "/Types/Web Pages/Lynis 2.2.0 Released",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Lynis>": ""
+  },
+  "shortDescription": "",
+  "title": "Lynis 2.2.0 Released - Security Auditing and Scanning Tool for Linux Systems",
+  "url": "http://www.tecmint.com/linux-security-auditing-and-scanning-with-lynis-tool/"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Dylan",
+  "instructed": {
+    "</types/courses/Introduction to ES6 Plus>": ""
+  },
+  "lastName": "Isreal",
+  "middleNameOrInitial": "",
+  "name": "Dylan Isreal",
+  "path": "/Types/Authors/Dylan Isreal"
+}

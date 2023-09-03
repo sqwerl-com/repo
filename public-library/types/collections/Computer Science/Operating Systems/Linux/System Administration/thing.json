@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/16 Linux Server Monitoring Commands You Really Need to Know>": "",
+    "</types/webPages/20 Linux Server Hardening Security Tips>": "",
+    "</types/webPages/30 Linux System Monitoring Tools Every SysAdmin Should Know>": "",
+    "</types/webPages/Advanced Bash Scripting Guide>": "",
+    "</types/webPages/Apt Update vs Apt Upgrade>": "",
+    "</types/webPages/Bash Shell Scripting 10 Seconds Guide>": "",
+    "</types/documents/Disabling Root Login Over SSH>": "",
+    "</types/courses/Getting Started with Linux System Administration>": "",
+    "</types/webPages/How to Set Up a Mail Server on a GNU Linux System>": "",
+    "</types/webPages/Learn Linux 101>": "",
+    "</types/webPages/Linux Security for Beginners>": "",
+    "</types/webPages/Understanding the Etc Passwd File in Linux>": "",
+    "</types/webPages/UNIX Linux PGP TarBall File Signature Keys Verification>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "System Administration",
+  "path": "/Types/Collections/Computer Science/Operating Systems/Linux/System Administration",
+  "shortDescription": ""
+}

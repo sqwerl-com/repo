@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Node Security Book",
+  "path": "/types/pictures/Node Security Book",
+  "pictureOf": {
+    "</types/books/Node Security>": ""
+  },
+  "representations": {
+    "node_security_book_cover_large.png.lnk.json": "",
+    "node_security_book_cover_medium.png.lnk.json": "",
+    "node_security_book_cover_preview.png.lnk.json": "",
+    "node_security_book_cover_small.png.lnk.json": ""
+  }
+}

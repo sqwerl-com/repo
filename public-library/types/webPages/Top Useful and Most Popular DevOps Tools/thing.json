@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-04-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ashish Patel>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Top Useful and Most Popular DevOps Tools",
+  "path": "/Types/Web Pages/Top Useful and Most Popular DevOps Tools",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Kubernetes Architecture Overview>": "",
+    "</types/webPages/Kubernetes Ingress Overview>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/devops-mojo/top-useful-and-most-popular-devops-tools-best-widely-used-common-open-source-devops-gitops-tools-b4a674e00f15"
+}

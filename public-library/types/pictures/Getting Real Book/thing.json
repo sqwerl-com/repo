@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Getting Real Book",
+  "path": "/Types/Pictures/Getting Real Book",
+  "pictureOf": {
+    "</types/books/Getting Real>": ""
+  },
+  "representations": {
+    "getting_real_book_cover_large.png.lnk.json": "",
+    "getting_real_book_cover_medium.png.lnk.json": "",
+    "getting_real_book_cover_preview.png.lnk.json": "",
+    "getting_real_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

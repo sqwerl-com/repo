@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-06-26T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Goodbye node forever hello PM2>": "",
+    "</types/webPages/PM2 GitHub Repository>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "PM2",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Node.js/DevOps/PM2",
+  "shortDescription": "Information about the PM2 tool for deploying and managing NodeJS applications."
+}

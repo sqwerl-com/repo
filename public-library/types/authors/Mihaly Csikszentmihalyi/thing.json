@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Finding Flow>": "",
+    "</types/books/The Meaning of Things>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Mihaly",
+  "lastName": "Csikszentmihalyi",
+  "middleNameOrInitial": "",
+  "name": "Mihaly Csikszentmihalyi",
+  "path": "/Types/Authors/Mihaly Csikszentmihalyi"
+}

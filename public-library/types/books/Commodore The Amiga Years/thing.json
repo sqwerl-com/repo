@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Bagnall>"
+  ],
+  "collections": {
+    "</types/collections/Business>": "",
+    "</types/collections/History/Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/On the Edge>": ""
+  },
+  "name": "Commodore: The Amiga Years",
+  "path": "/Types/Books/Commodore: The Amiga Years",
+  "pictures": {
+    "</types/pictures/Commodore The Amiga Years Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

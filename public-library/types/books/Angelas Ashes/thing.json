@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Frank McCourt>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Angela's Ashes",
+  "path": "/Types/Books/Angela's Ashes",
+  "pictures": {
+    "</types/pictures/Angelas Ashes Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

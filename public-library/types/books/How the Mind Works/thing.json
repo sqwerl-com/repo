@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steven Pinker>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "How the Mind Works",
+  "notes": {
+    "</types/notes/How the Mind Works>": ""
+  },
+  "path": "/Types/Books/How the Mind Works",
+  "pictures": {
+    "</types/pictures/How the Mind Works Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Designing for Emotion>": ""
+  },
+  "shortDescription": ""
+}

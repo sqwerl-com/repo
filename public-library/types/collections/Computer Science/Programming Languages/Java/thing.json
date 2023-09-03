@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/10 Examples of HotSpot JVM Options in Java>": "",
+    "</types/collections/Computer Science/Programming Languages/Java/Concurrency>": "",
+    "</types/papers/DOPPIO Breaking the Browser Language Barrier>": "",
+    "</types/collections/Computer Science/Programming Languages/Java/Garbage Collection>": "",
+    "</types/videos/James Gosling Java JVM Emacs and the Early Days of Computing>": "",
+    "</types/feeds/Java Code Geeks>": "",
+    "</types/webPages/Java Code Geeks Resources>": "",
+    "</types/feeds/Java Developers Journal>": "",
+    "</types/webPages/Javadoc Coding Standards>": "",
+    "</types/feeds/Stephen Colebournes Blog>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Items related to the Java programming language",
+  "links": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": ""
+  },
+  "name": "Java",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Java",
+  "shortDescription": ""
+}

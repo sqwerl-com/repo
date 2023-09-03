@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Beautiful Evidence>": "",
+    "</types/podcasts/Edward Tufte Wants You to See Better>": "",
+    "</types/books/Envisioning Information>": "",
+    "</types/books/The Visual Display of Quantitative Information>": "",
+    "</types/books/Visual Explanations>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Edward",
+  "lastName": "Tufte",
+  "middleNameOrInitial": "R",
+  "name": "Edward R. Tufte",
+  "path": "/Types/Authors/Edward R. Tufte",
+  "spokeAt": {
+    "</types/talks/Presenting Data and Information with Edward Tufte>": ""
+  }
+}

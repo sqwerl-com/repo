@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-06-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Hannah Inman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Delivery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Continuous Delivery With Jenkins Part 1>": "",
+    "</types/webPages/Continuous Delivery With Jenkins Part 3>": "",
+    "</types/webPages/Continuous Delivery With Jenkins Part 4>": ""
+  },
+  "name": "Continuous Delivery With Jenkins - Part 2",
+  "path": "/Types/Web Pages/Continuous Delivery With Jenkins - Part 2",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Continuous delivery>": "",
+    "</types/tags/Jenkins>": ""
+  },
+  "url": "https://dzone.com/articles/continuous-delivery-with-jenkins-part-2"
+}

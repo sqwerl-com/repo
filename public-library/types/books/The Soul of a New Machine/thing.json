@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-11-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tracy Kidder>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Soul of a New Machine",
+  "path": "/Types/Books/The Soul of a New Machine",
+  "pictures": {
+    "</types/pictures/The Soul of a New Machine Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

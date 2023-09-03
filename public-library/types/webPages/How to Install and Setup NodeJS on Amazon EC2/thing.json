@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-19T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Cloud Computing/Amazon Web Services>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Install and Setup Node.js on Amazon EC2",
+  "path": "/Types/Web Pages/How to Install and Setup Node.js on Amazon EC2",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://iconof.com/blog/how-to-install-setup-node-js-on-amazon-aws-ec2-complete-guide/"
+}

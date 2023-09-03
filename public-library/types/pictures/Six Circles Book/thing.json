@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Six Circles Book",
+  "path": "/Types/Pictures/Six Circles Book",
+  "pictureOf": {
+    "</types/books/Six Circles>": ""
+  },
+  "representations": {
+    "six_circles_book_cover_large.png.lnk.json": "",
+    "six_circles_book_cover_medium.png.lnk.json": "",
+    "six_circles_book_cover_preview.png.lnk.json": "",
+    "six_circles_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

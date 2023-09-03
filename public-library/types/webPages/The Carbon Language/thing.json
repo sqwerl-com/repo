@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-02T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Carbon>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Carbon Language",
+  "path": "/Types/Web Pages/The Carbon Language",
+  "shortDescription": "The Carbon programming language's GitHub repository.",
+  "url": "https://github.com/carbon-language/carbon-lang/tree/trunk/docs/design#hello-carbon"
+}

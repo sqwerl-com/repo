@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/130 Plus Essential VIM Commands>": "",
+    "</types/webPages/6 More Terminal Commands You Should Know>": "",
+    "</types/webPages/Advanced Bash Scripting Guide>": "",
+    "</types/books/Classic Shell Scripting>": "",
+    "</types/documents/Linux 101 Examination Modular Training Notes>": "",
+    "</types/documents/Linux 102 Examination Modular Training Notes>": "",
+    "</types/webPages/Linux Shell Scripting Tutorial>": "",
+    "</types/webPages/NetworkChuck>": "",
+    "</types/books/SED and AWK Second Edition>": "",
+    "</types/webPages/VIM tutor>": ""
+  },
+  "collections": {
+    "</types/collections/Projects>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Become more proficient at Linux system administration.",
+  "name": "Learn Linux System Administration",
+  "path": "/Types/Collections/Projects/Learn Linux System Administration",
+  "shortDescription": ""
+}

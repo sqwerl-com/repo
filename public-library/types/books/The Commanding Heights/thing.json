@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Daniel Yergin>",
+    "</types/authors/Joseph Stanislaw>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Commanding Heights",
+  "path": "/Types/Books/The Commanding Heights",
+  "pictures": {
+    "</types/pictures/The Commanding Heights Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

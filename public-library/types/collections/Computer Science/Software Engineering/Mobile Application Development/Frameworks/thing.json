@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-16T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/Mobile Application Development/Frameworks/React Native>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Mobile Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Frameworks for building mobile applications.",
+  "name": "Frameworks",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Mobile Application Development/Frameworks",
+  "shortDescription": ""
+}

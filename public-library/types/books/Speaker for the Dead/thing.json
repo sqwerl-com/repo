@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Orson Scott Card>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Speaker for the Dead",
+  "path": "/Types/Books/Speaker for the Dead",
+  "pictures": {
+    "</types/pictures/Speaker for the Dead Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Determining the Greatest Science Fiction and Fantasy Novels Since 1970>": ""
+  }
+}

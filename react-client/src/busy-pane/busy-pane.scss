@@ -1,0 +1,24 @@
+@import "../index.scss";
+
+.sqwerl-busy-pane {
+  background: transparent;
+  cursor: wait;
+
+  &.visible {
+    background: #101010;
+    bottom: 0;
+    display: block;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 1s ease-in 500ms;
+    z-index: 100;
+  }
+
+  &.hidden {
+    background: #101010;
+    opacity: 0;
+  }
+}

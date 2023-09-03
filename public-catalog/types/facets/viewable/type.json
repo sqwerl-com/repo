@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that users can mark as having been viewed.",
+  "extends": "</types/facets>",
+  "name": "Viewable",
+  "path": "/Types/Facets/Viewable",
+  "properties": {
+    "faceted": {
+      "inverse": "facets",
+      "type": {
+        "</types/facets>": ""
+      }
+    },
+    "viewedBy": {
+      "inverse": "hasViewed",
+      "type": "{ </types/users> }"
+    }
+  },
+  "shortDescription": "Things that people view."
+}

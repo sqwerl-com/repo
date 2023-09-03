@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-08-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ilya Suzdalnitski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Here's How Not to Suck at JavaScript",
+  "path": "/Types/Web Pages/Here's How Not to Suck at JavaScript",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": "",
+    "</types/tags/JavaScript>": ""
+  },
+  "url": "https://medium.com/better-programming/js-reliable-fdea261012ee"
+}

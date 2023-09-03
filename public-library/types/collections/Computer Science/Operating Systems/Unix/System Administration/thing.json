@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/130 Plus Essential VIM Commands>": "",
+    "</types/webPages/6 More Terminal Commands You Should Know>": "",
+    "</types/webPages/Bash Reference Manual>": "",
+    "</types/webPages/Built in Bash Parameters That Every Developer Should Know>": "",
+    "</types/webPages/Learn Bash Remove Commands From Your History>": "",
+    "</types/webPages/Linux Directory Structure Explained with Examples>": "",
+    "</types/webPages/SSH Can Do That>": "",
+    "</types/feeds/The Geek Stuff>": "",
+    "</types/webPages/UNIX Linux PGP TarBall File Signature Keys Verification>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "System Administration",
+  "path": "/Types/Collections/Computer Science/Operating Systems/Unix/System Administration",
+  "shortDescription": ""
+}

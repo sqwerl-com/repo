@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-05-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sumanth S>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Learn Code Online>": ""
+  },
+  "name": "Web Security: Cross-Origin Resource Sharing (CORS)",
+  "path": "/Types/Web Pages/Web Security: Cross-Origin Resource Sharing (CORS)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.learncodeonline.in/web-security-cross-origin-resource-sharing-cors"
+}

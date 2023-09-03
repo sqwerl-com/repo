@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Donald A Norman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Living with Complexity",
+  "notes": {
+    "</types/notes/Living with Complexity>": ""
+  },
+  "path": "/Types/Books/Living with Complexity",
+  "pictures": {
+    "</types/pictures/Living with Complexity Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-05-27T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Numeral.js",
+  "path": "/Types/Web Pages/Numeral.js",
+  "shortDescription": "JavaScript library for formatting numeric values.",
+  "url": "http://numeraljs.com/"
+}

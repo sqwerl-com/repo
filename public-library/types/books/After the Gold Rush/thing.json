@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steve McConnell>"
+  ],
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "After the Gold Rush",
+  "notes": {
+    "</types/notes/After the Gold Rush>": ""
+  },
+  "path": "/Types/Books/After the Gold Rush",
+  "pictures": {
+    "</types/pictures/After the Gold Rush Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "title": "After the Gold Rush"
+}

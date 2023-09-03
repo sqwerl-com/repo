@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Christine Faulkner>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Essence of Human Computer Interaction",
+  "notes": {
+    "</types/notes/The Essence of Human Computer Interaction>": ""
+  },
+  "path": "/Types/Books/The Essence of Human Computer Interaction",
+  "pictures": {
+    "</types/pictures/The Essence of Human Computer Interaction Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

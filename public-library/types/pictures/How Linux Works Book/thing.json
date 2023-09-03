@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-11-08T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How Linux Works Book",
+  "path": "/Types/Pictures/How Linux Works Book",
+  "pictureOf": {
+    "</types/books/How Linux Works>": ""
+  },
+  "representations": {
+    "how_linux_works_book_cover_large.jpg.lnk.json": "",
+    "how_linux_works_book_cover_medium.jpg.lnk.json": "",
+    "how_linux_works_book_cover_preview.jpg.lnk.json": "",
+    "how_linux_works_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-27T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Hooked>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ryan",
+  "lastName": "Hoover",
+  "middleNameOrInitial": "",
+  "name": "Ryan Hoover",
+  "path": "/Types/Authors/Ryan Hoover"
+}

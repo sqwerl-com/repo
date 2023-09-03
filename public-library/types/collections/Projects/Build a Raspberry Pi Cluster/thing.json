@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-25T00:00:00.00-07:00",
+  "addedOn": "2021-08-25T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/C4labs Cloud Cluster Case Build Instructions>": "",
+    "</types/webPages/Deploy InfluxDB and Grafana on Kubernetes to Collect Twitter Stats>": "",
+    "</types/webPages/How to Install Docker in Jenkins Container>": "",
+    "</types/videos/I Built a Raspberry Pi Super Computer>": "",
+    "</types/webPages/Install Certificate Manager Controller in Kubernetes>": "",
+    "</types/webPages/Install Rancher K3s on Raspberry Pi Cluster>": "",
+    "</types/webPages/Install Traefik Ingress Controller in Kubernetes>": "",
+    "</types/webPages/Installing Helm Kubernetes Package Manager>": "",
+    "</types/webPages/K3S Home Page>": "",
+    "</types/webPages/Raspberry Pi Kafka Cluster>": "",
+    "</types/webPages/Setting Up a Raspberry Pi Cluster>": "",
+    "</types/webPages/What Do You Use Raspberry Pi Clusters For>": "",
+    "</types/videos/Why Would You Build a Raspberry Pi Cluster>": ""
+  },
+  "collections": {
+    "</types/collections/Projects>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Combine multiple Raspberry Pi computers into a cluster.",
+  "links": {
+    "</types/webPages/NetworkChuck>": ""
+  },
+  "name": "Build a Raspberry Pi Cluster",
+  "path": "/Types/Collections/Build a Raspberry Pi Cluster",
+  "shortDescription": ""
+}

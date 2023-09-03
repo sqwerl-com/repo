@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David Farley>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Object-Oriented Programming Versus Functional Programming",
+  "path": "/Types/Videos/Object-Oriented Programming Versus Functional Programming",
+  "shortDescription": "",
+  "title": "Object-Oriented Programming Versus Functional Programming",
+  "url": "https://www.youtube.com/watch?v=wyABTfR9UTU",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

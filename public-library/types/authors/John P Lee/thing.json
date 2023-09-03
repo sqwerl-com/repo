@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Database Issues for Visualization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "John",
+  "lastName": "Lee",
+  "middleNameOrInitial": "P",
+  "name": "John P. Lee",
+  "path": "/Types/Authors/John P. Lee"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Delivering Happiness>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Tony",
+  "lastName": "Hsieh",
+  "middleNameOrInitial": "",
+  "name": "Tony Hsieh",
+  "path": "/Types/Authors/Tony Hsieh"
+}

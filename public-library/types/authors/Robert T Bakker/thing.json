@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-20T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Dinosaur Heresies>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Robert",
+  "lastName": "Bakker",
+  "middleNameOrInitial": "T",
+  "name": "Robert T. Bakker",
+  "path": "/Types/Authors/Robert T. Bakker"
+}

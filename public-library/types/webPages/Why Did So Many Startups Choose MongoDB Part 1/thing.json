@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-09-07T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/NoSQL/MongoDB>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Why Did So Many Startups Choose MongoDB Part 2>": "",
+    "</types/webPages/Why Did So Many Startups Choose MongoDB Part 3>": ""
+  },
+  "name": "Why Did So Many Startups Choose MongoDB - Part 1",
+  "path": "/Types/Web Pages/Why Did So Many Startups Choose MongoDB - Part 1",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/The Magpie Developer>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.nemil.com/mongo/1.html"
+}

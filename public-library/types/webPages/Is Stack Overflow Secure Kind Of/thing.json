@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-08-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Troy Hunt>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Is Stack Overflow 'Secure'? Kind of...",
+  "path": "/Types/Web Pages/Is Stack Overflow 'Secure'? Kind of...",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.troyhunt.com/is-stack-overflow-secure-kind-of/"
+}

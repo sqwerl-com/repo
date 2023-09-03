@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-25T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Projects/Learn Linux System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/collections/Projects/Build a Raspberry Pi Cluster>": ""
+  },
+  "name": "NetworkChuck",
+  "path": "/Types/Web Pages/NetworkChuck",
+  "shortDescription": "YouTube home page for NetworkChuck videos",
+  "url": "https://www.youtube.com/c/NetworkChuck/videos"
+}

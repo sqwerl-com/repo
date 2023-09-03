@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-11-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/N K Jemisin>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/The City We Became>": ""
+  },
+  "name": "The World We Make",
+  "path": "/Types/Books/The World We Make",
+  "pictures": {
+    "</types/pictures/The World We Make Book>": ""
+  },
+  "readBy":  {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

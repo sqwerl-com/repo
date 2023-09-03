@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Java Concurrency in Practice>": "",
+    "</types/webPages/Java Concurrency Tutorial Semaphores>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Java>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to concurrent programming using the Java programming language.",
+  "name": "Concurrency",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Java/Concurrency",
+  "shortDescription": ""
+}

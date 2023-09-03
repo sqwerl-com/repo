@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Node: Up and Running Book",
+  "path": "/Types/Pictures/Node: Up and Running Book",
+  "pictureOf": {
+    "</types/books/Node Up and Running>": ""
+  },
+  "representations": {
+    "node_up_and_running_book_cover_large.png.lnk.json": "",
+    "node_up_and_running_book_cover_medium.png.lnk.json": "",
+    "node_up_and_running_book_cover_preview.png.lnk.json": "",
+    "node_up_and_running_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

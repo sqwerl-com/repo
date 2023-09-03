@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-09-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Lea Verou>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "CSS3 animation examples.",
+  "feeds": {
+    "</types/feeds/Leaverou>": ""
+  },
+  "name": "animatable",
+  "path": "/Types/Web Pages/animatable",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "http://leaverou.github.io/animatable/"
+}

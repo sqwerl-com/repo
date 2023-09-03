@@ -1,0 +1,34 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-02-10T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/3 TypeScript Tricks I Wish I Knew When I Learned TypeScript>": "",
+    "</types/videos/Adopting TypeScript at Scale>": "",
+    "</types/webPages/Announcing TypeScript 4 8>": "",
+    "</types/webPages/Announcing TypeScript 5 1 RC>": "",
+    "</types/webPages/How I Switched from TypeScript to ReScript>": "",
+    "</types/webPages/How to Detect Dead Code in a Frontend Project>": "",
+    "</types/books/Testing JavaScript Applications>": "",
+    "</types/webPages/The TypeScript Handbook>": "",
+    "</types/documents/The TypeScript Handbook>": "",
+    "</types/webPages/The TypeScript Tax>": "",
+    "</types/webPages/Type Restrictions for TypeScript Property Decorators>": "",
+    "</types/webPages/TypeScript Cheat Sheet>": "",
+    "</types/courses/TypeScript In Depth>": "",
+    "</types/webPages/TypeScript In Depth>": "",
+    "</types/webPages/TypeScript Language Home Page>": "",
+    "</types/webPages/TypeScript Method Decorators in Depth Problems and Solutions>": "",
+    "</types/courses/TypeScript Getting Started>": "",
+    "</types/webPages/TypeScript Getting Started>": "",
+    "</types/webPages/Why TypeScript Wont Save Your Project>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "TypeScript",
+  "path": "/Types/Collections/Computer Science/Programming Languages/JavaScript/TypeScript",
+  "shortDescription": "Things related to the TypeScript language that compiles to JavaScript."
+}
+

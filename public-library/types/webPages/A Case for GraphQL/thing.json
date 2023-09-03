@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rijul Gupta>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/GraphQL>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Case for GraphQL",
+  "path": "/Types/Web Pages/A Case for GraphQL",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/GraphQL>": ""
+  },
+  "url": "https://medium.com/@rijulg/a-case-for-graphql-935ba205e3d"
+}

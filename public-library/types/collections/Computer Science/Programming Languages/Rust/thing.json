@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-05-28T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Rust Language>": "",
+    "</types/webPages/Rust Reviewed The Current Trends and Pitfalls of the Ecosystem>": "",
+    "</types/webPages/There and Back Again Our Rust Adoption Journey>": "",
+    "</types/webPages/Using Rust at a Startup>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Rust",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Rust",
+  "shortDescription": "Things related to the Rust programming language"
+}

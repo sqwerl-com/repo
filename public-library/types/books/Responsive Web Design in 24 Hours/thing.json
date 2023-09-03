@@ -1,0 +1,34 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-09-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jennifer Kyrnin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Responsive Web Design in 24 Hours",
+  "notes": {
+    "</types/notes/Responsive Web Design in 24 Hours>": ""
+  },
+  "path": "/Types/Books/Responsive Web Design in 24 Hours",
+  "pictures": {
+    "</types/pictures/Responsive Web Design in 24 Hours Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Getting Started with RESS>": "",
+    "</types/webPages/Inspiring Responsive Web Designs>": "",
+    "</types/webPages/Lightening Your Responsive Website Design With RESS>": "",
+    "</types/webPages/MobiReady>": "",
+    "</types/webPages/Responsive Patterns>": "",
+    "</types/webPages/Responsive Tables>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Responsive design>": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-04-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ashish Patel>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kubernetes>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Kubernetes -- Ingress Overview",
+  "path": "/Types/Web Pages/Kubernetes -- Ingress Overview",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Top Useful and Most Popular DevOps Tools>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Kubernetes>": ""
+  },
+  "url": "https://medium.com/devops-mojo/kubernetes-ingress-overview-what-is-kubernetes-ingress-introduction-to-k8s-ingress-b0f81525ffe2"
+}

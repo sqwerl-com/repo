@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steven D Levitt>",
+    "</types/authors/Stephen J Dubner>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Superfreakonomics",
+  "notes": {
+    "</types/notes/Superfreakonomics>": ""
+  },
+  "path": "/Types/Books/Superfreakonomics",
+  "pictures": {
+    "</types/pictures/Superfreakonomics Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Superfreakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance"
+}

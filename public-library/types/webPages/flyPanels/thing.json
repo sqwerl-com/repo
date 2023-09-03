@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-28T00:00:00.00-05:00",
+  "archived": true,
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Open source project for adding fly out (expand left or right) panels to web applications.",
+  "name": "flyPanels",
+  "path": "/Types/Web Pages/flyPanels",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Responsive design>": ""
+  },
+  "url": "https://github.com/SubZane/flyPanels"
+}

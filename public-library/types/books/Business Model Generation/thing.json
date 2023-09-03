@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alexander Osterwalder>",
+    "</types/authors/Yves Pigneur>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Business Models/Generation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Business Model Generation",
+  "path": "/Types/Books/Business Model Generation",
+  "pictures": {
+    "</types/pictures/Business Model Generation Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/UX Design for Startups>": ""
+  },
+  "shortDescription": "",
+  "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers"
+}

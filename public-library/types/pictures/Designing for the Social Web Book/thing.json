@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing for the Social Web Book",
+  "path": "/Types/Pictures/Designing for the Social Web Book",
+  "pictureOf": {
+    "</types/books/Designing for the Social Web>": ""
+  },
+  "representations": {
+    "designing_for_the_social_web_book_cover_large.jpg.lnk.json": "",
+    "designing_for_the_social_web_book_cover_medium.jpg.lnk.json": "",
+    "designing_for_the_social_web_book_cover_preview.jpg.lnk.json": "",
+    "designing_for_the_social_web_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/General>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/Mobile>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/Web>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Design Guidelines",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Design Resources/Design Guidelines",
+  "shortDescription": "Things that describe user interface design guidelines."
+}

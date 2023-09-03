@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-18T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Demolished Man>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Alfred",
+  "lastName": "Bester",
+  "middleNameOrInitial": "",
+  "name": "Alfred Bester",
+  "path": "/Types/Authors/Alfred Bester"
+}

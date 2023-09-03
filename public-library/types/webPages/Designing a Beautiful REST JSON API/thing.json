@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Les Hazlewood>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/REST>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing a Beautiful REST+JSON API",
+  "notes": {
+    "</types/notes/Designing a Beautiful REST JSON API>": ""
+  },
+  "path": "/Types/Web Pages/Designing a Beautiful REST+JSON API",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.slideshare.net/stormpath/rest-jsonapis"
+}

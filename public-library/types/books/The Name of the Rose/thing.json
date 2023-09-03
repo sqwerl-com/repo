@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Umberto Eco>"
+  ],
+  "collections": {
+    "</types/collections/History/Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Name of the Rose",
+  "path": "/Types/Books/The Name of the Rose",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Name of the Rose"
+}

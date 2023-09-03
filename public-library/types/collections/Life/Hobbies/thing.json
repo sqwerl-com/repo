@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-24T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Life/Hobbies/Camping>": "",
+    "</types/collections/Life/Hobbies/Model Building>": ""
+  },
+  "collections": {
+    "</types/collections/Life>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Hobbies",
+  "path": "/Types/Collections/Life/Hobbies",
+  "shortDescription": "Things related to fun liesure time activities."
+}

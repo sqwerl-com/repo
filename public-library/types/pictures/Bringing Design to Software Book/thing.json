@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Bringing Design to Software",
+  "path": "/Types/Pictures/Bringing Design to Software Book",
+  "pictureOf": {
+    "</types/books/Bringing Design to Software>": ""
+  },
+  "representations": {
+    "bringing_design_to_software_book_cover_large.jpg.lnk.json": "",
+    "bringing_design_to_software_book_cover_medium.jpg.lnk.json": "",
+    "bringing_design_to_software_book_cover_preview.jpg.lnk.json": "",
+    "bringing_design_to_software_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

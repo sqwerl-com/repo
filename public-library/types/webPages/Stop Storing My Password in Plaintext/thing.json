@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Pontarelli>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Stop Storing My Password in Plaintext",
+  "path": "/Types/Web Pages/Stop Storing My Password in Plaintext",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://fusionauth.io/blog/2019/03/12/plaintext-passwords"
+}

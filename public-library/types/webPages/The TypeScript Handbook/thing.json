@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-03-16T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/documents/The TypeScript Handbook>": ""
+  },
+  "name": "The TypeScript Handbook",
+  "path": "/Types/Web Pages/The TypeScript Handbook",
+  "recommendedBy": {
+    "</types/webPages/Type Restrictions for TypeScript Property Decorators>": "",
+    "</types/webPages/TypeScript Method Decorators in Depth Problems and Solutions>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-10T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Getting the Search Pattern Right>": "",
+    "</types/books/Search Analytics for Your Site>": "",
+    "</types/books/Search Patterns>": "",
+    "</types/books/Search User Interfaces>": "",
+    "</types/webPages/Search Visible and Simple>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Search",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Search",
+  "shortDescription": "Things related to designing interfaces that allow users to search."
+}

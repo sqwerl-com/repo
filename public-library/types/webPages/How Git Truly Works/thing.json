@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alberto Prospero>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How Git Truly Works",
+  "path": "/Types/Web Pages/How Git Truly Works",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://towardsdatascience.com/how-git-truly-works-cd9c375966f6"
+}

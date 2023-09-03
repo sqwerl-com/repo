@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Up and Running with ClickHouse Book",
+  "path": "/Types/Pictures/Up and Running with ClickHouse Book",
+  "pictureOf": {
+    "</types/books/Up and Running with ClickHouse>": ""
+  },
+  "representations": {
+    "up_and_running_with_clickhouse_book_cover_large.jpg.lnk.json": "",
+    "up_and_running_with_clickhouse_book_cover_medium.jpg.lnk.json": "",
+    "up_and_running_with_clickhouse_book_cover_preview.jpg.lnk.json": "",
+    "up_and_running_with_clickhouse_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

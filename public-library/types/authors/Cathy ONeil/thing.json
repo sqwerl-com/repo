@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-02-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Weapons of Math Destruction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Cathy",
+  "lastName": "O'Neil",
+  "middleNameOrInitial": "",
+  "name": "Cathy O'Neil",
+  "path": "/Types/Authors/Cathy O'Neil"
+}

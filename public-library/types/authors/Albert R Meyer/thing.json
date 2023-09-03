@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Mathematics for Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Albert",
+  "lastName": "Meyer",
+  "middleNameOrInitial": "R",
+  "name": "Albert R. Meyer",
+  "path": "/Types/Authors/Albert R. Meyer"
+}

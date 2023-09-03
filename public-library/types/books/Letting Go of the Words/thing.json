@@ -1,0 +1,39 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Janice Redish>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": "",
+    "</types/collections/Writing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Letting Go of the Words",
+  "notes": {
+    "</types/notes/Letting Go of the Words>": ""
+  },
+  "path": "/Types/Books/Letting Go of the Words",
+  "pictures": {
+    "</types/pictures/Letting Go of the Words Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/About Face 3>": "",
+    "</types/books/Designing Interfaces>": "",
+    "</types/books/Designing with the Mind in Mind>": "",
+    "</types/books/Dont Make Me Think>": "",
+    "</types/books/Forms that Work>": "",
+    "</types/books/Rocket Surgery Made Easy>": "",
+    "</types/papers/Role Playing on the Web>": "",
+    "</types/books/Storytelling for User Experience>": "",
+    "</types/books/The Persona Lifecycle>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Dont Make Me Think Revisited>": ""
+  },
+  "shortDescription": "",
+  "title": "Letting Go of the Words: Writing Web Content that Works (Second Edition)"
+}

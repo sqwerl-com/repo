@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Enterprise Application Integration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "David",
+  "lastName": "Linthicum",
+  "middleNameOrInitial": "S",
+  "name": "David S. Linthicum",
+  "path": "/Types/Authors/David S. Linthicum"
+}

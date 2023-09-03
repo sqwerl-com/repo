@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-01-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Sauro>",
+    "</types/authors/James R Lewis>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Quantifying the User Experience",
+  "path": "/Types/Books/Quantifying the User Experience",
+  "pictures": {
+    "</types/pictures/Quantifying the User Experience Book>": ""
+  },
+  "shortDescription": "",
+  "title": "Quantifying the User Experience: Practical Statistics for User Research"
+}

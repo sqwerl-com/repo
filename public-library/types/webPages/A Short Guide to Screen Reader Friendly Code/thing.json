@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ben Robertson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Ben Robertson>": ""
+  },
+  "name": "A Short Guide to Screen Reader Friendly Code",
+  "path": "/Types/Web Pages/A Short Guide to Screen Reader Friendly Code",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Accessibility>": ""
+  },
+  "url": "https://hackernoon.com/a-short-guide-to-screen-reader-friendly-code-9ccf31b7e36a"
+}

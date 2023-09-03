@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/Web>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why Sign Up and Sign In Should Never Go Together",
+  "path": "/Types/Web Pages/Why Sign Up and Sign In Should Never Go Together",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://uxmovement.com/navigation/why-sign-up-and-sign-in-should-never-go-together"
+}

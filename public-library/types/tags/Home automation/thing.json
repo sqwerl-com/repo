@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-04-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Home automation",
+  "path": "/Types/Tags/Home automation",
+  "shortDescription": "Things related building a smart home.",
+  "tagged": {
+    "</types/webPages/5 Rules for Designing a DIY Smart Home>": "",
+    "</types/videos/Building My Perfect Smart Home Control Panel>": "",
+    "</types/feeds/Home Automation Guy>": "",
+    "</types/webPages/Home Automation Guy>": "",
+    "</types/webPages/How I Built the CICD Build Pipeline for My Smart Home>": "",
+    "</types/videos/Rating Your INSANE Smart Home Dashboards Episode 2>": "",
+    "</types/videos/Rating Your Smart Home Dashboards Episode 1>": "",
+    "</types/webPages/What Ive Built After 7 Years Coding a Smart Home>": ""
+  },
+  "text": "Home automation"
+}

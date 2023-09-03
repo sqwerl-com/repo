@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Cocoa Controls>": "",
+    "</types/webPages/CocoaObjects>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Cocoa",
+  "path": "/Types/Collections/Computer Science/Software Engineering/User Interface Development/UI Frameworks/Cocoa",
+  "shortDescription": "Mac OS X and iOS Cocoa user interface framework."
+}

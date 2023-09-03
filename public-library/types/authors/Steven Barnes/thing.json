@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Descent of Anansi>": "",
+    "</types/books/The Legacy of Heorot>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Steven",
+  "lastName": "Barnes",
+  "middleNameOrInitial": "",
+  "name": "Steven Barnes",
+  "path": "/Types/Authors/Steven Barnes"
+}

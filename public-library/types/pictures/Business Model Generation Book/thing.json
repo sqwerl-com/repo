@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Business Model Generation Book",
+  "path": "/Types/Pictures/Business Model Generation Book",
+  "pictureOf": {
+    "</types/books/Business Model Generation>": ""
+  },
+  "representations": {
+    "business_model_generation_book_cover_large.lnk.json": "",
+    "business_model_generation_book_cover_medium.lnk.json": "",
+    "business_model_generation_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Justin Ho>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Redux vs MobX",
+  "path": "/Types/Web Pages/Redux vs MobX",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/MobX Simple Scalable State Management for React>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/MobX>": ""
+  },
+  "url": "https://medium.com/@himrc/redux-vs-mobx-a42c8950f3"
+}

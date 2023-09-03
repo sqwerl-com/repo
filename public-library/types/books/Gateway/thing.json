@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Frederik Pohl>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Heechee Rendezvous>": "",
+    "</types/books/The Annals of the Heechee>": ""
+  },
+  "name": "Gateway",
+  "path": "/Types/Books/Gateway",
+  "pictures": {
+    "</types/pictures/Gateway Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Determining the Greatest Science Fiction and Fantasy Novels Since 1970>": ""
+  },
+  "shortDescription": ""
+}

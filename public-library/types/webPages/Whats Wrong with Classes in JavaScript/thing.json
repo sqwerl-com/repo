@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Fernando Doglio>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What's Wrong with Classes in JavaScript?",
+  "path": "/Types/Web Pages/What's Wrong with Classes in JavaScript?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.bitsrc.io/whats-wrong-with-javascript-s-classes-3378c73205af"
+}

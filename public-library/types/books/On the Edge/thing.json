@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Bagnall>"
+  ],
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Commodore The Amiga Years>": "",
+    "</types/videos/The First LowSpec Processor>": ""
+  },
+  "name": "On the Edge",
+  "path": "/Types/Books/On the Edge",
+  "pictures": {
+    "</types/pictures/On the Edge Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "On the Edge: The Spectacular Rise and Fall of Commodore"
+}

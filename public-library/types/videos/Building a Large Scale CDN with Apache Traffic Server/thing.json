@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jan Van Doorn>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CDN>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Building a Large Scale CDN with Apache Traffic Server",
+  "path": "/Types/Videos/Building a Large Scale CDN with Apache Traffic Server",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=q1mndAYZlio",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

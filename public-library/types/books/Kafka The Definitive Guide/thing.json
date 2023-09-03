@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-04-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Gwen Shapira>",
+    "</types/authors/Todd Palino>",
+    "</types/authors/Rajini Sivaram>",
+    "</types/authors/Krit Petty>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kafka>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Kafka: The Definitive Guide",
+  "path": "/Types/Books/Kafka: The Definitive Guide",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Kafka>": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/Bringing Change to Life>": "",
+    "</types/books/Designing Web Interfaces>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Bill",
+  "lastName": "Scott",
+  "middleNameOrInitial": "",
+  "name": "Bill Scott",
+  "path": "/Types/Authors/Bill Scott"
+}

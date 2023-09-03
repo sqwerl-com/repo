@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Simpson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/You Dont Know JS Async and Performance>": "",
+    "</types/books/You Dont Know JS ES6 and Beyond>": "",
+    "</types/books/You Dont Know JS Scope and Closures>": "",
+    "</types/books/You Dont Know JS Types and Grammar>": ""
+  },
+  "name": "You Don't Know JS: Up & Going",
+  "notes": {
+    "</types/notes/You Dont Know JS Up and Going>": ""
+  },
+  "path": "/Types/Books/You Don't Know JS: Up & Going",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JavaScript>": ""
+  },
+  "title": "You Don't Know JS: Up & Going",
+  "webPages": {
+    "</types/webPages/You Dont Know JS Up and Going>": ""
+  }
+}

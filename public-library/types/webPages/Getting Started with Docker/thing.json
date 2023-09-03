@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-22T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/courses/Getting Started with Docker>": ""
+  },
+  "name": "Getting Started with Docker",
+  "path": "/Types/Web Pages/Getting Started with Docker",
+  "shortDescription": "Pluralsight course web page",
+  "tags": {
+    "</types/tags/Docker>": ""
+  },
+  "url": "https://app.pluralsight.com/library/courses/docker-getting-started/table-of-contents"
+}

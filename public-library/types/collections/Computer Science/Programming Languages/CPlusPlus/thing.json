@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-25T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Bjarne Stroustrup>": "",
+    "</types/webPages/How CPlusPlus Resolves a Function Call>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the C++ programming language",
+  "links": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": ""
+  },
+  "name": "C++",
+  "path": "/Types/Collections/Computer Science/Programming Languages/C++",
+  "shortDescription": ""
+}

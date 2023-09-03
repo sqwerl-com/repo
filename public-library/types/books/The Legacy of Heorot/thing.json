@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Larry Niven>",
+    "</types/authors/Jerry Pournelle>",
+    "</types/authors/Steven Barnes>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Legacy of Heorot",
+  "path": "/Types/Books/The Legacy of Heorot",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

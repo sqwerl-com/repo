@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David Heinemeier Hansson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why We're Leaving the Cloud",
+  "path": "/Types/Web Pages/Why We're Leaving the Cloud",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0"
+}

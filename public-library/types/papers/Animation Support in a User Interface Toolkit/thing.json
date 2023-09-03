@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Scott E Hudson>",
+    "</types/authors/John T Stasko>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Animation Support in a User Interface Toolkit",
+  "path": "/Types/Papers/Animation Support in a User Interface Toolkit",
+  "recommendedBy": {
+    "</types/books/Animation at Work>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "title": "Animation Support in a User Interface Toolkit: Flexible, Robust, and Reusable Abstractions"
+}

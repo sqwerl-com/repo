@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Developing User Interfaces for Microsoft Windows Book",
+  "path": "/Types/Pictures/Developing User Interfaces for Microsoft Windows Book",
+  "pictureOf": {
+    "</types/books/Developing User Interfaces for Microsoft Windows>": ""
+  },
+  "representations": {
+    "developing_user_interfaces_for_microsoft_windows_book_cover_large.jpg.lnk.json": "",
+    "developing_user_interfaces_for_microsoft_windows_book_cover_medium.jpg.lnk.json": "",
+    "developing_user_interfaces_for_microsoft_windows_book_cover_preview.jpg.lnk.json": "",
+    "developing_user_interfaces_for_microsoft_windows_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

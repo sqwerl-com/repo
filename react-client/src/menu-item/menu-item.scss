@@ -1,0 +1,35 @@
+@import '../index.scss';
+
+.sqwerl-menu-item {
+  background: var(--menu-background-color);
+  border: 1px solid var(--menu-item-border-color);
+  cursor: pointer;
+  display: flex;
+  fill: none;
+  flex-direction: column;
+  margin: 0.2rem;
+
+  &:hover {
+    animation: sqwerl-list-item-hover 0.3s ease-in;
+    background: var(--menu-item-hover-background-color);
+    border: 1px solid var(--menu-item-hover-border-color);
+    border-radius: 3px;
+
+    & .sqwerl-menu-item-title {
+      text-decoration: underline;
+    }
+  }
+
+  & .sqwerl-menu-item-title {
+    color: var(--hyperlink-text-color);
+    font-family: $sqwerl-hyperlink-font-family;
+    font-size: $sqwerl-hyperlink-font-size;
+    padding: 0.2rem 0.2rem 0.2rem 0;
+  }
+
+  & .sqwerl-menu-item-subtitle {
+    color: var(--menu-item-subtitle-text-color);
+    font-size: smaller;
+    padding-bottom: 0.2rem;
+  }
+}

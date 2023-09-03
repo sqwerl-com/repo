@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-02-08T00:00:00.00-07:00",
+  "children": {
+    "</types/articles/As We May Think>": "",
+    "</types/articles/Beyond the Bitcoin Bubble>": "",
+    "</types/articles/Bran Identity>": "",
+    "</types/articles/The Curse of Xanadu>": "",
+    "</types/articles/The Metropolis Conference Highlights from Three Idea Packed Days>": "",
+    "</types/articles/The Secret History of Women in Coding>": "",
+    "</types/articles/The Woman Who Gave the Macintosh a Smile>": "",
+    "</types/articles/Universal Systems Design Language>": "",
+    "</types/articles/What Works What Doesnt>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "name": "Articles",
+  "path": "/Types/Articles",
+  "shortDescription": "Articles from publications like magazines, newspapers, and journals."
+}

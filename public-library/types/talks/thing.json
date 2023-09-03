@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-02-05T00:00:00.00-07:00",
+  "children": {
+    "</types/talks/Cargo Cult Science>": "",
+    "</types/talks/Presenting Data and Information with Edward Tufte>": "",
+    "</types/talks/Software Alchemy and the Arc of Technology>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Talks",
+  "path": "/Types/Talks",
+  "shortDescription": "Speeches, presentations, lectures given by a speaker to an audience."
+}

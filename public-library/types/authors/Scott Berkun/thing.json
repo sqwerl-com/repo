@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Confessions of a Public Speaker>": "",
+    "</types/books/The Myths of Innovation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Scott",
+  "lastName": "Berkun",
+  "middleNameOrInitial": "",
+  "name": "Scott Berkun",
+  "path": "/Types/Authors/Scott Berkun"
+}

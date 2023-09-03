@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/Learning Functional Programming with JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Shaun",
+  "instructed": {
+    "</types/courses/Learning Functional Programming with JavaScript>": ""
+  },
+  "lastName": "Wassell",
+  "middleNameOrInitial": "",
+  "name": "Shaun Wassell",
+  "path": "/Types/Authors/Shaun Wassell"
+}

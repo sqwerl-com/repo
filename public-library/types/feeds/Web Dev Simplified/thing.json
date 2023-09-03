@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-11T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Favorites>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "items": {
+    "</types/videos/How to Load Images Like a Pro>": "",
+    "</types/videos/Make Your Site Lightning Fast with Responsive Images>": "",
+    "</types/webPages/Modals Will Never Be the Same HTML Dialog Element>": ""
+  },
+  "links": {
+  },
+  "name": "Web Dev Simplified",
+  "path": "/Types/Feeds/Web Dev Simplified",
+  "shortDescription": "",
+  "webPage": "</types/webPages/Web Dev Simplified>"
+}

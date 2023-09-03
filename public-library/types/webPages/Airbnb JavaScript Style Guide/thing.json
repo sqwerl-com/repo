@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices/Style Guides>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Airbnb JavaScript Style Guide",
+  "path": "/Types/Web Pages/Airbnb JavaScript Style Guide",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/13 Noteworthy Points from Googles JavaScript Style Guide>": ""
+  },
+  "shortDescription": "",
+  "url": "https://github.com/airbnb/javascript"
+}

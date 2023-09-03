@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-12-06T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to placeholder text displayed within input fields to instruct users.",
+  "name": "Placeholder text",
+  "path": "/Types/Tags/Placeholder text",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/Alternatives to Placeholder Text>": "",
+    "</types/webPages/Placeholders in Form Fields are Harmful>": ""
+  },
+  "text": "Placeholder text"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-18T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Making Ideas Happen Book",
+  "path": "</types/pictures/Making Ideas Happen Book>",
+  "pictureOf": {
+    "</types/books/Making Ideas Happen>": ""
+  },
+  "representations": {
+    "making_ideas_happen_book_cover_large.png.lnk.json": "",
+    "making_ideas_happen_book_cover_medium.png.lnk.json": "",
+    "making_ideas_happen_book_cover_preview.png.lnk.json": "",
+    "making_ideas_happen_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

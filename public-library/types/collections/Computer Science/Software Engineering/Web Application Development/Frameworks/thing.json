@@ -1,0 +1,35 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Aejaks Home>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AlloyUI>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Bootstrap>": "",
+    "</types/webPages/Compilers are the New Frameworks>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Deno>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Fastify>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Flow>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/GWT>": "",
+    "</types/webPages/JavaScript Frameworks A Futile Attempt at Objectivity>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/JQuery>": "",
+    "</types/videos/Making the Jump>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Material Design Lite>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NextJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": "",
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks/SproutCore>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Svelte>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Vue>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Frameworks",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks",
+  "shortDescription": ""
+}

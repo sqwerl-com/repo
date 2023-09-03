@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-08-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Notes on the Synthesis of Form>": "",
+    "</types/books/The Timeless Way of Building>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Christopher",
+  "lastName": "Alexander",
+  "middleNameOrInitial": "",
+  "name": "Christopher Alexander",
+  "path": "/Types/Authors/Christopher Alexander"
+}

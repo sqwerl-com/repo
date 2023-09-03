@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/A M Turing>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/books/The Annotated Turing>": ""
+  },
+  "name": "On Computable Numbers with an Application to the Entscheidungsproblem",
+  "path": "/Types/Papers/On Computable Numbers with an Application to the Entscheidungsproblem",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

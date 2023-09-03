@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Space Merchants>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "C",
+  "lastName": "Kornbluth",
+  "middleNameOrInitial": "M",
+  "name": "C. M. Kornbluth",
+  "path": "/Types/Authors/C M Kornbluth"
+}

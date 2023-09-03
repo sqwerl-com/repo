@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Frederick P Brooks Jr>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Mythical Man-Month",
+  "path": "/Types/Books/The Mythical Man-Month",
+  "pictures": {
+    "</types/pictures/The Mythical Man Month Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/authors/Alan Cooper>": "",
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

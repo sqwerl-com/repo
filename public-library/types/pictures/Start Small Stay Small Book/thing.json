@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-23T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Start Small, Stay Small Book",
+  "path": "/Types/Pictures/Start Small Stay Small Book",
+  "pictureOf": {
+    "</types/books/Start Small Stay Small>": ""
+  },
+  "representations": {
+    "start_small_stay_small_book_cover_large.png.lnk.json": "",
+    "start_small_stay_small_book_cover_medium.png.lnk.json": "",
+    "start_small_stay_small_book_cover_preview.png.lnk.json": "",
+    "start_small_stay_small_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

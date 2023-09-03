@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-12-23T00:00:00.00-07:00",
+  "archived": true,
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Flow>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Flow Home Page",
+  "path": "/Types/Web Pages/Flow Home Page",
+  "shortDescription": "Home page for the Flow library for statically type checking JavaScript applications",
+  "url": "https://flow.org/"
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Structure and Interpretation of Computer Programs>": "",
+    "</types/webPages/Structure and Interpretation of Computer Programs>": "",
+    "</types/papers/The Art of the Interpreter>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Gerald",
+  "lastName": "Sussman",
+  "middleNameOrInitial": "Jay",
+  "name": "Gerald Jay Sussman",
+  "path": "/Types/Authors/Gerald Jay Sussman"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-16T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Decline and Fall of the American Programmer>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Edward",
+  "lastName": "Yourdon",
+  "middleNameOrInitial": "",
+  "name": "Edward Yourdon",
+  "path": "/Types/Authors/Edward Yourdon"
+}

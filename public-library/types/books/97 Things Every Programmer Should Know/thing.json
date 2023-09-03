@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kevlin Henney>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/webPages/97 Things Every Programmer Should Know>": ""
+  },
+  "name": "97 Things Every Programmer Should Know",
+  "path": "/Types/Books/97 Things Every Programmer Should Know",
+  "pictures": {
+    "</types/pictures/97 Things Every Programmer Should Know Book>": ""
+  },
+  "title": "97 Things Every Programmer Should Know: Collective Wisdom of the Experts",
+  "webPages": {
+    "</types/webPages/97 Things Every Programmer Should Know>": ""
+  }
+}

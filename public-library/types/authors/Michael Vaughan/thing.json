@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-04-24T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Thinking Effect>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Michael",
+  "lastName": "Vaughan",
+  "middleNameOrInitial": "",
+  "name": "Michael Vaughan",
+  "path": "/Types/Authors/Michael Vaughan"
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ian Johnson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Trouble with D3",
+  "path": "/Types/Web Pages/The Trouble with D3",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/D3 is not a Data Visualization Library>": "",
+    "</types/books/Interactive Data Visualization for the Web>": "",
+    "</types/webPages/The Hitchhikers Guide to d3js>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://medium.com/dailyjs/the-trouble-with-d3-4a84f7de011f"
+}

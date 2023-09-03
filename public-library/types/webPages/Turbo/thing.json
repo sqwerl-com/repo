@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-15T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Build Tools/Turbo>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/What Ive Built After 7 Years Coding a Smart Home>": ""
+  },
+  "name": "Turbo",
+  "path": "/Types/Web Pages/Turbo",
+  "recommendedBy":  {
+    "</types/webPages/The Future of Micro Frontends>": ""
+  },
+  "shortDescription": "Home page for Turbo JavaScript/TypeScript bundler.",
+  "url": "https://turbo.build"
+}

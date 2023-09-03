@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/The Impossible Bloomberg Makeover>": ""
+  },
+  "name": "Some Users Want Terrible User Interfaces",
+  "path": "/Types/Web Pages/Some Users Want Terrible User Interfaces",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://ignorethecode.net/blog/2010/03/25/some_users_want_terrible_user_interfaces/"
+}

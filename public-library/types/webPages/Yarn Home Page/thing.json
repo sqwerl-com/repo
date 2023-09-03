@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-10-16T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Yarn Home Page",
+  "path": "/Types/Web Pages/Yarn Home Page",
+  "shortDescription": "Home page for the Yarn Javascript package manager application.",
+  "tags": {
+    "</types/tags/Yarn>": ""
+  },
+  "url": "https://yarnpkg.com/"
+}

@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-03-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Douglas C Engelbart>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Augmenting Human Intellect>": ""
+  },
+  "name": "Augmenting Human Intellect",
+  "path": "/Types/Papers/Augmenting Human Intellect",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/As We May Think>": "",
+    "</types/papers/Man Computer Symbiosis>": ""
+  },
+  "shortDescription": "",
+  "title": "Augmenting Human Intellect: A Conceptual Framework"
+}

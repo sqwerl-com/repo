@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Practical Java Programming Language Guide>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Peter",
+  "lastName": "Haggar",
+  "middleNameOrInitial": "",
+  "name": "Peter Haggar",
+  "path": "/Types/Authors/Peter Haggar"
+}

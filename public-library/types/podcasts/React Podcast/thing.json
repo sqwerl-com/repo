@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-03-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael Chan>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://rss.simplecast.com/podcasts/6265/rss",
+  "name": "React Podcast",
+  "path": "/Types/Podcasts/React Podcast",
+  "shortDescription": "",
+  "webPage": "</types/webPages/React Podcast>"
+}

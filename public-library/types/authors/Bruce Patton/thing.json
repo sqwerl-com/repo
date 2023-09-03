@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-12-11T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Getting to Yes>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Bruce",
+  "lastName": "Patton",
+  "middleNameOrInitial": "",
+  "name": "Bruce Patton",
+  "path": "/Types/Authors/Bruce Patton"
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-10-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Seth Stephens Davidowitz>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Everybody Lies",
+  "notes": {
+    "</types/notes/Everybody Lies>": ""
+  },
+  "path": "/Types/Books/Everybody Lies",
+  "pictures": {
+    "</types/pictures/Everybody Lies>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Freakonomics>": "",
+    "</types/books/Irresistible>": ""
+  },
+  "shortDescription": "",
+  "title": "Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are"
+}

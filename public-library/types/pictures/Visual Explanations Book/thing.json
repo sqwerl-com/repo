@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-10T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Visual Explanations Book",
+  "path": "/Types/Pictures/Visual Explanations Book",
+  "pictureOf": {
+    "</types/books/Visual Explanations>": ""
+  },
+  "representations": {
+    "visual_explanations_book_large.jpg.lnk.json": "",
+    "visual_explanations_book_medium.jpg.lnk.json": "",
+    "visual_explanations_book_preview.jpg.lnk.json": "",
+    "visual_explanations_book_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

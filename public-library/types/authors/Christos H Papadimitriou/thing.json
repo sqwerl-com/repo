@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Elements of the Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Christos",
+  "lastName": "Papadimitriou",
+  "middleNameOrInitial": "H",
+  "name": "Christos H. Papadimitriou",
+  "path": "/Types/Authors/Christos H. Papadimitriou"
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-10-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Luca Longo>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/General>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "UX Login, Register and Password: The Ultimate Design Guide",
+  "notes": {
+    "</types/notes/UX Login Register and Password The Ultimate Design Guide>": ""
+  },
+  "path": "/Types/Web Pages/UX Login, Register and Password: The Ultimate Design Guide",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Onboarding>": "",
+    "</types/tags/Sign in>": "",
+    "</types/tags/web form design>": ""
+  },
+  "url": "https://uxplanet.org/ux-login-register-and-password-the-ultimate-design-guide-f18b1932ee84"
+}

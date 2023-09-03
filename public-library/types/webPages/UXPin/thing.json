@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-06T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "UXPin",
+  "path": "/Types/Web Pages/UXPin",
+  "recommendedBy": {
+    "</types/books/UX Design for Startups>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.uxpin.com/"
+}

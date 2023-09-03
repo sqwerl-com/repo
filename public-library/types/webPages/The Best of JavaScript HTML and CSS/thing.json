@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-09-24T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Best of JavaScript, HTML, and CSS",
+  "path": "/Types/Web Pages/The Best of JavaScript, HTML, and CSS",
+  "recommendedBy": {
+    "</types/webPages/The 12 Things You Need to Consider When Evaluating Any New JavaScript Library>": ""
+  },
+  "url": "https://bestofjs.org/"
+}

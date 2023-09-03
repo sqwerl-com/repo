@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jon Postel>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Networking>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "RFC 793: Transmission Control Protocol",
+  "path": "/Types/Documents/RFC 793: Transmission Control Protocol",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Laws of UX>": ""
+  },
+  "shortDescription": ""
+}

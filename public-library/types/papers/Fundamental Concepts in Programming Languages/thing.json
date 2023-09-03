@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Christopher Strachey>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": "",
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Fundamental Concepts in Programming Languages",
+  "path": "/Types/Papers/Fundamental Concepts in Programming Languages",
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

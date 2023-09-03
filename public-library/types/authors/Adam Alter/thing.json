@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-11-16T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Irresistible>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Adam",
+  "lastName": "Alter",
+  "middleNameOrInitial": "",
+  "name": "Adam Alter",
+  "path": "/Types/Authors/Adam Alter"
+}

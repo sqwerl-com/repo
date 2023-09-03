@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Andrew Hunt>",
+    "</types/authors/David Thomas>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Pragmatic Programmer",
+  "notes": {
+    "</types/notes/The Pragmatic Programmer>": ""
+  },
+  "path": "/Types/Books/The Pragmatic Programmer",
+  "pictures": {
+    "</types/pictures/The Pragmatic Programmer Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Clean Code>": ""
+  },
+  "shortDescription": "",
+  "title": "The Pragmatic Programmer: From Journeyman to Master"
+}

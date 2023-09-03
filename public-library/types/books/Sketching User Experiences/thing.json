@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bill Buxton>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Sketching User Experiences",
+  "path": "/Types/Books/Sketching User Experiences",
+  "recommendedBy": {
+    "</types/books/The Design of Everyday Things Revised and Expanded Edition>": "",
+    "</types/books/UX Design for Startups>": ""
+  },
+  "shortDescription": "",
+  "title": "Sketching User Experiences: Getting the Design Right and the Right Design (Interactive Technologies)"
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alan Cooper>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Inmates are Running the Asylum",
+  "notes": {
+    "</types/notes/The Inmates are Running the Asylum>": ""
+  },
+  "path": "/Types/Books/The Inmates are Running the Asylum",
+  "pictures": {
+    "</types/pictures/The Inmates are Running the Asylum Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Inspired How to Create Products Customers Love>": ""
+  },
+  "shortDescription": "",
+  "title": "The Inmates are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity"
+}

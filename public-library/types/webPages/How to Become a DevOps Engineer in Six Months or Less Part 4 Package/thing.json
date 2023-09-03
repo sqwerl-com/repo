@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Igor Kantor>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 1>": "",
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 2 Configuration>": "",
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 3 Version>": "",
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 5 Deploy>": ""
+  },
+  "name": "How to Become a DevOps Engineer in Six Months or Less Part 4: Package",
+  "path": "/Types/Web Pages/How to Become a DevOps Engineer in Six Months or Less Part 4: Package",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-part-4-package-47677ca2f058"
+}

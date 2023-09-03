@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Competing on Analytics>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Thomas",
+  "lastName": "Davenport",
+  "middleNameOrInitial": "H",
+  "name": "Thomas H. Davenport",
+  "path": "/Types/Authors/Thomas H. Davenport"
+}

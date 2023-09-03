@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alex Vasilyev>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Type Restrictions for TypeScript Property Decorators",
+  "path": "/Types/Web Pages/Type Restrictions for TypeScript Property Decorators",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/The TypeScript Handbook>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/TypeScript Method Decorators in Depth Problems and Solutions>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+  },
+  "url": "https://luckylibora.medium.com/type-restrictions-for-typescript-property-decorators-164257a97229"
+}

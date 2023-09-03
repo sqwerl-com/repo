@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-30T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Pluralsight class home page.",
+  "links": {
+    "</types/courses/TypeScript In Depth>": ""
+  },
+  "name": "TypeScript In-Depth",
+  "path": "/Types/Web Pages/TypeScript In-Depth",
+  "shortDescription": "Pluralsight class home page",
+  "url": "https://app.pluralsight.com/library/courses/typescript-in-depth/table-of-contents"
+}

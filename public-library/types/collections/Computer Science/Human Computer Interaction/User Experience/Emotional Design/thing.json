@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-11T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Aarron Walter>": "",
+    "</types/books/Designing for Emotion>": "",
+    "</types/webPages/Emotion and Design>": "",
+    "</types/books/Emotional Design>": "",
+    "</types/webPages/UX Flows How to Drive Deep User Engagement>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Emotional Design",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Emotional Design",
+  "shortDescription": "Things related to designing in ways that appeal to human emotions."
+}
+
+
+

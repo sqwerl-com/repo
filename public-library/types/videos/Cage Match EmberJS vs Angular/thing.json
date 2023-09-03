@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-01-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rob Conery>",
+    "</types/authors/Tom Dale>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Cage Match - EmberJS vs. Angular",
+  "path": "/Types/Videos/Cage Match - EmberJS vs. Angular",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "http://vimeo.com/68215606",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

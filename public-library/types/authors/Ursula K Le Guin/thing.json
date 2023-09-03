@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Lathe of Heaven>": "",
+    "</types/books/The Left Hand of Darkness>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ursula",
+  "lastName": "Le Guin",
+  "middleNameOrInitial": "K",
+  "name": "Ursula K. Le Guin",
+  "path": "/Types/Authors/Ursula K. Le Guin"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-02-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Wes Bos>",
+    "</types/authors/Scott Tolinski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Tasty web development treats",
+  "feedUrl": "https://feed.syntax.fm/rss",
+  "name": "Syntax",
+  "path": "/Types/Podcasts/Syntax",
+  "shortDescription": "",
+  "webPage": "</types/webPages/Syntax>"
+}

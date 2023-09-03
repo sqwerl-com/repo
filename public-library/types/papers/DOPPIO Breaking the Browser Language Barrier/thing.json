@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-07-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John Vilk>",
+    "</types/authors/Emery D Berger>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Java>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "DOPPIO: Breaking the Browser Language Barrier",
+  "path": "/Types/Papers/DOPPIO: Breaking the Browser Language Barrier",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "Academic paper on a JavaScript implementation of the Java Virtual Machine (JVM)."
+}

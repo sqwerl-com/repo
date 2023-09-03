@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jonathan Fulton>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "These Four Clean Code Tips Will Dramatically Improve Your Engineering Team's Productivity",
+  "path": "/Types/Web Pages/These Four Clean Code Tips Will Dramatically Improve Your Engineering Team's Productivity",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Clean Code>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/storyblocks-engineering/these-four-clean-code-tips-will-dramatically-improve-your-engineering-teams-productivity-b5bd121dd150"
+}

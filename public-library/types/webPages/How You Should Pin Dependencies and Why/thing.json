@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Niccolo Belli>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How You Should Pin Dependencies and Why",
+  "path": "/Types/Web Pages/How You Should Pin Dependencies and Why",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Mend Renovate>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Protestware on the Rise>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Yarn>": ""
+  },
+  "url": "https://www.the-guild.dev/blog/how-should-you-pin-dependencies-and-why"
+}

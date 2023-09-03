@@ -1,0 +1,34 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-07T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/An Introduction to Functional Programming>": "",
+    "</types/papers/Can Programming Be Liberated from the von Neumann Style>": "",
+    "</types/webPages/Convert Your Class Component to a Functional One with React Hooks>": "",
+    "</types/videos/Essentials Functional Programmings Y Combinator>": "",
+    "</types/webPages/Functional JavaScript Decoupling Methods From Their Objects>": "",
+    "</types/webPages/Functional JS 1 Introduction>": "",
+    "</types/webPages/Functional JS 2 Functions Duh>": "",
+    "</types/webPages/Functional JS 3 State>": "",
+    "</types/webPages/Functional JS 4 Closures>": "",
+    "</types/webPages/Functional JS 5 Partial Application Currying>": "",
+    "</types/webPages/Functional JS 6 Function Composition>": "",
+    "</types/videos/Learning Functional Programming with JavaScript>": "",
+    "</types/videos/Object Oriented Programming Versus Functional Programming>": "",
+    "</types/webPages/Practical Functional Programming>": "",
+    "</types/books/Structure and Interpretation of Computer Programs>": "",
+    "</types/webPages/The Rise and Fall of Functional Programming Composing Software>": "",
+    "</types/papers/Total Functional Programming>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Contains things related to a functional programming model where software is built as a collection of functions.",
+  "links": {
+    "</types/collections/Computer Science/Programming Languages/Lisp>": ""
+  },
+  "name": "Functional",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Programming Paradigms/Functional",
+  "shortDescription": "Things related to a functional programming model."
+}

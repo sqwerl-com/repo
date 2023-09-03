@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/The Elements of ANT Style>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Build Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "ANT",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Build Tools/ANT",
+  "shortDescription": ""
+}

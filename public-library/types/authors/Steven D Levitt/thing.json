@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Freakonomics>": "",
+    "</types/books/Superfreakonomics>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Steven",
+  "lastName": "Levitt",
+  "middleNameOrInitial": "D",
+  "name": "Steven D. Levitt",
+  "path": "/Types/Authors/Steven D. Levitt"
+}

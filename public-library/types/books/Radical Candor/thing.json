@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-02-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kim Scott>"
+  ],
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Radical Candor",
+  "path": "/Types/Books/Radical Candor",
+  "pictures": {
+    "</types/pictures/Radical Candor Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity"
+}

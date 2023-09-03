@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks>": "",
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Platforms>": "",
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Process>": "",
+    "</types/documents/Simply Sweet Components>": "",
+    "</types/webPages/Software Engineering 101 for Front end Developers>": "",
+    "</types/documents/XML Based Graphical User Interface Application Development Toolkit>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "User Interface Development",
+  "path": "/Types/Collections/Computer Science/Software Engineering/User Interface Development",
+  "shortDescription": ""
+}

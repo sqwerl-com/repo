@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-01-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Elliott>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Interview Questions>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "10 Interview Questions Every JavaScript Developer Should Know",
+  "path": "/Types/Web Pages/10 Interview Questions Every JavaScript Developer Should Know",
+  "pictures": {
+    "</types/pictures/10 Interview Questions Every JavaScript Developer Should Know Web Page>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Common Misconceptions About Inheritance in JavaScript>": "",
+    "</types/webPages/Composing Software An Introduction>": "",
+    "</types/webPages/The Dao of Immutability>": "",
+    "</types/webPages/The Two Pillars of JavaScript Part 1>": "",
+    "</types/webPages/The Two Pillars of JavaScript Part 2>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95"
+}

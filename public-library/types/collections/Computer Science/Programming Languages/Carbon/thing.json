@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-02T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/The Carbon Language>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the Carbon programming language",
+  "name": "Carbon",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Carbon",
+  "shortDescription": ""
+}

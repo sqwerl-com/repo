@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David Smiley>",
+    "</types/authors/Eric Pugh>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Apache Solr 3 Enterprise Search Server",
+  "path": "/Types/Books/Apache Solr 3 Enterprise Search Server",
+  "pictures": {
+    "</types/pictures/Apache Solr 3 Enterprise Search Server Book>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/search>": ""
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/ReadWriteMobile>": ""
+  },
+  "name": "How Facebook Mobile Was Designed to Write Once, Run Everywhere",
+  "path": "/Types/Web Pages/How Facebook Mobile Was Designed to Write Once, Run Everywhere",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://readwrite.com/redux_how_facebook_mobile_was_designed_to_write_once_run/"
+}

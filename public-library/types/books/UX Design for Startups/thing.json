@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Marcin Treder>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "UX Design for Startups",
+  "notes": {
+    "</types/notes/UX Design for Startups>": ""
+  },
+  "path": "/Types/Books/UX Design for Startups",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Business Model Generation>": "",
+    "</types/books/Running Lean>": "",
+    "</types/books/Sketching User Experiences>": "",
+    "</types/webPages/SurveyIO>": "",
+    "</types/webPages/UserVoice>": "",
+    "</types/webPages/UXPin>": ""
+  },
+  "shortDescription": ""
+}

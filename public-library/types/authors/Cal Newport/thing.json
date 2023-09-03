@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-06T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Deep Work>": "",
+    "</types/books/So Good They Cant Ignore You>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Cal",
+  "lastName": "Newport",
+  "middleNameOrInitial": "",
+  "name": "Cal Newport",
+  "path": "/Types/Authors/Cal Newport"
+}

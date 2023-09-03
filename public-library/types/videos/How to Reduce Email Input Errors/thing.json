@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-12-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Luke Wroblewski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Reduce E-Mail Input Errors",
+  "path": "/Types/Videos/How to Reduce E-Mail Input Errors",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/validating email addresses>": ""
+  },
+  "title": "How to Reduce E-Mail Input Errors",
+  "url": "https://www.youtube.com/watch?v=xAKnPtbfNfY&list=PLg-UKERBljNy2Yem3RJkYL1V70dpzkysC&index=1",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

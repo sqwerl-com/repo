@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/feeds/Bootsnipp>": "",
+    "</types/webPages/Bootsnipp>": "",
+    "</types/webPages/Bootstrap One Page Template with Parallax Effect>": "",
+    "</types/webPages/Bootstrap>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Bootstrap",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Bootstrap",
+  "shortDescription": "Things related to Twitter's Bootstrap web application framework."
+}

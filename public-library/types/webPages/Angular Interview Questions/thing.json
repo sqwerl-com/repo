@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/FAM>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Angular Interview Questions",
+  "path": "/Types/Web Pages/Angular Interview Questions",
+  "recommendations": {
+    "</types/webPages/Get Equipped with the Right TypeScript Tooling in Angular>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/The 5 Steps to Becoming a Self Taught Angular Developer>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://levelup.gitconnected.com/angular-interview-questions-78de06e5311f"
+}

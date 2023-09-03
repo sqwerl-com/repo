@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-14T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/40 Plus Helpful Resources on User Interface Design Patterns>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Pattern Repositories/Antipatterns>": "",
+    "</types/webPages/Blink Design Library>": "",
+    "</types/books/Designing Web Interfaces>": "",
+    "</types/webPages/Futurico>": "",
+    "</types/webPages/MailChimp Pattern Library>": "",
+    "</types/webPages/Mobile Design Pattern Gallery>": "",
+    "</types/webPages/Mobile Patterns>": "",
+    "</types/webPages/Patternry>": "",
+    "</types/webPages/Pttrns>": "",
+    "</types/webPages/UI Patterns>": "",
+    "</types/webPages/Welie com>": "",
+    "</types/webPages/Wikipatterns com>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Pattern Repositories",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Design Resources/Pattern Repositories",
+  "shortDescription": "User interface design patterns."
+}

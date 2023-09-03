@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-02T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Ansible for DevOps>": "",
+    "</types/videos/Better than Netflix Jellyfin on my NAS>": "",
+    "</types/webPages/Jeff Geerlings GitHub Page>": "",
+    "</types/webPages/Jeff Geerlings YouTube Page>": "",
+    "</types/videos/Why Would You Build a Raspberry Pi Cluster>": "",
+    "</types/videos/You Did WHAT with Ansible>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jeff",
+  "lastName": "Geerling",
+  "middleNameOrInitial": "",
+  "name": "Jeff Geerling",
+  "path": "/Types/Authors/Jeff Geerling"
+}

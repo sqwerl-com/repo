@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alan Cooper>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What's the ROI of UX?",
+  "path": "/Types/Web Pages/What's the ROI of UX?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@MrAlanCooper/whats-the-roi-of-ux-c47defb033d2"
+}

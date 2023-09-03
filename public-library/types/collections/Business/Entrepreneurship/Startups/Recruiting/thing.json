@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-29T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Recruiting Developers Create an Awesome Candidate Experience>": "",
+    "</types/webPages/Upwork>": "",
+    "</types/webPages/Your Companys Culture is Who You Hire Fire and Promote Part 1>": "",
+    "</types/webPages/Your Companys Culture is Who You Hire Fire and Promote Part 2>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Recruiting",
+  "path": "/Types/Collections/Business/Entrepreneurship/Startups/Recruiting",
+  "shortDescription": "Things related to recruiting talent to join a start-up."
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-05-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Addy Osmani>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Journey Through the JavaScript MVC Jungle",
+  "path": "/Types/Web Pages/Journey Through the JavaScript MVC Jungle",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://coding.smashingmagazine.com/2012/07/27/journey-through-the-javascript-mvc-jungle/"
+}

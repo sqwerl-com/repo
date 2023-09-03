@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Pete Hunt>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React How To",
+  "path": "/Types/Web Pages/React How To",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "Resources for learning the React JavaScript application framework.",
+  "url": "https://github.com/petehunt/react-howto"
+}

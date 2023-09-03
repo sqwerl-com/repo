@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Code Complete 2 Book",
+  "path": "/Types/Pictures/Code Complete 2 Book",
+  "pictureOf": {
+    "</types/books/Code Complete 2>": ""
+  },
+  "representations": {
+    "code_complete_2_book_cover_large.lnk.json": "",
+    "code_complete_2_book_cover_medium.lnk.json": "",
+    "code_complete_2_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

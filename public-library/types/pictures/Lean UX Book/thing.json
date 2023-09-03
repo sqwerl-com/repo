@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Lean UX Book",
+  "path": "</types/pictures/Lean UX Book>",
+  "pictureOf": {
+    "</types/books/Lean UX>": ""
+  },
+  "representations": {
+    "lean_ux_book_cover_large.png.lnk.json": "",
+    "lean_ux_book_cover_medium.png.lnk.json": "",
+    "lean_ux_book_cover_preview.png.lnk.json": "",
+    "lean_ux_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-30T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/10 Rules for Better Dashboard Design>": "",
+    "</types/books/Information Dashboard Design>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Dashboards",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Data Visualization/Dashboards",
+  "shortDescription": "Things regarding succinctly displaying information on a single screen."
+}

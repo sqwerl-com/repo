@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-07T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/documents/Startup Engineering Introduction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Balaji",
+  "instructed": {
+    "</types/courses/Startup Engineering>": ""
+  },
+  "lastName": "Srinivasan",
+  "middleNameOrInitial": "S",
+  "name": "Baliji S. Srinivasan",
+  "path": "/Types/Authors/Baliji S. Srinivasan"
+}

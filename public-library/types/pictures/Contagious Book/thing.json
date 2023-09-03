@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Contagious Book",
+  "path": "/Types/Pictures/Contagious Book",
+  "pictureOf": {
+    "</types/books/Contagious>": ""
+  },
+  "representations": {
+    "contagious_book_cover_large.lnk.json": "",
+    "contagious_book_cover_medium.lnk.json": "",
+    "contagious_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

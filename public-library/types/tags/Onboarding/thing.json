@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Onboarding",
+  "path": "/Types/Tags/Onboarding",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/18 UX Design Tips For Registration and Login Forms>": "",
+    "</types/webPages/Atlassians 5 5 Billion User Onboarding Magic>": "",
+    "</types/webPages/Best Practices for Onboarding>": "",
+    "</types/webPages/User Onboarding>": "",
+    "</types/webPages/UX Login Register and Password The Ultimate Design Guide>": ""
+  },
+  "text": "Onboarding"
+}

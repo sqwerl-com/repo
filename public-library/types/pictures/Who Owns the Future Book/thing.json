@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-09T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Who Owns the Future Book",
+  "path": "/Types/Pictures/Who Owns the Future Book",
+  "pictureOf": {
+    "</types/books/Who Owns the Future>": ""
+  },
+  "representations": {
+    "who_owns_the_future_book_cover_large.jpg.lnk.json": "",
+    "who_owns_the_future_book_cover_medium.jpg.lnk.json": "",
+    "who_owns_the_future_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

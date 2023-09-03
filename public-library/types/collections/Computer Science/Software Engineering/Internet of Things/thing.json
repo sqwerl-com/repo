@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-05-04T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/A Tale of Getting Stuff Done When Youre 1 in 400000>": "",
+    "</types/webPages/nodered org>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Internet of Things",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Internet of Things",
+  "shortDescription": "Things related to the Internet of Things (IOT)."
+}

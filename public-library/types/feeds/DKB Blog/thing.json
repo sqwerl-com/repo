@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-17T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Searching and organizing data on the Internet",
+  "feedUrl": "https://dkb.io/rss.xml",
+  "items": {
+    "</types/webPages/Google Search Is Dying>": "",
+    "</types/webPages/To Organize the Worlds Information>": ""
+  },
+  "name": "DKB Blog",
+  "path": "/Types/Feeds/DKB Blog",
+  "shortDescription": ""
+}

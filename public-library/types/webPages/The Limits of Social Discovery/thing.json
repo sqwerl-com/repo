@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mark Watkins>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/The Hawaii Project>": "",
+    "</types/webPages/The Power and Limits of Curation Panning for Gold in the Digital Flood>": "",
+    "</types/webPages/The Ratings and Reviews Model is Broken Theres a Better Way>": ""
+  },
+  "name": "The Limits of Social Discovery",
+  "path": "/Types/Web Pages/The Limits of Social Discovery",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Curation>": "",
+    "</types/tags/Recommendation systems>": ""
+  },
+  "url": "https://www.linkedin.com/pulse/limits-social-discovery-mark-watkins"
+}

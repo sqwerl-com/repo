@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-04-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Page Laubheimer>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Role of Animation and Motion in UX",
+  "path": "/Types/Web Pages/The Role of Animation and Motion in UX",
+  "recommendedBy": {
+    "</types/webPages/Mastering React Techniques to Take Your UI to the Next Level>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "https://www.nngroup.com/articles/animation-purpose-ux/"
+}

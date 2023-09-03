@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-26T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Pattern Repositories>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mobile Patterns",
+  "path": "/Types/Web Pages/Mobile Patterns",
+  "recommendedBy": {
+    "</types/books/UX for Lean Startups>": ""
+  },
+  "shortDescription": "Continuous posting of screen shots of mobile application user interfaces.",
+  "url": "http://www.mobile-patterns.com/"
+}

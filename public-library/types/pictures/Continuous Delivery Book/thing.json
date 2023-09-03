@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Continuous Delivery Book",
+  "path": "/Types/Pictures/Continuous Delivery Book",
+  "pictureOf": {
+    "</types/books/Continuous Delivery>": ""
+  },
+  "representations": {
+    "continuous_delivery_book_cover_large.jpg.lnk.json": "",
+    "continuous_delivery_book_cover_medium.jpg.lnk.json": "",
+    "continuous_delivery_book_cover_preview.jpg.lnk.json": "",
+    "continuous_delivery_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Lin Clark>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Cartoon Intro to Fiber - React Conf 2017",
+  "path": "/Types/Videos/A Cartoon Intro to Fiber",
+  "recommendedBy": {
+    "</types/webPages/React Fiber Explained>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=ZCuYPiUIONs",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

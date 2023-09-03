@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bartlomiej Niechwiej>",
+    "</types/authors/Rob Ennals>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Google Webmaster Central Blog>": ""
+  },
+  "name": "Better Presentation of URLs in Search Results",
+  "path": "/Types/Web Pages/Better Presentation of URLs in Search Results",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://googlewebmastercentral.blogspot.co.uk/2015/04/better-presentation-of-urls-in-search.html"
+}

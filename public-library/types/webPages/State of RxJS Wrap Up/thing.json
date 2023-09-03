@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bruce Wiggleston>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/RxJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/videos/State of RxJS April 25 2023>": ""
+  },
+  "name": "State of RxJS Wrap-up",
+  "path": "/Types/Videos/State of RxJS Wrap-up",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.thisdot.co/blog/state-of-rxjs-wrap-up/"
+}

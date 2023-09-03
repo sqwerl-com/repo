@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-01-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Dead Hand>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "David",
+  "lastName": "Hoffman",
+  "middleNameOrInitial": "E",
+  "name": "David E. Hoffman",
+  "path": "/Types/Authors/David E Hoffman"
+}

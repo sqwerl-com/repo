@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joel Spolsky>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Joel on Software",
+  "notes": {
+    "</types/notes/Joel on Software>": ""
+  },
+  "path": "/Types/Books/Joel on Software",
+  "pictures": {
+    "</types/pictures/Joel on Software Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

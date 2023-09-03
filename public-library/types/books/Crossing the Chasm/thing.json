@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Geoffrey A Moore>"
+  ],
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Crossing the Chasm",
+  "notes": {
+    "</types/notes/Crossing the Chasm>": ""
+  },
+  "path": "/Types/Books/Crossing the Chasm",
+  "pictures": {
+    "</types/pictures/Crossing the Chasm Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Founders and VCs Reveal 21 Books Every Entrepreneur Should Read>": "",
+    "</types/books/Inspired How to Create Products Customers Love>": ""
+  },
+  "shortDescription": "",
+  "title": "Crossing the Chasm"
+}

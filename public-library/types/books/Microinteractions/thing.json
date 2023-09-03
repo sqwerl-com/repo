@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dan Saffer>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Microinteractions",
+  "notes": {
+    "</types/notes/Microinteractions>": ""
+  },
+  "path": "/Types/Books/Microinteractions",
+  "pictures": {
+    "</types/pictures/Microinteractions Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Dealers of Lightning>": "",
+    "</types/feeds/Little Big Details>": "",
+    "</types/books/The Art of Game Design>": "",
+    "</types/webPages/Why good storytelling helps you design great products>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Focusing On What Our Users Shouldnt Focus On>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Microinteractions>": ""
+  },
+  "title": "Microinteractions: Designing with Details"
+}

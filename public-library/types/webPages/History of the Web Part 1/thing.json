@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Matthew Gerstman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "History of the Web: Part 1",
+  "path": "/Types/Web Pages/History of the Web: Part 1",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.matthewgerstman.com/tech/history-of-the-web/"
+}

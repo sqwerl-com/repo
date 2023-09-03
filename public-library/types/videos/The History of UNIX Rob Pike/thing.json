@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rob Pike>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The History of UNIX, Rob Pike",
+  "path": "/Types/Videos/The History of UNIX, Rob Pike",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=_2NI6t2r_Hs",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

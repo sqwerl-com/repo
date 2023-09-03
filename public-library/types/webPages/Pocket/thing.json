@@ -1,0 +1,12 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-06-26T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the Pocket application that allows users to save web pages to read later.",
+  "name": "Pocket",
+  "path": "/Types/Web Pages/Pocket",
+  "shortDescription": "Pocket.com home page",
+  "url": "https://getpocket.com/"
+}

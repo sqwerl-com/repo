@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-08-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dustin Boswell>",
+    "</types/authors/Trevor Foucher>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Art of Readable Code",
+  "path": "/Types/Books/The Art of Readable Code",
+  "pictures": {
+    "</types/pictures/The Art of Readable Code Book>": ""
+  },
+  "shortDescription": "",
+  "title": "The Art of Readable Code: Simple and Practical Techniques for Writing Better Code"
+}

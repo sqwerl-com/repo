@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-02-23T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the Web Platform podcast",
+  "name": "The Web Platform Podcast",
+  "path": "/Types/Web Pages/The Web Platform Podcast",
+  "shortDescription": "",
+  "url": "https://thewebplatformpodcast.com/"
+}

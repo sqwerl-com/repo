@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Harrison>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Building the Global Knowledge Graph",
+  "path": "/Types/Web Pages/Building the Global Knowledge Graph",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/To Organize the Worlds Information>": ""
+  },
+  "shortDescription": "",
+  "title": "Building the Global Knowledge Graph: Dreaming the Dream for Roam Research",
+  "url": "https://roambrain.com/building-the-global-knowledge-graph/"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-07T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS/Frameworks/Linaria>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS/Frameworks/TailwindCSS>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Frameworks",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/CSS/Frameworks",
+  "shortDescription": "Things related to frameworks for developing Cascading Style Sheets (CSS)."
+}

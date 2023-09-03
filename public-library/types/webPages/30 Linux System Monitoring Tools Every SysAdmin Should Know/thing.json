@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/nixCraft>": ""
+  },
+  "name": "30 Linux System Monitoring Tools Every SysAdmin Should Know",
+  "path": "/Types/Web Pages/30 Linux System Monitoring Tools Every SysAdmin Should Know",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.cyberciti.biz/tips/top-linux-monitoring-tools.html"
+}

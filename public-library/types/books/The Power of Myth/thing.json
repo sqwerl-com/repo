@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-12-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joseph Campbell>",
+    "</types/authors/Bill Moyers>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Power of Myth",
+  "path": "/Types/Books/The Power of Myth",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/33 Books Everyone Should Read Before Turning 30>": ""
+  },
+  "shortDescription": ""
+}

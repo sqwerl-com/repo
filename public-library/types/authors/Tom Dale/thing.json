@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-01-21T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/Cage Match EmberJS vs Angular>": "",
+    "</types/webPages/Compilers are the New Frameworks>": "",
+    "</types/videos/EmberConf 2016 Opening Keynote>": "",
+    "</types/videos/Making the Jump>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Tom",
+  "lastName": "Dale",
+  "links": {
+    "</types/videos/Nine Things Ive Learned>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Tom Dale",
+  "path": "/Types/Authors/Tom Dale"
+}

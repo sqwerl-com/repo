@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Graham Hutton>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/videos/Essentials Functional Programmings Y Combinator>": ""
+  },
+  "name": "Lambda Calculus",
+  "path": "/Types/Videos/Lambda Calculus",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=eis11j_iGMs",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

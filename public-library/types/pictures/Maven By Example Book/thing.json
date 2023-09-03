@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Maven By Example Book",
+  "path": "</types/pictures/Maven By Example Book>",
+  "pictureOf": {
+    "</types/books/Maven By Example>": ""
+  },
+  "representations": {
+    "maven_by_example_book_cover_large.png.lnk.json": "",
+    "maven_by_example_book_cover_medium.png.lnk.json": "",
+    "maven_by_example_book_cover_preview.png.lnk.json": "",
+    "maven_by_example_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

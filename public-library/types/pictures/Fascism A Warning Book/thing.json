@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-22T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Fascism: A Warning Book",
+  "path": "/Types/Pictures/Fascism A Warning Book",
+  "pictureOf": {
+    "</types/books/Fascism A Warning>": ""
+  },
+  "representations": {
+    "fascism_a_warning_book_cover_large.png.lnk.json": "",
+    "fascism_a_warning_book_cover_medium.png.lnk.json": "",
+    "fascism_a_warning_book_cover_preview.png.lnk.json": "",
+    "fascism_a_warning_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

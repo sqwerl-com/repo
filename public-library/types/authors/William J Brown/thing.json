@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-14T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Anti Patterns>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "William",
+  "lastName": "Brown",
+  "middleNameOrInitial": "J",
+  "name": "William J. Brown",
+  "path": "/Types/Authors/William J. Brown"
+}

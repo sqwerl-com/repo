@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-10-21T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "UI Talks",
+  "path": "/Types/Web Pages/UI Talks",
+  "shortDescription": "Links videos of talks/presentations about User Interfaces.",
+  "url": "http://talks.ui-patterns.com"
+}

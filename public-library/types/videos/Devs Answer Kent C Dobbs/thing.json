@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/videos/Devs Answer Michael Chan>": ""
+  },
+  "name": "Devs Answer: Kent C. Dobbs",
+  "path": "/types/videos/Devs Answer: Kent C. Dobbs",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=z3odPLDCyLo",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

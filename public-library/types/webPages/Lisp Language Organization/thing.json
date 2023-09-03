@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-16T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Lisp>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/papers/The Roots of Lisp>": ""
+  },
+  "name": "Lisp Language Organization",
+  "path": "/Types/Web Pages/Lisp Language Organization",
+  "shortDescription": "The Lisp Language Organization's home page",
+  "url": "https://lisp-lang.org/"
+}

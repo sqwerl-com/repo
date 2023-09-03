@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/Grady Booch The Future of Software Engineering>": "",
+    "</types/books/Object Oriented Analysis and Design with Applications>": "",
+    "</types/videos/The History and the Future of Software>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Grady",
+  "lastName": "Booch",
+  "middleNameOrInitial": "",
+  "name": "Grady Booch",
+  "path": "/Types/Authors/Grady Booch"
+}

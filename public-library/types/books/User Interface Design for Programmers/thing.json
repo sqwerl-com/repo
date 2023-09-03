@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joel Spolsky>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "User Interface Design for Programmers",
+  "notes": {
+    "</types/notes/User Interface Design for Programmers>": ""
+  },
+  "path": "/Types/Books/User Interface Design for Programmers",
+  "pictures": {
+    "</types/pictures/User Interface Design for Programmers Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

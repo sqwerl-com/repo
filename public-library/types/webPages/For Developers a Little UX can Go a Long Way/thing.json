@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-06-21T00:00:00.00-05:00",
+  "authors": [
+    "</types/authors/Arijit Banerjee>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/UX Magazine>": ""
+  },
+  "name": "For Developers, a Little UX can Go a Long Way",
+  "notes": {
+    "</types/notes/For Developers a Little UX can Go a Long Way>": ""
+  },
+  "path": "/Types/Web Pages/For Developers, a Little UX can Go a Long Way",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://uxmag.com/articles/for-developers-a-little-ux-can-go-a-long-way"
+}

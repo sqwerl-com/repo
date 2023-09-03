@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David Farley>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Continuous Delivery YouTube Channel>": ""
+  },
+  "name": "The Problem with Microservices",
+  "notes": {
+    "</types/notes/The Problem with Microservices>": ""
+  },
+  "path": "/Types/Videos/The Problem with Microservices",
+  "recommendations": {
+    "</types/books/Domain Driven Design>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Microservices>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=zzMLg3Ys5vI",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

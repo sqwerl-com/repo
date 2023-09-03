@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tobias Ahlin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Tobias Ahlin>": ""
+  },
+  "name": "Meaningful Motion with Action Driven Animation",
+  "path": "/Types/Web Pages/Meaningful Motion with Action Driven Animation",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "http://tobiasahlin.com/blog/meaningful-motion-w-action-driven-animation/"
+}

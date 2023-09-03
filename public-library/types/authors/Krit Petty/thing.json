@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-04-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Kafka The Definitive Guide>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Krit",
+  "lastName": "Petty",
+  "middleNameOrInitial": "",
+  "name": "Krit Petty",
+  "path": "/Types/Authors/Krit Petty"
+}

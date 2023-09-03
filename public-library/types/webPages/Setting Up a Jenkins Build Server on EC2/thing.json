@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-27T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Cloud Computing/Amazon Web Services>": "",
+    "</types/collections/Computer Science/Software Engineering/Continuous Integration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Setting Up a Jenkins Build Server on EC2",
+  "path": "/Types/Web Pages/Setting Up a Jenkins Build Server on EC2",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://markunsworth.com/2012/02/11/setting-up-a-jenkins-build-server-on-ec2"
+}

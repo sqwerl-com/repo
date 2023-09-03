@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/A Web of Apps>": "",
+    "</types/collections/Computer Science/Software Engineering/Mobile Application Development/Frameworks>": "",
+    "</types/feeds/ReadWriteMobile>": "",
+    "</types/webPages/Tapptics>": "",
+    "</types/webPages/The Myth of Responsive Design>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mobile Application Development",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Mobile Application Development",
+  "shortDescription": ""
+}

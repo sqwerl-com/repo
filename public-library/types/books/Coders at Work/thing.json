@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Peter Seibel>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Coders at Work",
+  "notes": {
+    "</types/notes/Coders at Work>": ""
+  },
+  "path": "/Types/Books/Coders at Work",
+  "pictures": {
+    "</types/pictures/Coders at Work Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Coders at Work: Reflections on the Craft of Programming"
+}

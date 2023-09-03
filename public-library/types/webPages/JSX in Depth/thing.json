@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-02-02T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "JSX in Depth",
+  "path": "/Types/Web Pages/JSX in Depth",
+  "recommendedBy": {
+    "</types/webPages/Reacts Five Fingers of Death>": ""
+  },
+  "shortDescription": "",
+  "url": "https://facebook.github.io/react/docs/jsx-in-depth.html"
+}

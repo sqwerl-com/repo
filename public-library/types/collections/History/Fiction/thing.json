@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-14T00:00:00.00-07:00",
+  "children": {
+    "</types/books/All Quiet on the Western Front>": "",
+    "</types/books/All That Is Secret>": "",
+    "</types/books/Cryptonomicon>": "",
+    "</types/books/Foucaults Pendulum>": "",
+    "</types/books/Miramar>": "",
+    "</types/books/Palace of Desire>": "",
+    "</types/books/Palace Walk>": "",
+    "</types/books/Sugar Street>": "",
+    "</types/books/The Harafish>": "",
+    "</types/books/The Man in the High Castle>": "",
+    "</types/books/The Name of the Rose>": "",
+    "</types/books/The Plot Against America>": "",
+    "</types/books/The Red Badge of Courage>": ""
+  },
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Fictional stories based on human history.",
+  "name": "Fiction",
+  "path": "/Types/Collections/History/Fiction",
+  "shortDescription": "Fictional descriptions of human history."
+}

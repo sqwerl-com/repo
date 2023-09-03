@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert C Martin>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Clean Coder",
+  "path": "/Types/Books/The Clean Coder",
+  "pictures": {
+    "</types/pictures/The Clean Coder Book>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Clean code>": ""
+  },
+  "title": "The Clean Coder: A Code of Conduct for Professional Programmers"
+}

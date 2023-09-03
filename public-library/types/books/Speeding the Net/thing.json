@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-06-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joshua Quittner>",
+    "</types/authors/Michelle Slatalla>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Speeding the Net",
+  "path": "/Types/Books/Speeding the Net",
+  "pictures": {
+    "</types/pictures/Speeding the Net Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Web History Chapter 10 Browser Wars>": ""
+  },
+  "title": "Speeding the Net: The Inside Story of Netscape and How It Challenged Microsoft"
+}

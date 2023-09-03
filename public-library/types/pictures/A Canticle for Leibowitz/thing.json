@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Canticle for Leibowitz",
+  "path": "/Types/Pictures/A Canticle for Leibowitz",
+  "pictureOf": {
+    "</types/books/A Canticle for Leibowitz>": ""
+  },
+  "representations": {
+    "a_canticle_for_leibowitz_book_cover_large.lnk.json": "",
+    "a_canticle_for_leibowitz_book_cover_medium.lnk.json": "",
+    "a_canticle_for_leibowitz_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

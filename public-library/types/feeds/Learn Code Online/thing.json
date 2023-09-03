@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-05-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://blog.learncodeonline.in/rss.xml",
+  "items": {
+    "</types/webPages/Web Security Cross Origin Resource Sharing CORS>": ""
+  },
+  "name": "Learn Code Online",
+  "path": "/Types/Feeds/Learn Code Online",
+  "shortDescription": ""
+}

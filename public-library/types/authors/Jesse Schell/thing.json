@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-24T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Art of Game Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jesse",
+  "lastName": "Schell",
+  "middleNameOrInitial": "",
+  "name": "Jesse Schell",
+  "path": "/Types/Authors/Jesse Schell"
+}

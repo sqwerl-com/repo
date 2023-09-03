@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-23T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Elixir The Documentary>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Items related to the Elixir programming language",
+  "name": "Elixir",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Elixir",
+  "shortDescription": ""
+}

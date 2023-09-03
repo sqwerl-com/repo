@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-08-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Simpson>"
+  ],
+  "books": {
+    "</types/books/You Dont Know JS ES6 and Beyond>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "You Don't Know JS: ES6 & Beyond",
+  "path": "/Types/Web Pages/You Don't Know JS: ES6 & Beyond",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JavaScript>": ""
+  },
+  "url": "https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond"
+}

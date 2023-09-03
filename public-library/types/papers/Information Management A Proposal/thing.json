@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-05-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tim Berners Lee>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Information Management: A Proposal",
+  "path": "/Types/Papers/Information Management: A Proposal",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Web History Chapter 1 Birth>": ""
+  },
+  "shortDescription": ""
+}

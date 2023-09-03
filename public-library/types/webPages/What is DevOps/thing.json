@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-06-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mike Loukides>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is DevOps?",
+  "path": "/Types/Web Pages/What is DevOps?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://radar.oreilly.com/2012/06/what-is-devops.html"
+}

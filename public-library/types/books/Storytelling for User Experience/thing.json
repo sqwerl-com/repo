@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Whitney Quesenbery>",
+    "</types/authors/Kevin Brooks>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Storytelling for User Experience",
+  "path": "/Types/Books/Storytelling for User Experience",
+  "pictures": {
+    "</types/pictures/Storytelling for User Experience Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Letting Go of the Words>": ""
+  },
+  "shortDescription": "",
+  "title": "Storytelling for User Experience: Crafting Stories for Better Design"
+}

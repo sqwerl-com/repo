@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Leah Buley>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The User Experience Team of One",
+  "path": "/Types/Books/The User Experience Team of One",
+  "recommendedBy": {
+    "</types/books/Dont Make Me Think Revisited>": ""
+  },
+  "shortDescription": "",
+  "title": "The User Experience Team of One: A Research and Design Survival Guide"
+}

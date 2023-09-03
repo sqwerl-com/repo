@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-10T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Ambient Findability>": "",
+    "</types/books/Information Architecture For the Web and Beyond 4th Edition>": "",
+    "</types/books/Intertwingled>": "",
+    "</types/books/Search Patterns>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Peter",
+  "lastName": "Morville",
+  "middleNameOrInitial": "",
+  "name": "Peter Morville",
+  "path": "/Types/Authors/Peter Morville"
+}

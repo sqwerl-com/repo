@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-08-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Design for a Better World Book",
+  "path": "/Types/Pictures/Design for a Better World Book",
+  "pictureOf": {
+    "</types/books/Design for a Better World>": ""
+  },
+  "representations": {
+    "design_for_a_better_world_book_cover_large.jpg.lnk.json": "",
+    "design_for_a_better_world_book_cover_medium.jpg.lnk.json": "",
+    "design_for_a_better_world_book_cover_preview.jpg.lnk.json": "",
+    "design_for_a_better_world_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

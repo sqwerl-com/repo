@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-06-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joe Davis>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "UI Animations with React: The Right Way",
+  "path": "/Types/Web Pages/UI Animations with React: The Right Way",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/React Transition Group>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "https://medium.com/@joethedave/achieving-ui-animations-with-react-the-right-way-562fa8a91935"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-10-11T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://www.i-programmer.info/index.php?option=com_ninjarsssyndicator&feed_id=3&format=raw",
+  "items": {
+    "</types/webPages/Master JavaScript Regular Expressions>": ""
+  },
+  "name": "I Programmer",
+  "path": "/Types/Feeds/I Programmer",
+  "shortDescription": ""
+}

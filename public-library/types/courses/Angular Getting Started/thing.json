@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-23T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Deborah Kurata>": ""
+  },
+  "links": {
+    "</types/webPages/Angular Getting Started>": ""
+  },
+  "name": "Angular: Getting Started",
+  "path": "/Types/Courses/Angular: Getting Started",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  }
+}

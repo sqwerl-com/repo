@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-06-10T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Am I Overreacting Or Is React Overreacting>": "",
+    "</types/webPages/Discover the Tech Stack for the New Facebook>": "",
+    "</types/webPages/How React 18 Improves Application Performance>": "",
+    "</types/webPages/How to Reduce React App Loading Time By 70 Percent>": "",
+    "</types/webPages/Make Your UI Updates Instant Without Waiting for a Backend With React>": "",
+    "</types/webPages/Optimizing Performance>": "",
+    "</types/webPages/Optimizing React Performance>": "",
+    "</types/webPages/Rebuilding Our Tech Stack for the New Facebook com>": "",
+    "</types/webPages/Why Did You Render>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Performance Optimization",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Performance Optimization",
+  "shortDescription": "Items related to improving the performance of React-based web applications."
+}

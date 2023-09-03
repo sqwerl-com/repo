@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kent Beck>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Test Driven Development: By Example",
+  "path": "/Types/Books/Test Driven Development: By Example",
+  "recommendedBy": {
+    "</types/books/Clean Code>": ""
+  },
+  "shortDescription": ""
+}

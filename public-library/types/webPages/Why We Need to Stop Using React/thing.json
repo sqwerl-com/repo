@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sam Redmond>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why We Need to Stop Using React",
+  "path": "/Types/Web Pages/Why We Need to Stop Using React",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Why We Should Throw Out React and Pick Up Angular>": "",
+    "</types/webPages/Why You Should Choose Angular Over React>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://sredmond.medium.com/why-we-need-to-stop-using-react-1ae3ec7959a4"
+}

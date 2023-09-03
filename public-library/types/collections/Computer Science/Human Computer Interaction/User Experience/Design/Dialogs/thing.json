@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-11T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Best Practices for Modal Window Design>": "",
+    "</types/webPages/SweetAlert>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Dialogs",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Dialogs",
+  "shortDescription": "Things related to designing dialog boxes within user interfaces."
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-05T00:00:00.00-07:00",
+  "books": {
+    "</types/books/97 Things Every Programmer Should Know>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/books/97 Things Every Programmer Should Know>": ""
+  },
+  "name": "97 Things Every Programmer Should Know",
+  "path": "/Types/Web Pages/97 Things Every Programmer Should Know",
+  "shortDescription": "",
+  "url": "https://github.com/97-things/97-things-every-programmer-should-know"
+}
+

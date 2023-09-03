@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Design for Hackers Book",
+  "path": "/Types/Pictures/Design for Hackers Book",
+  "pictureOf": {
+    "</types/books/Design for Hackers>": ""
+  },
+  "representations": {
+    "design_for_hackers_book_cover_large.lnk.json": "",
+    "design_for_hackers_book_cover_medium.lnk.json": "",
+    "design_for_hackers_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

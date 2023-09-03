@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/7 Design Principles Inspired By Zen Wisdom>": "",
+    "</types/collections/Art and Design/Animation>": "",
+    "</types/articles/Bran Identity>": "",
+    "</types/videos/Breakthrough Designs for Ultra Low Cost Products>": "",
+    "</types/webPages/Can Design Change the World>": "",
+    "</types/videos/Design and Discovery>": "",
+    "</types/books/Designing Engineers>": "",
+    "</types/books/Drawing on the Right Side of the Brain>": "",
+    "</types/podcasts/Edward Tufte Wants You to See Better>": "",
+    "</types/webPages/Edward Tufte Wants You to See Better>": "",
+    "</types/videos/Happiness by Design>": "",
+    "</types/webPages/Has Apple Lost Its Design Mojo>": "",
+    "</types/podcasts/High Resolution>": "",
+    "</types/webPages/High Resolution>": "",
+    "</types/videos/Intricate Beauty by Design>": "",
+    "</types/books/Killer Visual Strategies>": "",
+    "</types/webPages/New York City Transit Authority Graphic Standards Manual>": "",
+    "</types/talks/Presenting Data and Information with Edward Tufte>": "",
+    "</types/articles/The Metropolis Conference Highlights from Three Idea Packed Days>": "",
+    "</types/collections/Art and Design/Typography>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Art and Design",
+  "path": "/Types/Collections/Art and Design",
+  "shortDescription": "Things related to the fine arts, architecture, design, and media."
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Bright Lights Big City>": "",
+    "</types/books/Ransom>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jay",
+  "lastName": "McInerney",
+  "middleNameOrInitial": "",
+  "name": "Jay McInerney",
+  "path": "/Types/Authors/Jay McInerney"
+}

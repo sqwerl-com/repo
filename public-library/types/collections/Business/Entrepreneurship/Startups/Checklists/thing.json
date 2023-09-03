@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/How to Build a Web Startup Lean LaunchPad Edition>": "",
+    "</types/webPages/Personality The Fourth Essential of a Customer Centric Business>": "",
+    "</types/webPages/Take This Final Exam to See If You Are Ready to Launch Your Startup>": "",
+    "</types/webPages/The Definitive Checklist for Startup Success>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Checklists",
+  "path": "/Types/Collections/Business/Entrepreneurship/Startups/Checklists",
+  "shortDescription": "Things regarding checklists for starting a new business."
+}

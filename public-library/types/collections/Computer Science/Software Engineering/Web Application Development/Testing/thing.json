@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-08-17T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Testing/Tools>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Testing",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Testing",
+  "shortDescription": "Things related to testing web applications."
+}

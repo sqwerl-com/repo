@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Atwood>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Coding Horror>": ""
+  },
+  "name": "This Is All Your App Is: a Collection of Tiny Details",
+  "path": "/Types/Web Pages/This Is All Your App Is: a Collection of Tiny Details",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://blog.codinghorror.com/this-is-all-your-app-is-a-collection-of-tiny-details/"
+}

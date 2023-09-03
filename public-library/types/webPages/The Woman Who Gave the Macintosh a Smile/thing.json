@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alexandra Lange>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Icons>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/articles/The Woman Who Gave the Macintosh a Smile>": ""
+  },
+  "name": "The Woman Who Gave the Macintosh a Smile",
+  "path": "/Types/Web Pages/The Woman Who Gave the Macintosh a Smile",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Interview with Susan Kare>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.newyorker.com/culture/cultural-comment/the-woman-who-gave-the-macintosh-a-smile"
+}

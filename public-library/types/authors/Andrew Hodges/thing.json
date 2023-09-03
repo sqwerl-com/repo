@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-08-26T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Alan Turing The Enigma>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Andrew",
+  "lastName": "Hodges",
+  "middleNameOrInitial": "",
+  "name": "Andrew Hodges",
+  "path": "/Types/Authors/Andrew Hodges"
+}

@@ -1,0 +1,11 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2013-02-08T00:00:00.00-07:00",
+  "children": {
+    "</types/roles/Administrative>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "name": "Roles",
+  "path": "/Types/Roles",
+  "shortDescription": "Roles (activities) that users can perform."
+}

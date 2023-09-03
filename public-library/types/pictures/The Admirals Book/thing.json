@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-23T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Admirals Book",
+  "path": "/Types/Pictures/The Admirals Book",
+  "pictureOf": {
+    "</types/books/The Admirals>": ""
+  },
+  "representations": {
+    "the_admirals_book_cover_large.png.lnk.json": "",
+    "the_admirals_book_cover_medium.png.lnk.json": "",
+    "the_admirals_book_cover_preview.png.lnk.json": "",
+    "the_admirals_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-08-07T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Common Security Issues in Web Applications Part 1>": "",
+    "</types/webPages/Design Guidelines for Secure Web Applications>": "",
+    "</types/webPages/Excess XSS>": "",
+    "</types/webPages/Is Stack Overflow Secure Kind Of>": "",
+    "</types/courses/Learning the OWASP Top 10 2018>": "",
+    "</types/webPages/Learning the OWASP Top 10 2018>": "",
+    "</types/books/Node Security>": "",
+    "</types/webPages/Node Security Project>": "",
+    "</types/webPages/NodeJS Security Checklist>": "",
+    "</types/webPages/NodeJS Security Tips>": "",
+    "</types/webPages/Observatory by Mozilla>": "",
+    "</types/videos/Running an SQL Injection Attack>": "",
+    "</types/courses/Stanford CS 253 Web Security>": "",
+    "</types/webPages/Web Security Cross Origin Resource Sharing CORS>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Security",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Security",
+  "shortDescription": "Things related to securing web applications."
+}
+

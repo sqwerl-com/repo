@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Art and Design>": "",
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Presenting Data and Information with Edward Tufte",
+  "notes": {
+    "</types/notes/Presenting Data and Information with Edward Tufte>": ""
+  },
+  "path": "/Types/Talks/Presenting Data and Information with Edward Tufte",
+  "shortDescription": "",
+  "speakers": {
+    "</types/authors/Edward R Tufte>": ""
+  }
+}

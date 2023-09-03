@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Extreme Programming Explained Book",
+  "path": "/Types/Pictures/Extreme Programming Explained Book",
+  "pictureOf": {
+    "</types/books/Extreme Programming Explained>": ""
+  },
+  "representations": {
+    "extreme_programming_explained_book_cover_large.jpg.lnk.json": "",
+    "extreme_programming_explained_book_cover_medium.jpg.lnk.json": "",
+    "extreme_programming_explained_book_cover_preview.jpg.lnk.json": "",
+    "extreme_programming_explained_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

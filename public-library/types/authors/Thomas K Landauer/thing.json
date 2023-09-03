@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-02T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Trouble with Computers>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Thomas",
+  "lastName": "Landauer",
+  "middleNameOrInitial": "K",
+  "name": "Thomas K. Landauer",
+  "path": "/Types/Authors/Thomas K. Landauer"
+}

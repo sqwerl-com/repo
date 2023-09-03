@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Sharding and IDs at Instagram",
+  "path": "/Types/Web Pages/Sharding and IDs at Instagram",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://instagram-engineering.tumblr.com/post/10853187575/sharding-ids-at-instagram"
+}

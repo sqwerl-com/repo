@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": [
+    "</types/users>",
+    "</types/groups>",
+    "</types/roles>",
+    "</types/capabilities>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Settings that determine which things people can see or change.",
+  "name": "Permissions",
+  "path": "/Types/Views/Permissions",
+  "shortDescription": "Security access and permissions"
+}
+

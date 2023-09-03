@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jakob Kallin>",
+    "</types/authors/Irene Lobo Valbuena>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Excess XSS",
+  "path": "/Types/Web Pages/Excess XSS",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/XSS>": ""
+  },
+  "title": "Excess XSS: A comprehensive tutorial on cross-site scripting",
+  "url": "http://excess-xss.com/"
+}

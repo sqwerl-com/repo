@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alan Hunt>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Pragmatic Thinking and Learning",
+  "notes": {
+    "</types/notes/Pragmatic Thinking and Learning>": ""
+  },
+  "path": "/Types/Books/Pragmatic Thinking and Learning",
+  "pictures": {
+    "</types/pictures/Pragmatic Thinking and Learning Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

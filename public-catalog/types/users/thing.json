@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2013-02-08T00:00:00.00-07:00",
+  "children": {
+    "</types/users/Administrator>": "",
+    "</types/users/guest>": "",
+    "</types/users/Tom Carroll>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "name": "Users",
+  "path": "/Types/Users",
+  "shortDescription": "Individuals or organizations who interact with libraries of things."
+}

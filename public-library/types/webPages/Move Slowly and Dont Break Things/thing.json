@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Angus Hervey>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Move Slowly, and Don't Break Things",
+  "path": "/Types/Web Pages/Move Slowly, and Don't Break Things",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/videos/Move Fast and Break Nothing>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/future-crunch/move-slowly-and-dont-break-things-693f00601b19"
+}

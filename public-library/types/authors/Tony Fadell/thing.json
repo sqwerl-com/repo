@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-11-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Build>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Tony",
+  "lastName": "Fadell",
+  "middleNameOrInitial": "",
+  "name": "Tony Fadell",
+  "path": "/Types/Authors/Tony Fadell"
+}

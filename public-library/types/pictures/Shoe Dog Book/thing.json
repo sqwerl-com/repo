@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-22T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Shoe Dog Book",
+  "path": "/Types/Pictures/Shoe Dog Book",
+  "pictureOf": {
+    "</types/books/Shoe Dog>": ""
+  },
+  "representations": {
+    "shoe_dog_book_cover_large.png.lnk.json": "",
+    "shoe_dog_book_cover_medium.png.lnk.json": "",
+    "shoe_dog_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

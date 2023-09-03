@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Annals of the Heechee Book",
+  "path": "/Types/Pictures/The Annals of the Heechee Book",
+  "pictureOf": {
+    "</types/books/The Annals of the Heechee>": ""
+  },
+  "representations": {
+    "the_annals_of_the_heechee_book_cover_large.jpg.lnk.json": "",
+    "the_annals_of_the_heechee_book_cover_medium.jpg.lnk.json": "",
+    "the_annals_of_the_heechee_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

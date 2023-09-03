@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-02-05T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Art and Design>": "",
+    "</types/collections/Business>": "",
+    "</types/collections/Computer Science>": "",
+    "</types/collections/Education>": "",
+    "</types/collections/Favorites>": "",
+    "</types/collections/Fiction>": "",
+    "</types/collections/Geography and Cartography>": "",
+    "</types/collections/History>": "",
+    "</types/collections/Inbox>": "",
+    "</types/collections/Life>": "",
+    "</types/collections/Mathematics>": "",
+    "</types/collections/New Things>": "",
+    "</types/collections/Political Science>": "",
+    "</types/collections/Projects>": "",
+    "</types/collections/Psychology>": "",
+    "</types/collections/Science>": "",
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Writing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "A collection is a named group of related things. Collections may contain sub-collections.",
+  "name": "Collections of things",
+  "path": "/Types/Collections of things",
+  "shortDescription": "Named collections of related things."
+}

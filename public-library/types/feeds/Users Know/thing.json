@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-04T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://www.usersknow.com/blog/",
+  "links": {
+    "</types/authors/Laura Klein>": "",
+    "</types/podcasts/Stop Arguing With Feedback>": "",
+    "</types/podcasts/Stop Saying Users Dont Know What They Want>": ""
+  },
+  "name": "Users Know",
+  "path": "/Types/Feeds/Users Know",
+  "recommendedBy": {
+    "</types/books/UX for Lean Startups>": ""
+  },
+  "shortDescription": "",
+  "webPage": "</types/webPages/Users Know>"
+}

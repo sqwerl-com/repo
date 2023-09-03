@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-20T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Nigel Poulton>": ""
+  },
+  "links": {
+    "</types/webPages/Docker and Kubernetes The Big Picture>": ""
+  },
+  "name": "Docker and Kubernetes: The Big Picture",
+  "path": "/Types/Courses/Docker and Kubernetes: The Big Picture",
+  "recommendations": {
+    "</types/courses/Getting Started with Docker>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Docker>": "",
+    "</types/tags/Kubernetes>": ""
+  }
+}

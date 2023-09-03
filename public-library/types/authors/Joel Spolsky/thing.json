@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Joel on Software>": "",
+    "</types/webPages/Joel on Software>": "",
+    "</types/books/More Joel on Software>": "",
+    "</types/books/User Interface Design for Programmers>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Joel",
+  "lastName": "Spolsky",
+  "links": {
+    "</types/webPages/A New Version of the Joel Test>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Joel Spolsky",
+  "path": "/Types/Authors/Joel Spolsky"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-08-30T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/North>": "",
+    "</types/books/The Usability Engineering Lifecycle>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Process",
+  "path": "/Types/Collections/Computer Science/Software Engineering/User Interface Development/Process",
+  "shortDescription": "Process methodologies and best practices for developing user interfaces."
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Getting Real>": "",
+    "</types/books/It Doesnt Have to Be Crazy at Work>": "",
+    "</types/books/Rework>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jason",
+  "lastName": "Fried",
+  "middleNameOrInitial": "",
+  "name": "Jason Fried",
+  "path": "/Types/Authors/Jason Fried"
+}

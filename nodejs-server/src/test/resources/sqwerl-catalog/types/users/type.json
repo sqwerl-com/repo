@@ -1,0 +1,140 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "description": "Individuals who use Sqwerl to manage their things.",
+  "extends": "</types>",
+  "name": "Users",
+  "controller": "</types/users/Administrator>",
+  "properties": {
+    "account": {
+      "description": "Users' Sqwerl accounts.",
+      "shortDescription": "Account.",
+      "type": "</types/accounts>"
+    },
+    "added": {
+      "description": "The things a user has added to a library of things.",
+      "inverse": "addedBy",
+      "shortDescription": "Things a user has added to a library.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes a user.",
+      "name": "Description",
+      "shortDescription": "A user's description.",
+      "type": "text"
+    },
+    "emails": {
+      "description": "A user's email addresses.",
+      "required": true,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": [
+        "email"
+      ]
+    },
+    "firstName": {
+      "description": "A user's first (given) name.",
+      "required": true,
+      "shortDescription": "",
+      "type": "text"
+    },
+    "groups": {
+      "description": "The groups a user is a member of.",
+      "relatedTo": "users",
+      "required": true,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/groups>": ""
+      }
+    },
+    "handle": {
+      "description": "The user's handle (nickname).",
+      "name": "Handle",
+      "shortDescription": "The name that the user wants to be visible to other users.",
+      "type": "text"
+    },
+    "hasAttended": {
+      "description": "Events a person has attended.",
+      "inverse": "attendedBy",
+      "name": "Attended",
+      "type": {
+        "</types>": ""
+      }
+    },
+    "hasListenedTo": {
+      "description": "Things the user has listened to.",
+      "inverse": "listeners",
+      "name": "Listened To",
+      "type": {
+        "</types>": ""
+      }
+    },
+    "hasRead": {
+      "description": "Things a user has read.",
+      "relatedTo": "readBy",
+      "shortDescription": "Has read",
+      "type": {
+        "</types>": ""
+      }
+    },
+    "hasViewed": {
+      "description": "Things that a user has viewed.",
+      "inverse": "viewedBy",
+      "name": "View",
+      "type": {
+        "</types>": ""
+      }
+    },
+    "isReading": {
+      "description": "Things a user is currently reading.",
+      "inverse": "reading",
+      "shortDescription": "Reading",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "lastName": {
+      "description": "A user's last name (surname).",
+      "required": true,
+      "shortDescription": "",
+      "type": "text"
+    },
+    "middleNameOrInitial": {
+      "description": "A user's middle name or middle name initial.",
+      "shortDescription": "",
+      "type": "text"
+    },
+    "controller": "</types/users/Administrator>",
+    "controls": {
+      "description": "Objects that a user controls access to.",
+      "inverse": "controller",
+      "required": true,
+      "shortDescription": "Controlled objects.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    }
+  },
+  "shortDescription": "Users."
+}

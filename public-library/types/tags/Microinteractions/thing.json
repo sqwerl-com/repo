@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-26T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to improving small interactions between people and software.",
+  "name": "Microinteractions",
+  "path": "/Types/Tags/Microinteractions",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/Focusing On What Our Users Shouldnt Focus On>": "",
+    "</types/feeds/Little Big Details>": "",
+    "</types/books/Microinteractions>": "",
+    "</types/webPages/SweetAlert>": ""
+  },
+  "text": "Microinteractions"
+}

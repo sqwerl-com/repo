@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {
+    "</types/groups/Administrators>": ""
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "The account for guest (anonymous) users.",
+  "isEnabled": true,
+  "isLocked": false,
+  "mustChangePassword": false,
+  "name": "Guest",
+  "path": "/Types/Accounts/Guest",
+  "shortDescription": "Guest (anonymous) user account.",
+  "user": "</types/users/guest>"
+}

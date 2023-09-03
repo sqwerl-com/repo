@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-05-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the React JavaScript framework's hooks programming interface.",
+  "name": "React hooks",
+  "path": "/Types/Tags/React hooks",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/3 Mistakes Junior Developers Make with React Function Component State>": "",
+    "</types/webPages/Convert Your Class Component to a Functional One with React Hooks>": "",
+    "</types/webPages/Make Your UI Updates Instant Without Waiting for a Backend With React>": "",
+    "</types/webPages/Why React Hooks and How Did We Even Get Here>": ""
+  },
+  "text": "React hooks"
+}

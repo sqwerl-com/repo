@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Simple Positioning of Views in SproutCore>": "",
+    "</types/webPages/SproutCore>": "",
+    "</types/webPages/SproutCore and NodeJS are Stars and Comets>": "",
+    "</types/webPages/SproutCore Guides Theming Your App>": "",
+    "</types/feeds/SproutCore Hacks>": "",
+    "</types/webPages/SproutCore Showcase>": "",
+    "</types/books/SproutCore Web Application Development>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": "",
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "SproutCore",
+  "path": "/Types/Collections/Computer Science/Software Engineering/User Interface Development/UI Frameworks/SproutCore",
+  "shortDescription": ""
+}

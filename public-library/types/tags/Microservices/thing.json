@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-04-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to building distributed applications that consist of multiple independent services.",
+  "name": "Microservices",
+  "path": "/Types/Tags/Microservices",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/Best Practices for Authorization in Microservices>": "",
+    "</types/videos/The Problem with Microservices>": ""
+  },
+  "text": "Microservices"
+}

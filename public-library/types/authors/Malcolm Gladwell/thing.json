@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Blink>": "",
+    "</types/books/Outliers>": "",
+    "</types/books/The Tipping Point>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Malcolm",
+  "lastName": "Gladwell",
+  "middleNameOrInitial": "",
+  "name": "Malcolm Gladwell",
+  "path": "/Types/Authors/Malcolm Gladwell"
+}

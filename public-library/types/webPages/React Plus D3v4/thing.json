@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Swizec Teller>"
+  ],
+  "books": {
+    "</types/books/React Plus D3v4>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React + D3v4",
+  "path": "/Types/Web Pages/React + D3v4",
+  "recommendations": {
+    "</types/videos/Reusable Data Visualization with React and D3js>": ""
+  },
+  "shortDescription": "Web page for the book titled \"React + D3v4\"",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://swizec.com/reactd3js/"
+}

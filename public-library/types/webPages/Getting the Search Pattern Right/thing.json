@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bruno Charters>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Search>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Getting the Search Pattern Right",
+  "path": "/Types/Web Pages/Getting the Search Pattern Right",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/8 Design Patterns for Autocomplete Suggestions>": "",
+    "</types/webPages/Placeholders in Form Fields are Harmful>": "",
+    "</types/books/Prioritizing Web Usability>": "",
+    "</types/webPages/Search Visible and Simple>": "",
+    "</types/webPages/The Magnifying Glass Icon in Search Design>": "",
+    "</types/webPages/The Most Important Rule in UX Design that Everyone Breaks>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/search>": ""
+  },
+  "url": "https://uxplanet.org/getting-the-search-pattern-right-e71dbb59dc67"
+}

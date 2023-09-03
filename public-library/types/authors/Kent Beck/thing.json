@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/papers/A Laboratory for Teaching Object Oriented Thinking>": "",
+    "</types/books/Extreme Programming Explained>": "",
+    "</types/books/Test Driven Development By Example>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Kent",
+  "lastName": "Beck",
+  "middleNameOrInitial": "",
+  "name": "Kent Beck",
+  "path": "/Types/Authors/Kent Beck"
+}

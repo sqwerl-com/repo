@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jonathon Colman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Content>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Epic List of Content Strategy Resources",
+  "path": "/Types/Web Pages/The Epic List of Content Strategy Resources",
+  "recommendedBy": {
+    "</types/videos/Designing Content for Product Experiences>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Content strategy>": ""
+  },
+  "url": "http://www.jonathoncolman.org/2013/02/04/content-strategy-resources/"
+}

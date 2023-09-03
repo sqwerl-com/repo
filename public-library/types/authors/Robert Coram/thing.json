@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-11-20T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Boyd>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Robert",
+  "lastName": "Coram",
+  "middleNameOrInitial": "",
+  "name": "Robert Coram",
+  "path": "/Types/Authors/Robert Coram"
+}

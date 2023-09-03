@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Marcel Birkner>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Cloud Computing/Amazon Web Services>": "",
+    "</types/collections/Computer Science/Software Engineering/Continuous Delivery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Continuous Delivery in the Cloud Part 1>": "",
+    "</types/webPages/Continuous Delivery in the Cloud Part 2>": "",
+    "</types/webPages/Continuous Delivery in the Cloud Part 3>": ""
+  },
+  "name": "Continuous Delivery in the Cloud - Part 4",
+  "path": "/Types/Web Pages/Continuous Delivery in the Cloud - Part 4",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Continuous delivery>": ""
+  },
+  "url": "http://blog.codecentric.de/en/2012/05/continuous-delivery-in-the-cloud-part-4-provisioning-your-test-staging-and-production-environments/"
+}

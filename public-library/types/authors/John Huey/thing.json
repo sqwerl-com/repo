@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-01-20T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Sam Walton Made in America>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "John",
+  "lastName": "Huey",
+  "middleNameOrInitial": "",
+  "name": "John Huey",
+  "path": "/Types/Authors/John Huey"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Amy Blankenship>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why TypeScript Won't Save Your Project",
+  "path": "/Types/Web Pages/Why TypeScript Won't Save Your Project",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://amy-blankenship.medium.com/why-typescript-wont-save-your-project-704c1dfdf8f1"
+}

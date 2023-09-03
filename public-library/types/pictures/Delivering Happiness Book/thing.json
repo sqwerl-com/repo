@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Delivering Happiness Book",
+  "path": "/Types/Pictures/Delivering Happiness Book",
+  "pictureOf": {
+    "</types/books/Delivering Happiness>": ""
+  },
+  "representations": {
+    "delivering_happiness_book_cover_large.lnk.json": "",
+    "delivering_happiness_book_cover_medium.lnk.json": "",
+    "delivering_happiness_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

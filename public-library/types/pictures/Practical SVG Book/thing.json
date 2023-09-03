@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Practical SVG Book",
+  "path": "/Types/Pictures/Practical SVG Book",
+  "pictureOf": {
+    "</types/books/Practical SVG>": ""
+  },
+  "representations": {
+    "practical_svg_book_cover_large.png.lnk.json": "",
+    "practical_svg_book_cover_medium.png.lnk.json": "",
+    "practical_svg_book_cover_preview.png.lnk.json": "",
+    "practical_svg_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

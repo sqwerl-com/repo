@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-11T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to CSS flexbox layouts",
+  "name": "Flexbox",
+  "path": "/Types/Tags/Flexbox",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/A Complete Guide to CSS Flexbox Part 1>": "",
+    "</types/webPages/A Complete Guide to CSS Flexbox Part 2>": "",
+    "</types/webPages/Basic Concepts of Flexbox>": ""
+  },
+  "text": "Flexbox"
+}
+

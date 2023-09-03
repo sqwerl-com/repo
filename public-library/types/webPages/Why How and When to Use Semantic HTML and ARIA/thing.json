@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Adam Silver>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why, How, and When to Use Semantic HTML and ARIA",
+  "path": "/Types/Web Pages/Why, How, and When to Use Semantic HTML and ARIA",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/"
+}

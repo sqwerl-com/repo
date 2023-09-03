@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-08-17T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Making GWT Better>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "GWT",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/GWT",
+  "shortDescription": "Items regarding the Google Web Toolkit (GWT) library for web application development."
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-12-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Continuous Delivery",
+  "path": "/Types/Tags/Continuous Delivery",
+  "shortDescription": "Things related to automating the delivery of software to users.",
+  "tagged": {
+    "</types/books/Continuous Delivery>": "",
+    "</types/webPages/Continuous Delivery>": "",
+    "</types/webPages/Continuous Delivery in the Cloud Part 1>": "",
+    "</types/webPages/Continuous Delivery in the Cloud Part 2>": "",
+    "</types/webPages/Continuous Delivery in the Cloud Part 3>": "",
+    "</types/webPages/Continuous Delivery in the Cloud Part 4>": "",
+    "</types/papers/Continuous Delivery with Jenkins>": "",
+    "</types/webPages/Continuous Delivery With Jenkins Part 1>": "",
+    "</types/webPages/Continuous Delivery With Jenkins Part 2>": "",
+    "</types/webPages/Continuous Delivery With Jenkins Part 3>": "",
+    "</types/webPages/Continuous Delivery With Jenkins Part 4>": "",
+    "</types/webPages/Continuous Delivery YouTube Channel>": "",
+    "</types/webPages/Continuous Deployment in 5 Easy Steps>": ""
+  },
+  "text": "Continuous Delivery"
+}

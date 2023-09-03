@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Paul Graham>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Lisp>": "",
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Lisp Language Organization>": ""
+  },
+  "name": "The Roots of Lisp",
+  "notes": {
+    "</types/notes/The Roots of Lisp>": ""
+  },
+  "path": "/Types/Papers/The Roots of Lisp",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/Recursive Functions of Symbolic Expressions and Their Computation by Machine Part 1>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

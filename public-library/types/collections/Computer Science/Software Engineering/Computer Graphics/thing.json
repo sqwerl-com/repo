@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Handbook of Graph Drawing and Visualization>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Computer Graphics",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Computer Graphics",
+  "shortDescription": ""
+}

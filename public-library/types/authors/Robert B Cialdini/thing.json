@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Influence>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Robert",
+  "lastName": "Cialdini",
+  "middleNameOrInitial": "B",
+  "name": "Robert B. Cialdini",
+  "path": "/Types/Authors/Robert B. Cialdini"
+}

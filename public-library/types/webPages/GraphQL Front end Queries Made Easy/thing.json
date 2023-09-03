@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rasheed Bustamam>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/GraphQL>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "GraphQL: Front-end Queries Made Easy",
+  "path": "/Types/Web Pages/GraphQL: Front-end Queries Made Easy",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Apollo GraphQL Client Repository>": "",
+    "</types/webPages/Relay>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/GraphQL>": ""
+  },
+  "url": "https://medium.freecodecamp.org/graphql-front-end-queries-made-easy-68e9d9ded283"
+}

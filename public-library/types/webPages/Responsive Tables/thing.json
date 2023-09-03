@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nadan Gergeo>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Responsive Tables",
+  "path": "/Types/Web Pages/Responsive Tables",
+  "recommendedBy": {
+    "</types/books/Responsive Web Design in 24 Hours>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Responsive design>": ""
+  },
+  "url": "http://gergeo.se/RWD-Table-Patterns/"
+}

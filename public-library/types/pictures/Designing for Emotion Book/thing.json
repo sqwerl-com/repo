@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing for Emotion Book",
+  "path": "/Types/Pictures/Designing for Emotion Book",
+  "pictureOf": {
+    "</types/books/Designing for Emotion>": ""
+  },
+  "representations": {
+    "designing_for_emotion_book_cover_large.lnk.json": "",
+    "designing_for_emotion_book_cover_medium.lnk.json": "",
+    "designing_for_emotion_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

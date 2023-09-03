@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Clean Code>": "",
+    "</types/documents/Clean Code Cheat Sheet>": "",
+    "</types/courses/Clean Code Programming for Humans>": "",
+    "</types/webPages/Conditional Rendering in React>": "",
+    "</types/webPages/Engineers Dont Want Clean Code>": "",
+    "</types/webPages/Let the Code Speak>": "",
+    "</types/webPages/Putting Comments in Code>": "",
+    "</types/webPages/Reading Clean Code Week 1>": "",
+    "</types/webPages/The 100 Percent Correct Coding Style Guide>": "",
+    "</types/feeds/The Clean Code Blog>": "",
+    "</types/webPages/These Four Clean Code Tips Will Dramatically Improve Your Engineering Teams Productivity>": "",
+    "</types/webPages/What is Clean Code>": "",
+    "</types/videos/Write Perfect Code With Standard and ESLint>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Clean Code",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Clean Code",
+  "shortDescription": ""
+}

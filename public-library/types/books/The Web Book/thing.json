@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert Schifreen>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Web Book",
+  "notes": {
+    "</types/notes/The Web Book>": ""
+  },
+  "path": "/Types/Books/The Web Book",
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Web Book: How to create Web sites and applications with HTML, CSS, Javascript, PHP and MySQL."
+}

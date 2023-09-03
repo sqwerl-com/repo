@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-10-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tim Severien>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Yarn vs NPM: Everything You Need to Know",
+  "path": "/Types/Web Pages/Yarn vs NPM: Everything You Need to Know",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Yarn>": ""
+  },
+  "url": "https://www.sitepoint.com/yarn-vs-npm/"
+}

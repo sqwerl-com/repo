@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-02T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Favorites>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/An Introduction to React Portals>": ""
+  },
+  "name": "OpenReplay Blog",
+  "path": "/Types/Web Pages/OpenReplay Blog",
+  "shortDescription": "Blog containing articles on Web application development",
+  "url": "https://blog.openreplay.com/"
+}

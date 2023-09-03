@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-20T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Kubernetes Book>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Nigel",
+  "instructed": {
+    "</types/courses/Docker and Kubernetes The Big Picture>": "",
+    "</types/courses/Getting Started with Docker>": ""
+  },
+  "lastName": "Poulton",
+  "middleNameOrInitial": "",
+  "name": "Nigel Poulton",
+  "path": "/Types/Authors/Nigel Poulton"
+}

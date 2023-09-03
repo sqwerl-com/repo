@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Artem Tabalin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Perfect Code",
+  "path": "/Types/Web Pages/Perfect Code",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Perfect Code: How to Write High-Quality Code",
+  "url": "http://www.slideshare.net/ArtemTabalin/perfect-code"
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Cliff Stoll>"
+  ],
+  "collections": {
+    "</types/collections/History>": "",
+    "</types/collections/Computer Science/Software Engineering/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Cuckoo's Egg",
+  "path": "/Types/Books/The Cuckoo's Egg",
+  "pictures": {
+    "</types/pictures/The Cuckoos Egg Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage"
+}

@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Elijah Meeks>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "D3 is not a Data Visualization Library",
+  "path": "/Types/Web Pages/D3 is not a Data Visualization Library",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/D3js in Action>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/The Trouble with D3>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://medium.com/@Elijah_Meeks/d3-is-not-a-data-visualization-library-67ba549e8520"
+}

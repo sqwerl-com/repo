@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Seven Languages in Seven Weeks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Bruce",
+  "lastName": "Tate",
+  "middleNameOrInitial": "A",
+  "name": "Bruce A. Tate",
+  "path": "/Types/Authors/Bruce A. Tate"
+}

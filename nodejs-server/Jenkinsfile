@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+    stages {
+        stage('build') {
+            steps {
+                sh 'yarn install'
+                sh 'cp -Rn ../nodegit/* ./node_modules/nodegit'
+                sh 'yarn build'
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'yarn test'
+            }
+            post {
+                always {
+                    step([$class: 'CoberturaPublisher', coberturaReportFile: 'target/reports/tests/cobertura-coverage.xml'])
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-02T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Visual Interface Design for Windows Book",
+  "path": "/Types/Pictures/Visual Interface Design for Windows Book",
+  "pictureOf": {
+    "</types/books/Visual Interface Design for Windows>": ""
+  },
+  "representations": {
+    "visual_interface_design_for_windows_book_cover_large.jpg.lnk.json": "",
+    "visual_interface_design_for_windows_book_cover_medium.jpg.lnk.json": "",
+    "visual_interface_design_for_windows_book_cover_preview.jpg.lnk.json": "",
+    "visual_interface_design_for_windows_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

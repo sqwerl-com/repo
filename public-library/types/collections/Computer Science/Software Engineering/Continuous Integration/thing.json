@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Continuous Integration for JavaScript>": "",
+    "</types/webPages/Continuous Integration for Mobile>": "",
+    "</types/documents/Continuous Integration Patterns and Anti Patterns>": "",
+    "</types/feeds/Jenkins Security Advisories>": "",
+    "</types/webPages/Jenkins Security Best Practices>": "",
+    "</types/books/Jenkins The Definitive Guide>": "",
+    "</types/webPages/Notes from my Pursuit of the Perfect Front End Build>": "",
+    "</types/webPages/Setting Up a Jenkins Build Server on EC2>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Continuous Integration",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Continuous Integration",
+  "shortDescription": ""
+}

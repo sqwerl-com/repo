@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-02-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Elliott>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The TypeScript Tax",
+  "path": "/Types/Web Pages/The TypeScript Tax",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b"
+}

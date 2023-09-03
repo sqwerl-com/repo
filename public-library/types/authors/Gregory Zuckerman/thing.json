@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-06-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Man Who Solved the Market>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Gregory",
+  "lastName": "Zuckerman",
+  "middleNameOrInitial": "",
+  "name": "Gregory Zuckerman",
+  "path": "/Types/Authors/Gregory Zuckerman"
+}

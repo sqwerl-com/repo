@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-31T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to icons: pictorial representations of things.",
+  "name": "Icons",
+  "path": "/Types/Tags/Icons",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/Free Icon Set for Web Designers>": "",
+    "</types/webPages/How to Make Your Own Icon Webfont>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Icon Libraries>": "",
+    "</types/books/The Icon Book>": "",
+    "</types/webPages/The Magnifying Glass Icon in Search Design>": "",
+    "</types/webPages/Themify Icons>": "",
+    "</types/webPages/Vaadin Font Icons>": ""
+  },
+  "text": "Icons"
+}

@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2013-02-23T00:00:00.00-07:00",
+  "children": {
+    "</types/accounts>": "",
+    "</types/articles>": "",
+    "</types/aspects>": "",
+    "</types/authors>": "",
+    "</types/books>": "",
+    "</types/capabilities>": "",
+    "</types/collections>": "",
+    "</types/courses>": "",
+    "</types/documents>": "",
+    "</types/feeds>": "",
+    "</types/groups>": "",
+    "</types/libraries>": "",
+    "</types/notes>": "",
+    "</types/papers>": "",
+    "</types/roles>": "",
+    "</types/tags>": "",
+    "</types/talks>": "",
+    "</types/users>": "",
+    "</types/videos>": "",
+    "</types/views>": "",
+    "</types/webPages>": ""
+  },
+  "name": "Types",
+  "controller": "</types/users/Administrator>"
+}

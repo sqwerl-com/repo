@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Lex Fridman>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/authors/Jaron Lanier>": ""
+  },
+  "name": "Jaron Lanier: Virtual Reality, Social Media, and the Future of Humans and AI",
+  "path": "/Types/Videos/Jaron Lanier: Virtual Reality, Social Media, and the Future of Humans and AI",
+  "recommendations": {
+    "</types/books/Doctor Sax>": "",
+    "</types/books/Mans Search for Meaning>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=Fx0G6DHMfXM",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

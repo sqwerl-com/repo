@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-11-21T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Zen and the Art of Motorcycle Maintenance>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Robert",
+  "lastName": "Pirsig",
+  "middleNameOrInitial": "M",
+  "name": "Robert M. Pirsig",
+  "path": "/Types/Authors/Robert M. Pirsig"
+}

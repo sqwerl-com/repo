@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/R G G Cattell>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/Object Oriented>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Object Database Standard: ODMG-93 Release 1.2",
+  "path": "/Types/Books/The Object Database Standard: ODMG-93 Release 1.2",
+  "pictures": {
+    "</types/pictures/The Object Database Standard ODMG 93 Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

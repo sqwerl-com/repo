@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Rational Unified Process Book",
+  "path": "/Types/Pictures/The Rational Unified Process Book",
+  "pictureOf": {
+    "</types/books/The Rational Unified Process>": ""
+  },
+  "representations": {
+    "the_rational_unified_process.jpg.lnk.json": "",
+    "the_rational_unified_process_preview.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sebastian McKenzie>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Yarn Determinism",
+  "path": "/Types/Web Pages/Yarn Determinism",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "tags": {
+    "</types/tags/Yarn>": ""
+  },
+  "url": "https://yarnpkg.com/blog/2017/05/31/determinism/"
+}

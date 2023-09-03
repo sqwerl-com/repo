@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John P Lee>",
+    "</types/authors/Georges G Grinstein>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Database Issues for Visualization",
+  "notes": {
+    "</types/notes/Database Issues for Visualization>": ""
+  },
+  "path": "/Types/Books/Database Issues for Visualization",
+  "pictures": {
+    "</types/pictures/Database Issues for Visualization Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

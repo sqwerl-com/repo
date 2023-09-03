@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Grady Booch>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": "",
+    "</types/collections/Computer Science/Software Engineering/Methodologies/Object Oriented Analysis and Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Object-oriented Analysis and Design with Applications",
+  "notes": {
+    "</types/notes/Object Oriented Analysis and Design with Applications>": ""
+  },
+  "path": "/Types/Books/Object-oriented Analysis and Design with Applications",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

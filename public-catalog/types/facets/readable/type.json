@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that people can read.",
+  "extends": "</types/facets>",
+  "name": "Readable",
+  "path": "/Types/Facets/Readable",
+  "properties": {
+    "faceted": {
+      "inverse": "facets",
+      "type": {
+        "</types/facets>": ""
+      }
+    },
+    "readBy": {
+      "inverse": "hasRead",
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "readers": {
+      "inverse": "isReading",
+      "type": {
+        "</types/users>": ""
+      }
+    }
+  },
+  "shortDescription": "Things that people read."
+}

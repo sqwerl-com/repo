@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Information Rules>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Carl",
+  "lastName": "Shapiro",
+  "middleNameOrInitial": "",
+  "name": "Carl Shapiro",
+  "path": "/Types/Authors/Carl Shapiro"
+}

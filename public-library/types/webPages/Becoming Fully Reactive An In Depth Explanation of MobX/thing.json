@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michel Weststrate>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Becoming Fully Reactive An In Depth Explanation of MobX",
+  "path": "/Types/Web Pages/Becoming Fully Reactive An In Depth Explanation of MobX",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/MobX>": ""
+  },
+  "url": "https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254"
+}

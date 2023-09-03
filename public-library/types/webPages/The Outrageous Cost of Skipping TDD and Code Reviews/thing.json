@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-12-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Elliott>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Outrageous Cost of Skipping TDD and Code Reviews",
+  "path": "/Types/Web Pages/The Outrageous Cost of Skipping TDD and Code Reviews",
+  "shortDescription": "",
+  "url": "https://medium.com/javascript-scene/the-outrageous-cost-of-skipping-tdd-code-reviews-57887064c412"
+}

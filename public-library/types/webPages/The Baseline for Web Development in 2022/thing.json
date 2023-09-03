@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alan DaValos>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Guidelines>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Baseline for Web Development in 2022",
+  "path": "/Types/Web Pages/The Baseline for Web Development in 2022",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://engineering.linecorp.com/en/blog/the-baseline-for-web-development-in-2022/"
+}

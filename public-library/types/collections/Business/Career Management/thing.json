@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-22T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/10 Ways to be Sensationally Successful at your New Job>": "",
+    "</types/webPages/15 Things Successful People Do>": "",
+    "</types/webPages/5 Questions Great Job Candidates Ask>": "",
+    "</types/webPages/5 Soft Skills You Should Always Bring Up in an Interview>": "",
+    "</types/webPages/Essential Qualities of Highly Promotable Employees>": "",
+    "</types/webPages/Identity Branding for Programmers>": "",
+    "</types/webPages/Just Got Hired 100 Days to the Perfect Start>": "",
+    "</types/webPages/My Somewhat Complete Salary History as a Software Engineer>": "",
+    "</types/books/Peopleware>": "",
+    "</types/webPages/Salary Negotiation>": "",
+    "</types/webPages/The Engineers Engineer>": "",
+    "</types/webPages/The Only Way to Raise Your Salary>": "",
+    "</types/webPages/What I Learned from Hiring Hundreds of Engineers can Help You Land Your Next Role>": "",
+    "</types/webPages/Your Career Success Hinges on One Word Do You Know It>": ""
+  },
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Career Management",
+  "path": "/Types/Collections/Business/Career Management",
+  "shortDescription": "Things related to managing one's career."
+}

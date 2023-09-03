@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ardennes 1944: The Battle of the Bulge Book",
+  "path": "/Types/Pictures/Ardennes 1944 The Battle of the Bulge Book",
+  "pictureOf": {
+    "</types/books/Ardennes 1944 The Battle of the Bulge>": ""
+  },
+  "representations": {
+    "ardennes_1944_the_battle_of_the_bulge_book_cover_large.lnk.json": "",
+    "ardennes_1944_the_battle_of_the_bulge_book_cover_medium.lnk.json": "",
+    "ardennes_1944_the_battle_of_the_bulge_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

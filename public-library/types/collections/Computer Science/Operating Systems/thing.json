@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Apple WWDC Session Videos>": "",
+    "</types/collections/Computer Science/Operating Systems/iOS>": "",
+    "</types/collections/Computer Science/Operating Systems/Linux>": "",
+    "</types/collections/Computer Science/Operating Systems/MacOS X>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Operating Systems",
+  "path": "/Types/Collections/Computer Science/Operating Systems",
+  "shortDescription": ""
+}

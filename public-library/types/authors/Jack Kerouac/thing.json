@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Doctor Sax>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jack",
+  "lastName": "Kerouac",
+  "middleNameOrInitial": "",
+  "name": "Jack Kerouac",
+  "path": "/Types/Authors/Jack Kerouac"
+}

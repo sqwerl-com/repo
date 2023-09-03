@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Icon Book>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "William",
+  "lastName": "Horton",
+  "middleNameOrInitial": "",
+  "name": "William Horton",
+  "path": "/Types/Authors/William Horton"
+}

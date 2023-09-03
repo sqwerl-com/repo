@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-09-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Addy Osmani>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://addyosmani.com/blog/",
+  "items": {
+    "</types/webPages/Offline installation of npm packages>": ""
+  },
+  "name": "Addy Osmani's Blog",
+  "path": "/Types/Feeds/Addy Osmani's Blog",
+  "shortDescription": ""
+}

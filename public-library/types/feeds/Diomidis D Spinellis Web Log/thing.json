@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-06-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Diomidis D Spinellis>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://www.spinellis.gr/blog/dds-blog-rss.xml",
+  "name": "Diomidis D. Spinellis Web Log",
+  "path": "/Types/Feeds/Diomidis D. Spinellis Web Log",
+  "shortDescription": ""
+}

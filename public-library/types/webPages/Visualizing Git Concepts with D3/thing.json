@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-04-22T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": "",
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Visualizing Git Concepts with D3",
+  "path": "/Types/Web Pages/Visualizing Git Concepts with D3",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://onlywei.github.io/explain-git-with-d3/"
+}

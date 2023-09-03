@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-18T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Letting Go of the Words Book",
+  "path": "</types/pictures/Letting Go of the Words Book>",
+  "pictureOf": {
+    "</types/books/Letting Go of the Words>": ""
+  },
+  "representations": {
+    "letting_go_of_the_words_book_cover_large.png.lnk.json": "",
+    "letting_go_of_the_words_book_cover_medium.png.lnk.json": "",
+    "letting_go_of_the_words_book_cover_preview.png.lnk.json": "",
+    "letting_go_of_the_words_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

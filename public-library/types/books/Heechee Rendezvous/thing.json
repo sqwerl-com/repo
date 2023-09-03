@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Frederik Pohl>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Gateway>": "",
+    "</types/books/The Annals of the Heechee>": ""
+  },
+  "name": "Heechee Rendezvous",
+  "path": "/Types/Books/Heechee Rendezvous",
+  "pictures": {
+    "</types/pictures/Heechee Rendezvous Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bill Scott>",
+    "</types/authors/Theresa Neil>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Pattern Repositories>": "",
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/Web>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Designing Web Interfaces",
+  "path": "/Types/Books/Designing Web Interfaces",
+  "pictures": {
+    "</types/pictures/Designing Web Interfaces Book>": ""
+  },
+  "shortDescription": "",
+  "title": "Designing Web Interfaces: Principles and Patterns for Rich Interaction",
+  "webPages": {
+    "</types/webPages/Designing Web Interfaces>": ""
+  }
+}

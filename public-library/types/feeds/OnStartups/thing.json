@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://feed.onstartups.com/onstartups",
+  "items": {
+    "</types/webPages/13 Ways to Think About and Crush Your Competition>": "",
+    "</types/webPages/16 Brilliant Insights from Steve Jobs Keynote Circa 1997>": "",
+    "</types/webPages/17 Mutable Suggestions for Naming a Startup>": "",
+    "</types/webPages/23 Tweetable Insights from The Lean Startup>": "",
+    "</types/webPages/Choosing a Minimally Viable Cofounder>": "",
+    "</types/webPages/How To Know Your Side Project Is Ready To Be A Startup>": "",
+    "</types/webPages/How to Survive a Ground Up Rewrite Without Losing Your Sanity>": "",
+    "</types/webPages/Important Questions Startup Cofounders Should Ask Each Other>": "",
+    "</types/webPages/Insight from Dropbox Failure Is Not the Worst Outcome Mediocrity Is>": "",
+    "</types/webPages/OnStartups com>": "",
+    "</types/webPages/Recruiting Developers Create an Awesome Candidate Experience>": "",
+    "</types/webPages/Video of Dharmesh Shah at Business of Software 2010 Conference>": "",
+    "</types/webPages/Why FastCompany Gets The Lean Startup Almost Completely Wrong>": ""
+  },
+  "links": {
+    "</types/authors/Dharmesh Shah>": ""
+  },
+  "name": "OnStartups",
+  "path": "/Types/Feeds/OnStartups",
+  "shortDescription": ""
+}

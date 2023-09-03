@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/papers/A Syntactic Approach to Type Soundness>": "",
+    "</types/webPages/A Tutorial On the Basics of Logic Gates>": "",
+    "</types/webPages/Alan Turing in America>": "",
+    "</types/webPages/An Introduction to Functional Programming>": "",
+    "</types/books/An Introduction to the Theory of Computation>": "",
+    "</types/videos/Asymptotic Notation>": "",
+    "</types/books/Discrete Mathematics Revised Edition>": "",
+    "</types/books/Elements of the Theory of Computation>": "",
+    "</types/videos/Essentials Functional Programmings Y Combinator>": "",
+    "</types/books/Grokking Algorithms>": "",
+    "</types/videos/Lambda Calculus>": "",
+    "</types/papers/On Computable Numbers with an Application to the Entscheidungsproblem>": "",
+    "</types/books/The Annotated Turing>": "",
+    "</types/books/The Pattern on the Stone>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the theoretical basis of the fields of computer science and computation.",
+  "name": "Theory of Computation",
+  "path": "/Types/Collections/Computer Science/Theory of Computation",
+  "shortDescription": ""
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Trey Huffine>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Understanding React Render Higher-Order Props by Example",
+  "path": "/Types/Web Pages/Understanding React Render Higher-Order Props by Example",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+     "</types/webPages/Understanding React Render Props by Example>": ""
+  },
+  "shortDescription": "",
+  "url": "https://levelup.gitconnected.com/understanding-react-higher-order-components-by-example-95e8c47c8006"
+}

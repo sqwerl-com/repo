@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Database Systems/Key Value/JunoDB>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Key-Value",
+  "path": "/Types/Collections/Computer Science/Database Systems/Key-Value",
+  "shortDescription": "Things related to key-value data stores."
+}

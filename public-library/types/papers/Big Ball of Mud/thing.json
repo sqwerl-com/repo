@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Foote>",
+    "</types/authors/Joseph Yoder>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Big Ball of Mud",
+  "path": "/Types/Papers/Big Ball of Mud",
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

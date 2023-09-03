@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-27T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Protestware on the Rise",
+  "path": "/Types/Web Pages/Protestware on the Rise",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/How You Should Pin Dependencies and Why>": ""
+  },
+  "shortDescription": "",
+  "title": "Protestware on the Rise: Why Developers Are Sabotaging Their Own Code",
+  "url": "https://techcrunch.com/2022/07/27/protestware-code-sabotage/"
+}

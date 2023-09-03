@@ -1,0 +1,10 @@
+{
+    "applicationName": "test",
+    "catalogDatabaseName": "catalog",
+    "catalogDatabasePath": "../../sqwerl-public-catalog/workspace/types",
+    "clientSourcePath": "../sqwerl-sproutcore-client/client/builds",
+    "defaultDatabaseName": "tcarroll",
+    "defaultDatabasePath": "./types",
+    "representations": "../tcarroll-docs",
+    "signUpConfiguration": "./test-sign-up-configuration.json"
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Definitive ANTLR Reference>": "",
+    "</types/documents/The Definitive ANTLR Reference>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Terence",
+  "lastName": "Parr",
+  "middleNameOrInitial": "",
+  "name": "Terence Parr",
+  "path": "/Types/Authors/Terence Parr"
+}

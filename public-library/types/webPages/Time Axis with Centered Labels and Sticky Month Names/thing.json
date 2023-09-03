@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-03-14T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Time Axis with Centered Labels and Sticky Month Names",
+  "path": "/Types/Web Pages/Time Axis with Centered Labels and Sticky Month Names",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "http://bl.ocks.org/oluckyman/6199145"
+}

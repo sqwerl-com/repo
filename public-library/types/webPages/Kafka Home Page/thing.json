@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-05T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kafka>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for Kafka: An open source distributed messaging system",
+  "name": "Kafka",
+  "path": "/Types/Web Pages/Kafka",
+  "tags": {
+    "</types/tags/Kafka>": ""
+  },
+  "url": "https://kafka.apache.org"
+}

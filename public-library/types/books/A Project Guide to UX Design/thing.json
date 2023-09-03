@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Russ Unger>",
+    "</types/authors/Carolyn Chandler>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "A Project Guide to UX Design",
+  "path": "/Types/Books/A Project Guide to UX Design",
+  "pictures": {
+    "</types/pictures/A Project Guide to UX Design Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Designing for Emotion>": ""
+  },
+  "title": "A Project Guide to UX Design For User Experience Designers in the Field or in the Making"
+}

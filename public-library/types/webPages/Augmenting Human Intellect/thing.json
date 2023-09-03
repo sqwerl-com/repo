@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Douglas C Engelbart>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/papers/Augmenting Human Intellect>": ""
+  },
+  "name": "Augmenting Human Intellect",
+  "path": "/Types/Web Pages/Augmenting Human Intellect",
+  "recommendedBy": {
+    "</types/books/The Innovators>": ""
+  },
+  "shortDescription": "",
+  "title": "Augmenting Human Intellect: A Conceptual Framework",
+  "url": "https://www.dougengelbart.org/pubs/augment-3906.html"
+}

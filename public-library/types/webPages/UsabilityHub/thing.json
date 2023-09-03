@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-01T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Usability Testing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "UsabilityHub",
+  "path": "/Types/Web Pages/UsabilityHub",
+  "recommendedBy": {
+    "</types/books/UX for Lean Startups>": ""
+  },
+  "shortDescription": "Create and run usability tests online.",
+  "url": "https://usabilityhub.com/"
+}

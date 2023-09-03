@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-09-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Thomas Fuchs>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Error Handling>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Write a Great Error Message",
+  "notes": {
+    "</types/notes/How to Write a Great Error Message>": ""
+  },
+  "path": "/Types/Web Pages/How to Write a Great Error Message",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Error Messages>": ""
+  },
+  "url": "https://medium.com/@thomasfuchs/how-to-write-an-error-message-883718173322"
+}

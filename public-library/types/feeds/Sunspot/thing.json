@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-25T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://blog.sunspot.app/feed/",
+  "items": {
+    "</types/webPages/Sunspots Origin>": ""
+  },
+  "name": "Sunspot",
+  "path": "/Types/Feeds/Sunspot",
+  "shortDescription": "Blog for the Sunspot application that allows users to share music"
+}

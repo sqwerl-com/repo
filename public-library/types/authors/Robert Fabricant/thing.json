@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-11-25T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/User Friendly>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Robert",
+  "lastName": "Frabricant",
+  "middleNameOrInitial": "",
+  "name": "Robert Frabricant",
+  "path": "/Types/Authors/Robert Frabricant"
+}

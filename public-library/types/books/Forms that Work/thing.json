@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Caroline Jarrett>",
+    "</types/authors/Gerry Gaffney>",
+    "</types/authors/Steve Krug>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Forms that Work",
+  "path": "/Types/Books/Forms that Work",
+  "recommendedBy": {
+    "</types/books/Dont Make Me Think Revisited>": "",
+    "</types/books/Letting Go of the Words>": ""
+  },
+  "shortDescription": "",
+  "title": "Forms that Work: Designing Web Forms for Usability"
+}

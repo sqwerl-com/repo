@@ -1,0 +1,23 @@
+{
+  "applicationName": "sqwerl",
+  "baseUrl": "http://localhost:6719",
+  "contentUrl": "http://localhost:6719/sqwerl",
+  "catalogLibraryName": "catalog",
+  "catalogLibraryPath": "../../../../sqwerl-catalog",
+  "catalogLibraryRepositoryPath": "../../../../sqwerl-catalog",
+  "catalogLibraryWritablePath": "../../../../writable/sqwerl-catalog",
+  "certificateFile": "../../../sqwerl.com.crt",
+  "clientSourcePath": "../../../../sqwerl/tmp/build",
+  "defaultLibraryName": "Main",
+  "defaultLibraryPath": "../../../../sqwerl-default-database",
+  "defaultLibraryRepositoryPath": "../../../../sqwerl-default-database",
+  "defaultLibraryWritablePath": "../../../../writable/sqwerl-default-database",
+  "helpSourcePath": "../../../sqwerl/sqwerl/apps/sqwerl",
+  "keyFile": "../../../sqwerl.key",
+  "port": "6719",
+  "representations": "../../../../sqwerl-representations",
+  "securityTokenEncryptionKey": "supersecret",
+  "signUpConfiguration": "../../../sign-up-configuration.json",
+  "signUpFailureRate": 0.5,
+  "useHttps": false
+}

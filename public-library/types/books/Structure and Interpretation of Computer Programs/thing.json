@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Harold Abelson>",
+    "</types/authors/Gerald Jay Sussman>",
+    "</types/authors/Julie Sussman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Structure and Interpretation of Computer Programs",
+  "path": "/Types/Books/Structure and Interpretation of Computer Programs",
+  "pictures": {
+    "</types/pictures/Structure and Interpretation of Computer Programs Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/courses/Learning Functional Programming with JavaScript>": "",
+    "</types/webPages/Let the Code Speak>": ""
+  },
+  "shortDescription": "",
+  "title": "Structure and Interpretation of Computer Programs - 2nd Edition",
+  "webPages": {
+    "</types/webPages/Structure and Interpretation of Computer Programs>": ""
+  }
+}

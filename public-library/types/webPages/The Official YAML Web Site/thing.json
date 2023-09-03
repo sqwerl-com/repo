@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the YAML data serialization format.",
+  "name": "The Official YAML Web Site",
+  "path": "/Types/Web Pages/The Official YAML Web Site",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/YAML>": ""
+  },
+  "url": "https://yaml.org/"
+}

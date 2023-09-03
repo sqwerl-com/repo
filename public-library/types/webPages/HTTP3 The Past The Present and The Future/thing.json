@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alessandro Ghedini>",
+    "</types/authors/Rustam Lalkaka>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "HTTP/3: The Past, The Present, and The Future",
+  "path": "/Types/Web Pages/HTTP/3: The Past, The Present, and The Future",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/How to Become a Pro Front End Developer>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.cloudflare.com/http3-the-past-present-and-future/"
+}

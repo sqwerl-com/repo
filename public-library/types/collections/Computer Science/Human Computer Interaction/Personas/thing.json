@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Are Personas Still Relevant to UX Strategy>": "",
+    "</types/webPages/Fluid Persona Format>": "",
+    "</types/documents/Quarry Sample Personas>": "",
+    "</types/webPages/Rethinking Personas for Small Business Part 1>": "",
+    "</types/webPages/Rethinking Personas for Small Business Part 2>": "",
+    "</types/books/The Persona Lifecycle>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Personas",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Personas",
+  "shortDescription": "Things regarding user interface personas (user archetypes)."
+}

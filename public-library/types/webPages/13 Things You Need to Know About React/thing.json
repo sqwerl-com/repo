@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-12-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Krzysztof Jendrzyca>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "13 Things You Need to Know About React",
+  "path": "/Types/Web Pages/13 Things You Need to Know About React",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/React>": ""
+  },
+  "shortDescription": "",
+  "url": "https://hackernoon.com/13-things-you-need-to-know-about-react-d2e6a6422552#.3s02jgexv"
+}

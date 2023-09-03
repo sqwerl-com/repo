@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/documents/Disabling Root Login Over SSH>": "",
+    "</types/papers/Object Oriented Design Patterns>": "",
+    "</types/documents/XML Based Graphical User Interface Application Development Toolkit>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Tom",
+  "lastName": "Carroll",
+  "middleNameOrInitial": "",
+  "name": "Tom Carroll",
+  "path": "/Types/Authors/Tom Carroll"
+}

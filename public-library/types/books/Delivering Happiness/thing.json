@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tony Hsieh>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Delivering Happiness",
+  "notes": {
+    "</types/notes/Delivering Happiness>": ""
+  },
+  "path": "/Types/Books/Delivering Happiness",
+  "pictures": {
+    "</types/pictures/Delivering Happiness Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Good to Great>": ""
+  },
+  "shortDescription": "",
+  "title": "Delivering Happiness: A Path to Profits, Passion, and Purpose"
+}

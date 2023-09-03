@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Foundation>": "",
+    "</types/books/I Robot>": "",
+    "</types/books/The Caves of Steel>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Isaac",
+  "lastName": "Asimov",
+  "middleNameOrInitial": "",
+  "name": "Isaac Asimov",
+  "path": "/Types/Authors/Isaac Asimov"
+}

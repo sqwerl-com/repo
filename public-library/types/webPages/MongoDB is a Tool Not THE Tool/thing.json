@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/NoSQL/MongoDB>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "MongoDB is a Tool, Not THE Tool",
+  "path": "/Types/Web Pages/MongoDB is a Tool, Not THE Tool",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://architects.dzone.com/articles/mongodb-tool-not-tool"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-19T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Cloud Computing/Amazon Web Services>": "",
+    "</types/webPages/CloudFoundry>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Cloud Computing",
+  "path": "/Types/Collections/Computer Science/Cloud Computing",
+  "shortDescription": "Things related to distributed, cloud-based computing."
+}

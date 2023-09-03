@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Pattern Repositories>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "UI Design Patterns",
+  "path": "/Types/Web Pages/UI Design Patterns",
+  "recommendedBy": {
+    "</types/webPages/9 Essential Resources for User Interface Designers>": ""
+  },
+  "shortDescription": "",
+  "url": "http://ui-patterns.com/"
+}

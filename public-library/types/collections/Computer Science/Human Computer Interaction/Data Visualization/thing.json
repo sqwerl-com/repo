@@ -1,0 +1,38 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/20 Ideas for Better Data Visualization>": "",
+    "</types/books/Beautiful Evidence>": "",
+    "</types/webPages/c3js>": "",
+    "</types/webPages/Information Visualization 2006 2007>": "",
+    "</types/webPages/d3js>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization/Dashboards>": "",
+    "</types/webPages/Data Information Visualization>": "",
+    "</types/webPages/Data Visualization Modern Approaches>": "",
+    "</types/books/Data Visualization with D3js Cookbook>": "",
+    "</types/webPages/Data Visualization 5 Most Important Things to Know>": "",
+    "</types/books/Envisioning Information>": "",
+    "</types/webPages/Ex Apple Designer Creates Teaching UI That Kills Math>": "",
+    "</types/feeds/FlowingData>": "",
+    "</types/papers/Graphical Perception>": "",
+    "</types/courses/Information Visualization 2006 2007>": "",
+    "</types/feeds/Infosthetics>": "",
+    "</types/videos/Interactive Exploration of a Dynamical System>": "",
+    "</types/webPages/nivo>": "",
+    "</types/books/The Visual Display of Quantitative Information>": "",
+    "</types/books/The Wall Street Journal Guide to Information Graphics>": "",
+    "</types/webPages/Time Axis with Centered Labels and Sticky Month Names>": "",
+    "</types/feeds/Visual Cinnamon>": "",
+    "</types/books/Visual Explanations>": "",
+    "</types/webPages/Visualizing Git Concepts with D3>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Data Visualization",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Data Visualization",
+  "shortDescription": "Things regarding using computers to visually presenting data (information)."
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michel Weststrate>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Fundamental Principles Behind MobX",
+  "path": "/Types/Web Pages/The Fundamental Principles Behind MobX",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/MobX>": ""
+  },
+  "url": "https://hackernoon.com/the-fundamental-principles-behind-mobx-7a725f71f3e8"
+}

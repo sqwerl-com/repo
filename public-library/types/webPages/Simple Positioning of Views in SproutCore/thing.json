@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "archived": true,
+  "authors": [
+    "</types/authors/Michael Cohen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks/SproutCore>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Simple Positioning of Views in SproutCore",
+  "path": "/Types/Web Pages/Simple Positioning of Views in SproutCore",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://frozencanuck.wordpress.com/2009/08/13/simple-positioning-of-views-in-sproutcore/"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-20T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/RFC 793 Transmission Control Protocol>": "",
+    "</types/books/Unix Network Programming>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to computer networks.",
+  "name": "Networking",
+  "path": "/Types/Collections/Computer Science/Networking",
+  "shortDescription": ""
+}

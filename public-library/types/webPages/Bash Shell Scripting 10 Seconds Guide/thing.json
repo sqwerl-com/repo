@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/All About Linux>": ""
+  },
+  "name": "Bash Shell Scripting - 10 Seconds Guide",
+  "path": "/Types/Web Pages/Bash Shell Scripting - 10 Seconds Guide",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.aboutlinux.info/2005/10/10-seconds-guide-to-bash-shell.html"
+}

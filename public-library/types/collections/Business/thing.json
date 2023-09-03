@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/15 Things Successful People Do>": "",
+    "</types/feeds/99 Percent>": "",
+    "</types/books/After the Gold Rush>": "",
+    "</types/videos/Bringing Change to Life>": "",
+    "</types/collections/Business/Career Management>": "",
+    "</types/books/Commodore The Amiga Years>": "",
+    "</types/books/Creativity Inc>": "",
+    "</types/books/Crossing the Chasm>": "",
+    "</types/collections/Business/Entrepreneurship>": "",
+    "</types/feeds/Harvard Business Review>": "",
+    "</types/collections/Business/Marketing>": "",
+    "</types/books/On the Edge>": "",
+    "</types/books/Radical Candor>": "",
+    "</types/webPages/Solitude and Leadership>": "",
+    "</types/webPages/The 11 Leadership Secrets Youve Never Heard About>": "",
+    "</types/books/The Ascent of Money>": "",
+    "</types/books/The Checklist Manifesto>": "",
+    "</types/books/The Four The Hidden DNA of Amazon Apple Facebook and Google>": "",
+    "</types/webPages/The Hidden In Plain Sight Legacy of Steve Jobs>": "",
+    "</types/webPages/What Every CEO Needs to Know About HR>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things that generate value and profits.",
+  "name": "Business",
+  "path": "/Types/Collections/Business",
+  "shortDescription": "Things related to generating value and profits."
+}

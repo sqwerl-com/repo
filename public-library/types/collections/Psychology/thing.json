@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Drive The Surprising Truth About What Motivates Us>": "",
+    "</types/books/Emotional Agility>": "",
+    "</types/books/Irresistible>": "",
+    "</types/videos/Making Badass Developers>": "",
+    "</types/books/Outliers>": "",
+    "</types/feeds/The Brain Lady Blog>": "",
+    "</types/videos/The Gift and Power of Emotional Courage>": "",
+    "</types/books/The Meaning of Things>": "",
+    "</types/webPages/UX Flows How to Drive Deep User Engagement>": "",
+    "</types/webPages/Why Do Some People Learn Faster>": "",
+    "</types/webPages/You can increase your intelligence>": "",
+    "</types/webPages/You Have No Idea What Happened>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Psychology",
+  "path": "/Types/Collections/Psychology",
+  "shortDescription": "Things related to the study of mind and behavior."
+}

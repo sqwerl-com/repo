@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-09-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Chris Collins>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Build a Raspberry Pi Cluster>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Deploy InfluxDB and Grafana on Kubernetes to Collect Twitter Stats",
+  "path": "/Types/Web Pages/Deploy InfluxDB and Grafana on Kubernetes to Collect Twitter Stats",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Kubernetes>": ""
+  },
+  "url": "https://opensource.com/article/19/2/deploy-influxdb-grafana-kubernetes"
+}

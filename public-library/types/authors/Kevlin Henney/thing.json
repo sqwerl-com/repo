@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-05T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/97 Things Every Programmer Should Know>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Kevlin",
+  "lastName": "Henney",
+  "middleNameOrInitial": "",
+  "name": "Kevlin Henney",
+  "path": "/Types/Authors/Kevlin Henney"
+}

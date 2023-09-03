@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rob Pike>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Go>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Go at Google",
+  "path": "/Types/Web Pages/Go at Google",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Go at Google: Language Design in the Service of Software Engineering",
+  "url": "https://talks.golang.org/2012/splash.article"
+}

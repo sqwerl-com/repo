@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-12-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Arnold Robbins>",
+    "</types/authors/Nelson H F Beebe>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Learn Linux System Administration>": "",
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Classic Shell Scripting",
+  "notes": {
+    "</types/notes/Classic Shell Scripting>": ""
+  },
+  "path": "/Types/Books/Classic Shell Scripting",
+  "pictures": {
+    "</types/pictures/Classic Shell Scripting Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Classic Shell Scripting: Hidden Commands that Unlock the Power of Unix"
+}

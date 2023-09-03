@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Practical Guide to Designing for the Web Book",
+  "path": "/Types/Pictures/A Practical Guide to Designing for the Web Book",
+  "pictureOf": {
+    "</types/books/A Practical Guide to Designing for the Web>": ""
+  },
+  "representations": {
+    "a_practical_guide_to_designing_for_the_web_book_cover_large.lnk.json": "",
+    "a_practical_guide_to_designing_for_the_web_book_cover_medium.lnk.json": "",
+    "a_practical_guide_to_designing_for_the_web_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

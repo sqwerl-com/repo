@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-08-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Shan Shen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Make Sense of Rounded Corners on Buttons",
+  "path": "/Types/Web Pages/Make Sense of Rounded Corners on Buttons",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Rounded or Sharp Corner Buttons>": ""
+  },
+  "shortDescription": "",
+  "url": "https://uxdesign.cc/make-sense-of-rounded-corners-on-buttons-dfc8e13ea7f7"
+}

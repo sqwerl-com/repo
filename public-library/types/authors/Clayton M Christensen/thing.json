@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/How Will You Measure Your Life>": "",
+    "</types/books/The Innovators Dilemma>": "",
+    "</types/books/The Innovators Solution>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Clayton",
+  "lastName": "Christensen",
+  "middleNameOrInitial": "M",
+  "name": "Clayton M. Christensen",
+  "path": "/Types/Authors/Clayton M. Christensen"
+}

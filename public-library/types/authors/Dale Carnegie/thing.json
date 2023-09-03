@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-11T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/How to Win Friends and Influence People>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Dale",
+  "lastName": "Carnegie",
+  "middleNameOrInitial": "",
+  "name": "Dale Carnegie",
+  "path": "/Types/Authors/Dale Carnegie"
+}

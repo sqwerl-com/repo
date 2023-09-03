@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-11-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Les Hazlewood>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/REST>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "REST+JSON Design - Best Practices for Developers",
+  "notes": {
+    "</types/notes/REST Plus JSON Design Best Practices for Developers>": ""
+  },
+  "path": "/Types/Videos/REST+JSON Design - Best Practices for Developers",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JSON>": "",
+    "</types/tags/REST>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=hdSrT4yjS1g",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

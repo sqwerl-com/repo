@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mastering Regular Expressions Third Edition Book",
+  "path": "</types/pictures/Mastering Regular Expressions Third Edition Book>",
+  "pictureOf": {
+    "</types/books/Mastering Regular Expressions Third Edition>": ""
+  },
+  "representations": {
+    "mastering_regular_expressions_third_edition_book_cover_large.png.lnk.json": "",
+    "mastering_regular_expressions_third_edition_book_cover_medium.png.lnk.json": "",
+    "mastering_regular_expressions_third_edition_book_cover_preview.png.lnk.json": "",
+    "mastering_regular_expressions_third_edition_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

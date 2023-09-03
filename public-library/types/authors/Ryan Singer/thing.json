@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-01-08T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Shape Up>": "",
+    "</types/webPages/Shape Up>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ryan",
+  "lastName": "Singer",
+  "middleNameOrInitial": "",
+  "name": "Ryan Singer",
+  "path": "/Types/Authors/Ryan Singer"
+}

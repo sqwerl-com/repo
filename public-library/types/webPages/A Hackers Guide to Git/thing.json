@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joseph Wynn>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Hacker's Guide to Git",
+  "path": "/Types/Web Pages/A Hacker's Guide to Git",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://wildlyinaccurate.com/a-hackers-guide-to-git/"
+}

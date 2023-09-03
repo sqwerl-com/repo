@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-02-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John Au Yeung>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why It's Time to Ditch the for...in Loop in JavaScript--The Best Ways to Iterate through Objects in JS",
+  "path": "/Types/Web Pages/Why It's Time to Ditch the for...in Loop in JavaScript--The Best Ways to Iterate through Objects in JS",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ES6>": ""
+  },
+  "url": "https://levelup.gitconnected.com/why-its-time-to-ditch-the-for-in-loop-in-javascript-75327f74004d"
+}

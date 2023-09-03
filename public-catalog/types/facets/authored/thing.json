@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-07-10T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "",
+  "faceted": {
+    "</types/articles>": "",
+    "</types/books>": "",
+    "</types/courses>": "",
+    "</types/documents>": "",
+    "</types/feeds>": "",
+    "</types/papers>": "",
+    "</types/pictures>": "",
+    "</types/talks>": "",
+    "</types/videos>": "",
+    "</types/webPages>": ""
+  },
+  "name": "Authored",
+  "path": "/Types/Facets/Authored",
+  "shortDescription": "Things that authors have created."
+}

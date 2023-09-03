@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-21T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/234 Tips and Tricks for Recruiting Users as Participants in Usability Studies>": "",
+    "</types/books/Handbook of Usability Testing>": "",
+    "</types/webPages/UsabilityHub>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Usability Testing",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Usability Testing",
+  "shortDescription": "Things regarding how to test how effective an interface is."
+}

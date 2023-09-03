@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-05-26T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Speaking JavaScript>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Speaking JavaScript",
+  "path": "/Types/Web Pages/Speaking JavaScript",
+  "shortDescription": "",
+  "url": "http://speakingjs.com/"
+}

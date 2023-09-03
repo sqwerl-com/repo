@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Richard Rutter>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Web site that applies the principles from the book The Elements of Typographic Style to styling web content.",
+  "name": "The Elements of Typographic Style Applied to the Web",
+  "notes": {
+    "</types/notes/The Elements of Typographic Style Applied to the Web>": ""
+  },
+  "path": "/Types/Web Pages/The Elements of Typographic Style Applied to the Web",
+  "shortDescription": "",
+  "url": "http://webtypography.net/"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-25T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the Hawaii Project book recommendation site.",
+  "links": {
+    "</types/authors/Mark Watkins>": "",
+    "</types/webPages/The Limits of Social Discovery>": "",
+    "</types/webPages/The Power and Limits of Curation Panning for Gold in the Digital Flood>": "",
+    "</types/webPages/The Ratings and Reviews Model is Broken Theres a Better Way>": ""
+  },
+  "name": "The Hawaii Project",
+  "path": "/Types/Web Pages/The Hawaii Project",
+  "shortDescription": "",
+  "url": "http://www.thehawaiiproject.com/"
+}

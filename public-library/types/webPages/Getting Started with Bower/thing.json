@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-02-01T00:00:00.00-07:00",
+  "archived": true,
+  "authors": [
+    "</types/authors/Matt West>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Treehouse Blog>": ""
+  },
+  "name": "Getting Started with Bower",
+  "path": "/Types/Web Pages/Getting Started with Bower",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Bower>": ""
+  },
+  "url": "http://blog.teamtreehouse.com/getting-started-bower?utm_source=javascriptweekly&utm_medium=email"
+}

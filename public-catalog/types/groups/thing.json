@@ -1,0 +1,11 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2013-02-08T00:00:00.00-07:00",
+  "children": {
+    "</types/groups/Administrators>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "name": "Groups",
+  "path": "/Types/Groups",
+  "shortDescription": "Groups of related users."
+}

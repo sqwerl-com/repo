@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Creativity Inc. Book",
+  "path": "/Types/Pictures/Creativity Inc. Book",
+  "pictureOf": {
+    "</types/books/Creativity Inc>": ""
+  },
+  "representations": {
+    "creativity_inc_book_cover_large.lnk.json": "",
+    "creativity_inc_book_cover_medium.lnk.json": "",
+    "creativity_inc_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

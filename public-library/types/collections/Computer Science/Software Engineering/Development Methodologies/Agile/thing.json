@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/feeds/Andy>": "",
+    "</types/webPages/Developers Should Abandon Agile>": "",
+    "</types/books/Extreme Programming Explained>": "",
+    "</types/collections/Computer Science/Software Engineering/Development Methodologies/Agile/Lean>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Development Methodologies>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to agile software development methodologies.",
+  "name": "Agile",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Development Methodologies/Agile",
+  "shortDescription": ""
+}

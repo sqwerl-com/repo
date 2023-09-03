@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-06-12T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/SPQR A History of Ancient Rome>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Mary",
+  "lastName": "Beard",
+  "middleNameOrInitial": "",
+  "name": "Mary Beard",
+  "path": "/Types/Authors/Mary Beard"
+}

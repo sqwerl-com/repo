@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Flex 4 Fun Book",
+  "path": "/Types/Pictures/Flex 4 Fun Book",
+  "pictureOf": {
+    "</types/books/Flex 4 Fun>": ""
+  },
+  "representations": {
+    "flex_4_fun_book_cover_large.png.lnk.json": "",
+    "flex_4_fun_book_cover_medium.png.lnk.json": "",
+    "flex_4_fun_book_cover_preview.png.lnk.json": "",
+    "flex_4_fun_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

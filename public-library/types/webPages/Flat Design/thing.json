@@ -1,0 +1,32 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kate Meyer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Flat Design",
+  "notes": {
+    "</types/notes/Flat Design>": ""
+  },
+  "path": "/Types/Web Pages/Flat Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Long Term Exposure to Flat Design>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Long Term Exposure to Flat Design>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Flat design>": ""
+  },
+  "title": "Flat Design: Its Origins, Its Problems, and Why Flat 2.0 Is Better for Users",
+  "url": "http://www.nngroup.com/articles/flat-design/"
+}

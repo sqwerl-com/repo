@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-12-20T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/papers/A Personal Computer for Children of All Ages>": "",
+    "</types/videos/Alan Kay Doing with Images Makes Symbols>": "",
+    "</types/videos/Alan Kay shares powerful ideas about ideas>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Alan",
+  "lastName": "Kay",
+  "middleNameOrInitial": "",
+  "name": "Alan Kay",
+  "path": "/Types/Authors/Alan Kay"
+}

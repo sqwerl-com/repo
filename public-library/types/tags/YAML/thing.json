@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the YAML data serialization format.",
+  "name": "YAML",
+  "path": "/Types/Tags/YAML",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/10 Things You Might Not Know About YAML>": "",
+    "</types/webPages/The Official YAML Web Site>": "",
+    "</types/webPages/YAML Tutorial>": ""
+  },
+  "text": "YAML"
+}

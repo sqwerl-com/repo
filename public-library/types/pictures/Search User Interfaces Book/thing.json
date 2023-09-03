@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Search User Interfaces Book",
+  "path": "/Types/Pictures/Search User Interfaces Book",
+  "pictureOf": {
+    "</types/books/Search User Interfaces>": ""
+  },
+  "representations": {
+    "search_user_interfaces.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

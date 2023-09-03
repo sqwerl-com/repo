@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-27T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Bootstrapper's Bible Book",
+  "path": "/Types/Pictures/The Bootstrapper's Bible Book",
+  "pictureOf": {
+    "</types/books/The Bootstrappers Bible>": ""
+  },
+  "representations": {
+    "the_bootstrappers_bible_book_cover_large.png.lnk.json": "",
+    "the_bootstrappers_bible_book_cover_medium.png.lnk.json": "",
+    "the_bootstrappers_bible_book_cover_preview.png.lnk.json": "",
+    "the_bootstrappers_bible_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-14T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Mans Search for Meaning>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Viktor",
+  "lastName": "Frankl",
+  "middleNameOrInitial": "E",
+  "name": "Viktor E. Frankl",
+  "path": "/Types/Authors/Viktor E. Frankl"
+}

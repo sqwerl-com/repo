@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/5 Tricks to Create an Impressive GitHub Repository>": "",
+    "</types/feeds/Appcues>": "",
+    "</types/webPages/Business Slogans 101 How to Write a Rock Solid Tagline>": "",
+    "</types/webPages/How Do You Sell a 5000 Sink>": "",
+    "</types/books/Inbound Marketing>": "",
+    "</types/videos/Is Bad Copy Killing Your Product>": "",
+    "</types/webPages/Jumpstart The Guide to Growing a Startup with Inbound Marketing>": "",
+    "</types/books/Launch>": "",
+    "</types/webPages/Noob Guide to Online Marketing>": "",
+    "</types/webPages/The 3 Myths Most Entrepreneurs Tell Themselves About Marketing>": "",
+    "</types/books/The Big Red Fez>": "",
+    "</types/webPages/Three Frameworks to Rapidly Triple Your Revenue>": "",
+    "</types/webPages/Unlock the Secrets of LinkedIn>": ""
+  },
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Marketing",
+  "path": "/Types/Collections/Business/Marketing",
+  "shortDescription": "Things related to marketing: the process of informing customers of a product's or service's value."
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Producing Open Source Software Book",
+  "path": "/Types/Pictures/Producing Open Source Software Book",
+  "pictureOf": {
+    "</types/books/Producing Open Source Software>": ""
+  },
+  "representations": {
+    "producing_open_source_software_book_cover_large.png.lnk.json": "",
+    "producing_open_source_software_book_cover_medium.png.lnk.json": "",
+    "producing_open_source_software_book_cover_preview.png.lnk.json": "",
+    "producing_open_source_software_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

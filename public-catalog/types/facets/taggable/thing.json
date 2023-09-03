@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-10-10T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that can be tagged with key words or phrases.",
+  "faceted": {
+    "</types/articles>": "",
+    "</types/authors>": "",
+    "</types/books>": "",
+    "</types/collections>": "",
+    "</types/courses>": "",
+    "</types/documents>": "",
+    "</types/feeds>": "",
+    "</types/papers>": "",
+    "</types/pictures>": "",
+    "</types/podcasts>": "",
+    "</types/collections/Projects>": "",
+    "</types/talks>": "",
+    "</types/videos>": "",
+    "</types/webPages>": ""
+  },
+  "name": "Tagged",
+  "path": "/Types/Facets/Taggable",
+  "shortDescription": "Things that can have tags (key words or phrases that describe a thing)."
+}

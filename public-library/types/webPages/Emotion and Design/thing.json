@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Donald A Norman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Emotional Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Emotion and Design",
+  "notes": {
+    "</types/notes/Emotion and Design>": ""
+  },
+  "path": "/Types/Web Pages/Emotion and Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Emotional Design>": ""
+  },
+  "shortDescription": "",
+  "title": "Emotion & Design: Attractive Things Work Better",
+  "url": "https://jnd.org/emotion_design_attractive_things_work_better/"
+}

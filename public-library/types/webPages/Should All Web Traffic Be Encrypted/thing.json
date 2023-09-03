@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Atwood>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Coding Horror>": ""
+  },
+  "name": "Should All Web Traffic Be Encrypted",
+  "path": "/Types/Web Pages/Should All Web Traffic Be Encrypted",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.codinghorror.com/blog/2012/02/should-all-web-traffic-be-encrypted.html"
+}

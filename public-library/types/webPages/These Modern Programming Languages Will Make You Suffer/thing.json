@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ilya Suzdalnitski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "These Modern Programming Languages Will Make You Suffer",
+  "path": "/Types/Web Pages/These Modern Programming Languages Will Make You Suffer",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/videos/Elixir The Documentary>": ""
+  },
+  "shortDescription": "",
+  "url": "https://betterprogramming.pub/modern-languages-suck-ad21cbc8a57c"
+}

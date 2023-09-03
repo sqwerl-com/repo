@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-06-20T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Free Icon Set for Web Designers>": "",
+    "</types/webPages/Themify Icons>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Icon Libraries",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Design Resources/Icon Libraries",
+  "shortDescription": "Collections of icons for graphical user interfaces.",
+  "tags": {
+    "</types/tags/Icons>": ""
+  }
+}

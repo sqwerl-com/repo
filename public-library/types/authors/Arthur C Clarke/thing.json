@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/2001>": "",
+    "</types/books/Childhoods End>": "",
+    "</types/books/Rendezvous with Rama>": "",
+    "</types/books/The Fountains of Paradise>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Arthur",
+  "lastName": "Clarke",
+  "middleNameOrInitial": "C",
+  "name": "Arthur C. Clarke",
+  "path": "/Types/Authors/Arthur C. Clarke"
+}

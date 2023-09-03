@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-06T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/Keep Betting on JavaScript>": "",
+    "</types/books/You Dont Know JS Async and Performance>": "",
+    "</types/webPages/You Dont Know JS Async and Performance>": "",
+    "</types/books/You Dont Know JS ES6 and Beyond>": "",
+    "</types/webPages/You Dont Know JS ES6 and Beyond>": "",
+    "</types/books/You Dont Know JS Scope and Closures>": "",
+    "</types/webPages/You Dont Know JS Scope and Closures>": "",
+    "</types/books/You Dont Know JS Types and Grammar>": "",
+    "</types/webPages/You Dont Know JS Types and Grammar>": "",
+    "</types/books/You Dont Know JS Up and Going>": "",
+    "</types/webPages/You Dont Know JS Up and Going>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Kyle",
+  "lastName": "Simpson",
+  "middleNameOrInitial": "",
+  "name": "Kyle Simpson",
+  "path": "/Types/Authors/Kyle Simpson"
+}

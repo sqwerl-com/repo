@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Daniel Glejzner>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Angular Is Getting New Template Syntax",
+  "path": "/Types/Web Pages/Angular Is Getting New Template Syntax",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://itnext.io/angular-is-getting-new-template-syntax-ff66bc5f02f7"
+}

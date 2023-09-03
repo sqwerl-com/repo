@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-02-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nicolo Machiavelli>"
+  ],
+  "books": {
+    "</types/books/The Prince>": ""
+  },
+  "collections": {
+    "</types/collections/Political Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Prince",
+  "path": "/Types/Web Pages/The Prince",
+  "shortDescription": "",
+  "url": "https://www.gutenberg.org/files/1232/1232-h/1232-h.htm"
+}

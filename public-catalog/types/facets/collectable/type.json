@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that can be placed into collections with other related things.",
+  "extends": "</types/facets>",
+  "name": "Collectable",
+  "path": "/Types/Facets/Collectable",
+  "properties": {
+    "collections": {
+      "inverse": "children",
+      "type": "{ </types/collections> }"
+    },
+    "faceted": {
+      "inverse": "facets",
+      "type": {
+        "</types/facets>": ""
+      }
+    }
+  },
+  "shortDescription": "Things that can be placed into collections."
+}

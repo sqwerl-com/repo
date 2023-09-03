@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-08-05T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/The UNIX School>": ""
+  },
+  "name": "AWK & Sed",
+  "path": "/Types/Web Pages/AWK & Sed",
+  "shortDescription": "",
+  "url": "http://www.theunixschool.com/p/awk-sed.html"
+}

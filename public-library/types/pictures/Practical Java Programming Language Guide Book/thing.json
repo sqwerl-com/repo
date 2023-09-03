@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Practical Java Programming Language Guide Book",
+  "path": "/Types/Pictures/Practical Java Programming Language Guide Book",
+  "pictureOf": {
+    "</types/books/Practical Java Programming Language Guide>": ""
+  },
+  "representations": {
+    "practical_java_programming_language_guide_book_cover_large.png.lnk.json": "",
+    "practical_java_programming_language_guide_book_cover_medium.png.lnk.json": "",
+    "practical_java_programming_language_guide_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

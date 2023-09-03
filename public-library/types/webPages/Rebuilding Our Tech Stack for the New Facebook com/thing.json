@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-06-12T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Performance Optimization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Rebuilding Our Tech Stack for the New Facebook.com",
+  "path": "/Types/Web Pages/Rebuilding Our Tech Stack for the New Facebook.com",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Discover the Tech Stack for the New Facebook>": ""
+  },
+  "shortDescription": "",
+  "url": "https://engineering.fb.com/web/facebook-redesign/"
+}

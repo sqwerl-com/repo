@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-07T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "The home page for the React JavaScript web application framework.",
+  "name": "React",
+  "path": "/Types/Web Pages/React",
+  "recommendedBy": {
+    "</types/webPages/13 Things You Need to Know About React>": ""
+  },
+  "shortDescription": "Home page for the React JavaScript framework.",
+  "url": "https://facebook.github.io/react/"
+}

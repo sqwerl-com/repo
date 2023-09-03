@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ralph Charles Merkle>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": "",
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Secrecy, Authentication, and Public Key Systems",
+  "path": "/Types/Papers/Secrecy, Authentication, and Public Key Systems",
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

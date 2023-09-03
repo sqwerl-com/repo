@@ -1,0 +1,240 @@
+@import '../../index.scss';
+
+$sqwerl-application-menu-corner-border-radius: 0.4rem;
+$sqwerl-application-menu-left-border-width: 0.5rem;
+$sqwerl-dark-application-menu-bottom-shadow-color: black;
+
+.sqwerl-application-menu {
+  background: var(--menu-background-color);
+  box-shadow: 1.3rem 0.8rem 1.6rem var(--application-menu-shadow-color);
+  position: absolute;
+  top: 3.5rem;
+  transition: height 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s;
+
+  &.hidden {
+    opacity: 0.4;
+    height: calc(#{$sqwerl-row-height} * 2);
+    visibility: hidden;
+    z-index: 0;
+  }
+
+  &.visible {
+    height: calc(#{$sqwerl-row-height} * 6);
+    opacity: 1;
+    visibility: visible;
+    z-index: 100;
+  }
+
+  & > .sqwerl-application-menu-background {
+    bottom: -1rem;
+    left: -1rem;
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+
+    & .sqwerl-application-menu-bottom-left {
+      background: var(--menu-background-color);
+      border: var(--application-menu-left-border-color);
+      border-radius: $sqwerl-application-menu-corner-border-radius;
+      bottom: 1rem;
+      height: 1.5rem;
+      left: 0.5rem;
+      position: absolute;
+      width: 1.5rem;
+    }
+
+    & .sqwerl-application-menu-bottom-right {
+      background: var(--menu-background-color);
+      border-radius: $sqwerl-application-menu-corner-border-radius;
+      bottom: 1rem;
+      height: $sqwerl-row-height;
+      position: absolute;
+      right: 0.5rem;
+      width: 1.2rem;
+    }
+
+    & .sqwerl-application-menu-left {
+      background: var(--menu-background-color);
+      border: var(--application-menu-left-border-color);
+      bottom: 1.2rem;
+      left: 0.5rem;
+      position: absolute;
+      top: 1.2rem;
+      width: 0.5rem;
+      z-index: 102;
+    }
+
+    & .sqwerl-application-menu-right {
+      background: var(--menu-background-color);
+      bottom: 1.5rem;
+      position: absolute;
+      right: 0.5rem;
+      top: 2rem;
+      width: 0.6rem;
+    }
+
+    & > .sqwerl-application-menu-left {
+      background: var(--menu-background-color);
+      border-left: var(--application-menu-left-border);
+    }
+
+    & > .sqwerl-application-menu-right {
+      background: var(--menu-background-color);
+      border-right: var(--application-menu-right-border);
+      bottom: 1.2rem;
+      position: absolute;
+      right: 0.5rem;
+      top: 1.2rem;
+      width: 0.5rem;
+    }
+
+    & > .sqwerl-application-menu-top {
+      --sqwerlApplicationMenuTopArrowWidth: 1rem;
+
+      border-bottom: var(--application-menu-top-border-bottom);
+      border-left: var(--application-menu-top-border-left);
+      border-right: var(--application-menu-top-border-right);
+      bottom: auto;
+      height: 0;
+      left: calc(var(--sqwerlApplicationMenuTopArrowWidth) / 2);
+      position: absolute;
+      top: 0;
+      width: 0;
+    }
+
+    & > .sqwerl-application-menu-top-left {
+      background: var(--menu-background-color);
+      border: var(--application-menu-left-border-color);
+      border-radius: $sqwerl-application-menu-corner-border-radius;
+      height: 1.5rem;
+      left: 0.5rem;
+      position: absolute;
+      top: 1rem;
+      width: 1.5rem;
+    }
+
+    & > .sqwerl-application-menu-top-right {
+      background: var(--menu-background-color);
+      border: var(--application-menu-left-border-color);
+      border-radius: $sqwerl-application-menu-corner-border-radius;
+      height: 1.5rem;
+      position: absolute;
+      right: 0.5rem;
+      top: 1rem;
+      width: 1.5rem;
+    }
+  }
+
+  & > .sqwerl-application-menu-content {
+    background: var(--menu-background-color);
+    bottom: 1rem;
+    display: flex;
+    left: 0.2rem;
+    right: 0.2rem;
+    position: absolute;
+    top: 1rem;
+    z-index: 101;
+  }
+
+  &.sqwerl-more-menu {
+    --sqwerlMoreMenuButtonWidth: 6rem;
+    --sqwerlMoreMenuWidth: 15rem;
+
+    margin-left: calc(-1 * ((var(--sqwerlMoreMenuWidth) - var(--sqwerlMoreMenuButtonWidth)) / 2));
+    position: absolute;
+    right: 1rem;
+    width: var(--sqwerlMoreMenuWidth);
+
+    &.hidden {
+      & > .sqwerl-application-menu-content {
+        height: calc(#{$sqwerl-row-height} * 2);
+        opacity: 0;
+      }
+    }
+
+    &.visible {
+      height: calc(2.5rem * 4.5 /* 3.2 */);
+
+      & > .sqwerl-application-menu-content {
+        background: var(--menu-background-color);
+        opacity: 1;
+      }
+    }
+
+    & > .sqwerl-application-menu-background > .sqwerl-application-menu-top {
+      left: 77%;
+    }
+
+    & > .sqwerl-application-menu-content {
+      background: var(--menu-background-color);
+      bottom: 0.1rem;
+      display: flex;
+      flex-direction: column;
+      left: 0.1rem;
+      right: 0.1rem;
+      top: 0.5rem;
+      transition: height 0.3s ease-out, opacity 0.2s 0.2s ease-out, visibility 0.4s 0.1s;
+    }
+  }
+
+  &.sqwerl-search-menu.nothing-found {
+    --sqwerlSearchFieldWidth: var(--sqwerl-editable-search-field-width);
+    --sqwerlSearchMenuWidth: 30rem;
+
+    margin-left: calc(-1 * ((var(--sqwerlSearchMenuWidth) - var(--sqwerlSearchFieldWidth)) / 2));
+    width: var(--sqwerlSearchMenuWidth);
+
+    & > .sqwerl-application-menu-background > .sqwerl-application-menu-top {
+      left: calc((var(--sqwerlSearchMenuWidth) + var(--sqwerlApplicationMenuTopArrowWidth)) / 2);
+    }
+  }
+
+  &.sqwerl-search-menu.more-than-one-found, &.sqwerl-search-menu.only-one-found {
+    --sqwerlSearchFieldWidth: var(--sqwerl-editable-search-field-width);
+    --sqwerlSearchMenuMoreThanOneFoundWidth: 40rem;
+
+    margin-left: calc(-1 * ((var(--sqwerlSearchMenuMoreThanOneFoundWidth) - var(--sqwerlSearchFieldWidth)) / 2));
+    position: absolute;
+    right: 2rem;
+    width: var(--sqwerlSearchMenuMoreThanOneFoundWidth);
+
+    & > .sqwerl-application-menu-background > .sqwerl-application-menu-top {
+      left: 50%;
+    }
+  }
+
+  &.sqwerl-search-menu.too-many-found {
+    --sqwerlSearchFieldWidth: var(--sqwerl-editable-search-field-width);
+    --sqwerlSearchMenuWidth: 30rem;
+
+    height: calc(#{$sqwerl-row-height} * 11.5);
+    margin-left: calc(-1 * ((var(--sqwerlSearchMenuWidth) - var(--sqwerlSearchFieldWidth)) / 2));
+    width: var(--sqwerlSearchMenuWidth);
+
+    & > .sqwerl-application-menu-background > .sqwerl-application-menu-top {
+      left: calc((var(--sqwerlSearchMenuWidth) + var(--sqwerlApplicationMenuTopArrowWidth)) / 2);
+    }
+  }
+
+  &.sqwerl-sign-in-menu {
+    --sqwerlSignInMenuButtonWidth: 6rem;
+    --sqwerlSignInMenuWidth: 30rem;
+
+    margin-left: calc(-1 * ((var(--sqwerlSignInMenuWidth) - var(--sqwerlSignInMenuButtonWidth)) / 2));
+    width: var(--sqwerlSignInMenuWidth);
+
+    & > .sqwerl-application-menu-background > .sqwerl-application-menu-top {
+      left: calc((var(--sqwerlSignInMenuWidth) + var(--sqwerlApplicationMenuTopArrowWidth)) / 2);
+    }
+  }
+
+  .sqwerl-menu-button {
+    &.sqwerl-more-menu-button {
+      width: var(--sqwerlMoreMenuButtonWidth);
+    }
+
+    &.sqwerl-sign-in-menu-button {
+      width: var(--sqwerlSignInMenuButtonWidth);
+    }
+  }
+}

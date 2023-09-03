@@ -1,0 +1,43 @@
+{
+  "account": "</types/accounts/Administrator>",
+  "added": {
+    "</types>": "",
+    "</types/accounts>": "",
+    "</types/accounts/Administrator>": "",
+    "</types/capabilities>": "",
+    "</types/groups>": "",
+    "</types/groups/Administrators>": "",
+    "</types/libraries>": "",
+    "</types/roles>": "",
+    "</types/users>": "",
+    "</types/users/Administrator>": ""
+  },
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2013-02-01T00:00:00.00-07:00",
+  "canRead": {
+  },
+  "canWrite": {
+    "</types/users/Administrator>": ""
+  },
+  "description": "The system administrator is the user who is allowed to perform system administration tasks.",
+  "emails": [],
+  "firstName": "Administrator",
+  "groups": {
+    "</types/groups/Administrators>": ""
+  },
+  "lastName": "",
+  "controller": "</types/users/Administrator>",
+  "controls": {
+    "</types>": "",
+    "</types/accounts>": "",
+    "</types/accounts/Administrator>": "",
+    "</types/capabilities>": "",
+    "</types/groups>": "",
+    "</types/groups/Administrators>": "",
+    "</types/libraries>": "",
+    "</types/roles>": "",
+    "</types/users>": "",
+    "</types/users/Administrator>": ""
+  },
+  "shortDescription": "The system administrator."
+}

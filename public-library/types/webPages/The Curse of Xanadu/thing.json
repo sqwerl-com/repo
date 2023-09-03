@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-05-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Gary Wolf>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/articles/The Curse of Xanadu>": "",
+    "</types/videos/Xanadu Basics 1a Visible Connection>": "",
+    "</types/videos/Xanadu Basics 1b Indirect Document Delivery>": "",
+    "</types/videos/Xanadu Basics 1c Parallel Media Parallel Subjects>": "",
+    "</types/videos/Xanadu Basics 1d Reading and Writing Parallel>": ""
+  },
+  "name": "The Curse of Xanadu",
+  "path": "/Types/Web Pages/The Curse of Xanadu",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.wired.com/1995/06/xanadu/"
+}

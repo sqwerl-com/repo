@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sneh Chauhan>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Understanding the /etc/passwd File in Linux",
+  "path": "/Types/Web Pages/Understanding the /etc/passwd File in Linux",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Understanding the /etc/passwd File in Linux",
+  "url": "https://dev.to/kcdchennai/understanding-etcpasswd-file-in-linux-1k2d"
+}

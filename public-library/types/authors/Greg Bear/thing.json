@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-11-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Eon>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Greg",
+  "lastName": "Bear",
+  "middleNameOrInitial": "",
+  "name": "Greg Bear",
+  "path": "/Types/Authors/Greg Bear"
+}

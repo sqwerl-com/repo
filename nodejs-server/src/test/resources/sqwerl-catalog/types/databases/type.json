@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {},
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "description": "Named collections of things.",
+  "extends": "</types>",
+  "name": "Libraries",
+  "controller": "</types/users/Administrator>",
+  "properties": {
+    "description": {
+      "description": "Text that describes a library.",
+      "name": "Description",
+      "shortDescription": "A library's description.",
+      "type": "text"
+    },
+    "name": {
+      "description": "A library's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A library's name.",
+      "type": "text"
+    }
+  },
+  "shortDescription": "Libraries of things."
+}

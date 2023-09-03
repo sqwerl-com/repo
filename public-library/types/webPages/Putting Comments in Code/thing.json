@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bill Sourour>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Putting Comments in Code",
+  "path": "/Types/Web Pages/Putting Comments in Code",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Putting Comments in Code: The Good, The Bad, and The Ugly",
+  "url": "https://medium.freecodecamp.org/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83"
+}

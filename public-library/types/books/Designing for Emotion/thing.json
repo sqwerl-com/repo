@@ -1,0 +1,40 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Aarron Walter>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Emotional Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Designing for Emotion",
+  "notes": {
+    "</types/notes/Designing for Emotion>": ""
+  },
+  "path": "/Types/Books/Designing for Emotion",
+  "pictures": {
+    "</types/pictures/Designing for Emotion Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/A Project Guide to UX Design>": "",
+    "</types/webPages/Beyond Frustration>": "",
+    "</types/books/Brain Rules>": "",
+    "</types/books/Different>": "",
+    "</types/books/Dont Make Me Think>": "",
+    "</types/books/Emotional Design>": "",
+    "</types/webPages/Emotional Design with ACT Part 1>": "",
+    "</types/books/How the Mind Works>": "",
+    "</types/webPages/Organized Approach to Emotional Response Testing>": "",
+    "</types/webPages/The Psychologists View of UX Design>": "",
+    "</types/books/Universal Principles of Design>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/How to Leverage User Emotions in Form Design>": "",
+    "</types/webPages/The 3 Most Powerful Heuristics Designers Can Use>": ""
+  },
+  "shortDescription": ""
+}

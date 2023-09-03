@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/AppSumo>": "",
+    "</types/collections/Business/Entrepreneurship/Startups/Marketing/Google Plus>": "",
+    "</types/webPages/How to Build an Early Customer Base for Your Startup>": "",
+    "</types/webPages/Is It Hard to Build Market and Maintain a Web App that Makes At Least 1000 a Month>": "",
+    "</types/feeds/Kissmetrics>": "",
+    "</types/books/Launch>": "",
+    "</types/webPages/Mobile App Search is So Bad AltaVista Could Have Done It>": "",
+    "</types/collections/Business/Entrepreneurship/Startups/Marketing/Naming>": "",
+    "</types/webPages/The 3 Myths Most Entrepreneurs Tell Themselves About Marketing>": "",
+    "</types/webPages/Three Frameworks to Rapidly Triple Your Revenue>": "",
+    "</types/collections/Business/Entrepreneurship/Startups/Marketing/Web Site>": "",
+    "</types/webPages/When Selling is the Worst Way to Win Customers>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Marketing",
+  "path": "/Types/Collections/Business/Entrepreneurship/Startups/Marketing",
+  "shortDescription": "Things related to marketing a start-up business."
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-04T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/OLAP/ClickHouse>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Altinity Quickstart for ClickHouse",
+  "path": "/Types/Videos/Altinity Quickstart for ClickHouse",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ClickHouse>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=phTu24qCIw0",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

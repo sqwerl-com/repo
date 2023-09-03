@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-08-26T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The 22 Immutable Laws of Marketing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jack",
+  "lastName": "Trout",
+  "middleNameOrInitial": "",
+  "name": "Jack Trout",
+  "path": "/Types/Authors/Jack Trout"
+}

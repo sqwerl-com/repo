@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-07-25T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/Functional JS 1 Introduction>": "",
+    "</types/webPages/Functional JS 2 Functions Duh>": "",
+    "</types/webPages/Functional JS 3 State>": "",
+    "</types/webPages/Functional JS 4 Closures>": "",
+    "</types/webPages/Functional JS 5 Partial Application Currying>": "",
+    "</types/webPages/Functional JS 6 Function Composition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Krzysztof",
+  "lastName": "Czernek",
+  "middleNameOrInitial": "",
+  "name": "Krzysztof Czernek",
+  "path": "/Types/Authors/Krzysztof Czernek"
+}

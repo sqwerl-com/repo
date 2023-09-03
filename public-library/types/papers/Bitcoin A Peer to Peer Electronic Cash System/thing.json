@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Satoshi Nakamoto>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+  "path": "/Types/Papers/Bitcoin: A Peer-to-Peer Electronic Cash System",
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Bitcoin>": ""
+  }
+}

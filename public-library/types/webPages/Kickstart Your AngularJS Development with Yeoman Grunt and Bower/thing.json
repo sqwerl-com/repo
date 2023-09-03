@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-09-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brad Barrow>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Kickstart Your AngularJS Development with Yeoman, Grunt, and Bower",
+  "path": "/Types/Web Pages/Kickstart Your AngularJS Development with Yeoman, Grunt, and Bower",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/?utm_source=javascriptweekly&utm_medium=email"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-05-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "All Quiet on the Western Front Book",
+  "path": "/Types/Pictures/All Quiet on the Western Front Book",
+  "pictureOf": {
+    "</types/books/All Quiet on the Western Front>": ""
+  },
+  "representations": {
+    "all_quiet_on_the_western_front_book_cover_large.lnk.json": "",
+    "all_quiet_on_the_western_front_book_cover_medium.lnk.json": "",
+    "all_quiet_on_the_western_front_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-04-07T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Layout and the Containing Block",
+  "path": "/Types/Web Pages/Layout and the Containing Block",
+  "recommendations": {
+  },
+  "recommendedBy": {
+    "</types/webPages/The Top 5 CSS Gotchas>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/CSS3>": ""
+  },
+  "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block"
+}

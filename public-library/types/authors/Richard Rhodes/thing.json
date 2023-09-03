@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Making of the Atomic Bomb>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Richard",
+  "lastName": "Rhodes",
+  "middleNameOrInitial": "",
+  "name": "Richard Rhodes",
+  "path": "/Types/Authors/Richard Rhodes"
+}

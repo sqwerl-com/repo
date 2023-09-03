@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-12-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tom Wolfe>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Right Stuff",
+  "path": "/Types/Books/The Right Stuff",
+  "pictures": {
+    "</types/pictures/The Right Stuff Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/The Checklist Manifesto>": ""
+  },
+  "shortDescription": ""
+}

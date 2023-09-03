@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://feeds.feedburner.com/littlebigdetails",
+  "name": "Little Big Details",
+  "path": "/Types/Feeds/Little Big Details",
+  "recommendedBy": {
+    "</types/webPages/How to Start a Startup>": "",
+    "</types/books/Microinteractions>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Microinteractions>": ""
+  }
+}

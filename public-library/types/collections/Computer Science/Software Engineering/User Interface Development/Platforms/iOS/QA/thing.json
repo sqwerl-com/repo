@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Platforms/iOS/QA/Beta Testing>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Platforms/iOS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "QA",
+  "path": "/Types/Collections/Computer Science/Software Engineering/User Interface Development/Platforms/iOS/QA",
+  "shortDescription": ""
+}

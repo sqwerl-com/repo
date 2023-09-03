@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-04T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Start With Why Book",
+  "path": "/Types/Pictures/Start With Why Book",
+  "pictureOf": {
+    "</types/books/Start With Why>": ""
+  },
+  "representations": {
+    "start_with_why_book_cover_large.png.lnk.json": "",
+    "start_with_why_book_cover_medium.png.lnk.json": "",
+    "start_with_why_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

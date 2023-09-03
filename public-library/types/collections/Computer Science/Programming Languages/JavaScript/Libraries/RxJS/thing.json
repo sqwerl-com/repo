@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-27T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/RxJS Demystified>": "",
+    "</types/courses/RxJS Essentials>": "",
+    "</types/webPages/RxJS Home Page>": "",
+    "</types/videos/State of RxJS April 25 2023>": "",
+    "</types/webPages/State of RxJS Wrap Up>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "RxJS",
+  "path": "/Types/Collections/Computer Science/Programming Languages/JavaScript/Libraries/RxJS",
+  "shortDescription": "Things related to the RxJS reactive programming library"
+}
+
+
+
+

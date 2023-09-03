@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-25T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the ECMAScript 6 standard, also known as the JavaScript 2015 standard.",
+  "name": "ES6",
+  "path": "/Types/Tags/ES6",
+  "shortDescription": "Things related to ECMAScript version 6",
+  "tagged": {
+    "</types/webPages/Start Your Own JavaScript Library Using Webpack and ES6>": "",
+    "</types/webPages/Top 10 ES6 Features Every Busy JavaScript Developer Must Know>": "",
+    "</types/webPages/Why Its Time to Ditch the for in Loop in JavaScript>": ""
+  },
+  "text": "ES6"
+}

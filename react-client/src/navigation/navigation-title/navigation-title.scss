@@ -1,0 +1,38 @@
+@import "../../index.scss";
+
+$sqwerl-title-home-icon-height: 1rem;
+
+.sqwerl-navigation-title {
+  align-items: center;
+  display: flex;
+  margin-right: 0.5rem;
+  padding-top: calc(#{$sqwerl-focus-border-size} / 2);
+  width: calc(66% - #{$sqwerl-focus-border-size} * 2);
+
+  & .sqwerl-navigation-title-home-icon {
+    margin-left: calc(#{$sqwerl-focus-border-size} + 0.35rem);
+    margin-right: 0.4rem;
+    margin-top: calc((#{$sqwerl-row-height} - #{$sqwerl-title-home-icon-height}) / -4);
+    height: 1rem;
+    width: 1rem;
+  }
+
+  & .sqwerl-navigation-title-item-count,
+  & .sqwerl-navigation-title-home-item-count {
+    border-radius: 6rem;
+    color: var(--application-text-color);
+    font-weight: bold;
+    margin: 0.5rem 0.2rem;
+    padding: 0.25rem 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  & .sqwerl-navigation-title-text {
+    font-weight: bold;
+    line-height: $sqwerl-content-heading-height;
+    overflow-x: clip;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

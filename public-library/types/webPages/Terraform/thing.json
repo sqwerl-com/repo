@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-26T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the Terraform software tool for DevOps.",
+  "name": "Terraform",
+  "path": "/Types/Web Pages/Terraform",
+  "recommendedBy": {
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 2 Configuration>": ""
+  },
+  "shortDescription": "Terraform home page",
+  "url": "https://www.terraform.io/"
+}

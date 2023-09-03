@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://feeds.feedburner.com/codinghorror",
+  "items": {
+    "</types/webPages/Should All Web Traffic Be Encrypted>": "",
+    "</types/webPages/The Magpie Developer>": "",
+    "</types/webPages/This Is All Your App Is a Collection of Tiny Details>": ""
+  },
+  "name": "Coding Horror",
+  "path": "/Types/Feeds/Coding Horror",
+  "shortDescription": ""
+}

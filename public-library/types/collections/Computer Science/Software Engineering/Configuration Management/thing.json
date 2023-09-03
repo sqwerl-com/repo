@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-06-22T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Semantic Versioning>": "",
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to maintaining a complex system's state to maintain the system's requirements.",
+  "name": "Configuration Management",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Configuration Management",
+  "shortDescription": ""
+}
+

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Stephen A Cook>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Complexity of Theorem-Proving Procedures",
+  "path": "/Types/Papers/The Complexity of Theorem-Proving Procedures",
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

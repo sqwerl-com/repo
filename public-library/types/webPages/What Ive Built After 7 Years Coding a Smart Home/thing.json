@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-04-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dan Beglin>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Turbo>": ""
+  },
+  "name": "What I've Built After 7 Years Coding a Smart Home",
+  "path": "/Types/Web Pages/What I've Built After 7 Years Coding a Smart Home",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Home automation>": ""
+  },
+  "url": "https://betterprogramming.pub/what-ive-built-after-7-years-coding-a-smart-home-4c35a63beecd"
+}

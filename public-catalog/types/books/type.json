@@ -1,0 +1,160 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Books.",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/authored>": "",
+    "</types/facets/collectable>": "",
+    "</types/facets/depictable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/notable>": "",
+    "</types/facets/readable>": "",
+    "</types/facets/taggable>": "",
+    "</types/facets/titled>": ""
+  },
+  "name": "Books",
+  "path": "/Types/Books",
+  "properties": {
+    "authors": {
+      "description": "A book's authors.",
+      "inverse": "authorOf",
+      "shortDescription": "Authors",
+      "type": [
+        "</types/authors>"
+      ]
+    },
+    "collections": {
+      "description": "The collections of things that a book is a member of.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "name": {
+      "description": "A book's name.",
+      "name": "Name",
+      "required": false,
+      "shortDescription": "A book's name.",
+      "type": "text"
+    },
+    "links": {
+      "description": "Things that a book is related to.",
+      "inverse": "links",
+      "name": "Links",
+      "required": false,
+      "shortDescription": "Links to related things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "notes": {
+      "description": "Notes about a book.",
+      "inverse": "notesFor",
+      "shortDescription": "Notes",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/notes>": ""
+      }
+    },
+    "pictures": {
+      "description": "Images of a book",
+      "inverse": "pictureOf",
+      "shortDescription": "Pictures",
+      "type": {
+        "</types/pictures>": ""
+      }
+    },
+    "readBy": {
+      "description": "Individuals who have read a book.",
+      "inverse": "hasRead",
+      "required": false,
+      "shortDescription": "Read by",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "readers": {
+      "description": "People reading this book.",
+      "inverse": "isReading",
+      "name": "Readers",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "recommendations": {
+      "description": "Things that this book recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that this book suggests to look at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Things that have recommended that others look at this book.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended this book.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "representations": {
+      "description": "A book's digital (electronic) versions.",
+      "shortDescription": "Digital copies of a book.",
+      "type": "representations"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a book.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "title": {
+      "description": "A book's full title.",
+      "shortDescription": "Title",
+      "type": "text"
+    },
+    "webPages": {
+      "description": "This book's corresponding web pages.",
+      "inverse": "books",
+      "shortDescription": "Web pages",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/webPages>": ""
+      }
+    }
+  },
+  "shortDescription": "Books",
+  "singularName": "Book"
+}

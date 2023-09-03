@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/If You Have 10 Unaffiliated Customers in SaaS You Have Something>": "",
+    "</types/books/It Doesnt Have to Be Crazy at Work>": "",
+    "</types/webPages/Mark Cubans 12 Rules for Startups>": "",
+    "</types/webPages/Silicon Valley Product Group>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Guidelines and other advice for creating and managing a startup.",
+  "name": "Guidelines",
+  "path": "/Types/Collections/Business/Entrepreneurship/Startups/Guidelines",
+  "shortDescription": "Things that provide guidelines for starting a new business."
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-28T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Logging>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Graphite",
+  "path": "/Types/Web Pages/Graphite",
+  "recommendedBy": {
+    "</types/videos/Move Fast and Break Nothing>": ""
+  },
+  "shortDescription": "Home page for the Graphite open source application monitoring application.",
+  "url": "https://graphiteapp.org/"
+}

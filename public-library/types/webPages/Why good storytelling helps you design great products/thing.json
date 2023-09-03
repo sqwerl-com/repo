@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Braden Kowitz>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Why good storytelling helps you design great products",
+  "path": "/Types/Web Pages/Why good storytelling helps you design great products",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Microinteractions>": ""
+  },
+  "shortDescription": "",
+  "url": "https://gigaom.com/2013/04/14/why-good-storytelling-helps-you-design-great-products/"
+}

@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-02T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/A Short Guide to Screen Reader Friendly Code>": "",
+    "</types/books/A Web for Everyone>": "",
+    "</types/webPages/Accessibility for Visual Design>": "",
+    "</types/feeds/Ben Robertson>": "",
+    "</types/webPages/I Wrote the Book on User Friendly Design What I See Today Horrifies Me>": "",
+    "</types/webPages/Improving the Color Accessibility for Color Blind Users>": "",
+    "</types/webPages/The Inaccessible Web How We Got Into this Mess>": "",
+    "</types/webPages/The Problem with Tooltips and What to Do Instead>": "",
+    "</types/webPages/tota11y>": "",
+    "</types/webPages/Understanding Layout for Screen Readers>": "",
+    "</types/webPages/W3C Web Content Accessibility Guidelines 2 1>": "",
+    "</types/webPages/Web Content Accessibility Guidelines>": "",
+    "</types/webPages/WebAIM>": "",
+    "</types/webPages/Why How and When to Use Semantic HTML and ARIA>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Accessibility",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Accessibility",
+  "shortDescription": "Things related to designing applications for all users.",
+  "tags": {
+    "</types/tags/Accessibility>": ""
+  }
+}

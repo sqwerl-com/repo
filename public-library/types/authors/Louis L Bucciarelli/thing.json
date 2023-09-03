@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-19T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Designing Engineers>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Louis",
+  "lastName": "Bucciarelli",
+  "middleNameOrInitial": "L",
+  "name": "Louis L. Bucciarelli",
+  "path": "/Types/Authors/Louis L. Bucciarelli"
+}

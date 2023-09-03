@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-07T00:00:00.00-07:00",
+  "attending": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Cory House>": ""
+  },
+  "name": "Clean Code: Programming for Humans",
+  "path": "/Types/Courses/Clean Code: Programming for Humans",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Clean code>": ""
+  }
+}

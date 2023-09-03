@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Vijay Anand R>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/OLAP/ClickHouse>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Up and Running with ClickHouse",
+  "path": "/Types/Books/Up and Running with ClickHouse",
+  "pictures": {
+    "</types/pictures/Up and Running with ClickHouse Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ClickHouse>": ""
+  },
+  "title": "Up and Running with ClickHouse: Learn and Explore ClickHouse, It's Robust Table Engines for Analytical Tasks, ClickHouse SQL, Integration with External Applications, and Managing the ClickHouse Server"
+}

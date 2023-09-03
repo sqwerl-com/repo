@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Elements of Computing Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Shimon",
+  "lastName": "Shocken",
+  "middleNameOrInitial": "",
+  "name": "Shimon Shocken",
+  "path": "/Types/Authors/Shimon Shocken"
+}

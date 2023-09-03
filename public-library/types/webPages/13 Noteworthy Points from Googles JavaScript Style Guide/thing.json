@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Daniel Simmons>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "13 Noteworthy Points from Google's JavaScript Style Guide",
+  "path": "/Types/Web Pages/13 Noteworthy Points from Google's JavaScript Style Guide",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Airbnb JavaScript Style Guide>": "",
+    "</types/webPages/Google JavaScript Style Guide>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.freecodecamp.org/google-publishes-a-javascript-style-guide-here-are-some-key-lessons-1810b8ad050b"
+}

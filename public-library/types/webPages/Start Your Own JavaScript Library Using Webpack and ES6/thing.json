@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-06-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Krasimir Tsonev>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Build Tools/Webpack>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Start Your Own JavaScript Library Using Webpack and ES6",
+  "path": "/Types/Web Pages/Starting Your Own JavaScript Library Using Webpack and ES6",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ES6>": "",
+    "</types/tags/Webpack>": ""
+  },
+  "url": "http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6"
+}

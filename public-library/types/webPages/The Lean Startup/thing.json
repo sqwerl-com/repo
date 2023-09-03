@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "books": {
+    "</types/books/The Lean Startup>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Lean Startup",
+  "path": "/Types/Web Pages/The Lean Startup",
+  "shortDescription": "",
+  "url": "http://theleanstartup.com/"
+}

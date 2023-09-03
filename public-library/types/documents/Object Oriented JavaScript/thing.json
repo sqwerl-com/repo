@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-02-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ibrahim Levent>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": "",
+    "</types/collections/Computer Science/Software Engineering/Methodologies/Object Oriented Analysis and Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Object-Oriented JavaScript",
+  "path": "/Types/Documents/Object-Oriented JavaScript",
+  "shortDescription": "",
+  "title": "Object-Oriented JavaScript: Advanced Techniques for Serious Web Applications"
+}

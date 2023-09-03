@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-24T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Rocketfin>": "",
+    "</types/webPages/Starship Modeler>": ""
+  },
+  "collections": {
+    "</types/collections/Life/Hobbies>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things regarding building toy models",
+  "name": "Model Building",
+  "path": "/Types/Collections/Life/Model Building",
+  "shortDescription": "Things related to the hobby of constructing physical models from kits."
+}

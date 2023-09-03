@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Larry Niven>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "A Hole in Space",
+  "path": "/Types/Books/A Hole in Space",
+  "pictures": {
+    "</types/pictures/A Hole in Space Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

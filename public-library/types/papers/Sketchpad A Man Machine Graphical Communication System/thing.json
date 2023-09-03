@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ivan Edward Sutherland>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Sketchpad",
+  "path": "/Types/Papers/Sketchpad: A Man-Machine Graphical Communication System",
+  "recommendedBy": {
+    "</types/books/The Innovators>": ""
+  },
+  "shortDescription": "",
+  "title": "Sketchpad: A Man-Machine Graphical Communication System"
+}

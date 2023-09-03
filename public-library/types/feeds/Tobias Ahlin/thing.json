@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-02-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tobias Ahlin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://tobiasahlin.com/feed.xml",
+  "items": {
+    "</types/webPages/Meaningful Motion with Action Driven Animation>": ""
+  },
+  "name": "Tobias Ahlin's Blog",
+  "path": "/Types/Feeds/Tobias Ahlin's Blog",
+  "shortDescription": "",
+  "webPage": "</types/webPages/Tobias Ahlin>"
+}

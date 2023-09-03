@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Outsourcing>": "",
+    "</types/collections/Business/Entrepreneurship/Startups/Recruiting>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Upwork",
+  "path": "/Types/Web Pages/Upwork",
+  "shortDescription": "Web site that matches freelancers to work.",
+  "url": "https://www.upwork.com/"
+}

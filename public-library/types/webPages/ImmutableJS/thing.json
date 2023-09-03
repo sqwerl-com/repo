@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-27T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "ImmutableJS",
+  "path": "/Types/Web Pages/ImmutableJS",
+  "recommendedBy": {
+    "</types/videos/Learning Functional Programming with JavaScript>": ""
+  },
+  "shortDescription": "Home page for the Immutable JavaScript library",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  },
+  "url": "https://immutable-js.github.io/immutable-js/"
+}

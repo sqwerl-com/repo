@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-11-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to Representational State Transfer (REST).",
+  "name": "REST",
+  "path": "/Types/Tags/REST",
+  "shortDescription": "",
+  "tagged": {
+    "</types/videos/REST Plus JSON Design Best Practices for Developers>": ""
+  },
+  "text": "REST"
+}

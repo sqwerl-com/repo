@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-06-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ilya Grigorik>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "High Performance Browser Networking",
+  "path": "/Types/Books/High Performance Browser Networking",
+  "pictures": {
+    "</types/pictures/High Performance Browser Networking Book>": ""
+  },
+  "shortDescription": "",
+  "title": "High Performance Browser Networking: What every web developer should know about networking and web performance"
+}

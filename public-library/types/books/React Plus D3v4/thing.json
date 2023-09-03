@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Swizec Teller>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "React + D3v4",
+  "path": "/Types/Books/React + D3v4",
+  "recommendedBy": {
+    "</types/webPages/3 Key Insights That Make D3js Easy to Learn>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "title": "React + D3v4",
+  "webPages": {
+    "</types/webPages/React Plus D3v4>": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-06-15T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Help People Create Passwords That They Can Actually Remember>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "User experience for security matters",
+  "name": "Security",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Security",
+  "shortDescription": "Things regarding user experience around security settings like passwords, account management, and encryption."
+}

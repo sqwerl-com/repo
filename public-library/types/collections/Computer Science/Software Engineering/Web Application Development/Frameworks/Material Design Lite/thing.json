@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-09T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Material Design Lite>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Material Design Lite",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Material Design Lite",
+  "shortDescription": "Things related to Google's Material Design Lite web application framework."
+}

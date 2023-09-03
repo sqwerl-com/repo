@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-11T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Lisp Language Organization>": "",
+    "</types/papers/Lisp Good News Bad News How to Win Big>": "",
+    "</types/papers/The Roots of Lisp>": "",
+    "</types/webPages/Why I Still Lisp and You Should Too>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": ""
+  },
+  "name": "Lisp",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Lisp",
+  "shortDescription": "Things related to the Lisp programming language"
+}

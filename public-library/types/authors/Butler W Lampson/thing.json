@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-07T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/papers/Crash Recovery in a Distributed Data Storage System>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Butler",
+  "lastName": "Lampson",
+  "middleNameOrInitial": "W",
+  "name": "Butler W. Lampson",
+  "path": "/Types/Authors/Butler W. Lampson"
+}

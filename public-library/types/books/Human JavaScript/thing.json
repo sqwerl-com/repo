@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-12-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Henrik Joreteg>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Human JavaScript",
+  "notes": {
+    "</types/notes/Human JavaScript>": ""
+  },
+  "path": "/Types/Books/Human JavaScript",
+  "pictures": {
+    "</types/pictures/Human JavaScript Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "webPages": {
+    "</types/webPages/Human JavaScript>": ""
+  }
+}

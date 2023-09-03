@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-11T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Ansible for DevOps>": "",
+    "</types/webPages/Ansible Home Page>": "",
+    "</types/videos/You Did WHAT with Ansible>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ansible",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps/Tools/Ansible",
+  "shortDescription": "Things related to the Ansible automation tool.",
+  "tags": {
+    "</types/tags/Ansible>": ""
+  }
+}

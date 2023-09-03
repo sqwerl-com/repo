@@ -1,0 +1,91 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Projects>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "Collections of related things.",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/collectable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/taggable>": ""
+  },
+  "name": "Collections",
+  "path": "/Types/Collections",
+  "properties": {
+    "collections": {
+      "description": "The collections of things a collection belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "children": {
+      "description": "The things contained within a collection.",
+      "inverse": "collections",
+      "name": "Children",
+      "required": false,
+      "shortDescription": "The things within a collection of things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes a collection of things.",
+      "name": "Description",
+      "required": false,
+      "shortDescription": "A collection's description.",
+      "type": "text"
+    },
+    "links": {
+      "description": "Links to things a collection is related to.",
+      "inverse": "links",
+      "shortDescription": "Links to related things",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "name": {
+      "description": "The name of a collection of things.",
+      "name": "Name",
+      "required": true,
+      "shortDescription": "A collection's name.",
+      "type": "text"
+    },
+    "shortDescription": {
+      "description": "Brief textual description of a collection of things.",
+      "name": "Tip",
+      "required": false,
+      "shortDescription": "A collection's tool tip text.",
+      "type": "text"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a collection of things.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    }
+  },
+  "shortDescription": "Collections of related things.",
+  "singularName": "Collection"
+}
+

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Lehman>",
+    "</types/authors/F Thomson Leighton>",
+    "</types/authors/Albert R Meyer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Mathematics for Computer Science",
+  "path": "/Types/Books/Mathematics for Computer Science",
+  "pictures": {
+    "</types/pictures/Mathematics for Computer Science Book>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Teach Yourself Computer Science>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alexander Klimburg>"
+  ],
+  "collections": {
+    "</types/collections/Political Science>": "",
+    "</types/collections/Computer Science/Software Engineering/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Darkening Web",
+  "notes": {
+    "</types/notes/The Darkening Web>": ""
+  },
+  "path": "/Types/Books/The Darkening Web",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Command and Control>": "",
+    "</types/books/The Dead Hand>": "",
+    "</types/books/The March of Folly>": ""
+  },
+  "shortDescription": "",
+  "title": "The Darkening Web: The War for Cyberspace"
+}

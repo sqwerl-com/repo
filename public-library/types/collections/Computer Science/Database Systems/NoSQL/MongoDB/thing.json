@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/courses/Introduction to MongoDB>": "",
+    "</types/webPages/Introduction to MongoDB>": "",
+    "</types/webPages/MongoDB is a Tool Not THE Tool>": "",
+    "</types/webPages/Should I Use MongoDB or CouchDB>": "",
+    "</types/webPages/Why Did So Many Startups Choose MongoDB Part 1>": "",
+    "</types/webPages/Why Did So Many Startups Choose MongoDB Part 2>": "",
+    "</types/webPages/Why Did So Many Startups Choose MongoDB Part 3>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/NoSQL>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "MongoDB",
+  "path": "/Types/Collections/Computer Science/Database Systems/NoSQL/MongoDB",
+  "shortDescription": "Things related to the MongoDB non-SQL database management system."
+}

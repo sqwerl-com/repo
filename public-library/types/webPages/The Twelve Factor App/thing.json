@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Adam Wiggins>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Twelve-Factor App",
+  "path": "/Types/Web Pages/The Twelve-Factor App",
+  "recommendedBy": {
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 2 Configuration>": ""
+  },
+  "shortDescription": "",
+  "url": "https://12factor.net/"
+}

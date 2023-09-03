@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Daniel Rosenwasser>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Announcing TypeScript 5.1 RC",
+  "path": "/Types/Web Pages/Announcing TypeScript 5.1 RC",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/"
+}

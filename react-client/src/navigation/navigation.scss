@@ -1,0 +1,53 @@
+@import "../index.scss";
+
+.sqwerl-button-bar {
+  align-self: end;
+  width: 100%;
+}
+
+.sqwerl-navigation {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 100%;
+  left: 0;
+  position: relative;
+  z-index: var(--horizontal-divider-split-left-child-z-index);
+
+  &.slide-left {
+    transition: left 0.2s $sqwerl-slide-transition-function;
+    left: calc(-100%);
+    z-index: var(--horizontal-divider-split-child-animated-z-index);
+  }
+
+  &.slide-right {
+    transition: left 0.2s $sqwerl-slide-transition-function;
+    left: calc(100%);
+    z-index: var(--horizontal-divider-split-child-animated-z-index);
+  }
+
+  & .sqwerl-navigation-title-text {
+    line-height: $sqwerl-row-height;
+  }
+}
+
+.sqwerl-navigation-back {
+  cursor: default;
+  font-family: $sqwerl-font-family;
+  font-size: 1rem;
+  font-weight: normal;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  letter-spacing: $sqwerl-letter-spacing;
+  line-height: $sqwerl-content-heading-height;
+
+  & a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.sqwerl-navigation-scroller {
+  display: flex;
+  flex: 2 2 auto;
+}

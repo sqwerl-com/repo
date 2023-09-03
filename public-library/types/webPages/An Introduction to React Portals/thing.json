@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Queendoline Benedict Akpan>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/OpenReplay Blog>": ""
+  },
+  "name": "An Introduction to React Portals",
+  "path": "/Types/Web Pages/An Introduction to React Portals",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.openreplay.com/an-introduction-to-react-portals/"
+}

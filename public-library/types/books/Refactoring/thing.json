@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Martin Fowler>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Refactoring",
+  "path": "/Types/Books/Refactoring",
+  "pictures": {
+    "</types/pictures/Refactoring Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Clean Code>": "",
+    "</types/webPages/Let the Code Speak>": "",
+    "</types/webPages/Software Engineering 101 for Front end Developers>": ""
+  },
+  "shortDescription": "",
+  "title": "Refactoring: Improving the Design of Existing Code"
+}

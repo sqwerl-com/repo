@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Handbook of Graph Drawing and Visualization>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Handbook of Graph Drawing and Visualization",
+  "path": "/Types/Web Pages/Handbook of Graph Drawing and Visualization",
+  "pictures": {
+    "</types/pictures/Handbook of Graph Drawing and Visualization Book>": ""
+  },
+  "shortDescription": "",
+  "url": "http://cs.brown.edu/people/rtamassi/gdhandbook/"
+}

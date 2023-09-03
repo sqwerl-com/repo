@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-14T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Aspect-Oriented Software Development",
+  "path": "/Types/Web Pages/Aspect-Oriented Software Development",
+  "recommendedBy": {
+    "</types/books/Clean Code>": ""
+  },
+  "shortDescription": "",
+  "url": "http://aosd.net/"
+}

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "feeds.feedburner.com/UXM",
+  "items": {
+    "</types/webPages/For Developers a Little UX can Go a Long Way>": "",
+    "</types/webPages/Teslas Groundbreaking UX>": "",
+    "</types/webPages/The 3 Most Powerful Heuristics Designers Can Use>": "",
+    "</types/webPages/The Psychologists View of UX Design>": "",
+    "</types/webPages/When Design Practices Become Performance Worst Practices>": ""
+  },
+  "name": "UX Magazine",
+  "path": "/Types/Feeds/UX Magazine",
+  "recommendedBy": {
+    "</types/webPages/9 Essential Resources for User Interface Designers>": ""
+  },
+  "shortDescription": ""
+}

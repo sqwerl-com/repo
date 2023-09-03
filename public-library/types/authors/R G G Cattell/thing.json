@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-16T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Object Database Standard ODMG 93>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "R",
+  "lastName": "Cattell",
+  "middleNameOrInitial": "G G",
+  "name": "R. G. G. Cattell",
+  "path": "/Types/Authors/R. G. G. Cattell"
+}

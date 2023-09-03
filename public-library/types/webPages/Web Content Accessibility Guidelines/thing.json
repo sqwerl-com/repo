@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alastair Campbell>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Web Content Accessibility Guidelines (WCAG) 2.1 - Recommended",
+  "path": "/Types/Web Pages/Web Content Accessibility Guidelines (WCAG) 2.1 - Recommended",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/W3C Web Content Accessibility Guidelines 2 1>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Accessibility>": ""
+  },
+  "url": "https://www.nomensa.com/blog/2018/wcag-21-accessibility-recommended"
+}

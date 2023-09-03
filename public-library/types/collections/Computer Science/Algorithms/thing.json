@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-01T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Data Structures and Algorithms>": "",
+    "</types/books/Data Structures and Algorithms Aho Hopcroft Ullman>": "",
+    "</types/books/Grokking Algorithms>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to computer algorithms.",
+  "name": "Algorithms",
+  "path": "/Types/Collections/Computer Science/Algorithms",
+  "shortDescription": "Things related to computing algorithms."
+}

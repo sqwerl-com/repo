@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-08-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Information Architecture For the Web and Beyond 4th Edition>": "",
+    "</types/feeds/Rosenfeld Media>": "",
+    "</types/books/Search Analytics for Your Site>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Louis",
+  "lastName": "Rosenfeld",
+  "links": {
+    "</types/videos/The Founder and Publisher of Rosenfeld Media Lou Rosenfeld>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Louis Rosenfeld",
+  "path": "/Types/Authors/Louis Rosenfeld"
+}
+

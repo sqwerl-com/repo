@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Simpson>"
+  ],
+  "books": {
+    "</types/books/You Dont Know JS Up and Going>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "You Don't Know JS: Up & Going",
+  "path": "/Types/Web Pages/You Don't Know JS: Up & Going",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JavaScript>": ""
+  },
+  "url": "https://github.com/KBPsystem777/You-Dont-Know-JS/tree/master/up%26going"
+}

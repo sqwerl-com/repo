@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-05T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Fastify>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the Fastify JavaScript framework.",
+  "name": "Fastify.io",
+  "path": "/Types/Web Pages/Fastify.io",
+  "shortDescription": "Fastify Home Page",
+  "url": "https://www.fastify.io"
+}

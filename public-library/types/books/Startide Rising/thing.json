@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David Brin>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Startide Rising",
+  "path": "/Types/Books/Startide Rising",
+  "pictures": {
+    "</types/pictures/Startide Rising Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Determining the Greatest Science Fiction and Fantasy Novels Since 1970>": ""
+  },
+  "shortDescription": ""
+}

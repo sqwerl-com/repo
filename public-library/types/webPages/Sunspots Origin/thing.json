@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bruce Richardson>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "feeds": {
+    "</types/feeds/Sunspot>": ""
+  },
+  "name": "Sunspot's Origin",
+  "path": "/Types/Web Pages/Sunspot's Origin",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "url": "https://www.sunspot.app/"
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Designing the User Interface>": "",
+    "</types/books/Leonardos Laptop>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ben",
+  "lastName": "Schneiderman",
+  "middleNameOrInitial": "",
+  "name": "Ben Schneiderman",
+  "path": "/Types/Authors/Ben Schneiderman"
+}

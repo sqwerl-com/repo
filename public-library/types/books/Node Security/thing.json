@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-12-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dominic Barnes>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Node Security",
+  "path": "/Types/Books/Node Security",
+  "pictures": {
+    "</types/pictures/Node Security Book>": ""
+  },
+  "shortDescription": ""
+}

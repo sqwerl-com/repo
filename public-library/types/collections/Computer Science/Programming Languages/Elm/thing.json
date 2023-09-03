@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-07-28T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Elm Home Page>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Items related to the Elm programming language",
+  "name": "Elm",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Elm",
+  "shortDescription": ""
+}

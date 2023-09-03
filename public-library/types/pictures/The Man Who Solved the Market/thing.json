@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-06-03T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Man Who Solved the Market Book",
+  "path": "/Types/Pictures/The Man Who Solved the Market Book",
+  "pictureOf": {
+    "</types/books/The Man Who Solved the Market>": ""
+  },
+  "representations": {
+    "the_man_who_solved_the_market_book_cover_large.lnk.json": "",
+    "the_man_who_solved_the_market_book_cover_medium.lnk.json": "",
+    "the_man_who_solved_the_market_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

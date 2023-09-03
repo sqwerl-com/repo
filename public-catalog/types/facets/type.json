@@ -1,0 +1,43 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {
+    "</types/groups/Administrators>": ""
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "Properties that are common to many things.",
+  "extends": "</types>",
+  "name": "Facets",
+  "path": "/Types/Facets",
+  "properties": {
+    "description": {
+      "description": "Text that describes a facet.",
+      "name": "Description",
+      "shortDescription": "A facet's description.",
+      "type": "text"
+    },
+    "faceted": {
+      "description": "Types of things that are defined in terms of the facet.",
+      "name": "Faceted",
+      "shortDescription": "Type of things that share a facet.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "name": {
+      "description": "The name for a collection of properties that are common to similar types of things.",
+      "name": "Name",
+      "required": true,
+      "shortDescription": "An information facet's name.",
+      "type": "text"
+    }
+  },
+  "shortDescription": "Properties shared by different types of things.",
+  "singularName": "Facet"
+}

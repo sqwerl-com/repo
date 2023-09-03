@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Clive Thompson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/The Secret History of Women in Coding>": ""
+  },
+  "name": "The Secret History of Women in Coding",
+  "path": "/Types/Articles/The Secret History of Women in Coding",
+  "pictures": {
+    "</types/pictures/The Secret History of Women in Coding>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

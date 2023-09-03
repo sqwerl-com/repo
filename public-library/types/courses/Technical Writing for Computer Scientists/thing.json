@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Writing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Technical Writing for Computer Scientists",
+  "notes": {
+    "</types/notes/Technical Writing for Computer Scientists>": ""
+  },
+  "path": "/Types/Courses/Technical Writing for Computer Scientists",
+  "shortDescription": ""
+}

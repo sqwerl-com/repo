@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Deborah J Mayhew>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Process>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Usability Engineering Lifecycle",
+  "path": "/Types/Books/The Usability Engineering Lifecycle",
+  "pictures": {
+    "</types/pictures/The Usability Engineering Lifecycle Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design"
+}

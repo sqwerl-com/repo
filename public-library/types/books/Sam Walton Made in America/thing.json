@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-01-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sam Walton>",
+    "</types/authors/John Huey>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Sam Walton: Made in America",
+  "path": "/Types/Books/Sam Walton: Made in America",
+  "pictures": {
+    "</types/pictures/Sam Walton Made in America Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-08-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mihaly Csikszentmihalyi>",
+    "</types/authors/Eugene Rochberg Halton>"
+  ],
+  "collections": {
+    "</types/collections/Psychology>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Meaning of Things",
+  "path": "/Types/Books/The Meaning of Things",
+  "pictures": {
+    "</types/pictures/The Meaning of Things Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Emotional Design>": ""
+  },
+  "shortDescription": "",
+  "title": "The Meaning of Things: Domestic Symbols and the Self"
+}

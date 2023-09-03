@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sabesan Sathananthan>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Deep Insights Into JavaScript's Fetch API",
+  "path": "/Types/Web Pages/Deep Insights Into JavaScript's Fetch API",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://betterprogramming.pub/deep-insights-into-javascripts-fetch-api-e8e8203c0965"
+}

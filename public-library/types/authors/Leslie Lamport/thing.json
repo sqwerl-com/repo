@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-11T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/papers/The Byzantine Generals Problem>": "",
+    "</types/papers/Time Clocks and the Ordering of Events in a Distributed System>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Leslie",
+  "lastName": "Lamport",
+  "middleNameOrInitial": "",
+  "name": "Leslie Lamport",
+  "path": "/Types/Authors/Leslie Lamport"
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Lex Fridman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/authors/Brian Kernighan>": ""
+  },
+  "name": "Brian Kernighan: UNIX, C, AWK, AMPL, and Go Programming",
+  "path": "/Types/Videos/Brian Kernighan UNIX C AWK AMPL and Go Programming",
+  "recommendations": {
+    "</types/books/UNIX A History and a Memoir>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=O9upVbGSBFo",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/William J Brown>",
+    "</types/authors/Raphael C Malveau>",
+    "</types/authors/Hays W Skip McCormick III>",
+    "</types/authors/Thomas J Mowbray>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Anti Patterns",
+  "path": "/Types/Books/Anti Patterns",
+  "pictures": {
+    "</types/pictures/Anti Patterns Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Anti Patterns: Refactoring Software, Architectures, and Projects in Crisis"
+}

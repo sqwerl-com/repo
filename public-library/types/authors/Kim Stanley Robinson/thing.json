@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-05T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/New York 2140>": "",
+    "</types/books/The Ministry for the Future>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Kim",
+  "lastName": "Robinson",
+  "middleNameOrInitial": "Stanley",
+  "name": "Kim Stanley Robinson",
+  "path": "/Types/Authors/Kim Stanley Robinson"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Badass: Making Users Awesome Book",
+  "path": "/Types/Pictures/Badass: Making Users Awesome Book",
+  "pictureOf": {
+    "</types/books/Badass Making Users Awesome>": ""
+  },
+  "representations": {
+    "badass_making_users_awesome_book_cover_large.lnk.json": "",
+    "badass_making_users_awesome_book_cover_medium.lnk.json": "",
+    "badass_making_users_awesome_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

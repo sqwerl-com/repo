@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joshua Porter>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/General>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/bokardo>": ""
+  },
+  "name": "Principles of User Interface Design",
+  "path": "/Types/Web Pages/Principles of User Interface Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://bokardo.com/principles-of-user-interface-design/"
+}

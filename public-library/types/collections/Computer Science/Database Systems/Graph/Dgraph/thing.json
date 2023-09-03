@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Dgraph Graph Database in 100 Seconds>": "",
+    "</types/webPages/Dgraph>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/Graph>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Dgraph",
+  "path": "/Types/Collections/Computer Science/Database Systems/Dgraph",
+  "shortDescription": "Things related to the Dgraph graph database management system."
+}

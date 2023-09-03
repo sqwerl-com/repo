@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-29T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Mythical Man-Month Book",
+  "path": "/Types/Pictures/The Mythical Man-Month Book",
+  "pictureOf": {
+    "</types/books/The Mythical Man Month>": ""
+  },
+  "representations": {
+    "the_mythical_man_month_book_cover_large.jpg.lnk.json": "",
+    "the_mythical_man_month_book_cover_medium.jpg.lnk.json": "",
+    "the_mythical_man_month_book_cover_preview.jpg.lnk.json": "",
+    "the_mythical_man_month_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

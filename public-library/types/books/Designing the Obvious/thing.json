@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert Hoekman>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Designing the Obvious",
+  "path": "/Types/Books/Designing the Obvious",
+  "pictures": {
+    "</types/pictures/Designing the Obvious Book>": ""
+  },
+  "recommendedBy": {
+    "</types/documents/Introduction to Good Usability>": ""
+  },
+  "shortDescription": "",
+  "title": "Designing the Obvious: A Common Sense Approach to Web and Mobile Application Design (2nd Edition)"
+}

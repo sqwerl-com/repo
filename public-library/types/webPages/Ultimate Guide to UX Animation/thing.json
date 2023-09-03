@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-05-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/AltexSoft Inc>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ultimate Guide to UX Animation",
+  "path": "/Types/Web Pages/Ultimate Guide to UX Animation",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Creating a Style Guide One Stop Place for Your UI Design Team>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "https://uxplanet.org/ultimate-guide-to-ux-animation-f5f7af5a3848"
+}

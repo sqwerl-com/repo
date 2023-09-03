@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-06-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Paul Ford>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is Code?",
+  "path": "/Types/Web Pages/What is Code?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/"
+}

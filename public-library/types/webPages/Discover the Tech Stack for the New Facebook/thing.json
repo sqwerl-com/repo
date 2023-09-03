@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-06-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joan Saum>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Performance Optimization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Discover the Tech Stack for the New Facebook",
+  "path": "/Types/Web Pages/Discover the Tech Stack for the New Facebook",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Rebuilding Our Tech Stack for the New Facebook com>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/javascript-in-plain-english/discover-the-tech-stack-for-the-new-facebook-a9876724dee8"
+}

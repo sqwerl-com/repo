@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Paul Graham>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Startup = Growth",
+  "path": "/Types/Web Pages/Startup = Growth",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/courses/Startup Engineering>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.paulgraham.com/growth.html"
+}

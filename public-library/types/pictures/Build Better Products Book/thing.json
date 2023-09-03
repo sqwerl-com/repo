@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Build Better Products Book",
+  "path": "/Types/Pictures/Build Better Products Book",
+  "pictureOf": {
+    "</types/books/Build Better Products>": ""
+  },
+  "representations": {
+    "build_better_products_book_cover_large.png.lnk.json": "",
+    "build_better_products_book_cover_medium.png.lnk.json": "",
+    "build_better_products_book_cover_preview.png.lnk.json": "",
+    "build_better_products_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

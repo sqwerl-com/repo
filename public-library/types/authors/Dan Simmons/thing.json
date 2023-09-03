@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Hyperion>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Dan",
+  "lastName": "Simmons",
+  "middleNameOrInitial": "",
+  "name": "Dan Simmons",
+  "path": "/Types/Authors/Dan Simmons"
+}

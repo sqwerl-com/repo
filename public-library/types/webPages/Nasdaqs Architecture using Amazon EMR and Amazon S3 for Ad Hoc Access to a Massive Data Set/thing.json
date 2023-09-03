@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nate Sammons>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Cloud Computing/Amazon Web Services>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Nasdaq's Architecture using Amazon EMR and Amazon S3 for Ad Hoc Access to a Massive Data Set",
+  "path": "/Types/Web Pages/Nasdaq's Architecture using Amazon EMR and Amazon S3 for Ad Hoc Access to a Massive Data Set",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://blogs.aws.amazon.com/bigdata/post/TxXTJA064IEJ8E/Nasdaq-s-Architecture-using-Amazon-EMR-and-Amazon-S3-for-Ad-Hoc-Access-to-a-Mass"
+}

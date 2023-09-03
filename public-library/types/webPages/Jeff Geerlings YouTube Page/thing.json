@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Geerling>"
+  ],
+  "collections": {
+    "</types/collections/Favorites>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/videos/Why Would You Build a Raspberry Pi Cluster>": ""
+  },
+  "name": "Jeff Geerling's YouTube page",
+  "path": "/Types/Web Pages/Jeff Geerling's YouTube page",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/c/JeffGeerling/videos"
+}

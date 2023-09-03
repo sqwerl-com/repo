@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/A New Version of the Joel Test>": "",
+    "</types/webPages/Continuous Deployment in 5 Easy Steps>": "",
+    "</types/books/The Lean Startup>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Eric",
+  "lastName": "Ries",
+  "middleNameOrInitial": "",
+  "name": "Eric Ries",
+  "path": "/Types/Authors/Eric Ries"
+}

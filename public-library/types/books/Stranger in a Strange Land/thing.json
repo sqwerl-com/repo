@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-07-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert A Heinlein>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Stranger in a Strange Land",
+  "path": "/Types/Books/Stranger in a Strange Land",
+  "pictures": {
+    "</types/pictures/Stranger in a Strange Land Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Stranger in a Strange Land (Remembering Tomorrow)"
+}

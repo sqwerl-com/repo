@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Vinicius Dacal>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Conditional Rendering in React",
+  "path": "/Types/Web Pages/Conditional Rendering in React",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+  },
+  "url": "https://hackernoon.com/conditional-rendering-on-react-57a864c2d04d"
+}

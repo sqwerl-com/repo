@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-08-15T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/CSS Animations A Pocket Guide>": "",
+    "</types/books/Designing Interface Animation>": "",
+    "</types/webPages/Val Head on Interface Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Val",
+  "lastName": "Head",
+  "middleNameOrInitial": "",
+  "name": "Val Head",
+  "path": "/Types/Authors/Val Head"
+}

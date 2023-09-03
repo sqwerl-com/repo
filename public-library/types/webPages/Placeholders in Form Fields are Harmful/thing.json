@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-12-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Katie Sherwin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Placeholders in Form Fields Are Harmful",
+  "path": "/Types/Web Pages/Placeholders in Form Fields Are Harmful",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Alternatives to Placeholder Text>": "",
+    "</types/webPages/Getting the Search Pattern Right>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Placeholder text>": ""
+  },
+  "url": "https://www.nngroup.com/articles/form-design-placeholders/"
+}

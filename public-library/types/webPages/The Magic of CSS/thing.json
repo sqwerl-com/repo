@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Adam Schwartz>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Magic of CSS",
+  "path": "/Types/Web Pages/The Magic of CSS",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/CSS3>": "",
+    "</types/tags/Responsive design>": ""
+  },
+  "url": "http://adamschwartz.co/magic-of-css/"
+}

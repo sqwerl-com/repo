@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joshua Bloch>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Effective Java Programming Language Guide",
+  "notes": {
+    "</types/notes/Effective Java Programming Language Guide>": ""
+  },
+  "path": "/Types/Books/Effective Java Programming Language Guide",
+  "pictures": {
+    "</types/pictures/Effective Java Programming Language Guide Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Let the Code Speak>": ""
+  },
+  "shortDescription": ""
+}

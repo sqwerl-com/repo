@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-05-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Farhan Hasin Chowdhury>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The NGINX Handbook",
+  "path": "/Types/Web Pages/The NGINX Handbook",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/NGINX>": ""
+  },
+  "url": "https://www.freecodecamp.org/news/the-nginx-handbook/"
+}

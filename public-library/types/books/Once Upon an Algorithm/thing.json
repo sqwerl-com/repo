@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-12-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Martin Erwig>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Once Upon an Algorithm",
+  "path": "/Types/Books/Once Upon an Algorithm",
+  "pictures": {
+    "</types/pictures/Once Upon an Algorithm Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Once Upon an Algorithm: How Stories Explain Computing"
+}

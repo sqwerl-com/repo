@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-04-11T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the Documentation.js project that generates documentation from JavaScript source code.",
+  "name": "Documentation.js",
+  "path": "/Types/Web Pages/Documentation.js",
+  "shortDescription": "Home page for the Documentation.js open source project",
+  "tags": {
+    "</types/tags/JSDoc>": ""
+  },
+  "url": "http://documentation.js.org/"
+}

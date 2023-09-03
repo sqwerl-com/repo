@@ -1,0 +1,12 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-08-14T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Education/Computer Based Training>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to learning and training.",
+  "name": "Education",
+  "path": "/Types/Collections/Education",
+  "shortDescription": ""
+}

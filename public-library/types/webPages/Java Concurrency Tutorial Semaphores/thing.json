@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Java/Concurrency>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Java Code Geeks>": ""
+  },
+  "name": "Java Concurrency Tutorial - Semaphores",
+  "path": "/Types/Web Pages/Java Concurrency Tutorial - Semaphores",
+  "shortDescription": "",
+  "url": "http://www.javacodegeeks.com/2011/09/java-concurrency-tutorial-semaphores.html"
+}

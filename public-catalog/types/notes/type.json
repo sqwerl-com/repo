@@ -1,0 +1,44 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "description": "Notes about things.",
+  "extends": "</types>",
+  "isNamePlural": true,
+  "name": "Notes",
+  "controller": "</types/users/Administrator>",
+  "path": "/Types/Notes",
+  "properties": {
+    "done": {
+      "description": "Have these notes been finished, or are they still being written?",
+      "required": true,
+      "shortDescription": "Done",
+      "type": "boolean"
+    },
+    "notesFor": {
+      "description": "The things that these notes describe.",
+      "inverse": "notes",
+      "required": true,
+      "shortDescription": "Notes for",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/facets/notable>": ""
+      }
+    },
+    "name": {
+      "description": "A note's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A note's name.",
+      "type": "text"
+    },
+    "representations": {
+      "description": "Digital notes",
+      "shortDescription": "Files that contain notes.",
+      "type": "representations"
+    }
+  },
+  "shortDescription": "Notes that describe things.",
+  "singularName": "Notes"
+}

@@ -1,0 +1,35 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/About Face>": "",
+    "</types/books/About Face 3>": "",
+    "</types/documents/An Insurgency of Quality>": "",
+    "</types/webPages/Should Designers Code Part 1>": "",
+    "</types/books/The Inmates are Running the Asylum>": "",
+    "</types/webPages/Whats the ROI of UX>": "",
+    "</types/webPages/You Cant Save Your Way to Innovation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Alan",
+  "lastName": "Cooper",
+  "middleNameOrInitial": "",
+  "name": "Alan Cooper",
+  "path": "/Types/Authors/Alan Cooper",
+  "recommendations": {
+    "</types/books/Ardennes 1944 The Battle of the Bulge>": "",
+    "</types/books/Intertwingled>": "",
+    "</types/books/Notes on the Synthesis of Form>": "",
+    "</types/books/Sapiens A Brief History of Humankind>": "",
+    "</types/books/Sense and Respond>": "",
+    "</types/books/Systemantics>": "",
+    "</types/books/The Death and Life of Great American Cities>": "",
+    "</types/books/The Fires>": "",
+    "</types/books/The Innovators Dilemma>": "",
+    "</types/books/The Mythical Man Month>": "",
+    "</types/books/Wrestling with Moses>": ""
+  },
+  "spokeAt": {
+    "</types/talks/Software Alchemy and the Arc of Technology>": ""
+  }
+}

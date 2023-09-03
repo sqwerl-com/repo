@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-28T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Scott",
+  "instructed": {
+    "</types/courses/Human Computer Interaction Stanford University>": ""
+  },
+  "lastName": "Klemmer",
+  "middleNameOrInitial": "",
+  "name": "Scott Klemmer",
+  "path": "/Types/Authors/Scott Klemmer"
+}

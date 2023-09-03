@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John Pruitt>",
+    "</types/authors/Tamara Adlin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Personas>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Persona Lifecycle",
+  "path": "/Types/Books/The Persona Lifecycle",
+  "pictures": {
+    "</types/pictures/The Persona Lifecycle Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Letting Go of the Words>": ""
+  },
+  "shortDescription": "",
+  "title": "The Persona Lifecycle: Keeping People in Mind Throughout Product Design"
+}

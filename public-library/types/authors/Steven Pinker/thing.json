@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/How the Mind Works>": "",
+    "</types/books/The Better Angels of Our Nature>": "",
+    "</types/books/The Language Instinct>": "",
+    "</types/books/The Sense of Style>": "",
+    "</types/books/Words and Rules>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Steven",
+  "lastName": "Pinker",
+  "middleNameOrInitial": "",
+  "name": "Steven Pinker",
+  "path": "/Types/Authors/Steven Pinker"
+}

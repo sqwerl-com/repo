@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/25 Free and Premium PSD UI Web Design Elements>": "",
+    "</types/webPages/Dear Web Designer Lets Stop Breaking the Affordance of Scrolling>": "",
+    "</types/webPages/Strengthening Behavioral Cues in UX Web Design with Gestalt Principles>": "",
+    "</types/feeds/Webdesigner Depot>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Platforms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Web",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Platforms/Web",
+  "shortDescription": "Things related to designing the user experience for users of web-based applications."
+}

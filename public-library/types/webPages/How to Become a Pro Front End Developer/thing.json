@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-04T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Guidelines>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/ReactJS Roadmap for Developers>": ""
+  },
+  "name": "How to Become a Pro Front End Developer",
+  "path": "/Types/Web Pages/How to Become a Pro Front End Developer",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/How Browsers Work Behind the Scenes of Modern Web Browsers>": "",
+    "</types/webPages/HTTP3 The Past The Present and The Future>": "",
+    "</types/webPages/Journey to HTTP2>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dev.to/theme_selection/how-to-become-a-pro-front-end-developer-5gbo"
+}

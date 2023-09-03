@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/documents/Knock Knock>": "",
+    "</types/books/Linchpin>": "",
+    "</types/books/Poke the Box>": "",
+    "</types/books/The Big Red Fez>": "",
+    "</types/books/The Bootstrappers Bible>": "",
+    "</types/books/Tribes>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Seth",
+  "lastName": "Godin",
+  "middleNameOrInitial": "",
+  "name": "Seth Godin",
+  "path": "/Types/Authors/Seth Godin"
+}

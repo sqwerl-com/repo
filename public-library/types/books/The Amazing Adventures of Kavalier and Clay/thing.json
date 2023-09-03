@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael Chabon>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Amazing Adventures of Kavalier and Clay",
+  "path": "/Types/Books/The Amazing Adventures of Kavalier and Clay",
+  "pictures": {
+    "</types/pictures/The Amazing Adventures of Kavalier and Clay Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

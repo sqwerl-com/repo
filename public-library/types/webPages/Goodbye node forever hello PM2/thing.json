@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-06-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alexandre Strzelewicz>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS/DevOps/PM2>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/devops>": ""
+  },
+  "name": "Goodbye node-forever, hello PM2",
+  "path": "/Types/Web Pages/Goodbye node-forever, hello PM2",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://devo.ps/blog/goodbye-node-forever-hello-pm2/"
+}

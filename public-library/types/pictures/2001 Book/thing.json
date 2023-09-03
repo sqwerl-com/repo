@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-07T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "2001: A Space Odyssey Book",
+  "path": "/Types/Pictures/2001: A Space Odyssey Book",
+  "pictureOf": {
+    "</types/books/2001>": ""
+  },
+  "representations": {
+    "2001_book_cover_large.lnk.json": "",
+    "2001_book_cover_medium.lnk.json": "",
+    "2001_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

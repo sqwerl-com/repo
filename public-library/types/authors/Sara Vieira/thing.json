@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-08-28T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Opinionated Guide to React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Sara",
+  "lastName": "Vieira",
+  "middleNameOrInitial": "",
+  "name": "Sara Vieira",
+  "path": "/Types/Authors/Sara Vieira"
+}

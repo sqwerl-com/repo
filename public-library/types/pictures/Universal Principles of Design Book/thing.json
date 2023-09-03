@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-18T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Universal Principles of Design Book",
+  "path": "/Types/Pictures/Universal Principles of Design Book",
+  "pictureOf": {
+    "</types/books/Universal Principles of Design>": ""
+  },
+  "representations": {
+    "universal_principles_of_design_book_cover_large.jpg.lnk.json": "",
+    "universal_principles_of_design_book_cover_medium.jpg.lnk.json": "",
+    "universal_principles_of_design_book_cover_preview.jpg.lnk.json": "",
+    "universal_principles_of_design_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

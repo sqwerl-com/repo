@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ben Schneiderman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Designing the User Interface",
+  "notes": {
+    "</types/notes/Designing the User Interface>": ""
+  },
+  "path": "/Types/Books/Designing the User Interface",
+  "pictures": {
+    "</types/pictures/Designing the User Interface Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

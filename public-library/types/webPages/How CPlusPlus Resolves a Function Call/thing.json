@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-03-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Preshing>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/CPlusPlus>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How C++ Resolves a Function Call",
+  "path": "/Types/Web Pages/How C++ Resolves a Function Call",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://preshing.com/20210315/how-cpp-resolves-a-function-call/"
+}

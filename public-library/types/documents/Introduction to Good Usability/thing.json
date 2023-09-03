@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Peter Conradie>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": "",
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Introduction to Good Usability",
+  "notes": {
+    "</types/notes/Introduction to Good Usability>": ""
+  },
+  "path": "/Types/Documents/Introduction to Good Usability",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations":  {
+    "</types/books/About Face 3>": "",
+    "</types/books/Designing the Obvious>": "",
+    "</types/books/Dont Make Me Think>": "",
+    "</types/books/The Big Red Fez>": ""
+  },
+  "shortDescription": ""
+}

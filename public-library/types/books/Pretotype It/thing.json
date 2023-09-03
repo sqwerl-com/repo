@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alberto Savoia>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Pretotype It",
+  "notes": {
+    "</types/notes/Pretotype It>": ""
+  },
+  "path": "/Types/Books/Pretotype It",
+  "pictures": {
+    "</types/pictures/Pretotype It Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

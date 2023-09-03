@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Cartoon Guide to Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Larry",
+  "lastName": "Gonick",
+  "middleNameOrInitial": "",
+  "name": "Larry Gonick",
+  "path": "/Types/Authors/Larry Gonick"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Poke the Box Book",
+  "path": "/Types/Pictures/Poke the Box Book",
+  "pictureOf": {
+    "</types/books/Poke the Box>": ""
+  },
+  "representations": {
+    "poke_the_box_book_cover_large.png.lnk.json": "",
+    "poke_the_box_book_cover_medium.png.lnk.json": "",
+    "poke_the_box_book_cover_preview.png.lnk.json": "",
+    "poke_the_box_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

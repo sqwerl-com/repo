@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-09-20T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/golang org>": "",
+    "</types/webPages/Go at Google>": "",
+    "</types/videos/The Go Programming Language>": "",
+    "</types/webPages/Why Golang is Taking Over the Software Industry>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Items related to the Go programming language",
+  "name": "Go",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Go",
+  "shortDescription": ""
+}

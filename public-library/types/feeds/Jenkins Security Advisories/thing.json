@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-24T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Integration>": "",
+    "</types/collections/Computer Science/Software Engineering/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://feeds.feedburner.com/jenkins-security-advisories",
+  "name": "Jenkins Security Advisories",
+  "path": "/Types/Feeds/Jenkins Security Advisories",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Jenkins>": ""
+  }
+}

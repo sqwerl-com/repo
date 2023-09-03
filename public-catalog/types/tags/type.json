@@ -1,0 +1,36 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-10-10T00:00:00.00-07:00",
+  "description": "Key words or phrases that describe things.",
+  "extends": "</types>",
+  "name": "Tags",
+  "controller": "</types/users/Administrator>",
+  "path": "/Types/Tags",
+  "properties": {
+    "description": {
+      "description": "Text that describes a tag.",
+      "name": "Description",
+      "shortDescription": "A tag's description.",
+      "type": "text"
+    },
+    "tagged": {
+      "description": "Things that have the same tag.",
+      "inverse": "tags",
+      "shortDescription": "Tagged things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/facets/taggable>": ""
+      }
+    },
+    "text": {
+      "description": "A tag's text.",
+      "name": "Text",
+      "shortDescription": "A key word or phrase that describes similar things.",
+      "type": "text"
+    }
+  },
+  "shortDescription": "Words or phrases that describe similar things.",
+  "singularName": "Tag"
+}

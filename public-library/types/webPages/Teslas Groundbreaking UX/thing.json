@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-01-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steve Tengler>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/UX Magazine>": ""
+  },
+  "name": "Tesla's Groundbreaking UX",
+  "path": "/Types/Web Pages/Tesla's Groundbreaking UX",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Tesla's Groundbreaking UX: An Interview with User Interface Manager Brennan Boblett",
+  "url": "http://uxmag.com/articles/tesla%E2%80%99s-groundbreaking-ux-an-interview-with-user-interface-manager-brennan-boblett"
+}

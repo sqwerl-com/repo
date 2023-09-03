@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-06T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Contains information regarding various revision control systems.",
+  "name": "Version Control Systems",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems",
+  "shortDescription": ""
+}

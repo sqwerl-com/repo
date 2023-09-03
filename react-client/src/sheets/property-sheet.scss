@@ -1,0 +1,159 @@
+@import "../index.scss";
+
+@keyframes loading-placeholder {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px;
+  }
+}
+
+.sqwerl-properties-container {
+  & .sqwerl-loading-picture {
+    animation: loading-placeholder 1.25s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
+    background-size: 800px 300px;
+    border: 1px solid var(--application-menu-right-border);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .sqwerl-loading-picture-preview-container {
+    position: relative;
+
+    .sqwerl-loading-picture-preview {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+
+      &.hidden {
+        opacity: 0;
+      }
+
+      &.visible {
+        opacity: 1;
+      }
+    }
+
+    .sqwerl-loading-picture-animation {
+      animation: loading-placeholder 1.25s infinite;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear;
+      background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
+      background-size: 800px 300px;
+      content: "";
+      height: 100%;
+      inset: 0;
+      opacity: 0.3;
+      position: absolute;
+      width: 100%;
+
+      &.hidden {
+        visibility: hidden;
+      }
+
+      &.visible {
+        visibility: visible;
+      }
+    }
+
+    .sqwerl-picture {
+      &.loaded {
+        box-shadow: var(--picture-shadow-color) 0 0.5rem 1rem;
+        opacity: 1;
+        transition: opacity 0.3ms ease-in-out;
+      }
+
+      &.loading {
+        box-shadow: none;
+        visibility: hidden;
+      }
+    }
+  }
+
+  .sqwerl-property-sheet-title-text {
+    font-family: $sqwerl-font-family;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: $sqwerl-letter-spacing;
+    line-height: $sqwerl-property-sheet-line-height;
+    max-width: 30rem;
+    padding-left: 1rem;
+  }
+
+  .sqwerl-property-sheet-text {
+    font-family: $sqwerl-font-family;
+    letter-spacing: $sqwerl-letter-spacing;
+    line-height: $sqwerl-property-sheet-line-height;
+    max-width: 30rem;
+    padding: 0.7rem 0.5rem 0.35rem 1rem;
+
+    &.bold {
+      font-weight: bold;
+    }
+  }
+
+  .sqwerl-property-sheet-title-bar-back-button {
+    align-items: center;
+    background: none;
+    border: none;
+    color: var(--application-text-color);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: $sqwerl-focus-border-size;
+    text-align: left;
+
+    &:hover {
+      animation: sqwerl-list-item-hover 0.3s ease-in;
+      background: var(--list-item-hover-background);
+      text-decoration: underline;
+    }
+
+    & .sqwerl-home-details-title-bar-back-icon {
+      line-height: $sqwerl-row-height;
+      padding-right: 0.5rem;
+    }
+
+    & .sqwerl-home-details-title-bar-title {
+      line-height: $sqwerl-row-height;
+      padding: 0 0.5rem;
+    }
+  }
+
+  .sqwerl-read-only-field-sub-item a {
+    font-family: $sqwerl-hyperlink-font-family;
+  }
+
+  .sqwerl-read-only-field-label-count {
+    background: var(--read-only-field-label-count-background);
+    border: 1px solid var(--read-only-field-label-count-border-color);
+    border-radius: 6rem;
+    color: var(--read-only-field-label-count-color);
+    font-size: 80%;
+    font-weight: bold;
+    margin: 0.2rem 0.4rem 0.2rem;
+    padding: 0.25rem 0.6rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .sqwerl-read-only-field-label-count-inline {
+    /* TODO - Consider removing. If removed, remove the HTML element with this class name.
+    background: var(--read-only-field-label-count-inline-background);
+    border: 1px solid var(--read-only-field-label-count-inline-border-color);
+    border-radius: 6rem;
+    color: var(--read-only-field-label-count-color);
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0.25rem 0.6rem;
+    text-align: center;
+    vertical-align: middle;
+     */
+  }
+}

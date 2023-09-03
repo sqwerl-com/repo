@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tim Raderschad>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/cstrnts coding corner>": ""
+  },
+  "name": "3 TypeScript Tricks I Wish I Knew When I Learned TypeScript",
+  "path": "/Types/Web Pages/3 TypeScript Tricks I Wish I Knew When I Learned TypeScript",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.cstrnt.dev/blog/three-typescript-tricks"
+}

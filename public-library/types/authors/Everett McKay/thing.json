@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Developing User Interfaces for Microsoft Windows>": "",
+    "</types/books/Intuitive Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Everett",
+  "lastName": "McKay",
+  "middleNameOrInitial": "",
+  "name": "Everett McKay",
+  "path": "/Types/Authors/Everett McKay"
+}

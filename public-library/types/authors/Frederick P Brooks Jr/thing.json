@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/papers/No Silver Bullet>": "",
+    "</types/books/The Mythical Man Month>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Frederick",
+  "lastName": "Brooks Jr",
+  "middleNameOrInitial": "P",
+  "name": "Frederick P. Brooks Jr.",
+  "path": "/Types/Authors/Frederick P. Brooks Jr."
+}

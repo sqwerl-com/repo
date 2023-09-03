@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Geerling>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Ansible>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Ansible for DevOps",
+  "path": "/Types/Books/Ansible for DevOps",
+  "pictures": {
+    "</types/pictures/Ansible for DevOps Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Ansible>": ""
+  },
+  "title": "Ansible for DevOps: Server and configuration management for humans"
+}

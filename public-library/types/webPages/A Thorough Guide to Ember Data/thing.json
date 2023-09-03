@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-06-30T00:00:00.00-07:00",
+  "archived": true,
+  "authors": [
+    "</types/authors/Pooyan Khosravy>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Thorough Guide to Ember Data",
+  "path": "/Types/Web Pages/A Thorough Guide to Ember Data",
+  "shortDescription": "",
+  "url": "http://www.toptal.com/emberjs/a-thorough-guide-to-ember-data"
+}

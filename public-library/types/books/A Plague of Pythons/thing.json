@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-11-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Frederik Pohl>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "A Plague of Pythons",
+  "path": "/Types/Books/A Plague of Pythons",
+  "pictures": {
+    "</types/pictures/A Plague of Pythons Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

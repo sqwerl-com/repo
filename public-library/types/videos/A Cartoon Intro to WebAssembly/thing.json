@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Lin Clark>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Cartoon Intro WebAssembly - JSConf EU 2017",
+  "path": "/Types/Videos/A Cartoon Intro to WebAssembly",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/WebAssembly>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=HktWin_LPf4",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-10T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Web app that tests a web site's security",
+  "name": "Observatory by Mozilla",
+  "path": "/Types/Web Pages/Observatory by Mozilla",
+  "shortDescription": "",
+  "url": "https://observatory.mozilla.org/"
+}

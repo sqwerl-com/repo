@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Vitaly Dulenko>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Error Handling>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Write a Perfect Error Message",
+  "path": "/Types/Web Pages/How to Write a Perfect Error Message",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Error Messages>": ""
+  },
+  "url": "https://uxplanet.org/how-to-write-a-perfect-error-message-da1ca65a8f36"
+}

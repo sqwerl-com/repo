@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Bringing Design to Software>": "",
+    "</types/books/Understanding Computers and Cognition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Terry",
+  "lastName": "Winograd",
+  "middleNameOrInitial": "",
+  "name": "Terry Winograd",
+  "path": "/Types/Authors/Terry Winograd"
+}

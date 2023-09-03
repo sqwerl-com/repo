@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Role Based Access Control (RBAC) and Role Based Security",
+  "path": "/Types/Web Pages/Role Based Access Control (RBAC) and Role Based Security",
+  "shortDescription": "",
+  "url": "http://csrc.nist.gov/groups/SNS/rbac/index.html"
+}

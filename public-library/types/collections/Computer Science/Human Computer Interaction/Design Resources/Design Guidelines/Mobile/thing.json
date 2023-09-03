@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/A Checklist for Designing Mobile Input Fields>": "",
+    "</types/webPages/Android Design Guidelines>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mobile",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Design Resources/Design Guidelines/Mobile Design Guidelines",
+  "shortDescription": "Things that provide general user interface design guidelines for mobile devices."
+}

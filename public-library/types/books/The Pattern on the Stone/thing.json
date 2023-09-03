@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/W Daniel Hillis>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Pattern on the Stone",
+  "notes": {
+    "</types/notes/The Pattern on the Stone>": ""
+  },
+  "path": "/Types/Books/The Pattern on the Stone",
+  "pictures": {
+    "</types/pictures/The Pattern on the Stone Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Pattern on the Stone: The Simple Ideas that Make Computers Work"
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Roman Mars>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/99 Percent Invisible>": ""
+  },
+  "name": "Johnnycab (Automation Paradox, Part 2)",
+  "path": "/Types/Web Pages/Johnnycab (Automation Paradox, Part 2)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://99percentinvisible.org/episode/johnnycab-automation-paradox-pt-2/"
+}

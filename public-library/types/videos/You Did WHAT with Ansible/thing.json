@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Geerling>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Ansible>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "You Did WHAT with Ansible?",
+  "path": "/Types/Videos/You Did WHAT with Ansible?",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Ansible>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=TVq88JeJbw4",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

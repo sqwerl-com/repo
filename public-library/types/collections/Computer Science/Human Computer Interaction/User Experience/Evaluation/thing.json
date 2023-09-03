@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-01-21T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/UX Check>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to evaluating usability and user experience.",
+  "name": "Evaluation",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Evaluation",
+  "shortDescription": "Things related to evaluating user experience."
+}

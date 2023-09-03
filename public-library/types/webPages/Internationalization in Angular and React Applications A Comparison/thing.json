@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kashyap Mukkamala>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Internationalization in Angular and React Applications — A Comparison",
+  "path": "/Types/Web Pages/Internationalization in Angular and React Applications — A Comparison",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": "",
+    "</types/tags/Internationalization>": ""
+  },
+  "url": "https://itnext.io/internationalization-in-angular-and-react-applications-a-comparison-93883f4e1cdb"
+}

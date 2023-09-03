@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Maciej Sopylo>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Managing the Asynchronous Nature of Node.js",
+  "path": "/Types/Web Pages/Managing the Asynchronous Nature of Node.js",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://net.tutsplus.com/tutorials/javascript-ajax/managing-the-asynchronous-nature-of-node-js/?utm_source=feedburner"
+}

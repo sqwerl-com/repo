@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why Code Review Beats Testing: Evidence from Decades of Programming",
+  "path": "/Types/Web Pages/Why Code Review Beats Testing: Evidence from Decades of Programming",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/"
+}

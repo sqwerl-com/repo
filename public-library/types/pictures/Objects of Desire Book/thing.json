@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-05-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Objects of Desire Book",
+  "path": "/Types/Pictures/Objects of Desire Book",
+  "pictureOf": {
+    "</types/books/Objects of Desire>": ""
+  },
+  "representations": {
+    "objects_of_desire_book_cover_large.jpg.lnk.json": "",
+    "objects_of_desire_book_cover_medium.jpg.lnk.json": "",
+    "objects_of_desire_book_cover_preview.jpg.lnk.json": "",
+    "objects_of_desire_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

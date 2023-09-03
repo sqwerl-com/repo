@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-09T00:00:00.00-07:00",
+  "children": {
+    "</types/courses/Intro to Computer Systems Fall 2016>": "",
+    "</types/webPages/Teach Yourself Computer Science>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Instruction",
+  "path": "/Types/Collections/Computer Science/Instruction",
+  "shortDescription": "Things related to teaching computer science"
+}

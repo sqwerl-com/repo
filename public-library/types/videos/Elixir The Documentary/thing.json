@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-23T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Elixir>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Elixir: The Documentary",
+  "path": "/Types/Videos/Elixir: The Documentary",
+  "recommendedBy": {
+    "</types/webPages/These Modern Programming Languages Will Make You Suffer>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=lxYFOM3UJzo",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

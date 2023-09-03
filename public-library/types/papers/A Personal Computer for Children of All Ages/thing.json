@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alan Kay>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Personal Computer for Children of All Ages",
+  "path": "/Types/Papers/A Personal Computer for Children of All Ages",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/As We May Think>": ""
+  },
+  "recommendedBy": {
+    "</types/books/The Innovators>": ""
+  },
+  "shortDescription": ""
+}

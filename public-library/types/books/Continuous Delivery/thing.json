@@ -1,0 +1,34 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jez Humble>",
+    "</types/authors/David Farley>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Delivery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Continuous Delivery",
+  "notes": {
+    "</types/notes/Continuous Delivery>": ""
+  },
+  "path": "/Types/Books/Continuous Delivery",
+  "pictures": {
+    "</types/pictures/Continuous Delivery Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Software Engineering 101 for Front end Developers>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Continuous delivery>": ""
+  },
+  "title": "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation",
+  "webPages": {
+    "</types/webPages/Continuous Delivery>": ""
+  }
+}

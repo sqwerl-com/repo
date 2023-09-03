@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-01-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kevin Nuut>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Be Type Strict Without TypeScript",
+  "path": "/Types/Web Pages/Be Type Strict Without TypeScript",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JavaScript>": "",
+    "</types/tags/JSDoc>": ""
+  },
+  "url": "https://itnext.io/be-type-strict-without-typescript-296565483bfd"
+}

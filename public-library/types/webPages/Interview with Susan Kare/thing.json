@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-23T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Icons>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Interview with Susan Kare",
+  "path": "/Types/Web Pages/Interview with Susan Kare",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Symbol Sourcebook>": ""
+  },
+  "recommendedBy": {
+    "</types/articles/The Woman Who Gave the Macintosh a Smile>": "",
+    "</types/webPages/The Woman Who Gave the Macintosh a Smile>": ""
+  },
+  "shortDescription": "",
+  "url": "https://web.stanford.edu/dept/SUL/sites/mac/primary/interviews/kare/trans.html"
+}

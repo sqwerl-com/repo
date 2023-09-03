@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Up and Running with ClickHouse>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Vijay",
+  "lastName": "Anand R",
+  "middleNameOrInitial": "",
+  "name": "Vijay Anand R",
+  "path": "/Types/Authors/Vijay Anand R"
+}

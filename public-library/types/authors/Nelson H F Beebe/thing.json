@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-12-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Classic Shell Scripting>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Nelson",
+  "lastName": "Beebe",
+  "middleNameOrInitial": "H F",
+  "name": "Nelson H. F. Beebe",
+  "path": "/Types/Authors/Nelson H. F. Beebe"
+}

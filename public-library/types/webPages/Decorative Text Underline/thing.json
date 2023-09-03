@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jonathan Neal>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "CSS code for creating hyperlink underlines that respect character descenders.",
+  "name": "Decorative Text Underline",
+  "path": "/Types/Web Pages/Decorative Text Underline",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://codepen.io/jonneal/pen/PzGYEE?editors=0100"
+}

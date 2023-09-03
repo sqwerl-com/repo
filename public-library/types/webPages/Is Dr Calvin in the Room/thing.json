@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert C Martin>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/The Clean Code Blog>": ""
+  },
+  "name": "Is Dr. Calvin in the Room?",
+  "path": "/Types/Web Pages/Is Dr. Calvin in the Room?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://blog.cleancoder.com/uncle-bob/2017/03/16/DrCalvin.html"
+}

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-10-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Feross Aboukhadijeh>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": "",
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Write Perfect Code With Standard and ESLint",
+  "path": "/Types/Videos/Write Perfect Code With Standard and ESLint",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Clean code>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=kuHfMw8j4xk",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

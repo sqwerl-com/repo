@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/UX Magazine>": ""
+  },
+  "name": "The Psychologist's View of UX Design",
+  "path": "/Types/Web Pages/The Psychologist's View of UX Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Designing for Emotion>": ""
+  },
+  "shortDescription": "",
+  "url": "https://uxmag.com/articles/the-psychologists-view-of-ux-design"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Rise and Fall of the Third Reich>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "William",
+  "lastName": "Shirer",
+  "middleNameOrInitial": "L",
+  "name": "William L. Shirer",
+  "path": "/Types/Authors/William L. Shirer"
+}

@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-02-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nicholas C Zakas>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Data Structures>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Computer Science in JavaScript GitHub Repository",
+  "path": "/Types/Web Pages/Computer Science in JavaScript GitHub Repository",
+  "recommendedBy":  {
+    "</types/webPages/Computer Science in JavaScript Linked List>": ""
+  },
+  "shortDescription": "",
+  "url": "https://github.com/humanwhocodes/computer-science-in-javascript"
+}

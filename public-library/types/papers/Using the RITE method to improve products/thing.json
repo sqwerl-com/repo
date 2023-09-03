@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael C Medlock>",
+    "</types/authors/Dennis Wixon>",
+    "</types/authors/Mark Terrano>",
+    "</types/authors/Ramon L Romero>",
+    "</types/authors/Bill Fulton>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Using the RITE method to improve products",
+  "path": "/Types/Papers/Using the RITE method to improve products",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Using the RITE method to improve products; a definition and a case study"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Thinking Fast and Slow>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Daniel",
+  "lastName": "Kahneman",
+  "middleNameOrInitial": "",
+  "name": "Daniel Kahneman",
+  "path": "/Types/Authors/Daniel Kahneman"
+}

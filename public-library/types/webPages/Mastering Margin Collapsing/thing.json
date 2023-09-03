@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-04-07T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mastering Margin Collapsing",
+  "path": "/Types/Web Pages/Mastering Margin Collapsing",
+  "recommendations": {
+  },
+  "recommendedBy": {
+    "</types/webPages/The Top 5 CSS Gotchas>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/CSS3>": ""
+  },
+  "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing"
+}

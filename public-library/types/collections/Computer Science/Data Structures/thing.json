@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-01T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Computer Science in JavaScript GitHub Repository>": "",
+    "</types/webPages/Computer Science in JavaScript Linked List>": "",
+    "</types/books/Data Structures and Algorithms>": "",
+    "</types/books/Data Structures and Algorithms Aho Hopcroft Ullman>": "",
+    "</types/books/Grokking Algorithms>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Data Structures",
+  "path": "/Types/Collections/Computer Science/Data Structures",
+  "shortDescription": "Things related to data structures within computer programs."
+}

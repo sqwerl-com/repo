@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-28T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/How You Should Pin Dependencies and Why>": "",
+    "</types/webPages/Protestware on the Rise>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Security",
+  "path": "/Types/Collections/Computer Science/Programming Languages/JavaScript/Security",
+  "shortDescription": "Things regarding securing JavaScript code."
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Logback>": "",
+    "</types/webPages/Logging Exceptions Root Cause First>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Logging/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Logback",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Logging/Frameworks/Logback",
+  "shortDescription": ""
+}

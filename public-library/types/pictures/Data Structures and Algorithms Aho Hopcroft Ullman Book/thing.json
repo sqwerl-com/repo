@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Data Structures and Algorithms Book",
+  "path": "/Types/Pictures/Data Structures and Algorithms Book",
+  "pictureOf": {
+    "</types/books/Data Structures and Algorithms Aho Hopcroft Ullman>": ""
+  },
+  "representations": {
+    "data_structures_and_algorithms_aho_hopcroft_ullman_book_cover_large.jpg.lnk.json": "",
+    "data_structures_and_algorithms_aho_hopcroft_ullman_book_cover_medium.jpg.lnk.json": "",
+    "data_structures_and_algorithms_aho_hopcroft_ullman_book_cover_preview.jpg.lnk.json": "",
+    "data_structures_and_algorithms_aho_hopcroft_ullman_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

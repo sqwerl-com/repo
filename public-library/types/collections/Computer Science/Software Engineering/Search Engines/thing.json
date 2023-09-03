@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-03-21T00:00:00.00-07:00",
+  "children": {
+    "</types/papers/GOGGLES Democracy Dies in Darkness and So Does the Web>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Search Engines",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Search Engines",
+  "shortDescription": "Things related to software that performs searches on data sets."
+}

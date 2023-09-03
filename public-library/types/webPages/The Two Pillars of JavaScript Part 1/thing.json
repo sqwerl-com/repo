@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-01-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Elliott>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/The Two Pillars of JavaScript Part 2>": ""
+  },
+  "name": "The Two Pillars of JavaScript Part 1",
+  "path": "/Types/Web Pages/The Two Pillars of JavaScript Part 1",
+  "recommendedBy": {
+    "</types/webPages/10 Interview Questions Every JavaScript Developer Should Know>": ""
+  },
+  "shortDescription": "",
+  "title": "The Two Pillars of JavaScript Part 1: How to Escape the 7th Circle of Hell",
+  "url": "https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3"
+}

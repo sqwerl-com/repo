@@ -1,0 +1,149 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Articles from publications like magazines, newspapers, and journals.",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/authored>": "",
+    "</types/facets/collectable>": "",
+    "</types/facets/depictable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/notable>": "",
+    "</types/facets/readable>": "",
+    "</types/facets/recommendable>": "",
+    "</types/facets/taggable>": "",
+    "</types/facets/titled>": ""
+  },
+  "name": "Articles",
+  "path": "/Types/Articles",
+  "properties": {
+    "authors": {
+      "description": "An article's authors.",
+      "inverse": "authorOf",
+      "shortDescription": "Authors",
+      "type": [
+        "</types/authors>"
+      ]
+    },
+    "collections": {
+      "description": "The collections of things that an article is a member of.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes an article.",
+      "shortDescription": "An article's description."
+    },
+    "links": {
+      "description": "Links to things related to an article.",
+      "inverse": "links",
+      "name": "Links",
+      "required": false,
+      "shortDescription": "Links to related things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "name": {
+      "description": "An article's name.",
+      "required": true,
+      "shortDescription": "An article's name."
+    },
+    "notes": {
+      "description": "Notes about an article's content.",
+      "name": "Notes",
+      "required": false,
+      "shortDescription": "Notes regarding an article.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/notes>": ""
+      }
+    },
+    "pictures": {
+      "description": "Images of an article.",
+      "inverse": "pictureOf",
+      "shortDescription": "Pictures",
+      "type": {
+        "</types/pictures>": ""
+      }
+    },
+    "readBy": {
+      "description": "People who have read an article.",
+      "inverse": "hasRead",
+      "name": "Read by",
+      "required": false,
+      "shortDescription": "The people who have read an article.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "readers": {
+      "description": "People reading this article.",
+      "inverse": "isReading",
+      "name": "Readers",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "recommendations": {
+      "description": "Related things that this article recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that this article suggests people look at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Related things that have recommended this article.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended this article.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "representations": {
+      "description": "Digital articles.",
+      "shortDescription": "Digital version of an article",
+      "type": "representations"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe an article.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    }
+  },
+  "shortDescription": "Articles in publications.",
+  "singularName": "Article"
+}

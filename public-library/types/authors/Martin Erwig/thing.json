@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-12-27T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Once Upon an Algorithm>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Martin",
+  "lastName": "Erwig",
+  "middleNameOrInitial": "",
+  "name": "Martin Erwig",
+  "path": "/Types/Authors/Martin Erwig"
+}

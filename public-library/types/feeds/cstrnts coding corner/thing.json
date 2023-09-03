@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-12T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://www.cstrnt.dev/blog",
+  "items": {
+    "</types/webPages/3 TypeScript Tricks I Wish I Knew When I Learned TypeScript>": ""
+  },
+  "name": "Cstrnt's Coding Corner",
+  "path": "/Types/Feeds/Cstrnt's Coding Corner",
+  "shortDescription": ""
+}

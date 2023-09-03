@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Timeless Way of Building Book",
+  "path": "/Types/Pictures/The Timeless Way of Building Book",
+  "pictureOf": {
+    "</types/books/The Timeless Way of Building>": ""
+  },
+  "representations": {
+    "the_timeless_way_of_building_book_cover_large.lnk.json": "",
+    "the_timeless_way_of_building_book_cover_medium.lnk.json": "",
+    "the_timeless_way_of_building_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

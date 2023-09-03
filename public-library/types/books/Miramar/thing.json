@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Naguib Mahfouz>"
+  ],
+  "collections": {
+    "</types/collections/History/Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Miramar",
+  "path": "/Types/Books/Miramar",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

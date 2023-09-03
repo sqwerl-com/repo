@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-16T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Comparing Workflows",
+  "path": "/Types/Web Pages/Comparing Workflows",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Git Feature Branch Workflow>": "",
+    "</types/webPages/Gitflow Workflow>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 3 Version>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.atlassian.com/git/tutorials/comparing-workflows"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Jenkins The Definitive Guide>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "John",
+  "lastName": "Smart",
+  "middleNameOrInitial": "Ferguson",
+  "name": "John Ferguson Smart",
+  "path": "/Types/Authors/John Ferguson Smart"
+}

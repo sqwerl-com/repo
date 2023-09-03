@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-21T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Software Engineering Project Management>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Richard",
+  "lastName": "Thayer",
+  "middleNameOrInitial": "H",
+  "name": "Richard H. Thayer",
+  "path": "/Types/Authors/Richard H. Thayer"
+}

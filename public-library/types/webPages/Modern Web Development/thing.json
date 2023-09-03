@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Gregor Riegler>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Be a Better Developer>": ""
+  },
+  "name": "Modern Web Development",
+  "path": "/Types/Web Pages/Modern Web Development",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://babdev.blogspot.com/2013/07/modern-web-development.html"
+}

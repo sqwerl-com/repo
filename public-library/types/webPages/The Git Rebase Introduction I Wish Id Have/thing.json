@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-09-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Max Antonucci>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Git Rebase Introduction I Wish I'd Have",
+  "path": "/Types/Web Pages/The Git Rebase Introduction I Wish I'd Have",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had"
+}

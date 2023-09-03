@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-01-05T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Designing the Conversation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Brad",
+  "lastName": "Nunnally",
+  "middleNameOrInitial": "",
+  "name": "Brad Nunnally",
+  "path": "/Types/Authors/Brad Nunnally"
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ian Storm Taylor>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/General>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Design Tip: Never Use Black",
+  "notes": {
+    "</types/notes/Design Tip Never Use Black>": ""
+  },
+  "path": "/Types/Web Pages/Design Tip: Never Use Black",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/7 Rules for Creating Gorgeous UI Part 1>": ""
+  },
+  "shortDescription": "",
+  "url": "http://ianstormtaylor.com/design-tip-never-use-black/"
+}

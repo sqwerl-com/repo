@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-10-12T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Personal MBA>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Josh",
+  "lastName": "Kaufman",
+  "middleNameOrInitial": "",
+  "name": "Josh Kaufman",
+  "path": "/Types/Authors/Josh Kaufman"
+}
+

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Scott McCloud>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Understanding Comics",
+  "path": "/Types/Books/Understanding Comics",
+  "pictures": {
+    "</types/pictures/Understanding Comics Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Understanding Comics: The Invisible Art"
+}

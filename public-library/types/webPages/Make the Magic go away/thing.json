@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert C Martin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Make the Magic go away",
+  "path": "/Types/Web Pages/Make the Magic go away",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Let the Code Speak>": ""
+  },
+  "shortDescription": "",
+  "url": "https://8thlight.com/blog/uncle-bob/2015/08/06/let-the-magic-die.html"
+}

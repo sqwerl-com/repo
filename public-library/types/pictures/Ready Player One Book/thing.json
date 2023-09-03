@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-03T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ready Player One Book",
+  "path": "/Types/Pictures/Ready Player One Book",
+  "pictureOf": {
+    "</types/books/Ready Player One>": ""
+  },
+  "representations": {
+    "ready_player_one_book_cover_large.jpg.lnk.json": "",
+    "ready_player_one_book_cover_medium.jpg.lnk.json": "",
+    "ready_player_one_book_cover_preview.jpg.lnk.json": "",
+    "ready_player_one_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

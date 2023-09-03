@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Thomas K Landauer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Trouble with Computers",
+  "path": "/Types/Books/The Trouble with Computers",
+  "pictures": {
+    "</types/pictures/The Trouble with Computers Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Trouble with Computers: Usefulness, Usability, and Productivity"
+}

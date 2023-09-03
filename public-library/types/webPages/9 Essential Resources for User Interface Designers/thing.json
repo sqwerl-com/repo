@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "9 Essential Resources for User Interface Designers",
+  "path": "/Types/Web Pages/9 Essential Resources for User Interface Designers",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/feeds/inspireUX>": "",
+    "</types/webPages/UI Patterns>": "",
+    "</types/feeds/UI Scraps>": "",
+    "</types/webPages/User Interface Engineering>": "",
+    "</types/feeds/UX Magazine>": ""
+  },
+  "shortDescription": "",
+  "url": "http://mashable.com/2011/09/16/ui-design-resources"
+}

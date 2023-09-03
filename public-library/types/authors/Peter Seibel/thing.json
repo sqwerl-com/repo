@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Coders at Work>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Peter",
+  "lastName": "Seibel",
+  "middleNameOrInitial": "",
+  "name": "Peter Seibel",
+  "path": "/Types/Authors/Peter Seibel"
+}

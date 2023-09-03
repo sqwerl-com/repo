@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Become More Optimistic 6 Smart Tricks>": "",
+    "</types/books/Building a Second Brain>": "",
+    "</types/books/Emotional Agility>": "",
+    "</types/collections/Life/Hobbies>": "",
+    "</types/books/Outliers>": "",
+    "</types/collections/Life/Parenting>": "",
+    "</types/webPages/Solitude and Leadership>": "",
+    "</types/webPages/The Checklist>": "",
+    "</types/videos/The Gift and Power of Emotional Courage>": "",
+    "</types/books/The Science of Getting Rich>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Life",
+  "path": "/Types/Collections/Life",
+  "shortDescription": "Things related to life and how to live it."
+}

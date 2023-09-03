@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Amy Blankenship>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Can We All Just Admit React Hooks Were a Bad Idea Part 1>": ""
+  },
+  "name": "Can We All Just Admit React Hooks Were a Bad Idea? Part 2",
+  "path": "/Types/Web Pages/Can We All Just Admit React Hooks Were a Bad Idea? Part 2",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/codex/can-we-all-just-admit-react-hooks-were-a-bad-idea-795505b0485d"
+}

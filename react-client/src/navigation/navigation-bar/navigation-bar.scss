@@ -1,0 +1,25 @@
+@import '../../index.scss';
+
+.sqwerl-navigation-bar {
+  align-self: flex-start;
+  background: var(--content-heading-background);
+  border-bottom: 1px solid var(--content-heading-border-bottom-color);
+  box-shadow: 0 $sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
+  display: flex;
+  flex: 0 0 auto;
+  width: 100%;
+  z-index: var(--navigation-bar-z-index);
+
+  & .sqwerl-read-only-field-label-count {
+    background: var(--read-only-field-label-count-background);
+    border: 1px solid var(--read-only-field-label-count-border-color);
+    border-radius: 6rem;
+    color: var(--read-only-field-label-count-color);
+    font-size: 80%;
+    letter-spacing: 0.05rem;
+    margin: 0.2rem 0.4rem 0.2rem;
+    padding: 0.25rem 0.6rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+}

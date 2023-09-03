@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-16T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Web Dev Simplified>": ""
+  },
+  "name": "Make Your Site Lightning Fast with Responsive Images",
+  "path": "/Types/Videos/Make Your Site Lightning Fast with Responsive Images",
+  "recommendedBy": {
+    "</types/videos/How to Load Images Like a Pro>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=fp9eVtkQ4EA"
+}

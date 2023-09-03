@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Zachi Nachshon>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Build a Raspberry Pi Cluster>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Install Certificate Manager Controller in Kubernetes>": "",
+    "</types/webPages/Install Rancher K3s on Raspberry Pi Cluster>": "",
+    "</types/webPages/Install Traefik Ingress Controller in Kubernetes>": "",
+    "</types/webPages/Setting Up a Raspberry Pi Cluster>": ""
+  },
+  "name": "Installing Helm, Kubernetes Package Manager",
+  "path": "/Types/Web Pages/Installing Helm, Kubernetes Package Manager",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://levelup.gitconnected.com/installing-helm-kubernetes-package-manager-aaa8ca7942e9"
+}

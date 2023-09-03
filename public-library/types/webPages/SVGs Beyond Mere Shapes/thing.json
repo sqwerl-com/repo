@@ -1,0 +1,32 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nadieh Bremer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/SVG>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Visual Cinnamon>": ""
+  },
+  "name": "SVGs Beyond Mere Shapes",
+  "path": "/Types/Web Pages/SVGs Beyond Mere Shapes",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/videos/SVG Beyond Mere Shapes>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/The Hitchhikers Guide to d3js>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://www.visualcinnamon.com/2016/04/svg-beyond-mere-shapes.html"
+}

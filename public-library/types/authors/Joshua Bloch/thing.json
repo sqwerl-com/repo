@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Effective Java Programming Language Guide>": "",
+    "</types/books/Java Concurrency in Practice>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Joshua",
+  "lastName": "Bloch",
+  "middleNameOrInitial": "",
+  "name": "Joshua Bloch",
+  "path": "/Types/Authors/Joshua Bloch"
+}

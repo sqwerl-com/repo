@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Web for Everyone Book",
+  "path": "/Types/Pictures/A Web for Everyone Book",
+  "pictureOf": {
+    "</types/books/A Web for Everyone>": ""
+  },
+  "representations": {
+    "a_web_for_everyone_book_cover_large.lnk.json": "",
+    "a_web_for_everyone_book_cover_medium.lnk.json": "",
+    "a_web_for_everyone_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

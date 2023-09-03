@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-01-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/C E Shannon>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Symbolic Analysis of Relay and Switching Circuits",
+  "path": "/Types/Papers/A Symbolic Analysis of Relay and Switching Circuits",
+  "recommendedBy": {
+    "</types/books/The Dream Machine>": ""
+  },
+  "shortDescription": "Claude Shannon's Master's Thesis"
+}

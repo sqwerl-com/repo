@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-10T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to error messages displayed by computers.",
+  "name": "Error Messages",
+  "path": "/Types/Tags/Error Messages",
+  "shortDescription": "Things related error messages",
+  "tagged": {
+    "</types/webPages/Error Message Guidelines>": "",
+    "</types/webPages/Error Messages Are Evil>": "",
+    "</types/webPages/How to Write a Great Error Message>": "",
+    "</types/webPages/How to Write a Perfect Error Message>": ""
+  },
+  "text": "Error Messages"
+}

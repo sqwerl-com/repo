@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Crossing the Chasm>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Geoffrey",
+  "lastName": "Moore",
+  "middleNameOrInitial": "A",
+  "name": "Geoffrey A. Moore",
+  "path": "/Types/Authors/Geoffrey A. Moore"
+}

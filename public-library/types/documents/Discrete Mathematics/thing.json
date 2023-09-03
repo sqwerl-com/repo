@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/L Lovasz>",
+    "</types/authors/K Vesztergombi>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Discrete Mathematics",
+  "path": "/Types/Documents/Discrete Mathematics",
+  "recommendedBy": {
+    "</types/webPages/Teach Yourself Computer Science>": ""
+  },
+  "shortDescription": "Lecture notes from the 1999 Discrete Mathematics course at Yale University"
+}

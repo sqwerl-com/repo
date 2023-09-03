@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-05-12T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Saving Bletchley Park>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Sue",
+  "lastName": "Black",
+  "middleNameOrInitial": "",
+  "name": "Sue Black",
+  "path": "/Types/Authors/Sue Black"
+}

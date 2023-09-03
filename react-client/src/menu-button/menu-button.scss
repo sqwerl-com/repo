@@ -1,0 +1,72 @@
+@import '../index.scss';
+
+/* $sqwerl-menu-button-border-color: #3b5a4f; */
+$sqwerl-menu-button-text-color: #e0ece0;
+
+@keyframes sqwerl-menu-button-hover {
+  from {
+    background: var(--menu-button-background-color);
+  }
+
+  to {
+    background: var(--menu-button-hover-background-color);
+  }
+}
+
+@keyframes sqwerl-menu-button-disappear {
+  from {
+    display: block;
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.sqwerl-menu-button {
+  background: var(--menu-button-background-color);
+  border: 5px solid transparent;
+  cursor: pointer;
+  display: flex;
+  font-size: $sqwerl-hyperlink-font-size;
+  height: 100%;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+
+  &:hover {
+    animation: sqwerl-menu-button-hover 0.2s ease-in 0s 1;
+    background: var(--menu-button-hover-background-color);
+  }
+
+  & .sqwerl-menu-button-text {
+    align-self: center;
+    color: var(--menu-button-text-color);
+    cursor: pointer;
+    font-family: $sqwerl-hyperlink-font-family;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    &.selected {
+      /* TODO - Make the colors variables. */
+      color: #00ff0c;
+      text-shadow: 1px 1px #062700;
+    }
+  }
+}
+
+.sqwerl-menu-button {
+  .sqwerl-menu-button-text {
+    cursor: pointer;
+    font-family: $sqwerl-hyperlink-font-family;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    &.selected {
+      /* TODO - Make the colors variables. */
+      color: #00ff0c;
+      text-shadow: 1px 1px #062700;
+    }
+  }
+}

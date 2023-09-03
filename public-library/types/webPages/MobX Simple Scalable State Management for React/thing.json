@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-23T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "MobX - Simple, Scalable State Management for React",
+  "path": "/Types/Web Pages/MobX - Simple, Scalable State Management for React",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Redux vs MobX>": ""
+  },
+  "shortDescription": "A Hacker News post that describes MobX's pros and cons",
+  "tags": {
+    "</types/tags/MobX>": ""
+  },
+  "url": "https://news.ycombinator.com/item?id=12371248"
+}

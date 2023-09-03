@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-28T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Scott Klemmer>": ""
+  },
+  "links": {
+    "</types/videos/Human Computer Interaction Stanford University Lecture 1 1>": "",
+    "</types/videos/Human Computer Interaction Stanford University Lecture 1 2>": "",
+    "</types/videos/Human Computer Interaction Stanford University Lecture 1 3>": "",
+    "</types/videos/Human Computer Interaction Stanford University Lecture 1 4>": "",
+    "</types/videos/Human Computer Interaction Stanford University Lecture 2 1>": "",
+    "</types/webPages/Human Computer Interaction Stanford University>": ""
+  },
+  "name": "Human-Computer Interaction Stanford University",
+  "notes": {
+    "</types/notes/Human Computer Interaction Stanford University>": ""
+  },
+  "path": "/Types/Courses/Human-Computer Interaction Stanford University",
+  "shortDescription": ""
+}

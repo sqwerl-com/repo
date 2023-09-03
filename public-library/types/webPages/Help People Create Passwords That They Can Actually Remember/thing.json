@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-06-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kara Pernice>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Help People Create Passwords That They Can Actually Remember",
+  "path": "/Types/Web Pages/Help People Create Passwords That They Can Actually Remember",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Password creation>": ""
+  },
+  "url": "http://www.nngroup.com/articles/passwords-memory/?utm_source=Alertbox&utm_campaign=2941b017d6-Mobile_Fields_Memorable_Passwords_06_15_2015&utm_medium=email&utm_term=0_7f29a2b335-2941b017d6-40127761"
+}

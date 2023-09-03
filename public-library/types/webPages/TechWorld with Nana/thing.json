@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nana>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/videos/YAML Tutorial Learn YAML in 18 Minutes>": ""
+  },
+  "name": "TechWorld with Nana",
+  "path": "/Types/Web Pages/TechWorld with Nana",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/c/TechWorldwithNana"
+}

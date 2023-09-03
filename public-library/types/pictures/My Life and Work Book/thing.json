@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-07T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "My Life and Work Book",
+  "path": "/Types/Pictures/My Life and Work Book",
+  "pictureOf": {
+    "</types/books/My Life and Work>": ""
+  },
+  "representations": {
+    "my_life_and_work_book_cover_large.jpg.lnk.json": "",
+    "my_life_and_work_book_cover_medium.jpg.lnk.json": "",
+    "my_life_and_work_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

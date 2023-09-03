@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Thai Pangsakulyanont>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "An Artificial Example where MobX Really Shines and Redux is not Really Suited For It",
+  "path": "/Types/Web Pages/An Artificial Example where MobX Really Shines and Redux is not Really Suited For It",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/MobX>": ""
+  },
+  "url": "https://hackernoon.com/an-artificial-example-where-mobx-really-shines-and-redux-is-not-really-suited-for-it-1a58313c0c70"
+}

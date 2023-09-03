@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-06T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/5 Git Tips to Level Up Your Workflow>": "",
+    "</types/webPages/A Hackers Guide to Git>": "",
+    "</types/webPages/Advanced Git Log>": "",
+    "</types/webPages/An Efficient Git Branching Strategy Every Developer Should Know>": "",
+    "</types/webPages/Comparing Workflows>": "",
+    "</types/webPages/Do Not Use git checkout Anymore>": "",
+    "</types/documents/Getting Started with Git>": "",
+    "</types/webPages/Git Feature Branch Workflow>": "",
+    "</types/webPages/Gitflow Workflow>": "",
+    "</types/webPages/GitOps A Path to More Self Service IT>": "",
+    "</types/webPages/How Git Really Works>": "",
+    "</types/webPages/How Git Truly Works>": "",
+    "</types/webPages/Learn Git Branching>": "",
+    "</types/books/Pro Git>": "",
+    "</types/webPages/The Git Rebase Introduction I Wish Id Have>": "",
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git/Tools>": "",
+    "</types/webPages/Top 30 Git Commands You Should Know To Master Git CLI>": "",
+    "</types/books/Version Control with Git Second Edition>": "",
+    "</types/webPages/Visualizing Git Concepts with D3>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Contains information regarding the Git distributed version control system.",
+  "name": "Git",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git",
+  "shortDescription": ""
+}

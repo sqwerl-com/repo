@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-11-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Cliff Kuang>",
+    "</types/authors/Robert Fabricant>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "User Friendly",
+  "path": "/Types/Books/User Friendly",
+  "pictures": {
+    "</types/pictures/User Friendly Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "User Friendly: How the Hidden Rules of Design are Changing the Way We Live, Work, and Play"
+}

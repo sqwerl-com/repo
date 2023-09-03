@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/authors/Louis Rosenfeld>": ""
+  },
+  "name": "The Founder and Publisher of Rosenfeld Media: Lou Rosenfeld",
+  "path": "/Types/Videos/The Founder and Publisher of Rosenfeld Media: Lou Rosenfeld",
+  "recommendations": {
+    "</types/books/Information Architecture For the Web and Beyond 4th Edition>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=LbSeTx-Rb1Q",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

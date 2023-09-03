@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Zachi Nachshon>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Build a Raspberry Pi Cluster>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Install Certificate Manager Controller in Kubernetes>": "",
+    "</types/webPages/Install Rancher K3s on Raspberry Pi Cluster>": "",
+    "</types/webPages/Installing Helm Kubernetes Package Manager>": "",
+    "</types/webPages/Setting Up a Raspberry Pi Cluster>": ""
+  },
+  "name": "Install Traefik Ingress Controller in Kubernetes",
+  "path": "/Types/Web Pages/Install Traefik Ingress Controller in Kubernetes",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Kubernetes>": ""
+  },
+  "url": "https://faun.pub/install-traefik-ingress-controller-in-kubernetes-d45ecf592da2"
+}

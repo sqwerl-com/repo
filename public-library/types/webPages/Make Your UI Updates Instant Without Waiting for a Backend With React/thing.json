@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tomasz Fiechowski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Performance Optimization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Make Your UI Updates Instant Without Waiting for a Backend With React",
+  "path": "/Types/Web Pages/Make Your UI Updates Instant Without Waiting for a Backend With React",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/React hooks>": ""
+  },
+  "url": "https://medium.com/better-programming/make-your-ui-updates-instant-without-waiting-for-a-backend-with-react-bc81147c3c32"
+}

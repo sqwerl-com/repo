@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-23T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "SPQR: A History of Ancient Rome Book",
+  "path": "/Types/Pictures/SPQR A History of Ancient Rome Book",
+  "pictureOf": {
+    "</types/books/SPQR A History of Ancient Rome>": ""
+  },
+  "representations": {
+    "spqr_a_history_of_ancient_rome_book_cover_large.jpg.lnk.json": "",
+    "spqr_a_history_of_ancient_rome_book_cover_medium.jpg.lnk.json": "",
+    "spqr_a_history_of_ancient_rome_book_cover_preview.jpg.lnk.json": "",
+    "spqr_a_history_of_ancient_rome_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

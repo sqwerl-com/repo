@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-06-12T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/React Transition Group>": "",
+    "</types/webPages/UI Animations with React The Right Way>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Animation",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Animation",
+  "shortDescription": "Items related to animating applications built using the React framework."
+}

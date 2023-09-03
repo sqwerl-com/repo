@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Adam Silver>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Improving the Color Accessibility for Color-Blind Users",
+  "path": "/Types/Web Pages/Improving the Color Accessibility for Color-Blind Users",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Accessibility>": ""
+  },
+  "url": "https://www.smashingmagazine.com/2016/06/improving-color-accessibility-for-color-blind-users/"
+}

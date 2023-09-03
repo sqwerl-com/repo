@@ -1,0 +1,350 @@
+@import '../../index.scss';
+
+.sqwerl-library-changes-by-day-table {
+  border-collapse: separate;
+  border-spacing: 1px;
+  height: 100%;
+  max-width: 900px;
+  min-width: 500px;
+  table-layout: fixed;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  &.fade-entered {
+    & td,
+    & tr,
+    & .sqwerl-type-icon,
+    & .sqwerl-type-of-change-icon {
+      opacity: 1;
+    }
+  }
+
+  &.fade-entering {
+    & tbody tr {
+      border: none;
+    }
+
+    & thead tr {
+      border: none;
+    }
+
+    & td,
+    & tr,
+    & .sqwerl-type-icon,
+    & .sqwerl-type-of-change-icon {
+      height: 0;
+      line-height: 0;
+      opacity: 0;
+    }
+  }
+
+  &.fade-entered {
+    & tbody tr {
+      border-bottom: 1px solid var(--menu-item-hover-border-color);
+    }
+
+    & thead tr {
+      border-bottom: 1px solid var(--left-shadow-color);
+    }
+
+    & td,
+    & tr,
+    & .sqwerl-type-icon,
+    & .sqwerl-type-of-change-icon {
+      opacity: 1;
+    }
+  }
+
+  &.fade-exited {
+    & tbody tr {
+      border-bottom: none;
+      cursor: pointer;
+      text-align: left;
+
+      & td {
+        overflow: hidden;
+      }
+    }
+
+    & thead tr {
+      border-bottom: none;
+    }
+
+    & td,
+    & tr,
+    & .sqwerl-type-icon,
+    & .sqwerl-type-of-change-icon {
+      height: 0;
+      line-height: 0;
+      opacity: 0;
+    }
+  }
+
+  &.fade-exiting {
+    & tbody tr {
+      border-bottom: 1px solid var(--menu-item-hover-border-color);
+    }
+
+    & thead tr {
+      border-bottom: 1px solid var(--left-shadow-color);
+    }
+
+    & td,
+    & tr,
+    & .sqwerl-type-icon,
+    & .sqwerl-type-of-change-icon {
+      opacity: 1;
+      text-align: left;
+    }
+  }
+
+  & thead {
+    & tr.sqwerl-library-changes-by-day-table-heading {
+      color: var(--changes-details-table-heading-color);
+      height: calc(#{$sqwerl-row-height} + #{($sqwerl-focus-border-size * 2) - 1});
+      line-height: calc(#{$sqwerl-row-height} + #{$sqwerl-focus-border-size});
+      min-height: calc(#{$sqwerl-row-height} + #{($sqwerl-focus-border-size * 2) - 1});
+    }
+
+    & th {
+      background: var(--changes-details-table-heading-background-color);
+      font-weight: bold;
+      line-height: calc(#{$sqwerl-row-height} + #{$sqwerl-focus-border-size});
+      position: sticky;
+      text-align: left;
+      top: 0;
+
+      &.sqwerl-library-changes-by-day-change-type-column {
+        border-right: 1px solid var(--content-heading-border-bottom-color);
+
+        & .sqwerl-library-changes-by-day-table-change-type-column-text {
+          padding: 0.5rem;
+        }
+      }
+
+      &.sqwerl-library-changes-by-day-table-name-column {
+        margin-left: $sqwerl-focus-border-size;
+        max-width: 630px;
+        min-width: 630px;
+        width: 630px;
+
+        & .sqwerl-library-changes-by-day-table-name-column-text {
+          padding: 0.5rem;
+        }
+      }
+
+      &.sqwerl-library-changes-by-day-thing-type-column {
+        & .sqwerl-library-changes-by-day-table-thing-type-column-text {
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+
+  & tbody {
+    & tr {
+      border-bottom: 1px solid var(--home-view-changes-row-bottom-border-color);
+      text-align: left;
+      vertical-align: top;
+
+      &.sqwerl-table-row-link:hover {
+        animation-name: sqwerl-list-item-hover;
+        animation-duration: 0.5s;
+        background: var(--list-item-hover-background);
+        cursor: pointer;
+
+        td.sqwerl-library-changes-by-day-table-name-column {
+          & a.sqwerl-library-changes-by-day-table-name-title {
+            text-decoration-color: var(--list-item-hover-text-shadow);
+            text-shadow: var(--list-item-hover-text-shadow);
+          }
+        }
+
+        td.sqwerl-library-changes-by-day-name-column {
+          & a.sqwerl-changes-by-day-details-title {
+            text-decoration-color: var(--list-item-hover-text-shadow);
+            text-shadow: var(--list-item-hover-text-shadow);
+          }
+        }
+      }
+
+      & td {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+
+        &.sqwerl-library-changes-by-day-index-column {
+          text-align: end;
+
+          & .sqwerl-library-changes-by-day-index-column-text {
+            color: var(--list-item-ordinal-text-color);
+            font-size: 85%;
+            font-variant: small-caps;
+            letter-spacing: 0;
+
+            &::after {
+              content: '.';
+            }
+          }
+        }
+
+        &.sqwerl-library-changes-by-day-loading-column {
+          color: var(--navigation-loading-item-color);
+          padding-left: 1rem;
+
+          & .sqwerl-navigation-loading-indicator {
+            animation: sqwerl-loading-indicator 800ms infinite ease-in-out;
+            font-weight: bold;
+          }
+
+          & .sqwerl-navigation-loading-indicator.second {
+            animation-delay: 200ms;
+          }
+
+          & .sqwerl-navigation-loading-indicator.third {
+            animation-delay: 400ms;
+          }
+        }
+
+        &.sqwerl-library-changes-by-day-table-name-column {
+          padding-left: 0.5rem;
+
+          & a.sqwerl-library-changes-by-day-table-name-title {
+            box-decoration-break: clone;
+            color: var(--hyperlink-text-color);
+            font-family: $sqwerl-hyperlink-font-family;
+            font-size: $sqwerl-hyperlink-font-size;
+            max-width: 20rem;
+            min-width: 20rem;
+            padding: 0.5rem;
+            text-underline-offset: 0.06rem;
+            text-decoration: underline;
+            text-decoration-color: rgba(255, 255, 255, 0);
+            text-decoration-thickness: 0.05rem;
+            transition: text-decoration-color 0.3s ease-in;
+
+            &:visited {
+              color: var(--hyperlink-text-visited-color);
+            }
+
+            & .sqwerl-changes-by-day-details-name-text {
+              padding-left: $sqwerl-focus-border-size;
+            }
+          }
+
+          .sqwerl-changes-by-day-details-title {
+            color: var(--application-text-color);
+            font-family: $sqwerl-font-family;
+            font-size: var(--label-font-size);
+            font-weight: normal;
+
+            & .sqwerl-changes-by-day-details-name-text {
+              padding-left: $sqwerl-focus-border-size;
+            }
+          }
+
+          .sqwerl-changes-by-day-collection-path {
+            color: var(--secondary-text-color);
+            font-size: $sqwerl-secondary-text-font-size;
+            line-height: calc(#{$sqwerl-row-height} * 0.55);
+            margin-left: $sqwerl-focus-border-size;
+            padding: 0.2rem;
+          }
+        }
+
+        &.sqwerl-library-changes-by-day-change-type-column,
+        &.sqwerl-library-changes-by-day-thing-type-column {
+          color: var(--secondary-text-color);
+          font-size: $sqwerl-secondary-text-font-size;
+        }
+      }
+    }
+  }
+
+  .sqwerl-library-changes-by-day-index-column {
+    margin-left: 0.5rem;
+    min-width: 0.5rem;
+    padding-left: 0.5rem;
+    width: 0.5rem;
+
+    &.columns-2 {
+      min-width: 1rem;
+      width: 1rem;
+    }
+
+    &.columns-3 {
+      min-width: 1.5rem;
+      width: 1.5rem;
+    }
+
+    &.columns-4 {
+      min-width: 2rem;
+      width: 2rem;
+    }
+
+    &.columns-5 {
+      min-width: 2.5rem;
+      width: 2.5rem;
+    }
+
+    &.columns-6 {
+      min-width: 3rem;
+      width: 3rem;
+    }
+  }
+
+  td.sqwerl-library-changes-by-day-table-name-column {
+    max-width: 630px;
+    min-width: 630px;
+    width: 630px;
+  }
+
+  .sqwerl-library-changes-by-day-change-type-column {
+    max-width: 6rem;
+    min-width: 6rem;
+    padding-left: 0.5rem;
+    width: 6rem;
+
+    & .sqwerl-type-of-change-name-cell {
+      color: var(--secondary-text-color);
+
+      & .sqwerl-type-of-change-text {
+        padding-left: 0.5rem;
+      }
+    }
+  }
+
+  .sqwerl-library-changes-by-day-thing-type-column {
+    max-width: 8rem;
+    min-width: 8rem;
+    padding-left: 0.5rem;
+    width: 8rem;
+
+    .sqwerl-type-name-cell {
+      color: var(--secondary-text-color);
+
+      & .sqwerl-type-name {
+        padding-left: 0.5rem;
+      }
+
+      /* TODO - Is this necessary ?
+      td.sqwerl-library-changes-by-day-name-column {
+        a.sqwerl-changes-by-day-details-title {
+          text-decoration-color: var(--list-item-hover-text-shadow);
+          text-shadow: var(--list-item-hover-text-shadow);
+        }
+      }
+       */
+    }
+
+    & .sqwerl-changes-by-day-details-name-text {
+      padding-left: $sqwerl-focus-border-size;
+    }
+  }
+}

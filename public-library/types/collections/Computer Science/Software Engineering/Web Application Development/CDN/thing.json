@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-18T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Building a Large Scale CDN with Apache Traffic Server>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "CDN",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/CDN",
+  "shortDescription": "Things related to Content Delivery Networks (CDNs)."
+}

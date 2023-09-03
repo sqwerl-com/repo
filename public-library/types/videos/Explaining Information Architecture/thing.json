@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dan Klyn>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Explaining Information Architecture",
+  "path": "/Types/Videos/Explaining Information Architecture",
+  "recommendedBy": {
+    "</types/webPages/The Complete Beginners Guide to Information Architecture>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Information architecture>": ""
+  },
+  "url": "https://vimeo.com/8866160",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

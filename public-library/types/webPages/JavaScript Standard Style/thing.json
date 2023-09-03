@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-05T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices/Style Guides>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "JavaScript Standard Style",
+  "path": "/Types/Web Pages/JavaScript Standard Style",
+  "recommendedBy": {
+    "</types/webPages/The 100 Percent Correct Coding Style Guide>": ""
+  },
+  "shortDescription": "",
+  "url": "https://standardjs.com/"
+}

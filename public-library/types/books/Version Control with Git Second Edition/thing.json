@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jon Loeliger>",
+    "</types/authors/Matthew McCullough>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Version Control with Git: Second Edition",
+  "notes": {
+    "</types/notes/Version Control with Git Second Edition>": ""
+  },
+  "path": "/Types/Books/Version Control with Git: Second Edition",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

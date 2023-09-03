@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Radical Candor Book",
+  "path": "/Types/Pictures/Radical Candor Book",
+  "pictureOf": {
+    "</types/books/Radical Candor>": ""
+  },
+  "representations": {
+    "radical_candor_book_cover_large.jpg.lnk.json": "",
+    "radical_candor_book_cover_medium.jpg.lnk.json": "",
+    "radical_candor_book_cover_preview.jpg.lnk.json": "",
+    "radical_candor_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Victor Savkin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Understanding Angular Ivy: Incremental DOM and Virtual DOM",
+  "path": "/Types/Web Pages/Understanding Angular Ivy: Incremental DOM and Virtual DOM",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Why We Should Throw Out React and Pick Up Angular>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://blog.nrwl.io/understanding-angular-ivy-incremental-dom-and-virtual-dom-243be844bf36"
+}

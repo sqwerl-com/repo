@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Design Patterns>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ralph",
+  "lastName": "Johnson",
+  "middleNameOrInitial": "",
+  "name": "Ralph Johnson",
+  "path": "/Types/Authors/Ralph Johnson"
+}

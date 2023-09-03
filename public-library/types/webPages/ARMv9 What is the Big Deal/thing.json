@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Erik Engheim>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/CPU Architecture>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "ARMv9: What is the Big Deal?",
+  "path": "/Types/Web Pages/ARMv9: What is the Big Deal?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://levelup.gitconnected.com/armv9-what-is-the-big-deal-4528f20f78f3"
+}

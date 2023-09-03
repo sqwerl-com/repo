@@ -1,0 +1,42 @@
+@import '../index.scss';
+
+@keyframes sqwerl-logo-hover {
+  from {
+    background: var(--menu-button-background-color);
+  }
+
+  to {
+    background: var(--menu-button-hover-background-color);
+  }
+}
+
+@keyframes sqwerl-logo-disappear {
+  from {
+    display: block;
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.sqwerl-logo {
+  border: none;
+  cursor: pointer;
+  margin: $sqwerl-focus-border-size;
+
+  & a {
+    & img {
+      display: inline-block;
+      margin: auto;
+      vertical-align: middle;
+      width: 80%;
+    }
+  }
+
+  &:hover {
+    animation: sqwerl-logo-hover 0.2s ease-in 0s 1;
+    background: var(--menu-button-hover-background-color);
+  }
+}

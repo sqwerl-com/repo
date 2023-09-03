@@ -1,0 +1,149 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Documents.",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/authored>": "",
+    "</types/facets/collectable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/notable>": "",
+    "</types/facets/readable>": "",
+    "</types/facets/taggable>": "",
+    "</types/facets/titled>": ""
+  },
+  "name": "Documents",
+  "path": "/Types/Documents",
+  "properties": {
+    "authors": {
+      "description": "A document's authors.",
+      "inverse": "authorOf",
+      "shortDescription": "Authors",
+      "type": [
+        "</types/authors>"
+      ]
+    },
+    "description": {
+      "description": "Text that describes a document.",
+      "name": "Description",
+      "shortDescription": "A document's description.",
+      "type": "text"
+    },
+    "collections": {
+      "description": "The collections of things a document belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "links": {
+      "description": "Links things related to a document.",
+      "inverse": "links",
+      "shortDescription": "Links to related things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/>": ""
+      }
+    },
+    "name": {
+      "description": "A document's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A document's name.",
+      "type": "text"
+    },
+    "notes": {
+      "description": "Notes about a document.",
+      "inverse": "notesFor",
+      "shortDescription": "Notes",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/notes>": ""
+      }
+    },
+    "readBy": {
+      "description": "Individuals who have read a document.",
+      "inverse": "hasRead",
+      "required": false,
+      "shortDescription": "Read by",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "readers": {
+      "description": "People reading this document.",
+      "inverse": "isReading",
+      "name": "Readers",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "recommendations": {
+      "description": "Things that this document recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that this document recommends.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Things that have recommended that others read this document.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended this document.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "representations": {
+      "description": "Digital documents.",
+      "shortDescription": "Electronic document",
+      "type": "representations"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a document.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "title": {
+      "description": "A document's full title.",
+      "shortDescription": "Title",
+      "type": "text"
+    },
+    "url": {
+      "description": "A document's web address.",
+      "shortDescription": "Web address.",
+      "type": "url"
+    }
+  },
+  "shortDescription": "",
+  "singularName": "Document"
+}

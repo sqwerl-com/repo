@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-08T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "GraphQL",
+  "path": "/Types/Tags/GraphQL",
+  "shortDescription": "Things related to Graph Query Language.",
+  "tagged": {
+    "</types/webPages/A Case for GraphQL>": "",
+    "</types/webPages/Apollo GraphQL Client Repository>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/GraphQL>": "",
+    "</types/webPages/GraphQL Foundation Home Page>": "",
+    "</types/webPages/GraphQL Front end Queries Made Easy>": "",
+    "</types/videos/GraphQL The Documentary>": "",
+    "</types/webPages/Relay>": "",
+    "</types/webPages/Why GraphQL is Taking Over APIs>": ""
+  },
+  "text": "GraphQL"
+}

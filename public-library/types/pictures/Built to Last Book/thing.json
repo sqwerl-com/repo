@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Built to Last Book",
+  "path": "/Types/Pictures/Built to Last Book",
+  "pictureOf": {
+    "</types/books/Built to Last>": ""
+  },
+  "representations": {
+    "built_to_last_book_cover_large.lnk.json": "",
+    "built_to_last_book_cover_medium.lnk.json": "",
+    "built_to_last_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

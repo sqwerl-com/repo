@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Gabriel Peal>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Mobile Application Development/Frameworks/React Native>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Building a Cross Platform Mobile Team>": "",
+    "</types/webPages/React Native at Airbnb>": "",
+    "</types/webPages/React Native at Airbnb The Technology>": "",
+    "</types/webPages/Sunsetting React Native>": ""
+  },
+  "name": "What's Next for Mobile at Airbnb",
+  "path": "/Types/Web Pages/What's Next for Mobile at Airbnb",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "url": "https://medium.com/airbnb-engineering/whats-next-for-mobile-at-airbnb-5e71618576ab"
+}

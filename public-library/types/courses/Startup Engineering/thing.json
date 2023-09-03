@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-07T00:00:00.00-07:00",
+  "attendedBy": {
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Balaji S Srinivasan>": "",
+    "</types/authors/Vijay S Pande>": ""
+  },
+  "links": {
+    "</types/documents/Startup Engineering Introduction>": ""
+  },
+  "name": "Startup Engineering",
+  "notes": {
+  },
+  "path": "/Types/Courses/Startup Engineering",
+  "recommendations": {
+    "</types/webPages/Startup Equals Growth>": ""
+  },
+  "shortDescription": ""
+}

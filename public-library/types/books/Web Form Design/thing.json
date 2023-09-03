@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-07-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Luke Wroblewski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Web Form Design",
+  "path": "/Types/Books/Web Form Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/The 300 Million Button>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/web form design>": ""
+  },
+  "title": "Web Form Design: Filling in the Blanks"
+}

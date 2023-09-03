@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael Chabon>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Yiddish Policeman's Union",
+  "path": "/Types/Books/The Yiddish Policeman's Union",
+  "pictures": {
+    "</types/pictures/The Yiddish Policemans Union Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Determining the Greatest Science Fiction and Fantasy Novels Since 1970>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "archived": true,
+  "authors": [
+    "</types/authors/Chet Haase>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks/Adobe Flex>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Flex 4 Fun",
+  "path": "/Types/Books/Flex 4 Fun",
+  "pictures": {
+    "</types/pictures/Flex 4 Fun Book>": ""
+  },
+  "shortDescription": "",
+  "webPages": {
+    "</types/webPages/Flex 4 Fun>": ""
+  }
+}

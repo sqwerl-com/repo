@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-14T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Build Tools/Webpack>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/podcasts/JavaScript Air>": ""
+  },
+  "name": "webpack: JavaScript bundler",
+  "path": "/Types/Web Pages/webpack: JavaScript bundler",
+  "recommendations": {
+    "</types/webPages/Webpack from Apprentice to Master>": ""
+  },
+  "shortDescription": "",
+  "url": "https://javascriptair.com/episodes/2016-06-08"
+}

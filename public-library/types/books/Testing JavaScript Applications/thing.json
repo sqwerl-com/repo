@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Lucas Fernandes da Costa>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Testing>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Testing JavaScript Applications",
+  "path": "/Types/Books/Testing JavaScript Applications",
+  "pictures": {
+    "</types/pictures/Testing JavaScript Applications Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

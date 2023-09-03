@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-24T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Bitcoin",
+  "path": "/Types/Tags/Bitcoin",
+  "shortDescription": "Things that mention Bitcoin digital currency.",
+  "tagged": {
+    "</types/articles/Beyond the Bitcoin Bubble>": "",
+    "</types/webPages/Beyond the Bitcoin Bubble>": "",
+    "</types/papers/Bitcoin A Peer to Peer Electronic Cash System>": "",
+    "</types/videos/But How Does Bitcoin Actually Work>": ""
+  },
+  "text": "Bitcoin"
+}

@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joshua Porter>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Social Interfaces>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/Web>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Designing for the Social Web",
+  "notes": {
+    "</types/notes/Designing for the Social Web>": ""
+  },
+  "path": "/Types/Books/Designing for the Social Web",
+  "pictures": {
+    "</types/pictures/Designing for the Social Web Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/The Wealth of Networks>": ""
+  },
+  "shortDescription": ""
+}

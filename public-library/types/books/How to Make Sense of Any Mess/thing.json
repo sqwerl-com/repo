@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Abby Covert>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "How to Make Sense of Any Mess",
+  "notes": {
+    "</types/notes/How to Make Sense of Any Mess>": ""
+  },
+  "path": "/Types/Books/How to Make Sense of Any Mess",
+  "pictures": {
+    "</types/pictures/How to Make Sense of Any Mess Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/The Complete Beginners Guide to Information Architecture>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Information architecture>": ""
+  },
+  "title": "How to Make Sense of Any Mess: Information Architecture for Everyone",
+  "webPages": {
+    "</types/webPages/How to Make Sense of Any Mess>": ""
+  }
+}

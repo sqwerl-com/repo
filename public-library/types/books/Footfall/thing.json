@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Larry Niven>",
+    "</types/authors/Jerry Pournelle>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Footfall",
+  "path": "/Types/Books/Footfall",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

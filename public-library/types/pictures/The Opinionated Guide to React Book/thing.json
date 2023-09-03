@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-08-28T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Opinionated Guide to React Book",
+  "path": "/Types/Pictures/The Opinionated Guide to React Book",
+  "pictureOf": {
+    "</types/books/The Opinionated Guide to React>": ""
+  },
+  "representations": {
+    "the_opinionated_guide_to_react_book_cover_large.png.lnk.json": "",
+    "the_opinionated_guide_to_react_book_cover_medium.png.lnk.json": "",
+    "the_opinionated_guide_to_react_book_cover_preview.png.lnk.json": "",
+    "the_opinionated_guide_to_react_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-10-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jose Jesus Perez>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "AngularJS is Amazing and Hard as Hell",
+  "path": "/Types/Web Pages/AngularJS is Amazing and Hard as Hell",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/AngularJS App>": "",
+    "</types/webPages/AngularJS Wiki>": "",
+    "</types/books/Mastering Web Application Development with AngularJS>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://coderwall.com/p/3qclqg"
+}

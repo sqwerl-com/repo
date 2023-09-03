@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-14T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for Survey.io, an online tool for generating customer surveys.",
+  "name": "Survey.io",
+  "path": "/Types/Web Pages/Survey.io",
+  "recommendedBy": {
+    "</types/books/UX Design for Startups>": ""
+  },
+  "shortDescription": "Survey.io home page",
+  "url": "https://www.survio.com/"
+}

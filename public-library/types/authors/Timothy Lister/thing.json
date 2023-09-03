@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-24T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Peopleware>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Timothy",
+  "lastName": "Lister",
+  "middleNameOrInitial": "",
+  "name": "Timothy Lister",
+  "path": "/Types/Authors/Timothy Lister"
+}

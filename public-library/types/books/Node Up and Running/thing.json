@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tom Hughes Croucher>",
+    "</types/authors/Mike Wilson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Node: Up and Running",
+  "path": "/Types/Books/Node: Up and Running",
+  "pictures": {
+    "</types/pictures/Node Up and Running Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

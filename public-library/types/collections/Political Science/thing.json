@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Atlas Shrugged>": "",
+    "</types/books/How Democracies Die>": "",
+    "</types/videos/Noam Chomsky Putin Ukraine China and Nuclear War>": "",
+    "</types/books/The Darkening Web>": "",
+    "</types/books/The Prince>": "",
+    "</types/webPages/The Prince>": "",
+    "</types/books/The Rise and Fall of the Great Powers>": "",
+    "</types/books/Weapons of Math Destruction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Political Science",
+  "path": "/Types/Collections/Political Science",
+  "shortDescription": "Things related to the study of countries, governments, and politics."
+}

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-09-07T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/The Missing Semester of Your CS Education>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 1 Course Overview and Shell>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 10 Potpourri>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 11 Questions and Answers>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 2 Shell Tools and Scripting>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 3 Editors>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 4 Data Wrangling>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 5 Command Line Environment>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 6 Version Control>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 7 Debugging and Profiling>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 8 Metaprogramming>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 9 Security and Cryptography>": ""
+  },
+  "name": "The Missing Semester of Your CS Education",
+  "path": "/Types/Courses/The Missing Semester of Your CS Education",
+  "shortDescription": ""
+}

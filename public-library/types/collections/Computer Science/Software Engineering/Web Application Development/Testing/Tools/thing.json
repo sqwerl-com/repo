@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-08-17T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Cypressio The State of the Art End to End Testing Tool>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Testing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Tools",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Testing/Tools",
+  "shortDescription": "Tools for testing web applications."
+}
+
+
+
+

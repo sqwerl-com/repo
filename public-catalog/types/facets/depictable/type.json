@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2017-03-29T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that can be depicted visually, for example by a thumbnail image or icon.",
+  "extends": "</types/facets>",
+  "name": "Depictable",
+  "path": "/Types/Facets/Depictable",
+  "properties": {
+    "faceted": {
+      "inverse": "facets",
+      "type": {
+        "</types/facets>": ""
+      }
+    },
+    "pictures": {
+      "inverse": "pictureOf",
+      "type": "{ </types/facets/depictable> }"
+    },
+    "thumbnailUrl": {
+      "computed": true,
+      "description": "A URL to a small image that depicts this thing and can be used a placeholder for a larger image.",
+      "name": "Thumbnail",
+      "required": false,
+      "shortDescription": "Link to a small preview image.",
+      "type": "text"
+    }
+  },
+  "shortDescription": "Things that can have images that represent them."
+}

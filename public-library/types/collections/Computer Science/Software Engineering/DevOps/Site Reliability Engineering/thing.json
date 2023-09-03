@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-05T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Site Reliability Engineering>": "",
+    "</types/webPages/What is a Site Reliability Engineer Should You Become One>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to applying the principles of software engineering to problems of deployment and management of web sites.",
+  "name": "Site Reliability Engineering",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps/Tools",
+  "shortDescription": "Things related to Site Reliability Engineering.",
+  "tags": {
+    "</types/tags/Site Reliability Engineering>": ""
+  }
+}

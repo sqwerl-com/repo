@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-08-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Simpson>"
+  ],
+  "books": {
+    "</types/books/You Dont Know JS Async and Performance>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "You Don't Know JS: Async & Performance",
+  "path": "/Types/Web Pages/You Don't Know JS: Async & Performance",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JavaScript>": ""
+  },
+  "url": "https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20&%20performance/README.md#you-dont-know-js-async--performance"
+}

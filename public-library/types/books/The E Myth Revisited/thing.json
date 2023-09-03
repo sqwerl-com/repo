@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael E Gerber>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The E-Myth Revisited",
+  "path": "/Types/Books/The E-Myth Revisited",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/videos/Ben Chestnut Do What You Love>": ""
+  },
+  "shortDescription": "",
+  "title": "The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It"
+}

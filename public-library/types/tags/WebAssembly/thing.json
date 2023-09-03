@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-26T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "WebAssembly web browser technology for writing web applications in multiple languages.",
+  "name": "WebAssembly",
+  "path": "/Types/Tags/WebAssembly",
+  "shortDescription": "",
+  "tagged": {
+    "</types/videos/A Cartoon Intro to WebAssembly>": ""
+  },
+  "text": "WebAssembly"
+}

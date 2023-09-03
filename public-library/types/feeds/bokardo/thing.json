@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joshua Porter>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Social Interfaces>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://bokardo.com/feed/",
+  "items": {
+    "</types/webPages/Principles of User Interface Design>": ""
+  },
+  "name": "bokardo",
+  "path": "/Types/Feeds/bokardo",
+  "shortDescription": ""
+}

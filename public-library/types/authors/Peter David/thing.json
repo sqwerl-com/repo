@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-16T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Amazing Fantastic Incredible>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Peter",
+  "lastName": "David",
+  "middleNameOrInitial": "",
+  "name": "Peter David",
+  "path": "/Types/Authors/Peter David"
+}

@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-01-16T00:00:00.00-07:00",
+  "children": {
+    "</types/feeds/History CSS Tricks>": "",
+    "</types/webPages/History of the Web Part 1>": "",
+    "</types/videos/Lets Program Like Its 1999>": "",
+    "</types/webPages/Web History Chapter 10 Browser Wars>": "",
+    "</types/webPages/Web History Chapter 1 Birth>": "",
+    "</types/webPages/Web History Chapter 2 Browsers>": "",
+    "</types/webPages/Web History Chapter 3 The Website>": "",
+    "</types/webPages/Web History Chapter 4 Search>": "",
+    "</types/webPages/Web History Chapter 5 Publishing>": "",
+    "</types/webPages/Web History Chapter 6 Web Design>": "",
+    "</types/webPages/Web History Chapter 7 Standards>": "",
+    "</types/webPages/Web History Chapter 8 CSS>": "",
+    "</types/webPages/Web History Chapter 9 Community>": ""
+  },
+  "collections": {
+    "</types/collections/History/Computation>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things regarding the history of developing applications for the World Wide Web.",
+  "name": "History",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/History",
+  "shortDescription": "History of web application development"
+}

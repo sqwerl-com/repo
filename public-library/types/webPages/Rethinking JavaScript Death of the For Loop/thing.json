@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joel Thoms>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Rethinking JavaScript: Death of the For Loop",
+  "path": "/Types/Web Pages/Rethinking JavaScript: Death of the For Loop",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  },
+  "url": "https://hackernoon.com/rethinking-javascript-death-of-the-for-loop-c431564c84a8"
+}

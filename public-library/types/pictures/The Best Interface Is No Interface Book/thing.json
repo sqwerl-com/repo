@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-24T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Best Interface Is No Interface Book",
+  "path": "/Types/Pictures/The Best Interface Is No Interface Book",
+  "pictureOf": {
+    "</types/books/The Best Interface Is No Interface>": ""
+  },
+  "representations": {
+    "the_best_interface_is_no_interface_book_cover_large.png.lnk.json": "",
+    "the_best_interface_is_no_interface_book_cover_medium.png.lnk.json": "",
+    "the_best_interface_is_no_interface_book_cover_preview.png.lnk.json": "",
+    "the_best_interface_is_no_interface_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

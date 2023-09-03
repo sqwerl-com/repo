@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-24T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Regular Expressions Cookbook>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jan",
+  "lastName": "Goyvaerts",
+  "middleNameOrInitial": "",
+  "name": "Jan Goyvaerts",
+  "path": "/Types/Authors/Jan Goyvaerts"
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-12-11T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Online videos that show how to develop interesting things in HTML5, CSS3, and JavaScript",
+  "links": {
+    "</types/webPages/Pure CSS3 Breadcrumb Navigation The Pixel Perfect Way>": ""
+  },
+  "name": "TheCodePlayer",
+  "path": "/Types/Web Pages/TheCodePlayer",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/CSS3>": "",
+    "</types/tags/HTML5>": "",
+    "</types/tags/JavaScript>": ""
+  },
+  "url": "http://thecodeplayer.com/"
+}

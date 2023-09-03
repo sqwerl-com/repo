@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/A Brief History of Time>": ""
+  },
+  "collections": {
+    "</types/collections/Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Physics",
+  "path": "/Types/Collections/Science/Physics",
+  "shortDescription": "Things related to the pursuit to scientifically define how the universe works"
+}

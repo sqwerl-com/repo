@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert T Bakker>"
+  ],
+  "collections": {
+    "</types/collections/Science/Biology>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Dinosaur Heresies",
+  "path": "/Types/Books/The Dinosaur Heresies",
+  "pictures": {
+    "</types/pictures/The Dinosaur Heresies Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

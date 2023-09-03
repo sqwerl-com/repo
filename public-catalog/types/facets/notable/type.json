@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that an have notes that describe them.",
+  "extends": "</types/facets>",
+  "name": "Notable",
+  "path": "/Types/Facets/Notable",
+  "properties": {
+    "faceted": {
+      "inverse": "facets",
+      "type": {
+        "</types/facets>": ""
+      }
+    },
+    "notes": {
+      "inverse": "notesFor",
+      "type": "{ </types/notes> }"
+    }
+  },
+  "shortDescription": "Things that can have notes."
+}

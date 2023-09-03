@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-10-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alexander Zlatkov>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How JavaScript Actually Works: Part 1",
+  "path": "/Types/Web Pages/How JavaScript Actually Works: Part 1",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dzone.com/articles/how-javascript-actually-works-part-1"
+}

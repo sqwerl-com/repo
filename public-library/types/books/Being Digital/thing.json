@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nicholas Negroponte>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Being Digital",
+  "path": "/Types/Books/Being Digital",
+  "pictures": {
+    "</types/pictures/Being Digital Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

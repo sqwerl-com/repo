@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-29T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Science Fiction>": "",
+    "</types/collections/Science Fiction/User Interfaces>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Sci-Fi Interfaces",
+  "path": "/Types/Web Pages/Sci-Fi Interfaces",
+  "recommendedBy": {
+    "</types/books/Make It So Interaction Design Lessons from Science Fiction>": ""
+  },
+  "shortDescription": "",
+  "url": "https://scifiinterfaces.com/"
+}

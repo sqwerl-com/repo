@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {
+    "</types/groups/Administrators>": "",
+    "</types/users/Tom Carroll>": ""
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "isEnabled": true,
+  "isLocked": false,
+  "lastSignedInTime": "2018-04-10T02:38:56.910Z",
+  "modifiedBy": "</types/users/Administrator>",
+  "modifiedOn": "2018-04-10T02:38:56.910Z",
+  "mustChangePassword": false,
+  "name": "Tom Carroll",
+  "path": "/Types/Accounts/Tom Carroll",
+  "user": "</types/users/Tom Carroll>"
+}

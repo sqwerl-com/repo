@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-02-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ayn Rand>"
+  ],
+  "collections": {
+    "</types/collections/Fiction>": "",
+    "</types/collections/Political Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Atlas Shrugged",
+  "path": "/Types/Books/Atlas Shrugged",
+  "pictures": {
+    "</types/pictures/Atlas Shrugged Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

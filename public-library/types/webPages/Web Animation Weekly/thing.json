@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rachel Nabors>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Web Animation Weekly",
+  "path": "/Types/Web Pages/Web Animation Weekly",
+  "recommendedBy": {
+    "</types/books/Animation at Work>": ""
+  },
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "http://webanimationweekly.com/"
+}

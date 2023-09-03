@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-14T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Audio recordings of discussions regarding JavaScript.",
+  "feedUrl": "http://audio.javascriptair.com/feed/",
+  "links": {
+    "</types/webPages/webpack JavaScript bundler>": ""
+  },
+  "name": "JavaScript Air",
+  "path": "/Types/Podcasts/JavaScript Air",
+  "shortDescription": "",
+  "webPage": "</types/webPages/JavaScript Air>"
+}

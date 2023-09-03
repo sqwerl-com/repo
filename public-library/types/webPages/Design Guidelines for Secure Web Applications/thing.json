@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Design Guidelines for Secure Web Applications",
+  "notes": {
+    "</types/notes/Design Guidelines for Secure Web Applications>": ""
+  },
+  "path": "/Types/Web Pages/Design Guidelines for Secure Web Applications",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://msdn.microsoft.com/en-us/library/ff648647.aspx"
+}

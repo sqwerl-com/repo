@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tom Kelley>",
+    "</types/authors/Jonathan Littman>",
+    "</types/authors/Tom Peters>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Art of Innovation",
+  "path": "/Types/Books/The Art of Innovation",
+  "pictures": {
+    "</types/pictures/The Art of Innovation Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

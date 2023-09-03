@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-11T00:00:00.00-05:00",
+  "authorOf": {
+    "</types/books/The Swift Programming Language>": "",
+    "</types/books/Using Swift with Cocoa and Objective C>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Apple Inc.",
+  "lastName": "",
+  "middleNameOrInitial": "",
+  "name": "Apple Inc.",
+  "path": "/Types/Authors/Apple Inc."
+}

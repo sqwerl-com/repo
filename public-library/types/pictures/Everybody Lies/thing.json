@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-28T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Everybody Lies Book",
+  "path": "/Types/Pictures/Everybody Lies Book",
+  "pictureOf": {
+    "</types/books/Everybody Lies>": ""
+  },
+  "representations": {
+    "everybody_lies_book_large.jpg.lnk.json": "",
+    "everybody_lies_book_medium.jpg.lnk.json": "",
+    "everybody_lies_book_preview.jpg.lnk.json": "",
+    "everybody_lies_book_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

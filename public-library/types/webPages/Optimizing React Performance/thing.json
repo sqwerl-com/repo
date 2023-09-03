@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-06-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael Haglund>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Performance Optimization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Optimizing React Performance",
+  "path": "/Types/Web Pages/Optimizing React Performance",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Optimizing Performance>": "",
+    "</types/webPages/Why Did You Render>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.opendigerati.com/taking-control-of-react-performance-4f21a15a19b5"
+}

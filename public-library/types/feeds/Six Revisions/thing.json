@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-06-11T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://feeds2.feedburner.com/SixRevisions",
+  "items": {
+    "</types/webPages/UX Design Tips for Your App Part 1>": "",
+    "</types/webPages/UX Design Tips for Your App Part 2>": ""
+  },
+  "name": "Six Revisions",
+  "path": "/Types/Feeds/Six Revisions",
+  "shortDescription": "",
+  "webPage": "</types/webPages/Smashing Magazine>"
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David Farley>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Continuous Delivery YouTube Channel>": ""
+  },
+  "name": "How to Be a Full Stack Developer",
+  "notes": {
+    "</types/notes/How to Be a Full Stack Developer in 2022>": ""
+  },
+  "path": "/Types/Videos/How to Be a Full Stack Developer",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=jpRTonLCAjk",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

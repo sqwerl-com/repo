@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ed Catmull>",
+    "</types/authors/Amy Wallace>"
+  ],
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Creativity Inc.",
+  "path": "/Types/Books/Creativity Inc.",
+  "pictures": {
+    "</types/pictures/Creativity Inc Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/videos/Move Fast and Break Nothing>": ""
+  },
+  "shortDescription": "",
+  "title": "Creativity Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration"
+}

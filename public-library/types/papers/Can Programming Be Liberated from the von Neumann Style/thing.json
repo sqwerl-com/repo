@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John Backus>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Can Programming Be Liberated from the von Nuemann Style?",
+  "path": "/Types/Papers/Can Programming Be Liberated from the von Nuemann Style?",
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": "",
+  "title": "Can Programming Be Liberated from the von Nuemann Style? A Functional Style and Its Algebra of Programs"
+}

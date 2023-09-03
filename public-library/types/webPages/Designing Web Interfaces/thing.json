@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-02T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Designing Web Interfaces>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Web page for the book Designing Web Interfaces.",
+  "name": "Designing Web Interfaces",
+  "path": "/Types/Web Pages/Designing Web Interfaces",
+  "shortDescription": "",
+  "url": "http://designingwebinterfaces.com/"
+}

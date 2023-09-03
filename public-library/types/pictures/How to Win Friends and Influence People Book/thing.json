@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Win Friends and Influence People Book",
+  "path": "/Types/Pictures/How to Win Friends and Influence People Book",
+  "pictureOf": {
+    "</types/books/How to Win Friends and Influence People>": ""
+  },
+  "representations": {
+    "how_to_win_friends_and_influence_people_book_cover_large.png.lnk.json": "",
+    "how_to_win_friends_and_influence_people_book_cover_medium.png.lnk.json": "",
+    "how_to_win_friends_and_influence_people_book_cover_preview.png.lnk.json": "",
+    "how_to_win_friends_and_influence_people_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

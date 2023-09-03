@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Search Analytics for Your Site Book",
+  "path": "/Types/Pictures/Search Analytics for Your Site Book",
+  "pictureOf": {
+    "</types/books/Search Analytics for Your Site>": ""
+  },
+  "representations": {
+    "search_analytics_for_your_site_book_cover_large.png.lnk.json": "",
+    "search_analytics_for_your_site_book_cover_medium.png.lnk.json": "",
+    "search_analytics_for_your_site_book_cover_preview.png.lnk.json": "",
+    "search_analytics_for_your_site_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

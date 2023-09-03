@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Geoff Genz>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Processing CDN Logging Events at Scale",
+  "notes": {
+    "</types/notes/Processing CDN Logging Events at Scale>": ""
+  },
+  "path": "/Types/Videos/Processing CDN Logging Events at Scale",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ClickHouse>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=e9TZ6gFDjNg",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

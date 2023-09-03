@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-05T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Bright Ages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "David",
+  "lastName": "Perry",
+  "middleNameOrInitial": "M",
+  "name": "David M. Perry",
+  "path": "/Types/Authors/David M. Perry"
+}

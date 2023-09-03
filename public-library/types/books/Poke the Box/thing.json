@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Seth Godin>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Poke the Box",
+  "notes": {
+    "</types/notes/Poke the Box>": ""
+  },
+  "path": "/Types/Books/Poke the Box",
+  "pictures": {
+    "</types/pictures/Poke the Box Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Poke the Box: When was the last time you did something for the first time?"
+}

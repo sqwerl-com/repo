@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-02-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sacha Greif>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React's Five Fingers of Death",
+  "path": "/Types/Web Pages/React's Five Fingers of Death",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/JSX in Depth>": ""
+  },
+  "shortDescription": "",
+  "title": "React's Five Fingers of Death. Master these five concepts, then master React",
+  "url": "https://medium.freecodecamp.com/the-5-things-you-need-to-know-to-understand-react-a1dbd5d114a3"
+}

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bill Sourour>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": "",
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The 100% Correct Coding Style Guide",
+  "path": "/Types/Web Pages/The 100% Correct Coding Style Guide",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/JavaScript Standard Style>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.freecodecamp.org/the-100-correct-coding-style-guide-5b594a1655f0"
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-24T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Brice",
+  "instructed": {
+    "</types/courses/TypeScript In Depth>": "",
+    "</types/courses/TypeScript Getting Started>": ""
+  },
+  "lastName": "Wilson",
+  "middleNameOrInitial": "",
+  "name": "Brice Wilson",
+  "path": "/Types/Authors/Brice Wilson"
+}

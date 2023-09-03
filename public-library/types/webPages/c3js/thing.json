@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-08-30T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "JavaScript charting library based on D3.js.",
+  "links": {
+    "</types/webPages/d3js>": ""
+  },
+  "name": "C3.js",
+  "path": "/Types/Web Pages/C3.js",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "http://c3js.org/"
+}

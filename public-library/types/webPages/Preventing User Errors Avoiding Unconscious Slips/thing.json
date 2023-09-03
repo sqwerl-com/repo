@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-08-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Page Laubheimer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Preventing User Errors: Avoiding Unconscious Slips",
+  "path": "/Types/Web Pages/Preventing User Errors: Avoiding Unconscious Slips",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.nngroup.com/articles/slips/"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Domain Driven Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Eric",
+  "lastName": "Evans",
+  "middleNameOrInitial": "",
+  "name": "Eric Evans",
+  "path": "/Types/Authors/Eric Evans"
+}

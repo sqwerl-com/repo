@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael A Hiltzik>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Dealers of Lightning",
+  "path": "/Types/Books/Dealers of Lightning",
+  "pictures": {
+    "</types/pictures/Dealers of Lightning Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Microinteractions>": ""
+  },
+  "shortDescription": "",
+  "title": "Dealers of Lightning: Xerox Parc and the Dawn of the Computer Age"
+}

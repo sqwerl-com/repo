@@ -1,0 +1,150 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/authored>": "",
+    "</types/facets/collectable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/notable>": "",
+    "</types/facets/taggable>": "",
+    "</types/facets/titled>": "",
+    "</types/facets/viewable>": ""
+  },
+  "name": "Videos",
+  "path": "/Types/Videos",
+  "properties": {
+    "authors": {
+      "description": "",
+      "inverse": "authorOf",
+      "shortDescription": "",
+      "type": [
+        "</types/authors>"
+      ]
+    },
+    "collections": {
+      "description": "The collections of things a video belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes a video.",
+      "name": "Description",
+      "shortDescription": "A video's description.",
+      "type": "text"
+    },
+    "feeds": {
+      "description": "The feeds that posted a video",
+      "inverse": "items",
+      "shortDescription": "Feeds",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/feeds>": ""
+      }
+    },
+    "links": {
+      "description": "Links to things related to the document.",
+      "inverse": "links",
+      "shortDescription": "Links to related things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "name": {
+      "description": "A video's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A video's name.",
+      "type": "text"
+    },
+    "notes": {
+      "description": "Notes regarding a video.",
+      "inverse": "notesFor",
+      "shortDescription": "Notes",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/notes>": ""
+      }
+    },
+    "recommendations": {
+      "description": "Related things that this video recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that this video suggests people look at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Related things that have recommended that this video be watched.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended this video.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "representations": {
+      "description": "A video's digital versions.",
+      "shortDescription": "Digital videos.",
+      "type": "representations"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a video.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "title": {
+      "description": "A video's full title",
+      "name": "Title",
+      "required": false,
+      "shortDescription": "",
+      "type": "text"
+    },
+    "url": {
+      "description": "A link to a video.",
+      "shortDescription": "URL",
+      "type": "url"
+    },
+    "viewedBy": {
+      "description": "Individuals who viewed a video.",
+      "inverse": "hasViewed",
+      "shortDescription": "Viewed by",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    }
+  },
+  "shortDescription": "Videos that people can watch.",
+  "singularName": "Video"
+}

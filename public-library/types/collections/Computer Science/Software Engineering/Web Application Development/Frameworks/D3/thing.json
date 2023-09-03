@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-03-03T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/D3 is not a Data Visualization Library>": "",
+    "</types/books/D3js in Action>": "",
+    "</types/webPages/d3js>": "",
+    "</types/books/Data Visualization with D3js Cookbook>": "",
+    "</types/books/Interactive Data Visualization for the Web>": "",
+    "</types/webPages/React Bar Chart>": "",
+    "</types/videos/SVG Beyond Mere Shapes>": "",
+    "</types/webPages/SVGs Beyond Mere Shapes>": "",
+    "</types/webPages/The Hitchhikers Guide to d3js>": "",
+    "</types/webPages/The Trouble with D3>": "",
+    "</types/webPages/Time Axis with Centered Labels and Sticky Month Names>": "",
+    "</types/feeds/Visual Cinnamon>": "",
+    "</types/webPages/Visual Cinnamon>": "",
+    "</types/webPages/Visualizing Git Concepts with D3>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "D3",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3",
+  "shortDescription": "Items regarding the D3 (Data-Driven Documents) JavaScript data visualization framework."
+}

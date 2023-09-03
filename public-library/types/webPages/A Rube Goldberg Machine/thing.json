@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ada Rose Edwards>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Rube Goldberg Machine",
+  "path": "/Types/Web Pages/A Rube Goldberg Machine",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "A Rube Goldberg Machine: An Introduction to Post-Modern Web Development",
+  "url": "https://ada.is/rube-goldberg-article/"
+}

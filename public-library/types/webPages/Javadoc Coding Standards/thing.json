@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Stephen Colebourne>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Java>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Stephen Colebournes Blog>": ""
+  },
+  "name": "Javadoc Coding Standards",
+  "path": "/Types/Web Pages/Javadoc Coding Standards",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Javadoc>": ""
+  },
+  "url": "http://blog.joda.org/2012/11/javadoc-coding-standards.html"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-15T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Discrete Mathematics Revised Edition Book",
+  "path": "/Types/Pictures/Discrete Mathematics Revised Edition Book",
+  "pictureOf": {
+    "</types/books/Discrete Mathematics Revised Edition>": ""
+  },
+  "representations": {
+    "discrete_mathematics_revised_edition_book_cover_large.jpg.lnk.json": "",
+    "discrete_mathematics_revised_edition_book_cover_medium.jpg.lnk.json": "",
+    "discrete_mathematics_revised_edition_book_cover_preview.jpg.lnk.json": "",
+    "discrete_mathematics_revised_edition_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

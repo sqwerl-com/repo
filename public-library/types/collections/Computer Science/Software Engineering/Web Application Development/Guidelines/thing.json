@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-08-20T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/HAL Hypertext Application Language>": "",
+    "</types/webPages/How to Become a Pro Front End Developer>": "",
+    "</types/webPages/JSON API>": "",
+    "</types/webPages/The Baseline for Web Development in 2022>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Guidelines",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Guidelines",
+  "shortDescription": "Guidelines (best practices) for developing web applications."
+}

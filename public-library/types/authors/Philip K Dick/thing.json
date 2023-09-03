@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-01-30T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Scanner Darkly>": "",
+    "</types/books/The Man in the High Castle>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Philip",
+  "lastName": "Dick",
+  "middleNameOrInitial": "K",
+  "name": "Philip K. Dick",
+  "path": "/Types/Authors/Philip K. Dick"
+}

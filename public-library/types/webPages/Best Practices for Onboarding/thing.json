@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nick Babich>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/General>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Best Practices for Onboarding",
+  "path": "/Types/Web Pages/Best Practices for Onboarding",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Onboarding>": ""
+  },
+  "url": "https://uxplanet.org/best-practices-for-onboarding-92f3a9f0b21a"
+}

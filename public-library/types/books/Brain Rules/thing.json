@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-10-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John Medina>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Brain Rules",
+  "path": "/Types/Books/Brain Rules",
+  "pictures": {
+    "</types/pictures/Brain Rules Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Designing for Emotion>": ""
+  },
+  "shortDescription": "",
+  "title": "Brain Rules (Updated and Expanded): 12 Principles for Surviving and Thriving at Work, Home, and School"
+}

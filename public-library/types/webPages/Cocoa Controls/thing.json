@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks/Cocoa>": "",
+    "</types/collections/Computer Science/Human Computer Interaction>": "",
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Platforms/iOS>": "",
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Platforms/Mac OS X>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Cocoa Controls",
+  "path": "/Types/Web Pages/Cocoa Controls",
+  "shortDescription": "Custom UI Components for iOS and Mac OS X.",
+  "url": "http://cocoacontrols.com/"
+}

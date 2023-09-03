@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-04-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dan Milstein>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/OnStartups>": ""
+  },
+  "name": "How to Survive a Ground-Up Rewrite Without Losing Your Sanity",
+  "path": "/Types/Web Pages/How to Survive a Ground-Up Rewrite Without Losing Your Sanity",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Refactoring>": ""
+  },
+  "url": "http://onstartups.com/tabid/3339/bid/97052/Screw-You-Joel-Spolsky-We-re-Rewriting-It-From-Scratch.aspx"
+}

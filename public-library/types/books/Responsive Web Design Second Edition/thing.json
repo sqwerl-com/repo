@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-09-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ethan Marcotte>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Responsive Web Design, Second Edition",
+  "path": "/Types/Books/Responsive Web Design, Second Edition",
+  "pictures": {
+    "</types/pictures/Responsive Web Design Second Edition Book>": ""
+  },
+  "recommendations": {
+    "</types/webPages/A Dao of Web Design>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Laws of UX>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Responsive design>": ""
+  }
+}

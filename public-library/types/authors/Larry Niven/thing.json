@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Hole in Space>": "",
+    "</types/books/Footfall>": "",
+    "</types/books/Lucifers Hammer>": "",
+    "</types/books/Oath of Fealty>": "",
+    "</types/books/Ringworld>": "",
+    "</types/books/The Descent of Anansi>": "",
+    "</types/books/The Integral Trees>": "",
+    "</types/books/The Legacy of Heorot>": "",
+    "</types/books/The Man Kzin Wars>": "",
+    "</types/books/The Mote in Gods Eye>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Larry",
+  "lastName": "Niven",
+  "middleNameOrInitial": "",
+  "name": "Larry Niven",
+  "path": "/Types/Authors/Larry Niven"
+}

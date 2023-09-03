@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-06-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Balaji S Srinivasan>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/courses/Startup Engineering>": ""
+  },
+  "name": "Startup Engineering - Introduction",
+  "path": "/Types/Documents/Startup Engineering - Introduction",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Eloquent JavaScript>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/feeds/Andy>": "",
+    "</types/books/The Pragmatic Programmer>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Andrew",
+  "lastName": "Hunt",
+  "middleNameOrInitial": "",
+  "name": "Andrew Hunt",
+  "path": "/Types/Authors/Andrew Hunt"
+}

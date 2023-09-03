@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-27T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/RxJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "RxJS Home Page",
+  "path": "/Types/Web Pages/RxJS Home Page",
+  "shortDescription": "Home page for the RxJS reactive programming library for JavaScript",
+  "url": "https://rxjs.dev/"
+}

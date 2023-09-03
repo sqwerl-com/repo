@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How Will You Measure Your Life Book",
+  "path": "/Types/Pictures/How Will You Measure Your Life Book",
+  "pictureOf": {
+    "</types/books/How Will You Measure Your Life>": ""
+  },
+  "representations": {
+    "how_will_you_measure_your_life_book_cover_large.jpg.lnk.json": "",
+    "how_will_you_measure_your_life_book_cover_medium.jpg.lnk.json": "",
+    "how_will_you_measure_your_life_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

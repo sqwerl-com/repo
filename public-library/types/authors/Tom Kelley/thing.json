@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Art of Innovation>": "",
+    "</types/books/The Ten Faces of Innovation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Tom",
+  "lastName": "Kelley",
+  "middleNameOrInitial": "",
+  "name": "Tom Kelley",
+  "path": "/Types/Authors/Tom Kelley"
+}

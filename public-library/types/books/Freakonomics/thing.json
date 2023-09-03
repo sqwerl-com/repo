@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steven D Levitt>",
+    "</types/authors/Stephen J Dubner>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Freakonomics",
+  "notes": {
+    "</types/notes/Freakonomics>": ""
+  },
+  "path": "/Types/Books/Freakonomics",
+  "pictures": {
+    "</types/pictures/Freakonomics Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Everybody Lies>": ""
+  },
+  "shortDescription": ""
+}

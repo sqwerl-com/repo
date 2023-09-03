@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Hole in Space Book",
+  "path": "/Types/Pictures/A Hole in Space Book",
+  "pictureOf": {
+    "</types/books/A Hole in Space>": ""
+  },
+  "representations": {
+    "a_hole_in_space_book_cover_large.jpg.lnk.json": "",
+    "a_hole_in_space_book_cover_medium.jpg.lnk.json": "",
+    "a_hole_in_space_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

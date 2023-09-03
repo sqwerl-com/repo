@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jo Rhett>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Puppet>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Learning Puppet 4",
+  "path": "/Types/Books/Learning Puppet 4",
+  "pictures": {
+    "</types/pictures/Learning Puppet 4 Book>": ""
+  },
+  "recommendations": {
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Puppet>": ""
+  },
+  "title": "Learning Puppet 4: A Guide to Configuration Management and Automation"
+}

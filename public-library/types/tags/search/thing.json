@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-06T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Search",
+  "path": "/Types/Tags/Search",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/8 Design Patterns for Autocomplete Suggestions>": "",
+    "</types/books/Apache Solr 3 Enterprise Search Server>": "",
+    "</types/webPages/Getting the Search Pattern Right>": "",
+    "</types/webPages/lunr>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Search>": "",
+    "</types/books/Search Analytics for Your Site>": "",
+    "</types/books/Search Patterns>": "",
+    "</types/books/Search User Interfaces>": "",
+    "</types/webPages/Search Visible and Simple>": "",
+    "</types/books/Solr in Action>": ""
+  },
+  "text": "Search"
+}

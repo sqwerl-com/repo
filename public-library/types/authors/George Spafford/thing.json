@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-06-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Phoenix Project>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "George",
+  "lastName": "Spafford",
+  "middleNameOrInitial": "",
+  "name": "George Spafford",
+  "path": "/Types/Authors/George Spafford"
+}

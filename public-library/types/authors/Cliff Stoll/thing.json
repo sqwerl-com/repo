@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-25T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Cuckoos Egg>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Cliff",
+  "lastName": "Stoll",
+  "middleNameOrInitial": "",
+  "name": "Cliff Stoll",
+  "path": "/Types/Authors/Cliff Stoll"
+}

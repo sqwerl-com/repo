@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-05T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Ministry for the Future Book",
+  "path": "/Types/Pictures/The Ministry for the Future Book",
+  "pictureOf": {
+    "</types/books/The Ministry for the Future>": ""
+  },
+  "representations": {
+    "the_ministry_for_the_future_book_cover_large.jpg.lnk.json": "",
+    "the_ministry_for_the_future_book_cover_medium.jpg.lnk.json": "",
+    "the_ministry_for_the_future_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

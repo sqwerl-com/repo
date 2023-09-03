@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-01-17T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "MailCheck",
+  "path": "/Types/Web Pages/MailCheck",
+  "shortDescription": "JavaScript library that checks e-mail addresses for spelling mistakes.",
+  "tags": {
+    "</types/tags/validating email addresses>": ""
+  },
+  "url": "https://github.com/Kicksend/mailcheck"
+}

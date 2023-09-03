@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Quantifying the User Experience Book",
+  "path": "/Types/Pictures/Quantifying the User Experience Book",
+  "pictureOf": {
+    "</types/books/Quantifying the User Experience>": ""
+  },
+  "representations": {
+    "quantifying_the_user_experience_book_cover_large.jpg.lnk.json": "",
+    "quantifying_the_user_experience_book_cover_medium.jpg.lnk.json": "",
+    "quantifying_the_user_experience_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mahesh Haldar>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Logging>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Logging: Best Practices for Node.JS Applications",
+  "path": "/Types/Web Pages/Logging: Best Practices for Node.JS Applications",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/NodeJS>": ""
+  },
+  "url": "https://blog.bitsrc.io/logging-best-practices-for-node-js-applications-8a0a5969b94c"
+}

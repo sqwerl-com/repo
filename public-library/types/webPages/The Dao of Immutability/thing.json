@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-01-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Elliott>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Dao of Immutability",
+  "path": "/Types/Web Pages/The Dao of Immutability",
+  "recommendedBy": {
+    "</types/webPages/10 Interview Questions Every JavaScript Developer Should Know>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  },
+  "title": "The Dao of Immutability: The Way of the Functional Programmer",
+  "url": "https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd"
+}

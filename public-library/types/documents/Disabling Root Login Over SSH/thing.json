@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-10-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tom Carroll>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Disabling Root Login Over SSH",
+  "path": "/Types/Documents/Disabling Root Login Over SSH",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

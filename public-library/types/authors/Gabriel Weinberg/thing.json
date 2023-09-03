@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-06T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Traction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Gabriel",
+  "lastName": "Weinberg",
+  "middleNameOrInitial": "",
+  "name": "Gabriel Weinberg",
+  "path": "/Types/Authors/Gabriel Weinberg"
+}

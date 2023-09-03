@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ken Yarmosh>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "App Savvy",
+  "notes": {
+    "</types/notes/App Savvy>": ""
+  },
+  "path": "/Types/Books/App Savvy",
+  "pictures": {
+    "</types/pictures/App Savvy Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

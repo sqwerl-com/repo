@@ -1,0 +1,180 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-05-02T00:00:00.00-07:00",
+  "canRead": {
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "children": {
+    "</types/accounts>": "",
+    "</types/articles>": "",
+    "</types/authors>": "",
+    "</types/books>": "",
+    "</types/capabilities>": "",
+    "</types/collections>": "",
+    "</types/courses>": "",
+    "</types/documents>": "",
+    "</types/facets>": "",
+    "</types/feeds>": "",
+    "</types/groups>": "",
+    "</types/libraries>": "",
+    "</types/notes>": "",
+    "</types/papers>": "",
+    "</types/podcasts>": "",
+    "</types/roles>": "",
+    "</types/tags>": "",
+    "</types/talks>": "",
+    "</types/users>": "",
+    "</types/videos>": "",
+    "</types/views>": "",
+    "</types/webPages>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "Types of things. All things of the same type have a similar set of characteristics.",
+  "name": "Types",
+  "path": "/Types",
+  "properties": {
+    "addedBy": {
+      "description": "The user who added a thing to a library.",
+      "inverse": "added",
+      "name": "Added by",
+      "required": true,
+      "shortDescription": "The user who added a thing.",
+      "type": "</types/users>"
+    },
+    "addedOn": {
+      "description": "The date and time when a thing was added to a library.",
+      "name": "Added on",
+      "required": true,
+      "shortDescription": "Addition time and date.",
+      "type": "timestamp"
+    },
+    "archived": {
+      "description": "",
+      "name": "Archived",
+      "required": false,
+      "shortDescription": "Has a thing been archived (marked as irrelevant or obsolete)?",
+      "type": "boolean"
+    },
+    "canRead": {
+      "description": "The users and groups of users allowed to read a thing's properties.",
+      "name": "Can read",
+      "required": false,
+      "shortDescription": "Who can view a thing's properties?",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "canWrite": {
+      "description": "The user and groups of users allowed to change a thing's properties.",
+      "name": "Can write",
+      "required": false,
+      "shortDescription": "Who can change a thing's properties?",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "children": {
+      "description": "A thing's children.",
+      "name": "Children",
+      "required": false,
+      "shortDescription": "A composite thing's child things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "controller": {
+      "description": "The user who controls who can access a thing.",
+      "inverse": "controls",
+      "name": "Controller",
+      "required": true,
+      "shortDescription": "A thing's controller.",
+      "type": "</types/users>"
+    },
+    "description": {
+      "description": "Text that describes a thing in detail.",
+      "name": "Description",
+      "required": false,
+      "shortDescription": "Text that describes a thing",
+      "type": "text"
+    },
+    "extends": {
+      "description": "The type that this type of thing is a sub-type of.",
+      "name": "Extends",
+      "required": false,
+      "shortDescription": "The type of thing that this type of thing extends.",
+      "type": "</types>"
+    },
+    "isNamePlural": {
+      "description": "Is the name of a thing pluralized (like these notes, instead of this notes)?",
+      "name": "Is name plural",
+      "required": false,
+      "shortDescription": "Is the name of a thing a plural noun?",
+      "type": "boolean"
+    },
+    "name": {
+      "description": "A thing's name. Text that identifies and labels a thing.",
+      "name": "Name",
+      "required": false,
+      "shortDescription": "A thing's name.",
+      "type": "text"
+    },
+    "modifiedBy": {
+      "description": "The user who last modified this thing.",
+      "name": "Modified by",
+      "shortDescription": "The user who last changed this thing.",
+      "type": "</types/users>"
+    },
+    "modifiedOn": {
+      "description": "The last time this thing was edited.",
+      "name": "Modified on",
+      "shortDescription": "Time when this thing was last changed.",
+      "type": "timestamp"
+    },
+    "path": {
+      "description": "The names of all the things on the path to this thing.",
+      "name": "Path",
+      "required": true,
+      "shortDescription": "",
+      "type": "text"
+    },
+    "properties": {
+      "description": "The properties that things of this type may have.",
+      "name": "Properties",
+      "required": false,
+      "shortDescription": "Properties that things of the same type have.",
+      "type": {}
+    },
+    "shortDescription": {
+      "description": "Text that describes a thing in less than 80 characters.",
+      "name": "Short description",
+      "shortDescription": "Text that briefly describes a thing.",
+      "type": "text"
+    },
+    "singularName": {
+      "description": "Text that describes the type for a single instance of this type of thing.",
+      "name": "Singular name",
+      "shortDescription": "Name for one of these types of things.",
+      "type": "text"
+    },
+    "version": {
+      "description": "A thing's version number.",
+      "name": "Version",
+      "required": false,
+      "shortDescription": "Version number.",
+      "type": "nonNegativeInteger"
+    }
+  },
+  "shortDescription": "Types of things.",
+  "singularName": "Type of thing"
+}

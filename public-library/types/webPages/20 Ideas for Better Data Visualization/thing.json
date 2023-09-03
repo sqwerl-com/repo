@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Taras Bakusevych>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "20 Ideas for Better Data Visualization",
+  "path": "/Types/Web Pages/20 Ideas for Better Data Visualization",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/10 Rules for Better Dashboard Design>": "",
+    "</types/books/The Wall Street Journal Guide to Information Graphics>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@taras-bakusevych/20-ideas-for-better-data-visualization-73f7e3c2782d"
+}

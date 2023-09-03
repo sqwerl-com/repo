@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/Frighteningly Ambitious Startup Ideas>": "",
+    "</types/books/Hackers and Painters>": "",
+    "</types/webPages/Startup Equals Growth>": "",
+    "</types/papers/The Roots of Lisp>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Paul",
+  "lastName": "Graham",
+  "middleNameOrInitial": "",
+  "name": "Paul Graham",
+  "path": "/Types/Authors/Paul Graham"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-06-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Phoenix Project Book",
+  "path": "/Types/Pictures/The Phoenix Project Book",
+  "pictureOf": {
+    "</types/books/The Phoenix Project>": ""
+  },
+  "representations": {
+    "the_phoenix_project_book_cover_large.jpg.lnk.json": "",
+    "the_phoenix_project_book_cover_medium.jpg.lnk.json": "",
+    "the_phoenix_project_book_cover_preview.jpg.lnk.json": "",
+    "the_phoenix_project_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

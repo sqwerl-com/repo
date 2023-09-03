@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-11-09T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The World We Make Book",
+  "path": "/Types/Pictures/The World We Make Book",
+  "pictureOf": {
+    "</types/books/The World We Make>": ""
+  },
+  "representations": {
+    "the_world_we_make_book_cover_large.jpg.lnk.json": "",
+    "the_world_we_make_book_cover_medium.jpg.lnk.json": "",
+    "the_world_we_make_book_cover_preview.jpg.lnk.json": "",
+    "the_world_we_make_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

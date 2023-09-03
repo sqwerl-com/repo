@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Larry Gonick>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Cartoon Guide to Computer Science",
+  "path": "/Types/Books/The Cartoon Guide to Computer Science",
+  "pictures": {
+    "</types/pictures/The Cartoon Guide to Computer Science Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/A Mathematical Theory of Communication>": ""
+  },
+  "shortDescription": ""
+}

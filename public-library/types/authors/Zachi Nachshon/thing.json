@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/Install Certificate Manager Controller in Kubernetes>": "",
+    "</types/webPages/Install Rancher K3s on Raspberry Pi Cluster>": "",
+    "</types/webPages/Install Traefik Ingress Controller in Kubernetes>": "",
+    "</types/webPages/Installing Helm Kubernetes Package Manager>": "",
+    "</types/webPages/Setting Up a Raspberry Pi Cluster>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Zachi",
+  "lastName": "Nachshon",
+  "middleNameOrInitial": "",
+  "name": "Zachi Nachshon",
+  "path": "/Types/Authors/Zachi Nachshon",
+  "pictures": {
+    "</types/pictures/Zachi Nachshon>": ""
+  }
+}

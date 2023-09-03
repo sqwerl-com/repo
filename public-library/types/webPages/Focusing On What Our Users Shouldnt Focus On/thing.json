@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-26T00:00:00.00-05:00",
+  "authors": [
+    "</types/authors/Jared M Spool>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Focusing On What Our Users Shouldn't Focus On",
+  "path": "/Types/Web Pages/Focusing On What Our Users Shouldnt Focus On",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Microinteractions>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Microinteractions>": ""
+  },
+  "url": "https://articles.uie.com/focusing-on-what-our-users-shouldnt-focus-on/"
+}

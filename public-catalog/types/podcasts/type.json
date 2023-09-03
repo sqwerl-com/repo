@@ -1,0 +1,131 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2015-07-20T00:00:00.00-07:00",
+  "description": "Audio files distributed over the Internet",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/collectable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/taggable>": ""
+  },
+  "name": "Podcasts",
+  "controller": "</types/users/Administrator>",
+  "path": "/Types/Podcasts",
+  "properties": {
+    "authors": {
+      "description": "A podcast's authors. The people or organizations who created or contributed to a podcast's content.",
+      "inverse": "authorOf",
+      "shortDescription": "Authors",
+      "type": [
+        "</types/authors>"
+      ]
+    },
+    "collections": {
+      "description": "The collections of things that a podcast belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes a podcast.",
+      "name": "Description",
+      "shortDescription": "A podcast's description.",
+      "type": "text"
+    },
+    "episodes": {
+      "description": "A podcast's episodes.",
+      "inverse": "podcasts",
+      "shortDescription": "Episodes",
+      "type": {
+        "</types/webPages>": ""
+      }
+    },
+    "feedUrl": {
+      "description": "The web address of a podcast's RSS feed.",
+      "shortDescription": "Web address",
+      "type": "text"
+    },
+    "links": {
+      "description": "Links to things a podcast is related to.",
+      "inverse": "links",
+      "shortDescription": "Links to related things",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "listeners": {
+      "description": "People who listened to a podcast.",
+      "inverse": "hasListenedTo",
+      "name": "Listened To",
+      "shortDescription": "People who listened to a podcast.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "name": {
+      "description": "A podcast's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A podcast's name.",
+      "type": "text"
+    },
+    "recommendations": {
+      "description": "Related things that a podcast recommends that people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that a podcast suggests that people look at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Related things that have recommended that this podcast be looked at.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended this podcast.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a podcast.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "title": {
+      "description": "A podcast's full title.",
+      "shortDescription": "Title",
+      "type": "text"
+    },
+    "webPage": {
+      "description": "A podcast's home page.",
+      "shortDescription": "Web page",
+      "type": "</types/webPages>"
+    }
+  },
+  "shortDescription": "Podcasts.",
+  "singularName": "Podcast"
+}

@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ted Nelson>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/The Curse of Xanadu>": "",
+    "</types/videos/Xanadu Basics 1a Visible Connection>": "",
+    "</types/videos/Xanadu Basics 1c Parallel Media Parallel Subjects>": "",
+    "</types/videos/Xanadu Basics 1d Reading and Writing Parallel>": ""
+  },
+  "name": "Xanadu Basics 1b -- Indirect Document Delivery",
+  "path": "/Types/Videos/Xanadu Basics 1b -- Indirect Document Delivery",
+  "shortDescription": "",
+  "tags": {
+  },
+  "url": "https://www.youtube.com/watch?v=1gPM3GqjMR4",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

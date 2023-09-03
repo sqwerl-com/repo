@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Security Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ross",
+  "lastName": "Anderson",
+  "middleNameOrInitial": "",
+  "name": "Ross Anderson",
+  "path": "/Types/Authors/Ross Anderson"
+}

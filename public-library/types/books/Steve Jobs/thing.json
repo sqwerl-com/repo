@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Walter Isaacson>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Steve Jobs",
+  "notes": {
+    "</types/notes/Steve Jobs>": ""
+  },
+  "path": "/Types/Books/Steve Jobs",
+  "pictures": {
+    "</types/pictures/Steve Jobs Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

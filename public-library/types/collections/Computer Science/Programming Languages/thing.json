@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Programming Languages/CPlusPlus>": "",
+    "</types/collections/Computer Science/Programming Languages/Carbon>": "",
+    "</types/books/Concepts of Programming Languages>": "",
+    "</types/collections/Computer Science/Programming Languages/Elixir>": "",
+    "</types/collections/Computer Science/Programming Languages/Elm>": "",
+    "</types/papers/Fundamental Concepts in Programming Languages>": "",
+    "</types/collections/Computer Science/Programming Languages/Go>": "",
+    "</types/collections/Computer Science/Programming Languages/Java>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Computer Science/Programming Languages/Lisp>": "",
+    "</types/collections/Computer Science/Programming Languages/Objective C>": "",
+    "</types/collections/Computer Science/Programming Languages/Prolog>": "",
+    "</types/collections/Computer Science/Programming Languages/Rust>": "",
+    "</types/collections/Computer Science/Programming Languages/Swift>": "",
+    "</types/books/The Definitive ANTLR Reference>": "",
+    "</types/webPages/These Modern Programming Languages Will Make You Suffer>": "",
+    "</types/books/Understanding and Writing Compilers>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Programming Languages",
+  "path": "/Types/Collections/Computer Science/Programming Languages",
+  "shortDescription": ""
+}

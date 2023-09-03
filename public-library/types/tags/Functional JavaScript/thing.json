@@ -1,0 +1,32 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-05T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to writing programs in the JavaScript programming language using functional programming techniques.",
+  "name": "Functional JavaScript",
+  "path": "/Types/Tags/Functional JavaScript",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/Functional JavaScript Decoupling Methods From Their Objects>": "",
+    "</types/webPages/Functional JS 1 Introduction>": "",
+    "</types/webPages/Functional JS 2 Functions Duh>": "",
+    "</types/webPages/Functional JS 3 State>": "",
+    "</types/webPages/Functional JS 4 Closures>": "",
+    "</types/webPages/Functional JS 5 Partial Application Currying>": "",
+    "</types/webPages/Functional JS 6 Function Composition>": "",
+    "</types/webPages/Functions in JavaScript Have More Secrets Than You Think>": "",
+    "</types/webPages/Handling State in React Four Immutable Approaches to Consider>": "",
+    "</types/webPages/Heres How Not to Suck at JavaScript>": "",
+    "</types/webPages/How I Switched from TypeScript to ReScript>": "",
+    "</types/webPages/ImmutableJS>": "",
+    "</types/courses/Learning Functional Programming with JavaScript>": "",
+    "</types/videos/Learning Functional Programming with JavaScript>": "",
+    "</types/webPages/Learning Functional Programming with JavaScript>": "",
+    "</types/webPages/Mori>": "",
+    "</types/webPages/RambdaJS>": "",
+    "</types/webPages/Rethinking JavaScript Death of the For Loop>": "",
+    "</types/webPages/The Dao of Immutability>": "",
+    "</types/webPages/The Two Pillars of JavaScript Part 2>": ""
+  },
+  "text": "Functional JavaScript"
+}

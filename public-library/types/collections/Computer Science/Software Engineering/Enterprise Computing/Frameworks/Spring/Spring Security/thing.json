@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/Spring Security Reference Documentation>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Enterprise Computing/Frameworks/Spring>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Spring Security",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Enterprise Computing/Frameworks/Spring Framework/Spring Security",
+  "shortDescription": ""
+}

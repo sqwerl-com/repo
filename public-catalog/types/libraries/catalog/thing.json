@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {
+    "</types/groups/Administrators>": ""
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "The catalog library contains information about other libraries.",
+  "name": "Catalog",
+  "path": "/Types/Libraries/Catalog",
+  "shortDescription": "The catalog library."
+}

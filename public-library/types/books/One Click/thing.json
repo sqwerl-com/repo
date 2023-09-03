@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Richard L Brandt>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "One Click",
+  "notes": {
+    "</types/notes/One Click>": ""
+  },
+  "path": "/Types/Books/One Click",
+  "pictures": {
+    "</types/pictures/One Click Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "One Click: Jeff Bezos and the Rise of Amazon.com"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-15T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Java Concurrency in Practice Book",
+  "path": "</types/pictures/Java Concurrency in Practice Book>",
+  "pictureOf": {
+    "</types/books/Java Concurrency in Practice>": ""
+  },
+  "representations": {
+    "java_concurrency_in_practice_book_cover_large.jpg.lnk.json": "",
+    "java_concurrency_in_practice_book_cover_medium.jpg.lnk.json": "",
+    "java_concurrency_in_practice_book_cover_preview.jpg.lnk.json": "",
+    "java_concurrency_in_practice_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

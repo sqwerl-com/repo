@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Johnny Accot>",
+    "</types/authors/Shumin Zhai>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Performance Evaluation of Input Devices in Trajectory-based Tasks: An Application of The Steering Law",
+  "path": "/Types/Papers/Performance Evaluation of Input Devices in Trajectory-based Tasks: An Application of The Steering Law",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/courses/Human Computer Interaction University of Washington>": ""
+  },
+  "shortDescription": ""
+}

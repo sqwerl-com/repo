@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-09-26T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Search>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the Lunr.js search library for JavaScript.",
+  "name": "Lunr.js home page",
+  "path": "/Types/Web Pages/Lunr.js home page",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/search>": ""
+  },
+  "url": "https://lunrjs.com/"
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Web for Everyone>": "",
+    "</types/books/Web Style Guide 3rd Edition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Sarah",
+  "lastName": "Horton",
+  "middleNameOrInitial": "",
+  "name": "Sarah Horton",
+  "path": "/Types/Authors/Sarah Horton"
+}

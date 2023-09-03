@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Matteo Penzo>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Label Placement in Forms",
+  "path": "/Types/Web Pages/Label Placement in Forms",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Web Application Form Design>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.uxmatters.com/mt/archives/2006/07/label-placement-in-forms.php"
+}

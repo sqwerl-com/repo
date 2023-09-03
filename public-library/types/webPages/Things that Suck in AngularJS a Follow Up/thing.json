@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-10-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Leo Horie>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/todo think of a better title>": ""
+  },
+  "links": {
+    "</types/webPages/Things that Suck in AngularJS>": ""
+  },
+  "name": "Things that Suck in AngularJS (a Follow Up)",
+  "path": "/Types/Web Pages/Things that Suck in AngularJS (a Follow Up)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://lhorie.blogspot.ca/2013/10/things-that-suck-in-angularjs-follow-up.html"
+}
+

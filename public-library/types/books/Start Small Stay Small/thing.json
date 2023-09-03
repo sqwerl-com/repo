@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rob Walling>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Start Small, Stay Small",
+  "notes": {
+    "</types/notes/Start Small Stay Small>": ""
+  },
+  "path": "/Types/Books/Start Small, Stay Small",
+  "pictures": {
+    "</types/pictures/Start Small Stay Small Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Start Small, Stay Small: A Developer's Guide to Launching a Startup"
+}

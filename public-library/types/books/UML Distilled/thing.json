@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Martin Fowler>",
+    "</types/authors/Kendall Scott>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "UML Distilled",
+  "notes": {
+    "</types/notes/UML Distilled>": ""
+  },
+  "path": "/Types/Books/UML Distilled",
+  "pictures": {
+    "</types/pictures/UML Distilled Book>": ""
+  },
+  "shortDescription": "",
+  "title": "UML Distilled: Applying the Standard Object Modeling Language"
+}

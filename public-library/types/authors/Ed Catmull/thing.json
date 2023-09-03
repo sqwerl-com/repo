@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-31T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Creativity Inc>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ed",
+  "lastName": "Catmull",
+  "middleNameOrInitial": "",
+  "name": "Ed Catmull",
+  "path": "/Types/Authors/Ed Catmull"
+}

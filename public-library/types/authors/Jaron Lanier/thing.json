@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-29T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Who Owns the Future>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jaron",
+  "lastName": "Lanier",
+  "links": {
+    "</types/videos/Jaron Lanier Virtual Reality Social Media and the Future of Humans and AI>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Jaron Lanier",
+  "path": "/Types/Authors/Jaron Lanier"
+}

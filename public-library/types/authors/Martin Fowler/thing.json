@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/Collection Pipeline>": "",
+    "</types/webPages/Evolutionary Database Design>": "",
+    "</types/webPages/Inversion of Control Containers and the Dependency Injection Pattern>": "",
+    "</types/books/Refactoring>": "",
+    "</types/books/UML Distilled>": "",
+    "</types/papers/Who Needs an Architect>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Martin",
+  "lastName": "Fowler",
+  "middleNameOrInitial": "",
+  "name": "Martin Fowler",
+  "path": "/Types/Authors/Martin Fowler",
+  "pictures": {
+    "</types/pictures/Martin Fowler Head Shot>": ""
+  }
+}

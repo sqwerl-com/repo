@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nicholas Tenhue>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Audio recordings regarding user experience.",
+  "feedUrl": "http://www.theuxblog.com/podcast/",
+  "name": "UX Blog",
+  "path": "/Types/Podcasts/UX Blog",
+  "shortDescription": "",
+  "webPage": "</types/webPages/The UX Blog>"
+}

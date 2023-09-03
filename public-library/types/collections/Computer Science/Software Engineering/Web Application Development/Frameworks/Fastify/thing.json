@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-05T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Fastify>": "",
+    "</types/videos/Is Fastify the New ExpressJS>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Fastify",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Fastify",
+  "shortDescription": "Items regarding the Fastify.io library for building JavaScript applications."
+}

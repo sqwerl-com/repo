@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Guy Lewis Steele Jr>",
+    "</types/authors/Gerald Jay Sussman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Art of the Interpreter",
+  "path": "/Types/Papers/The Art of the Interpreter",
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": "",
+  "title": "The Art of the Interpreter or, The Modularity Complex (Parts Zero, One, and Two)"
+}

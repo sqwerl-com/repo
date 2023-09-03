@@ -1,0 +1,34 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-09-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rachel Nabors>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Animation at Work",
+  "notes": {
+    "</types/notes/Animation at Work>": ""
+  },
+  "path": "/Types/Books/Animation at Work",
+  "pictures": {
+    "</types/pictures/Animation at Work Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/Animation Support in a User Interface Toolkit>": "",
+    "</types/webPages/Cubic Bezier>": "",
+    "</types/webPages/Easing Functions Cheat Sheet>": "",
+    "</types/books/The Functional Art>": "",
+    "</types/books/Vision and Art>": "",
+    "</types/webPages/Web Animation Weekly>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  }
+}

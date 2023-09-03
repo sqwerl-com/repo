@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-02-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nick Babich>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How Functional Animation Helps Improve User Experience",
+  "notes": {
+    "</types/notes/How Functional Animation Helps Improve User Experience>": ""
+  },
+  "path": "/Types/Web Pages/How Functional Animation Helps Improve User Experience",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Best Practices for Animated Progress Indicators>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "https://www.smashingmagazine.com/2017/01/how-functional-animation-helps-improve-user-experience/"
+}

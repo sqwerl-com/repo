@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-05-12T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Brian Kernighan UNIX C AWK AMPL and Go Programming>": "",
+    "</types/videos/James Gosling Java JVM Emacs and the Early Days of Computing>": "",
+    "</types/books/Speeding the Net>": "",
+    "</types/articles/The Curse of Xanadu>": "",
+    "</types/webPages/The Curse of Xanadu>": "",
+    "</types/videos/The History and the Future of Software>": "",
+    "</types/videos/The History of UNIX Rob Pike>": "",
+    "</types/articles/The Secret History of Women in Coding>": "",
+    "</types/webPages/The Secret History of Women in Coding>": "",
+    "</types/books/UNIX A History and a Memoir>": ""
+  },
+  "collections": {
+    "</types/collections/History/Computation>": "",
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "History",
+  "path": "/Types/Collections/Computer Science/Software Engineering/History",
+  "shortDescription": "Things that describe the history of software engineering."
+}

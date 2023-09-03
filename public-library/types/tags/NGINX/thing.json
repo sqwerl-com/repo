@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-05-08T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the NGINX web server.",
+  "name": "NGINX",
+  "path": "/Types/Tags/NGINX",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/The NGINX Handbook>": "",
+    "</types/webPages/Why Should I Use a Reverse Proxy If NodeJS is Production Ready>": ""
+  },
+  "text": "NGINX"
+}

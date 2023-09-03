@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-12-21T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Human JavaScript>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Human JavaScript",
+  "path": "/Types/Web Pages/Human JavaScript",
+  "shortDescription": "",
+  "url": "http://read.humanjavascript.com/"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-19T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Miramar>": "",
+    "</types/books/Palace of Desire>": "",
+    "</types/books/Palace Walk>": "",
+    "</types/books/Sugar Street>": "",
+    "</types/books/The Harafish>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Naguib",
+  "lastName": "Mahfouz",
+  "middleNameOrInitial": "",
+  "name": "Naguib Mahfouz",
+  "path": "/Types/Authors/Naguib Mahfouz"
+}

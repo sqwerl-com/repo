@@ -1,0 +1,9 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2013-02-18T00:00:00.00-07:00",
+  "children": {
+  },
+  "extends": "</types>",
+  "name": "Accounts",
+  "controller": "</types/users/Administrator>"
+}

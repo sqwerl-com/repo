@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-17T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/OLAP/ClickHouse>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Tatiana Saltykova>": ""
+  },
+  "links": {
+    "</types/documents/Altinity Developer Academy for ClickHouse Interactive Exercises>": "",
+    "</types/videos/Altinity Developer Academy Training for ClickHouse Session 1>": "",
+    "</types/documents/Altinity Developer Academy Training for ClickHouse Session 1 Introduction and Schema Design Slides>": "",
+    "</types/videos/Altinity Developer Academy Training for ClickHouse Session 2>": "",
+    "</types/documents/Altinity Developer Academy Training for ClickHouse Session 2 Queries and Advanced Schema Design Slides>": "",
+    "</types/documents/Altinity Developer Academy Training for ClickHouse Session 3 Arrays JSON and Kafka Slides>": ""
+  },
+  "name": "Altinity Developer Academy Training for ClickHouse",
+  "path": "/Types/Courses/Altinity Developer Academy Training for ClickHouse",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ClickHouse>": ""
+  }
+}

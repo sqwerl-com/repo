@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-11T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Dialogs>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "SweetAlert",
+  "path": "/Types/Web Pages/SweetAlert",
+  "shortDescription": "Home page for the SweetAlert dialog library.",
+  "tags": {
+    "</types/tags/Microinteractions>": ""
+  },
+  "url": "https://sweetalert.js.org/"
+}

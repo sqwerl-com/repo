@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/George Orwell>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "1984",
+  "notes": {
+    "</types/notes/1984>": ""
+  },
+  "path": "/Types/Books/1984",
+  "pictures": {
+    "</types/pictures/1984 Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Why Business Leaders Need to Read More Science Fiction>": ""
+  }
+}

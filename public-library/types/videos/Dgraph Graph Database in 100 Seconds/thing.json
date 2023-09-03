@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/Graph/Dgraph>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Dgraph Graph Database in 100 Seconds",
+  "path": "/types/videos/Dgraph Graph Database in 100 Seconds",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=OzDG68VvPxY",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

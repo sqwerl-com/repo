@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Harry R Lewis>",
+    "</types/authors/Christos H Papadimitriou>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Elements of the Theory of Computation",
+  "path": "/Types/Books/Elements of the Theory of Computation",
+  "pictures": {
+    "</types/pictures/Elements of the Theory of Computation Book>": ""
+  },
+  "shortDescription": ""
+}

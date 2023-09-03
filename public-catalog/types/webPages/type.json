@@ -1,0 +1,175 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Web pages.",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/collectable>": "",
+    "</types/facets/depictable>": "",
+    "</types/facets/notable>": "",
+    "</types/facets/readable>": "",
+    "</types/facets/taggable>": ""
+  },
+  "name": "Web Pages",
+  "path": "/Types/WebPages",
+  "properties": {
+    "actions": {
+      "description": "Actions to take.",
+      "shortDescription": "Actions",
+      "type": "objects"
+    },
+    "authors": {
+      "description": "The people who wrote a web page.",
+      "inverse": "authorOf",
+      "shortDescription": "A web page's authors.",
+      "type": [
+        "</types/authors>"
+      ]
+    },
+    "books": {
+      "description": "Books that this web page is a home page for.",
+      "inverse": "webPages",
+      "shortDescription": "Books",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/books>": ""
+      }
+    },
+    "collections": {
+      "description": "The collections of things a web page belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes a web page.",
+      "name": "Description",
+      "shortDescription": "A web page's description.",
+      "type": "text"
+    },
+    "feeds": {
+      "description": "The feeds that a web page belongs to.",
+      "inverse": "items",
+      "shortDescription": "Feeds",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/feeds>": ""
+      }
+    },
+    "links": {
+      "description": "Links to things that the web page is related to.",
+      "inverse": "links",
+      "shortDescription": "Related things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "name": {
+      "description": "A web page's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A web page's name.",
+      "type": "text"
+    },
+    "notes": {
+      "description": "Notes regarding a web page.",
+      "inverse": "notesFor",
+      "shortDescription": "Notes",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/notes>": ""
+      }
+    },
+    "pictures": {
+      "description": "Images of what a web site looks like.",
+      "inverse": "pictureOf",
+      "shortDescription": "Pictures",
+      "type": {
+        "</types/pictures>": ""
+      }
+    },
+    "readBy": {
+      "description": "Individuals who read a web page.",
+      "inverse": "hasRead",
+      "shortDescription": "Read by",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "readers": {
+      "description": "People reading this web page.",
+      "inverse": "isReading",
+      "name": "Readers",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "recommendations": {
+      "description": "Related things that this web page recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that this web page suggests to look at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Related things that have recommended that this web page be read.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended this web page.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a web page.",
+      "inverse": "tagged",
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/tags>": ""
+      }
+    },
+    "title": {
+      "title": "A web page's title.",
+      "shortDescription": "Title",
+      "type": "text"
+    },
+    "url": {
+      "description": "A web page's address.",
+      "required": true,
+      "shortDescription": "URL",
+      "type": "url"
+    }
+  },
+  "shortDescription": "Web pages.",
+  "singularName": "Web page"
+}

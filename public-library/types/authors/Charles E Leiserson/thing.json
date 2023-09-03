@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-10-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Introduction to Algorithms 3rd Edition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Charles",
+  "lastName": "Leiserson",
+  "middleNameOrInitial": "E",
+  "name": "Charles E. Leiserson",
+  "path": "/Types/Authors/Charles E. Leiserson"
+}

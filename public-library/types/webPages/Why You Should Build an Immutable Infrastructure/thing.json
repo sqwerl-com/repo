@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Florian Motlik>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why You Should Build an Immutable Infrastructure",
+  "path": "/Types/Web Pages/Why You Should Build an Immutable Infrastructure",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 2 Configuration>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.cloudbees.com/blog/immutable-infrastructure"
+}

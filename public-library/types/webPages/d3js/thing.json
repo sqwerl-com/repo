@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-03-03T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/c3js>": ""
+  },
+  "name": "d3js",
+  "path": "/Types/Web Pages/d3js",
+  "shortDescription": "Home page for the D3 JavaScript data visualization framework",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "http://d3js.org/"
+}

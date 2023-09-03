@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-18T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://blog.cleancoder.com/atom.xml",
+  "items": {
+    "</types/webPages/Is Dr Calvin in the Room>": ""
+  },
+  "links": {
+    "</types/authors/Robert C Martin>": ""
+  },
+  "name": "The Clean Code Blog",
+  "path": "/Types/Feeds/The Clean Code Blog",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Clean code>": ""
+  }
+}

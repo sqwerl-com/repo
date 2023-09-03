@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-02T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Web for Everyone>": "",
+    "</types/books/Storytelling for User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Whitney",
+  "lastName": "Quesenbery",
+  "middleNameOrInitial": "",
+  "name": "Whitney Quesenbery",
+  "path": "/Types/Authors/Whitney Quesenbery"
+}

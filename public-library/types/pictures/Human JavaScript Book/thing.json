@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Human JavaScript Book",
+  "path": "/Types/Pictures/Human JavaScript Book",
+  "pictureOf": {
+    "</types/books/Human JavaScript>": ""
+  },
+  "representations": {
+    "human_javascript_book_cover_large.png.lnk.json": "",
+    "human_javascript_book_cover_medium.png.lnk.json": "",
+    "human_javascript_book_cover_preview.png.lnk.json": "",
+    "human_javascript_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

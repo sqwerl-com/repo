@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Ries>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/authors/Joel Spolsky>": ""
+  },
+  "name": "A New Version of the Joel Test",
+  "path": "/Types/Web Pages/A New Version of the Joel Test",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.startuplessonslearned.com/2008/09/new-version-of-joel-test-draft.html"
+}

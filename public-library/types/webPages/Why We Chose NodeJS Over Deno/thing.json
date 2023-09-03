@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Muly Gottlieb>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Deno>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why We Choose Node.js Over Deno",
+  "path": "/Types/Web Pages/Why We Choose Node.js Over Deno",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://amplication.com/blog/why-we-chose-nodejs-over-deno"
+}

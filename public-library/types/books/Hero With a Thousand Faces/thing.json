@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-12-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joseph Campbell>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Hero With a Thousand Faces",
+  "path": "/Types/Books/Hero With a Thousand Faces",
+  "pictures": {
+    "</types/pictures/Hero With a Thousand Faces Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

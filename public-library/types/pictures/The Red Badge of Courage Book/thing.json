@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-05-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Red Badge of Courage Book",
+  "path": "/Types/Pictures/The Red Badge of Courage Book",
+  "pictureOf": {
+    "</types/books/The Red Badge of Courage>": ""
+  },
+  "representations": {
+    "the_red_badge_of_courage_book_cover_large.lnk.json": "",
+    "the_red_badge_of_courage_book_cover_medium.lnk.json": "",
+    "the_red_badge_of_courage_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

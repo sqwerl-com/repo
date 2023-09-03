@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-21T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Mobile Design Pattern Gallery>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Pattern Repositories>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mobile Design Pattern Gallery",
+  "path": "/Types/Web Pages/Mobile Design Pattern Gallery",
+  "shortDescription": "Companion web site for the book Mobile Design Pattern Gallery.",
+  "url": "https://www.oreilly.com/library/view/mobile-design-pattern/9781449368586/"
+}

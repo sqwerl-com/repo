@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Windup Girl>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Paolo",
+  "lastName": "Bacigalupi",
+  "middleNameOrInitial": "",
+  "name": "Paolo Bacigalupi",
+  "path": "/Types/Authors/Paolo Bacigalupi"
+}

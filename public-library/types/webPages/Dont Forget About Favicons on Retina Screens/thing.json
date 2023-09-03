@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-10-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Thomas Fuchs>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Don't Forget About Favicons on Retina Screens",
+  "path": "/Types/Web Pages/Don't Forget About Favicons on Retina Screens",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/favicon>": ""
+  },
+  "url": "http://davidwalsh.name/retina-favicons"
+}

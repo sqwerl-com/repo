@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-03T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Shaun Wassell>": ""
+  },
+  "links": {
+    "</types/webPages/Learning Functional Programming with JavaScript>": ""
+  },
+  "name": "Learning Functional Programming with JavaScript",
+  "notes": {
+    "</types/notes/Learning Functional Programming with JavaScript>": ""
+  },
+  "path": "/Types/Courses/Learning Functional Programming with JavaScript",
+  "recommendations": {
+    "</types/books/Structure and Interpretation of Computer Programs>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  }
+}

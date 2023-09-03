@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "jQuery UI Book",
+  "path": "</types/pictures/jQuery UI Book>",
+  "pictureOf": {
+    "</types/books/jQuery UI>": ""
+  },
+  "representations": {
+    "jquery_ui_book_cover_large.png.lnk.json": "",
+    "jquery_ui_book_cover_medium.png.lnk.json": "",
+    "jquery_ui_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

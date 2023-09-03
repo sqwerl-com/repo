@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Unix/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Raw Syntax>": ""
+  },
+  "name": "Learn Bash: Remove Commands From Your History",
+  "path": "/Types/Web Pages/Learn Bash: Remove Commands From Your History",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://rawsyntax.com/post/8778534130/learn-bash-remove-commands-from-your-history"
+}

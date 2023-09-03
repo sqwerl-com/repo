@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-09-17T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://blog.risingstack.com/rss/",
+  "items": {
+    "</types/webPages/NodeJS Best Practices RisingStack Engineering>": "",
+    "</types/webPages/NodeJS Security Checklist>": ""
+  },
+  "name": "RisingStack Engineering",
+  "path": "/Types/Feeds/RisingStack Engineering",
+  "shortDescription": ""
+}

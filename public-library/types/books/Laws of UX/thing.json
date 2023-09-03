@@ -1,0 +1,37 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jon Yablonski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Laws of UX",
+  "notes": {
+    "</types/notes/Laws of UX>": ""
+  },
+  "path": "/Types/Books/Laws of UX",
+  "pictures": {
+    "</types/pictures/Laws of UX Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Addiction by Design>": "",
+    "</types/webPages/Card Sorting Pushing Users Beyond Terminology Matches>": "",
+    "</types/webPages/Design for Fingers Touch and People Part 1>": "",
+    "</types/books/Designing for Interaction>": "",
+    "</types/webPages/End of Web Design>": "",
+    "</types/books/Responsive Web Design Second Edition>": "",
+    "</types/documents/RFC 793 Transmission Control Protocol>": "",
+    "</types/books/Thinking Fast and Slow>": ""
+  },
+  "shortDescription": "",
+  "title": "Laws of UX: Design Principles for Persuasive and Ethical Products",
+  "webPages": {
+    "</types/webPages/Laws of UX>": ""
+  }
+}

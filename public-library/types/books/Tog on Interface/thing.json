@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-11-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bruce Tognazzini>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Tog on Interface",
+  "path": "/Types/Books/Tog on Interface",
+  "pictures": {
+    "</types/pictures/Tog on Interface Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-06T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Count Zero>": "",
+    "</types/books/Mona Lisa Overdrive>": "",
+    "</types/books/Neuromancer>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "William",
+  "lastName": "Gibson",
+  "middleNameOrInitial": "",
+  "name": "William Gibson",
+  "path": "/Types/Authors/William Gibson"
+}

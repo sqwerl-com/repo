@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-07T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Business/Entrepreneurship/Business Models/Revenue Models/Freemium>": "",
+    "</types/books/The Cathedral and the Bazaar>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Business Models>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Revenue Models",
+  "path": "/Types/Collections/Business/Entrepreneurship/Business Models/Revenue Models",
+  "shortDescription": "Things related to modeling how an enterprise generates revenue."
+}

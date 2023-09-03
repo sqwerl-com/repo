@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mattias Geniar>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Puppet>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "3 Years of Puppet Config Management: Lessons Learned",
+  "path": "/Types/Web Pages/3 Years of Puppet Config Management: Lessons Learned",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Puppet>": ""
+  },
+  "url": "http://ma.ttias.be/3-years-puppet-config-management-lessons-learned/"
+}

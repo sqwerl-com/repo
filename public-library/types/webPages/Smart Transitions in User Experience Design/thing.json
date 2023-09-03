@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-02-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Adrian Zumbrunnen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Animation>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Smart Transitions in User Experience Design",
+  "path": "/Types/Web Pages/Smart Transitions in User Experience Design",
+  "recommendedBy": {
+    "</types/webPages/Popular Web Animation Techniques>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design/"
+}

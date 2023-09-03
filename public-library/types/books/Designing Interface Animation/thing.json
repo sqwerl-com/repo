@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Val Head>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Designing Interface Animation",
+  "notes": {
+    "</types/notes/Designing Interface Animation>": ""
+  },
+  "path": "/Types/Books/Designing Interface Animation",
+  "pictures": {
+    "</types/pictures/Designing Interface Animation Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/videos/Animation Basics>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  }
+}

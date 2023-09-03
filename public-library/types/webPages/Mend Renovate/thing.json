@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-28T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mend Renovate",
+  "path": "/Types/Web Pages/Mend Renovate",
+  "recommendedBy": {
+    "</types/webPages/How You Should Pin Dependencies and Why>": ""
+  },
+  "shortDescription": "Home page for Mend's Renovate tool for managing project dependency updates.",
+  "url": "https://www.mend.io/free-developer-tools/renovate/"
+}

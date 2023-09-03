@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-15T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Intuitive Design Book",
+  "path": "</types/pictures/Intuitive Design Book>",
+  "pictureOf": {
+    "</types/books/Intuitive Design>": ""
+  },
+  "representations": {
+    "intuitive_design_book_cover_large.png.lnk.json": "",
+    "intuitive_design_book_cover_medium.png.lnk.json": "",
+    "intuitive_design_book_cover_preview.png.lnk.json": "",
+    "intuitive_design_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

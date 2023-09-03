@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-04-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mayank Bansal>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mastering React: Techniques to Take Your UI to the Next Level",
+  "path": "/Types/Web Pages/Mastering React: Techniques to Take Your UI to the Next Level",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/The Role of Animation and Motion in UX>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.bitsrc.io/mastering-react-techniques-to-take-your-ui-to-the-next-level-a5002173904f"
+}

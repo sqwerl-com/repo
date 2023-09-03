@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-06-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nathan Shedroff>",
+    "</types/authors/Christopher Noessel>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Science Fiction>": "",
+    "</types/collections/Science Fiction/User Interfaces>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Make It So: Interaction Design Lessons from Science Fiction",
+  "path": "/Types/Books/Make It So: Interaction Design Lessons from Science Fiction",
+  "pictures": {
+    "</types/pictures/Make It So Interaction Design Lessons from Science Fiction Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/SciFi Interfaces>": ""
+  },
+  "shortDescription": ""
+}

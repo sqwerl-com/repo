@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-11T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Search Patterns>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Search Patterns book web site",
+  "path": "/Types/Web Pages/Search Patterns",
+  "recommendations": {
+    "</types/books/Search Analytics for Your Site>": "",
+    "</types/books/Search User Interfaces>": ""
+  },
+  "shortDescription": "",
+  "url": "http://searchpatterns.org"
+}

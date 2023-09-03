@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steven Levy>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Hackers",
+  "path": "/Types/Books/Hackers",
+  "pictures": {
+    "</types/pictures/Hackers Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/The Innovators>": ""
+  },
+  "shortDescription": "",
+  "title": "Hackers: Heroes of the Computer Revolution"
+}

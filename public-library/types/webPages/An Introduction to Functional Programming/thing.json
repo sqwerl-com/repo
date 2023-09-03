@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mary Rose Cook>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "An Introduction to Functional Programming",
+  "path": "/Types/Web Pages/An Introduction to Functional Programming",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/videos/Learning Functional Programming with JavaScript>": ""
+  },
+  "shortDescription": "",
+  "url": "https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming"
+}

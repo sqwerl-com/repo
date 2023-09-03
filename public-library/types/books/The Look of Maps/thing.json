@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Arthur H Robinson>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Look of Maps",
+  "notes": {
+    "</types/notes/The Look of Maps>": ""
+  },
+  "path": "/Types/Books/The Look of Maps",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

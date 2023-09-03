@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Getting Real>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Getting Real book HTML version",
+  "name": "Getting Real",
+  "path": "/Types/Web Pages/Getting Real",
+  "shortDescription": "",
+  "url": "http://gettingreal.37signals.com/toc.php"
+}

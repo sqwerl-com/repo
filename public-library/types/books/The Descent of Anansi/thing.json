@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Larry Niven>",
+    "</types/authors/Steven Barnes>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Descent of Anansi",
+  "path": "/Types/Books/The Descent of Anansi",
+  "pictures": {
+    "</types/pictures/The Descent of Anansi Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

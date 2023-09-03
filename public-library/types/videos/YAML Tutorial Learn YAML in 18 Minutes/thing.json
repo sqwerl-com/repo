@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nana>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/TechWorld with Nana>": ""
+  },
+  "name": "YAML Tutorial: Learn YAML in 18 Minutes",
+  "path": "/Types/Videos/YAML Tutorial: Learn YAML in 18 Minutes",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=1uFVr15xDGg",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

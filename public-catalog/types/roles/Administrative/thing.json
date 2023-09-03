@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "capabilities": {
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "Allows users to perform system administration tasks.",
+  "groups": {
+    "</types/groups/Administrators>": ""
+  },
+  "name": "Administrative",
+  "path": "/Types/Roles/Administrative",
+  "shortDescription": "Role that allows users to perform system administration tasks."
+}

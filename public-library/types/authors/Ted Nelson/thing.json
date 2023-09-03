@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-24T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/Xanadu Basics 1a Visible Connection>": "",
+    "</types/videos/Xanadu Basics 1b Indirect Document Delivery>": "",
+    "</types/videos/Xanadu Basics 1c Parallel Media Parallel Subjects>": "",
+    "</types/videos/Xanadu Basics 1d Reading and Writing Parallel>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ted",
+  "lastName": "Nelson",
+  "middleNameOrInitial": "",
+  "name": "Ted Nelson",
+  "path": "/Types/Authors/Ted Nelson"
+}

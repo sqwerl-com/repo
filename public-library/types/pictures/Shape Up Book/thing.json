@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Shape Up Book",
+  "path": "/Types/Pictures/Shape Up Book",
+  "pictureOf": {
+    "</types/books/Shape Up>": ""
+  },
+  "representations": {
+    "shape_up_book_cover_large.png.lnk.json": "",
+    "shape_up_book_cover_medium.png.lnk.json": "",
+    "shape_up_book_cover_preview.png.lnk.json": "",
+    "shape_up_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

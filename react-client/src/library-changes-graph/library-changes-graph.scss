@@ -1,0 +1,23 @@
+@import "../index.scss";
+
+.sqwerl-library-changes-graph-container {
+  & .visx-axis {
+    & .visx-axis-tick {
+      stroke: var(--graph-label-color);
+
+      & line {
+        stroke: var(--graph-grid-line-color);
+      }
+    }
+  }
+
+  & .visx-bar {
+    fill: var(--graph-bar-fill-color);
+  }
+
+  & .visx-grid {
+    & .visx-line {
+      stroke: var(--graph-grid-line-color);
+    }
+  }
+}

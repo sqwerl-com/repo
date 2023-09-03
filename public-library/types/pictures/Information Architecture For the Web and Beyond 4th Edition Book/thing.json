@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Information Architecture: For the Web and Beyond 4th Edition Book",
+  "path": "/Types/Pictures/Information Architecture For the Web and Beyond 4th Edition Book",
+  "pictureOf": {
+    "</types/books/Information Architecture For the Web and Beyond 4th Edition>": ""
+  },
+  "representations": {
+    "information_architecture_for_the_web_and_beyond_4th_edition_book_cover_large.jpg.lnk.json": "",
+    "information_architecture_for_the_web_and_beyond_4th_edition_book_cover_medium.jpg.lnk.json": "",
+    "information_architecture_for_the_web_and_beyond_4th_edition_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

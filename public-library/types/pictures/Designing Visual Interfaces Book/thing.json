@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing Visual Interfaces Book",
+  "path": "/Types/Pictures/Designing Visual Interfaces Book",
+  "pictureOf": {
+    "</types/books/Designing Visual Interfaces>": ""
+  },
+  "representations": {
+    "designing_visual_interfaces_book_cover_large.jpg.lnk.json": "",
+    "designing_visual_interfaces_book_cover_medium.jpg.lnk.json": "",
+    "designing_visual_interfaces_book_cover_preview.jpg.lnk.json": "",
+    "designing_visual_interfaces_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

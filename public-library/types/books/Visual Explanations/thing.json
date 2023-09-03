@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Edward R Tufte>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": "",
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Visual Explanations",
+  "path": "/Types/Books/Visual Explanations",
+  "pictures": {
+    "</types/pictures/Visual Explanations Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Visual Explanations: Images and Quantities, Evidence and Narrative"
+}

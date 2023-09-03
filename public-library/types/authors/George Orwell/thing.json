@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/1984>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "George",
+  "lastName": "Orwell",
+  "middleNameOrInitial": "",
+  "name": "George Orwell",
+  "path": "/Types/Authors/George Orwell"
+}

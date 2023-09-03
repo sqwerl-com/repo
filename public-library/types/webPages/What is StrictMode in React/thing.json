@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Shubham Khatri>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is StrictMode in React",
+  "path": "/Types/Web Pages/What is StrictMode in React",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://betterprogramming.pub/react-strictmode-is-your-lifeline-for-the-future-1f73064d3bf8"
+}

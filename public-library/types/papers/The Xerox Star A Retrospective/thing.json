@@ -1,0 +1,34 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Johnson>",
+    "</types/authors/Teresa L Roberts>",
+    "</types/authors/William Verplank>",
+    "</types/authors/David C Smith>",
+    "</types/authors/Charles Irby>",
+    "</types/authors/Marian Beard>",
+    "</types/authors/Kevin Mackey>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/The Xerox Star A Retrospective>": ""
+  },
+  "name": "The Xerox 'Star': A Retrospective",
+  "notes": {
+    "</types/notes/The Xerox Star A Retrospective>": ""
+  },
+  "path": "/Types/Papers/The Xerox 'Star': A Retrospective",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/courses/Human Computer Interaction University of Washington>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.digibarn.com/friends/curbow/star/retrospect/"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Unix/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/The Geek Stuff>": ""
+  },
+  "name": "Linux Directory Structure (File System Structure) Explained with Examples",
+  "path": "/Types/Web Pages/Linux Directory Structure (File System Structure) Explained with Examples",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.thegeekstuff.com/2010/09/linux-file-system-structure/"
+}

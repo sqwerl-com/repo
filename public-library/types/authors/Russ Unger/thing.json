@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Project Guide to UX Design>": "",
+    "</types/books/Designing the Conversation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ross",
+  "lastName": "Unger",
+  "middleNameOrInitial": "",
+  "name": "Russ Unger",
+  "path": "/Types/Authors/Russ Unger"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Inbound Marketing Book",
+  "path": "/Types/Pictures/Inbound Marketing Book",
+  "pictureOf": {
+    "</types/books/Inbound Marketing>": ""
+  },
+  "representations": {
+    "inbound_marketing_book_cover_large.png.lnk.json": "",
+    "inbound_marketing_book_cover_medium.png.lnk.json": "",
+    "inbound_marketing_book_cover_preview.png.lnk.json": "",
+    "inbound_marketing_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

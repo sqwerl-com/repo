@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+    tools { nodejs 'NodeJS 18.13.0' }
+    stages {
+        stage('prepare') {
+            steps {
+                sh 'npm install -g yarn'
+            }
+        }
+        stage('build') {
+            steps {
+                sh 'yarn install --network-timeout=100000'
+                sh 'yarn build-css'
+                sh 'yarn build'
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'yarn test-all'
+            }
+            post {
+                always {
+                    step([$class: 'CoberturaPublisher', coberturaReportFile: '**/coverage/clover.xml'])
+                }
+                cleanup {
+                    deleteDir()
+                }
+            }
+        }
+    }
+}

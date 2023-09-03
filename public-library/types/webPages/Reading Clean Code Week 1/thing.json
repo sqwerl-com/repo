@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jacob on Software>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Reading Clean Code: Week 1",
+  "path": "/Types/Web Pages/Reading Clean Code: Week 1",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Clean Code>": ""
+  },
+  "shortDescription": "",
+  "url": "https://levelup.gitconnected.com/reading-clean-code-week-1-a4df2c392e66"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-15T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Cubic-Bezier",
+  "path": "/Types/Web Pages/Cubic-Bezier",
+  "recommendedBy": {
+    "</types/books/Animation at Work>": ""
+  },
+  "shortDescription": "Interactively edit cubic-spline functions that define animations on web pages.",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "url": "http://cubic-bezier.com/"
+}

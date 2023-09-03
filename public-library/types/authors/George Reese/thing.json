@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The REST API Design Handbook>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "George",
+  "lastName": "Reese",
+  "middleNameOrInitial": "",
+  "name": "George Reese",
+  "path": "/Types/Authors/George Reese"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-27T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/History/Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/books/On the Edge>": ""
+  },
+  "name": "The First LowSpec Processor",
+  "path": "/Types/Videos/The First LowSpec Processor",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=lP2ZBp9O0mk",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-09T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Schedule for Intro to Computer Systems course during Fall 2016 at Carnegie Mellon University.",
+  "links": {
+    "</types/courses/Intro to Computer Systems Fall 2016>": ""
+  },
+  "name": "Intro to Computer Systems, Fall 2016",
+  "path": "/Types/Web Pages/Intro to Computer Systems, Fall 2016",
+  "shortDescription": "Schedule for the Intro to Computer Systems, Fall 2016 course",
+  "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html"
+}

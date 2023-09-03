@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-01-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mike Kelly>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Guidelines>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "HAL - Hypertext Application Language",
+  "path": "/Types/Web Pages/HAL - Hypertext Application Language",
+  "recommendedBy": {
+    "</types/webPages/API Best Practices Hypermedia Part 1>": ""
+  },
+  "shortDescription": "",
+  "url": "http://stateless.co/hal_specification.html"
+}

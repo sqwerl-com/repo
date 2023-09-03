@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Dont Make Me Think>": "",
+    "</types/books/Dont Make Me Think Revisited>": "",
+    "</types/books/Forms that Work>": "",
+    "</types/books/Rocket Surgery Made Easy>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Steve",
+  "lastName": "Krug",
+  "middleNameOrInitial": "",
+  "name": "Steve Krug",
+  "path": "/Types/Authors/Steve Krug"
+}

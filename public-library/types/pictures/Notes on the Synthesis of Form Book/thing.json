@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Notes on the Synthesis of Form Book",
+  "path": "/Types/Pictures/Notes on the Synthesis of Form Book",
+  "pictureOf": {
+    "</types/books/Notes on the Synthesis of Form>": ""
+  },
+  "representations": {
+    "notes_on_the_synthesis_of_form_book_cover_large.png.lnk.json": "",
+    "notes_on_the_synthesis_of_form_book_cover_medium.png.lnk.json": "",
+    "notes_on_the_synthesis_of_form_book_cover_preview.png.lnk.json": "",
+    "notes_on_the_synthesis_of_form_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

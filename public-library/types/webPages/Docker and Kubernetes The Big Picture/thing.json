@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-22T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Pluralsight course web page",
+  "links": {
+    "</types/courses/Docker and Kubernetes The Big Picture>": ""
+  },
+  "name": "Docker and Kubernetes: The Big Picture",
+  "path": "/Types/Web Pages/Docker and Kubernetes: The Big Picture",
+  "shortDescription": "Home page for the Pluralsight course.",
+  "tags": {
+    "</types/tags/Docker>": "",
+    "</types/tags/Kubernetes>": ""
+  },
+  "url": "https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/table-of-contents"
+}

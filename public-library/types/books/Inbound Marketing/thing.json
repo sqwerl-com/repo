@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Halligan>",
+    "</types/authors/Dharmesh Shah>"
+  ],
+  "collections": {
+    "</types/collections/Business/Marketing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Inbound Marketing",
+  "notes": {
+    "</types/notes/Inbound Marketing>": ""
+  },
+  "path": "/Types/Books/Inbound Marketing",
+  "pictures": {
+    "</types/pictures/Inbound Marketing Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Jumpstart The Guide to Growing a Startup with Inbound Marketing>": ""
+  },
+  "shortDescription": ""
+}

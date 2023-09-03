@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steve Krug>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Dont Make Me Think Revisited>": ""
+  },
+  "name": "Don't Make Me Think",
+  "path": "/Types/Books/Don't Make Me Think",
+  "pictures": {
+    "</types/pictures/Dont Make Me Think Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Designing for Emotion>": "",
+    "</types/documents/Introduction to Good Usability>": "",
+    "</types/books/Letting Go of the Words>": ""
+  },
+  "shortDescription": ""
+}

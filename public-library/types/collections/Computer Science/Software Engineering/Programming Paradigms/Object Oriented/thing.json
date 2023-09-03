@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-07T00:00:00.00-07:00",
+  "children": {
+    "</types/papers/A Laboratory for Teaching Object Oriented Thinking>": "",
+    "</types/books/Design Patterns>": "",
+    "</types/collections/Computer Science/Database Systems/Object Oriented>": "",
+    "</types/books/Object Oriented Analysis and Design with Applications>": "",
+    "</types/papers/Object Oriented Design Patterns>": "",
+    "</types/documents/Object Oriented JavaScript>": "",
+    "</types/videos/Object Oriented Programming Versus Functional Programming>": "",
+    "</types/books/Object Oriented Software Construction>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Contains things related to an object-oriented programming model where software is composed from classes of objects.",
+  "links": {
+    "</types/collections/Computer Science/Programming Languages/CPlusPlus>": "",
+    "</types/collections/Computer Science/Programming Languages/Java>": "",
+    "</types/collections/Computer Science/Programming Languages/Objective C>": ""
+  },
+  "name": "Object-Oriented",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Programming Paradigms/Object-Oriented",
+  "shortDescription": "Things related to an object-oriented programming model."
+}

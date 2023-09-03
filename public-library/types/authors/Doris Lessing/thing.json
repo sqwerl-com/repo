@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-11-21T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Shikasta>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Doris",
+  "lastName": "Lessing",
+  "middleNameOrInitial": "",
+  "name": "Doris Lessing",
+  "path": "/Types/Authors/Doris Lessing"
+}

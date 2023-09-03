@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related allowing users to sign in (log in) to an application.",
+  "name": "Sign in",
+  "path": "/Types/Tags/Sign in",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/18 UX Design Tips For Registration and Login Forms>": "",
+    "</types/webPages/Sign Up vs Signup>": "",
+    "</types/webPages/UX Login Register and Password The Ultimate Design Guide>": ""
+  },
+  "text": "Sign in"
+}

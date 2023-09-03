@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Rational Unified Process>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Phillipe",
+  "lastName": "Krutche",
+  "middleNameOrInitial": "",
+  "name": "Phillipe Krutche",
+  "path": "/Types/Authors/Phillipe Krutche"
+}

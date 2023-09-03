@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Practical Guide to eXtreme Programming Book",
+  "path": "/Types/Pictures/A Practical Guide to eXtreme Programming Book",
+  "pictureOf": {
+    "</types/books/A Practical Guide to eXtreme Programming>": ""
+  },
+  "representations": {
+    "a_practical_guide_to_extreme_programming_book_cover_large.jpg.lnk.json": "",
+    "a_practical_guide_to_extreme_programming_book_cover_medium.jpg.lnk.json": "",
+    "a_practical_guide_to_extreme_programming_book_cover_preview.jpg.lnk.json": "",
+    "a_practical_guide_to_extreme_programming_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

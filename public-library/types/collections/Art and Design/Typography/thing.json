@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-09T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/A Beautifully Illustrated Glossary of Typographic Terms You Should Know>": "",
+    "</types/webPages/Setting Type for User Interfaces>": "",
+    "</types/books/Thinking with Type>": "",
+    "</types/feeds/Typekit Blog>": "",
+    "</types/webPages/What You Should Know About Web Typography That Will Make You A Better Designer>": ""
+  },
+  "collections": {
+    "</types/collections/Art and Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "The art of arranging letters.",
+  "name": "Typography",
+  "path": "/Types/Collections/Art and Design/Typography",
+  "shortDescription": "Things related to making text readable."
+}

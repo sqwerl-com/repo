@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Unlocking the Power of JunoDB>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/Key Value>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "JunoDB",
+  "path": "/Types/Collections/Computer Science/Database Systems/JunoDB",
+  "shortDescription": "Things related to the JunoDB key-value database management system."
+}

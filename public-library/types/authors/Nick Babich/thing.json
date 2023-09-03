@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/Accessibility for Visual Design>": "",
+    "</types/webPages/Best Practices for Animated Progress Indicators>": "",
+    "</types/webPages/Best Practices for Modal Window Design>": "",
+    "</types/webPages/Best Practices for Onboarding>": "",
+    "</types/webPages/Disabled Buttons in User Interface>": "",
+    "</types/webPages/How Functional Animation Helps Improve User Experience>": "",
+    "</types/webPages/How to Improve Registration and Sign In Process>": "",
+    "</types/webPages/Popular Web Animation Techniques>": "",
+    "</types/webPages/Why Ordinary Design Almost Always Wins>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Nick",
+  "lastName": "Babich",
+  "middleNameOrInitial": "",
+  "name": "Nick Babich",
+  "path": "/Types/Authors/Nick Babich",
+  "pictures": {
+    "</types/pictures/Nick Babich Head Shot>": ""
+  }
+}

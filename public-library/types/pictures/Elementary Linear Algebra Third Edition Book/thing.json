@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-15T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Elementary Linear Algebra Third Edition Book",
+  "path": "/Types/Pictures/Elementary Linear Algebra Third Edition Book",
+  "pictureOf": {
+    "</types/books/Elementary Linear Algebra Third Edition>": ""
+  },
+  "representations": {
+    "elementary_linear_algebra_third_edition_book_cover_large.jpg.lnk.json": "",
+    "elementary_linear_algebra_third_edition_book_cover_medium.jpg.lnk.json": "",
+    "elementary_linear_algebra_third_edition_book_cover_preview.jpg.lnk.json": "",
+    "elementary_linear_algebra_third_edition_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

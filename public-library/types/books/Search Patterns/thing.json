@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Peter Morville>",
+    "</types/authors/Jeffery Callender>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Search>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Search Patterns",
+  "notes": {
+    "</types/notes/Search Patterns>": ""
+  },
+  "path": "/Types/Books/Search Patterns",
+  "pictures": {
+    "</types/pictures/Search Patterns Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Finding Flow>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/search>": ""
+  },
+  "webPages": {
+    "</types/webPages/Search Patterns>": ""
+  }
+}

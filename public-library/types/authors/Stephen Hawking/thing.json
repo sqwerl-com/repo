@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Brief History of Time>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Stephen",
+  "lastName": "Hawking",
+  "middleNameOrInitial": "",
+  "name": "Stephen Hawking",
+  "path": "/Types/Authors/Stephen Hawking"
+}

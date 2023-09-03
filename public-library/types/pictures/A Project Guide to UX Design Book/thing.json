@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Project Guide to UX Design Book",
+  "path": "/Types/Pictures/A Project Guide to UX Design Book",
+  "pictureOf": {
+    "</types/books/A Project Guide to UX Design>": ""
+  },
+  "representations": {
+    "a_project_guide_for_ux_design_book_cover_large.lnk.json": "",
+    "a_project_guide_for_ux_design_book_cover_medium.lnk.json": "",
+    "a_project_guide_for_ux_design_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

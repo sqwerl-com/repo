@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-12-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ben Snyder>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "5 Secrets of Good UI Design from Apple's Human Interface Guidelines",
+  "path": "/Types/Web Pages/5 Secrets of Good UI Design from Apple's Human Interface Guidelines",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://abetteruserexperience.com/2012/09/5-secrets-of-good-ui-design-from-apples-human-interface-guidelines/"
+}

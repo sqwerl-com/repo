@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sam Magura>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why We're Breaking Up with CSS-in-JS",
+  "path": "/Types/Web Pages/Why We're Breaking Up with CSS-in-JS",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b"
+}

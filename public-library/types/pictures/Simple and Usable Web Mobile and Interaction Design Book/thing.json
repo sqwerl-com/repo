@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Simple and Usable Web, Mobile, and Interaction Design Book",
+  "path": "/Types/Pictures/Simple and Usable Web Mobile and Interaction Design Book",
+  "pictureOf": {
+    "</types/books/Simple and Usable Web Mobile and Interaction Design>": ""
+  },
+  "representations": {
+    "simple_and_usable_web_mobile_and_interaction_design_book_cover_large.png.lnk.json": "",
+    "simple_and_usable_web_mobile_and_interaction_design_book_cover_medium.png.lnk.json": "",
+    "simple_and_usable_web_mobile_and_interaction_design_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

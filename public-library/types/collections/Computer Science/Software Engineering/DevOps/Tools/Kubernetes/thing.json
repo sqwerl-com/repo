@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-14T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/I Built a Raspberry Pi Super Computer>": "",
+    "</types/webPages/Interactive Tutorial Creating a Cluster>": "",
+    "</types/webPages/K3S Home Page>": "",
+    "</types/webPages/Kubernetes Architecture Overview>": "",
+    "</types/webPages/Kubernetes Ingress Overview>": "",
+    "</types/books/The Kubernetes Book>": "",
+    "</types/webPages/What is Kubernetes and How to Use It>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Kubernetes",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps/Tools/Kubernetes",
+  "shortDescription": "Things related to the Kubernetes tool for container orchestration.",
+  "tags": {
+    "</types/tags/Kubernetes>": ""
+  }
+}

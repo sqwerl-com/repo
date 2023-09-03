@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-06-27T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/High Performance Browser Networking>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ilya",
+  "lastName": "Grigorik",
+  "middleNameOrInitial": "",
+  "name": "Ilya Grigorik",
+  "path": "/Types/Authors/Ilya Grigorik"
+}

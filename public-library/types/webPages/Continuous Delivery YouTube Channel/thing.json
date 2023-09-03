@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David Farley>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Delivery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/videos/How to Be a Full Stack Developer in 2022>": "",
+    "</types/videos/The Problem with Microservices>": ""
+  },
+  "name": "Continuous Delivery YouTube Channel",
+  "path": "/Types/Web Pages/Continuous Delivery YouTube Channel",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Continuous delivery>": ""
+  },
+  "url": "https://www.youtube.com/c/ContinuousDelivery"
+}

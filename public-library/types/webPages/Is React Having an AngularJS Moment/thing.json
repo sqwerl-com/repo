@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Francois Zaninotto>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Is React Having an Angular.js Moment?",
+  "path": "/Types/Web Pages/Is React Having an Angular.js Moment?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/videos/React from Another Dimension>": ""
+  },
+  "shortDescription": "",
+  "url": "https://marmelab.com/blog/2023/06/05/react-angularjs-moment.html"
+}

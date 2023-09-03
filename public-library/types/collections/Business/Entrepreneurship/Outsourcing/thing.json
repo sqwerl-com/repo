@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Elance>": "",
+    "</types/webPages/Guru>": "",
+    "</types/webPages/Upwork>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Outsourcing",
+  "path": "/Types/Collections/Business/Entrepreneurship/Outsourcing",
+  "shortDescription": "Things related to contracting out work."
+}

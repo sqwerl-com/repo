@@ -1,0 +1,10 @@
+{
+  "applicationName": "test",
+  "catalogLibraryName": "public-catalog",
+  "catalogLibraryPath": "./types",
+  "clientSourcePath": "../../sqwerl-sproutcore-client/client/builds",
+  "defaultLibraryName": "public-library",
+  "defaultLibraryPath": "../../public-library/workspace/types",
+  "representations": "../../tcarroll-docs/workspace",
+  "signUpConfiguration": "./test-sign-up-configuration.json"
+}

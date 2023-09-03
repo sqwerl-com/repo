@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-09-17T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/RisingStack Engineering>": ""
+  },
+  "name": "NodeJS Best Practices - RisingStack Engineering",
+  "path": "/Types/Web Pages/NodeJS Best Practices - RisingStack Engineering",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/RisingStack NodeJS Style Guide>": ""
+  },
+  "shortDescription": "",
+  "url": "http://blog.risingstack.com/node-js-best-practices/"
+}

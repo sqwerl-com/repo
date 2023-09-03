@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mike Bostock>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Better Way to Code",
+  "path": "/Types/Web Pages/A Better Way to Code",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "title": "A Better Way to Code: Introducing d3.express: the integrated discovery environment",
+  "url": "https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0"
+}

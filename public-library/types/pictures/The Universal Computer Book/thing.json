@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Universal Computer Book",
+  "path": "/Types/Pictures/The Universal Computer Book",
+  "pictureOf": {
+    "</types/books/The Universal Computer>": ""
+  },
+  "representations": {
+    "the_universal_computer_book_cover_large.jpg.lnk.json": "",
+    "the_universal_computer_book_cover_medium.jpg.lnk.json": "",
+    "the_universal_computer_book_cover_preview.jpg.lnk.json": "",
+    "the_universal_computer_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

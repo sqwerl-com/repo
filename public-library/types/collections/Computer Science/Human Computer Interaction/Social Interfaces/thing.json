@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/A Group Is Its Own Worst Enemy>": "",
+    "</types/feeds/bokardo>": "",
+    "</types/books/Designing for the Social Web>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Social Interfaces",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Social Interfaces",
+  "shortDescription": "Things regarding user interfaces for social systems."
+}

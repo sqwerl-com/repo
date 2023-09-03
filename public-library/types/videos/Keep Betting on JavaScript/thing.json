@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Simpson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Keep Betting on JavaScript",
+  "path": "/Types/Videos/Keep Betting on JavaScript",
+  "recommendations": {
+    "</types/webPages/Compilers are the New Frameworks>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=lDLQA6lQSFg",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

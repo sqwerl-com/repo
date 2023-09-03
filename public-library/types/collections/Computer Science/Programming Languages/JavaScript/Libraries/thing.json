@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-10-17T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization>": "",
+    "</types/papers/DOPPIO Breaking the Browser Language Barrier>": "",
+    "</types/webPages/ImmutableJS>": "",
+    "</types/videos/JavaScript Framework Face Off>": "",
+    "</types/webPages/Journey Through the JavaScript MVC Jungle>": "",
+    "</types/webPages/MailCheck>": "",
+    "</types/webPages/Momentjs>": "",
+    "</types/webPages/Mori>": "",
+    "</types/webPages/Numeraljs>": "",
+    "</types/webPages/RambdaJS>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/RxJS>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Search>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Testing>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Libraries",
+  "path": "/Types/Collections/Computer Science/Programming Languages/JavaScript/Libraries",
+  "shortDescription": "Libraries of reusable JavaScript code."
+}
+

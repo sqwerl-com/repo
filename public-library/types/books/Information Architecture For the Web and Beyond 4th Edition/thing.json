@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Louis Rosenfeld>",
+    "</types/authors/Peter Morville>",
+    "</types/authors/Jorge Arango>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Information Architecture: For the Web and Beyond (4th Edition)",
+  "path": "/Types/Books/Information Architecture: For the Web and Beyond (4th Edition)",
+  "pictures": {
+    "</types/pictures/Information Architecture For the Web and Beyond 4th Edition Book>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/The Complete Beginners Guide to Information Architecture>": "",
+    "</types/videos/The Founder and Publisher of Rosenfeld Media Lou Rosenfeld>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Information architecture>": ""
+  }
+}

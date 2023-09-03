@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Sapiens: A Brief History of Humankind Book",
+  "path": "/Types/Pictures/Sapiens A Brief History of Humankind Book",
+  "pictureOf": {
+    "</types/books/Sapiens A Brief History of Humankind>": ""
+  },
+  "representations": {
+    "sapiens_a_brief_history_of_humankind_book_cover_large.jpg.lnk.json": "",
+    "sapiens_a_brief_history_of_humankind_book_cover_medium.jpg.lnk.json": "",
+    "sapiens_a_brief_history_of_humankind_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

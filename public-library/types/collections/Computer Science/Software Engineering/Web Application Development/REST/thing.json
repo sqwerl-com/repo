@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/API Best Practices Hypermedia Part 1>": "",
+    "</types/webPages/API Best Practices Hypermedia Part 2>": "",
+    "</types/webPages/API Best Practices Hypermedia Part 3>": "",
+    "</types/papers/Architectural Styles and the Design of Network Based Software Architectures>": "",
+    "</types/webPages/Designing a Beautiful REST JSON API>": "",
+    "</types/webPages/On Choosing a Hypermedia Type for Your API>": "",
+    "</types/videos/REST Plus JSON Design Best Practices for Developers>": "",
+    "</types/documents/REST Foundations of RESTful Architecture>": "",
+    "</types/books/The REST API Design Handbook>": "",
+    "</types/webPages/Versioning REST Services>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the Representational State Transfer (REST) software architectural pattern for distributed hypermedia applications.",
+  "name": "REST",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/REST",
+  "shortDescription": ""
+}

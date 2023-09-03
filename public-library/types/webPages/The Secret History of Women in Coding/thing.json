@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Clive Thompson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/articles/The Secret History of Women in Coding>": ""
+  },
+  "name": "The Secret History of Women in Coding",
+  "path": "/Types/Web Pages/The Secret History of Women in Coding",
+  "pictures": {
+    "</types/pictures/The Secret History of Women in Coding>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html"
+}

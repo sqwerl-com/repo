@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-10-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Dream Machine>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "M",
+  "lastName": "Waldrop",
+  "middleNameOrInitial": "Mitchell",
+  "name": "M. Mitchell Waldrop",
+  "path": "/Types/Authors/M. Mitchell Waldrop"
+}

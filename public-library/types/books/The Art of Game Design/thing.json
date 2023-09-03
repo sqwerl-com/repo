@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jesse Schell>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Art of Game Design",
+  "path": "/Types/Books/The Art of Game Design",
+  "pictures": {
+    "</types/pictures/The Art of Game Design Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Microinteractions>": ""
+  },
+  "shortDescription": "",
+  "title": "The Art of Game Design: A Book of Lenses, Second Edition"
+}

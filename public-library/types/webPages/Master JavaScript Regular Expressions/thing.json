@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-10-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ian Elliot>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/I Programmer>": ""
+  },
+  "name": "Master JavaScript Regular Expressions",
+  "path": "/Types/Web Pages/Master JavaScript Regular Expressions",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/regular expressions>": ""
+  },
+  "url": "http://www.i-programmer.info/programming/javascript/4862-master-javascript-regular-expressions.html"
+}

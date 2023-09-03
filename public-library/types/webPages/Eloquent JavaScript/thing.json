@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-17T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Eloquent JavaScript>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Eloquent JavaScript",
+  "path": "/Types/Web Pages/Eloquent JavaScript",
+  "shortDescription": "Web page for the book 'Eloquent JavaScript: A Modern Introduction to Programming",
+  "url": "http://eloquentjavascript.net"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-18T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Don't Make Me Think Book",
+  "path": "/Types/Pictures/Don't Make Me Think Book",
+  "pictureOf": {
+    "</types/books/Dont Make Me Think>": ""
+  },
+  "representations": {
+    "dont_make_me_think_book_cover_large.lnk.json": "",
+    "dont_make_me_think_book_cover_medium.lnk.json": "",
+    "dont_make_me_think_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

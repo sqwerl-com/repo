@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "sed & awk: Second Edition",
+  "path": "/Types/Pictures/sed & awk: Second Edition Book",
+  "pictureOf": {
+    "</types/books/SED and AWK Second Edition>": ""
+  },
+  "representations": {
+    "sed_and_awk_second_edition_book_cover_large.png.lnk.json": "",
+    "sed_and_awk_second_edition_book_cover_medium.png.lnk.json": "",
+    "sed_and_awk_second_edition_book_cover_preview.png.lnk.json": "",
+    "sed_and_awk_second_edition_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Peter Vogel>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Mobile Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Myth of Responsive Design",
+  "notes": {
+    "</types/notes/The Myth of Responsive Design>": ""
+  },
+  "path": "/Types/Web Pages/The Myth of Responsive Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Responsive design>": ""
+  },
+  "url": "http://visualstudiomagazine.com/articles/2014/11/01/responsive-design.aspx"
+}

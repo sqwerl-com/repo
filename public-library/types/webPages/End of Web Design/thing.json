@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jakob Nielsen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "End of Web Design",
+  "path": "/Types/Web Pages/End of Web Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Laws of UX>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.nngroup.com/articles/end-of-web-design/"
+}

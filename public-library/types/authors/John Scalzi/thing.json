@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Collapsing Empire>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "John",
+  "lastName": "Scalzi",
+  "middleNameOrInitial": "",
+  "name": "John Scalzi",
+  "path": "/Types/Authors/John Scalzi"
+}

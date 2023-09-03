@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-04-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tom DeMarco>",
+    "</types/authors/Timothy Lister>"
+  ],
+  "collections": {
+    "</types/collections/Business/Career Management>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Peopleware",
+  "notes": {
+    "</types/notes/Peopleware>": ""
+  },
+  "path": "/Types/Books/Peopleware",
+  "pictures": {
+    "</types/pictures/Peopleware Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Peopleware: Productive Projects and Teams Second Edition"
+}

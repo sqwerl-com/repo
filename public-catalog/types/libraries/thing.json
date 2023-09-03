@@ -1,0 +1,12 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2013-02-08T00:00:00.00-07:00",
+  "children": {
+    "</types/libraries/catalog>": "",
+    "</types/libraries/Main>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "name": "Libraries",
+  "path": "/Types/Libraries",
+  "shortDescription": "Places where people store information about things."
+}

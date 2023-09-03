@@ -1,0 +1,31 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Erik D Kennedy>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/General>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/7 Rules for Creating Gorgeous UI Part 1>": ""
+  },
+  "name": "7 Rules for Creating Gorgeous UI (Part 2)",
+  "notes": {
+    "</types/notes/7 Rules for Creating Gorgeous UI Part 2>": ""
+  },
+  "path": "/Types/Web Pages/7 Rules for Creating Gorgeous UI (Part 2)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Adobe Typekit>": "",
+    "</types/webPages/Dribbble>": "",
+    "</types/webPages/FontSquirrel>": ""
+  },
+  "shortDescription": "",
+  "title": "7 Rules for Creating Gorgeous UI (Part 2): A Guide to Visual Aesthetics, Written by a Nerd",
+  "url": "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96"
+}

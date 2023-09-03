@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-22T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Install Prometheus on Kubernetes Tutorials and Examples>": "",
+    "</types/webPages/Prometheus and Grafana>": "",
+    "</types/webPages/Prometheus Operator Guide>": "",
+    "</types/webPages/Prometheus vs Thanos>": "",
+    "</types/webPages/Prometheus io>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Prometheus",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps/Tools/Prometheus",
+  "shortDescription": "Things related to the Prometheus monitoring tool."
+}

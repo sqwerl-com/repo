@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-05-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Claire Maynard>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Advanced Git Log",
+  "path": "/Types/Web Pages/Advanced Git Log",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dzone.com/articles/advanced-git-log"
+}

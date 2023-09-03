@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-08T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the service worker API that allows web applications to fetch data asynchronously.",
+  "name": "Service workers",
+  "path": "/Types/Tags/Service workers",
+  "shortDescription": "Things related to the web service worker API.",
+  "tagged": {
+    "</types/books/Going Offline>": ""
+  },
+  "text": "Service workers"
+}

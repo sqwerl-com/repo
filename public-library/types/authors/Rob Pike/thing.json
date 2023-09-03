@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-30T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/Go at Google>": "",
+    "</types/videos/The Go Programming Language>": "",
+    "</types/videos/The History of UNIX Rob Pike>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Rob",
+  "lastName": "Pike",
+  "middleNameOrInitial": "",
+  "name": "Rob Pike",
+  "path": "/Types/Authors/Rob Pike"
+}

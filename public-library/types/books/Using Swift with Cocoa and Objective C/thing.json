@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Apple Inc>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Objective C>": "",
+    "</types/collections/Computer Science/Programming Languages/Swift>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Using Swift with Cocoa and Objective-C",
+  "path": "/Types/Books/Using Swift with Cocoa and Objective-C",
+  "shortDescription": "",
+  "title": "Using Swift with Cocoa and Objective-C: Book 2, Swift Programming Series"
+}

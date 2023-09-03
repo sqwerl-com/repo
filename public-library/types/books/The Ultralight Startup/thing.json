@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jason L Baptiste>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Ultralight Startup",
+  "notes": {
+    "</types/notes/The Ultralight Startup>": ""
+  },
+  "path": "/Types/Books/The Ultralight Startup",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Ultralight Startup: Launching a Business Without Clout or Capital"
+}

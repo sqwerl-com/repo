@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Lee Robinson>",
+    "</types/authors/Rich Harris>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Svelte>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Future of Svelte: An Interview with Rich Harris",
+  "path": "/Types/Videos/The Future of Svelte: An Interview with Rich Harris",
+  "shortDescription": "",
+  "url": "https://vercel.com/blog/the-future-of-svelte-an-interview-with-rich-harris",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

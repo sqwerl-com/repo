@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joe Zim>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://www.joezimjs.com/feed/",
+  "items": {
+    "</types/webPages/JavaScript Unit Testing with Jasmine Part 1>": ""
+  },
+  "name": "Joe Zim's JavaScript Blog",
+  "path": "/Types/Feeds/Joe Zim's JavaScript Blog",
+  "shortDescription": ""
+}
+

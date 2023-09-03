@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-02T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "User Centered System Design Book",
+  "path": "/Types/Pictures/User Centered System Design Book",
+  "pictureOf": {
+    "</types/books/User Centered System Design>": ""
+  },
+  "representations": {
+    "user_centered_system_design.jpg.lnk.json": "",
+    "user_centered_system_design_preview.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

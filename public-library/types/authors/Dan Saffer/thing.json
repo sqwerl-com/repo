@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-28T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Designing for Interaction>": "",
+    "</types/books/Microinteractions>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Dan",
+  "lastName": "Saffer",
+  "middleNameOrInitial": "",
+  "name": "Dan Saffer",
+  "path": "/Types/Authors/Dan Saffer"
+}

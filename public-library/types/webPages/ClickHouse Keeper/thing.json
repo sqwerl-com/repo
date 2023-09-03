@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-06-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Pradeep Chhetri>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/OLAP/ClickHouse>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Cupper>": ""
+  },
+  "name": "ClickHouse Keeper",
+  "path": "/Types/Web Pages/ClickHouse Keeper",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ClickHouse>": ""
+  },
+  "url": "https://pradeepchhetri.xyz/clickhousekeeper/"
+}

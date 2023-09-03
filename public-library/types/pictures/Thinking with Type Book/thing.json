@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Thinking with Type Book",
+  "path": "/Types/Pictures/Thinking with Type Book",
+  "pictureOf": {
+    "</types/books/Thinking with Type>": ""
+  },
+  "representations": {
+    "thinking_with_type_book_cover_large.jpg.lnk.json": "",
+    "thinking_with_type_book_cover_medium.jpg.lnk.json": "",
+    "thinking_with_type_book_cover_preview.jpg.lnk.json": "",
+    "thinking_with_type_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

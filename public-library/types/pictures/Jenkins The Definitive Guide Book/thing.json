@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Jenkins: The Definitive Guide Book",
+  "path": "</types/pictures/Jenkins The Definitive Guide Book>",
+  "pictureOf": {
+    "</types/books/Jenkins The Definitive Guide>": ""
+  },
+  "representations": {
+    "jenkins_the_definitive_guide_book_cover_large.png.lnk.json": "",
+    "jenkins_the_definitive_guide_book_cover_medium.png.lnk.json": "",
+    "jenkins_the_definitive_guide_book_cover_preview.png.lnk.json": "",
+    "jenkins_the_definitive_guide_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

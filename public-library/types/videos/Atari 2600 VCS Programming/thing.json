@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steve Bagley>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/books/Racing the Beam>": ""
+  },
+  "name": "Atari 2600 VCS Programming",
+  "path": "/Types/Videos/Atari 2600 VCS Programming",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=fce39nQm9TY",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kamran Ahmed>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Journey to HTTP/2",
+  "path": "/Types/Web Pages/Journey to HTTP/2",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/How to Become a Pro Front End Developer>": ""
+  },
+  "shortDescription": "",
+  "url": "https://kamranahmed.info/blog/2016/08/13/http-in-depth"
+}

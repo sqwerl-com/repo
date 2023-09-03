@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Death Is a Lonely Business>": "",
+    "</types/books/Fahrenheit 451>": "",
+    "</types/books/The Martian Chronicles>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ray",
+  "lastName": "Bradbury",
+  "middleNameOrInitial": "",
+  "name": "Ray Bradbury",
+  "path": "/Types/Authors/Ray Bradbury"
+}

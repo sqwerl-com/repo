@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Gabriel Peal>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Mobile Application Development/Frameworks/React Native>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/React Native at Airbnb>": "",
+    "</types/webPages/React Native at Airbnb The Technology>": "",
+    "</types/webPages/Sunsetting React Native>": "",
+    "</types/webPages/Whats Next for Mobile at Airbnb>": ""
+  },
+  "name": "Building a Cross-Platform Mobile Team",
+  "path": "/Types/Web Pages/Building a Cross-Platform Mobile Team",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "url": "https://medium.com/airbnb-engineering/building-a-cross-platform-mobile-team-3e1837b40a88"
+}

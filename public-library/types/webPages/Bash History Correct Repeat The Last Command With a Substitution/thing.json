@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-08-14T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/nixCraft>": ""
+  },
+  "name": "Bash History: Correct Repeat the Last Command With a Substitution",
+  "path": "/Types/Web Pages/Bash History: Correct Repeat the Last Command With a Substitution",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.cyberciti.biz/faq/bash-history-repeat-substitution-command-syntax/"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-23T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for MobX: A JavaScript library for implementing reactive data models.",
+  "name": "MobX Home Page",
+  "path": "/Types/Web Pages/MobX Home Page",
+  "shortDescription": "The MobX project's home page",
+  "tags": {
+    "</types/tags/MobX>": ""
+  },
+  "url": "https://mobx.js.org/"
+}

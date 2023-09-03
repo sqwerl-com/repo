@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nadieh Bremer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/SVG>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "SVG Beyond Mere Shapes",
+  "path": "/Types/Videos/SVG Beyond Mere Shapes",
+  "recommendedBy": {
+    "</types/webPages/SVGs Beyond Mere Shapes>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=AwlA3SaChHE&feature=youtu.be"
+}

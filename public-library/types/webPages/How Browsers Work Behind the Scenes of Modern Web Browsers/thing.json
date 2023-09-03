@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tali Garsiel>",
+    "</types/authors/Paul Irish>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How Browsers Work",
+  "path": "/Types/Web Pages/How Browsers Work",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/How to Become a Pro Front End Developer>": ""
+  },
+  "shortDescription": "",
+  "title": "How Browsers Work: Behind the Scenes of Modern Web Browsers",
+  "url": "http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert C Martin>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Agile Software Development: Principles, Patterns, and Practices",
+  "path": "/Types/Books/Agile Software Development: Principles, Patterns, and Practices",
+  "pictures": {
+    "</types/pictures/Agile Software Development Principles Patterns and Practices Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Clean Code>": ""
+  }
+}

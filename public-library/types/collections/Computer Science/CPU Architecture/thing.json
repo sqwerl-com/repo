@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-11T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/ARMv9 What is the Big Deal>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "CPU Architecture",
+  "path": "/Types/Collections/Computer Science/CPU Architecture",
+  "shortDescription": "Things related to architectures of computers' central processing units (CPUs)."
+}

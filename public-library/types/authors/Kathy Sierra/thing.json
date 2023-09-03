@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-11-29T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Badass Making Users Awesome>": "",
+    "</types/videos/Making Badass Developers>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Kathy",
+  "lastName": "Sierra",
+  "middleNameOrInitial": "",
+  "name": "Kathy Sierra",
+  "path": "/Types/Authors/Kathy Sierra"
+}

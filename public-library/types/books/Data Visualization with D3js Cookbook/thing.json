@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-03-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nick Qi Zhu>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Data Visualization with D3.js Cookbook",
+  "notes": {
+    "</types/notes/Data Visualization with D3js Cookbook>": ""
+  },
+  "path": "/Types/Books/Data Visualization with D3.js Cookbook",
+  "pictures": {
+    "</types/pictures/Data Visualization with D3js Cookbook Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  }
+}

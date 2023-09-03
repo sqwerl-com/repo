@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-08T00:00:00.00-07:00",
+  "attending": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/RxJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Yakov Fain>": ""
+  },
+  "name": "RxJS Essentials: Bring Reactive Programming to Your JavaScript Apps",
+  "path": "/Types/Courses/RxJS Essentials",
+  "shortDescription": "Online course on how to use the RxJS library for asynchronous JavaScript programming."
+}

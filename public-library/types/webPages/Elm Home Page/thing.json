@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-07-28T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Elm>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Elm Home Page",
+  "path": "/Types/Web Pages/Elm Home Page",
+  "recommendedBy": {
+    "</types/webPages/Functional JS 1 Introduction>": ""
+  },
+  "shortDescription": "",
+  "url": "https://elm-lang.org/"
+}

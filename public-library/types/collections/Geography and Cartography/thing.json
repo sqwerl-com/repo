@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Cartography Comparison Google Maps and Apple Maps>": "",
+    "</types/webPages/What Happened to Google Maps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Geography and Cartography",
+  "path": "/Types/Collections/Geography and Cartography",
+  "shortDescription": "Things related to the study of the Earth."
+}

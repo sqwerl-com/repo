@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-20T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/3 Years of Puppet Config Management>": "",
+    "</types/documents/Learn Puppet>": "",
+    "</types/books/Learning Puppet 4>": "",
+    "</types/courses/Puppet 4 Language Essentials>": "",
+    "</types/webPages/Puppet 4 Language Essentials>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Puppet",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps/Tools/Puppet",
+  "shortDescription": "Things related to the Puppet DevOps tool."
+}

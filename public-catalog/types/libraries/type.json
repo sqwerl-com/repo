@@ -1,0 +1,47 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "Named collections of things.",
+  "extends": "</types>",
+  "name": "Libraries",
+  "path": "/Types/Libraries",
+  "properties": {
+    "description": {
+      "description": "Text that describes a library of things.",
+      "name": "Description",
+      "shortDescription": "A library's description.",
+      "type": "text"
+    },
+    "name": {
+      "description": "A library's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A library's name.",
+      "type": "text"
+    },
+    "recentChanges": {
+      "computed": true,
+      "description": "Things within a library that have recently been changed, added, or removed.",
+      "name": "Recent changes",
+      "required": false,
+      "shortDescription": "Recent changes to a library's things.",
+      "type": "object"
+    },
+    "thingCount": {
+      "computed": true,
+      "description": "The number of things a library contains.",
+      "name": "Thing count",
+      "required": true,
+      "shortDescription": "Number of things",
+      "type": "integer"
+    }
+  },
+  "shortDescription": "Libraries of things.",
+  "singularName": "Library"
+}

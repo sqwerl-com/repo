@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-02T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Information architecture",
+  "path": "/Types/Tags/Information architecture",
+  "shortDescription": "",
+  "tagged": {
+    "</types/videos/Explaining Information Architecture>": "",
+    "</types/books/How to Make Sense of Any Mess>": "",
+    "</types/books/Information Architecture For the Web and Beyond 4th Edition>": "",
+    "</types/webPages/The Complete Beginners Guide to Information Architecture>": ""
+  },
+  "text": "Information architecture"
+}

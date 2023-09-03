@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-10-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Validating email addresses",
+  "path": "/Types/Tags/Validating email addresses",
+  "shortDescription": "",
+  "tagged": {
+    "</types/videos/How to Reduce Email Input Errors>": "",
+    "</types/webPages/MailCheck>": ""
+  },
+  "text": "Validating email addresses"
+}

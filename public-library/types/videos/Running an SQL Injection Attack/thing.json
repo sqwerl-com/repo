@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mike Pound>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Running an SQL Injection Attack",
+  "path": "/Types/Videos/Running an SQL Injection Attack",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=ciNHn38EyRc",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

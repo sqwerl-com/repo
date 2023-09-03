@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-05T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "DS18B20 Temperature Sensor With Python (Raspberry Pi)",
+  "path": "/Types/Web Pages/DS18B20 Temperature Sensor With Python (Raspberry Pi)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://bigl.es/ds18b20-temperature-sensor-with-python-raspberry-pi/"
+}

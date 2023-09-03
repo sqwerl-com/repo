@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kate Meyer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Aesthetic-Usability Effect",
+  "notes": {
+    "</types/notes/The Aesthetic Usability Effect>": ""
+  },
+  "path": "/Types/Web Pages/The Aesthetic-Usability Effect",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/Apparent usability vs inherent usability experimental analysis on the determinants of the apparent usability>": "",
+    "</types/books/Emotional Design>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.nngroup.com/articles/aesthetic-usability-effect/"
+}

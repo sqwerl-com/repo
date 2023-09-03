@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kate Rutter>",
+    "</types/authors/Laura Klein>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/feeds/Users Know>": ""
+  },
+  "listeners": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "name": "Stop Arguing With Feedback",
+  "path": "/Types/Podcasts/Stop Arguing With Feedback",
+  "shortDescription": ""
+}

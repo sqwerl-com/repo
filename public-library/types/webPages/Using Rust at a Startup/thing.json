@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Matt Welsh>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Rust>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Using Rust at a Startup: A Cautionary Tale",
+  "path": "/Types/Web Pages/Using Rust at a Startup: A Cautionary Tale",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://mdwdotla.medium.com/using-rust-at-a-startup-a-cautionary-tale-42ab823d9454"
+}

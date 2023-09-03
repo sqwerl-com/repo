@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeremy Keith>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Going Offline",
+  "path": "/Types/Books/Going Offline",
+  "pictures": {
+    "</types/pictures/Going Offline Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Service workers>": ""
+  },
+  "title": "Going Offline"
+}

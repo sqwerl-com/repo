@@ -1,0 +1,93 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Collections of tasks that must be completed in order to achieve a goal.",
+  "extends": "</types/collections>",
+  "facets": {
+    "</types/facets/collectable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/taggable>": ""
+  },
+  "name": "Projects",
+  "path": "/Types/Collections/Projects",
+  "properties": {
+    "actions": {
+      "type": [
+        {
+          "completed": {
+            "description": "",
+            "shortDescription": "",
+            "type": "timestamp"
+          },
+          "description": {
+            "description": "",
+            "shortDescription": "",
+            "type": "text"
+          },
+          "links": {
+            "description": "Links to things related to a project.",
+            "inverse": "links",
+            "name": "Links",
+            "required": false,
+            "shortDescription": "Links to related things.",
+            "sortedBy": [
+              "name"
+            ],
+            "type": {
+              "</type>": ""
+            }
+          },
+          "name": {
+            "description": "",
+            "shortDescription": "",
+            "type": "text"
+          }
+        }
+      ]
+    },
+    "collections": {
+      "description": "The collections of things a project belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "links": {
+      "description": "",
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "name": {
+      "description": "A project's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A project's name.",
+      "type": "text"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a project.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    }
+  },
+  "shortDescription": "Tasks that must be completed in order to reach a goal.",
+  "singularName": "Project"
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Martin Davis>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Universal Computer",
+  "path": "/Types/Books/The Universal Computer",
+  "pictures": {
+    "</types/pictures/The Universal Computer Book>": ""
+  },
+  "shortDescription": "",
+  "title": "The Universal Computer: The Road from Liebniz to Turing"
+}

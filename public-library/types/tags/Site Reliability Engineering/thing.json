@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-05T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to applying software engineering principles to infrastructure and operations.",
+  "name": "Site Reliability Engineering",
+  "path": "/Types/Tags/Site Reliability Engineering",
+  "shortDescription": "",
+  "tagged": {
+    "</types/books/Site Reliability Engineering>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Site Reliability Engineering>": "",
+    "</types/webPages/What is a Site Reliability Engineer Should You Become One>": ""
+  },
+  "text": "Site Reliability Engineering"
+}

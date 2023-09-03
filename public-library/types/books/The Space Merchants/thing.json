@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Frederik Pohl>",
+    "</types/authors/C M Kornbluth>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Space Merchants",
+  "path": "/Types/Books/The Space Merchants",
+  "pictures": {
+    "</types/pictures/The Space Merchants Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-09-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Harold Abelson>",
+    "</types/authors/Gerald Jay Sussman>",
+    "</types/authors/Julie Sussman>"
+  ],
+  "books": {
+    "</types/books/Structure and Interpretation of Computer Programs>": ""
+  },
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Structure and Interpretation of Computer Programs",
+  "path": "/Types/Web Pages/Structure and Interpretation of Computer Programs",
+  "shortDescription": "",
+  "url": "https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html"
+}

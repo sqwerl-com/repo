@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sathish Kumar N>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/React Best Practices in 2023 Part 2 Folder Structure>": ""
+  },
+  "name": "React Best Practices in 2023: Part 1: Naming Conventions - The Foundation of Clean Code",
+  "path": "/Types/Web Pages/React Best Practices in 2023: Part 1: Naming Conventions - The Foundation of Clean Code",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dev.to/sathishskdev/part-1-naming-conventions-the-foundation-of-clean-code-51ng"
+}

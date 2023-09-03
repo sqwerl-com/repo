@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alex Vasilyev>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Dealing with Node.js High CPU in Production",
+  "path": "/Types/Web Pages/Dealing with Node.js High CPU in Production",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/NodeJS>": ""
+  },
+  "url": "https://medium.com/geekculture/dealing-with-node-js-high-cpu-in-production-71c432d8bece"
+}

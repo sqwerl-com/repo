@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Agile Software Development Principles Patterns and Practices>": "",
+    "</types/books/Clean Architecture>": "",
+    "</types/books/Clean Code>": "",
+    "</types/documents/Design Principles and Design Patterns>": "",
+    "</types/webPages/Is Dr Calvin in the Room>": "",
+    "</types/webPages/Make the Magic go away>": "",
+    "</types/books/The Clean Coder>": "",
+    "</types/videos/Uncle Bob Martin The Future of Programming>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Robert",
+  "lastName": "Martin",
+  "links": {
+    "</types/feeds/The Clean Code Blog>": ""
+  },
+  "middleNameOrInitial": "C",
+  "name": "Robert C. Martin",
+  "path": "/Types/Authors/Robert C. Martin"
+}

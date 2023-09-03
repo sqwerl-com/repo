@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Paolo Bacigalupi>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Windup Girl",
+  "path": "/Types/Books/The Windup Girl",
+  "pictures": {
+    "</types/pictures/The Windup Girl Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Determining the Greatest Science Fiction and Fantasy Novels Since 1970>": ""
+  },
+  "shortDescription": "",
+  "title": "The Windup Girl"
+}

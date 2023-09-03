@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-01-24T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for FBT - Facebook's translation framework.",
+  "name": "FBT",
+  "path": "/Types/Web Pages/FBT",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Internationalization>": ""
+  },
+  "url": "https://facebookincubator.github.io/fbt/"
+}

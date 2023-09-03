@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jakob Nielsen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Search>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Search: Visible and Simple",
+  "notes": {
+    "</types/notes/Search Visible and Simple>": ""
+  },
+  "path": "/Types/Web Pages/Search: Visible and Simple",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Getting the Search Pattern Right>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/search>": ""
+  },
+  "url": "https://www.nngroup.com/articles/search-visible-and-simple/"
+}

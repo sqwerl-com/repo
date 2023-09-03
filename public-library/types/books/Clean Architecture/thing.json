@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert C Martin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Clean Code>": ""
+  },
+  "name": "Clean Architecture",
+  "path": "/Types/Books/Clean Architecture",
+  "pictures": {
+    "</types/pictures/Clean Architecture Book>": ""
+  },
+  "shortDescription": "",
+  "title": "Clean Architecture: A Craftman's Guide to Software Structure and Design"
+}

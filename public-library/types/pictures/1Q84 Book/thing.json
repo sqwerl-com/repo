@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-11-22T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "1Q84 Book",
+  "path": "/Types/Pictures/1Q84 Book",
+  "pictureOf": {
+    "</types/books/1Q84>": ""
+  },
+  "representations": {
+    "1q84_book_large.jpg.lnk.json": "",
+    "1q84_book_medium.jpg.lnk.json": "",
+    "1q84_book_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-30T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Practical Guide to Designing for the Web>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Mark",
+  "lastName": "Boulton",
+  "middleNameOrInitial": "",
+  "name": "Mark Boulton",
+  "path": "/Types/Authors/Mark Boulton"
+}

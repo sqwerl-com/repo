@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Structure and Interpretation of Computer Programs>": "",
+    "</types/webPages/Structure and Interpretation of Computer Programs>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Julie",
+  "lastName": "Sussman",
+  "middleNameOrInitial": "",
+  "name": "Julie Sussman",
+  "path": "/Types/Authors/Julie Sussman"
+}

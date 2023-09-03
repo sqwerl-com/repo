@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sam Redmond>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why You Should Choose Angular Over React",
+  "path": "/Types/Web Pages/Why You Should Choose Angular Over React",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Why We Need to Stop Using React>": "",
+    "</types/webPages/Why We Should Throw Out React and Pick Up Angular>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://sredmond.medium.com/5-reasoins-add42c2ae066"
+}

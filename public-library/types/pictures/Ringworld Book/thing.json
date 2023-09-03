@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-29T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ringworld Book",
+  "path": "/Types/Pictures/Ringworld Book",
+  "pictureOf": {
+    "</types/books/Ringworld>": ""
+  },
+  "representations": {
+    "ringworld_book_cover_large.jpg.lnk.json": "",
+    "ringworld_book_cover_medium.jpg.lnk.json": "",
+    "ringworld_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mihaly Csikszentmihalyi>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Finding Flow",
+  "notes": {
+    "</types/notes/Finding Flow>": ""
+  },
+  "path": "/Types/Books/Finding Flow",
+  "pictures": {
+    "</types/pictures/Finding Flow Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/33 Books Everyone Should Read Before Turning 30>": "",
+    "</types/books/Search Patterns>": ""
+  },
+  "shortDescription": "",
+  "title": "Finding Flow: The Psychology of Engagement with Everyday Life"
+}

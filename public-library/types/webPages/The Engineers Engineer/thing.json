@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-06-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dave Fecak>"
+  ],
+  "collections": {
+    "</types/collections/Business/Career Management>": "",
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Engineer's Engineer",
+  "path": "/Types/Web Pages/The Engineer's Engineer",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://agile.dzone.com/articles/engineer%E2%80%99s-engineer"
+}

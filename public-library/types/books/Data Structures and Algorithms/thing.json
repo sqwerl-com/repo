@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Granville Barnett>",
+    "</types/authors/Luca Del Tongo>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Algorithms>": "",
+    "</types/collections/Computer Science/Data Structures>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Data Structures and Algorithms",
+  "path": "/Types/Books/Data Structures and Algorithms",
+  "pictures": {
+    "</types/pictures/Data Structures and Algorithms Book>": ""
+  },
+  "title": "Data Structures and Algorithms Annotated Reference with Examples"
+}

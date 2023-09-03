@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Pragmatic Thinking and Learning>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Alan",
+  "lastName": "Hunt",
+  "middleNameOrInitial": "",
+  "name": "Alan Hunt",
+  "path": "/Types/Authors/Alan Hunt"
+}

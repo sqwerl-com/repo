@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Richard Rhodes>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Making of the Atomic Bomb",
+  "path": "/Types/Books/The Making of the Atomic Bomb",
+  "pictures": {
+    "</types/pictures/The Making of the Atomic Bomb Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Making of the Atomic Bomb"
+}

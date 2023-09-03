@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joseph Chow>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Integration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Continuous Integration for Mobile",
+  "path": "/Types/Web Pages/Continuous Integration for Mobile",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://engineering.linkedin.com/testing/continuous-integration-mobile"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-01T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Animation Basics>": ""
+  },
+  "collections": {
+    "</types/collections/Art and Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Animation",
+  "path": "/Types/Collections/Art and Design/Animation",
+  "shortDescription": "Things related to showing motion."
+}
+

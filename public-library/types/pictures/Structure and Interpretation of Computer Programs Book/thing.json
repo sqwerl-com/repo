@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-23T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Structure and Interpretation of Computer Programs Book",
+  "path": "/Types/Pictures/Structure and Interpretation of Computer Programs Book",
+  "pictureOf": {
+    "</types/books/Structure and Interpretation of Computer Programs>": ""
+  },
+  "representations": {
+    "structure_and_interpretation_of_computer_programs_book_cover_large.png.lnk.json": "",
+    "structure_and_interpretation_of_computer_programs_book_cover_medium.png.lnk.json": "",
+    "structure_and_interpretation_of_computer_programs_book_cover_preview.png.lnk.json": "",
+    "structure_and_interpretation_of_computer_programs_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

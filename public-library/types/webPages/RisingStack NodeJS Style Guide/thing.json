@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-09-17T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Rising Stack Node.js Style Guide",
+  "path": "/Types/Web Pages/Rising Stack Node.js Style Guide",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/NodeJS Best Practices RisingStack Engineering>": ""
+  },
+  "shortDescription": "",
+  "url": "https://github.com/RisingStack/node-style-guide"
+}

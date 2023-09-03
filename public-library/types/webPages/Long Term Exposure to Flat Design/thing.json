@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kate Meyer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Long Term Exposure to Flat Design",
+  "notes": {
+    "</types/notes/Long Term Exposure to Flat Design>": ""
+  },
+  "path": "/Types/Web Pages/Long Term Exposure to Flat Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Beyond Blue Links>": "",
+    "</types/webPages/Flat Design>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Flat Design>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Flat design>": ""
+  },
+  "title": "Long-Term Exposure to Flat Design: How the Trend Slowly Decreases User Efficiency",
+  "url": "http://www.nngroup.com/articles/flat-design-long-exposure/"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-08T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/GraphQL>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Apollo GraphQL Client Repository",
+  "path": "/Types/Web Pages/Apollo GraphQL Client Repository",
+  "recommendedBy": {
+    "</types/webPages/GraphQL Front end Queries Made Easy>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/GraphQL>": ""
+  },
+  "url": "https://github.com/apollographql/apollo-client"
+}

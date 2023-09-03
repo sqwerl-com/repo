@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-07-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Krzysztof Czernek>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Functional JS 1 Introduction>": "",
+    "</types/webPages/Functional JS 2 Functions Duh>": "",
+    "</types/webPages/Functional JS 4 Closures>": "",
+    "</types/webPages/Functional JS 5 Partial Application Currying>": "",
+    "</types/webPages/Functional JS 6 Function Composition>": ""
+  },
+  "name": "Functional JS #3: State",
+  "path": "/Types/Web Pages/Functional JS #3: State",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Handling State in React Four Immutable Approaches to Consider>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  },
+  "url": "https://medium.com/dailyjs/functional-js-3-state-89d8cc9ebc9e"
+}

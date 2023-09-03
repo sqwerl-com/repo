@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-07-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Business/Marketing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/authors/Dharmesh Shah>": ""
+  },
+  "name": "Jumpstart: The Guide to Growing a Startup with Inbound Marketing",
+  "path": "/Types/Web Pages/Jumpstart: The Guide to Growing a Startup with Inbound Marketing",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Inbound Marketing>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/What Every Successful Startup Knows About Marketing>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.slideshare.net/HubSpot/jumpstart-inboundmarketingv2"
+}

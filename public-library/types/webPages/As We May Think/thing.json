@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Vannevar Bush>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/articles/As We May Think>": "",
+    "</types/papers/As We May Think>": ""
+  },
+  "name": "As We May Think",
+  "notes": {
+    "</types/notes/As We May Think>": ""
+  },
+  "path": "/Types/Web Pages/As We May Think",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/3881/"
+}

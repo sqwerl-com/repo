@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-08T00:00:00.00-07:00",
+  "archived": true,
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Puppet>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/courses/Puppet 4 Language Essentials>": ""
+  },
+  "name": "Puppet 4: Language Essentials",
+  "path": "/Types/Web Pages/Puppet 4: Language Essentials",
+  "shortDescription": "Table of contents for the Puppet 4: Language Essentials online course.",
+  "tags": {
+    "</types/tags/Puppet>": ""
+  },
+  "url": "https://app.pluralsight.com/library/courses/puppet-4-language-essentials/table-of-contents"
+}

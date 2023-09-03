@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-02-27T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Radical Candor>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Kim",
+  "lastName": "Scott",
+  "middleNameOrInitial": "",
+  "name": "Kim Scott",
+  "path": "/Types/Authors/Kim Scott"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-26T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Racing the Beam>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ian",
+  "lastName": "Bogost",
+  "middleNameOrInitial": "",
+  "name": "Ian Bogost",
+  "path": "/Types/Authors/Ian Bogost"
+}

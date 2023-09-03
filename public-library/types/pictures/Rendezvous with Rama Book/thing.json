@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Rendezvous with Rama Book",
+  "path": "/Types/Pictures/Rendezvous with Rama Book",
+  "pictureOf": {
+    "</types/books/Rendezvous with Rama>": ""
+  },
+  "representations": {
+    "rendezvous_with_rama_book_cover_large.png.lnk.json": "",
+    "rendezvous_with_rama_book_cover_medium.png.lnk.json": "",
+    "rendezvous_with_rama_book_cover_preview.png.lnk.json": "",
+    "rendezvous_with_rama_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

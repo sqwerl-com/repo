@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mary B Coney>",
+    "</types/authors/Michael Steehouder>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Role Playing on the Web",
+  "path": "/Types/Papers/Role Playing on the Web",
+  "recommendedBy": {
+    "</types/books/Letting Go of the Words>": ""
+  },
+  "shortDescription": "",
+  "title": "Role Playing on the Web: Guidelines for Designing and Evaluating Personas Online"
+}

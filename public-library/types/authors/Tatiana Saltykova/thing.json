@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/Altinity Developer Academy Training for ClickHouse Session 1>": "",
+    "</types/videos/Altinity Developer Academy Training for ClickHouse Session 2>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Tatiana",
+  "instructed": {
+    "</types/courses/Altinity Developer Academy Training for ClickHouse>": ""
+  },
+  "lastName": "Saltykova",
+  "middleNameOrInitial": "",
+  "name": "Tatiana Saltykova",
+  "path": "/Types/Authors/Tatiana Saltykova"
+}

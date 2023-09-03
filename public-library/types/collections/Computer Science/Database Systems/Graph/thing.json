@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-25T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Database Systems/Graph/Dgraph>": "",
+    "</types/videos/Graph Databases Will Change Your Freakin Life>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Graph",
+  "path": "/Types/Collections/Computer Science/Database Systems/Graph",
+  "shortDescription": "Things related to graph database management systems."
+}

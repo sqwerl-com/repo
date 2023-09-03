@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-09-25T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Goal>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Eliyahu",
+  "lastName": "Goldratt",
+  "middleNameOrInitial": "M",
+  "name": "Eliyahu M. Goldratt",
+  "path": "/Types/Authors/Eliyahu M. Goldratt"
+}

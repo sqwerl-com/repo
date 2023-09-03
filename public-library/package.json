@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "sqwerl-application-configuration": "git+ssh://git@github.com:tcarroll/sqwerl-application-configuration.git",
+    "sqwerl-nodejs-server": "git+ssh://git@github.com:tcarroll/sqwerl-nodejs-server.git"
+  },
+  "name": "tcarroll",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "6.5.1",
+    "babel-preset-es2015": "6.5.0",
+    "del": "1.1.1",
+    "gulp": "3.9.1",
+    "gulp-zip": "3.0.2",
+    "minimist": "1.2.0",
+    "moment": "2.10.6"
+  },
+  "scripts": {
+    "test": "node ~/sqwerl/sqwerl-nodejs-server/src/main/javascript/checker.js ./src/main/test/resources/configuration.json"
+  }
+}

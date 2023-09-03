@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Webdesigner Depot>": ""
+  },
+  "name": "How to Design a Great User Interface",
+  "path": "/Types/Web Pages/How to Design a Great User Interface",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.webdesignerdepot.com/2010/10/how-to-design-a-great-user-interface/"
+}

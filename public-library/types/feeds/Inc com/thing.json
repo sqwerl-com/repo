@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://www.inc.com/about/rss.html",
+  "items": {
+    "</types/webPages/10 YouTube Videos Every Entrepreneur Should Watch>": "",
+    "</types/webPages/5 Habits of Customer Obsessed Companies>": "",
+    "</types/webPages/Become More Optimistic 6 Smart Tricks>": ""
+  },
+  "name": "Inc.com",
+  "path": "/Types/Feeds/Inc com",
+  "shortDescription": ""
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Emotional Agility Book",
+  "path": "/Types/Pictures/Emotional Agility Book",
+  "pictureOf": {
+    "</types/books/Emotional Agility>": ""
+  },
+  "representations": {
+    "emotional_agility_book_cover_large.png.lnk.json": "",
+    "emotional_agility_book_cover_medium.png.lnk.json": "",
+    "emotional_agility_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

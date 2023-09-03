@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-10-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Chris Coyier>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/CSS Tricks>": ""
+  },
+  "name": "Sign Up vs. Signup",
+  "path": "/Types/Web Pages/Sign Up vs. Signup",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Sign in>": ""
+  },
+  "url": "https://css-tricks.com/sign-up-vs-signup/#more-278001"
+}

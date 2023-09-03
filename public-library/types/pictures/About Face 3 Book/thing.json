@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "About Face 3 Book",
+  "path": "/Types/Pictures/About Face 3 Book",
+  "pictureOf": {
+    "</types/books/About Face 3>": ""
+  },
+  "representations": {
+    "about_face_3_book_cover_large.lnk.json": "",
+    "about_face_3_book_cover_medium.lnk.json": "",
+    "about_face_3_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

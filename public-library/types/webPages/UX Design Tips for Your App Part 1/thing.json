@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-06-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Clark Wimberly>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Six Revisions>": ""
+  },
+  "links": {
+    "</types/webPages/UX Design Tips for Your App Part 2>": ""
+  },
+  "name": "UX Design Tips for Your App Part 1",
+  "path": "/Types/Web Pages/UX Design Tips for Your App Part 1",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/User Onboarding>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.invisionapp.com/inside-design/ux-design-tips-for-your-app/"
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-02T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Coders>": "",
+    "</types/articles/The Secret History of Women in Coding>": "",
+    "</types/webPages/The Secret History of Women in Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Clive",
+  "lastName": "Thompson",
+  "middleNameOrInitial": "",
+  "name": "Clive Thompson",
+  "path": "/Types/Authors/Clive Thompson"
+}

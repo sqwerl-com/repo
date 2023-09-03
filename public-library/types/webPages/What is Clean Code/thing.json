@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Severin Perez>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is Clean Code?",
+  "path": "/Types/Web Pages/What is Clean Code?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Clean Code>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Clean code>": ""
+  },
+  "url": "https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca"
+}

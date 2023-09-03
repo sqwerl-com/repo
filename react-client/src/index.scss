@@ -1,0 +1,209 @@
+@keyframes sqwerl-loading-indicator {
+  0%, 60%, 100% {
+    opacity: 0.4;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
+/* Default height for all HTML elements */
+$sqwerl-row-height: 2.7rem;
+
+/* Default height for all HTML elements in pixels. This value is hard-coded in the navigation list. */
+$sqwerl-row-height-pixels: 50px;
+
+$sqwerl-application-menu-background-color: #fdfdfd;
+$sqwerl-application-menu-bar-background: linear-gradient(132deg, rgba(29, 45, 39, 1) 0%, rgba(16, 139, 94, 1) 100%);
+$sqwerl-application-menu-bar-bottom-border-color: none;
+
+$sqwerl-background-color: #f0f0f0f0;
+
+/* TODO - Change */
+$sqwerl-breadcrumbs-background: #d0dacf;
+
+$sqwerl-breadcrumbs-bottom-border-color: #404040;
+
+/* TODO - Change */
+$sqwerl-breadcrumbs-item-bottom-border-color: #a9a5a5;
+
+$sqwerl-breadcrumbs-bottom-right-border-color: darkgray;
+
+/* TODO - Change */
+$sqwerl-breadcrumbs-item-top-border-color: yellow;
+
+$sqwerl-breadcrumbs-height: $sqwerl-row-height;
+$sqwerl-breadcrumbs-item-background: #d0dacf;
+$sqwerl-breadcrumbs-top-right-border-color: darkgray;
+$sqwerl-breadcrumbs-width: 2.2rem;
+$sqwerl-chevron-bottom-edge-color: darkgray;
+$sqwerl-chevron-top-edge-color: darkgray;
+$sqwerl-content-heading-background: #f3f3f3;
+$sqwerl-content-heading-bottom-border-color: darkgray;
+$sqwerl-content-heading-shadow-offset: 0.1rem;
+$sqwerl-content-heading-shadow: 0 $sqwerl-content-heading-shadow-offset $sqwerl-content-heading-shadow-offset -0.2rem rgba(200, 200, 200, 0.8);
+
+/* Height for heading text over the major content areas like the navigation and properties areas. */
+$sqwerl-content-heading-height: $sqwerl-row-height;
+
+$sqwerl-content-heading-icon-height: 2rem;
+$sqwerl-disabled-text-color: #aaa;
+/* $sqwerl-dark-application-menu-background-color: #03030; */
+$sqwerl-dark-application-menu-bar-background: #1e2524;
+$sqwerl-dark-application-menu-bar-bottom-border-color: #050505;
+$sqwerl-dark-background-color: #1a1a1a;
+$sqwerl-dark-breadcrumbs-background: #1e2524;
+$sqwerl-dark-breadcrumbs-bottom-border-color: #4d4d4d;
+$sqwerl-dark-breadcrumbs-bottom-right-border-color: #737373;
+$sqwerl-dark-breadcrumbs-item-background: #1e2524;
+$sqwerl-dark-breadcrumbs-item-bottom-border-color: #101010;
+$sqwerl-dark-breadcrumbs-item-top-border-color: #474747;
+$sqwerl-dark-breadcrumbs-top-right-border-color: #5d5c5c;
+$sqwerl-dark-content-heading-background: #1e2524;
+$sqwerl-dark-content-heading-bottom-border-color : #050505;
+$sqwerl-dark-content-heading-shadow: 0 $sqwerl-content-heading-shadow-offset $sqwerl-content-heading-shadow-offset -0.2rem rgba(5, 5, 5, 0.8);
+$sqwerl-dark-horizontal-divider-color: #050505;
+$sqwerl-dark-hyperlink-text-color: #70b1d1; /* rgb(124, 212, 255); */
+
+/* Dark list view background color. */
+$sqwerl-dark-list-background-color: #202020;
+
+$sqwerl-dark-list-item-bottom-border-color: #505050;
+$sqwerl-dark-menu-button-background-color: transparent;
+$sqwerl-dark-menu-button-hover-background-color: rgba(51, 152, 254, 0.2);
+$sqwerl-dark-menu-button-text-color: rgb(124, 212, 255);
+$sqwerl-dark-modal-pane-background-color: rgba(20, 20, 20, 0.78);
+$sqwerl-dark-search-results-highlighted-text-background: #020202;
+$sqwerl-dark-secondary-text-color: #b0b0b0;
+
+/* Background color for selected items */
+$sqwerl-dark-selection-color: #272798;
+
+$sqwerl-dark-text-color: #f0f0f0;
+$sqwerl-even-list-item-background: #fafbff;
+
+/* TODO - This is the border and margins to place around things to leave room for a focus indicator border.
+          This value shouldn't be hard-coded, or be specified in pixels.
+ */
+$sqwerl-focus-border-size: 5px;
+
+$sqwerl-font-family: 'Avenir Next LT Pro Regular', Nunito, calibri, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$sqwerl-horizontal-divider-color: darkgray;
+$sqwerl-hyperlink-font-family: Verdana, Nunito, calibri, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+/* Font size for the text of hyperlink anchors */
+$sqwerl-hyperlink-font-size: 95%;
+
+$sqwerl-hyperlink-text-color: #0016e4;
+$sqwerl-letter-spacing: 0.06rem;
+
+/* Light list view background color. */
+$sqwerl-list-background-color: white;
+
+$sqwerl-list-item-hover-background: rgba(51, 152, 254, 0.2);
+$sqwerl-list-item-bottom-border-color: #f0f0f0;
+$sqwerl-menu-bar-background: #0a3815;
+$sqwerl-menu-bar-button-background: rgba(0, 100, 0, 0.1);
+$sqwerl-menu-bar-menu-button-text-color: #e0ece0;
+$sqwerl-menu-button-background-color: transparent;
+$sqwerl-menu-button-border-color: #326f32;
+$sqwerl-menu-button-hover-background-color: #01711c;
+$sqwerl-menu-button-hover-border-bottom-right-color: rgba(111, 111, 95, 0.5);
+$sqwerl-menu-button-hover-border-color: #02350e;
+$sqwerl-menu-button-hover-border-top-left-color: rgba(255, 255, 255, 0.1);
+$sqwerl-menu-button-text-color: #e0ece0;
+$sqwerl-modal-pane-background-color: rgba(0, 0, 0, 0.3);
+
+/*
+   Add padding to the top of the index numbers on navigation list items so the indices and the title text are
+   vertically aligned on a common baseline. The padding value is the height of the title text minus the height of
+   the index numbers divided by two.
+ */
+$sqwerl-navigation-item-ordinal-top-margin: 3px;
+
+$sqwerl-navigation-list-background: #fafffa;
+$sqwerl-navigation-scroll-view-background: #dee6e0;
+$sqwerl-odd-list-item-background: #fbfdff;
+$sqwerl-property-sheet-line-height: 1.4rem;
+$sqwerl-question-mark-icon-height: 4rem;
+$sqwerl-question-mark-icon-width: 4rem;
+$sqwerl-search-results-highlighted-text-background: #fbe610;
+
+/* Text color for text that shouldn't be the primary focus. */
+$sqwerl-secondary-text-color: #606060;
+
+/* Font size for text that shouldn't be the primary focus. */
+$sqwerl-secondary-text-font-size: 90%;
+
+/* Color for text of selected things. */
+$sqwerl-selected-text-color: #f0f0f0;
+
+/* Background color for selected things. */
+$sqwerl-selection-color: blue;
+
+/* Animation function for slide in, slide out animations. */
+$sqwerl-slide-transition-function: cubic-bezier(0.45, 0.6, 0.56, 0.19);
+
+/* Default color for text */
+$sqwerl-text-color: #202020;
+
+$sqwerl-title-bar-background: #f2f9f0;
+$sqwerl-title-bar-bottom-border: 1px solid lightgray;
+$sqwerl-vertical-scrollbar-collapsed-width: rgb(0, 22, 228);
+$sqwerl-warn-text-color: #202020;
+
+/* TODO - Have the colors be variables. */
+@keyframes sqwerl-list-item-hover {
+  0% {
+    background: rgba(51, 152, 254, 0.05);
+  }
+
+  25% {
+    background: rgba(51, 152, 254, 0.1);
+  }
+
+  50% {
+    background: rgba(51, 152, 254, 0.15);
+  }
+
+  75% {
+    background: rgba(51, 152, 254, 0.2);
+  }
+
+  100% {
+    background: rgba(51, 152, 254, 0.21);
+  }
+}
+
+@keyframes sqwerl-spin-counterclockwise {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+body {
+  font-family: $sqwerl-font-family;
+  letter-spacing: $sqwerl-letter-spacing;
+  overflow: hidden !important;
+  user-select: none;
+}
+
+.html {
+  overflow: hidden;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: $sqwerl-font-family;
+  font-size: unset;
+}
+
+.is-hidden {
+  visibility: hidden;
+}

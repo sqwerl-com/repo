@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Web Analytics 2 0>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Capturing and analyzing usage data to improve a web site or web application's performance and usability.",
+  "name": "Analytics",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Analytics",
+  "shortDescription": ""
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-19T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/What Is Helm A Complete Guide>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Helm",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps/Tools/Helm",
+  "shortDescription": "Things related to the Helm tool for managing applications running on Kubernetes clusters."
+}

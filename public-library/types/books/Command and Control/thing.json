@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-01-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Schlosser>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Command and Control",
+  "path": "/Types/Books/Command and Control",
+  "pictures": {
+    "</types/pictures/Command and Control Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/The Darkening Web>": ""
+  },
+  "shortDescription": "",
+  "title": "Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety"
+}

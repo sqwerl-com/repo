@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nick Summers>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Science Fiction>": "",
+    "</types/collections/Science Fiction/User Interfaces>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing a Spaceship for the Guardians of the Galaxy",
+  "path": "/Types/Web Pages/Designing a Spaceship for the Guardians of the Galaxy",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.engadget.com/2018/05/10/marvel-avengers-infinity-war-guardians-design/"
+}

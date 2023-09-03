@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kristina Grujic>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React JSX: How to Do It the Right Way, Part II",
+  "path": "/Types/Web Pages/React JSX: How to Do It the Right Way, Part II",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/React JSX How to Do It the Right Way Part I>": ""
+  },
+  "url": "https://kolosek.com/react-jsx-conditions/"
+}

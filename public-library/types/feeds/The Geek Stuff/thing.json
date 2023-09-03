@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Unix/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://feeds.feedburner.com/TheGeekStuff",
+  "items": {
+    "</types/webPages/50 Most Frequently Used Unix Linux Commands With Examples>": "",
+    "</types/webPages/Linux Directory Structure Explained with Examples>": ""
+  },
+  "name": "The Geek Stuff",
+  "path": "/Types/Feeds/The Geek Stuff",
+  "shortDescription": ""
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Luke Wroblewski>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/LukeW Digital Product Design and Strategy>": ""
+  },
+  "name": "Web Application Form Design",
+  "path": "/Types/Web Pages/Web Application Form Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Label Placement in Forms>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.lukew.com/ff/entry.asp?1502"
+}

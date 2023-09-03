@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-19T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Practical Guide to eXtreme Programming>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Granville",
+  "lastName": "Miller",
+  "middleNameOrInitial": "",
+  "name": "Granville Miller",
+  "path": "/Types/Authors/Granville Miller"
+}

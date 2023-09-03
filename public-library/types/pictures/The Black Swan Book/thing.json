@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-24T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Black Swan Second Edition Book",
+  "path": "/Types/Pictures/The Black Swan Second Edition Book",
+  "pictureOf": {
+    "</types/books/The Black Swan>": ""
+  },
+  "representations": {
+    "the_black_swan_second_edition_book_cover_large.jpg.lnk.json": "",
+    "the_black_swan_second_edition_book_cover_medium.jpg.lnk.json": "",
+    "the_black_swan_second_edition_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

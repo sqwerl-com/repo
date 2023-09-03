@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2016-07-28T00:00:00.00-07:00",
+  "canRead": {
+    "</types/groups/Administrators>": ""
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "description": "Video or audio feeds.",
+  "extends": "</types>",
+  "name": "Podcasts",
+  "controller": "</types/users/Administrator>",
+  "properties": {
+    "description": {
+      "description": "Text that describes a podcast.",
+      "name": "Description",
+      "shortDescription": "A podcast's description.",
+      "type": "text"
+    }
+  },
+  "shortDescription": "Podcasts"
+}

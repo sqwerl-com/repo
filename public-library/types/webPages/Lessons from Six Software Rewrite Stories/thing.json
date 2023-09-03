@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Herb Caudill>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Lessons from Six Software Rewrite Stories",
+  "path": "/Types/Web Pages/Lessons from Six Software Rewrite Stories",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22"
+}

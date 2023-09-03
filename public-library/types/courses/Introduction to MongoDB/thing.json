@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-10T00:00:00.00-07:00",
+  "attending": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/NoSQL/MongoDB>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Nuri Halperin>": ""
+  },
+  "links": {
+    "</types/webPages/Introduction to MongoDB>": ""
+  },
+  "name": "Introduction to MongoDB",
+  "path": "/Types/Courses/Introduction to MongoDB",
+  "shortDescription": ""
+}

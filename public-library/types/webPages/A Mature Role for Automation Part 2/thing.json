@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John Allspaw>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/A Mature Role for Automation Part 1>": ""
+  },
+  "name": "A Mature Role for Automation: Part 2",
+  "path": "/Types/Web Pages/A Mature Role for Automation: Part 2",
+  "recommendedBy": {
+    "</types/webPages/GitOps A Path to More Self Service IT>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.kitchensoap.com/2013/08/20/a-mature-role-for-automation-part-ii/"
+}

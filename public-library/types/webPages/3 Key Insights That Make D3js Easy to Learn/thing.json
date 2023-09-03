@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Swizec Teller>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "3 Key Insights That Make D3.js Easy to Learn",
+  "path": "/Types/Web Pages/3 Key Insights That Make D3.js Easy to Learn",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/React Plus D3v4>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://dzone.com/articles/3-key-insights-that-make-d3js-easy-to-learn"
+}

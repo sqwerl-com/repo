@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/42 Outstanding FREE UI Kits for Web Designers>": "",
+    "</types/webPages/50 Useful and Free Web UI Mobile UI and Wireframe Kits>": "",
+    "</types/webPages/9 Essential Resources for User Interface Designers>": "",
+    "</types/feeds/Design for Use>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines>": "",
+    "</types/feeds/Design Snapshots>": "",
+    "</types/webPages/Design Snapshots>": "",
+    "</types/webPages/Dribbble>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Font Collections>": "",
+    "</types/webPages/Gentleface>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Icon Libraries>": "",
+    "</types/webPages/Pandora UI for iOS>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Pattern Repositories>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Templates>": "",
+    "</types/webPages/The Noun Project>": "",
+    "</types/feeds/UI Scraps>": "",
+    "</types/webPages/User Interface Engineering>": "",
+    "</types/feeds/VectorTutsPlus>": "",
+    "</types/webPages/Web Design Practices>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Design Resources",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Design Resources",
+  "shortDescription": "Resources for user interface designers."
+}

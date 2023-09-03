@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-05-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ryan Yurkanin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why React Hooks, and How Did We Get Here?",
+  "path": "/Types/Web Pages/Why React Hooks, and How Did We Get Here?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/React hooks>": ""
+  },
+  "url": "https://medium.freecodecamp.org/why-react-hooks-and-how-did-we-even-get-here-aa5ed5dc96af"
+}

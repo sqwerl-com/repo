@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Niall Ferguson>"
+  ],
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Ascent of Money",
+  "notes": {
+    "</types/notes/The Ascent of Money>": ""
+  },
+  "path": "/Types/Books/The Ascent of Money",
+  "pictures": {
+    "</types/pictures/The Ascent of Money Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Ascent of Money: A Financial History of the World"
+}

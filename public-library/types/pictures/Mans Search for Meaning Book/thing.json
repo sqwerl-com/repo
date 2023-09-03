@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-07T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Man's Search for Meaning Book",
+  "path": "</types/pictures/Mans Search for Meaning Book>",
+  "pictureOf": {
+    "</types/books/Mans Search for Meaning>": ""
+  },
+  "representations": {
+    "mans_search_for_meaning_book_cover_large.jpg.lnk.json": "",
+    "mans_search_for_meaning_book_cover_medium.jpg.lnk.json": "",
+    "mans_search_for_meaning_book_cover_preview.jpg.lnk.json": "",
+    "mans_search_for_meaning_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

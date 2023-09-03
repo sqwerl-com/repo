@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Designing Graceful Gracious Interfaces for iPad>": "",
+    "</types/webPages/Ex Apple Designer Creates Teaching UI That Kills Math>": "",
+    "</types/videos/Interactive Exploration of a Dynamical System>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Platforms/iOS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "iPad",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Platforms/iOS/iPad",
+  "shortDescription": "Contains things related to designing the user experience for Apple iPad users."
+}

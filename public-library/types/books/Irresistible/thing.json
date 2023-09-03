@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-11-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Adam Alter>"
+  ],
+  "collections": {
+    "</types/collections/Psychology>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Irresistible",
+  "path": "/Types/Books/Irresistible",
+  "pictures": {
+    "</types/pictures/Irresistible Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Everybody Lies>": ""
+  },
+  "shortDescription": "",
+  "title": "Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked"
+}

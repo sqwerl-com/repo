@@ -1,0 +1,34 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Simpson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/You Dont Know JS Async and Performance>": "",
+    "</types/books/You Dont Know JS ES6 and Beyond>": "",
+    "</types/books/You Dont Know JS Types and Grammar>": "",
+    "</types/books/You Dont Know JS Up and Going>": ""
+  },
+  "name": "You Don't Know JS: Scope & Closures",
+  "notes": {
+    "</types/notes/You Dont Know JS Scope and Closures>": ""
+  },
+  "path": "/Types/Books/You Don't Know JS: Scope & Closures",
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JavaScript>": ""
+  },
+  "title": "You Don't Know JS: Scope & Closures",
+  "webPages": {
+    "</types/webPages/You Dont Know JS Scope and Closures>": ""
+  }
+}

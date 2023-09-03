@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Helge Fredheim>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Smashing Magazine>": ""
+  },
+  "name": "Why User Experience Cannot Be Designed",
+  "path": "/Types/Web Pages/Why User Experience Cannot Be Designed",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://uxdesign.smashingmagazine.com/2011/03/15/why-user-experience-cannot-be-designed/"
+}

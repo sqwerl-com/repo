@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-01-22T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/GraphQL>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "GraphQL: The Documentary",
+  "path": "/Types/Videos/GraphQL: The Documentary",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/GraphQL>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=783ccP__No8",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

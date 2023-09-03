@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-10T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/NoSQL/MongoDB>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Pluralsight course's table of contents page.",
+  "links": {
+    "</types/courses/Introduction to MongoDB>": ""
+  },
+  "name": "Introduction to MongoDB",
+  "path": "/Types/Web Pages/Introduction to MongoDB",
+  "shortDescription": "Table of contents page.",
+  "url": "https://app.pluralsight.com/library/courses/mongodb-introduction/table-of-contents"
+}

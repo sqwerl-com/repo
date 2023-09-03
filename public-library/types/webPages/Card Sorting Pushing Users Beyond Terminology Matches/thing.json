@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jakob Nielsen>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Card Sorting: Pushing Users Beyond Terminology Matches",
+  "path": "/Types/Web Pages/Card Sorting: Pushing Users Beyond Terminology Matches",
+  "recommendedBy": {
+    "</types/books/Laws of UX>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.nngroup.com/articles/card-sorting-terminology-matches/"
+}

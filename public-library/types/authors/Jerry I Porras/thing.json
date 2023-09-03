@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Built to Last>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jerry",
+  "lastName": "Porras",
+  "middleNameOrInitial": "I",
+  "name": "Jerry I. Porras",
+  "path": "/Types/Authors/Jerry I. Porras"
+}

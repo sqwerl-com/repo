@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-06-07T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/Deployment Automation Patterns>": "",
+    "</types/webPages/GitOps A Path to More Self Service IT>": "",
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 1>": "",
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 2 Configuration>": "",
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 3 Version>": "",
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 4 Package>": "",
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 5 Deploy>": "",
+    "</types/webPages/Must Learn DevOps Tools for 2020>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Site Reliability Engineering>": "",
+    "</types/webPages/TechWorld with Nana>": "",
+    "</types/podcasts/The New Stack>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools>": "",
+    "</types/webPages/Top Useful and Most Popular DevOps Tools>": "",
+    "</types/webPages/What is DevOps>": "",
+    "</types/webPages/Why Should I Use a Reverse Proxy If NodeJS is Production Ready>": "",
+    "</types/webPages/Why Were Leaving the Cloud>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to an integrated approach to delivering value through software by integrating the tasks of software development, quality assurance, and operations (production support).",
+  "name": "DevOps",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps",
+  "shortDescription": "Things related to the combination and coordination of software development and operations."
+}

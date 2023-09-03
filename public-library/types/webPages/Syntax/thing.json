@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-02-22T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for the Syntax web development podcast",
+  "name": "Syntax",
+  "path": "/Types/Web Pages/Syntax",
+  "shortDescription": "",
+  "url": "https://syntax.fm/"
+}

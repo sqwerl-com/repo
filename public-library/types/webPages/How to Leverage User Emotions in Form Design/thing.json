@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Omer Tanriverdi>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Leverage User Emotions in Form Design",
+  "path": "/Types/Web Pages/How to Leverage User Emotions in Form Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Designing for Emotion>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.invisionapp.com/inside-design/emotional-form-design"
+}

@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-07-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/J R Harshath>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Computer Science/Software Engineering/User Interface Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Software Engineering 101 for Front-end Developers",
+  "path": "/Types/Web Pages/Software Engineering 101 for Front-end Developers",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Clean Code>": "",
+    "</types/books/Continuous Delivery>": "",
+    "</types/books/Design Patterns>": "",
+    "</types/books/Refactoring>": "",
+    "</types/books/Working Effectively with Legacy Code>": ""
+  },
+  "shortDescription": "",
+  "title": "Software Engineering 101 for Front-end Developers",
+  "url": "https://blog.mindorks.com/software-engineering-101-for-front-end-developers-a99fda87c6bc"
+}

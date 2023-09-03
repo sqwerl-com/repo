@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-02T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Web for Everyone>": "",
+    "</types/webPages/Adaptive Web Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Aaron",
+  "lastName": "Gustafson",
+  "middleNameOrInitial": "",
+  "name": "Aaron Gustafson",
+  "path": "/Types/Authors/Aaron Gustafson"
+}

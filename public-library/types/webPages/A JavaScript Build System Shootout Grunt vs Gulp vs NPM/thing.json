@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-08-22T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Build Tools/Grunt>": "",
+    "</types/collections/Computer Science/Software Engineering/Build Tools/Gulp>": "",
+    "</types/collections/Computer Science/Software Engineering/Build Tools/NPM>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A JavaScript Build System Shootout: Grunt vs. Gulp vs. NPM",
+  "path": "/Types/Web Pages/A JavaScript Build System Shootout: Grunt vs. Gulp vs. NPM",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://modernweb.com/choose-grunt-gulp-npm/"
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-18T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Clean code",
+  "path": "/Types/Tags/Clean code",
+  "shortDescription": "Things related writing clean, clear, readable, and maintainble software",
+  "tagged": {
+    "</types/books/Clean Code>": "",
+    "</types/documents/Clean Code Cheat Sheet>": "",
+    "</types/courses/Clean Code Programming for Humans>": "",
+    "</types/webPages/Engineers Dont Want Clean Code>": "",
+    "</types/webPages/Let the Code Speak>": "",
+    "</types/feeds/The Clean Code Blog>": "",
+    "</types/books/The Clean Coder>": "",
+    "</types/webPages/What is Clean Code>": "",
+    "</types/videos/Write Perfect Code With Standard and ESLint>": ""
+  },
+  "text": "Clean code"
+}

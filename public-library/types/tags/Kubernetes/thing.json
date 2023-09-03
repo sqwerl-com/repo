@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the Kubernetes orchestration application.",
+  "name": "Kubernetes",
+  "path": "/Types/Tags/Kubernetes",
+  "shortDescription": "Things related to Kubernetes.",
+  "tagged": {
+    "</types/webPages/Deploy InfluxDB and Grafana on Kubernetes to Collect Twitter Stats>": "",
+    "</types/courses/Docker and Kubernetes The Big Picture>": "",
+    "</types/webPages/Docker and Kubernetes The Big Picture>": "",
+    "</types/videos/I Built a Raspberry Pi Super Computer>": "",
+    "</types/webPages/Install Certificate Manager Controller in Kubernetes>": "",
+    "</types/webPages/Install Prometheus on Kubernetes Tutorials and Examples>": "",
+    "</types/webPages/Install Traefik Ingress Controller in Kubernetes>": "",
+    "</types/webPages/Interactive Tutorial Creating a Cluster>": "",
+    "</types/webPages/K3S Home Page>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kubernetes>": "",
+    "</types/webPages/Kubernetes Architecture Overview>": "",
+    "</types/webPages/Kubernetes Ingress Overview>": "",
+    "</types/webPages/Prometheus Operator Guide>": "",
+    "</types/webPages/Prometheus vs Thanos>": "",
+    "</types/books/The Kubernetes Book>": "",
+    "</types/webPages/What is Kubernetes and How to Use It>": ""
+  },
+  "text": "Kubernetes"
+}

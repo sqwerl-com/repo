@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Yaping Shi>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/Key Value/JunoDB>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Unlocking the Power of JunoDB",
+  "path": "/Types/Web Pages/Unlocking the Power of JunoDB",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Unlocking the Power of JunoDB: PayPal's Key-Value Store Goes Open-Source",
+  "url": "https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1"
+}

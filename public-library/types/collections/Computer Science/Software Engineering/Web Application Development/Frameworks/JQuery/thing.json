@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/feeds/JQuery for Designers>": "",
+    "</types/webPages/JQuery for Designers>": "",
+    "</types/videos/JQuery in 30 Days Day 1>": "",
+    "</types/videos/JQuery in 30 Days Day 2>": "",
+    "</types/books/jQuery in Action Second Edition>": "",
+    "</types/documents/jQuery Selectors>": "",
+    "</types/webPages/JQuery Tools>": "",
+    "</types/books/jQuery UI>": "",
+    "</types/webPages/Try jQuery>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "JQuery",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/JQuery",
+  "shortDescription": "Items regarding the JQuery user interface library for web application development."
+}

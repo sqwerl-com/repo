@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-12-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Matthew Croak>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Convert Your Class Component to a Functional One with React Hooks",
+  "path": "/Types/Web Pages/Convert Your Class Component to a Functional One with React Hooks",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/React hooks>": ""
+  },
+  "url": "https://medium.com/better-programming/convert-your-class-component-to-a-functional-one-with-react-hooks-ab5f4d11f9bc"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-21T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "W3C Web Content Accessibility Guidelines (WCAG) 2.1",
+  "path": "/Types/Web Pages/W3C Web Content Accessibility Guidelines (WCAG) 2.1",
+  "recommendedBy": {
+    "</types/webPages/Web Content Accessibility Guidelines>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Accessibility>": ""
+  },
+  "url": "https://www.w3.org/TR/WCAG21/"
+}

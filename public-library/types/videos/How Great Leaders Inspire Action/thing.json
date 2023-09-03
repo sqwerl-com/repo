@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-04-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Simon Sinek>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How Great Leaders Inspire Action",
+  "path": "/Types/Videos/How Great Leaders Inspire Action",
+  "recommendedBy": {
+    "</types/webPages/10 Ways Youll Probably Fxxk Up Your Startup>": "",
+    "</types/videos/Designing Content for Product Experiences>": "",
+    "</types/webPages/How to Start a Startup>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action#t-875156",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

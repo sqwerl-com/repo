@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/William Gibson>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Count Zero>": "",
+    "</types/books/Mona Lisa Overdrive>": ""
+  },
+  "name": "Neuromancer",
+  "path": "/Types/Books/Neuromancer",
+  "pictures": {
+    "</types/pictures/Neuromancer Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Determining the Greatest Science Fiction and Fantasy Novels Since 1970>": "",
+    "</types/webPages/Why Business Leaders Need to Read More Science Fiction>": ""
+  },
+  "shortDescription": ""
+}

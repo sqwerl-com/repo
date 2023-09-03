@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2015-01-04T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that recommend that other things to look at, and things recommended by other things.",
+  "extends": "</types/facets>",
+  "name": "Recommendable",
+  "path": "/Types/Facets/Recommendable",
+  "properties": {
+    "recommendations": {
+      "description": "Related things that this thing recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that this thing suggests to look at.",
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Related things that have recommended that this thing be looked at.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended this thing.",
+      "type": {
+        "</types>": ""
+      }
+    }
+  },
+  "shortDescription": "Things people should read."
+}

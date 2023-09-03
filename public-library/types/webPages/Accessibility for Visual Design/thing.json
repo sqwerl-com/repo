@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nick Babich>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/UX Booth>": ""
+  },
+  "name": "Accessibility for Visual Design",
+  "path": "/Types/Web Pages/Accessibility for Visual Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Accessibility>": ""
+  },
+  "url": "http://www.uxbooth.com/articles/accessibility-visual-design/"
+}

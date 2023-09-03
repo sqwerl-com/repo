@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Elements of User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jesse",
+  "lastName": "Garrett",
+  "links": {
+    "</types/videos/Adaptive Path Co Founder and UX Designer Jesse James Garrett Interviewed by Brian Solis>": ""
+  },
+  "middleNameOrInitial": "James",
+  "name": "Jesse James Garrett",
+  "path": "/Types/Authors/Jesse James Garrett"
+}

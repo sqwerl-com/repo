@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-05-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Axel Rauschmayer>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Speaking JavaScript",
+  "path": "/Types/Books/Speaking JavaScript",
+  "pictures": {
+    "</types/pictures/Speaking JavaScript Book>": ""
+  },
+  "shortDescription": "Speaking JavaScript",
+  "webPages": {
+    "</types/webPages/Speaking JavaScript>": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-05-24T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/JavaScript Testing with Jasmine>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Evan",
+  "lastName": "Hahn",
+  "middleNameOrInitial": "",
+  "name": "Evan Hahn",
+  "path": "/Types/Authors/Evan Hahn"
+}
+

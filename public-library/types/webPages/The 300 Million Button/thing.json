@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-07-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jared M Spool>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "feeds": {
+    "</types/feeds/UIE Brain Sparks>": ""
+  },
+  "name": "The $300 Million Button",
+  "path": "/Types/Web Pages/The $300 Million Button",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Web Form Design>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/web form design>": ""
+  },
+  "url": "https://medium.com/uie-brain-sparks/the-300-million-button-76b566ae5f73"
+}

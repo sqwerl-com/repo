@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tom Dale>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Compilers are the New Frameworks",
+  "path": "/Types/Web Pages/Compilers are the New Frameworks",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/videos/Keep Betting on JavaScript>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@tomdale/compilers-are-the-new-frameworks-355aca60de82"
+}

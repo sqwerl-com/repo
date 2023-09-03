@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-14T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Anti Patterns>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Thomas",
+  "lastName": "Mowbray",
+  "middleNameOrInitial": "J",
+  "name": "Thomas J. Mowbray",
+  "path": "/Types/Authors/Thomas J. Mowbray"
+}

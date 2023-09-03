@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-01-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mike Stowe>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/REST>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/API Best Practices Hypermedia Part 1>": "",
+    "</types/webPages/API Best Practices Hypermedia Part 3>": ""
+  },
+  "name": "API Best Practices: Hypermedia (Part 2)",
+  "path": "/Types/Web Pages/API Best Practices: Hypermedia (Part 2)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blogs.mulesoft.com/dev-guides/api-best-practices-hypermedia-part-2/"
+}

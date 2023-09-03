@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Business/Entrepreneurship/Business Models/Generation>": "",
+    "</types/collections/Business/Entrepreneurship/Business Models/Revenue Models>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Business Models",
+  "path": "/Types/Collections/Business/Entrepreneurship/Business Models",
+  "shortDescription": "Things related to modeling how to create and deliver value."
+}

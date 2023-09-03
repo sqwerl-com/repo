@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/FAM>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The 5 Steps to Becoming a Self-Taught Angular Developer",
+  "path": "/Types/Web Pages/The 5 Steps to Becoming a Self-Taught Angular Developer",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Angular Interview Questions>": "",
+    "</types/webPages/Dependency Injection In Angular>": "",
+    "</types/webPages/How Does an Angular Application Work>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/5 Key Components that Every Angular Developer Should Know>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://medium.com/geekculture/the-5-steps-to-becoming-a-self-taught-angular-developer-8f887c72884f"
+}

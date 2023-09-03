@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-25T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/jQuery in Action Second Edition>": "",
+    "</types/documents/jQuery Selectors>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Bear",
+  "lastName": "Bibeault",
+  "middleNameOrInitial": "",
+  "name": "Bear Bibeault",
+  "path": "/Types/Authors/Bear Bibeault"
+}

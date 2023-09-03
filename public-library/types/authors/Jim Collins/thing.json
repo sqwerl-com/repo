@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Built to Last>": "",
+    "</types/books/Good to Great>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jim",
+  "lastName": "Collins",
+  "middleNameOrInitial": "",
+  "name": "Jim Collins",
+  "path": "/Types/Authors/Jim Collins"
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eni Onyedikachi>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React Fiber Explained",
+  "path": "/Types/Web Pages/React Fiber Explained",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/videos/A Cartoon Intro to Fiber>": "",
+    "</types/videos/React Performance End to End>": ""
+  },
+  "url": "https://blog.openreplay.com/react-fiber-explained/"
+}

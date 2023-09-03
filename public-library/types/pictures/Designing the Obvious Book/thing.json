@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-15T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing the Obvious Book",
+  "path": "/Types/Pictures/Designing the Obvious Book",
+  "pictureOf": {
+    "</types/books/Designing the Obvious>": ""
+  },
+  "representations": {
+    "designing_the_obvious_book_cover_large.lnk.json": "",
+    "designing_the_obvious_book_cover_medium.lnk.json": "",
+    "designing_the_obvious_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

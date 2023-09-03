@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-12-15T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/D3 Tips and Tricks>": "",
+    "</types/books/D3 Tips and Tricks v4x>": "",
+    "</types/books/D3 Tips and Tricks v5x>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Malcolm",
+  "lastName": "Maclean",
+  "middleNameOrInitial": "",
+  "name": "Malcolm Mclean",
+  "path": "/Types/Authors/Malcolm Mclean"
+}

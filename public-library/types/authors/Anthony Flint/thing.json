@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-16T00:00:00.00-05:00",
+  "authorOf": {
+    "</types/books/Wrestling with Moses>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Anthony",
+  "lastName": "Flint",
+  "middleNameOrInitial": "",
+  "name": "Anthony Flint",
+  "path": "/Types/Authors/Anthony Flint"
+}

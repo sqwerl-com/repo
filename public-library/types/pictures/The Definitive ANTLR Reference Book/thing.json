@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-29T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Definitive ANTLR Reference Book",
+  "path": "/Types/Pictures/The Definitive ANTLR Reference Book",
+  "pictureOf": {
+    "</types/books/The Definitive ANTLR Reference>": ""
+  },
+  "representations": {
+    "the_definitive_antlr_reference_book_cover_large.png.lnk.json": "",
+    "the_definitive_antlr_reference_book_cover_medium.png.lnk.json": "",
+    "the_definitive_antlr_reference_book_cover_preview.png.lnk.json": "",
+    "the_definitive_antlr_reference_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

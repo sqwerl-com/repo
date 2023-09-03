@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-06T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Caroline",
+  "instructed": {
+    "</types/courses/Learning the OWASP Top 10 2018>": ""
+  },
+  "lastName": "Wong",
+  "middleNameOrInitial": "",
+  "name": "Caroline Wong",
+  "path": "/Types/Authors/Caroline Wong"
+}

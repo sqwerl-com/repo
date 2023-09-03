@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Accessibility",
+  "path": "/Types/Tags/Accessibility",
+  "shortDescription": "Tag for things regarding how to design so everyone has equal access.",
+  "tagged": {
+    "</types/webPages/A Short Guide to Screen Reader Friendly Code>": "",
+    "</types/books/A Web for Everyone>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": "",
+    "</types/webPages/Accessibility for Visual Design>": "",
+    "</types/feeds/Ben Robertson>": "",
+    "</types/webPages/Improving the Color Accessibility for Color Blind Users>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": "",
+    "</types/webPages/The Inaccessible Web How We Got Into this Mess>": "",
+    "</types/webPages/tota11y>": "",
+    "</types/webPages/Understanding Layout for Screen Readers>": "",
+    "</types/webPages/W3C Web Content Accessibility Guidelines 2 1>": "",
+    "</types/webPages/Web Content Accessibility Guidelines>": "",
+    "</types/webPages/WebAIM>": ""
+  },
+  "text": "Accessibility"
+}

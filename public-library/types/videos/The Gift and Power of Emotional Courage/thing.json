@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Susan David>"
+  ],
+  "collections": {
+    "</types/collections/Life>": "",
+    "</types/collections/Psychology>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/books/Emotional Agility>": ""
+  },
+  "name": "The Gift and Power of Emotional Courage",
+  "path": "/Types/Videos/The Gift and Power of Emotional Courage",
+  "shortDescription": "",
+  "url": "https://www.ted.com/talks/susan_david_the_gift_and_power_of_emotional_courage",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

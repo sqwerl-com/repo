@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/William S Cleveland>",
+    "</types/authors/Robert McGill>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Graphical Perception",
+  "path": "/Types/Papers/Graphical Perception",
+  "shortDescription": "",
+  "title": "Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods"
+}

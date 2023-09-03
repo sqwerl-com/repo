@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Colossus>": "",
+    "</types/books/The Ascent of Money>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Niall",
+  "lastName": "Ferguson",
+  "middleNameOrInitial": "",
+  "name": "Niall Ferguson",
+  "path": "/Types/Authors/Niall Ferguson"
+}

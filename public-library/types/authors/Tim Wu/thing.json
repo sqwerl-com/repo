@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-20T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Master Switch>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Tim",
+  "lastName": "Wu",
+  "middleNameOrInitial": "",
+  "name": "Tim Wu",
+  "path": "/Types/Authors/Tim Wu"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "archived": true,
+  "books": {
+    "</types/books/Flex 4 Fun>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks/Adobe Flex>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Flex 4 Fun Book Site",
+  "path": "/Types/Web Pages/Flex 4 Fun Book Site",
+  "shortDescription": "",
+  "url": "http://booksites.artima.com/flex_4_fun"
+}

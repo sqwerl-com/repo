@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jesse James Garrett>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Elements of User Experience (2nd Edition)",
+  "notes": {
+    "</types/notes/The Elements of User Experience>": ""
+  },
+  "path": "/Types/Books/The Elements of User Experience (2nd Edition)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Elements of User Experience: User-Centered Design for the Web and Beyond (2nd Edition)"
+}

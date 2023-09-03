@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/Enterprise Computing/Frameworks/Spring/Spring Security>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Enterprise Computing/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Spring Framework",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Enterprise Computing/Frameworks/Spring Framework",
+  "shortDescription": ""
+}

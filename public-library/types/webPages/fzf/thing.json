@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for a command-line tool for performing fuzzy searches on file systems.",
+  "name": "fzf",
+  "path": "/Types/Web Pages/fzf",
+  "recommendedBy": {
+    "</types/videos/The Missing Semester of Your CS Education Lecture 2 Shell Tools and Scripting>": ""
+  },
+  "shortDescription": "GitHub home page for fuzzy-find command-line tool.",
+  "url": "https://github.com/junegunn/fzf"
+}

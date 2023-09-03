@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-02-28T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/authors/Douglas Crockford>": ""
+  },
+  "name": "Douglas Crockford: The Seif Project",
+  "path": "/Types/Videos/Douglas Crockford: The Seif Project",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=0w6tZEbrHIY",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

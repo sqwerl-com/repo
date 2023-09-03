@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Database Issues for Visualization Book",
+  "path": "/Types/Pictures/Database Issues for Visualization Book",
+  "pictureOf": {
+    "</types/books/Database Issues for Visualization>": ""
+  },
+  "representations": {
+    "database_issues_for_visualization_book_cover_large.png.lnk.json": "",
+    "database_issues_for_visualization_book_cover_medium.png.lnk.json": "",
+    "database_issues_for_visualization_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

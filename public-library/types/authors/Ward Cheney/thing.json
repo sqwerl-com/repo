@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-16T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Numerical Mathematics and Computing Second Edition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ward",
+  "lastName": "Cheney",
+  "middleNameOrInitial": "",
+  "name": "Ward Cheney",
+  "path": "/Types/Authors/Ward Cheney"
+}

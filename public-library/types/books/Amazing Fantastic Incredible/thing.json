@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Stan Lee>",
+    "</types/authors/Peter David>",
+    "</types/authors/Colleen Doran>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Amazing, Fantastic, Incredible",
+  "path": "/Types/Books/Amazing, Fantastic, Incredible",
+  "pictures": {
+    "</types/pictures/Amazing Fantastic Incredible Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Amazing, Fantastic, Incredible: A Marvelous Memoir"
+}

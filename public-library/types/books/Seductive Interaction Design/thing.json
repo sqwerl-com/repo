@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Stephen P Anderson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Seductive Interaction Design",
+  "notes": {
+    "</types/notes/Seductive Interaction Design>": ""
+  },
+  "path": "/Types/Books/Seductive Interaction Design",
+  "pictures": {
+    "</types/pictures/Seductive Interaction Design Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Seductive Interaction Design: Creating Playful, Fun, and Effective User Experiences"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/N K Gokul>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Understanding Promises in JavaScript",
+  "path": "/Types/Web Pages/Understanding Promises in JavaScript",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://betterprogramming.pub/understanding-promises-in-javascript-13d99df067c1"
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Marty Cagan>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Inspired",
+  "notes": {
+    "</types/notes/Inspired How to Create Products Customers Love>": ""
+  },
+  "path": "/Types/Books/Inspired",
+  "pictures": {
+    "</types/pictures/Inspired How to Create Products Customers Love Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Crossing the Chasm>": "",
+    "</types/webPages/Silicon Valley Product Group>": "",
+    "</types/books/The Inmates are Running the Asylum>": ""
+  },
+  "shortDescription": ""
+}

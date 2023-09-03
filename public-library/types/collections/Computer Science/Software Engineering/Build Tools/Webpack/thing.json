@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-06-27T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Start Your Own JavaScript Library Using Webpack and ES6>": "",
+    "</types/webPages/Webpack>": "",
+    "</types/webPages/Webpack from Apprentice to Master>": "",
+    "</types/webPages/webpack JavaScript bundler>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Build Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Webpack",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Build Tools/Webpack",
+  "shortDescription": "Things related to the Webpack JavaScript bundler."
+}

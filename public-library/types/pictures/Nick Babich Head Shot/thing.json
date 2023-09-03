@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Nick Babich Head Shot",
+  "path": "/types/pictures/Nick Babich Head Shot",
+  "pictureOf": {
+    "</types/authors/Nick Babich>": ""
+  },
+  "representations": {
+    "nick_babich_head_shot.jpeg.lnk.json": ""
+  }
+}

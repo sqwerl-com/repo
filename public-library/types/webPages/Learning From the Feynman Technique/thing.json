@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-07-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Taylor Pipes>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/authors/Richard P Feynman>": ""
+  },
+  "name": "Learning From the Feynman Technique",
+  "path": "/Types/Web Pages/Learning From the Feynman Technique",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.evernote.com/blog/2017/07/21/learning-from-the-feynman-technique/"
+}

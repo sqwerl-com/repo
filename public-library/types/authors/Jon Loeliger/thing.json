@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-06T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Version Control with Git Second Edition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jon",
+  "lastName": "Loeliger",
+  "middleNameOrInitial": "",
+  "name": "Jon Loeliger",
+  "path": "/Types/Authors/Jon Loeliger"
+}

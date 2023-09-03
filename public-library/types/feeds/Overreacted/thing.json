@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-04-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dan Abramov>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://overreacted.io/rss.xml",
+  "name": "Overreacted",
+  "path": "/Types/Feeds/Overreacted",
+  "shortDescription": "Dan Abramov's blog (creator of React and Redux).",
+  "webPage": "</types/webPages/Overreacted>"
+}

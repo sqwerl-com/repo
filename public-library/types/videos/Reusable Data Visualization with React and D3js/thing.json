@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Swizec Teller>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Reusable Data Visualization with React and D3.js",
+  "path": "/Types/Videos/Reusable Data Visualization with React and D3.js",
+  "recommendedBy": {
+    "</types/webPages/React Plus D3v4>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=UP1nCXG2t4M&feature=youtu.be",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

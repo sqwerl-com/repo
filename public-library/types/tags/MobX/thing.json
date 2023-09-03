@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-23T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the MobX web application store library.",
+  "name": "MobX",
+  "path": "/Types/Tags/MobX",
+  "shortDescription": "MobX store API for web applications",
+  "tagged": {
+    "</types/webPages/An Artificial Example where MobX Really Shines and Redux is not Really Suited For It>": "",
+    "</types/webPages/Becoming Fully Reactive An In Depth Explanation of MobX>": "",
+    "</types/webPages/How to Structure Your MobX App for the Real World>": "",
+    "</types/webPages/MobX Simple Scalable State Management for React>": "",
+    "</types/webPages/MobX Home Page>": "",
+    "</types/webPages/Redux or MobX An Attempt to Dissolve the Confusion>": "",
+    "</types/webPages/Redux vs MobX>": "",
+    "</types/webPages/The Fundamental Principles Behind MobX>": ""
+  },
+  "text": "MobX"
+}

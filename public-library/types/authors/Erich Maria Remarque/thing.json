@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-05-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/All Quiet on the Western Front>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Erich",
+  "lastName": "Remarque",
+  "middleNameOrInitial": "Maria",
+  "name": "Erich Maria Remarque",
+  "path": "/Types/Authors/Erich Maria Remarque"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-16T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Object Relational DBMSs The Next Great Wave>": "",
+    "</types/books/The Object Database Standard ODMG 93>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems>": "",
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Object-Oriented",
+  "path": "/Types/Collections/Computer Science/Database Systems/Object-Oriented",
+  "shortDescription": "Things related to object-oriented database management systems."
+}

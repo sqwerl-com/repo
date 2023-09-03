@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-12-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jakob Nielsen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Error Handling>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Error Message Guidelines",
+  "notes": {
+    "</types/notes/Error Message Guidelines>": ""
+  },
+  "path": "/Types/Web Pages/Error Message Guidelines",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Error Messages>": ""
+  },
+  "url": "https://www.nngroup.com/articles/error-message-guidelines/"
+}

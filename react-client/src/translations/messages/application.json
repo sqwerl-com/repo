@@ -1,0 +1,996 @@
+[
+  {
+    "id": "affirmative",
+    "defaultMessage": "Yes"
+  },
+  {
+    "id": "archived.field.label",
+    "defaultMessage": "Archived"
+  },
+  {
+    "id": "articlesSheet.pictureFieldTitle",
+    "defaultMessage": "Image"
+  },
+  {
+    "id": "articlesSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is an article'</span>' {connections}"
+  },
+  {
+    "id": "attendedBy.field.label",
+    "defaultMessage": "{count, plural, one {Attendee} other {Attendees '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "attending.field.label",
+    "defaultMessage": "{count, plural, one {Student} other {{count, number} Students}}"
+  },
+  {
+    "id": "author.field.label",
+    "defaultMessage": "{count, plural, one {Author} other {Authors '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "authorOf.field.label",
+    "defaultMessage": "Author of {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "authorOf",
+    "defaultMessage": " is the author of '<span class=\"sqwerl-read-only-field-label-count-inline\">'{authorOfCount, number}'</span>' {authorOfCount, plural, one {thing} other {things}}"
+  },
+  {
+    "id": "authorsSheet.pictureFieldTitle",
+    "defaultMessage": "Picture"
+  },
+  {
+    "id": "authorsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is an author'</span>' {connections}"
+  },
+  {
+    "id": "booksSheet.pictureFieldTitle",
+    "defaultMessage": "Cover"
+  },
+  {
+    "id": "booksSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a book'</span>' {connections}"
+  },
+  {
+    "id": "button.text",
+    "defaultMessage": "Button"
+  },
+  {
+    "id": "capabilities.field.label",
+    "defaultMessage": "{count, plural, one {Capability} other {Capabilities '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span'}}"
+  },
+  {
+    "id": "capabilitiesSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a capability'</span>' {connections}"
+  },
+  {
+    "id": "changesByDaySheet.multipleAuthorTitle",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'On {date}, {changedByCount, number} people changed'</span>' '<span class=\"sqwerl-properties-title-count\">'{changesCount, number}'</span>' '<span class=\"sqwerl-properties-title-content\">'{changesCount, plural, one {thing} other {things}}'</span>'"
+  },
+  {
+    "id": "changesByDaySheet.multipleAuthorTitleRelativeTime",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{when} ago, on {date},'</span> {changedByCount, number} people changed '<span class=\"sqwerl-properties-title-count\">'{changesCount, number}'</span>' '<span class=\"sqwerl-properties-title-content\">'{changesCount, plural, one {thing} other {things}}'</span>"
+  },
+  {
+    "id": "changesByDaySheet.singleAuthorTitle",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'On {date}, {changedBy} changed'</span>' '<span class=\"sqwerl-properties-title-count\">'{changesCount, number}'</span>' '<span class=\"sqwerl-properties-title-content\">'{changesCount, plural, one {thing} other {things}}'</span>'"
+  },
+  {
+    "id": "changesByDaySheet.singleAuthorTitleRelativeTime",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{when} ago, on {date}, {changedBy} changed'</span>' '<span class=\"sqwerl-properties-title-count\">'{changesCount, number}'</span>' '<span class=\"sqwerl-properties-title-content\">'{changesCount, plural, one {thing} other {things}}'</span>'"
+  },
+  {
+    "id": "changes-per-day-graph-axis-label-text",
+    "defaultMessage": "Number of Changes per Day"
+  },
+  {
+    "id": "childrenCount",
+    "defaultMessage": "{count, plural, one {'<span class=\"sqwerl-read-only-field-label-count\">'1'</span>'} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "collection.field.label",
+    "defaultMessage": "{count, plural, one {Collection} other {Collections '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "collectionsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a collection of things'</span>'"
+  },
+  {
+    "id": "completed.field.label",
+    "defaultMessage": "Finished"
+  },
+  {
+    "id": "connectionsCount",
+    "defaultMessage": " {count, plural, one {'<span class=\"sqwerl-properties-title-content\">'with'</span>' '<span class=\"sqwerl-properties-title-count\">'1'</span>' '<span class=\"sqwerl-properties-title-content\">'connection'</span>'} other {'<span class=\"sqwerl-properties-title-content\">'with'</span>' '<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' '<span class=\"sqwerl-properties-title-content\">'connections'</span>'}}"
+  },
+  {
+    "id": "count",
+    "defaultMessage": "{value, number}"
+  },
+  {
+    "id": "coursesSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a course'</span>' {connections}"
+  },
+  {
+    "id": "createAccountMenu.title",
+    "defaultMessage": "Start"
+  },
+  {
+    "id": "createAccountMenu.tooltipText",
+    "defaultMessage": "Create a Sqwerl account to keep track of and share the things that make you smart"
+  },
+  {
+    "id": "dateUserAddedThing",
+    "defaultMessage": "On {addedOn}, the user named '<a class=\"sqwerl-hyperlink-underline-on-hover\" href=\"addedByLink\">'{addedBy}'</a>' added {typeNameIsPlural, select, true {these} other {this}} {typeName}"
+  },
+  {
+    "id": "description.field.label",
+    "defaultMessage": "Description"
+  },
+  {
+    "id": "documentsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a document'</span>' {connections}"
+  },
+  {
+    "id": "emailField.ariaLabel",
+    "defaultMessage": "'Your email address'"
+  },
+  {
+    "id": "emailField.defaultInvalidEmailHint",
+    "defaultMessage": "Not a valid email address. Please fix."
+  },
+  {
+    "id": "emailField.missingAtSymbol",
+    "defaultMessage": "Missing @ symbol"
+  },
+  {
+    "id": "emailField.missingPeriodsAfterAtSymbol",
+    "defaultMessage": "Missing periods after @ symbol"
+  },
+  {
+    "id": "emailField.tooManyAtSymbols",
+    "defaultMessage": "Too many @ symbols"
+  },
+  {
+    "id": "enterFeedbackDialogAcceptButton.ariaLabel",
+    "defaultMessage": "Accept this dialog's contents and close (hide) the dialog"
+  },
+  {
+    "id": "enterFeedbackDialogAcceptButton.icon",
+    "defaultMessage": "'<span class='sqwerl-dialog-accept-icon ti-check'>''</span>'"
+  },
+  {
+    "id": "enterFeedbackDialogAcceptButton.title",
+    "defaultMessage": "Send feedback"
+  },
+  {
+    "id": "enterFeedbackDialogAcceptButton.tooltipText",
+    "defaultMessage": "Send your feedback"
+  },
+  {
+    "id": "enterFeedbackDialogCloseButton.tooltipText",
+    "defaultMessage": "Don't send feedback"
+  },
+  {
+    "id": "enterFeedbackDialogDiscardButton.ariaLabel",
+    "defaultMessage": "Don't send feedback."
+  },
+  {
+    "id": "enterFeedbackDialogDiscardButton.title",
+    "defaultMessage": "Don't send feedback"
+  },
+  {
+    "id": "enterFeedbackDialogDiscardButton.tooltipText",
+    "defaultMessage": "Close the Enter Feedback window and don't send feedback"
+  },
+  {
+    "id": "enterFeedbackDialogPrompt1.text",
+    "defaultMessage": "Give us a piece of your mind"
+  },
+  {
+    "id": "enterFeedbackDialogPrompt2.text",
+    "defaultMessage": "Tell us what you think about Sqwerl"
+  },
+  {
+    "id": "episodes.field.label",
+    "defaultMessage": "{count, plural, one {Episode} other {Episodes {count, number}}}"
+  },
+  {
+    "id": "facetsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a facet'</span>' {connections}"
+  },
+  {
+    "id": "feedbackMenuItem.subtitle",
+    "defaultMessage": "Tell us what you think about Sqwerl"
+  },
+  {
+    "id": "feedbackMenuItem.title",
+    "defaultMessage": "Send Feedback"
+  },
+  {
+    "id": "feeds.field.label",
+    "defaultMessage": "{count, plural, one {Feed} other {Feeds {count, number}}}"
+  },
+  {
+    "id": "feedsSheet.pictureFieldTitle",
+    "defaultMessage": "Picture"
+  },
+  {
+    "id": "feedUrl.label",
+    "defaultMessage": "Feed subscription"
+  },
+  {
+    "id": "feedsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a feed'</span>' {connections}"
+  },
+  {
+    "id": "firstName.field.label",
+    "defaultMessage": "First name"
+  },
+  {
+    "id": "groups.field.label",
+    "defaultMessage": "Is a member of {count, plural, one {the user group} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' user groups}}"
+  },
+  {
+    "id": "groupsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a group of people'</span>' {connections}"
+  },
+  {
+    "id": "hasAttended.field.label",
+    "defaultMessage": "Has attended {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "hasAttendedCount",
+    "defaultMessage": " has attended {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count-inline\">'1'</span>'} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "hasChildren",
+    "defaultMessage": " contains {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' thing} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "hasListenedTo.field.label",
+    "defaultMessage": "Has listened to {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "hasRead.field.label",
+    "defaultMessage": "Has read {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "hasReadCount",
+    "defaultMessage": " has read '<span class=\"sqwerl-read-only-field-label-count-inline\">'{hasReadCount, number}'</span>' {hasReadCount, plural, one {thing} other {things}}"
+  },
+  {
+    "id": "hasSameTagCount",
+    "defaultMessage": "'<span class=\"sqwerl-read-only-field-label-count-inline\">'{taggedCount, number}'</span>' {taggedCount, plural, one {thing has the same tag} other {things have the same tag}}"
+  },
+  {
+    "id": "hasViewed.field.label",
+    "defaultMessage": "Has viewed {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "hasViewedCount",
+    "defaultMessage": " has viewed {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "helpMenuItem.subtitle",
+    "defaultMessage": "Show me the instructions"
+  },
+  {
+    "id": "helpMenuItem.title",
+    "defaultMessage": "Help"
+  },
+  {
+    "id": "helpViewer.search.tooltipText",
+    "defaultMessage": "Search help information"
+  },
+  {
+    "id": "helpViewer.searchField.defaultPromptText",
+    "defaultMessage": "Search help"
+  },
+  {
+    "id": "helpViewer.searchField.tooltipText",
+    "defaultMessage": "Type the text you want to search for in {searchDomainName}"
+  },
+  {
+    "id": "history.field.label",
+    "defaultMessage": "History"
+  },
+  {
+    "id": "homeSheet.busyMessage",
+    "defaultMessage": "Loading activity history..."
+  },
+  {
+    "id": "homeSheet.changePasswordWarning",
+    "defaultMessage": "If you did not sign in at that time, change your password now! Someone may have accessed your account without your permission."
+  },
+  {
+    "id": "homeSheet.changesDetailsTitleSingleAuthorAndTime",
+    "defaultMessage": "On {date} at {time}, {who} changed '<span class=\"sqwerl-database-changes-count\">'{changeCount}'</span>' {changeCount, plural, one {thing} other {things}}"
+  },
+  {
+    "id": "homeSheet.changesDetailsTitleSingleAuthorMultipleTimes",
+    "defaultMessage": "On {date}, {who} changed '<span class=\"sqwerl-database-changes-count\">'{changeCount}'</span>' {changeCount, plural, one {thing} other {things}}"
+  },
+  {
+    "id": "homeSheet.changesGraphIntroduction",
+    "defaultMessage": "The following chart shows the number of changes made to {libraryName} in the past 30 days."
+  },
+  {
+    "id": "homeSheet.createAccountLinkText",
+    "defaultMessage": "Sign up now"
+  },
+  {
+    "id": "homeSheet.guestWelcome",
+    "defaultMessage": "'<p>'Welcome to Sqwerl'</p>"
+  },
+  {
+    "id": "homeSheet.homeViewChanges.collapseTooltip",
+    "defaultMessage": "Hide detailed description of changes"
+  },
+  {
+    "id": "homeSheet.homeViewChanges.expandTooltip",
+    "defaultMessage": "Show detailed description of changes"
+  },
+  {
+    "id": "homeSheet.homeViewChangesHideChangesText",
+    "defaultMessage": "less"
+  },
+  {
+    "id": "homeSheet.homeViewChangesShowChangesText",
+    "defaultMessage": "more..."
+  },
+  {
+    "id": "homeSheet.lastSignedInAt",
+    "defaultMessage": "You last signed in {from} ago on {day} at {at}."
+  },
+  {
+    "id": "homeSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'contains'</span>' {count, plural, one {'<span class=\"sqwerl-properties-title-count\">'1'</span>' '<span class=\"sqwerl-properties-title-content\">'thing'</span>'} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' '<span class=\"sqwerl-properties-title-content\">'things'</span>'}}"
+  },
+  {
+    "id": "homeSheet.userWelcome",
+    "defaultMessage": "Welcome back {userName}."
+  },
+  {
+    "id": "homeSheet.you",
+    "defaultMessage": "<i>you</i>"
+  },
+  {
+    "id": "instructed",
+    "defaultMessage": "has instructed {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' course} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' courses}}"
+  },
+  {
+    "id": "instructed.field.label",
+    "defaultMessage": "Instructed {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' courses}}"
+  },
+  {
+    "id": "instructor.field.label",
+    "defaultMessage": "{count, plural, one {Instructor} other {Instructors '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "isA",
+    "defaultMessage": "is a {name}"
+  },
+  {
+    "id": "isAccount",
+    "defaultMessage": "is an {typeName}"
+  },
+  {
+    "id": "isArticle",
+    "defaultMessage": "is an {typeName}"
+  },
+  {
+    "id": "isAttending",
+    "defaultMessage": " is attending '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' {count, plural, one {course} other {courses}}"
+  },
+  {
+    "id": "isAttending.field.label",
+    "defaultMessage": "Currently attending {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "isAuthor",
+    "defaultMessage": "is an {typeName}"
+  },
+  {
+    "id": "isAuthored",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isBook",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isCapability",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isCollectable",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isCollection",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isCourse",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isDepictable",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isDocument",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isFeed",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isGroup",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isFacet",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isLibrary",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isLinkable",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isNotable",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isNotes",
+    "defaultMessage": "are {typeName}"
+  },
+  {
+    "id": "isPaper",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isPodcast",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isProject",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isReadable",
+    "defaultMessage": "is {typeName}"
+  },
+  {
+    "id": "isReading",
+    "defaultMessage": " is currently reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "isReading.field.label",
+    "defaultMessage": "Currently reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "isRecommendable",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isRole",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isTag",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isTagged",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isTalk",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isTitled",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isTypeOfThing",
+    "defaultMessage": "is a type of thing"
+  },
+  {
+    "id": "isUser",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isVideo",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isView",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isViewable",
+    "defaultMessage": "is a facet"
+  },
+  {
+    "id": "isWeb page",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "lastName.field.label",
+    "defaultMessage": "Last name"
+  },
+  {
+    "id": "librariesSheet.detailsTable.nameColumn.text",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "librariesSheet.detailsTable.nameColumn.tooltip",
+    "defaultMessage": "Changed things' names"
+  },
+  {
+    "id": "librariesSheet.detailsTable.typeColumn.text",
+    "defaultMessage": "Type"
+  },
+  {
+    "id": "librariesSheet.detailsTable.typeColumn.tooltip",
+    "defaultMessage": "Names of the changed things' types"
+  },
+  {
+    "id": "librariesSheet.detailsTable.typeOfChangeColumn.text",
+    "defaultMessage": "Change"
+  },
+  {
+    "id": "librariesSheet.detailsTable.typeOfChangeColumn.tooltip",
+    "defaultMessage": "How things were last changed"
+  },
+  {
+    "id": "librariesSheet.numberChangesAtTimeTitle",
+    "defaultMessage": "At {time} {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count\">'1'</span>' thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}} changed"
+  },
+  {
+    "id": "library.change.date",
+    "defaultMessage": "on {date}"
+  },
+  {
+    "id": "library.change.from-now",
+    "defaultMessage": "made {timestamp} ago"
+  },
+  {
+    "id": "library.changes.count",
+    "defaultMessage": "{count, plural, one {{count, number} change} other {{count, number} changes}}"
+  },
+  {
+    "id": "library.summarized.changes.title",
+    "defaultMessage": "'<span class=\"sqwerl-change-summary-link-text\">'At {timeOfDay}'</span>' {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' '<span class=\"sqwerl-change-summary-link-text\">' things}} changed'</span>'"
+  },
+  {
+    "id": "library.changes.y-axis.title",
+    "defaultMessage": "Changes Per Day"
+  },
+  {
+    "id": "library.summarized.changes.title.with.author",
+    "defaultMessage": "{by} changed {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}} at {timeOfDay}"
+  },
+  {
+    "id": "librarySheet.libraryChangesMultipleAuthorsTitle",
+    "defaultMessage": "On {on}, {authorsCount} people changed '<span class=\"sqwerl-read-only-field-label-count\">'{count}'</span>' {things}"
+  },
+  {
+    "id": "librarySheet.libraryChangesMultipleAuthorsTitleRelativeTime",
+    "defaultMessage": "{when} ago, on {on}, {authorsCount} people changed '<span class=\"sqwerl-library-changes-title-change-count\">'{count}'</span>' {things}"
+  },
+  {
+    "id": "librarySheet.libraryChangesSingleAuthorTitle",
+    "defaultMessage": "On {on}, {who} changed '<span class=\"sqwerl-library-changes-title-change-count\">'{count, number}'</span>' {things}"
+  },
+  {
+    "id": "librarySheet.libraryChangesSingleAuthorTitleRelativeTime",
+    "defaultMessage": "{when} ago, on {on}, {who} changed '<span class=\"sqwerl-library-changes-title-change-count\">'{count, number}'</span>' {things}"
+  },
+  {
+    "id": "links.field.label",
+    "defaultMessage": "Linked to {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "linksCount",
+    "defaultMessage": " linked to {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count-inline\">'1'</span>' thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "listeners.field.label",
+    "defaultMessage": "{count, plural, one {Listener} other {Listeners {count, number}}}"
+  },
+  {
+    "id": "loading",
+    "defaultMessage": "loading"
+  },
+  {
+    "id": "middleNameOrInitial.field.label",
+    "defaultMessage": "Middle name or initial"
+  },
+  {
+    "id": "moreMenu.title",
+    "defaultMessage": "More..."
+  },
+  {
+    "id": "moreMenu.tooltipText",
+    "defaultMessage": "View more options"
+  },
+  {
+    "id": "navigationBack.defaultText",
+    "defaultMessage": "Back"
+  },
+  {
+    "id": "navigationTitleBarText.count",
+    "defaultMessage": "{itemCount, number}"
+  },
+  {
+    "id": "negative",
+    "defaultMessage": "No"
+  },
+  {
+    "id": "notes.field.label",
+    "defaultMessage": "{notesCount, plural, one {Notes} other {Notes}}"
+  },
+  {
+    "id": "notesFor.field.label",
+    "defaultMessage": "{count, plural, one {Notes for} other {Notes for '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "notesSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'are notes'</span>' {connections}"
+  },
+  {
+    "id": "owns.field.label",
+    "defaultMessage": "Owns {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "papersSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a paper'</span>' {connections}"
+  },
+  {
+    "id": "parentGroup.field.label",
+    "defaultMessage": "Parent group"
+  },
+  {
+    "id": "pictureOf.field.label",
+    "defaultMessage": "Picture of {count, plural, one {} other {'<span class=\\\"sqwerl-read-only-field-label-count\\\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "picturesSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a picture'</span>' {connections}"
+  },
+  {
+    "id": "podcastsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a podcast'</span>' {connections}"
+  },
+
+  {
+    "id": "posts.field.label",
+    "defaultMessage": "{count, plural, one {Post} other {Posts {count, number}}}"
+  },
+
+  {
+    "id": "projectsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a project'</span>' {connections}"
+  },
+  {
+    "id": "propertySheet.authorOf.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} is the author of {count, plural, one {thing} other {{count, number} things}}'</span>'"
+  },
+  {
+    "id": "propertySheet.authors.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} has {count, plural, one {author} other {{count, number} authors}}'</span>'"
+  },
+  {
+    "id": "propertySheet.hasAttended.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} has attended {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>'"
+  },
+  {
+    "id": "propertySheet.hasListenedTo.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} has listened to {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>"
+  },
+  {
+    "id": "propertySheet.hasRead.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} has read {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>'"
+  },
+  {
+    "id": "propertySheet.hasViewed.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} has viewed {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>'"
+  },
+  {
+    "id": "propertySheet.isAttending.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} is attending {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>'"
+  },
+  {
+    "id": "propertySheet.isReading.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} is currently reading {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>'"
+  },
+  {
+    "id": "propertySheet.links.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} is linked to {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>"
+  },
+  {
+    "id": "propertySheet.recommendations.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} recommends {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>'"
+  },
+  {
+    "id": "propertySheet.tagged.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number} things}}'</span>' have been tagged with {name}'</span>"
+  },
+  {
+    "id": "readBy.field.label",
+    "defaultMessage": "Read by {count, plural, one {} other {{count, number} people}}"
+  },
+  {
+    "id": "readers.field.label",
+    "defaultMessage": "{count, plural, one {Reader} other {Readers {count, number}}}"
+  },
+  {
+    "id": "recommendations.field.label",
+    "defaultMessage": "Recommends {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "recommendedBy.field.label",
+    "defaultMessage": "Recommended by {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "roles.field.label",
+    "defaultMessage": "{count, plural, one {Role} other {Roles {count, number}}}"
+  },
+  {
+    "id": "rolesSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a security role'</span>' {connections}"
+  },
+  {
+    "id": "representations.field.label",
+    "defaultMessage": "{count, plural, one {Digital copy} other {Digital copies '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "searchField.defaultText",
+    "defaultMessage": "Search"
+  },
+  {
+    "id": "searchField.searchingMessage",
+    "defaultMessage": "Searching..."
+  },
+  {
+    "id": "searchField.tooltipText",
+    "defaultMessage": "Type the text you want to search for in {searchDomainName}"
+  },
+  {
+    "id": "searchMenu.searchResults.closeButton.text",
+    "defaultMessage": "Quit searching"
+  },
+  {
+    "id": "searchMenu.searchResults.foundInMoreThanOneProperty",
+    "defaultMessage": "Found in {propertyCount} properties:"
+  },
+  {
+    "id": "searchMenu.searchResults.foundOneMatchingPropertyPrefix",
+    "defaultMessage": "Found in: "
+  },
+  {
+    "id": "searchMenu.searchResults.linkColumnTitle",
+    "defaultMessage": "Links"
+  },
+  {
+    "id": "searchMenu.searchResults.linkColumnTitle.tooltipText",
+    "defaultMessage": "Number of links matching things have to other things"
+  },
+  {
+    "id": "searchMenu.searchResults.searchResult.thumbnail.alternateText",
+    "defaultMessage": "Small image that depicts the {typeName} named {name}"
+  },
+  {
+    "id": "searchMenu.searchResults.searchResultsNothingFound.descriptionText",
+    "defaultMessage": "<p class=\"sqwerl-search-error-description\">Please try the following:</p><ul class=\"sqwerl-search-error-description-list\"><li class=\"sqwerl-search-error-description-list-item\"><span class=\"sqwerl-search-error-description-list-item-heading\">Check your spelling:</span> Make sure you haven't misspelled what you're looking for</li><li class=\"sqwerl-search-error-description-list-item\"><span class=\"sqwerl-search-error-description-list-item-heading\">Be more specific:</span> Add more text, focus on exactly what you want to find</li></ul><div class=\"sqwerl-search-error-description\">then search again</div>"
+  },
+  {
+    "id": "searchMenu.searchResults.searchResultsNothingFound.titleText",
+    "defaultMessage": "Sqwerl did not find any matches"
+  },
+  {
+    "id": "searchMenu.searchResults.thingColumnTitle",
+    "defaultMessage": "Found '<span class=\"sqwerl-search-found-item-count\">'{total, number}'</span>' {total, plural, one {thing} other {things}}"
+  },
+  {
+    "id": "searchMenu.searchResults.thingColumnTitle.tooltipText",
+    "defaultMessage": "Heading cell of a table column that contains descriptions of the things that matched the search text. Click on the heading cell to sort the found things by name."
+  },
+  {
+    "id": "searchMenu.searchResults.searchResultsTooManyFound.descriptionText",
+    "defaultMessage": "<p class=\"sqwerl-search-error-description\">The number of matches is greater than the number that Sqwerl can retrieve and display here.</p><p class=\"sqwerl-search-error-description\">See if you can narrow your results.</p><ul class=\"sqwerl-search-error-description-list\"><li class=\"sqwerl-search-error-description-list-item\"><span class=\"sqwerl-search-error-description-list-item-heading\">Check your spelling:</span> Make sure you haven't misspelled what you're looking for</li><li class=\"sqwerl-search-error-description-list-item\"><span class=\"sqwerl-search-error-description-list-item-heading\">Be more specific:</span> Add more text, focus on exactly what you want to find</li></ul><p class=\"sqwerl-search-error-description\"> then try again</p>"
+  },
+  {
+    "id": "searchMenu.searchResults.searchResultsTooManyFound.titleText",
+    "defaultMessage": "Sqwerl found too many matches"
+  },
+  {
+    "id": "searchMenu.searchResults.typeColumnTitle",
+    "defaultMessage": "Type"
+  },
+  {
+    "id": "searchMenu.searchResults.typeColumnTitle.tooltipText",
+    "defaultMessage": "Heading cell of a table column that contains the names of the types of things that match the search text. Click on the heading cell to sort the found things by type."
+  },
+  {
+    "id": "searchMenu.tooltipText",
+    "defaultMessage": "Search {searchDomainName}"
+  },
+  {
+    "id": "shortDescription.field.label",
+    "defaultMessage": "Short description"
+  },
+  {
+    "id": "signInMenu.emailField.badEmailHintText",
+    "defaultMessage": "Bad email address. Please fix."
+  },
+  {
+    "id": "signInMenu.emailField.label",
+    "defaultMessage": "Email"
+  },
+  {
+    "id": "signInMenu.emailField.missingEmailHintText",
+    "defaultMessage": "You must enter your email address"
+  },
+  {
+    "id": "signInMenu.emailField.typo1",
+    "defaultMessage": "Did you mean '<span class=\"typo\">'{suspectText}'</span>'.'<span class=\"correction\">'com'</span>'"
+  },
+  {
+    "id": "signInMenu.emailField.typo2",
+    "defaultMessage": "Did you mean '<span class=\"typo\">'{suspectText}'</span>'.'<span class=\"correction\">'org'</span>'?"
+  },
+  {
+    "id": "signInMenu.emailField.typo3",
+    "defaultMessage": "Did you mean '<span class=\"typo\">'{suspectText}.'</span>''<span class=\"correction\">'net'</span>'?"
+  },
+  {
+    "id": "signInMenu.emailField.typo4",
+    "defaultMessage": "Did you mean '<span class=\"typo\">'{suspectText}.'</span>''<span class=\"correction\">'net'</span>'?"
+  },
+  {
+    "id": "signInMenu.emailField.typo5",
+    "defaultMessage": "Did you mean '<span class=\"typo\">'{suspectText}'</span>''<span class=\"correction\">'gmail'</span>'{suggestedText}'</span>'"
+  },
+  {
+    "id": "signInMenu.title",
+    "defaultMessage": "Sign in"
+  },
+  {
+    "id": "signInMenu.tooltipText",
+    "defaultMessage": "Sign in to your existing Sqwerl account\nto see the things that make you smart"
+  },
+  {
+    "id": "speakers.field.label",
+    "defaultMessage": "{count, plural, one {Speaker} other {Speakers '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "spokeAt.field.label",
+    "defaultMessage": "Spoke at {count, plural, one {} other {{count, number} things}}"
+  },
+  {
+    "id": "sqwerlLogo.altText",
+    "defaultMessage": "Sqwerl logo"
+  },
+  {
+    "id": "sqwerlLogo.ariaLabel",
+    "defaultMessage": "Go to the Sqwerl home page"
+  },
+  {
+    "id": "sqwerl-logo-tooltip",
+    "defaultMessage": "Go to the Sqwerl web site"
+  },
+  {
+    "id": "subgroups.field.label",
+    "defaultMessage": "{count, plural, one {Subgroup} other {Subgroups '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "tagged.field.label",
+    "defaultMessage": "Tagged {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "tags.field.label",
+    "defaultMessage": "{tagsCount, plural, one {Tag} other {Tags '<span class=\"sqwerl-read-only-field-label-count\">'{tagsCount, number}'</span>'}}"
+  },
+  {
+    "id": "tagsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a text tag'</span>' {connections}"
+  },
+  {
+    "id": "talksSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a talk'</span>' {connections}"
+  },
+  {
+    "id": "thingPlural",
+    "defaultMessage": "things"
+  },
+  {
+    "id": "thingSingular",
+    "defaultMessage": "thing"
+  },
+  {
+    "id": "toggleThemeMenuItem.subtitle",
+    "defaultMessage": "Change colors to light or dark"
+  },
+  {
+    "id": "toggleThemeMenuItem.title",
+    "defaultMessage": "Light or Dark"
+  },
+  {
+    "id": "typeOfChange.added",
+    "defaultMessage": "Added"
+  },
+  {
+    "id": "typeOfChange.deleted",
+    "defaultMessage": "Removed"
+  },
+  {
+    "id": "typeOfChange.modified",
+    "defaultMessage": "Modified"
+  },
+  {
+    "id": "typeOfChange.unknown",
+    "defaultMessage": "Unknown"
+  },
+  {
+    "id": "typeOfThing",
+    "defaultMessage": " type of thing"
+  },
+  {
+    "id": "typesSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'are a type of thing'</span>'"
+  },
+  {
+    "id": "users.field.label",
+    "defaultMessage": "{count, plural, one {User} other {Users '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+  },
+  {
+    "id": "usersSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a user'</span>' {connections}"
+  },
+  {
+    "id": "videosSheet.noUrl.title",
+    "defaultMessage": "{name} '<span class=\"sqwerl-properties-title-content\">'is a video'</span>' {connections}"
+  },
+  {
+    "id": "videosSheet.title",
+    "defaultMessage": "'<a class=\"sqwerl-properties-title-inline-link\" href=\"url\">'{name}'</a>' {linkIcon} '<span class=\"sqwerl-properties-title-content\">'is a video'</span>' {connections}"
+  },
+  {
+    "id": "viewedBy.field.label",
+    "defaultMessage": "Viewed by {count, plural, one {} other {{count, number} users}}"
+  },
+  {
+    "id": "viewsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a view'</span>' {connections}"
+  },
+  {
+    "id": "webPage.label",
+    "defaultMessage": "Web page"
+  },
+  {
+    "id": "webPages.field.label",
+    "defaultMessage": "{count, plural, one {Web Page} other {Web pages {count, number}}}"
+  },
+  {
+    "id": "webPagesSheet.noUrl.title",
+    "defaultMessage": "{name} '<span class=\"sqwerl-properties-title-content\">'is a web page'</span>' {connections}"
+  },
+  {
+    "id": "webPagesSheet.pictureFieldTitle",
+    "defaultMessage": "Picture"
+  },
+  {
+    "id": "webPagesSheet.title",
+    "defaultMessage": "'<a class=\"sqwerl-properties-title-inline-link\" href=\"url\">'{name}'</a>' {linkIcon} '<span class=\"sqwerl-properties-title-content\">'is a web page'</span>' {connections}"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Anurag Mendhekar>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Lisp>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why I Still 'Lisp' (and You Should Too)",
+  "path": "/Types/Web Pages/Why I Still 'Lisp' (and You Should Too)",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/papers/Notions of Computation and Monads>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/better-programming/why-i-still-lisp-and-you-should-too-18a2ae36bd8"
+}

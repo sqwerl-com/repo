@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Clean Architecture Book",
+  "path": "/Types/Pictures/Clean Architecture Book",
+  "pictureOf": {
+    "</types/books/Clean Architecture>": ""
+  },
+  "representations": {
+    "clean_architecture_book_cover_large.lnk.json": "",
+    "clean_architecture_book_cover_medium.lnk.json": "",
+    "clean_architecture_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

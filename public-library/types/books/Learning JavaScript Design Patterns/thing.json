@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-03-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Addy Osmani>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Learning JavaScript Design Patterns",
+  "path": "/Types/Books/Learning JavaScript Design Patterns",
+  "pictures": {
+    "</types/pictures/Learning JavaScript Design Patterns Book>": ""
+  },
+  "shortDescription": "",
+  "webPages": {
+    "</types/webPages/Learning JavaScript Design Patterns>": ""
+  }
+}

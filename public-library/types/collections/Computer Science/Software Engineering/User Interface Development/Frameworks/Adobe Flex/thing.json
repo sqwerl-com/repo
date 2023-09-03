@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Flex 4 Fun>": "",
+    "</types/webPages/Flex 4 Fun>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Adobe Flex",
+  "path": "/Types/Collections/Computer Science/Software Engineering/User Interface Development/UI Frameworks/Adobe Flex",
+  "shortDescription": ""
+}

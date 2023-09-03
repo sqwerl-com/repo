@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the Docker container system.",
+  "name": "Docker",
+  "path": "/Types/Tags/Docker",
+  "shortDescription": "Things related to Docker.",
+  "tagged": {
+    "</types/courses/Docker and Kubernetes The Big Picture>": "",
+    "</types/webPages/Docker and Kubernetes The Big Picture>": "",
+    "</types/courses/Getting Started with Docker>": "",
+    "</types/webPages/Getting Started with Docker>": ""
+  },
+  "text": "Docker"
+}

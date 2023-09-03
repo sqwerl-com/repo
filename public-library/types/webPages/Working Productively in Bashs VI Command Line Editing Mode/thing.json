@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-06-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Peteris Krumins>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/good coders great reuse>": ""
+  },
+  "name": "Working Productively in Bash's VI Command Line Editing Mode",
+  "path": "/Types/Web Pages/Working Productively in Bash's VI Command Line Editing Mode",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Working Productively in Bash's VI Command Line Editing Mode (with Cheat Sheet)",
+  "url": "http://www.catonmat.net/blog/bash-vi-editing-mode-cheat-sheet/"
+}

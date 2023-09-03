@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "System administration for Unix-based systems.",
+  "feedUrl": "http://feeds.cyberciti.biz/Nixcraft-LinuxFreebsdSolarisTipsTricks",
+  "items": {
+    "</types/webPages/20 Linux Server Hardening Security Tips>": "",
+    "</types/webPages/30 Linux System Monitoring Tools Every SysAdmin Should Know>": "",
+    "</types/webPages/Bash History Correct Repeat The Last Command With a Substitution>": "",
+    "</types/webPages/UNIX Linux PGP TarBall File Signature Keys Verification>": ""
+  },
+  "name": "nixCraft",
+  "path": "/Types/Feeds/nixCraft",
+  "shortDescription": ""
+}

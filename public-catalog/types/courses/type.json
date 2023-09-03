@@ -1,0 +1,137 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Instructional courses.",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/collectable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/notable>": "",
+    "</types/facets/taggable>": "",
+    "</types/facets/titled>": ""
+  },
+  "name": "Courses",
+  "path": "/Types/Courses",
+  "properties": {
+    "attendedBy": {
+      "description": "People who attended a course.",
+      "inverse": "hasAttended",
+      "shortDescription": "Attended by",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "attending": {
+      "description": "People currently attending a course.",
+      "inverse": "isAttending",
+      "shortDescription": "Currently attending",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    },
+    "collections": {
+      "description": "Collections a course belongs to.",
+      "inverse": "children",
+      "shortDescription": "Collections",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/collections>": ""
+      }
+    },
+    "description": {
+      "description": "Text that describes a course.",
+      "name": "Description",
+      "shortDescription": "A course's description.",
+      "type": "text"
+    },
+    "instructors": {
+      "description": "The course's instructors. The individuals who taught the course.",
+      "inverse": "instructed",
+      "name": "Instructors",
+      "shortDescription": "Course instructors.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/authors>": ""
+      }
+    },
+    "links": {
+      "description": "Links to things related to a course.",
+      "inverse": "links",
+      "name": "Links",
+      "required": false,
+      "shortDescription": "Links to related things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</type>": ""
+      }
+    },
+    "name": {
+      "description": "A course's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A course's name.",
+      "type": "text"
+    },
+    "notes": {
+      "description": "Notes about a course.",
+      "inverse": "notesFor",
+      "shortDescription": "Notes",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/notes>": ""
+      }
+    },
+    "recommendations": {
+      "description": "Related things that this course recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that this course suggests to look at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "recommendedBy": {
+      "description": "Related things that have recommended that this course be looked at.",
+      "inverse": "recommendations",
+      "shortDescription": "Things that have recommended this course.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "tags": {
+      "description": "Key words or phrases that describe a course.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    }
+  },
+  "shortDescription": "Educational courses.",
+  "singularName": "Course"
+}

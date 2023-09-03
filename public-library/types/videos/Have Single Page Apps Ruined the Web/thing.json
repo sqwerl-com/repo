@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rich Harris>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Svelte>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Have Single-Page Apps Ruined the Web?",
+  "path": "/Types/Videos/Have Single-Page Apps Ruined the Web?",
+  "recommendations": {
+    "</types/webPages/HUDS and GUIs>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=860d8usGC0o",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

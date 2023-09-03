@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-10-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Brain Rules>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "John",
+  "lastName": "Medina",
+  "middleNameOrInitial": "",
+  "name": "John Medina",
+  "path": "/Types/Authors/John Medina"
+}

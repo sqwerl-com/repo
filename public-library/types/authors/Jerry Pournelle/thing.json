@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-04T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Footfall>": "",
+    "</types/books/Lucifers Hammer>": "",
+    "</types/books/Oath of Fealty>": "",
+    "</types/books/The Legacy of Heorot>": "",
+    "</types/books/The Mote in Gods Eye>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jerry",
+  "lastName": "Pournelle",
+  "middleNameOrInitial": "",
+  "name": "Jerry Pournelle",
+  "path": "/Types/Authors/Jerry Pournelle"
+}

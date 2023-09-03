@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Hoa Loranger>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Beyond Blue Links",
+  "notes": {
+    "</types/notes/Beyond Blue Links>": ""
+  },
+  "path": "/Types/Web Pages/Beyond Blue Links",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Long Term Exposure to Flat Design>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Flat design>": ""
+  },
+  "title": "Beyond Blue Links: Making Clickable Elements Recognizable",
+  "url": "http://www.nngroup.com/articles/clickable-elements/"
+}

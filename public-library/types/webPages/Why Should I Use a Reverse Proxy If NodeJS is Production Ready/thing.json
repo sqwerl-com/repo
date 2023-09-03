@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-05-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Thomas Hunter II>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why Should I Use a Reverse Proxy If Node.js Is Production Ready?",
+  "path": "/Types/Web Pages/Why Should I Use a Reverse Proxy If Node.js Is Production Ready?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/NGINX>": "",
+    "</types/tags/NodeJS>": ""
+  },
+  "url": "https://medium.com/intrinsic/why-should-i-use-a-reverse-proxy-if-node-js-is-production-ready-5a079408b2ca"
+}

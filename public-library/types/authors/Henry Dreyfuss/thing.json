@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Designing for People>": "",
+    "</types/books/Symbol Sourcebook>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Henry",
+  "lastName": "Dreyfuss",
+  "middleNameOrInitial": "",
+  "name": "Henry Dreyfuss",
+  "path": "/Types/Authors/Henry Dreyfuss"
+}

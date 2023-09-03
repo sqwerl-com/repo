@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/J H Saltzer>",
+    "</types/authors/D P Reed>",
+    "</types/authors/D D Clark>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "End-to-End Arguments in System Design",
+  "path": "/Types/Papers/End-to-End Arguments in System Design",
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

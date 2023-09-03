@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tonino Jankov>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is HTTP/3 - Lowdown on the Fast New UDP-Based Protocol",
+  "path": "/Types/Web Pages/What is HTTP/3 - Lowdown on the Fast New UDP-Based Protocol",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://kinsta.com/blog/http3/"
+}

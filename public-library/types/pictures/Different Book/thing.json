@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-18T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Different Book",
+  "path": "/Types/Pictures/Different Book",
+  "pictureOf": {
+    "</types/books/Different>": ""
+  },
+  "representations": {
+    "different_book_cover_large.lnk.json": "",
+    "different_book_cover_medium.lnk.json": "",
+    "different_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

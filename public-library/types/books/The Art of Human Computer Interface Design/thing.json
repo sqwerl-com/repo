@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Art of Human-Computer Interface Design",
+  "path": "/Types/Books/The Art of Human-Computer Interface Design",
+  "pictures": {
+    "</types/pictures/The Art of Human Computer Interface Design Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

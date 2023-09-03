@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-14T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/What is NextJS>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "NextJS",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NextJS",
+  "shortDescription": "Items regarding the NextJS framework for server-side React application development."
+}

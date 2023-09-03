@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-12-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Charles Petzold>"
+  ],
+  "collections": {
+     "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/authors/A M Turing>": "",
+    "</types/papers/On Computable Numbers with an Application to the Entscheidungsproblem>": ""
+  },
+  "name": "The Annotated Turing",
+  "path": "/Types/Books/The Annotated Turing",
+  "pictures": {
+    "</types/pictures/The Annotated Turing Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/videos/Uncle Bob Martin The Future of Programming>": ""
+  },
+  "shortDescription": "",
+  "title": "The Annotated Turing: A Guided Tour through Alan Turing's Historic Paper on Computability and the Turing Machine"
+}

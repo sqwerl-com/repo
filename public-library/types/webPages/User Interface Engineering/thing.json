@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/UIE Brain Sparks>": ""
+  },
+  "name": "User Interface Engineering",
+  "path": "/Types/Web Pages/User Interface Engineering",
+  "recommendedBy": {
+    "</types/webPages/9 Essential Resources for User Interface Designers>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.uie.com/"
+}

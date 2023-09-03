@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-12-31T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Svelte>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Svelte Home Page",
+  "path": "/Types/Web Pages/Svelte Home Page",
+  "recommendedBy": {
+    "</types/webPages/Why Svelte Wont Kill React>": ""
+  },
+  "shortDescription": "Home page for the Svelte JavaScript UI framework.",
+  "url": "https://svelte.dev/"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/UNIX A History and a Memoir>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Brian",
+  "lastName": "Kernighan",
+  "links": {
+    "</types/videos/Brian Kernighan UNIX C AWK AMPL and Go Programming>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Brian Kernighan",
+  "path": "/Types/Authors/Brian Kernighan"
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sebastian Markbage>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React Performance End to End",
+  "path": "/Types/Web Pages/React Performance End to End",
+  "recommendedBy": {
+    "</types/webPages/React Fiber Explained>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=bvFpe5j9-zQ&list=PLb0IAmt7-GS0kj3saZuh4vzfldxEdH5RH&index=5"
+}
+

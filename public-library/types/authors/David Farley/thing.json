@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-14T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Continuous Delivery>": "",
+    "</types/webPages/Continuous Delivery YouTube Channel>": "",
+    "</types/videos/How to Be a Full Stack Developer in 2022>": "",
+    "</types/books/Modern Software Engineering>": "",
+    "</types/videos/Object Oriented Programming Versus Functional Programming>": "",
+    "</types/videos/The Problem with Microservices>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "David",
+  "lastName": "Farley",
+  "middleNameOrInitial": "",
+  "name": "David Farley",
+  "path": "/Types/Authors/David Farley"
+}

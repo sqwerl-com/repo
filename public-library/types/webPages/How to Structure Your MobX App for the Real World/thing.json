@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-03T00:00:00.00-07:00",
+  "archived": true,
+  "authors": [
+    "</types/authors/Swizec Teller>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Structure Your MobX App for the Real World",
+  "path": "/Types/Web Pages/How to Structure Your MobX App for the Real World",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/MobX>": ""
+  },
+  "url": "https://dzone.com/articles/how-to-structure-your-mobx-app-for-the-real-world"
+}

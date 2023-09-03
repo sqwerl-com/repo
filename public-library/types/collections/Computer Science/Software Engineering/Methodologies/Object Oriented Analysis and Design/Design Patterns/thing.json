@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Design Patterns>": "",
+    "</types/webPages/Object Oriented Design Patterns>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Methodologies/Object Oriented Analysis and Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Design Patterns",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Methodologies/Object-Oriented Analysis and Design/Design Patterns",
+  "shortDescription": ""
+}

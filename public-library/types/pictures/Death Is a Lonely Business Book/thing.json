@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Death Is a Lonely Business Book",
+  "path": "/Types/Pictures/Death Is a Lonely Business Book",
+  "pictureOf": {
+    "</types/books/Death Is a Lonely Business>": ""
+  },
+  "representations": {
+    "death_is_a_lonely_business_book_cover_large.lnk.json": "",
+    "death_is_a_lonely_business_book_cover_medium.lnk.json": "",
+    "death_is_a_lonely_business_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

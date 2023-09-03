@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-03T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ancillary Justice Book",
+  "path": "/Types/Pictures/Ancillary Justice Book",
+  "pictureOf": {
+    "</types/books/Ancillary Justice>": ""
+  },
+  "representations": {
+    "ancillary_justice_book_cover_large.lnk.json": "",
+    "ancillary_justice_book_cover_medium.lnk.json": "",
+    "ancillary_justice_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

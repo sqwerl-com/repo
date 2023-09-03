@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ross Anderson>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Security Engineering (Second Edition)",
+  "path": "/Types/Books/Security Engineering (Second Edition)",
+  "pictures": {
+    "</types/pictures/Security Engineering Book>": ""
+  },
+  "shortDescription": "",
+  "title": "Security Engineering: A Guide to Building Dependable Distributed Systems"
+}

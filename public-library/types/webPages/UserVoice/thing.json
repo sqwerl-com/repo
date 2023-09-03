@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-14T00:00:00.00-07:00",
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for UserVoice, an online tool for creating customer feedback forums.",
+  "name": "UserVoice",
+  "path": "/Types/Web Pages/UserVoice",
+  "recommendedBy": {
+    "</types/books/UX Design for Startups>": ""
+  },
+  "shortDescription": "UserVoice home page",
+  "url": "https://www.uservoice.com/"
+}

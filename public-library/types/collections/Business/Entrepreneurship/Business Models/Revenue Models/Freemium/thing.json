@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-07T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Should Your Startup Go Freemium>": "",
+    "</types/webPages/To Expedite Innovation Give Away Your Code>": "",
+    "</types/webPages/When Freemium Fails>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Business Models/Revenue Models>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Freemium",
+  "path": "/Types/Collections/Business/Entrepreneurship/Business Models/Revenue Models/Freemium",
+  "shortDescription": "Things related to revenue models where customers try a product for free."
+}

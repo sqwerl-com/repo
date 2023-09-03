@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Thomas A Limoncelli>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": "",
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "GitOps: A Path to More Self-Service IT",
+  "path": "/Types/Web Pages/GitOps: A Path to More Self-Service IT",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/A Mature Role for Automation Part 1>": "",
+    "</types/webPages/A Mature Role for Automation Part 2>": "",
+    "</types/books/The Phoenix Project>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/How to Become a DevOps Engineer in Six Months or Less Part 3 Version>": ""
+  },
+  "shortDescription": "",
+  "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3237207"
+}

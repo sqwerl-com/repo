@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ben Alex>",
+    "</types/authors/Luke Taylor>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Enterprise Computing/Frameworks/Spring/Spring Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Spring Security Reference Documentation",
+  "notes": {
+    "</types/notes/Spring Security Reference Documentation>": ""
+  },
+  "path": "/Types/Documents/Spring Security Reference Documentation",
+  "shortDescription": ""
+}

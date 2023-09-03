@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kief Morris>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Build Monkey Antipattern",
+  "path": "/Types/Web Pages/The Build Monkey Antipattern",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://java.dzone.com/articles/build-monkey-antipattern"
+}

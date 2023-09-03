@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-17T00:00:00.00-07:00",
+  "authors":  [
+    "</types/authors/Coinbase>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Mobile Application Development/Frameworks/React Native>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Announcing Coinbase's Successful Transition to React Native",
+  "path": "/Types/Web Pages/Announcing Coinbase's Successful Transition to React Native",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Sunsetting React Native>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.coinbase.com/announcing-coinbases-successful-transition-to-react-native-af4c591df971"
+}

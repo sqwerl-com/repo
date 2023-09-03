@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-14T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Bad Designs>": "",
+    "</types/videos/Dark Patterns>": "",
+    "</types/webPages/Dark Patterns>": "",
+    "</types/webPages/Sinister UX How to Recognize and Avoid Dark UX Patterns>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Pattern Repositories>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Antipatterns",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Design Resources/Pattern Repositories/Antipatterns",
+  "shortDescription": "Things that describe bad user interface design patterns."
+}

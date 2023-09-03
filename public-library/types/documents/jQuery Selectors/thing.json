@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Bear Bibeault>",
+    "</types/authors/Yehuda Katz>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/JQuery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "jQuery Selectors",
+  "path": "/Types/Documents/jQuery Selectors",
+  "shortDescription": ""
+}

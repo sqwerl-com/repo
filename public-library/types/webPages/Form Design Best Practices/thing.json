@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-08-07T00:00:00.00-05:00",
+  "authors": [
+    "</types/authors/Andrew Coyle>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Form Design Best Practices",
+  "path": "/Types/Web Pages/Form Design Best Practices",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/nextux/form-design-best-practices-9525c321d759"
+}

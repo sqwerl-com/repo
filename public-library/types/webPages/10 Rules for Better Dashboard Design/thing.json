@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Taras Bakusevych>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization/Dashboards>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "10 Rules for Better Dashboard Design",
+  "path": "/Types/Web Pages/10 Rules for Better Dashboard Design",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/20 Ideas for Better Data Visualization>": ""
+  },
+  "shortDescription": "",
+  "url": "https://uxplanet.org/10-rules-for-better-dashboard-design-ef68189d734c"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "listeners": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "name": "Software Alchemy and the Arc of Technology",
+  "notes": {
+    "</types/notes/Software Alchemy and the Arc of Technology>": ""
+  },
+  "path": "/Types/Talks/Software Alchemy and the Arc of Technology",
+  "shortDescription": "",
+  "speakers": {
+    "</types/authors/Alan Cooper>": "",
+    "</types/authors/Robert Scoble>": ""
+  }
+}

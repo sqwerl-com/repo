@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-12-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Atul Gawande>"
+  ],
+  "collections": {
+    "</types/collections/Business>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Checklist Manifesto: How to Get Things Right",
+  "notes": {
+    "</types/notes/The Checklist Manifesto>": ""
+  },
+  "path": "/Types/Books/The Checklist Manifesto: How to Get Things Right",
+  "pictures": {
+    "</types/pictures/The Checklist Manifesto Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/The Right Stuff>": ""
+  },
+  "recommendedBy": {
+    "</types/books/The Design of Everyday Things Revised and Expanded Edition>": ""
+  },
+  "shortDescription": "",
+  "title": "The Checklist Manifesto: How to Get Things Right",
+  "webPages": {
+    "</types/webPages/The Checklist>": ""
+  }
+}

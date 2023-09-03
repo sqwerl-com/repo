@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Designing with the Mind in Mind>": "",
+    "</types/books/GUI Bloopers>": "",
+    "</types/papers/The Xerox Star A Retrospective>": "",
+    "</types/webPages/The Xerox Star A Retrospective>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jeff",
+  "lastName": "Johnson",
+  "links": {
+    "</types/webPages/Interview Jeff Johnson of GUI Bloopers>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Jeff Johnson",
+  "path": "/Types/Authors/Jeff Johnson"
+}

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brad Frost>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Responsive Patterns",
+  "path": "/Types/Web Pages/Responsive Patterns",
+  "recommendedBy": {
+    "</types/books/Responsive Web Design in 24 Hours>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Responsive design>": ""
+  },
+  "title": "Responsive Patterns: A collection of patterns and modules for responsive designs",
+  "url": "http://bradfrost.github.io/this-is-responsive/patterns.html"
+}

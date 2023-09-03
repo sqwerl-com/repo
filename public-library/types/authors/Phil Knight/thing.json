@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-12-11T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Shoe Dog>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Phil",
+  "lastName": "Knight",
+  "middleNameOrInitial": "",
+  "name": "Phil Knight",
+  "path": "/Types/Authors/Phil Knight"
+}

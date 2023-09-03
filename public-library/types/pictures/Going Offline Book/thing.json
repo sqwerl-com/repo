@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-13T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Going Offline Book",
+  "path": "/Types/Pictures/Going Offline Book",
+  "pictureOf": {
+    "</types/books/Going Offline>": ""
+  },
+  "representations": {
+    "going_offline_book_cover_large.png.lnk.json": "",
+    "going_offline_book_cover_medium.png.lnk.json": "",
+    "going_offline_book_cover_preview.png.lnk.json": "",
+    "going_offline_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

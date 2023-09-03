@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "JavaScript: The Good Parts Book",
+  "path": "</types/pictures/JavaScript The Good Parts Book>",
+  "pictureOf": {
+    "</types/books/JavaScript The Good Parts>": ""
+  },
+  "representations": {
+    "javascript_the_good_parts_book_cover_large.jpg.lnk.json": "",
+    "javascript_the_good_parts_book_cover_medium.jpg.lnk.json": "",
+    "javascript_the_good_parts_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

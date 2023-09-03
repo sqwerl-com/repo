@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/videos/Devs Answer Kent C Dobbs>": "",
+    "</types/authors/Michael Chan>": ""
+  },
+  "name": "Devs Answer: Michael Chan",
+  "path": "/types/videos/Devs Answer: Micheal Chan",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=2ycVP8jpTgQ",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

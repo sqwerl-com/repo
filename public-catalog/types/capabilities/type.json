@@ -1,0 +1,41 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {},
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "Permissions, granted to users, that allow users to perform protected actions.",
+  "extends": "</types>",
+  "name": "Capabilities",
+  "path": "/Types/Capabilities",
+  "properties": {
+    "description": {
+      "description": "Text that describes a security capability.",
+      "name": "Description",
+      "shortDescription": "A security capability's description.",
+      "type": "text"
+    },
+    "name": {
+      "description": "A capability's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A capability's name.",
+      "type": "text"
+    },
+    "roles": {
+      "description": "The security roles that grant users a capability to perform an operation.",
+      "inverse": "capabilities",
+      "required": true,
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/roles>": ""
+      }
+    }
+  },
+  "shortDescription": "Actions that users are allowed to perform.",
+  "singularName": "Capability"
+}

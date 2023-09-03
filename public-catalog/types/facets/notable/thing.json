@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-07-10T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that have notes that describe them.",
+  "faceted": {
+    "</types/articles>": "",
+    "</types/books>": "",
+    "</types/courses>": "",
+    "</types/documents>": "",
+    "</types/papers>": "",
+    "</types/talks>": "",
+    "</types/videos>": "",
+    "</types/webPages>": ""
+  },
+  "name": "Notable",
+  "path": "/Types/Facets/Notable",
+  "shortDescription": "Things that can have notes."
+}

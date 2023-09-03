@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/10 Examples of Tar Command in Unix and Linux>": "",
+    "</types/webPages/50 Most Frequently Used Unix Linux Commands With Examples>": "",
+    "</types/feeds/All About Linux>": "",
+    "</types/courses/Getting Started with the Linux Command Line>": "",
+    "</types/webPages/Getting Started with the Linux Command Line>": "",
+    "</types/books/How Linux Works>": "",
+    "</types/webPages/Introduction to Linux>": "",
+    "</types/feeds/IT World Unix as a Second Language>": "",
+    "</types/documents/Linux 101 Examination Modular Training Notes>": "",
+    "</types/documents/Linux 102 Examination Modular Training Notes>": "",
+    "</types/videos/Linux File System Structure Explained>": "",
+    "</types/webPages/Linux Shell How to Remove Duplicate Text Lines>": "",
+    "</types/collections/Computer Science/Operating Systems/Linux/System Administration>": "",
+    "</types/webPages/The Linux Cookbook Tips and Techniques for Everyday Use>": "",
+    "</types/webPages/Working Productively in Bashs VI Command Line Editing Mode>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Linux",
+  "path": "/Types/Collections/Computer Science/Operating Systems/Linux",
+  "shortDescription": ""
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-16T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Ansible>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ansible Home Page",
+  "path": "/Types/Web Pages/Ansible Home Page",
+  "shortDescription": "Home page for the Ansible automation tool.",
+  "tags": {
+    "</types/tags/Ansible>": ""
+  },
+  "url": "https://www.ansible.com/"
+}

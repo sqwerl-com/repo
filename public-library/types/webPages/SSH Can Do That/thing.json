@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Unix/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "SSH Can Do That? Productivity Tips for Working with Remote Servers",
+  "path": "/Types/Web Pages/SSH Can Do That? Productivity Tips for Working with Remote Servers",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://blogs.perl.org/users/smylers/2011/08/ssh-productivity-tips.html"
+}

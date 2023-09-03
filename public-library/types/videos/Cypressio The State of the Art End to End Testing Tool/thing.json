@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-08-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Gleb Bahmutov>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries/Testing>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Testing/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Cypress.io - The State of the Art End to End Testing Tool",
+  "path": "/Types/Videos/Cypress.io - The State of the Art End to End Testing Tool",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/CypressIO>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=n_J13cA4Gj8",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

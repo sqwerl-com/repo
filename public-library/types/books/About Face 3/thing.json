@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alan Cooper>",
+    "</types/authors/David Cronin>",
+    "</types/authors/Robert Reimann>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "About Face 3",
+  "path": "/Types/Books/About Face 3",
+  "pictures": {
+    "</types/pictures/About Face 3 Book>": ""
+  },
+  "recommendedBy": {
+    "</types/documents/Introduction to Good Usability>": "",
+    "</types/books/Letting Go of the Words>": ""
+  },
+  "title": "About Face 3: The Essentials of Interaction Design"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-09-16T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/To Kill a Mockingbird>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Harper",
+  "lastName": "Lee",
+  "middleNameOrInitial": "",
+  "name": "Harper Lee",
+  "path": "/Types/Authors/Harper Lee"
+}

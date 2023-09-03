@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ronan Cremin>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "feeds": {
+    "</types/feeds/Smashing Magazine>": ""
+  },
+  "name": "Lightening Your Responsive Website Design With RESS",
+  "path": "/Types/Web Pages/Lightening Your Responsive Website Design With RESS",
+  "recommendedBy": {
+    "</types/books/Responsive Web Design in 24 Hours>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Responsive design>": ""
+  },
+  "url": "http://www.smashingmagazine.com/2013/10/responsive-website-design-with-ress/"
+}

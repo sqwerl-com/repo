@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jason Miller>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Islands Architecture",
+  "path": "/Types/Web Pages/Islands Architecture",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy":  {
+    "</types/webPages/The Future of Micro Frontends>": ""
+  },
+  "shortDescription": "",
+  "url": "https://jasonformat.com/islands-architecture/"
+}

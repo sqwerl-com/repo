@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jared M Spool>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Actually, You Might Be Your User",
+  "path": "/Types/Web Pages/Actually, You Might Be Your User",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://articles.uie.com/self_design/"
+}

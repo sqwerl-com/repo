@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Database Fundamentals Book",
+  "path": "/Types/Pictures/Database Fundamentals Book",
+  "pictureOf": {
+    "</types/books/Database Fundamentals>": ""
+  },
+  "representations": {
+    "database_fundamentals_book_cover_large.png.lnk.json": "",
+    "database_fundamentals_book_cover_medium.png.lnk.json": "",
+    "database_fundamentals_book_cover_preview.png.lnk.json": "",
+    "database_fundamentals_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

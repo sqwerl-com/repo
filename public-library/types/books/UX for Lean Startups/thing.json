@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Laura Klein>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "UX for Lean Startups",
+  "notes": {
+    "</types/notes/UX for Lean Startups>": ""
+  },
+  "path": "/Types/Books/UX for Lean Startups",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Lean Analytics Use Data to Build a Better Startup Faster>": "",
+    "</types/webPages/Mobile Patterns>": "",
+    "</types/webPages/Smashing Magazine>": "",
+    "</types/webPages/UsabilityHub>": "",
+    "</types/feeds/Users Know>": ""
+  },
+  "shortDescription": "",
+  "title": "UX for Lean Startups: Faster, Smarter, User Experience Research and Design"
+}

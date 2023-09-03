@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-07-14T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Gentleman in Moscow>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Amor",
+  "lastName": "Towles",
+  "middleNameOrInitial": "",
+  "name": "Amor Towles",
+  "path": "/Types/Authors/Amor Towles"
+}

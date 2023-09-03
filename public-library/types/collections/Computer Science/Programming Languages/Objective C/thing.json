@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/The Objective C Programming Language>": "",
+    "</types/documents/The Objective C Runtime Programming Guide>": "",
+    "</types/books/Using Swift with Cocoa and Objective C>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": ""
+  },
+  "name": "Objective-C",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Objective-C",
+  "shortDescription": "Things related to the Objective-C programming language"
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Katie Sherwin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Help>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Pop-ups and Adaptive Help Get a Refresh",
+  "notes": {
+    "</types/notes/Pop Ups and Adaptive Help Get a Refresh>": ""
+  },
+  "path": "/Types/Web Pages/Pop-ups and Adaptive Help Get a Refresh",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.nngroup.com/articles/pop-up-adaptive-help/"
+}

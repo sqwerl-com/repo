@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert Hughes>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/OLAP/ClickHouse>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Opening the Floodgates",
+  "path": "/Types/Videos/Opening the Floodgates",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ClickHouse>": ""
+  },
+  "title": "Opening the Floodgates: Enabling Fast, Unmediated End User Access to Trillion-Row Datasets with SQL",
+  "url": "https://www.youtube.com/watch?v=xZ-6dwB-TgU",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

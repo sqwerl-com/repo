@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Let the Code Speak",
+  "path": "/Types/Web Pages/Let the Code Speak",
+  "recommendations": {
+    "</types/books/Clean Code>": "",
+    "</types/webPages/Collection Pipeline>": "",
+    "</types/books/Effective Java Programming Language Guide>": "",
+    "</types/books/Java Concurrency in Practice>": "",
+    "</types/webPages/Make the Magic go away>": "",
+    "</types/webPages/Practical Functional Programming>": "",
+    "</types/books/Refactoring>": "",
+    "</types/books/Structure and Interpretation of Computer Programs>": "",
+    "</types/books/Working Effectively with Legacy Code>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Clean code>": ""
+  },
+  "url": "https://hackernoon.com/let-the-code-speak-52d1cebf0394"
+}

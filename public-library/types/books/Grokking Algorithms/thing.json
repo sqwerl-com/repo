@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Aditya Y Bhargava>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Algorithms>": "",
+    "</types/collections/Computer Science/Data Structures>": "",
+    "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Grokking Algorithms",
+  "path": "/Types/Books/Grokking Algorithms",
+  "pictures": {
+    "</types/pictures/Grokking Algorithms Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Grokking Algorithms: An illustrated guide for programmers and other curious people"
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kent Beck>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Development Methodologies/Agile>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Extreme Programming Explained",
+  "notes": {
+    "</types/notes/Extreme Programming Explained>": ""
+  },
+  "path": "/Types/Books/Extreme Programming Explained",
+  "pictures": {
+    "</types/pictures/Extreme Programming Explained Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Clean Code>": "",
+    "</types/webPages/Founders and VCs Reveal 21 Books Every Entrepreneur Should Read>": ""
+  },
+  "shortDescription": ""
+}

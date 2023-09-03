@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-26T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/A Case for GraphQL>": "",
+    "</types/webPages/Apollo GraphQL Client Repository>": "",
+    "</types/webPages/GraphQL Foundation Home Page>": "",
+    "</types/webPages/GraphQL Front end Queries Made Easy>": "",
+    "</types/videos/GraphQL The Documentary>": "",
+    "</types/webPages/Relay>": "",
+    "</types/webPages/Why GraphQL is Taking Over APIs>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to the GraphQL standard for querying information over the World Wide Web.",
+  "name": "GraphQL",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/GraphQL",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/GraphQL>": ""
+  }
+}

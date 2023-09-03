@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-11-29T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Art of Game Design Book",
+  "path": "/Types/Pictures/The Art of Game Design Book",
+  "pictureOf": {
+    "</types/books/The Art of Game Design>": ""
+  },
+  "representations": {
+    "the_art_of_game_design_book_cover_large.jpg.lnk.json": "",
+    "the_art_of_game_design_book_cover_medium.jpg.lnk.json": "",
+    "the_art_of_game_design_book_cover_preview.jpg.lnk.json": "",
+    "the_art_of_game_design_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

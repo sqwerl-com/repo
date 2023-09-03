@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Developing Modern Mobile Web Apps Book",
+  "path": "/Types/Pictures/Developing Modern Mobile Web Apps Book",
+  "pictureOf": {
+    "</types/books/Developing Modern Mobile Web Apps>": ""
+  },
+  "representations": {
+    "developing_modern_mobile_web_apps_book_cover_large.png.lnk.json": "",
+    "developing_modern_mobile_web_apps_book_cover_medium.png.lnk.json": "",
+    "developing_modern_mobile_web_apps_book_cover_preview.png.lnk.json": "",
+    "developing_modern_mobile_web_apps_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

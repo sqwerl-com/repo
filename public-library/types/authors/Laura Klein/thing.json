@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-06T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Build Better Products>": "",
+    "</types/podcasts/Stop Arguing With Feedback>": "",
+    "</types/podcasts/Stop Saying Users Dont Know What They Want>": "",
+    "</types/books/UX for Lean Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Laura",
+  "lastName": "Klein",
+  "links": {
+    "</types/feeds/Users Know>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Laura Klein",
+  "path": "/Types/Authors/Laura Klein"
+}

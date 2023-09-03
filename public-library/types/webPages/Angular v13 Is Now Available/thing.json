@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mark Thompson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Angular v13 Is Now Available",
+  "path": "/Types/Web Pages/Angular v13 Is Now Available",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://medium.com/@markathompson/angular-v13-is-now-available-cce66f7bc296"
+}

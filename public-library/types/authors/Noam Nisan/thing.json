@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Elements of Computing Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Noam",
+  "lastName": "Nisan",
+  "middleNameOrInitial": "",
+  "name": "Noam Nisan",
+  "path": "/Types/Authors/Noam Nisan"
+}

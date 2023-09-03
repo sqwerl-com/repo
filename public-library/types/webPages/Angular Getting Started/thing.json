@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-23T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/courses/Angular Getting Started>": ""
+  },
+  "name": "Angular: Getting Started",
+  "path": "/Types/Web Pages/Angular: Getting Started",
+  "shortDescription": "Pluralsight course home page",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents"
+}

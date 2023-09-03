@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-11-09T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that can be tagged with key words or phrases that describe the thing.",
+  "extends": "</types/facets>",
+  "name": "Tagged",
+  "path": "/Types/Facets/Taggable",
+  "properties": {
+    "faceted": {
+      "inverse": "facets",
+      "type": {
+        "</types/facets>": ""
+      }
+    },
+    "tags": {
+      "inverse": "tagged",
+      "type": "{ </types/tags> }"
+    }
+  },
+  "shortDescription": "Things that can be tagged with key words or phrases."
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-06T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Is Module Federation the Future of Front End Development>": "",
+    "</types/webPages/The Future of Micro Frontends>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things regarding building web user interfaces composed from multiple front-end applications.",
+  "name": "Micro Front-End",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Micro Front-End",
+  "shortDescription": "Building micro front-end web user interfaces"
+}

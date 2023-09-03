@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Pablo Navarro Castillo>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Mastering D3.js",
+  "path": "/Types/Books/Mastering D3.js",
+  "pictures": {
+    "</types/pictures/Mastering D3js Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-10T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Predictably Irrational>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Dan",
+  "lastName": "Ariely",
+  "middleNameOrInitial": "",
+  "name": "Dan Ariely",
+  "path": "/Types/Authors/Dan Ariely"
+}

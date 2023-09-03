@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-11-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "JavaScript: The Definitive Guide 5th Edition Book",
+  "path": "/types/pictures/JavaScript: The Definitive Guide 5th Edition Book",
+  "pictureOf": {
+    "</types/books/JavaScript The Definitive Guide 5th Edition>": ""
+  },
+  "representations": {
+    "javascript_the_definitive_guide_5th_edition_book_cover_large.jpg.lnk.json": "",
+    "javascript_the_definitive_guide_5th_edition_book_cover_medium.jpg.lnk.json": "",
+    "javascript_the_definitive_guide_5th_edition_book_cover_preview.jpg.lnk.json": "",
+    "javascript_the_definitive_guide_5th_edition_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

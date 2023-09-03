@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-12-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Andrew Coyle>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Forms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Alternatives to Placeholder Text",
+  "path": "/Types/Web Pages/Alternatives to Placeholder Text",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Placeholders in Form Fields are Harmful>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Placeholder text>": ""
+  },
+  "url": "https://uxdesign.cc/alternatives-to-placeholder-text-13f430abc56f#.9800lneb3"
+}

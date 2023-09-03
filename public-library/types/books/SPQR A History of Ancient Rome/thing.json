@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-06-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mary Beard>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/podcasts/From Gladiator Duels To Ceasars Last Words The Myths of Ancient Rome>": ""
+  },
+  "name": "SPQR: A History of Ancient Rome",
+  "path": "/Types/Books/SPQR A History of Ancient Rome",
+  "pictures": {
+    "</types/pictures/SPQR A History of Ancient Rome Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

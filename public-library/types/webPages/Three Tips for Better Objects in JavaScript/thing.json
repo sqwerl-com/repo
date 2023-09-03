@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-08-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Giuseppe Picciano>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Three Tips for Better Objects in JavaScript",
+  "path": "/Types/Web Pages/Three Tips for Better Objects in JavaScript",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/the-dev-caf%C3%A9/3-tips-for-better-objects-in-javascript-83708d768b9e"
+}

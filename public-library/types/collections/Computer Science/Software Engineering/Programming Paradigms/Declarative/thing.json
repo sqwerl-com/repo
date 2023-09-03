@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-07T00:00:00.00-07:00",
+  "children": {
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Contains things related to a programming model where developers declare the desired results rather that stating all of the implicit steps necessary to generate the results.",
+  "links": {
+    "</types/collections/Computer Science/Programming Languages/Prolog>": ""
+  },
+  "name": "Declarative",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Programming Paradigms/Declarative",
+  "shortDescription": "Things related to a declarative programming model."
+}

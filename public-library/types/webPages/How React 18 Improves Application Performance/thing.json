@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Lydia Hallie>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Performance Optimization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How React 18 Improves Application Performance",
+  "path": "/Types/Web Pages/How React 18 Improves Application Performance",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://vercel.com/blog/how-react-18-improves-application-performance"
+}

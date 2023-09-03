@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Concepts of Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Robert",
+  "lastName": "Sebesta",
+  "middleNameOrInitial": "W",
+  "name": "Robert W. Sebesta",
+  "path": "/Types/Authors/Robert W. Sebesta"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-10-07T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "AngularJS Wiki",
+  "path": "/Types/Web Pages/AngularJS Wiki",
+  "recommendedBy": {
+    "</types/webPages/AngularJS is Amazing and Hard as Hell>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://github.com/angular/angular.js/wiki"
+}

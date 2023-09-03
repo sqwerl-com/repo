@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-10-29T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Grokking Algorithms Book",
+  "path": "/Types/Pictures/Grokking Algorithms Book",
+  "pictureOf": {
+    "</types/books/Grokking Algorithms>": ""
+  },
+  "representations": {
+    "grokking_algorithms_cover_large.png.lnk.json": "",
+    "grokking_algorithms_cover_medium.png.lnk.json": "",
+    "grokking_algorithms_cover_preview.png.lnk.json": "",
+    "grokking_algorithms_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

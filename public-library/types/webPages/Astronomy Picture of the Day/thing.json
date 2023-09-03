@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Favorites>": "",
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Astronomy Picture of the Day",
+  "path": "/Types/Web Pages/Astronomy Picture of the Day",
+  "shortDescription": "NASA's Astronomy Picture of the Day web page.",
+  "url": "https://apod.nasa.gov/apod"
+}

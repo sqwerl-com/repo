@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-02-01T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://blog.teamtreehouse.com/",
+  "items": {
+    "</types/webPages/Getting Started with Bower>": ""
+  },
+  "name": "Treehouse Blog",
+  "path": "/Types/Feeds/Treehouse Blog",
+  "shortDescription": ""
+}

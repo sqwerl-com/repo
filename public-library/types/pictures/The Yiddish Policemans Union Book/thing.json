@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-28T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Yiddish Policeman's Union Book",
+  "path": "/Types/Pictures/The Yiddish Policeman's Union Book",
+  "pictureOf": {
+    "</types/books/The Yiddish Policemans Union>": ""
+  },
+  "representations": {
+    "the_yiddish_policemans_union_book_large.jpg.lnk.json": "",
+    "the_yiddish_policemans_union_book_medium.jpg.lnk.json": "",
+    "the_yiddish_policemans_union_book_preview.jpg.lnk.json": "",
+    "the_yiddish_policemans_union_book_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-12T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Designing a Spaceship for the Guardians of the Galaxy>": "",
+    "</types/webPages/HUDS and GUIs>": "",
+    "</types/books/Make It So Interaction Design Lessons from Science Fiction>": "",
+    "</types/webPages/SciFi Interfaces>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Science Fiction",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Science Fiction",
+  "shortDescription": "Things related to speculative user interface designs for the future."
+}

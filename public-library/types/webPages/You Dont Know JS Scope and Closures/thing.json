@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Simpson>"
+  ],
+  "books": {
+    "</types/books/You Dont Know JS Scope and Closures>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "You Don't Know JS: Scope & Closures",
+  "path": "/Types/Web Pages/You Don't Know JS: Scope & Closures",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JavaScript>": ""
+  },
+  "url": "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md"
+}

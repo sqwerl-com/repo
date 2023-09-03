@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alex Vasilyev>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "TypeScript Method Decorators in Depth. Problems and Solutions",
+  "path": "/Types/Web Pages/TypeScript Method Decorators in Depth. Problems and Solutions",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/The TypeScript Handbook>": "",
+    "</types/webPages/Type Restrictions for TypeScript Property Decorators>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+  },
+  "url": "https://luckylibora.medium.com/typescript-method-decorators-in-depth-problems-and-solutions-74387d51e6a"
+}

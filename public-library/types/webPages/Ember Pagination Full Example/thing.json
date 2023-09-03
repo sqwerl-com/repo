@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-10-15T00:00:00.00-07:00",
+  "archived": true,
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ember Pagination Full Example",
+  "path": "/Types/Web Pages/Ember Pagination Full Example",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "Stack Overflow answer to a question with a detailed code example.",
+  "url": "http://stackoverflow.com/questions/13008838/ember-pagination-full-example"
+}
+

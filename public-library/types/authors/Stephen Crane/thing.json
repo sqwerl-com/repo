@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-05-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Red Badge of Courage>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Stephen",
+  "lastName": "Crane",
+  "middleNameOrInitial": "",
+  "name": "Stephen Crane",
+  "path": "/Types/Authors/Stephen Crane"
+}

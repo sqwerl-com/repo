@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/Do I Need a Formal Written Business Plan>": "",
+    "</types/webPages/How to Write a Business Plan Outline>": "",
+    "</types/books/The Silicon Valley Way>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Business Plan",
+  "path": "/Types/Collections/Business/Entrepreneurship/Business Plan",
+  "shortDescription": "Things related to business plans including how to write and evaluate business plans."
+}

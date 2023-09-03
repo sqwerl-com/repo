@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/An Introduction to Database Systems>": "",
+    "</types/collections/Computer Science/Database Systems/Graph>": "",
+    "</types/collections/Computer Science/Database Systems/Key Value>": "",
+    "</types/collections/Computer Science/Database Systems/NoSQL>": "",
+    "</types/webPages/NoSQL or RDBMS Are We Asking the Right Questions>": "",
+    "</types/collections/Computer Science/Database Systems/Object Oriented>": "",
+    "</types/collections/Computer Science/Database Systems/OLAP>": "",
+    "</types/collections/Computer Science/Database Systems/Relational>": "",
+    "</types/webPages/Should I Use MongoDB or CouchDB>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Database Systems",
+  "path": "/Types/Collections/Computer Science/Database Systems",
+  "shortDescription": "Things related to computer systems that manage data."
+}

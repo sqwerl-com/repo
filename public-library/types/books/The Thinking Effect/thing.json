@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-04-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael Vaughan>"
+  ],
+  "collections": {
+    "</types/collections/Education/Computer Based Training>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Thinking Effect",
+  "path": "/Types/Books/The Thinking Effect",
+  "pictures": {
+    "</types/pictures/The Thinking Effect Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Thinking Effect: Rethinking Thinking to Create Great Leaders and the New Value Worker"
+}

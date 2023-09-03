@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-22T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/70s SciFi Art>": "",
+    "</types/webPages/Astronomy Picture of the Day>": "",
+    "</types/webPages/I Cant Stop Thinking About Comics>": "",
+    "</types/webPages/Jeff Geerlings YouTube Page>": "",
+    "</types/webPages/Linus Tech Tips YouTube Channel>": "",
+    "</types/webPages/OpenReplay Blog>": "",
+    "</types/webPages/The 8 Bit Guy YouTube Channel>": "",
+    "</types/feeds/Web Dev Simplified>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Favorites",
+  "path": "/Types/Collections/Favorites",
+  "shortDescription": "Some of my favorite things to visit regularly."
+}

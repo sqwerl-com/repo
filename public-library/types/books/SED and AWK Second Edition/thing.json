@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dale Dougherty>",
+    "</types/authors/Arnold Robbins>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Learn Linux System Administration>": "",
+    "</types/collections/Projects/Things to Check Out>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "sed & awk: Second Edition",
+  "path": "/Types/Books/sed & awk: Second Edition",
+  "pictures": {
+    "</types/pictures/SED and AWK Second Edition Book>": ""
+  },
+  "shortDescription": ""
+}

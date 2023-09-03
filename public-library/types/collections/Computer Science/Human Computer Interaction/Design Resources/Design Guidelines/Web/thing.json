@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Designing for the Social Web>": "",
+    "</types/books/Designing Web Interfaces>": "",
+    "</types/feeds/Smashing Magazine>": "",
+    "</types/webPages/Smashing Magazine>": "",
+    "</types/webPages/Tips for Better Authentication Forms>": "",
+    "</types/webPages/US Web Design Standards>": "",
+    "</types/books/Web Style Guide 3rd Edition>": "",
+    "</types/webPages/Why Sign Up and Sign In Should Never Go Together>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Web",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Design Resources/Design Guidelines/Web",
+  "shortDescription": "Things that provide general guidelines for the design of web user interfaces."
+}

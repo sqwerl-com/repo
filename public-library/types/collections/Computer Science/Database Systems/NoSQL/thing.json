@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Database Systems/NoSQL/CouchDB>": "",
+    "</types/collections/Computer Science/Database Systems/NoSQL/MongoDB>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Database Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "NoSQL",
+  "path": "/Types/Collections/Computer Science/Database Systems/NoSQL",
+  "shortDescription": "Things related to non-relational (NoSQL) database management systems."
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Rules for Revolutionaries Book",
+  "path": "/Types/Pictures/Rules for Revolutionaries Book",
+  "pictureOf": {
+    "</types/books/Rules for Revolutionaries>": ""
+  },
+  "representations": {
+    "rules_for_revolutionaries_book_cover_large.jpg.lnk.json": "",
+    "rules_for_revolutionaries_book_cover_medium.jpg.lnk.json": "",
+    "rules_for_revolutionaries_book_cover_preview.jpg.lnk.json": "",
+    "rules_for_revolutionaries_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

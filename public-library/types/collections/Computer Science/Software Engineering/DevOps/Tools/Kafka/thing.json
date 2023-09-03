@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-05T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Kafka Home Page>": "",
+    "</types/books/Kafka The Definitive Guide>": "",
+    "</types/webPages/What is Kafka>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Kafka",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps/Tools/Kafka",
+  "shortDescription": "Things related to the Kafka distributed messaging tool.",
+  "tags": {
+    "</types/tags/Kafka>": ""
+  }
+}

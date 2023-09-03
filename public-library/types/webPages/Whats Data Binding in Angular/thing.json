@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/FAM>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What's Data Binding in Angular?",
+  "path": "/Types/Web Pages/What's Data Binding in Angular?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/5 Key Components that Every Angular Developer Should Know>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://levelup.gitconnected.com/whats-data-binding-in-angular-faddb0f64e89"
+}

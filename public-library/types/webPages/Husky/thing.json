@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-23T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Husky",
+  "path": "/Types/Web Pages/Husky",
+  "shortDescription": "Home page for the Husky library for automating Git operations",
+  "url": "https://typicode.github.io/husky/"
+}

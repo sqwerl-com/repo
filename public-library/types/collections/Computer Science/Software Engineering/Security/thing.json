@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/documents/2016 Guide to User Data Security>": "",
+    "</types/webPages/Design Guidelines for Secure Web Applications>": "",
+    "</types/webPages/Dropbox Confirms It Got Hacked Will Offer Two Factor Authentication>": "",
+    "</types/webPages/Excess XSS>": "",
+    "</types/webPages/Is Stack Overflow Secure Kind Of>": "",
+    "</types/feeds/Jenkins Security Advisories>": "",
+    "</types/webPages/Lynis 2 2 0 Released>": "",
+    "</types/webPages/Lynis>": "",
+    "</types/webPages/Protestware on the Rise>": "",
+    "</types/webPages/Role Based Access Control and Role Based Security>": "",
+    "</types/papers/Role Based Access Controls>": "",
+    "</types/papers/Secrecy Authentication and Public Key Systems>": "",
+    "</types/documents/Secure Coding Guide>": "",
+    "</types/webPages/Secure Password Storage Lots of Donts a Few Dos and a Concrete Java SE Example>": "",
+    "</types/webPages/Stop Storing My Password in Plaintext>": "",
+    "</types/webPages/Storing Passwords Securely>": "",
+    "</types/webPages/The CERT Oracle Security Coding Standard for Java>": "",
+    "</types/books/The Cuckoos Egg>": "",
+    "</types/books/The Darkening Web>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Security",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Security",
+  "shortDescription": ""
+}

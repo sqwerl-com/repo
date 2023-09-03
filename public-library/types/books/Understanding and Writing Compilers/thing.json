@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Richard Bornat>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Understanding and Writing Compilers",
+  "path": "/Types/Books/Understanding and Writing Compilers",
+  "shortDescription": "",
+  "title": "Understanding and Writing Compilers"
+}

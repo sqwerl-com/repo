@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-09-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brie Bunge>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Adopting TypeScript at Scale",
+  "path": "/Types/Videos/Adopting TypeScript at Scale",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=P-J9Eg7hJwE&feature=youtu.be&t=702",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

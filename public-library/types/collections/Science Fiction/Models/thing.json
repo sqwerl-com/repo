@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-10-17T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Academy Hobby Model Kits Gatchaman God Phoenix>": "",
+    "</types/webPages/Rocketfin>": "",
+    "</types/webPages/Starship Modeler>": ""
+  },
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Models",
+  "path": "/Types/Collections/Science Fiction/Models",
+  "shortDescription": "Science fiction themed modeling kits"
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-10-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Miguel Madero>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Moving a Rails and jQuery App to Ember.JS",
+  "notes": {
+    "</types/notes/Moving a Rails and jQuery App to EmberJS>": ""
+  },
+  "path": "/Types/Videos/Moving a Rails and jQuery App to Ember.JS",
+  "shortDescription": "",
+  "url": "http://www.javascripttutorials.net/moving-a-rails-jquery-app-to-ember-js/",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

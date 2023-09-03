@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Enterprise Application Integration>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Enterprise Application Integration",
+  "path": "/Types/Collections/Computer Science/Enterprise Application Integration",
+  "shortDescription": "Things related to Enterprise Application Integration (EAI)."
+}

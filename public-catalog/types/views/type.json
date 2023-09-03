@@ -1,0 +1,33 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that should be presented together.",
+  "extends": "</types>",
+  "name": "Views",
+  "path": "/Types/Views",
+  "properties": {
+    "children": {
+      "description": "Things in the view.",
+      "shortDescription": "Children.",
+      "type": [
+        "</types>"
+      ]
+    },
+    "description": {
+      "description": "Text that describes a view.",
+      "name": "Description",
+      "shortDescription": "A view's description.",
+      "type": "text"
+    },
+    "name": {
+      "description": "A view's name.",
+      "name": "Name",
+      "required": true,
+      "shortDescription": "",
+      "type": "text"
+    }
+  },
+  "shortDescription": "Views (arrangements) of things.",
+  "singularName": "View"
+}

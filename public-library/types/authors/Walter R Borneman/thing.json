@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-02-18T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Admirals>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Walter",
+  "lastName": "Borneman",
+  "middleNameOrInitial": "R",
+  "name": "Walter R. Borneman",
+  "path": "/Types/Authors/Walter R. Borneman"
+}

@@ -1,0 +1,52 @@
+@import "../../index.scss";
+
+.sqwerl-library-changes-on-day-item {
+  border-bottom: 1px solid var(--list-item-bottom-border-color);
+  display: flex;
+  height: 48px; /* TODO - This is hard-coded to match the height of items in the navigation list. */
+  left: 0;
+  letter-spacing: $sqwerl-letter-spacing;
+  line-height: $sqwerl-row-height;
+  max-width: 40rem;
+
+  a.sqwerl-library-changes-on-day-link {
+    display: flex;
+    flex-direction: row;
+    height: $sqwerl-row-height;
+    margin: $sqwerl-focus-border-size;
+    text-decoration: none;
+    width: calc(100% - 1.5rem);
+
+    &:hover {
+      animation: sqwerl-list-item-hover 0.3s ease-in;
+      background: $sqwerl-list-item-hover-background;
+
+      & .sqwerl-change-summary-link-text {
+        text-decoration-color: var(--list-item-hover-text-shadow);
+      }
+
+      & .sqwerl-library-view-changes-title-text {
+        text-decoration: underline;
+        text-decoration-color: var(--list-item-hover-text-shadow);
+        text-shadow: var(--list-item-hover-text-shadow);
+        text-underline-offset: 0.06rem;
+      }
+    }
+
+    & .sqwerl-change-summary-link-text {
+      color: inherit;
+      margin-left: 0.5rem;
+      text-decoration: underline;
+      text-decoration-color: rgba(255, 255, 255, 0);
+      text-decoration-thickness: 0.05rem;
+      text-underline-offset: 0.06rem;
+      transition: text-decoration-color 0.3s ease-in;
+    }
+
+    &:visited {
+      & .sqwerl-change-summary-link-text {
+        color: var(--hyperlink-text-visited-color);
+      }
+    }
+  }
+}

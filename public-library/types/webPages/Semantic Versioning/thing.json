@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-06-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tom Preston Werner>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Semantic Versioning",
+  "path": "/Types/Web Pages/Semantic Versioning",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://semver.org/"
+}

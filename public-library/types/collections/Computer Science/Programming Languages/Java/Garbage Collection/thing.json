@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-04T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Java SE 6 HotSpot Virtual Machine Garbage Collection Tuning>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Java>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to garbage collection in the Java virtual machine.",
+  "name": "Garbage Collection",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Java/Garbage Collection",
+  "shortDescription": ""
+}
+
+

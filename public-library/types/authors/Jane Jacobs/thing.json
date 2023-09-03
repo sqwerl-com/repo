@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-03-06T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Death and Life of Great American Cities>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jane",
+  "lastName": "Jaobs",
+  "links": {
+    "</types/books/Wrestling with Moses>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Jane Jacobs",
+  "path": "/Types/Authors/Jane Jacobs"
+}

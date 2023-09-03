@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-06-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jorgen Veisdal>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Theory of Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/authors/A M Turing>": ""
+  },
+  "name": "Alan Turing in America",
+  "path": "/Types/Web Pages/Alan Turing in America",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/cantors-paradise/alan-turing-in-america-db0104c965dc"
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00:-07:00",
+  "canRead": {
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "description": "A group of users granted permission to perform system administration activities.",
+  "name": "Administrators",
+  "controller": "</types/users/Administrator>",
+  "roles": {
+    "</types/roles/Administrative>": ""
+  },
+  "shortDescription": "Users allowed to perform system administration duties.",
+  "subgroups": {
+  },
+  "users": {
+    "</types/users/Administrator>": ""
+  }
+}

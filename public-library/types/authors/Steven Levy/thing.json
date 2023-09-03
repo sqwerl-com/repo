@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-17T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Hackers>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Steven",
+  "lastName": "Levy",
+  "middleNameOrInitial": "",
+  "name": "Steven Levy",
+  "path": "/Types/Authors/Steven Levy"
+}

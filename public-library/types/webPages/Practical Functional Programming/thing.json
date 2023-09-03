@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steven Heidel>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Practical Functional Programming",
+  "path": "/Types/Web Pages/Practical Functional Programming",
+  "recommendedBy": {
+    "</types/webPages/Let the Code Speak>": ""
+  },
+  "shortDescription": "",
+  "url": "https://stevenheidel.medium.com/practical-functional-programming-6d7932abc58b"
+}

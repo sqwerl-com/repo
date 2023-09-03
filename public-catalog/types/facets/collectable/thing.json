@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-07-10T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that can be placed into collections with other related things.",
+  "faceted": {
+    "</types/articles>": "",
+    "</types/books>": "",
+    "</types/collections>": "",
+    "</types/courses>": "",
+    "</types/documents>": "",
+    "</types/feeds>": "",
+    "</types/papers>": "",
+    "</types/pictures>": "",
+    "</types/podcasts>": "",
+    "</types/collections/Projects>": "",
+    "</types/talks>": "",
+    "</types/videos>": "",
+    "</types/webPages>": ""
+  },
+  "name": "Collectable",
+  "path": "/Types/Facets/Collectable",
+  "shortDescription": "Things that can be placed into collections of related things."
+}

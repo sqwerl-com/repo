@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-08-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ash Maurya>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Running Lean",
+  "path": "/Types/Books/Running Lean",
+  "pictures": {
+    "</types/pictures/Running Lean Book>": ""
+  },
+  "recommendedBy": {
+    "</types/books/UX Design for Startups>": ""
+  },
+  "shortDescription": "",
+  "title": "Running Lean: Iterate from Plan A to a Plan That Works Second Edition"
+}

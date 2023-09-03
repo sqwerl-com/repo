@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Arthur C Clarke>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Childhood's End",
+  "path": "/Types/Books/Childhood's End",
+  "pictures": {
+    "</types/pictures/Childhoods End Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "title": "Childhood's End"
+}

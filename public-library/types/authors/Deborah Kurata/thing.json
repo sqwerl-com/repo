@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-23T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Deborah",
+  "instructed": {
+    "</types/courses/Angular Component Communication>": "",
+    "</types/courses/Angular Reactive Forms>": "",
+    "</types/courses/Angular Routing>": "",
+    "</types/courses/Angular Getting Started>": ""
+  },
+  "lastName": "Kurata",
+  "middleNameOrInitial": "",
+  "name": "Deborah Kurata",
+  "path": "/Types/Authors/Deborah Kurata"
+}

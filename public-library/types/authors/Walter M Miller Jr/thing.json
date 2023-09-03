@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/A Canticle for Leibowitz>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Walter",
+  "lastName": "Miller",
+  "middleNameOrInitial": "M",
+  "name": "Walter M. Miller Jr",
+  "path": "/Types/Authors/Walter M. Miller Jr"
+}

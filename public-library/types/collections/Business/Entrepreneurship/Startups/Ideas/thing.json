@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/feeds/A Startup a Day>": "",
+    "</types/webPages/Frighteningly Ambitious Startup Ideas>": "",
+    "</types/feeds/IdeaTagging>": "",
+    "</types/webPages/Spotifys Design Lead on Why Side Projects Should Be Stupid>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ideas",
+  "path": "/Types/Collections/Business/Entrepreneurship/Startups/Ideas",
+  "shortDescription": "Things regarding ideas for starting up new businesses."
+}

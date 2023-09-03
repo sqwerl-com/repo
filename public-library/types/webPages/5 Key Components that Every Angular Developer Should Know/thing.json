@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/FAM>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "5 Key Components that Every Angular Developer Should Know",
+  "path": "/Types/Web Pages/5 Key Components that Every Angular Developer Should Know",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/A Trip to Templates World In Angular>": "",
+    "</types/webPages/Dependency Injection In Angular>": "",
+    "</types/webPages/How Does an Angular Application Work>": "",
+    "</types/webPages/The 5 Steps to Becoming a Self Taught Angular Developer>": "",
+    "</types/webPages/Whats Data Binding in Angular>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://javascript.plainenglish.io/the-5-key-components-that-every-angular-developer-should-know-bc4ad3739e88"
+}

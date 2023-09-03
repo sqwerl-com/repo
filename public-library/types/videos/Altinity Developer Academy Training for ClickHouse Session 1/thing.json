@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tatiana Saltykova>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/OLAP/ClickHouse>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/courses/Altinity Developer Academy Training for ClickHouse>": ""
+  },
+  "name": "Altinity Developer Academy Training for ClickHouse Session 1: Introduction and Schema Design",
+  "path": "/Types/Videos/Altinity Quickstart for ClickHouse - Session 1",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ClickHouse>": ""
+  },
+  "url": "https://www.youtube.com/watch?v=hBv6gVLqYAY",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

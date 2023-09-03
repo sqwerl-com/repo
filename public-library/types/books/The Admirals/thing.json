@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-02-18T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Walter R Borneman>"
+  ],
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Admirals",
+  "path": "/Types/Books/The Admirals",
+  "pictures": {
+    "</types/pictures/The Admirals Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Admirals: Nimitz, Halsey, Leahy, and King--the Five-Star Admirals Who Won the War at Sea"
+}

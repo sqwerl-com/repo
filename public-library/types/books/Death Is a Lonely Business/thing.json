@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ray Bradbury>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Death Is a Lonely Business",
+  "path": "/Types/Books/Death Is a Lonely Business",
+  "pictures": {
+    "</types/pictures/Death Is a Lonely Business Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

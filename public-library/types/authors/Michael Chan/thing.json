@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/podcasts/React Podcast>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Michael",
+  "lastName": "Chan",
+  "links": {
+    "</types/videos/Devs Answer Michael Chan>": ""
+  },
+  "middleNameOrInitial": "",
+  "name": "Michael Chan",
+  "path": "/Types/Authors/Michael Chan"
+}

@@ -1,0 +1,39 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-10-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steve Krug>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Dont Make Me Think>": ""
+  },
+  "name": "Don't Make Me Think, Revisited",
+  "notes": {
+    "</types/notes/Dont Make Me Think Revisited>": ""
+  },
+  "path": "/Types/Books/Don't Make Me Think, Revisited",
+  "pictures": {
+    "</types/pictures/Dont Make Me Think Revisited Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/documents/234 Tips and Tricks for Recruiting Users as Participants in Usability Studies>": "",
+    "</types/books/A Web for Everyone>": "",
+    "</types/books/Forms that Work>": "",
+    "</types/books/Letting Go of the Words>": "",
+    "</types/webPages/SteveKrugCom>": "",
+    "</types/books/The User Experience Team of One>": "",
+    "</types/webPages/WebAIM>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/How to Start a Startup>": ""
+  },
+  "shortDescription": "",
+  "title": "Don't Make Me Think Revisited: A Common Sense Approach to Web Usability (3rd Edition)"
+}

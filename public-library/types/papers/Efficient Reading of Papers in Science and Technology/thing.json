@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Michael J Hanson>",
+    "</types/authors/Dylan J McNamee>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Efficient Reading of Papers in Science and Technology",
+  "path": "/Types/Papers/Efficient Reading of Papers in Science and Technology",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": ""
+  },
+  "shortDescription": ""
+}

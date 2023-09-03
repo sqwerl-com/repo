@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-21T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Database Systems/Graph/Dgraph>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Dgraph.io",
+  "path": "/Types/Web Pages/Dgraph.io",
+  "shortDescription": "Home page for the Dgraph graph database management system",
+  "url": "https://dgraph.io/"
+}

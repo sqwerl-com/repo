@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tamerlan Gudabayev>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Instruction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Teach Yourself Computer Science - Key CS Concepts You Should Know",
+  "path": "/Types/Web Pages/Teach Yourself Computer Science - Key CS Concepts You Should Know",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/documents/Discrete Mathematics>": "",
+    "</types/courses/Intro to Computer Systems Fall 2016>": "",
+    "</types/books/Mathematics for Computer Science>": "",
+    "</types/courses/Stanford CS 253 Web Security>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.freecodecamp.org/news/what-every-software-engineer-should-know/#computer-architecture"
+}

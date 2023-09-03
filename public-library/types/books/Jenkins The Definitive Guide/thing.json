@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John Ferguson Smart>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Integration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Jenkins The Definitive Guide",
+  "path": "/Types/Books/Jenkins The Definitive Guide",
+  "pictures": {
+    "</types/pictures/Jenkins The Definitive Guide Book>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Jenkins>": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Templates/Mobile>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Templates",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Design Resources/Templates",
+  "shortDescription": "User interface design templates."
+}

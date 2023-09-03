@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-25T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/EmberConf 2016 Opening Keynote>": "",
+    "</types/books/jQuery in Action Second Edition>": "",
+    "</types/documents/jQuery Selectors>": "",
+    "</types/webPages/JSON API>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Yehuda",
+  "lastName": "Katz",
+  "middleNameOrInitial": "",
+  "name": "Yehuda Katz",
+  "path": "/Types/Authors/Yehuda Katz"
+}

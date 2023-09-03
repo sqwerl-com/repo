@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-15T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing for Interaction Book",
+  "path": "/Types/Pictures/Designing for Interaction Book",
+  "pictureOf": {
+    "</types/books/Designing for Interaction>": ""
+  },
+  "representations": {
+    "designing_for_interaction_book_cover_large.lnk.json": "",
+    "designing_for_interaction_book_cover_medium.lnk.json": "",
+    "designing_for_interaction_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

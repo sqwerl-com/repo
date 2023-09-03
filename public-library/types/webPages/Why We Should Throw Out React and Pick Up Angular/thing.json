@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-06-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sam Redmond>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why We Should Throw Out React and Pick Up Angular",
+  "path": "/Types/Web Pages/Why We Should Throw Out React and Pick Up Angular",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Understanding Angular Ivy>": "",
+    "</types/webPages/Why We Need to Stop Using React>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Why You Should Choose Angular Over React>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://javascript.plainenglish.io/throw-out-react-and-pick-up-angular-8b578bb7cabc"
+}

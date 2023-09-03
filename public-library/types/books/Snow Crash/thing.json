@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Neal Stephenson>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Snow Crash",
+  "path": "/Types/Books/Snow Crash",
+  "pictures": {
+    "</types/pictures/Snow Crash Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Why Business Leaders Need to Read More Science Fiction>": ""
+  },
+  "shortDescription": ""
+}

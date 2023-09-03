@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-02-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Erik Dietrich>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Site Reliability Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What is a Site Reliability Engineer? Should You Become One?",
+  "path": "/Types/Web Pages/What is a Site Reliability Engineer? Should You Become One?",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/books/Site Reliability Engineering>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Site Reliability Engineering>": ""
+  },
+  "url": "https://www.sentinelone.com/blog/site-reliability-engineer/"
+}

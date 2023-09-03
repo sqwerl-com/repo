@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-11-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/William Gibson>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Count Zero>": "",
+    "</types/books/Neuromancer>": ""
+  },
+  "name": "Mona Lisa Overdrive",
+  "path": "/Types/Books/Mona Lisa Overdrive",
+  "pictures": {
+    "</types/pictures/Mona Lisa Overdrive Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-15T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Cory House>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Yep, JavaScript Moves Fast",
+  "path": "/Types/Web Pages/Yep, JavaScript Moves Fast",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Yep, JavaScript Moves Fast. Build Your Component Library Anyway",
+  "url": "https://medium.com/@housecor/yep-javascript-moves-fast-build-your-component-library-anyway-a50576ab3031"
+}

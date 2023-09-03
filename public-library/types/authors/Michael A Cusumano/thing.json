@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Microsoft Secrets>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Michael",
+  "lastName": "Cusumano",
+  "middleNameOrInitial": "A",
+  "name": "Michael A. Cusumano",
+  "path": "/Types/Authors/Michael A. Cusumano"
+}

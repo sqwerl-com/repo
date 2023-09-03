@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-09-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sacha Greif>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The 12 Things You Need to Consider When Evaluating Any New JavaScript Library",
+  "path": "/Types/Web Pages/The 12 Things You Need to Consider When Evaluating Any New JavaScript Library",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/The Best of JavaScript HTML and CSS>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.freecodecamp.org/the-12-things-you-need-to-consider-when-evaluating-any-new-javascript-library-3908c4ed3f49"
+}

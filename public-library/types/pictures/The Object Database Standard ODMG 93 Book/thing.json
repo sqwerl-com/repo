@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-16T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Object Database Standard ODMG 93 Book",
+  "path": "/Types/Pictures/The Object Database Standard ODMG 93 Book",
+  "pictureOf": {
+    "</types/books/The Object Database Standard ODMG 93>": ""
+  },
+  "representations": {
+    "the_object_database_standard_odmg_93_book_cover_large.jpg.lnk.json": "",
+    "the_object_database_standard_odmg_93_book_cover_medium.jpg.lnk.json": "",
+    "the_object_database_standard_odmg_93_book_cover_preview.jpg.lnk.json": "",
+    "the_object_database_standard_odmg_93_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

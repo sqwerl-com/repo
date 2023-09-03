@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Martin Fowler Head Shot",
+  "path": "</types/pictures/Martin Fowler Head Shot>",
+  "pictureOf": {
+    "</types/authors/Martin Fowler>": ""
+  },
+  "representations": {
+    "martin_fowler_head_shot.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-24T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Brice Wilson>": ""
+  },
+  "links": {
+    "</types/webPages/TypeScript Getting Started>": ""
+  },
+  "name": "TypeScript: Getting Started",
+  "notes": {
+    "</types/notes/TypeScript Getting Started>": ""
+  },
+  "path": "/Types/Courses/TypeScript: Getting Started",
+  "recommendations": {
+    "</types/courses/TypeScript In Depth>": ""
+  },
+  "shortDescription": ""
+}

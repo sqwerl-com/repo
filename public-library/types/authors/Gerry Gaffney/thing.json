@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Forms that Work>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Gerry",
+  "lastName": "Gaffney",
+  "middleNameOrInitial": "",
+  "name": "Gerry Gaffney",
+  "path": "/Types/Authors/Gerry Gaffney"
+}

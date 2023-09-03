@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robert C Martin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Uncle Bob Martin - The Future of Programming",
+  "path": "/Types/Videos/Uncle Bob Martin - The Future of Programming",
+  "recommendations": {
+    "</types/books/The Annotated Turing>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=ecIWPzGEbFc",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

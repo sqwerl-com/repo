@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Niall Ferguson>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Colossus",
+  "notes": {
+    "</types/notes/Colossus>": ""
+  },
+  "path": "/Types/Books/Colossus",
+  "pictures": {
+    "</types/pictures/Colossus Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,32 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-06-30T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/A Thorough Guide to Ember Data>": "",
+    "</types/videos/Cage Match EmberJS vs Angular>": "",
+    "</types/webPages/Ember Addons>": "",
+    "</types/webPages/Ember CLI>": "",
+    "</types/webPages/Ember CLI Mirage>": "",
+    "</types/webPages/Ember Observer>": "",
+    "</types/webPages/Ember Pagination Full Example>": "",
+    "</types/webPages/Ember Your Best Bet>": "",
+    "</types/books/EmberJS in Action>": "",
+    "</types/videos/Emberjs The Documentary>": "",
+    "</types/videos/EmberConf 2016 Opening Keynote>": "",
+    "</types/webPages/EmberJS>": "",
+    "</types/webPages/JSON API>": "",
+    "</types/videos/Moving a Rails and jQuery App to EmberJS>": "",
+    "</types/videos/Nine Things Ive Learned>": "",
+    "</types/videos/Restoring Sanity to JavaScript Development with Ember 2>": "",
+    "</types/webPages/The Confusion Around Ember Views and Components>": "",
+    "</types/feeds/The Ember Zone>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Items regarding the Ember web application framework for JavaScript.",
+  "name": "EmberJS",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS",
+  "shortDescription": ""
+}

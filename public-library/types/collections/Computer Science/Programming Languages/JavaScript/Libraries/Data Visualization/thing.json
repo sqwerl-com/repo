@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-08-30T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/3 Key Insights That Make D3js Easy to Learn>": "",
+    "</types/webPages/c3js>": "",
+    "</types/books/D3 Tips and Tricks>": "",
+    "</types/books/D3 Tips and Tricks v4x>": "",
+    "</types/books/D3 Tips and Tricks v5x>": "",
+    "</types/webPages/d3js>": "",
+    "</types/books/React Plus D3v4>": "",
+    "</types/webPages/React Plus D3v4>": "",
+    "</types/videos/Reusable Data Visualization with React and D3js>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Libraries>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Data Visualization",
+  "path": "/Types/Collections/Computer Science/Programming Languages/JavaScript/Libraries/Data Visualization",
+  "shortDescription": "JavaScript libraries for visualizing data."
+}
+
+
+
+

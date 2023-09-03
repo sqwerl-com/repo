@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-07-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Timonwa Akintokun>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Guide to CSS Logical Properties",
+  "path": "/Types/Web Pages/Guide to CSS Logical Properties",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.logrocket.com/css-logical-properties-guide/"
+}

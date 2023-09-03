@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-10-10T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/12 Rules for Professional JavaScript in 2015>": "",
+    "</types/webPages/Handling State in React Four Immutable Approaches to Consider>": "",
+    "</types/webPages/Yep JavaScript Moves Fast>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Cory",
+  "instructed": {
+    "</types/courses/Becoming an Outlier>": "",
+    "</types/courses/Clean Code Programming for Humans>": ""
+  },
+  "lastName": "House",
+  "middleNameOrInitial": "",
+  "name": "Cory House",
+  "path": "/Types/Authors/Cory House"
+}

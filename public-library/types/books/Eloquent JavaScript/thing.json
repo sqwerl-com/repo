@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Marijn Haverbeke>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Eloquent JavaScript",
+  "path": "/Types/Books/Eloquent JavaScript",
+  "pictures": {
+    "</types/pictures/Eloquent JavaScript Book>": ""
+  },
+  "recommendedBy": {
+    "</types/documents/Startup Engineering Introduction>": ""
+  },
+  "shortDescription": "",
+  "title": "Eloquent JavaScript: A Modern Introduction to Programming",
+  "webPages": {
+    "</types/webPages/Eloquent JavaScript>": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kevin Mullet>",
+    "</types/authors/Darrell Sano>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Designing Visual Interfaces",
+  "notes": {
+    "</types/notes/Designing Visual Interfaces>": ""
+  },
+  "path": "/Types/Books/Designing Visual Interfaces",
+  "pictures": {
+    "</types/pictures/Designing Visual Interfaces Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

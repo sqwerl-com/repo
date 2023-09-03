@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-25T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://webapplog.com/feed",
+  "items": {
+    "</types/webPages/Top 10 ES6 Features Every Busy JavaScript Developer Must Know>": ""
+  },
+  "links": {
+    "</types/authors/Azat Mardan>": ""
+  },
+  "name": "webapplog",
+  "path": "/Types/Feeds/webapplog",
+  "shortDescription": ""
+}

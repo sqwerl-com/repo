@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-09-14T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Addy Osmani>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Addy Osmani>": ""
+  },
+  "name": "Offline installation of npm packages",
+  "path": "/Types/Web Pages/Offline installation of npm packages",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://addyosmani.com/blog/using-npm-offline/"
+}

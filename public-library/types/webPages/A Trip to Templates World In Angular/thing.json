@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/FAM>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Trip to Templates World In Angular",
+  "path": "/Types/Web Pages/A Trip to Templates World In Angular",
+  "recommendedBy": {
+    "</types/webPages/5 Key Components that Every Angular Developer Should Know>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  },
+  "url": "https://levelup.gitconnected.com/a-trip-to-templates-world-in-angular-b3d40b4f0d8a"
+}

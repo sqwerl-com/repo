@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Business Model Generation>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Business Models>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Generation",
+  "path": "/Types/Collections/Business/Entrepreneurship/Business Models/Generation",
+  "shortDescription": "Things related to how to create business models."
+}

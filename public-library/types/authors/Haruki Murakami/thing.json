@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-11-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/1Q84>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Haruki",
+  "lastName": "Murakami",
+  "middleNameOrInitial": "",
+  "name": "Haruki Murakami",
+  "path": "/Types/Authors/Haruki Murakami"
+}

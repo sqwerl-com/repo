@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-17T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing Web Interfaces Book",
+  "path": "/Types/Pictures/Designing Web Interfaces Book",
+  "pictureOf": {
+    "</types/books/Designing Web Interfaces>": ""
+  },
+  "representations": {
+    "designing_web_interfaces_book_cover_large.lnk.json": "",
+    "designing_web_interfaces_book_cover_medium.lnk.json": "",
+    "designing_web_interfaces_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

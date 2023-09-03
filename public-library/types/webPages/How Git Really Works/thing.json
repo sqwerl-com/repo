@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Maroun Maroun>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How Git Really Works",
+  "path": "/Types/Web Pages/How Git Really Works",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/better-programming/a-short-journey-to-git-internals-fc9d11dd80b7"
+}

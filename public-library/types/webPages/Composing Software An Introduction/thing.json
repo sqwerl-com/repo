@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-12-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Elliott>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Composing Software: An Introduction",
+  "path": "/Types/Web Pages/Composing Software: An Introduction",
+  "recommendedBy": {
+    "</types/webPages/10 Interview Questions Every JavaScript Developer Should Know>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-02T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/17 Mutable Suggestions for Naming a Startup>": "",
+    "</types/documents/Building the Perfect Beast>": "",
+    "</types/webPages/How to Name a Startup The SMART Checklist>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups/Marketing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Naming",
+  "path": "/Types/Collections/Business/Entrepreneurship/Startups/Marketing/Naming",
+  "shortDescription": "Things related to naming a startup."
+}

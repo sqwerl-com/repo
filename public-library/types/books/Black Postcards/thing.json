@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dean Wareham>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Black Postcards",
+  "path": "/Types/Books/Black Postcards",
+  "pictures": {
+    "</types/pictures/Black Postcards Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

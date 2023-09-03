@@ -1,0 +1,27 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-30T00:00:00.00-07:00",
+  "attending": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Brice Wilson>": ""
+  },
+  "links": {
+    "</types/webPages/TypeScript In Depth>": ""
+  },
+  "name": "TypeScript In-Depth",
+  "notes": {
+    "</types/notes/TypeScript In Depth>": ""
+  },
+  "path": "/Types/Courses/TypeScript In-Depth",
+  "recommendedBy": {
+    "</types/courses/TypeScript Getting Started>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-03-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Mark Zamoyta>": ""
+  },
+  "links": {
+    "</types/webPages/Angular Forms>": ""
+  },
+  "name": "Angular Forms",
+  "path": "/Types/Courses/Angular Forms",
+  "recommendedBy": {
+    "</types/courses/Angular Component Communication>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  }
+}

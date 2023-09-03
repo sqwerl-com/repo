@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Erich Gamma>",
+    "</types/authors/Richard Helm>",
+    "</types/authors/Ralph Johnson>",
+    "</types/authors/John Vlissides>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Methodologies/Object Oriented Analysis and Design/Design Patterns>": "",
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Design Patterns",
+  "path": "/Types/Books/Design Patterns",
+  "pictures": {
+    "</types/pictures/Design Patterns Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Clean Code>": "",
+    "</types/webPages/Software Engineering 101 for Front end Developers>": ""
+  },
+  "shortDescription": "",
+  "title": "Design Patterns: Elements of Reusable Object-Oriented Software"
+}

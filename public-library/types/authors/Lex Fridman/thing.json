@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-06-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/videos/Bjarne Stroustrup>": "",
+    "</types/videos/Brian Kernighan UNIX C AWK AMPL and Go Programming>": "",
+    "</types/videos/James Gosling Java JVM Emacs and the Early Days of Computing>": "",
+    "</types/videos/Jaron Lanier Virtual Reality Social Media and the Future of Humans and AI>": "",
+    "</types/videos/Noam Chomsky Putin Ukraine China and Nuclear War>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Lex",
+  "lastName": "Fridman",
+  "middleNameOrInitial": "",
+  "name": "Lex Fridman",
+  "path": "/Types/Authors/Lex Fridman"
+}

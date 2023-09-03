@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-09-27T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Flash Boys Book",
+  "path": "/Types/Pictures/Flash Boys Book",
+  "pictureOf": {
+    "</types/books/Flash Boys>": ""
+  },
+  "representations": {
+    "flash_boys_book_cover_large.png.lnk.json": "",
+    "flash_boys_book_cover_medium.png.lnk.json": "",
+    "flash_boys_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

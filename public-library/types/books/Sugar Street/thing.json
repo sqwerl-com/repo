@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Naguib Mahfouz>"
+  ],
+  "collections": {
+    "</types/collections/History/Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Palace of Desire>": "",
+    "</types/books/Palace Walk>": ""
+  },
+  "name": "Sugar Street: The Cairo Trilogy, Volume 3",
+  "path": "/Types/Books/Sugar Street: The Cairo Trilogy, Volume 3",
+  "pictures": {
+    "</types/pictures/Sugar Street Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

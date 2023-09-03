@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Rob Pike>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Go>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Go Programming Language",
+  "path": "/Types/Videos/The Go Programming Language",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=rKnDgT73v8s",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

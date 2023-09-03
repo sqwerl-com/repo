@@ -1,0 +1,63 @@
+@import "../index.scss";
+
+.sqwerl-horizontal-divider {
+  border-left: 1px solid var(--horizontal-divider-color);
+  cursor: col-resize;
+  display: flex;
+  user-select: none;
+  z-index: var(--horizontal-divider-z-index);
+
+  /* TODO - Animate these color transitions, use variables for the colors, add to light theme. */
+  &.active {
+    border-left: 1px solid rgba(67, 103, 140, 0.75);
+    box-shadow: calc(-2px) 0 3px rgba(51, 152, 254, 0.1);
+  }
+
+  &:hover {
+    border-left: 1px solid rgb(68, 68, 68);
+    box-shadow: calc(-2px) 0 3px rgba(45, 45, 45, 0.1);
+    transition: border-left 0.3s ease-in-out;
+  }
+
+  & .sqwerl-horizontal-split-right-child {
+    /* TODO - Make color a variable. */
+    border-left: 1px solid rgb(52, 52, 52);
+  }
+}
+
+.sqwerl-horizontal-split {
+  height: 100%;
+  width: 100%;
+}
+
+.sqwerl-horizontal-split-content {
+  height: 100%;
+  width: 100%;
+}
+
+.sqwerl-horizontal-split-left-child {
+  background: var(--list-background-color);
+  position: absolute;
+  height: 100%;
+  /* z-index: var(--horizontal-divider-split-left-child-z-index); */
+}
+
+.sqwerl-horizontal-split-overlay {
+  bottom: 0;
+  cursor: col-resize;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: var(--horizontal-divider-split-overlay-z-index);
+}
+
+.sqwerl-horizontal-split-right-child {
+  background: var(--background);
+  display: flex;
+  margin-left: 1px;
+  position: absolute;
+  /* z-index: var(--horizontal-divider-split-right-child-z-index); */
+}

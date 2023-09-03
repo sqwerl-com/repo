@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/Logging/Frameworks>": "",
+    "</types/webPages/Graphite>": "",
+    "</types/webPages/Logging Best Practices>": "",
+    "</types/webPages/Logging Best Practices for NodeJS Applications>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Logging",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Logging",
+  "shortDescription": ""
+}

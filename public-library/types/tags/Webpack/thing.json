@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-06-27T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Webpack application for bundling JavaScript modules",
+  "name": "Webpack",
+  "path": "/Types/Tags/Webpack",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/How to Setup Webpack 2 from Scratch in 2017>": "",
+    "</types/webPages/Start Your Own JavaScript Library Using Webpack and ES6>": "",
+    "</types/webPages/Webpack>": ""
+  },
+  "text": "Webpack"
+}

@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2013-01-14T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that can be linked (related) to other things.",
+  "faceted": {
+    "</types/articles>": "",
+    "</types/authors>": "",
+    "</types/books>": "",
+    "</types/collections>": "",
+    "</types/courses>": "",
+    "</types/documents>": "",
+    "</types/feeds>": "",
+    "</types/papers>": "",
+    "</types/pictures>": "",
+    "</types/podcasts>": "",
+    "</types/collections/Projects>": "",
+    "</types/talks>": "",
+    "</types/videos>": ""
+  },
+  "name": "Linkable",
+  "path": "/Types/Facets/Linkable",
+  "shortDescription": "Things that can be linked to other things."
+}

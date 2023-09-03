@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-10T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Configuration Management/Version Control Systems/Git/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Tig: Text Mode Interface for Git",
+  "path": "/Types/Web Pages/Tig: Text Mode Interface for Git",
+  "shortDescription": "",
+  "url": "https://jonas.github.io/tig/"
+}

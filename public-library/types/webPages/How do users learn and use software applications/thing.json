@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kevin Matz>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Architecting Usability>": ""
+  },
+  "name": "How do users learn to use software applications? An introduction to mental models.",
+  "path": "/Types/Web Pages/How do users learn to use software applications? An introduction to mental models.",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://architectingusability.com/2011/07/11/how-do-users-learn-and-use-software-applications-an-introduction-to-mental-models/"
+}

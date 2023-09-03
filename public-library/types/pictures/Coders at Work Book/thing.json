@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Coders at Work Book",
+  "path": "/Types/Pictures/Coders at Work Book",
+  "pictureOf": {
+    "</types/books/Coders at Work>": ""
+  },
+  "representations": {
+    "coders_at_work_book_cover_large.lnk.json": "",
+    "coders_at_work_book_cover_medium.lnk.json": "",
+    "coders_at_work_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

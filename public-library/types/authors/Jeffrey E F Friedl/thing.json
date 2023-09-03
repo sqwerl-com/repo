@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-01-06T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Mastering Regular Expressions Third Edition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jeffrey",
+  "lastName": "Friedl",
+  "middleNameOrInitial": "E F",
+  "name": "Jeffrey E. F. Friedl",
+  "path": "/Types/Authors/Jeffrey E. F. Friedl"
+}

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-01-01T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Art and Design/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Animation Basics",
+  "path": "/Types/Videos/Animation Basics",
+  "recommendedBy": {
+    "</types/books/Designing Interface Animation>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Animation>": ""
+  },
+  "title": "Animation Basics: The art of timing and spacing - TED-Ed",
+  "url": "https://www.youtube.com/watch?v=KRVhtMxQWRs",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

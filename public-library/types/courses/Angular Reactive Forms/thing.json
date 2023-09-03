@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-03-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/AngularJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Deborah Kurata>": ""
+  },
+  "links": {
+    "</types/webPages/Angular Reactive Forms>": ""
+  },
+  "name": "Angular Reactive Forms",
+  "path": "/Types/Courses/Angular Reactive Forms",
+  "recommendedBy": {
+    "</types/courses/Angular Component Communication>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Angular>": ""
+  }
+}

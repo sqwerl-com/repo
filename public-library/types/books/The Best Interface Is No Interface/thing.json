@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Golden Krishna>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Best Interface Is No Interface",
+  "path": "/Types/Books/The Best Interface Is No Interface",
+  "pictures": {
+    "</types/pictures/The Best Interface Is No Interface Book>": ""
+  },
+  "readers": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Characteristics of a Well Designed User Interface>": ""
+  },
+  "shortDescription": "",
+  "title": "The Best Interface Is No Interface: The simple path to brilliant technology"
+}

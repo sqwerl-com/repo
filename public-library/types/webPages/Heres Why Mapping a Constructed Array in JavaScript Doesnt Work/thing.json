@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Shawn Reisner>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Here's Why Mapping a Constructed Array in JavaScript Doesn't Work",
+  "path": "/Types/Web Pages/Here's Why Mapping a Constructed Array in JavaScript Doesn't Work",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://itnext.io/heres-why-mapping-a-constructed-array-doesn-t-work-in-javascript-f1195138615a"
+}

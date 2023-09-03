@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to building web UI applications that consists of multiple micro frontend applications",
+  "name": "Micro frontend",
+  "path": "/Types/Tags/Micro frontend",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/The Future of Micro Frontends>": ""
+  },
+  "text": "Micro frontend"
+}

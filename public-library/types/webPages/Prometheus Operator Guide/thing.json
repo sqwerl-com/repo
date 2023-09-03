@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-22T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Prometheus>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Prometheus Operator Guide",
+  "path": "/Types/Web Pages/Prometheus Operator Guide",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Kubernetes>": ""
+  },
+  "url": "https://last9.io/blog/prometheus-operator-guide/"
+}

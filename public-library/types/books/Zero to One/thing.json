@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-02-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Peter Theil>",
+    "</types/authors/Blake Masters>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Zero to One",
+  "notes": {
+    "</types/notes/Zero to One>": ""
+  },
+  "path": "/Types/Books/Zero to One",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/33 Books Everyone Should Read Before Turning 30>": ""
+  },
+  "shortDescription": "",
+  "title": "Zero to One: Notes on Startups, or How to Build the Future"
+}

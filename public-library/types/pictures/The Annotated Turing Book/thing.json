@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-11-29T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Annotated Turing Book",
+  "path": "/Types/Pictures/The Annotated Turing Book",
+  "pictureOf": {
+    "</types/books/The Annotated Turing>": ""
+  },
+  "representations": {
+    "the_annotated_turing_book_cover_large.jpg.lnk.json": "",
+    "the_annotated_turing_book_cover_medium.jpg.lnk.json": "",
+    "the_annotated_turing_book_cover_preview.jpg.lnk.json": "",
+    "the_annotated_turing_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

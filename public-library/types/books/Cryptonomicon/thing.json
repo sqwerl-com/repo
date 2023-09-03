@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Neal Stephenson>"
+  ],
+  "collections": {
+    "</types/collections/History/Fiction>": "",
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Cryptonomicon",
+  "path": "/Types/Books/Cryptonomicon",
+  "pictures": {
+    "</types/pictures/Cryptonomicon Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

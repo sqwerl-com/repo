@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-05-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/CloudBees>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Delivery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Continuous Delivery with Jenkins",
+  "path": "/Types/Papers/Continuous Delivery with Jenkins",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Continuous delivery>": "",
+    "</types/tags/Jenkins>": ""
+  },
+  "title": "Continuous Delivery with Jenkins: Deliver Software More Quickly with Jenkins Pipeline"
+}

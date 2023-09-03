@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-15T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Designing Interface Animation Book",
+  "path": "/Types/Pictures/Designing Interface Animation Book",
+  "pictureOf": {
+    "</types/books/Designing Interface Animation>": ""
+  },
+  "representations": {
+    "designing_interface_animation_book_cover_large.lnk.json": "",
+    "designing_interface_animation_book_cover_medium.lnk.json": "",
+    "designing_interface_animation_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

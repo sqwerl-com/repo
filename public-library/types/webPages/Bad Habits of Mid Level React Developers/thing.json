@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sam Magura>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Bad Habits of Mid-Level React Developers",
+  "path": "/Types/Web Pages/Bad Habits of Mid-Level React Developers",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dev.to/srmagura/bad-habits-of-mid-level-react-developers-b41"
+}

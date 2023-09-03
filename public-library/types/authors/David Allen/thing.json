@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-10T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Getting Things Done>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "David",
+  "lastName": "Allen",
+  "middleNameOrInitial": "",
+  "name": "David Allen",
+  "path": "/Types/Authors/David Allen"
+}

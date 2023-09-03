@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-09T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Home page for a web site that lists new products.",
+  "name": "Product Hunt",
+  "path": "/Types/Web Pages/Product Hunt",
+  "shortDescription": "Product Hunt home page",
+  "url": "http://www.producthunt.com/"
+}

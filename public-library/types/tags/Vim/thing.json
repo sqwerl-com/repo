@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-09T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Vim",
+  "path": "/Types/Tags/Vim",
+  "shortDescription": "Things relating to the VI/VIM text editor applications.",
+  "tagged": {
+    "</types/webPages/130 Plus Essential VIM Commands>": "",
+    "</types/videos/The Missing Semester of Your CS Education Lecture 3 Editors>": "",
+    "</types/webPages/VIM tutor>": ""
+  },
+  "text": "Vim"
+}

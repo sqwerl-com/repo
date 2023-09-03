@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Naguib Mahfouz>"
+  ],
+  "collections": {
+    "</types/collections/History/Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/Palace Walk>": "",
+    "</types/books/Sugar Street>": ""
+  },
+  "name": "Palace of Desire: The Cairo Trilogy, Volume 2",
+  "path": "/Types/Books/Palace of Desire: The Cairo Trilogy, Volume 2",
+  "pictures": {
+    "</types/pictures/Palace of Desire Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

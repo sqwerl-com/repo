@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-08T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://benrobertson.io/feed.xml",
+  "items": {
+    "</types/webPages/A Short Guide to Screen Reader Friendly Code>": "",
+    "</types/webPages/Understanding Layout for Screen Readers>": ""
+  },
+  "links": {
+    "</types/authors/Ben Robertson>": ""
+  },
+  "name": "Ben Robertson's Blog",
+  "path": "/Types/Feeds/Ben Robertson's Blog",
+  "shortDescription": "Developer's blog on web front end development and accessibility.",
+  "tags": {
+    "</types/tags/Accessibility>": ""
+  }
+}

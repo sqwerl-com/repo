@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-01-28T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Pete Hunt>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React: Rethinking Best Practices",
+  "path": "/Types/Videos/React: Rethinking Best Practices",
+  "shortDescription": "",
+  "url": "https://www.youtube.com/watch?v=x7cQ3mrcKaY",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

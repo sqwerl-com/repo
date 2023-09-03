@@ -1,0 +1,29 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Goetz>",
+    "</types/authors/Tim Peierls>",
+    "</types/authors/Joshua Bloch>",
+    "</types/authors/Joseph Bowbeer>",
+    "</types/authors/David Holmes>",
+    "</types/authors/Doug Lea>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Java/Concurrency>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Java Concurrency in Practice",
+  "path": "/Types/Books/Java Concurrency in Practice",
+  "pictures": {
+    "</types/pictures/Java Concurrency in Practice Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Let the Code Speak>": ""
+  },
+  "shortDescription": "",
+  "title": "Java Concurrency in Practice"
+}

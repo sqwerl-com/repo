@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-06-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Anto Semeraro>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Design Patterns: A Guide to JavaScript Development Principles for Clean and Scalable Code",
+  "path": "/Types/Web Pages/Design Patterns: A Guide to JavaScript Development Principles for Clean and Scalable Code",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://javascript.plainenglish.io/design-patterns-a-guide-to-javascript-development-principles-for-clean-and-scalable-code-cf90771b48f2"
+}

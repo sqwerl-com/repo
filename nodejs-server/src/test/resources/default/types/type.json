@@ -1,0 +1,63 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-05-02T00:00:00.00-07:00",
+  "description": "Types of things. All things of the same type have a similar set of characteristics.",
+  "name": "Types",
+  "controller": "</types/users/Administrator>",
+  "properties": {
+    "addedBy": {
+      "description": "The user who added a thing to a library of things.",
+      "inverse": "added",
+      "name": "Added by",
+      "required": true,
+      "shortDescription": "Who added a thing to a library.",
+      "type": "</types/users>"
+    },
+    "addedOn": {
+      "description": "The date and time when a thing was added to a library of things.",
+      "name": "Added on",
+      "required": true,
+      "shortDescription": "Day and time a thing was added to a library.",
+      "type": "timestamp"
+    },
+    "controller": {
+      "description": "The user who controls access to an object.",
+      "inverse": "controls",
+      "name": "Controller",
+      "required": true,
+      "shortDescription": "An object's controller.",
+      "type": "</types/users>"
+    },
+    "readableBy": {
+      "description": "Users and groups who are allowed to read (view) the values of an object's properties.",
+      "inverse": "canView",
+      "name": "Readable by",
+      "shortDescription": "Users and groups of users who can see an object's properties.",
+      "type": {
+        "</types>": ""
+      }
+    },
+    "shortDescription": {
+      "description": "Text that describes an object in less than 80 characters.",
+      "name": "Short description",
+      "shortDescription": "Text that briefly describes an object.",
+      "type": "text"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe an object.",
+      "name": "Tags",
+      "shortDescription": "Key words or short phrases that describe an object.",
+      "type": {
+        "</types/tags>": ""
+      }
+    },
+    "version": {
+      "description": "An object's version number.",
+      "name": "Version",
+      "required": false,
+      "shortDescription": "Version number.",
+      "type": "nonNegativeInteger"
+    }
+  },
+  "shortDescription": "Types of things."
+}

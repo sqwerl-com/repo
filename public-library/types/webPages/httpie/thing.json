@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-07-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jakub Roztocil>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Command-line tool for sending HTTP requests (like curl).",
+  "name": "Httpie",
+  "path": "/Types/Web Pages/Httpie",
+  "shortDescription": "",
+  "url": "https://github.com/jkbrzt/httpie"
+}

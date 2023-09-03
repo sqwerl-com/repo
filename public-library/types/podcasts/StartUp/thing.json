@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-16T00:00:00.00-07:00",
+  "authors": [
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Startups>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://gimletmedia.com/show/startup/all",
+  "name": "StartUp",
+  "path": "/Types/Podcasts/StartUp",
+  "recommendedBy": {
+    "</types/webPages/How to Start a Startup>": ""
+  },
+  "shortDescription": ""
+}

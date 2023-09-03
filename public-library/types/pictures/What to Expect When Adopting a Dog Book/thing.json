@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-04-16T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What to Expect When Adopting a Dog Book",
+  "path": "/Types/Pictures/What to Expect When Adopting a Dog Book",
+  "pictureOf": {
+    "</types/books/What to Expect When Adopting a Dog>": ""
+  },
+  "representations": {
+    "what_to_expect_when_adopting_a_dog_book_cover_large.jpg.lnk.json": "",
+    "what_to_expect_when_adopting_a_dog_book_cover_medium.jpg.lnk.json": "",
+    "what_to_expect_when_adopting_a_dog_book_cover_preview.jpg.lnk.json": "",
+    "what_to_expect_when_adopting_a_dog_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

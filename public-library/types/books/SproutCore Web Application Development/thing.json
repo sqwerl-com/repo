@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-10-01T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Tyler Keating>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks/SproutCore>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "SproutCore Web Application Development",
+  "notes": {
+    "</types/notes/SproutCore Web Application Development>": ""
+  },
+  "path": "/Types/Books/SproutCore Web Application Development",
+  "pictures": {
+    "</types/pictures/SproutCore Web Application Development Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

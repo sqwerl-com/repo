@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/4 iOS Rules to Break>": "",
+    "</types/webPages/How Apple Is Giving Design A Bad Name>": "",
+    "</types/documents/iOS Human Interface Guidelines>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Platforms/iOS/iPad>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Platforms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "iOS",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Platforms/iOS",
+  "shortDescription": "Things related to designing the user experience for users of Apple iOS devices (iPhone and iPad)."
+}

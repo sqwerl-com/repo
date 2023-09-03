@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Pro Git Book",
+  "path": "/Types/Pictures/Pro Git Book",
+  "pictureOf": {
+    "</types/books/Pro Git>": ""
+  },
+  "representations": {
+    "pro_git_book_cover_large.png.lnk.json": "",
+    "pro_git_book_cover_medium.png.lnk.json": "",
+    "pro_git_book_cover_preview.png.lnk.json": "",
+    "pro_git_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

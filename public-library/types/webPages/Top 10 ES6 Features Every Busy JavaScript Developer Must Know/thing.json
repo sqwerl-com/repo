@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-25T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Azat Mardan>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "feeds": {
+    "</types/feeds/webapplog>": ""
+  },
+  "name": "Top 10 ES6 Features Every Busy JavaScript Developer Must Know",
+  "path": "/Types/Web Pages/Top 10 ES6 Features Every Busy JavaScript Developer Must Know",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/ES6>": ""
+  },
+  "url": "https://webapplog.com/es6/"
+}

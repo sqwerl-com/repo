@@ -1,0 +1,32 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-08-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Donald A Norman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Emotional Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Emotional Design",
+  "notes": {
+    "</types/notes/Emotional Design>": ""
+  },
+  "path": "/Types/Books/Emotional Design",
+  "pictures": {
+    "</types/pictures/Emotional Design Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Emotion and Design>": "",
+    "</types/books/The Meaning of Things>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Designing for Emotion>": "",
+    "</types/webPages/The Aesthetic Usability Effect>": ""
+  },
+  "shortDescription": "",
+  "title": "Emotional Design: Why We Love (or Hate) Everyday Things"
+}

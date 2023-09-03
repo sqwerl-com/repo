@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-10-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Atul Gawande>"
+  ],
+  "books": {
+    "</types/books/The Checklist Manifesto>": ""
+  },
+  "collections": {
+    "</types/collections/Life>": "",
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Checklist",
+  "path": "/Types/Web Pages/The Checklist",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Checklist: If something is so simple it can transform intensive care, what else can it do?",
+  "url": "http://www.newyorker.com/magazine/2007/12/10/the-checklist"
+}

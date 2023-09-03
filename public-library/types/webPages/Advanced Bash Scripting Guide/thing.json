@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Mendel Cooper>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Learn Linux System Administration>": "",
+    "</types/collections/Computer Science/Operating Systems/Linux/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Advanced Bash-Scripting Guide",
+  "path": "/Types/Web Pages/Advanced Bash-Scripting Guide",
+  "shortDescription": "",
+  "url": "http://tldp.org/LDP/abs/html/"
+}

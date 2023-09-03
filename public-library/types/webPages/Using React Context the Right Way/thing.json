@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Blankenship>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Using React Context, the Right Way",
+  "path": "/Types/Web Pages/Using React Context, the Right Way",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/swlh/using-react-context-the-right-way-cf5e011dc4ba"
+}

@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-12-31T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Have Single Page Apps Ruined the Web>": "",
+    "</types/webPages/Svelte Home Page>": "",
+    "</types/videos/The Future of Svelte>": "",
+    "</types/webPages/Why Svelte Wont Kill React>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Svelte",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Svelte",
+  "shortDescription": "Items regarding the Svelte JavaScript user interface development library."
+}

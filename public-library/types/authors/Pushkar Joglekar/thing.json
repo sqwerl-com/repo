@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Kubernetes Book>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Pushkar",
+  "lastName": "Joglekar",
+  "middleNameOrInitial": "",
+  "name": "Pushkar Joglekar",
+  "path": "/Types/Authors/Pushkar Joglekar"
+}

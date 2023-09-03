@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-04-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ursula K Le Guin>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Lathe of Heaven",
+  "path": "/Types/Books/The Lathe of Heaven",
+  "pictures": {
+    "</types/pictures/The Lathe of Heaven Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

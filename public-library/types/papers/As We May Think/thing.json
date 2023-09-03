@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Vannevar Bush>"
+  ],
+  "collections": {
+    "</types/collections/History/Computation>": "",
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/As We May Think>": ""
+  },
+  "name": "As We May Think",
+  "path": "/Types/Papers/As We May Think",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/papers/A Personal Computer for Children of All Ages>": "",
+    "</types/papers/Augmenting Human Intellect>": "",
+    "</types/courses/Human Computer Interaction University of Washington>": "",
+    "</types/webPages/Web History Chapter 1 Birth>": ""
+  },
+  "shortDescription": ""
+}

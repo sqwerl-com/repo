@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joel Thoms>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Functional JavaScript: Decoupling Methods From Their Objects",
+  "path": "/Types/Web Pages/Functional JavaScript: Decoupling Methods From Their Objects",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  },
+  "url": "https://hackernoon.com/functional-javascript-decoupling-methods-from-their-objects-aa3ca13d7ae8"
+}

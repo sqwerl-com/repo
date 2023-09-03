@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-07T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Declarative>": "",
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Object Oriented>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Programming Paradigms",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Programming Paradigms",
+  "shortDescription": "Things related to classifications for programming languages."
+}

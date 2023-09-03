@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-04-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ben Snyder>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Personas>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/BUX A Better User Experience>": "",
+    "</types/webPages/Rethinking Personas for Small Business Part 2>": ""
+  },
+  "name": "Rethinking Personas for Small Business, Part 1: Signal, Not Stratification",
+  "path": "/Types/Web Pages/Rethinking Personas for Small Business, Part 1: Signal, Not Stratification",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Personas>": ""
+  },
+  "url": "http://abetteruserexperience.com/2012/02/rethinking-personas-for-small-business-theres-a-better-way/"
+}

@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nick Montfort>",
+    "</types/authors/Ian Bogost>"
+  ],
+  "collections": {
+    "</types/collections/History/Computation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/videos/Atari 2600 VCS Programming>": "",
+    "</types/videos/Racing the Beam Atari 2600 CPU vs CRT Television>": ""
+  },
+  "name": "Racing the Beam",
+  "path": "/Types/Books/Racing the Beam",
+  "pictures": {
+    "</types/pictures/Racing the Beam Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "Racing the Beam: The Atari Video Computer System (Platform Studies)"
+}

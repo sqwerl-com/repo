@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-01-21T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/API Best Practices Hypermedia Part 1>": "",
+    "</types/webPages/API Best Practices Hypermedia Part 2>": "",
+    "</types/webPages/API Best Practices Hypermedia Part 3>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Mike",
+  "lastName": "Stowe",
+  "middleNameOrInitial": "",
+  "name": "Mike Stowe",
+  "path": "/Types/Authors/Mike Stowe"
+}

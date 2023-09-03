@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-16T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Pop Ups and Adaptive Help Get a Refresh>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Information related to online help systems and documentation.",
+  "name": "Help",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Help",
+  "shortDescription": "Things related to online help and documentation."
+}

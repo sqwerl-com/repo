@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-12-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Classic Shell Scripting>": "",
+    "</types/books/SED and AWK Second Edition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Arnold",
+  "lastName": "Robbins",
+  "middleNameOrInitial": "",
+  "name": "Arnold Robbins",
+  "path": "/Types/Authors/Arnold Robbins"
+}

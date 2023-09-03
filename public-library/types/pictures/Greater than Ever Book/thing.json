@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-10T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Greater than Ever Book",
+  "path": "/Types/Pictures/Greater than Ever Book",
+  "pictureOf": {
+    "</types/books/Greater than Ever>": ""
+  },
+  "representations": {
+    "greater_than_ever_book_cover_large.jpg.lnk.json": "",
+    "greater_than_ever_book_cover_medium.jpg.lnk.json": "",
+    "greater_than_ever_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

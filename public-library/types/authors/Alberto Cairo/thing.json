@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-18T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Functional Art>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Alberto",
+  "lastName": "Cairo",
+  "middleNameOrInitial": "",
+  "name": "Alberto Cairo",
+  "path": "/Types/Authors/Alberto Cairo"
+}

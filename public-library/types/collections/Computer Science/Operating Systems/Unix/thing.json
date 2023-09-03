@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/10 Examples of Tar Command in Unix and Linux>": "",
+    "</types/webPages/50 Most Frequently Used Unix Linux Commands With Examples>": "",
+    "</types/webPages/AWK and SED>": "",
+    "</types/webPages/Bash History Correct Repeat The Last Command With a Substitution>": "",
+    "</types/books/Classic Shell Scripting>": "",
+    "</types/books/SED and AWK Second Edition>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix/System Administration>": "",
+    "</types/videos/The History of UNIX Rob Pike>": "",
+    "</types/feeds/The UNIX School>": "",
+    "</types/books/Unix Network Programming>": "",
+    "</types/books/UNIX A History and a Memoir>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Unix",
+  "path": "/Types/Collections/Computer Science/Operating Systems/Unix",
+  "shortDescription": ""
+}

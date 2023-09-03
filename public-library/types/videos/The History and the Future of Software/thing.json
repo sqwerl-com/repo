@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-05-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Grady Booch>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The History (and the Future) of Software",
+  "path": "/Types/Videos/The History (and the Future) of Software",
+  "recommendations": {
+    "</types/books/Godel Escher Bach>": "",
+    "</types/books/Saving Bletchley Park>": ""
+  },
+  "shortDescription": "",
+  "url": "https://youtu.be/OdI7Ukf-Bf4",
+  "viewedBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Innovation and Entrepreneurship>": "",
+    "</types/books/The Effective Executive>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Peter",
+  "lastName": "Drucker",
+  "middleNameOrInitial": "F",
+  "name": "Peter F. Drucker",
+  "path": "/Types/Authors/Peter F. Drucker"
+}

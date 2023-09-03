@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "1984 Book",
+  "path": "/Types/Pictures/1984 Book",
+  "pictureOf": {
+    "</types/books/1984>": ""
+  },
+  "representations": {
+    "1984_book_cover_large.lnk.json": "",
+    "1984_book_cover_medium.lnk.json": "",
+    "1984_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

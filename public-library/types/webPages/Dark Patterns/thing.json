@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-14T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Pattern Repositories/Antipatterns>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/videos/Dark Patterns>": ""
+  },
+  "name": "Dark Patterns",
+  "path": "/Types/Web Pages/Dark Patterns",
+  "shortDescription": "",
+  "url": "http://darkpatterns.org/"
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-08T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Andrew",
+  "instructed": {
+    "</types/courses/Puppet 4 Language Essentials>": ""
+  },
+  "lastName": "Mallett",
+  "middleNameOrInitial": "",
+  "name": "Andrew Mallett",
+  "path": "/Types/Authors/Andrew Mallett"
+}

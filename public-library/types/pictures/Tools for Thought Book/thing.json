@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-03T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Tools for Thought Book",
+  "path": "/Types/Pictures/Tools for Thought Book",
+  "pictureOf": {
+    "</types/books/Tools for Thought>": ""
+  },
+  "representations": {
+    "tools_for_thought_book_cover_large.jpg.lnk.json": "",
+    "tools_for_thought_book_cover_medium.jpg.lnk.json": "",
+    "tools_for_thought_book_cover_preview.jpg.lnk.json": "",
+    "tools_for_thought_book_cover_small.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

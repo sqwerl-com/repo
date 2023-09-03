@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-03T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "SteveKrug.com",
+  "path": "/Types/Web Pages/SteveKrug.com",
+  "recommendedBy": {
+    "</types/books/Dont Make Me Think Revisited>": ""
+  },
+  "shortDescription": "",
+  "url": "http://stevekrug.com/"
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-08-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kyle Simpson>"
+  ],
+  "books": {
+    "</types/books/You Dont Know JS Types and Grammar>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "You Don't Know JS: Types & Grammar",
+  "path": "/Types/Web Pages/You Don't Know JS: Types & Grammar",
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/JavaScript>": ""
+  },
+  "url": "https://github.com/getify/You-Dont-Know-JS/tree/1st-ed/types%20%26%20grammar"
+}

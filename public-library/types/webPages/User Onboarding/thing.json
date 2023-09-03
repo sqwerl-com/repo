@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-06-11T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "User Onboarding",
+  "path": "/Types/Web Pages/User Onboarding",
+  "recommendedBy": {
+    "</types/webPages/UX Design Tips for Your App Part 1>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Onboarding>": ""
+  },
+  "url": "https://www.useronboard.com/"
+}

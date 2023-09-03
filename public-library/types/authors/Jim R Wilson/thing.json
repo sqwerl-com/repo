@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-05-25T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Nodejs the Right Way>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jim",
+  "lastName": "Wilson",
+  "middleNameOrInitial": "R",
+  "name": "Jim R. Wilson",
+  "path": "/Types/Authors/Jim R. Wilson"
+}
+

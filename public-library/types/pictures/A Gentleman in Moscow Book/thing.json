@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Gentleman in Moscow Book",
+  "path": "/Types/Pictures/A Gentleman in Moscow Book",
+  "pictureOf": {
+    "</types/books/A Gentleman in Moscow>": ""
+  },
+  "representations": {
+    "a_gentleman_in_moscow_book_cover_large.lnk.json": "",
+    "a_gentleman_in_moscow_book_cover_medium.lnk.json": "",
+    "a_gentleman_in_moscow_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

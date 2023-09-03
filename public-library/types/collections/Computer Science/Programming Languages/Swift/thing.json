@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-11T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Swift org>": "",
+    "</types/books/The Swift Programming Language>": "",
+    "</types/books/Using Swift with Cocoa and Objective C>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Swift",
+  "path": "/Types/Collections/Computer Science/Programming Languages/Swift",
+  "shortDescription": "Things related to the Swift programming language"
+}

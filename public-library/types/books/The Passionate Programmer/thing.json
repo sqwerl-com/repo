@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Chad Fowler>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Passionate Programmer",
+  "notes": {
+    "</types/notes/The Passionate Programmer>": ""
+  },
+  "path": "/Types/Books/The Passionate Programmer",
+  "pictures": {
+    "</types/pictures/The Passionate Programmer Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Passionate Programmer 2nd Edition: Creating a Remarkable Career in Software Development"
+}

@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-07-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Kernighan>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "UNIX: A History and a Memoir",
+  "path": "/Types/Books/UNIX A History and a Memoir",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/videos/Brian Kernighan UNIX C AWK AMPL and Go Programming>": ""
+  }
+}

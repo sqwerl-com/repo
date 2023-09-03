@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-08-04T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "David",
+  "instructed": {
+    "</types/courses/Getting Started with Linux System Administration>": "",
+    "</types/courses/Getting Started with the Linux Command Line>": ""
+  },
+  "lastName": "Clinton",
+  "middleNameOrInitial": "",
+  "name": "David Clinton",
+  "path": "/Types/Authors/David Clinton"
+}

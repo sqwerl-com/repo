@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-03-13T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Science/Biology>": "",
+    "</types/talks/Cargo Cult Science>": "",
+    "</types/webPages/Cargo Cult Science>": "",
+    "</types/collections/Science/Physics>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to building knowledge by testing the validity of hypotheses (explanations) through experimentation and observation.",
+  "name": "Science",
+  "path": "/Types/Collections/Science/",
+  "shortDescription": "Things related to scientific inquiry."
+}

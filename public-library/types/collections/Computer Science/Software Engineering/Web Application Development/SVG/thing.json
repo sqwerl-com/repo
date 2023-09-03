@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-05T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Practical SVG>": "",
+    "</types/videos/SVG Beyond Mere Shapes>": "",
+    "</types/webPages/SVGs Beyond Mere Shapes>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "SVG",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/SVG",
+  "shortDescription": "Things related to Scalable Vector Graphics (SVG)"
+}

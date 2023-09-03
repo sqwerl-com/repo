@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Innovator's Solution Book",
+  "path": "/Types/Pictures/The Innovator's Solution Book",
+  "pictureOf": {
+    "</types/books/The Innovators Solution>": ""
+  },
+  "representations": {
+    "the_innovators_solution_book_cover_large.png.lnk.json": "",
+    "the_innovators_solution_book_cover_medium.png.lnk.json": "",
+    "the_innovators_solution_book_cover_preview.png.lnk.json": "",
+    "the_innovators_solution_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

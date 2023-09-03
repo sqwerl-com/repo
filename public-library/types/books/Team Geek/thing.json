@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-05-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian W Fitzpatrick>",
+    "</types/authors/Ben Collins Sussman>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Team Geek: A Software Developer's Guide to Working Well with Others",
+  "notes": {
+    "</types/notes/Team Geek>": ""
+  },
+  "path": "/Types/Books/Team Geek: A Software Developer's Guide to Working Well with Others",
+  "pictures": {
+    "</types/pictures/Team Geek Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/courses/Getting Started with the Linux Command Line>": ""
+  },
+  "name": "Getting Started with the Linux Command Line",
+  "path": "/Types/Web Pages/Getting Started with the Linux Command Line",
+  "shortDescription": "Pluralsight course web page",
+  "url": "https://app.pluralsight.com/library/courses/getting-started-linux-command-line/table-of-contents"
+}

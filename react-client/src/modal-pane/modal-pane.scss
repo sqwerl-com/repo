@@ -1,0 +1,31 @@
+@import "../index.scss";
+
+.sqwerl-modal-pane {
+  background: var(--modal-pane-background-color);
+}
+
+.sqwerl-modal-dialog-command-area {
+  padding-bottom: 1rem;
+}
+
+.sqwerl-modal-pane {
+  cursor: not-allowed;
+
+  &.is-clickable {
+    cursor: pointer;
+  }
+
+  &.visible {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: var(--modal-pane-z-index);
+  }
+
+  &.hidden {
+    display: none;
+  }
+}

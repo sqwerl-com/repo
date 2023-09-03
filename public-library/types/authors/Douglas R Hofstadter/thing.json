@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-05-12T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Godel Escher Bach>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Douglas",
+  "lastName": "Hofstadter",
+  "middleNameOrInitial": "R",
+  "name": "Douglas R. Hofstadter",
+  "path": "/Types/Authors/Douglas R. Hofstadter"
+}

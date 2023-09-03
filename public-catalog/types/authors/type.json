@@ -1,0 +1,128 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "People, groups, or organizations who have authored a work.",
+  "extends": "</types>",
+  "facets": {
+    "</types/facets/depictable>": "",
+    "</types/facets/linkable>": "",
+    "</types/facets/taggable>": ""
+  },
+  "name": "Authors",
+  "path": "/Types/Authors",
+  "properties": {
+    "authorOf": {
+      "description": "Works that an author has written.",
+      "inverse": "authors",
+      "name": "Author of",
+      "shortDescription": "Author of",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "firstName": {
+      "description": "An author's first (given) name.",
+      "shortDescription": "First name",
+      "type": "text"
+    },
+    "instructed": {
+      "description": "Courses an author was the instructor for.",
+      "inverse": "instructors",
+      "name": "Instructed",
+      "shortDescription": "Courses instructed by the author.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/courses>": ""
+      }
+    },
+    "lastName": {
+      "description": "An author's last name (surname).",
+      "required": "true",
+      "shortDescription": "Last name",
+      "type": "text"
+    },
+    "linkedInUrl": {
+      "description": "The URL (link) to an author's LinkedIn profile.",
+      "shortDescription": "LinkedIn profile",
+      "type": "text"
+    },
+    "links": {
+      "description": "Links to things related to the author.",
+      "inverse": "links",
+      "shortDescription": "Links to related things.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</type>": ""
+      }
+    },
+    "middleNameOrInitial": {
+      "description": "An author's middle name or middle initial.",
+      "shortDescription": "Middle name or initial",
+      "type": "text"
+    },
+    "name": {
+      "description": "An author's full name (first name, middle name or initial, and surname).",
+      "shortDescription": "Full name",
+      "type": "text"
+    },
+    "pictures": {
+      "description": "Images of an author",
+      "inverse": "pictureOf",
+      "shortDescription": "Pictures",
+      "type": {
+        "</types/pictures>": ""
+      }
+    },
+    "recommendations": {
+      "description": "Things that this author recommends people look at.",
+      "inverse": "recommendedBy",
+      "shortDescription": "Related things that this author suggests to look at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types>": ""
+      }
+    },
+    "spokeAt": {
+      "description": "Events that an author spoke at.",
+      "required": false,
+      "shortDescription": "Things that an author spoke or presented at.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/talks>": ""
+      }
+    },
+    "suffix": {
+      "description": "Added to a person's name to differentiate it from another person with the same name. For example Jr., Sr., II, or III.",
+      "required": false,
+      "shortDescription": "Jr., Sr., I, or II added after a person's name to distinguish that person from another person.",
+      "type": "text"
+    },
+    "tags": {
+      "description": "Key words or phrases that describe an author.",
+      "inverse": "tagged",
+      "name": "Tags",
+      "required": false,
+      "shortDescription": "",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/tags>": ""
+      }
+    }
+  },
+  "shortDescription": "Individuals or organizations that have created things.",
+  "singularName": "Author"
+}

@@ -1,0 +1,42 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+  
+src/**/*.css
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/app
+
+# JetBrains Integrated Development Environments (IDE) files
+.idea
+*.iml
+
+# HTML documentation generated from JavaScript source files.
+jsdoc
+
+# SCSS to CSS mapping files.
+*.css.map
+.sass-cache/**
+
+# Configuration files
+.env.*
+
+# Typescript doc generated source code documentation.
+docs/**

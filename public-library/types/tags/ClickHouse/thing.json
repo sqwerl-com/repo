@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-01T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "ClickHouse",
+  "path": "/Types/Tags/ClickHouse",
+  "shortDescription": "Things related to the ClickHouse analytical database system.",
+  "tagged": {
+    "</types/courses/Altinity Developer Academy Training for ClickHouse>": "",
+    "</types/videos/Altinity Developer Academy Training for ClickHouse Session 1>": "",
+    "</types/videos/Altinity Developer Academy Training for ClickHouse Session 2>": "",
+    "</types/videos/Altinity Quickstart for ClickHouse>": "",
+    "</types/webPages/ClickHouse Keeper>": "",
+    "</types/webPages/Lesser Known Features of ClickHouse>": "",
+    "</types/videos/Opening the Floodgates>": "",
+    "</types/videos/Processing CDN Logging Events at Scale>": "",
+    "</types/books/Up and Running with ClickHouse>": ""
+  },
+  "text": "ClickHouse"
+}

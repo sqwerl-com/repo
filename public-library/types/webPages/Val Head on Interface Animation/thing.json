@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-11-29T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Val Head>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Animation>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Inside Intercom>": ""
+  },
+  "name": "Val Head on Interface Animation",
+  "path": "/Types/Web Pages/Val Head on Interface Animation",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.intercom.com/val-head-designing-interface-animation/"
+}

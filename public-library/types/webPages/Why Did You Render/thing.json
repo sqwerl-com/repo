@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-06-10T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React/Performance Optimization>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Why Did You Render?",
+  "path": "/Types/Web Pages/Why Did You Render?",
+  "recommendedBy": {
+    "</types/webPages/Optimizing React Performance>": ""
+  },
+  "shortDescription": "Home page for a project on GitHub that describes why React components render.",
+  "url": "https://github.com/welldone-software/why-did-you-render"
+}

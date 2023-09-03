@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-20T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "XSS (Cross-site scripting)",
+  "name": "XSS",
+  "path": "/Types/Tags/XSS",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/Common Security Issues in Web Applications Part 1>": "",
+    "</types/webPages/Excess XSS>": ""
+  },
+  "text": "XSS"
+}

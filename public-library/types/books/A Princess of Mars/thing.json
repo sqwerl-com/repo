@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-11-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Edgar Rice Burroughs>"
+  ],
+  "collections": {
+    "</types/collections/Science Fiction>": "",
+    "</types/collections/Science Fiction/Tom Carrolls Favorite Science Fiction Books>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "A Princess of Mars",
+  "path": "/Types/Books/A Princess of Mars",
+  "pictures": {
+    "</types/pictures/A Princess of Mars Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

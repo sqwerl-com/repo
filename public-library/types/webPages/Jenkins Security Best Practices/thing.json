@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Alex Ilgayev>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Integration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Jenkins Security Best Practices",
+  "path": "/Types/Web Pages/Jenkins Security Best Practices",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Jenkins>": ""
+  },
+  "url": "https://cycode.com/jenkins-security-best-practices/"
+}

@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-07-10T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Gregor Riegler>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Modern Web Development>": ""
+  },
+  "name": "Be a Better Developer",
+  "path": "/Types/Web Pages/Be a Better Developer",
+  "shortDescription": "",
+  "url": "http://babdev.blogspot.com/"
+}

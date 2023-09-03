@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Cryptonomicon>": "",
+    "</types/books/Seveneves>": "",
+    "</types/books/Snow Crash>": "",
+    "</types/books/The Diamond Age>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Neal",
+  "lastName": "Stephenson",
+  "middleNameOrInitial": "",
+  "name": "Neal Stephenson",
+  "path": "/Types/Authors/Neal Stephenson"
+}

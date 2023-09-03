@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Introduction to Database Systems",
+  "notes": {
+    "</types/notes/Introduction to Database Systems>": ""
+  },
+  "path": "/Types/Courses/Introduction to Database Systems",
+  "shortDescription": ""
+}

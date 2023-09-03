@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-08-20T00:00:00.00-07:00",
+  "children": {
+    "</types/books/The Dinosaur Heresies>": ""
+  },
+  "collections": {
+    "</types/collections/Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Biology",
+  "path": "/Types/Collections/Science/Biology",
+  "shortDescription": "Things related to the study of living things"
+}

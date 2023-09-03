@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-04-30T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Awesome React",
+  "path": "/Types/Web Pages/Awesome React",
+  "shortDescription": "Github project with links to React resources.",
+  "url": "https://github.com/enaqx/awesome-react"
+}

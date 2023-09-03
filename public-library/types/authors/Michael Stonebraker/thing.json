@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-16T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Object Relational DBMSs The Next Great Wave>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Michael",
+  "lastName": "Stonebraker",
+  "middleNameOrInitial": "",
+  "name": "Michael Stonebraker",
+  "path": "/Types/Authors/Michael Stonebraker"
+}

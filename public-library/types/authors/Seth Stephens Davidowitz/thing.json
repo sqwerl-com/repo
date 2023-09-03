@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-10-29T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Everybody Lies>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Seth",
+  "lastName": "Stephens-Davidowitz",
+  "middleNameOrInitial": "",
+  "name": "Seth Stephens-Davidowitz",
+  "path": "/Types/Authors/Seth Stephens-Davidowitz"
+}

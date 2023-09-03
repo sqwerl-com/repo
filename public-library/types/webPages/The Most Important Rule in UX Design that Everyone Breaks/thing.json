@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-11-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeff Davidson>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Most Important Rule in UX Design that Everyone Breaks",
+  "path": "/Types/Web Pages/The Most Important Rule in UX Design that Everyone Breaks",
+  "recommendedBy": {
+    "</types/webPages/Getting the Search Pattern Right>": ""
+  },
+  "shortDescription": "",
+  "url": "https://blog.prototypr.io/the-most-important-rule-in-ux-design-that-everyone-breaks-1c1cb188931"
+}

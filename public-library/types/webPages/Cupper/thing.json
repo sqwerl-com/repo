@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-06-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Pradeep Chhetri>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/ClickHouse Keeper>": "",
+    "</types/webPages/Lesser Known Features of ClickHouse>": ""
+  },
+  "name": "Cupper",
+  "path": "/Types/Web Pages/Cupper",
+  "shortDescription": "Home page of Pradeep Chhetri's blog",
+  "url": "https://pradeepchhetri.xyz/"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-05-06T00:00:00.00-07:00",
+  "books": {
+    "</types/books/The Encyclopedia of Human Computer Interaction 2nd Edition>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Encyclopedia of Human-Computer Interaction (2nd Edition)",
+  "path": "/Types/Web Pages/The Encyclopedia of Human-Computer Interaction (2nd Edition)",
+  "shortDescription": "",
+  "url": "https://www.interaction-design.org/books/hci.html"
+}

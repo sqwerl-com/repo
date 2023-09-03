@@ -1,0 +1,12 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-17T00:00:00.00-07:00",
+  "children": [
+    "</types/libraries/Main>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "description": "The home (initial) view of a library of things.",
+  "name": "Home",
+  "path": "/Types/Views/Home",
+  "shortDescription": "Home (initial) view of things."
+}

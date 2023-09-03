@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-08-12T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Projects/Learn Linux System Administration>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Cats Who Code>": ""
+  },
+  "name": "130+ Essential VIM Commands",
+  "path": "/Types/Web Pages/130+ Essential VIM Commands",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "tags": {
+    "</types/tags/Vim>": ""
+  },
+  "url": "http://www.catswhocode.com/blog/130-essential-vim-commands"
+}

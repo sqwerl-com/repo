@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-07-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kristina Grujic>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "React JSX: How to Do It the Right Way, Part I",
+  "path": "/Types/Web Pages/React JSX: How to Do It the Right Way, Part I",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/React JSX How to Do It the Right Way Part II>": ""
+  },
+  "url": "https://dzone.com/articles/react-jsx-how-to-do-it-the-right-way-part-i"
+}

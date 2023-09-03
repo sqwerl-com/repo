@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Simon Rigden>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Clean Coding>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Engineers Don't Want Clean Code",
+  "path": "/Types/Web Pages/Engineers Don't Want Clean Code",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Clean code>": ""
+  },
+  "url": "https://hackernoon.com/engineers-dont-want-clean-code-2dd64cc361c1"
+}

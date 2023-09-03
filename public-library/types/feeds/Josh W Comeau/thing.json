@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-07-29T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://www.joshwcomeau.com/rss.xml",
+  "items": {
+    "</types/webPages/Demystifying Styled Components>": ""
+  },
+  "links": {
+    "</types/authors/Josh W Comeau>": ""
+  },
+  "name": "Josh W. Comeau",
+  "path": "/Types/Feeds/Josh W. Comeau",
+  "shortDescription": ""
+}

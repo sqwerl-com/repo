@@ -1,0 +1,30 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-07-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Krzysztof Czernek>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Programming Paradigms/Functional>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/Functional JS 1 Introduction>": "",
+    "</types/webPages/Functional JS 3 State>": "",
+    "</types/webPages/Functional JS 4 Closures>": "",
+    "</types/webPages/Functional JS 5 Partial Application Currying>": "",
+    "</types/webPages/Functional JS 6 Function Composition>": ""
+  },
+  "name": "Functional JS #2: Functions. Duh!",
+  "path": "/Types/Web Pages/Functional JS #2: Functions. Duh!",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  },
+  "url": "https://medium.com/dailyjs/functional-js-2-functions-duh-70bf22f87bb8"
+}

@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-29T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Passionate Programmer Book",
+  "path": "/Types/Pictures/The Passionate Programmer Book",
+  "pictureOf": {
+    "</types/books/The Passionate Programmer>": ""
+  },
+  "representations": {
+    "the_passionate_programmer.png.lnk.json": "",
+    "the_passionate_programmer_preview.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-05-31T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Wendelin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Integration>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Test Early Refactor Often Make Things>": ""
+  },
+  "name": "Notes from my Pursuit of the Perfect Front End Build",
+  "path": "/Types/Web Pages/Notes from my Pursuit of the Perfect Front End Build",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://eriwen.com/tools/perfect-front-end-build/"
+}

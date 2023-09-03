@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-11T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/How Linux Works>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Brian",
+  "lastName": "Ward",
+  "middleNameOrInitial": "",
+  "name": "Brian Ward",
+  "path": "/Types/Authors/Brian Ward"
+}

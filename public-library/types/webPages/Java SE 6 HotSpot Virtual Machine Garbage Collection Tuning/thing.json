@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-03-04T00:00:00.00-07:00",
+  "archived": true,
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/Java/Garbage Collection>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Java SE 6 HotSpot(tm) Virtual Machine Garbage Collection",
+  "path": "/Types/Web Pages/Java SE 6 HotSpot(tm) Virtual Machine Garbage Collection",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html"
+}

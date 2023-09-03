@@ -1,0 +1,73 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "canRead": {
+  },
+  "canWrite": {
+    "</types/groups/Administrators>": ""
+  },
+  "controller": "</types/users/Administrator>",
+  "description": "Named collections of related users.",
+  "extends": "</types>",
+  "name": "Groups",
+  "path": "/Types/Groups",
+  "properties": {
+    "description": {
+      "description": "Text that describes a group of users.",
+      "name": "Description",
+      "shortDescription": "A group's description.",
+      "type": "text"
+    },
+    "name": {
+      "description": "A group's name.",
+      "required": true,
+      "name": "Name",
+      "shortDescription": "A group's name.",
+      "type": "text"
+    },
+    "parent": {
+      "description": "A group's parent group.",
+      "inverse": "children",
+      "shortDescription": "Parent group.",
+      "type": "ref(</types/groups>)"
+    },
+    "roles": {
+      "description": "The roles that a group's users are allowed to perform.",
+      "inverse": "groups",
+      "required": true,
+      "shortDescription": "Roles.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/roles>": ""
+      }
+    },
+    "subgroups": {
+      "description": "A group's child groups.",
+      "inverse": "parent",
+      "required": true,
+      "shortDescription": "Child groups.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/groups>": ""
+      }
+    },
+    "users": {
+      "description": "The users who are members of this group.",
+      "inverse": "groups",
+      "required": true,
+      "shortDescription": "Users.",
+      "sortedBy": [
+        "name"
+      ],
+      "type": {
+        "</types/users>": ""
+      }
+    }
+  },
+  "shortDescription": "Groups of related users.",
+  "singularName": "Group"
+}

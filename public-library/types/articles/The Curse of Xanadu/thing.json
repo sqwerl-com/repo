@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-05-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Gary Wolf>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "links": {
+    "</types/webPages/The Curse of Xanadu>": ""
+  },
+  "name": "The Curse of Xanadu",
+  "path": "/Types/Articles/The Curse of Xanadu",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Web History Chapter 1 Birth>": ""
+  },
+  "shortDescription": ""
+}

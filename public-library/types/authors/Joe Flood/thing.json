@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-15T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Fires>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Joe",
+  "lastName": "Flood",
+  "middleNameOrInitial": "",
+  "name": "Joe Flood",
+  "path": "/Types/Authors/Joe Flood"
+}

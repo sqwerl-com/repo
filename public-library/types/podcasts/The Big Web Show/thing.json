@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-05-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jeffrey Zeldman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Audio recordings on building web content",
+  "feedUrl": "http://feeds.5by5.tv/bigwebshow",
+  "name": "The Big Web Show",
+  "path": "/Types/Podcasts/The Big Web Show",
+  "shortDescription": "",
+  "webPage": "</types/webPages/The Big Web Show>"
+}

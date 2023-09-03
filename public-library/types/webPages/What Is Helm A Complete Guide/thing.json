@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-03-19T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jacob Schmitt>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Helm>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "What Is Helm? A Complete Guide",
+  "path": "/Types/Web Pages/What Is Helm? A Complete Guide",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://circleci.com/blog/what-is-helm/"
+}

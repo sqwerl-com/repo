@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-12-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Malcolm Gladwell>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": "",
+    "</types/collections/Life>": "",
+    "</types/collections/Psychology>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Outliers: The Story of Success",
+  "notes": {
+    "</types/notes/Outliers>": ""
+  },
+  "path": "/Types/Books/Outliers: The Story of Success",
+  "pictures": {
+    "</types/pictures/Outliers Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

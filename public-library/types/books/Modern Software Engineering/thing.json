@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-05-04T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/David Farley>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Modern Software Engineering",
+  "path": "/Types/Books/Modern Software Engineering",
+  "shortDescription": "",
+  "title": "Modern Software Engineering: Doing What Works to Build Better Software Faster"
+}

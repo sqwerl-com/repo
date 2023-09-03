@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-12-31T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that are linked (related).",
+  "extends": "</types/facets>",
+  "name": "Linkable",
+  "path": "/Types/Facets/Linkable",
+  "properties": {
+    "faceted": {
+      "inverse": "facets",
+      "sortedBy": "name",
+      "type": {
+        "</types/facets>": ""
+      }
+    },
+    "links": {
+      "inverse": "links",
+      "sortedBy": "name",
+      "type": "{ </types/facets/linkable> }"
+    }
+  },
+  "shortDescription": "Things that can have notes."
+}

@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-07-20T00:00:00.00-07:00",
+  "children": {
+    "</types/podcasts/Edward Tufte Wants You to See Better>": "",
+    "</types/podcasts/From Gladiator Duels To Ceasars Last Words The Myths of Ancient Rome>": "",
+    "</types/podcasts/Getting to Done>": "",
+    "</types/podcasts/High Resolution>": "",
+    "</types/podcasts/JavaScript Air>": "",
+    "</types/podcasts/React Podcast>": "",
+    "</types/podcasts/React Round Up>": "",
+    "</types/podcasts/StartUp>": "",
+    "</types/podcasts/Stop Arguing With Feedback>": "",
+    "</types/podcasts/Stop Saying Users Dont Know What They Want>": "",
+    "</types/podcasts/Syntax>": "",
+    "</types/podcasts/The Big Web Show>": "",
+    "</types/podcasts/The New Stack>": "",
+    "</types/podcasts/The Web Platform Podcast>": "",
+    "</types/podcasts/UX Blog>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Podcasts",
+  "path": "/Types/Podcasts",
+  "shortDescription": "Audio files distributed over the Internet."
+}

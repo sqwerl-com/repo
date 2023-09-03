@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-24T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jono Yuen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Science Fiction>": "",
+    "</types/collections/Science Fiction/User Interfaces>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "HUDS + GUIS",
+  "path": "/Types/Web Pages/HUDS + GUIS",
+  "recommendedBy": {
+    "</types/videos/Have Single Page Apps Ruined the Web>": ""
+  },
+  "shortDescription": "",
+  "url": "https://www.hudsandguis.com/"
+}

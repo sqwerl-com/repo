@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Demon Haunted World>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Carl",
+  "lastName": "Sagan",
+  "middleNameOrInitial": "",
+  "name": "Carl Sagan",
+  "path": "/Types/Authors/Carl Sagan"
+}

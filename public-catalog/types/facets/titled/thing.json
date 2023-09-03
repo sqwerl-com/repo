@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-07-10T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that can have titles.",
+  "faceted": {
+    "</types/articles>": "",
+    "</types/books>": "",
+    "</types/courses>": "",
+    "</types/documents>": "",
+    "</types/papers>": "",
+    "</types/talks>": "",
+    "</types/videos>": "",
+    "</types/webPages>": ""
+  },
+  "name": "Titled",
+  "path": "/Types/Facets/Titled",
+  "shortDescription": "Things that can have titles."
+}

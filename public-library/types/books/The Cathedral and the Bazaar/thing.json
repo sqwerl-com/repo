@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Steven Raymond>"
+  ],
+  "collections": {
+    "</types/collections/Business/Entrepreneurship/Business Models/Revenue Models>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Cathedral and the Bazaar",
+  "path": "/Types/Books/The Cathedral and the Bazaar",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/An Incomplete List of Classic Papers Every Software Architect Should Read>": "",
+    "</types/books/The Innovators>": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-02T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Meditations>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Marcus",
+  "lastName": "Aurelius",
+  "middleNameOrInitial": "",
+  "name": "Marcus Aurelius",
+  "path": "/Types/Authors/Marcus Aurelius"
+}

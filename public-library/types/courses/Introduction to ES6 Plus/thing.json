@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-05-17T00:00:00.00-07:00",
+  "attending": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Dylan Isreal>": ""
+  },
+  "links": {
+    "</types/webPages/Introduction to ES6 Plus>": ""
+  },
+  "name": "Introduction to ES6+",
+  "path": "/Types/Courses/Introduction to ES6+",
+  "shortDescription": ""
+}

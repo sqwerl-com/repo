@@ -1,0 +1,25 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-12T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Responsive design",
+  "path": "/Types/Tags/Responsive Design",
+  "shortDescription": "Designing application user interfaces that work on multiple devices.",
+  "tagged": {
+    "</types/webPages/A Dao of Web Design>": "",
+    "</types/webPages/Comprehensive Guide When to Use Em vs Rem>": "",
+    "</types/webPages/flyPanels>": "",
+    "</types/webPages/Getting Started with RESS>": "",
+    "</types/webPages/Inspiring Responsive Web Designs>": "",
+    "</types/webPages/Lightening Your Responsive Website Design With RESS>": "",
+    "</types/webPages/MobiReady>": "",
+    "</types/webPages/Responsive Patterns>": "",
+    "</types/webPages/Responsive Tables>": "",
+    "</types/books/Responsive Web Design in 24 Hours>": "",
+    "</types/books/Responsive Web Design Second Edition>": "",
+    "</types/webPages/The Magic of CSS>": "",
+    "</types/webPages/The Myth of Responsive Design>": ""
+  },
+  "text": "Responsive design"
+}

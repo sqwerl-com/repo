@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-04-19T00:00:00.00-07:00",
+  "books": {
+    "</types/books/Laws of UX>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Laws of UX",
+  "path": "/Types/Web Pages/Laws of UX",
+  "shortDescription": "Web site for to the book Laws of UX",
+  "url": "https://www.oreilly.com/library/view/laws-of-ux/9781492055303/"
+}

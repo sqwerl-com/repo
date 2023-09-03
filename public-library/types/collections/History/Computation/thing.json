@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-27T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Alan Turing The Enigma>": "",
+    "</types/articles/As We May Think>": "",
+    "</types/papers/As We May Think>": "",
+    "</types/books/Commodore The Amiga Years>": "",
+    "</types/collections/Computer Science/Software Engineering/History>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/History>": "",
+    "</types/books/Racing the Beam>": "",
+    "</types/videos/The First LowSpec Processor>": ""
+  },
+  "collections": {
+    "</types/collections/History>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Computation",
+  "path": "/Types/Collections/History/Computation",
+  "shortDescription": "Things related the history of processes and devices for mathematical calculation."
+}

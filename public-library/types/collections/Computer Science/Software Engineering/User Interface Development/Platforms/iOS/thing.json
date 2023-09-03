@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Cocoa Controls>": "",
+    "</types/feeds/Hawk iMedia>": "",
+    "</types/webPages/Introduction to Test Driven Development for iOS Apps>": "",
+    "</types/documents/iOS Application Programming Guide>": "",
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Platforms/iOS/QA>": "",
+    "</types/feeds/raywenderlich>": "",
+    "</types/webPages/Youll Never Believe how LinkedIn Built Its New iPad App>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Platforms>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "iOS",
+  "path": "/Types/Collections/Computer Science/Software Engineering/User Interface Development/Platforms/iOS",
+  "shortDescription": "Apple iOS development resources."
+}

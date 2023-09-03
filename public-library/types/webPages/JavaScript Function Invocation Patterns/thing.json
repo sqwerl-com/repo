@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-10-22T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Barry Steyn>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "JavaScript: Function Invocation Patterns",
+  "path": "/Types/Web Pages/JavaScript: Function Invocation Patterns",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://doctrina.org/Javascript-Function-Invocation-Patterns.html"
+}

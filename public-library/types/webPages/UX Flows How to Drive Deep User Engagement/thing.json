@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-10-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Dan Birman>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": "",
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Emotional Design>": "",
+    "</types/collections/Psychology>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Betterment>": ""
+  },
+  "name": "UX Flows: How to Drive Deep User Engagement",
+  "path": "/Types/Web Pages/UX Flows: How to Drive Deep User Engagement",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/@dan_birman/how-to-drive-deep-user-engagement-4c622b1cf608"
+}

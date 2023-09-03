@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "archived": true,
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/User Interface Development/Frameworks/SproutCore>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "SproutCore Guides: Theming Your App",
+  "path": "/Types/Web Pages/SproutCore Guides: Theming Your App",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://guides.sproutcore.com/theming_app.html"
+}

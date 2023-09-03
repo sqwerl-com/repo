@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Design Resources/Design Guidelines/Web>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "rss1.smashingmagazine.com/feed/",
+  "items": {
+    "</types/webPages/25 User Experience Videos That Are Worth Your Time>": "",
+    "</types/webPages/40 Plus Helpful Resources on User Interface Design Patterns>": "",
+    "</types/webPages/Data Visualization Modern Approaches>": "",
+    "</types/webPages/Lightening Your Responsive Website Design With RESS>": "",
+    "</types/webPages/Why User Experience Cannot Be Designed>": "",
+    "</types/webPages/Why Your Links Should Never Say Click Here>": ""
+  },
+  "name": "Smashing Magazine",
+  "path": "/Types/Feeds/Smashing Magazine",
+  "shortDescription": "",
+  "webPage": "</types/webPages/Smashing Magazine>"
+}

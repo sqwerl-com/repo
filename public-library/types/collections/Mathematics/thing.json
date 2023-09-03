@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-15T00:00:00.00-07:00",
+  "children": {
+    "</types/books/Discrete Mathematics Revised Edition>": "",
+    "</types/books/Elementary Linear Algebra Third Edition>": "",
+    "</types/books/Elementary Numerical Analysis>": "",
+    "</types/books/Numerical Mathematics and Computing Second Edition>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mathematics",
+  "path": "/Types/Collections/Mathematics",
+  "shortDescription": "Things related to the study of mathematics."
+}

@@ -1,0 +1,32 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-04-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Spyros Argalias>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Top 5 CSS Gotchas",
+  "path": "/Types/Web Pages/The Top 5 CSS Gotchas",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Basic Concepts of Flexbox>": "",
+    "</types/webPages/Block Formatting Context>": "",
+    "</types/webPages/Cascade and Inheritance>": "",
+    "</types/webPages/Centering in CSS A Complete Guide>": "",
+    "</types/webPages/Layout and the Containing Block>": "",
+    "</types/webPages/Mastering Margin Collapsing>": "",
+    "</types/webPages/Understanding CSS Z Index>": "",
+    "</types/webPages/Using CSS Transforms>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/CSS3>": ""
+  },
+  "url": "https://medium.com/@sargalias/the-top-5-css-gotchas-and-a-few-bonus-d39755c79527"
+}

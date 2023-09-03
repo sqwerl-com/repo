@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-10-23T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Joe Lencioni>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS/Frameworks/Linaria>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Airbnb's Trip to Linaria",
+  "path": "/Types/Web Pages/Airbnb's Trip to Linaria",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/Linaria>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/airbnb-engineering/airbnbs-trip-to-linaria-dc169230bd12"
+}

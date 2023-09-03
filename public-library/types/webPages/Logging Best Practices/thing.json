@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-08-21T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Setu Patani>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Logging>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Logging Best Practices",
+  "path": "/Types/Web Pages/Logging Best Practices",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://dzone.com/articles/logging-best-practices"
+}

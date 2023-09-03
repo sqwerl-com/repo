@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-10-01T00:00:00.00-07:00",
+  "archived": true,
+  "authors": [
+    "</types/authors/Hubert Klein Ikkink>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Gradle Goodness: Using Objects for Versions",
+  "path": "/Types/Web Pages/Gradle Goodness: Using Objects for Versions",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Gradle>": ""
+  },
+  "url": "http://java.dzone.com/articles/gradle-goodness-using-objects"
+}

@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-04T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to changing an application's behavior and appearance for different languages and regions.",
+  "name": "Internationalization",
+  "path": "/Types/Tags/Internationalization",
+  "shortDescription": "",
+  "tagged": {
+    "</types/webPages/FBT>": "",
+    "</types/webPages/Internationalization in Angular and React Applications A Comparison>": "",
+    "</types/books/National Language Design Guide Designing Internationalized Products>": ""
+  },
+  "text": "Internationalization"
+}
+
+

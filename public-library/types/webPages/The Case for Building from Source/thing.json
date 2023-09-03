@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-08-12T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/James Stanier>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Case for Building from Source",
+  "path": "/Types/Web Pages/The Case for Building from Source",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "The Case for Building from Source: Preventing Panic at Scale",
+  "url": "https://medium.com/swlh/the-case-for-building-from-source-5d1571f2c0e3"
+}

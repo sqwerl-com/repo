@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Responsive Web Design, Second Edition Book",
+  "path": "/Types/Pictures/Responsive Web Design in 24 Hours Book",
+  "pictureOf": {
+    "</types/books/Responsive Web Design Second Edition>": ""
+  },
+  "representations": {
+    "responsive_web_design_second_edition_book_cover_large.png.lnk.json": "",
+    "responsive_web_design_second_edition_book_cover_medium.png.lnk.json": "",
+    "responsive_web_design_second_edition_book_cover_preview.png.lnk.json": "",
+    "responsive_web_design_second_edition_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-01-06T00:00:00.00-07:00",
+  "attendedBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "instructors": {
+    "</types/authors/Caroline Wong>": ""
+  },
+  "links": {
+    "</types/webPages/Learning the OWASP Top 10 2018>": ""
+  },
+  "name": "Learning the OWASP Top 10 (2018)",
+  "path": "/Types/Courses/Learning the OWASP Top 10 (2018)",
+  "shortDescription": ""
+}

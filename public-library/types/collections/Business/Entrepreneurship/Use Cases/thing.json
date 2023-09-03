@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Dragging School Papers into the 21st Century with a ScanSnap>": "",
+    "</types/webPages/How GitHub Democratized Coding Built a 2 Billion Business and Found a New Home at Microsoft>": "",
+    "</types/webPages/How to Sync Your PC Smartphone and Tablet>": "",
+    "</types/webPages/Ship Your Enemies Glitter Site Sells for 85000>": "",
+    "</types/webPages/Success and Failure at Pebble>": ""
+  },
+  "collections": {
+    "</types/collections/Business/Entrepreneurship>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Use Cases",
+  "path": "/Types/Collections/Business/Entrepreneurship/Use Cases",
+  "shortDescription": "Things that provide use cases for start-up businesses."
+}

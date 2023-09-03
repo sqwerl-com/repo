@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-05-18T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/10 Useful Usability Findings and Guidelines>": "",
+    "</types/webPages/Alternatives to Placeholder Text>": "",
+    "</types/webPages/Form Design Best Practices>": "",
+    "</types/books/Forms that Work>": "",
+    "</types/webPages/How to Leverage User Emotions in Form Design>": "",
+    "</types/videos/How to Reduce Email Input Errors>": "",
+    "</types/webPages/Label Placement in Forms>": "",
+    "</types/webPages/Marking Required Fields in Forms>": "",
+    "</types/webPages/Placeholders in Form Fields are Harmful>": "",
+    "</types/webPages/The 300 Million Button>": "",
+    "</types/webPages/Web Application Form Design>": "",
+    "</types/books/Web Form Design>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Forms",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Forms",
+  "shortDescription": "Things related to designing fill-in forms."
+}

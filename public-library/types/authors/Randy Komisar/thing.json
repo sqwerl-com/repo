@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The Monk and the Riddle>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Randy",
+  "lastName": "Komisar",
+  "middleNameOrInitial": "",
+  "name": "Randy Komisar",
+  "path": "/Types/Authors/Randy Komisar"
+}

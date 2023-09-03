@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-01-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Anthony Flint>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/authors/Jane Jacobs>": "",
+    "</types/books/The Power Broker>": ""
+  },
+  "name": "Wrestling with Moses",
+  "path": "/Types/Books/Wrestling with Moses",
+  "recommendedBy": {
+    "</types/authors/Alan Cooper>": ""
+  },
+  "shortDescription": "",
+  "title": "Wrestling with Moses: How Jane Jacobs Took On New York's Master Builder and Transformed the American City"
+}

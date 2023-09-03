@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-09-11T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Brian Ward>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "How Linux Works (3rd Edition)",
+  "path": "/Types/Books/How Linux Works (3rd Edition)",
+  "pictures": {
+    "</types/pictures/How Linux Works Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "title": "How Linux Works (3rd edition): What Every Superuser Should Know"
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-06-27T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Patrick Mylund Nielsen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Security>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/Throwing Fire>": ""
+  },
+  "name": "Storing Passwords Securely",
+  "path": "/Types/Web Pages/Storing Passwords Securely",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://throwingfire.com/storing-passwords-securely/"
+}

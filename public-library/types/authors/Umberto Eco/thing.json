@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-03-14T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Foucaults Pendulum>": "",
+    "</types/books/The Name of the Rose>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Umberto",
+  "lastName": "Eco",
+  "middleNameOrInitial": "",
+  "name": "Umberto Eco",
+  "path": "/Types/Authors/Umberto Eco"
+}

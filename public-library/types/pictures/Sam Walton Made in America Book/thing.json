@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-21T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Sam Walton: Made in America Book",
+  "path": "/Types/Pictures/Sam Walton Made in America Book",
+  "pictureOf": {
+    "</types/books/Sam Walton Made in America>": ""
+  },
+  "representations": {
+    "sam_walton_made_in_america_book_cover_large.png.lnk.json": "",
+    "sam_walton_made_in_america_book_cover_medium.png.lnk.json": "",
+    "sam_walton_made_in_america_book_cover_preview.png.lnk.json": "",
+    "sam_walton_made_in_america_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-08-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/John McDowall>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/The Ember Zone>": ""
+  },
+  "name": "The Confusion Around Ember Views and Components",
+  "path": "/Types/Web Pages/The Confusion Around Ember Views and Components",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://hackerinthewoods.com/posts/the-confusion-around-ember-views-and-components/"
+}

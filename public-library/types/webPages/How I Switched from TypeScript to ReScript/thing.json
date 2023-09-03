@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-30T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ronen Lahat>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/TypeScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How I Switched from TypeScript to ReScript",
+  "path": "/Types/Web Pages/How I Switched from TypeScript to ReScript",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Functional JavaScript>": ""
+  },
+  "url": "https://medium.com/att-israel/how-i-switched-from-typescript-to-rescript-637aa5ef8d3"
+}

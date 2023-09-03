@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-04-30T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Mobile Design Pattern Gallery Book",
+  "path": "/Types/Pictures/Mobile Design Pattern Gallery Book",
+  "pictureOf": {
+    "</types/books/Mobile Design Pattern Gallery>": ""
+  },
+  "representations": {
+    "mobile_design_pattern_gallery_book_cover_large.png.lnk.json": "",
+    "mobile_design_pattern_gallery_book_cover_medium.png.lnk.json": "",
+    "mobile_design_pattern_gallery_book_cover_preview.png.lnk.json": "",
+    "mobile_design_pattern_gallery_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

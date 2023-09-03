@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Eric Ries>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Continuous Delivery>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Continuous Deployment in 5 Easy Steps",
+  "path": "/Types/Web Pages/Continuous Deployment in 5 Easy Steps",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Continuous delivery>": ""
+  },
+  "url": "http://radar.oreilly.com/2009/03/continuous-deployment-5-eas.html"
+}

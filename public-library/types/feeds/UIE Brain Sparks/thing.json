@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "http://www.uie.com/brainsparks/feed/",
+  "items": {
+    "</types/webPages/The 300 Million Button>": "",
+    "</types/webPages/User Interface Engineering>": ""
+  },
+  "name": "UIE Brain Sparks",
+  "path": "/Types/Feeds/UIE Brain Sparks",
+  "shortDescription": ""
+}

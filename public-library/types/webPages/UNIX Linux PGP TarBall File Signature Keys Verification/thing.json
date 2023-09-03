@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux/System Administration>": "",
+    "</types/collections/Computer Science/Operating Systems/Unix/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/nixCraft>": ""
+  },
+  "name": "UNIX or Linux: PGP TarBall File Signature Keys",
+  "path": "/Types/Web Pages/UNIX or Linux: PGP TarBall File Signature Keys",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.cyberciti.biz/faq/pgp-tarball-file-signature-keys-verification/"
+}

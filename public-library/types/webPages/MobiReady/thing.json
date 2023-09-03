@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-11-29T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Web site that runs tests on a web site's mobile performance.",
+  "name": "MobiReady",
+  "path": "/Types/Web Pages/MobiReady",
+  "recommendedBy": {
+    "</types/books/Responsive Web Design in 24 Hours>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/Responsive design>": ""
+  },
+  "url": "http://ready.mobi/"
+}

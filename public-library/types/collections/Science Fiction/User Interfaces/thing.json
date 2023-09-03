@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2023-05-10T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Designing a Spaceship for the Guardians of the Galaxy>": "",
+    "</types/webPages/HUDS and GUIs>": "",
+    "</types/books/Make It So Interaction Design Lessons from Science Fiction>": "",
+    "</types/webPages/SciFi Interfaces>": "",
+    "</types/videos/Star Trek Picard Coming Home Paramount Plus>": ""
+  },
+  "collections": {
+    "</types/collections/Science Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "User Interfaces",
+  "path": "/Types/Collections/Science Fiction/User Interfaces",
+  "shortDescription": "Speculative user interfaces referenced in science fiction"
+}

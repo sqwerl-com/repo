@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-06T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ian Johnson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Hitchhiker's Guide to d3.js",
+  "path": "/Types/Web Pages/The Hitchhiker's Guide to d3.js",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendations": {
+    "</types/webPages/SVGs Beyond Mere Shapes>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/The Trouble with D3>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a"
+}

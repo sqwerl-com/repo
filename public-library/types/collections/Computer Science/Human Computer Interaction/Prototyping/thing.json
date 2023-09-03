@@ -1,0 +1,15 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/How to Prototype and Influence People>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Prototyping",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/Prototyping",
+  "shortDescription": "Things regarding user interface prototyping."
+}

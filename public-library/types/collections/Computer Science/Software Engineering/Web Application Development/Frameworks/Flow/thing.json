@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-12-23T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Flow Home Page>": "",
+    "</types/webPages/Flow Type Cheat Sheet>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Flow",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Flow",
+  "shortDescription": "Items regarding the Flow library for statically validating data types in JavaScript applications."
+}

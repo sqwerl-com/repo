@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-11-20T00:00:00.00-07:00",
+  "children": {
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Ansible>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Helm>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kafka>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Kubernetes>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Prometheus>": "",
+    "</types/collections/Computer Science/Software Engineering/DevOps/Tools/Puppet>": "",
+    "</types/videos/YAML Tutorial Learn YAML in 18 Minutes>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/DevOps>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Things related to tools that address operational aspects of software development like staging, installation, provisioning, and support.",
+  "name": "Tools",
+  "path": "/Types/Collections/Computer Science/Software Engineering/DevOps/Tools",
+  "shortDescription": "Things related to tools that support DevOps."
+}

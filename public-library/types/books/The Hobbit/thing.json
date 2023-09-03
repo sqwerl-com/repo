@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-05-08T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/J R R Tolkien>"
+  ],
+  "collections": {
+    "</types/collections/Fiction>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Hobbit",
+  "path": "/Types/Books/The Hobbit",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

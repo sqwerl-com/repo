@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-12-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Terry Winograd>",
+    "</types/authors/Fernando Flores>"
+  ],
+  "collections": {
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Understanding Computers and Cognition",
+  "path": "/Types/Books/Understanding Comics",
+  "pictures": {
+    "</types/pictures/Understanding Computers and Cognition Book>": ""
+  },
+  "shortDescription": "",
+  "title": "Understanding Computers and Cognition: A New Foundation for Design"
+}

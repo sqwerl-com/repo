@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-01-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sydney Padua>"
+  ],
+  "collections": {
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Thrilling Adventures of Lovelace and Babbage",
+  "path": "/Types/Books/The Thrilling Adventures of Lovelace and Babbage",
+  "pictures": {
+    "</types/pictures/The Thrilling Adventures of Lovelace and Babbage Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  }
+}

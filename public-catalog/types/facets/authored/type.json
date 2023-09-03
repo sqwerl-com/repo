@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things created by authors.",
+  "extends": "</types/facets>",
+  "name": "Authored",
+  "path": "/Types/Facets/Authored",
+  "properties": {
+    "authors": {
+      "inverse": "authorOf",
+      "type": "[ </types/authors> ]"
+    },
+    "faceted": {
+      "inverse": "facets",
+      "type": {
+        "</types/facets>": ""
+      }
+    }
+  },
+  "shortDescription": "Things that can have authors."
+}

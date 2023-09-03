@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2012-11-09T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that people have viewed.",
+  "faceted": {
+    "</types/talks>": "",
+    "</types/videos>": ""
+  },
+  "name": "Viewable",
+  "path": "/Types/Facets/Viewable",
+  "shortDescription": "Things that people have viewed."
+}

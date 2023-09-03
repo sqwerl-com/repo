@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-08-01T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Dune>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Frank",
+  "lastName": "Herbert",
+  "middleNameOrInitial": "",
+  "name": "Frank Herbert",
+  "path": "/Types/Authors/Frank Herbert"
+}

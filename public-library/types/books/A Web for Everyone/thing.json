@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2015-03-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Sarah Horton>",
+    "</types/authors/Whitney Quesenbery>",
+    "</types/authors/Aaron Gustafson>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "A Web for Everyone",
+  "path": "/Types/Books/A Web for Everyone",
+  "pictures": {
+    "</types/pictures/A Web for Everyone Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/books/Dont Make Me Think Revisited>": ""
+  },
+  "tags": {
+    "</types/tags/Accessibility>": ""
+  },
+  "title": "A Web for Everyone: Designing Accessible User Experiences"
+}

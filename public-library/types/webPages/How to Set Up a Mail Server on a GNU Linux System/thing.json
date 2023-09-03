@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-07-09T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Ivar Abrahamsen>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems/Linux/System Administration>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "How to Set Up a Mail Server on a GNU Linux System",
+  "path": "/Types/Web Pages/How to Set Up a Mail Server on a GNU Linux System",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://flurdy.com/docs/postfix/#data"
+}

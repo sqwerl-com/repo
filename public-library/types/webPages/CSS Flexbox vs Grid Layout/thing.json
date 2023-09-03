@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-10-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Nathan Sebhastian>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "CSS Flexbox vs Grid Layout",
+  "path": "/Types/Web Pages/CSS Flexbox vs Grid Layout",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/CSS3>": ""
+  },
+  "url": "https://blog.bitsrc.io/css-flexbox-vs-grid-layout-5ae41e28d1d2"
+}

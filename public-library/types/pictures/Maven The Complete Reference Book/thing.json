@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-10-19T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Maven The Complete Reference Book",
+  "path": "</types/pictures/Maven The Complete Reference Book>",
+  "pictureOf": {
+    "</types/books/Maven The Complete Reference>": ""
+  },
+  "representations": {
+    "maven_the_complete_reference_book_cover_large.png.lnk.json": "",
+    "maven_the_complete_reference_book_cover_medium.png.lnk.json": "",
+    "maven_the_complete_reference_book_cover_preview.png.lnk.json": "",
+    "maven_the_complete_reference_book_cover_small.png.lnk.json": ""
+  },
+  "shortDescription": ""
+}

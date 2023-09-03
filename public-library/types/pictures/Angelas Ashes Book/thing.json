@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-07-24T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Angela's Ashes Book",
+  "path": "/Types/Pictures/Angela's Ashes Book",
+  "pictureOf": {
+    "</types/books/Angelas Ashes>": ""
+  },
+  "representations": {
+    "angelas_ashes_book_cover_large.lnk.json": "",
+    "angelas_ashes_book_cover_medium.lnk.json": "",
+    "angelas_ashes_book_cover_small.lnk.json": ""
+  },
+  "shortDescription": ""
+}

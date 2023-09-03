@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-09-12T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA",
+  "items": {
+    "</types/videos/How Password Managers Work>": ""
+  },
+  "name": "Computerphile",
+  "path": "/Types/Feeds/Computerphile",
+  "shortDescription": ""
+}

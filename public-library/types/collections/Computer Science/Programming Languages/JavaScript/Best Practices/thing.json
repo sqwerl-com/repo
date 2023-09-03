@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-12-24T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/12 Rules for Professional JavaScript in 2015>": "",
+    "</types/webPages/13 Noteworthy Points from Googles JavaScript Style Guide>": "",
+    "</types/webPages/5 Common JavaScript Memory Mistakes>": "",
+    "</types/videos/Douglas Crockford The Better Parts>": "",
+    "</types/webPages/Heres How Not to Suck at JavaScript>": "",
+    "</types/books/Human JavaScript>": "",
+    "</types/webPages/Human JavaScript>": "",
+    "</types/webPages/JavaScript The Right Way>": "",
+    "</types/webPages/Stop Making These 5 Javascript Style Mistakes>": "",
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices/Style Guides>": "",
+    "</types/webPages/The 100 Percent Correct Coding Style Guide>": "",
+    "</types/webPages/The 12 Things You Need to Consider When Evaluating Any New JavaScript Library>": "",
+    "</types/webPages/Three Tips for Better Objects in JavaScript>": "",
+    "</types/videos/Write Perfect Code With Standard and ESLint>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Best Practices",
+  "path": "/Types/Collections/Computer Science/Programming Languages/JavaScript/Best Practices",
+  "shortDescription": "Things that describe best practices for developing JavaScript applications."
+}

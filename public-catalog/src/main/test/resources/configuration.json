@@ -1,0 +1,7 @@
+{
+  "catalogLibraryName": "public-catalog",
+  "catalogLibraryPath": "../sqwerl-public-catalog/types",
+  "defaultLibraryName": "Public catalog",
+  "defaultLibraryPath": "../sqwerl-public-library/types",
+  "representations": "../tcarroll-docs"
+}

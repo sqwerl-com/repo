@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-06-03T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/webPages/3 Key Insights That Make D3js Easy to Learn>": "",
+    "</types/webPages/How to Structure Your MobX App for the Real World>": "",
+    "</types/books/React Plus D3v4>": "",
+    "</types/webPages/React Plus D3v4>": "",
+    "</types/videos/Reusable Data Visualization with React and D3js>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Swizec",
+  "lastName": "Teller",
+  "middleNameOrInitial": "",
+  "name": "Swizec Teller",
+  "path": "/Types/Authors/Swizec Teller"
+}

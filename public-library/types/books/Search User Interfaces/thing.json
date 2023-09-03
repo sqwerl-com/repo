@@ -1,0 +1,32 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-11-03T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Marti A Hearst>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design/Search>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Search User Interfaces",
+  "notes": {
+    "</types/notes/Search User Interfaces>": ""
+  },
+  "path": "/Types/Books/Search User Interfaces",
+  "pictures": {
+    "</types/pictures/Search User Interfaces Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/Search Patterns>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/search>": ""
+  },
+  "webPages": {
+    "</types/webPages/Search User Interfaces Book>": ""
+  }
+}

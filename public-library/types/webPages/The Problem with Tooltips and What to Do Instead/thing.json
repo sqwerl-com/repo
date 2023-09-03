@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-09-02T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Adam Silver>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Accessibility>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Problem with Tooltips and What to Do Instead",
+  "path": "/Types/Web Pages/The Problem with Tooltips and What to Do Instead",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://adamsilver.io/articles/the-problem-with-tooltips-and-what-to-do-instead"
+}

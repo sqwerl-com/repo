@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-04-09T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Unix Network Programming>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "W",
+  "lastName": "Richard Stevens",
+  "middleNameOrInitial": "",
+  "name": "W. Richard Stevens",
+  "path": "/Types/Authors/W Richard Stevens"
+}

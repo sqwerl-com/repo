@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-22T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/The E Myth Revisited>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Michael",
+  "lastName": "Gerber",
+  "middleNameOrInitial": "E",
+  "name": "Michael E. Gerber",
+  "path": "/Types/Authors/Michael E. Gerber"
+}

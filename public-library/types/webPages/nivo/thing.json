@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-11-19T00:00:00.00-07:00",
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/Data Visualization>": "",
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Nivo",
+  "path": "/Types/Web Pages/Nivo",
+  "shortDescription": "Home page for Nivo data visualization React components",
+  "tags": {
+    "</types/tags/D3>": ""
+  },
+  "url": "https://nivo.rocks/"
+}

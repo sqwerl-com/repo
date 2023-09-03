@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-04-04T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/Airbnb JavaScript Style Guide>": "",
+    "</types/webPages/Google JavaScript Style Guide>": "",
+    "</types/webPages/JavaScript Standard Style>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Programming Languages/JavaScript/Best Practices>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "Style guidelines for the JavaScript programming language.",
+  "name": "Style Guides",
+  "path": "/Types/Collections/Computer Science/Programming Languages/JavaScript/Best Practices/Style Guides",
+  "shortDescription": ""
+}

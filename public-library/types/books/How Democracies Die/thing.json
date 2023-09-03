@@ -1,0 +1,21 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2022-03-26T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Steven Levitsky>",
+    "</types/authors/Daniel Ziblatt>"
+  ],
+  "collections": {
+    "</types/collections/Political Science>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "How Democracies Die",
+  "path": "/Types/Books/How Democracies Die",
+  "pictures": {
+    "</types/pictures/How Democracies Die Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

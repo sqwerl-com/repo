@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-01-17T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Kasper Moskwiak>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/NodeJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "A Memory-Friendly Way of Reading Files in Node.js",
+  "path": "/Types/Web Pages/A Memory-Friendly Way of Reading Files in Node.js",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "https://medium.com/better-programming/a-memory-friendly-way-of-reading-files-in-node-js-a45ad0cc7bb6"
+}

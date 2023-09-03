@@ -1,0 +1,18 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-01-25T00:00:00.00-07:00",
+  "archived": true,
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/EmberJS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Ember Observer",
+  "path": "/Types/Web Pages/Ember Observer",
+  "recommendedBy": {
+    "</types/videos/Restoring Sanity to JavaScript Development with Ember 2>": ""
+  },
+  "shortDescription": "Index and reviews of Ember addons.",
+  "url": "http://emberobserver.com/"
+}
+

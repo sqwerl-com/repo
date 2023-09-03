@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-02-22T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/NodeJS Creator Ryan Dahl Interview>": "",
+    "</types/webPages/Why We Chose NodeJS Over Deno>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Deno",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Web Application Development/Frameworks/Deno",
+  "shortDescription": "Items regarding the Deno library for TypeScript application development."
+}

@@ -1,0 +1,26 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-12-10T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "JavaScript",
+  "path": "/Types/Tags/JavaScript",
+  "shortDescription": "Things related the JavaScript programming language.",
+  "tagged": {
+    "</types/webPages/12 Rules for Professional JavaScript in 2015>": "",
+    "</types/webPages/Be Type Strict Without TypeScript>": "",
+    "</types/webPages/Heres How Not to Suck at JavaScript>": "",
+    "</types/webPages/TheCodePlayer>": "",
+    "</types/books/You Dont Know JS Async and Performance>": "",
+    "</types/webPages/You Dont Know JS Async and Performance>": "",
+    "</types/books/You Dont Know JS ES6 and Beyond>": "",
+    "</types/webPages/You Dont Know JS ES6 and Beyond>": "",
+    "</types/books/You Dont Know JS Scope and Closures>": "",
+    "</types/webPages/You Dont Know JS Scope and Closures>": "",
+    "</types/books/You Dont Know JS Types and Grammar>": "",
+    "</types/webPages/You Dont Know JS Types and Grammar>": "",
+    "</types/books/You Dont Know JS Up and Going>": "",
+    "</types/webPages/You Dont Know JS Up and Going>": ""
+  },
+  "text": "JavaScript"
+}

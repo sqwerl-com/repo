@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2017-03-29T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "The Icon Book",
+  "path": "/Types/Pictures/The Icon Book",
+  "pictureOf": {
+    "</types/books/The Icon Book>": ""
+  },
+  "representations": {
+    "the_icon_book.jpg.lnk.json": "",
+    "the_icon_book_preview.jpg.lnk.json": ""
+  },
+  "shortDescription": ""
+}

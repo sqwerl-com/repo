@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2016-03-14T00:00:00.00-07:00",
+  "children": {
+    "</types/videos/Designing Content for Product Experiences>": "",
+    "</types/webPages/The Epic List of Content Strategy Resources>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Content",
+  "path": "/Types/Collections/Computer Science/Human-Computer Interaction/User Experience/Design/Content",
+  "shortDescription": "Things related to designing content within a user interface."
+}

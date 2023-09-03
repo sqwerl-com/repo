@@ -1,0 +1,22 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2019-06-05T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Robin Wieruch>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/React>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Redux or MobX: An attempt to dissolve the confusion",
+  "path": "/Types/Web Pages/Redux or MobX: An attempt to dissolve the confusion",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/MobX>": ""
+  },
+  "url": "https://www.robinwieruch.de/redux-mobx-confusion/"
+}

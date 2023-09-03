@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Guy Kawasaki>"
+  ],
+  "controller": "</types/users/Tom Carroll>",
+  "links": {
+    "</types/books/The Art of the Start 2>": ""
+  },
+  "name": "The Art of the Start",
+  "notes": {
+    "</types/notes/The Art of the Start>": ""
+  },
+  "path": "/Types/Books/The Art of the Start",
+  "pictures": {
+    "</types/pictures/The Art of the Start Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": ""
+}

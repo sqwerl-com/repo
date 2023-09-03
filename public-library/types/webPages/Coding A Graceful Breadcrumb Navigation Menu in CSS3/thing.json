@@ -1,0 +1,19 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-06-20T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Jake Rocheleau>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Coding a Graceful Breadcrumb Navigation Menu in CSS3",
+  "path": "/Types/Web Pages/Coding a Graceful Breadcrumb Navigation Menu in CSS3",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://www.hongkiat.com/blog/breadcrumb-menu-css3/"
+}

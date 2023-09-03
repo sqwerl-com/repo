@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Administrator>",
+  "addedOn": "2017-03-29T00:00:00.00-07:00",
+  "controller": "</types/users/Administrator>",
+  "description": "Things that can have corresponding visual representations like photographs, images, or icons.",
+  "faceted": {
+    "</types/articles>": "",
+    "</types/authors>": "",
+    "</types/books>": "",
+    "</types/feeds>": "",
+    "</types/webPages>": ""
+  },
+  "name": "Depictable",
+  "path": "/Types/Facets/Depicted",
+  "shortDescription": "Things that can have a visual representation such as a thumbnail image, a picture, or an icon."
+}

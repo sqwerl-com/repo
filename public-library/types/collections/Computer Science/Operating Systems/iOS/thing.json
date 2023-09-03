@@ -1,0 +1,20 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/A Better Table View Data Structure>": "",
+    "</types/webPages/Apple Developer Forum>": "",
+    "</types/documents/Cocoa Fundamentals>": "",
+    "</types/feeds/iOS Developer Tips>": "",
+    "</types/feeds/iOS Development>": "",
+    "</types/documents/iOS Technology Overview>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Operating Systems>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "iOS",
+  "path": "/Types/Collections/Computer Science/Operating Systems/iOS",
+  "shortDescription": ""
+}

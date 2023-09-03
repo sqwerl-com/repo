@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-02-12T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Learning Puppet 4>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Jo",
+  "lastName": "Rhett",
+  "middleNameOrInitial": "",
+  "name": "Jo Rhett",
+  "path": "/Types/Authors/Jo Rhett"
+}

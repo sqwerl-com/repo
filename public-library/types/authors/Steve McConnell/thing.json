@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2012-04-13T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/After the Gold Rush>": "",
+    "</types/books/Code Complete>": "",
+    "</types/books/Code Complete 2>": "",
+    "</types/books/Rapid Development>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Steve",
+  "lastName": "McConnell",
+  "middleNameOrInitial": "",
+  "name": "Steve McConnell",
+  "path": "/Types/Authors/Steve McConnell"
+}
+

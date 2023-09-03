@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-05-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/feeds/Addy Osmani>": "",
+    "</types/webPages/Journey Through the JavaScript MVC Jungle>": "",
+    "</types/books/Learning JavaScript Design Patterns>": "",
+    "</types/webPages/Offline installation of npm packages>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Addy",
+  "lastName": "Osmani",
+  "middleNameOrInitial": "",
+  "name": "Addy Osmani",
+  "path": "/Types/Authors/Addy Osmani"
+}

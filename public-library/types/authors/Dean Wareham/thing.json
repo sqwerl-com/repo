@@ -1,0 +1,13 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-12-02T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Black Postcards>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Dean",
+  "lastName": "Wareham",
+  "middleNameOrInitial": "",
+  "name": "Dean Wareham",
+  "path": "/Types/Authors/Dean Wareham"
+}

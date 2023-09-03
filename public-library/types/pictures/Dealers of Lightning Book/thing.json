@@ -1,0 +1,17 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-04-14T00:00:00.00-07:00",
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "Dealers of Lightning Book",
+  "path": "/Types/Pictures/Dealers of Lightning Book",
+  "pictureOf": {
+    "</types/books/Dealers of Lightning>": ""
+  },
+  "representations": {
+    "dealers_of_lightning_book_cover_small.lnk.json": "",
+    "dealers_of_lightning_book_cover_medium.lnk.json": "",
+    "dealers_of_lightning_book_cover_large.lnk.json": ""
+  },
+  "shortDescription": ""
+}

@@ -1,0 +1,23 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2013-04-07T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Chris Coyier>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/CSS>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "feeds": {
+    "</types/feeds/CSS Tricks>": ""
+  },
+  "name": "Breadcrumb Navigation with CSS Triangles",
+  "path": "/Types/Web Pages/Breadcrumb Navigation with CSS Triangles",
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "shortDescription": "",
+  "url": "http://css-tricks.com/triangle-breadcrumbs/"
+}
+

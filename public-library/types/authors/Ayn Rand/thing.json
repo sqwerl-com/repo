@@ -1,0 +1,14 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2020-02-23T00:00:00.00-07:00",
+  "authorOf": {
+    "</types/books/Atlas Shrugged>": "",
+    "</types/books/The Fountainhead>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "firstName": "Ayn",
+  "lastName": "Rand",
+  "middleNameOrInitial": "",
+  "name": "Ayn Rand",
+  "path": "/Types/Authors/Ayn Rand"
+}

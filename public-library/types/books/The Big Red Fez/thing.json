@@ -1,0 +1,28 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2021-12-13T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Seth Godin>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Human Computer Interaction/User Experience/Design>": "",
+    "</types/collections/Business/Marketing>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "The Big Red Fez",
+  "notes": {
+    "</types/notes/The Big Red Fez>": ""
+  },
+  "path": "/Types/Books/The Big Red Fez",
+  "pictures": {
+    "</types/pictures/The Big Red Fez Book>": ""
+  },
+  "readBy": {
+    "</types/users/Tom Carroll>": ""
+  },
+  "recommendedBy": {
+    "</types/documents/Introduction to Good Usability>": ""
+  },
+  "shortDescription": "",
+  "title": "The Big Red Fez: How to Make Any Web Site Better"
+}

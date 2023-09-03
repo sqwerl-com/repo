@@ -1,0 +1,16 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2014-08-22T00:00:00.00-07:00",
+  "children": {
+    "</types/webPages/A JavaScript Build System Shootout Grunt vs Gulp vs NPM>": "",
+    "</types/webPages/All About NPM Commands>": ""
+  },
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Build Tools>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "description": "",
+  "name": "NPM",
+  "path": "/Types/Collections/Computer Science/Software Engineering/Build Tools/NPM",
+  "shortDescription": ""
+}

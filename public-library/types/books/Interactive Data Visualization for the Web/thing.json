@@ -1,0 +1,24 @@
+{
+  "addedBy": "</types/users/Tom Carroll>",
+  "addedOn": "2018-06-16T00:00:00.00-07:00",
+  "authors": [
+    "</types/authors/Scott Murray>"
+  ],
+  "collections": {
+    "</types/collections/Computer Science/Software Engineering/Web Application Development/Frameworks/D3>": "",
+    "</types/collections/Projects/Things to Check Out>": ""
+  },
+  "controller": "</types/users/Tom Carroll>",
+  "name": "Interactive Data Visualization for the Web (2nd Edition)",
+  "path": "/Types/Books/Interactive Data Visualization for the Web (2nd Edition)",
+  "pictures": {
+    "</types/pictures/Interactive Data Visualization for the Web Book>": ""
+  },
+  "recommendedBy": {
+    "</types/webPages/The Trouble with D3>": ""
+  },
+  "shortDescription": "",
+  "tags": {
+    "</types/tags/D3>": ""
+  }
+}
