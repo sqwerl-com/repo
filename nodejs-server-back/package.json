@@ -1,0 +1,55 @@
+{
+  "dependencies": {
+    "isomorphic-git": "^1.21.0",
+    "jsonwebtoken": "8.5.1",
+    "lunr": "2.3.9",
+    "mime": "3.0.0",
+    "moment": "2.29.4",
+    "node-static": "0.7.11",
+    "nyc": "^15.1.0",
+    "sqwerl-application-configuration": "git+ssh://git@github.com:tcarroll/sqwerl-application-configuration.git",
+    "sqwerl-logger": "git+ssh://git@github.com:tcarroll/sqwerl-logger.git",
+    "sqwerl-sign-up": "git+ssh://git@github.com:tcarroll/sqwerl-sign-up.git"
+  },
+  "devDependencies": {
+    "babel-register": "6.26.0",
+    "bcryptjs": "2.4.3",
+    "del": "7.0.0",
+    "frisby": "2.1.3",
+    "gulp": "4.0.2",
+    "gulp-debug": "4.0.0",
+    "gulp-eslint": "6.0.0",
+    "gulp-istanbul": "1.1.3",
+    "gulp-jasmine": "4.0.0",
+    "gulp-run": "1.7.1",
+    "gulp-zip": "5.1.0",
+    "jasmine-reporters": "2.4.0",
+    "jquery": "3.6.0",
+    "standard": "16.0.3",
+    "tap": "15.0.9",
+    "write-json-file": "4.3.0"
+  },
+  "name": "sqwerl-nodejs-server",
+  "scripts": {
+    "build": "gulp",
+    "package": "rm -rf ./target && mkdir -p ./target/src/main/javascript && cp -r src/main/javascript/* ./target/src/main/javascript && cp package.json target",
+    "test": "gulp test",
+    "test-tap": "tap src/test/javascript/tap --coverage --coverage-report=html --reporter xunit --no-browser"
+  },
+  "version": "0.0.0",
+  "desciption": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tcarroll/sqwerl-nodejs-server.git"
+  },
+  "keywords": [
+    "sqwerl"
+  ],
+  "author": "Sqwerl Technologies, LLC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "git+ssl:git@github.com/tcarroll/sqwerl-nodejs-server/issues"
+  },
+  "homepage": "https://github.com/tcarroll/sqwerl-nodejs-server#readme"
+}

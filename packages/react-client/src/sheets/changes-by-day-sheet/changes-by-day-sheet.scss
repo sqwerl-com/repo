@@ -1,0 +1,240 @@
+@import '../../index.scss';
+
+.sqwerl-repository-changes-by-day-table {
+  table-layout: auto;
+
+  & thead {
+    & tr.sqwerl-repository-changes-by-day-table-heading {
+      color: var(--properties-table-heading-color);
+      height: $sqwerl-list-row-height-pixels;
+      max-height: $sqwerl-list-row-height-pixels;
+      min-height: $sqwerl-list-row-height-pixels;
+    }
+
+    & th {
+      &.sqwerl-repository-changes-by-day-change-type-column {
+        border-right: 1px solid var(--content-heading-border-bottom-color);
+
+        & .sqwerl-repository-changes-by-day-table-change-type-column-text {
+          padding: 0.5rem;
+        }
+      }
+
+      &.sqwerl-repository-changes-by-day-table-name-column {
+        margin-left: $sqwerl-focus-border-size;
+        width: 100%;
+
+        & .sqwerl-repository-changes-by-day-table-name-column-text {
+          padding: 0.5rem;
+        }
+      }
+
+      &.sqwerl-repository-changes-by-day-thing-type-column {
+        & .sqwerl-repository-changes-by-day-table-thing-type-column-text {
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+
+  & tbody {
+    & tr {
+      &.sqwerl-table-row-link:hover {
+        td.sqwerl-repository-changes-by-day-table-name-column {
+          & a.sqwerl-repository-changes-by-day-table-name-title {
+            text-decoration-color: var(--list-item-hover-text-shadow);
+            text-shadow: var(--list-item-hover-text-shadow);
+          }
+        }
+
+        td.sqwerl-repository-changes-by-day-name-column {
+          & a.sqwerl-changes-by-day-details-title {
+            text-decoration-color: var(--list-item-hover-text-shadow);
+            text-shadow: var(--list-item-hover-text-shadow);
+          }
+        }
+      }
+
+      & td {
+        &.sqwerl-repository-changes-by-day-index-column {
+          text-align: end;
+
+          & .sqwerl-repository-changes-by-day-index-column-text {
+            color: var(--list-item-ordinal-text-color);
+            font-size: 90%;
+            font-variant: small-caps;
+            letter-spacing: 0;
+
+            &::after {
+              content: '.';
+            }
+          }
+        }
+
+        &.sqwerl-repository-changes-by-day-loading-column {
+          color: var(--navigation-loading-item-color);
+          padding-left: 1rem;
+
+          & .sqwerl-navigation-loading-indicator {
+            animation: sqwerl-loading-indicator 800ms infinite ease-in-out;
+            font-weight: bold;
+          }
+
+          & .sqwerl-navigation-loading-indicator.second {
+            animation-delay: 200ms;
+          }
+
+          & .sqwerl-navigation-loading-indicator.third {
+            animation-delay: 400ms;
+          }
+        }
+
+        &.sqwerl-repository-changes-by-day-table-name-column {
+          padding-left: 0.5rem;
+
+          & .sqwerl-repository-changes-by-day-table-name-text {
+            display: flex;
+            flex-direction: row;
+
+            & .sqwerl-repository-changes-by-day-table-name-link {
+              flex: 1 1 auto;
+            }
+          }
+
+          & a.sqwerl-repository-changes-by-day-table-name-title {
+            box-decoration-break: clone;
+            color: var(--hyperlink-text-color);
+            font-family: $sqwerl-hyperlink-font-family;
+            font-size: $sqwerl-hyperlink-font-size;
+            max-width: 20rem;
+            min-width: 20rem;
+            padding: 0.5rem;
+            text-decoration: underline;
+            text-decoration-color: rgba(255, 255, 255, 0);
+            text-decoration-thickness: var(--text-decoration-thickness);
+            text-underline-offset: var(--text-underline-offset);
+            transition: text-decoration-color 0.3s ease-in;
+            vertical-align: top;
+
+            &:visited {
+              color: var(--hyperlink-text-visited-color);
+            }
+
+            & .sqwerl-changes-by-day-details-name-text {
+              padding-left: $sqwerl-focus-border-size;
+            }
+          }
+
+          .sqwerl-changes-by-day-details-title {
+            color: var(--application-text-color);
+            font-family: $sqwerl-font-family;
+            font-size: var(--label-font-size);
+            font-weight: normal;
+
+            & .sqwerl-changes-by-day-details-name-text {
+              padding-left: $sqwerl-focus-border-size;
+            }
+          }
+
+          .sqwerl-changes-by-day-collection-path {
+            color: var(--secondary-text-color);
+            font-size: $sqwerl-secondary-text-font-size;
+            margin-left: $sqwerl-focus-border-size;
+            margin-top: $sqwerl-focus-border-size;
+            padding: 0.2rem;
+          }
+        }
+
+        &.sqwerl-repository-changes-by-day-change-type-column,
+        &.sqwerl-repository-changes-by-day-thing-type-column {
+          color: var(--secondary-text-color);
+          font-size: $sqwerl-secondary-text-font-size;
+        }
+
+        & .sqwerl-repository-changes-by-day-table-name-title-removed {
+          color: var(--secondary-text-color);
+          padding-left: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .sqwerl-repository-changes-by-day-index-column {
+    margin-left: 0.5rem;
+    min-width: 0.5rem;
+    padding-left: 0.5rem;
+    width: 0.5rem;
+
+    &.columns-2 {
+      min-width: 1rem;
+      width: 1rem;
+    }
+
+    &.columns-3 {
+      min-width: 1.5rem;
+      width: 1.5rem;
+    }
+
+    &.columns-4 {
+      min-width: 2rem;
+      width: 2rem;
+    }
+
+    &.columns-5 {
+      min-width: 2.5rem;
+      width: 2.5rem;
+    }
+
+    &.columns-6 {
+      min-width: 3rem;
+      width: 3rem;
+    }
+  }
+
+  td.busy {
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: loading-placeholder;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
+  }
+
+  td.sqwerl-repository-changes-by-day-table-name-column {
+    width: 100%;
+  }
+
+  .sqwerl-repository-changes-by-day-change-type-column {
+    max-width: 6rem;
+    min-width: 6rem;
+    padding-left: 0.5rem;
+    width: 6rem;
+
+    & .sqwerl-type-of-change-name-cell {
+      color: var(--secondary-text-color);
+
+      & .sqwerl-type-of-change-text {
+        padding-left: 0.5rem;
+      }
+    }
+  }
+
+  .sqwerl-repository-changes-by-day-thing-type-column {
+    max-width: 8rem;
+    min-width: 8rem;
+    padding-left: 0.5rem;
+    width: 8rem;
+
+    .sqwerl-type-name-cell {
+      color: var(--secondary-text-color);
+
+      & .sqwerl-type-name {
+        padding-left: 0.5rem;
+      }
+    }
+
+    & .sqwerl-changes-by-day-details-name-text {
+      padding-left: $sqwerl-focus-border-size;
+    }
+  }
+}

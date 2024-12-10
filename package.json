@@ -1,0 +1,14 @@
+{
+  "author": "Sqwerl Technologies, LLC (https://www.sqwerl.com)",
+  "description": "Monorepo for Sqwerl client and server applications.",
+  "license": "MIT",
+  "module": "index.ts",
+  "name": "sqwerl-repo",
+  "private": true,
+  "scripts": {
+    "clean-dependencies": "rm -rf node_modules packages/react-client/node_modules packages/logger/node_modules packages/bun-server/node_modules bun.lockb packages/react-client/bun.lockb packages/logger/bun.lockb packages/bun-server/bun.lockb"
+  },
+  "type": "module",
+  "version": "0.0.1",
+  "workspaces": ["packages/*"]
+}

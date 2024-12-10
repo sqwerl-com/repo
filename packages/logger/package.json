@@ -1,0 +1,33 @@
+{
+  "author": "Sqwerl Technologies, LLC",
+  "description": "JavaScript logger that wraps Winston logging package so that log messages can be prefixed with optional class/module and method/function names.",
+  "dependencies": {
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.5",
+    "@types/winston": "^2.4.4",
+    "bun-types": "latest",
+    "cypress": "^13.6.0",
+    "esbuild": "^0.19.7",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.3.2"
+  },
+  "license": "Apache-2.0",
+  "main": "index.tsx",
+  "name": "logger",
+  "packageManager": "yarn@4.0.0",
+  "scripts": {
+    "build": "tsc && bun build ./src/index.ts --outfile=sqwerl-configuration.js --outdir=dist"
+  },
+  "standard": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "typescript"
+    ]
+  },
+  "ts-standard": {
+    "project": "./tsconfig.json"
+  },
+  "version": "0.0.6"
+}

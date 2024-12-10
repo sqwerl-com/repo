@@ -1,0 +1,30 @@
+import { ApplicationContextProvider, ApplicationState } from '@/context/application'
+import { BrowserRouter } from 'react-router-dom'
+import { IntlProvider } from 'react-intl'
+import { it } from 'vitest'
+import messages from '@/translations/locales/en.json'
+import { mockSheetState } from '@/sheets/mocks'
+import { mockThing } from '@/utils/mocks'
+import React from 'react'
+import renderer from 'react-test-renderer'
+import TableField from '@/sheets/components/fields/table-field'
+
+it('renders without crashing', () => {
+  renderer.create(
+    <BrowserRouter>
+      <ApplicationContextProvider value={ApplicationState}>
+        <IntlProvider locale='en' messages={messages}>
+          <TableField
+            collection={{ members: [mockThing, mockThing], offset: 0, totalCount: 1 }}
+            columnProperties={[]}
+            columnTitles={[]}
+            property='testProperty'
+            fieldLabel='testLabel'
+            createLink={() => { return (<></>) }}
+            state={mockSheetState}
+          />
+        </IntlProvider>
+      </ApplicationContextProvider>
+    </BrowserRouter>
+  )
+})

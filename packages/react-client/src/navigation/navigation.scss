@@ -1,0 +1,140 @@
+@import "../index.scss";
+
+.sqwerl-button-bar {
+  align-self: end;
+  width: 100%;
+}
+
+.sqwerl-navigation-container {
+  height: 100%;
+
+  .sqwerl-navigation {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: var(--horizontal-divider-split-left-child-z-index);
+
+    &.slide-left {
+      transition: left 0.2s $sqwerl-slide-transition-function;
+      left: calc(-100%);
+      z-index: var(--horizontal-divider-split-child-animated-z-index);
+    }
+
+    &.slide-right {
+      transition: left 0.2s $sqwerl-slide-transition-function;
+      left: calc(100%);
+      z-index: var(--horizontal-divider-split-child-animated-z-index);
+    }
+
+    .sqwerl-navigation-back {
+      cursor: default;
+      font-family: $sqwerl-font-family;
+      font-size: 1rem;
+      font-weight: normal;
+      flex: 1 1 auto;
+      justify-content: flex-start;
+      letter-spacing: $sqwerl-letter-spacing;
+      line-height: $sqwerl-content-heading-height;
+
+      & a {
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+
+    & .sqwerl-navigation-title-text {
+      line-height: $sqwerl-row-height;
+    }
+  }
+
+  .sqwerl-navigation-busy-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+    .sqwerl-list-busy {
+      background: var(--list-background-color);
+      flex: 1 1 auto;
+      height: 100%;
+      position: absolute;
+      top: $sqwerl-content-heading-height;
+      width: 100%;
+
+      & .sqwerl-navigation-item {
+        height: $sqwerl-list-row-height-pixels;
+      }
+    }
+
+    /* TODO - This style is duplicated in navigation/navigation-bar/navigation-bar.scss.
+              Refactor to remove duplication.
+     */
+    .sqwerl-navigation-bar-busy {
+      background: var(--content-heading-background);
+      border-bottom: 1px solid var(--content-heading-border-bottom-color);
+      box-shadow: 0 $sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
+      display: flex;
+      max-height: $sqwerl-content-heading-height;
+      min-height: $sqwerl-content-heading-height;
+      height: $sqwerl-content-heading-height;
+      position: absolute;
+      width: 100%;
+      z-index: var(--navigation-bar-z-index);
+
+      & .sqwerl-navigation-bar-content-busy {
+        align-self: center;
+        animation-duration: 1.25s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-name: loading-placeholder;
+        animation-timing-function: linear;
+        background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
+        cursor: default;
+        flex: 1 1 auto;
+        height: calc(#{$sqwerl-row-height} / 2);
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+        width: 100%;
+      }
+    }
+
+    .sqwerl-navigation-busy-item {
+      background: var(--list-item-background);
+      border-bottom: 1px solid var(--list-item-bottom-border-color);
+      display: flex;
+      height: calc(#{$sqwerl-navigation-items-height} + #{$sqwerl-focus-border-size} * 2);
+      left: 0;
+
+      &.even {
+        background: var(--navigation-list-even-row-background);
+      }
+
+      & .sqwerl-navigation-busy-item-content {
+        /* TODO - Duplicated from sqwerl-navigation-bar-content-busy rule in this file. Refactor. */
+        align-self: center;
+        animation-duration: 1.25s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-name: loading-placeholder;
+        animation-timing-function: linear;
+        background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
+        cursor: default;
+        flex: 1 1 auto;
+        height: calc(#{$sqwerl-row-height} / 2);
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+        width: 100%;
+      }
+    }
+  }
+}

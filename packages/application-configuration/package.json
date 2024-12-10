@@ -1,0 +1,33 @@
+{
+  "author": "Sqwerl Technologies, LLC",
+  "dependencies": {
+    "logger": "workspace:*"
+  },
+  "description": "Loads a JavaScript application's configuration information from JSON files.",
+  "devDependencies": {
+    "@types/node": "^20.9.5",
+    "bun-types": "^1.0.14",
+    "cypress": "^13.6.0",
+    "esbuild": "^0.19.7",
+    "ts-standard": "^12.0.2",
+    "typedoc": "^0.25.4",
+    "typescript": "^5.3.2"
+  },
+  "license": "Apache-2.0",
+  "main": "index.tsx",
+  "name": "application-configuration",
+  "scripts": {
+    "build": "tsc && bun build ./src/index.ts --outfile=sqwerl-configuration.js --outdir=dist",
+    "build-doc": "typedoc --exclude ./src/**/*.test.ts --out build/docs src/index.ts"
+  },
+  "standard": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "typescript"
+    ]
+  },
+  "ts-standard": {
+    "project": "./tsconfig.json"
+  },
+  "version": "0.0.6"
+}

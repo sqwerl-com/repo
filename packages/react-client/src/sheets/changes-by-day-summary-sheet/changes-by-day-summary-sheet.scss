@@ -1,0 +1,54 @@
+@import "../../index.scss";
+
+.sqwerl-repository-changes-on-day-item {
+  border-bottom: 1px solid var(--list-item-bottom-border-color);
+  display: flex;
+  /* height: calc($sqwerl-row-height + ($sqwerl-focus-border-size * 2)); */
+  height: $sqwerl-row-height;
+  left: 0;
+  letter-spacing: $sqwerl-letter-spacing;
+  line-height: $sqwerl-row-height;
+  max-height: $sqwerl-row-height;
+  max-width: 40rem;
+
+  a.sqwerl-repository-changes-on-day-link {
+    display: flex;
+    flex-direction: row;
+    height: calc(#{sqwerl-row-height} - (#{sqwerl-focus-border-size} * 2));
+    margin: $sqwerl-focus-border-size;
+    text-decoration: none;
+    width: calc(100% - 1.5rem);
+
+    &:hover {
+      animation: sqwerl-list-item-hover 0.3s ease-in;
+      background: $sqwerl-list-item-hover-background;
+
+      & .sqwerl-change-summary-link-text {
+        text-decoration-color: var(--list-item-hover-text-shadow);
+      }
+
+      & .sqwerl-repository-view-changes-title-text {
+        text-decoration: underline;
+        text-decoration-color: var(--list-item-hover-text-shadow);
+        text-shadow: var(--list-item-hover-text-shadow);
+        text-underline-offset: var(--text-underline-offset);
+      }
+    }
+
+    & .sqwerl-change-summary-link-text {
+      color: inherit;
+      margin-left: 0.5rem;
+      text-decoration: underline;
+      text-decoration-color: rgba(255, 255, 255, 0);
+      text-decoration-thickness: var(--text-decoration-thickness);
+      text-underline-offset: var(--text-underline-offset);
+      transition: text-decoration-color 0.3s ease-in;
+    }
+
+    &:visited {
+      & .sqwerl-change-summary-link-text {
+        color: var(--hyperlink-text-visited-color);
+      }
+    }
+  }
+}

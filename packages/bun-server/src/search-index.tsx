@@ -1,0 +1,3 @@
+const SearchIndex = (configuration: any) => {
+
+}
