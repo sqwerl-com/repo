@@ -7,10 +7,10 @@ import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import { mockThing } from '@/utils/mocks'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 
 it('renders without crashing', () => {
-  renderer.create(
+  render(
     <BrowserRouter>
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
@@ -28,7 +28,8 @@ it('renders without crashing', () => {
 it('renders plural type name', () => {
   mockThing.isType = true
   mockThing.typeNameIsPlural = true
-  renderer.create(
+
+  render(
     <BrowserRouter>
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
@@ -46,7 +47,8 @@ it('renders plural type name', () => {
 it('renders thing\'s type\'s name', () => {
   mockThing.isType = false
   mockThing.typeName = 'Thing'
-  renderer.create(
+
+  render(
     <BrowserRouter>
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
@@ -64,7 +66,8 @@ it('renders thing\'s type\'s name', () => {
 it('renders with null thing', () => {
   const sheetState = { ...createMockSheetState() }
   sheetState.thing = null
-  renderer.create(
+
+  render(
     <BrowserRouter>
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>

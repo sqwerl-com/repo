@@ -28,6 +28,7 @@ const NavigationBar = (props: Props): React.JSX.Element => {
     setSelectedItemId,
     showProperties
   } = props
+
   return (
     <header className='sqwerl-navigation-bar'>
       {!isHome &&
@@ -37,7 +38,7 @@ const NavigationBar = (props: Props): React.JSX.Element => {
           setAnimationClassName={setAnimationClassName}
           setSelectedItemId={setSelectedItemId}
           showProperties={showProperties}
-          title={parentName || ''}
+          title={parentName ?? ''}
         />}
       <NavigationTitle isHome={isHome} itemCount={itemCount} title={currentName} />
       <NavigationToolbar />

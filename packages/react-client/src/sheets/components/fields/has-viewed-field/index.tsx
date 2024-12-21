@@ -17,6 +17,7 @@ interface Props {
 const HasViewedField = (props: Props): React.JSX.Element => {
   const { hasViewed, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={hasViewed}
@@ -25,7 +26,8 @@ const HasViewedField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'hasViewed.field.label' }, { count: hasViewed.totalCount })}
       property='hasViewed'
       state={state}
-  />)
+    />
+  )
 }
 
 export default HasViewedField

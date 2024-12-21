@@ -20,6 +20,7 @@ interface Props {
 const RepresentationsField = (props: Props): React.JSX.Element => {
   const { fieldTitleId, representations, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={representations}
@@ -27,7 +28,8 @@ const RepresentationsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: fieldTitleId }, { count: representations.totalCount })}
       property='representations'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -37,6 +39,7 @@ const RepresentationsField = (props: Props): React.JSX.Element => {
  */
 const representationLink = (_intl: IntlShape, representation: Thing): React.JSX.Element => {
   const { href, name, title } = representation
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       {/* TODO - Add an icon for the type of file (for example: PDF, Word, etc.). Add a icon to open in new window/tab */}

@@ -479,7 +479,7 @@
   },
   {
     "id": "isReading.field.label",
-    "defaultMessage": "Is reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+    "defaultMessage": "Is currently reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
   },
   {
     "id": "isRecommendable",

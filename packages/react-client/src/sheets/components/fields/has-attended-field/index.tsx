@@ -17,6 +17,7 @@ interface Props {
 const HasAttendedField = (props: Props): React.JSX.Element => {
   const { hasAttended, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={hasAttended}
@@ -25,7 +26,8 @@ const HasAttendedField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'hasAttended.field.label' }, { count: hasAttended.totalCount })}
       property='hasAttended'
       state={state}
-    />)
+    />
+  )
 }
 
 export default HasAttendedField

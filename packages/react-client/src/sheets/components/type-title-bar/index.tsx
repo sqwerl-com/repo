@@ -37,6 +37,7 @@ const TypeTitleBar = (props: Props): React.JSX.Element => {
   const formattedText =
     intl.formatMessage({ id: titleTextId }, { children: childrenText, ...titleTextValues })
   const text = formattedText ? formattedText.toString() : ''
+
   return (
     <header className='sqwerl-properties-title-bar'>
       {/* TODO - <button onClick={this.toggleNavigation} /> */}

@@ -7,6 +7,7 @@ import * as React from 'react'
  */
 const IsTypeOfThing = (): React.JSX.Element => {
   const intl = useIntl()
+
   return (<>{' ' + intl.formatMessage({ id: 'isTypeOfThing' })}</>)
 }
 

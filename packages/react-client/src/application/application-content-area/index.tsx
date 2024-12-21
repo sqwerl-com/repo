@@ -52,7 +52,7 @@ interface Props {
   popPath: (state: ApplicationState) => void
 
   /** Call set the current path to a thing whose properties are being displayed within an application. */
-  setPath: (path: [{ id: string, name: string }]) => void,
+  setPath: (path: [{ id: string, name: string }]) => void
 
   /** Call to fetch and show a thing's properties. */
   showProperties: (path: string) => void
@@ -64,7 +64,7 @@ interface Props {
  * to view and change things' properties.
  * @param props
  */
-const ApplicationContentArea = (props: Props) => {
+const ApplicationContentArea = (props: Props): React.JSX.Element => {
   logger = Logger(ApplicationContentArea, ApplicationContentArea)
   const navigate = useNavigate()
   const [thing, setThing] = useState<Thing | null>(null)

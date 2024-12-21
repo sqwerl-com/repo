@@ -20,6 +20,7 @@ interface Props {
 const PostsField = (props: Props): React.JSX.Element => {
   const { posts, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={posts}
@@ -27,7 +28,8 @@ const PostsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'posts.field.label' }, { count: posts.totalCount })}
       property='posts'
       state={state}
-    />)
+    />
+  )
     /* TODO - Remove
     <TableField
       collection={posts}
@@ -56,6 +58,7 @@ const postLink = (_intl: IntlShape, post: Thing, state: SheetState): React.JSX.E
   const { applicationName } = configuration
   const { id, typeName } = post
   const isType = {}.hasOwnProperty.call(post, 'isType') && post.isType
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

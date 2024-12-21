@@ -20,6 +20,7 @@ interface Props {
 const RecommendationsField = (props: Props): React.JSX.Element => {
   const { recommendations, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={recommendations}
@@ -27,7 +28,8 @@ const RecommendationsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'recommendations.field.label' }, { count: recommendations.totalCount })}
       property='recommendations'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const RecommendationsField = (props: Props): React.JSX.Element => {
 const recommendationsLink = (intl: IntlShape, recommendation: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type, typeName } = recommendation
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

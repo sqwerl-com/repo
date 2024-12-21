@@ -16,6 +16,7 @@ interface Props {
 const MiddleNameOrInitialField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const { middleNameOrInitial } = props
+
   return (
     <>
       {middleNameOrInitial &&

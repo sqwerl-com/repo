@@ -68,7 +68,7 @@ const AuthorsSheet = (props: Props): React.JSX.Element => {
       />
       <ScrollableContent>
         {archived && <ArchivedField archived={archived} />}
-        {pictures &&
+        {(pictures !== undefined) &&
           <PictureField
             fieldTitle={pictureFieldTitle}
             pictures={pictures}
@@ -76,12 +76,12 @@ const AuthorsSheet = (props: Props): React.JSX.Element => {
             state={state}
             thumbnailUrl={thumbnailUrl}
           />}
-        {authorOf && <AuthorOfField authorOf={authorOf} state={state} />}
-        {instructed && <InstructedField instructed={instructed} state={state} />}
-        {spokeAt && <SpokeAtField spokeAt={spokeAt} state={state} />}
-        {recommendations && <RecommendationsField recommendations={recommendations} state={state} />}
-        {links && <LinksField links={links} state={state} />}
-        {tags && <TagsField tags={tags} state={state} />}
+        {(authorOf !== undefined) && <AuthorOfField authorOf={authorOf} state={state} />}
+        {(instructed !== undefined) && <InstructedField instructed={instructed} state={state} />}
+        {(spokeAt !== undefined) && <SpokeAtField spokeAt={spokeAt} state={state} />}
+        {(recommendations !== undefined) && <RecommendationsField recommendations={recommendations} state={state} />}
+        {(links !== undefined) && <LinksField links={links} state={state} />}
+        {(tags !== undefined) && <TagsField tags={tags} state={state} />}
         {addedBy && addedOn && <HistoryField addedBy={addedBy} addedOn={addedOn} state={state} />}
       </ScrollableContent>
     </>

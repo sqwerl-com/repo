@@ -11,6 +11,7 @@ interface Props {
 const FirstNameField = (props: Props): React.JSX.Element => {
   const { firstName } = props
   const intl = useIntl()
+
   return (
     <>
       {firstName &&

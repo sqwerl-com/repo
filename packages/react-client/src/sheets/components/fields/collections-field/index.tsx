@@ -19,6 +19,7 @@ interface Props {
 const CollectionsField = (props: Props): React.JSX.Element => {
   const { collections, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={collections}
@@ -26,7 +27,8 @@ const CollectionsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'collection.field.label' }, { count: collections.totalCount })}
       property='collections'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -40,6 +42,7 @@ const collectionLink = (intl: IntlShape, collection: Thing, state: SheetState): 
   const collectionCount = intl.formatMessage({ id: 'hasChildren' }, { count: childrenCount })
   const { configuration, currentRepositoryName } = state
   const { applicationName } = configuration
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link
@@ -63,8 +66,10 @@ const collectionLinkAnchorText = (collection: Thing): React.ReactNode => {
   const { path } = collection
   const pathComponents = path && path.split('/')
   const anchorText: React.ReactNode[] = []
+
   if (pathComponents && (pathComponents.length > 3)) {
     const length = pathComponents.length
+
     for (let i = 3; i < length; i += 1) {
       anchorText.push(<span>{pathComponents[i]}</span>)
       if (i < (length - 1)) {
@@ -72,6 +77,7 @@ const collectionLinkAnchorText = (collection: Thing): React.ReactNode => {
       }
     }
   }
+
   return (anchorText)
 }
 

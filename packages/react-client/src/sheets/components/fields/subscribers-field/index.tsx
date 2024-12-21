@@ -20,6 +20,7 @@ interface Props {
 const SubscribersField = (props: Props): React.JSX.Element => {
   const { subscribers, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={subscribers}
@@ -27,7 +28,8 @@ const SubscribersField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'subscribers.field.label' }, { count: subscribers.totalCount })}
       property='subscribers'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const SubscribersField = (props: Props): React.JSX.Element => {
 const subscriberLink = (intl: IntlShape, subscriber: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type, typeName } = subscriber
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

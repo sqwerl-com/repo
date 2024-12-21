@@ -14,13 +14,16 @@ const UrlBuilder = (path: string, setPath: (components: Array<PathComponent>) =>
   let id = ''
   const pathComponents: Array<PathComponent> = []
   const elements = path.split('/')
+
   if (elements.length > 1) {
     const components = elements.slice(1, elements.length - 1)
+
     components.forEach((component) => {
       id += ('/' + component)
       pathComponents.push({ id, name: component })
     })
   }
+
   setPath(pathComponents)
 }
 

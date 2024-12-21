@@ -92,14 +92,15 @@ const ArticlesSheet = (props: Props): React.JSX.Element => {
       />
       <ScrollableContent>
         {archived && <ArchivedField archived={archived} />}
-        {pictures &&
+        {(pictures !== undefined) &&
           <PictureField
             fieldTitle={pictureFieldTitle}
             pictures={pictures}
             size='medium'
             state={state}
             thumbnailUrl={thumbnailUrl}
-          />}
+          />
+        }
         {authors && <AuthorsField authors={authors} state={state} />}
         {collections && <CollectionsField collections={collections} state={state} />}
         {representations &&

@@ -16,6 +16,7 @@ interface Props {
 const DescriptionField = (props: Props): React.JSX.Element => {
   const { description } = props
   const intl = useIntl()
+
   return (
     <>
       {description &&

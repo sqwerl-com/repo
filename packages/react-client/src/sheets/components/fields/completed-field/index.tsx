@@ -17,6 +17,7 @@ const CompletedField = (props: Props): React.JSX.Element => {
   const { done } = props
   const intl = useIntl()
   const textId = done ? 'affirmative' : 'negative'
+
   return (
     <>
       <div className='sqwerl-properties-read-only-field'>

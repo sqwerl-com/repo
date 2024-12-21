@@ -1,4 +1,4 @@
-import { Thing } from '@/utils/types'
+import { CollectionType, Thing } from '@/utils/types'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
@@ -34,22 +34,19 @@ const Index = (props: Props): React.JSX.Element => {
 export const connectionCount = (props: Props): number => {
   const { connectionProperties, thing } = props
   let sum = 0
-  if (connectionProperties && thing) {
+
+  if ((connectionProperties !== undefined) && (thing !== undefined)) {
     connectionProperties.forEach(property => {
       if (Object.hasOwn(thing, property)) {
-        // @ts-expect-error We test that the thing has the property, ignore error.
-        if (Object.hasOwn(thing[property],'totalCount')) {
-          // @ts-expect-error We test that the property contains the totalCount property, ignore error.
-          sum += thing[property]['totalCount']
+        // @ts-expect-error During execution, a thing can have properties we don't have defined in code.
+        const target: Thing = thing[property] as Thing
+        if (Object.hasOwn(target, 'totalCount')) {
+          sum += target['totalCount']
         }
-        /* TODO - Make sure this can be removed.
-        else {
-          sum++
-        }
-        */
       }
     })
   }
+
   return sum
 }
 

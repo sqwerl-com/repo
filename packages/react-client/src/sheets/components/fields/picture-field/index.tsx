@@ -25,13 +25,16 @@ const PictureField = (props: Props): React.JSX.Element => {
   const [picture, setPicture] = useState<BasicThing | null>(null)
   const [isImageLoaded, setIsImageLoaded] = useState(false)
   const [isThumbnailLoaded, setIsThumbnailLoaded] = useState(false)
+
   useEffect(() => {
     setIsImageLoaded(false)
     setIsThumbnailLoaded(false)
     setPicture(null)
+
     const fetchData = async () => {
       // Retrieve the definitions of the picture's digital representations (images).
       const data = await fetchRepresentations(props)
+
       if (data && {}.hasOwnProperty.call(data, 'representations')) {
         const representations: CollectionType<Thing> = data.representations
         const pictures: BasicThing[] = representations.members
@@ -42,11 +45,11 @@ const PictureField = (props: Props): React.JSX.Element => {
         if (count === 1) {
           picture = pictures[0]
         } else if (count > 0) {
-
           // If there are more than one representation for the picture, and the name of the size for the desired
           // representation was given, then look for a representation that matches the requested size
           if (size && count > 1) {
             const images = pictures.filter(r => r.name ? r.name.toLowerCase().includes(size.toLowerCase()) : false)
+
             if (images.length === 1) {
               picture = images[0]
             }
@@ -55,6 +58,7 @@ const PictureField = (props: Props): React.JSX.Element => {
           // Choose the representation with no specified size.
           if ((picture === null) && (count > 1)) {
             const images = pictures.filter(r => r.name.toLowerCase() === r.name)
+
             if (images.length > 0) {
               picture = images[0]
             }
@@ -68,8 +72,10 @@ const PictureField = (props: Props): React.JSX.Element => {
         setPicture(picture)
       }
     }
+
     fetchData()
   }, [pictures])
+
   return (
       <div className='sqwerl-properties-read-only-field'>
         <ReadOnlyFieldLabel labelText={fieldTitle} />
@@ -89,11 +95,14 @@ const PictureField = (props: Props): React.JSX.Element => {
 const fetchRepresentations = async (props: Props) => {
   const { pictures, state } = props
   const { configuration, fetcher, logger } = state
+
   logger.setContext(fetchRepresentations)
+
   if (pictures && pictures.totalCount > 0) {
     const response = await fetcher.requestData({
       url: `${configuration.baseUrl}${pictures.members[0].id}`.replace(/ /g, '-')
     })
+
     if (response.status === 200) {
       return await response.json()
     } else {
@@ -102,6 +111,7 @@ const fetchRepresentations = async (props: Props) => {
         `Error message: "${response.statusText}"`)
       // TODO - Handle error.
     }
+
     return null
   }
 }

@@ -37,6 +37,7 @@ type Props = {
  */
 const TableField = (props: Props): React.JSX.Element => {
   const { collection, createLink, fieldLabel, property, state } = props
+
   return (
     <Field
       collection={collection}

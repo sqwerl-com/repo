@@ -4,16 +4,15 @@
 
 import { distanceInTimeText, shouldShowRelativeTime } from '@/utils/formatters/time'
 import { EventGenerator } from '@/context/application/events'
-import NavigateToPropertyEvents from '@/context/application/navigate-to-property-events'
-import NavigateToThingEvents from '@/context/application/navigate-to-thing-events'
+import { NavigateToPropertyEvents } from '@/context/application/navigate-to-property-events'
+import { NavigateToThingEvents } from '@/context/application/navigate-to-thing-events'
 import { encodeUriReplaceStringsWithHyphens, parentThingIdToHref, thingIdToHref, typeIdToTypeName }
   from '@/utils/formatters/ids'
-import PropertiesRetrievedEvents, {
-  PropertiesRetrievedEventGenerator
+import { PropertiesRetrievedEvents, PropertiesRetrievedEventGenerator
 } from '@/context/application/properties-retrieved-events'
-import SelectThingEvents from '@/context/application/select-thing-events'
+import { SelectThingEvents } from '@/context/application/select-thing-events'
 import shouldShowPath from '@/utils/formatters/things'
-import UrlChangedEvents from '@/context/application/url-changed-events'
+import { UrlChangedEvents } from '@/context/application/url-changed-events'
 import * as React from 'react'
 
 export interface ApplicationContextType {

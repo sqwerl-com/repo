@@ -40,8 +40,10 @@ const RepositoryChanges = (props: Props): React.JSX.Element => {
   const { configuration, currentRepositoryName } = state
   const context = useContext(ApplicationContext)
   const intl = useIntl()
+
   if (changes) {
     const rows: ReactNode[] = []
+
     changes.forEach((change, index) => {
       const linkTarget =
         (change.isCollection
@@ -65,8 +67,10 @@ const RepositoryChanges = (props: Props): React.JSX.Element => {
       }
       rows.push(renderChangeRow(renderContext))
     })
+
     return (<>{rows}</>)
   }
+
   return (<></>)
 }
 
@@ -87,10 +91,12 @@ const renderChangeRow = (renderContext: RenderContext) => {
     offset,
     wasRemoved
   } = renderContext
+
   if (wasRemoved) {
     renderRemovedItem(renderContext)
   } else {
     const showPath = isCollection && context.shouldShowPath(change.id)
+
     return (
       <tr className='sqwerl-table-row-link'
           key={index + offset} onClick={() => (location.href = linkTarget)}>
@@ -131,6 +137,7 @@ const renderRemovedItem = (renderContext: RenderContext) => {
     multiline,
     isCollection
   } = renderContext
+
   return (
     <tr key={index + offset}>
       <td className={`sqwerl-properties-table-index-column ${indexColumnWidth} ${multiline}`}>
@@ -180,14 +187,18 @@ const renderTypeOfChange = (intl: IntlShape, typeOfChangeId: string) => {
       </div>
     )
   }
+
   switch (typeOfChangeId.toLowerCase()) {
     case 'added':
       return render(
         intl.formatMessage({ id: 'typeOfChange.added' }), () => <PlusSquare />)
+
     case 'modified':
       return render(intl.formatMessage({ id: 'typeOfChange.modified' }), () => <Edit3 />)
+
     case 'removed':
       return render(intl.formatMessage({ id: 'typeOfChange.deleted' }), () => <Trash2 />)
+
     default:
       return render(intl.formatMessage({ id: 'typeOfChange.unknown' }), () => <HelpCircle />)
   }

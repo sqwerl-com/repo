@@ -98,6 +98,7 @@ const TitleBar = (props: Props): React.JSX.Element => {
 
 const goBack = (navigate: NavigateFunction, props: Props) => {
   const { setAnimationState } = props.state
+
   navigate(-1)
   setAnimationState('slide-right')
   setTimeout(() => {

@@ -11,6 +11,7 @@ type Props = {
  */
 const Index = (props: Props) => {
   const { url } = props
+
   // TODO - Add ability to add internationalized alt text.
   return (
     <a

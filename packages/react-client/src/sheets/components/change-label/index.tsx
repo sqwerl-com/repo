@@ -22,6 +22,7 @@ interface Props {
 const Index = (props: Props): React.JSX.Element => {
   const { change, index, linkTarget, showPath } = props
   const wasRemoved = change.typeOfChange === 'removed'
+
   if (wasRemoved) {
     return renderRemoved(props)
   } else {
@@ -29,11 +30,11 @@ const Index = (props: Props): React.JSX.Element => {
       return (
         <td className='sqwerl-repository-changes-by-day-table-name-column multiline'>
           <span key={index}>
-            {linkTarget &&
+            {(linkTarget !== undefined) &&
               <Link className='sqwerl-repository-changes-by-day-table-name-title' to={linkTarget}>
                 <span className='sqwerl-properties-table-name-text'>{change.name}</span>
               </Link>}
-            {!linkTarget &&
+            {(linkTarget === undefined) &&
               <div className='sqwerl-repository-changes-by-day-table-name-title'>
                 <span className='sqwerl-properties-table-name-text'>{change.name}</span>
               </div>}
@@ -42,15 +43,16 @@ const Index = (props: Props): React.JSX.Element => {
         </td>
       )
     }
+
     return (
       <td className={`sqwerl-repository-changes-by-day-table-name-column ${showPath ? 'multiline' : ''}`}>
         <div className='sqwerl-repository-changes-by-day-table-name-text'>
           <span className='sqwerl-repository-changes-by-day-table-name-link' key={index}>
-            {linkTarget &&
+            {(linkTarget !== undefined) &&
               <Link className='sqwerl-repository-changes-by-day-table-name-title' to={linkTarget}>
                 <span className='sqwerl-repository-changes-by-day-details-name-text'>{change.name}</span>
               </Link>}
-            {!linkTarget &&
+            {(linkTarget === undefined) &&
               <div className='sqwerl-repository-changes-by-day-table-name-title'>
                 <span className='sqwerl-repository-changes-by-day-details-name-text'>{change.name}</span>
               </div>}
@@ -66,10 +68,11 @@ const Index = (props: Props): React.JSX.Element => {
  * Renders a path to a thing that has been changed.
  * @param change
  */
-const pathContent = (change: RepositoryChangeDescription) => {
+const pathContent = (change: RepositoryChangeDescription): React.JSX.Element[] => {
   const components = change.path.split('/')
   const startPathIndex = 3 // Skip over root -> types -> categories in the path.
   const path = components.slice(startPathIndex, components.length - 1)
+
   return path.map((pathItem, index) => {
     return (
       <span key={index}>
@@ -86,6 +89,7 @@ const pathContent = (change: RepositoryChangeDescription) => {
  */
 const renderRemoved = (props: Props): React.JSX.Element => {
   const { change, index, showPath } = props
+
   if (showPath) {
     return (
       <td className='sqwerl-repository-changes-by-day-table-name-column'>
@@ -98,6 +102,7 @@ const renderRemoved = (props: Props): React.JSX.Element => {
       </td>
     )
   }
+
   return (
     <td className={`sqwerl-repository-changes-by-day-table-name-column ${showPath ? 'multiline' : ''}`}>
       <span key={index}>
@@ -108,6 +113,5 @@ const renderRemoved = (props: Props): React.JSX.Element => {
     </td>
   )
 }
-
 
 export default Index

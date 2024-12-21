@@ -19,6 +19,7 @@ interface Props {
 const RolesField = (props: Props): React.JSX.Element => {
   const { roles, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={roles}
@@ -26,7 +27,8 @@ const RolesField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'roles.field.label' }, { count: roles.totalCount })}
       property='roles'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const RolesField = (props: Props): React.JSX.Element => {
 const roleLink = (_intl: IntlShape, role: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type } = role
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

@@ -1,6 +1,6 @@
 import { CallbackType } from '@/context/application/events'
 import { expect, it } from 'vitest'
-import NavigateToThingEvents from '@/context/application/navigate-to-thing-events'
+import { NavigateToThingEvents } from '@/context/application/navigate-to-thing-events'
 
 it('Firing navigate to thing events', () => {
   const PATH_NAME = 'test_path'

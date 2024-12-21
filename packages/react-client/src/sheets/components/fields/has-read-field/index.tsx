@@ -17,6 +17,7 @@ interface Props {
 const HasReadField = (props: Props): React.JSX.Element => {
   const { hasRead, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={hasRead}
@@ -25,7 +26,8 @@ const HasReadField = (props: Props): React.JSX.Element => {
       createLink={(intl: IntlShape, hasRead: Thing) =>
         renderFieldValue(intl, 'hasRead', hasRead, state)}
       state={state}
-    />)
+    />
+  )
 }
 
 export default HasReadField

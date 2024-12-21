@@ -23,7 +23,6 @@ interface Props {
  */
 const CollectionsSheet = (props: Props): React.JSX.Element => {
   logger = Logger(CollectionsSheet, CollectionsSheet)
-
   logger.info('Rendering Collections property sheet')
 
   const { state } = props
@@ -46,18 +45,18 @@ const CollectionsSheet = (props: Props): React.JSX.Element => {
         state={state}
         thing={thing}
         titleTextId='collectionsSheet.title'
-        titleTextValues={{ name, thingCount: children ? children.totalCount.toString() : '0' }}
+        titleTextValues={{ name, thingCount: (children !== undefined) ? children.totalCount.toString() : '0' }}
       />
       <ScrollableContent>
         {archived && <ArchivedField archived={archived} />}
-        {description && <DescriptionField description={description} state={state} />}
-        {shortDescription &&
+        {(description !== undefined) && <DescriptionField description={description} state={state} />}
+        {(shortDescription !== undefined) &&
           <div className='sqwerl-properties-read-only-field'>
             <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'shortDescription.field.label' } )} />
             <div className='sqwerl-properties-read-only-field-value'>{shortDescription}</div>
           </div>
         }
-        {links && <LinksField links={links} state={state} />}
+        {(links !== undefined) && <LinksField links={links} state={state} />}
         {addedBy && addedOn && <HistoryField addedBy={addedBy} addedOn={addedOn} state={state} />}
       </ScrollableContent>
     </>

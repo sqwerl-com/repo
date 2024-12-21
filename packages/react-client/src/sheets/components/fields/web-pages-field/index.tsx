@@ -19,6 +19,7 @@ interface Props {
 const WebPagesField = (props: Props): React.JSX.Element => {
   const { webPages, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={webPages}
@@ -26,7 +27,8 @@ const WebPagesField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'webPages.field.label' }, { count: webPages.totalCount })}
       property='webPages'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -38,6 +40,7 @@ const WebPagesField = (props: Props): React.JSX.Element => {
 const webPagesLink = (_intl: IntlShape, webPages: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type } = webPages
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

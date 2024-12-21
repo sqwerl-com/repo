@@ -18,6 +18,7 @@ interface Props {
 const IsAttendingField = (props: Props): React.JSX.Element => {
   const { isAttending, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={isAttending}
@@ -26,7 +27,8 @@ const IsAttendingField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'isAttending.field.label' }, { count: isAttending.totalCount })}
       property='isAttending'
       state={state}
-    />)
+    />
+  )
 }
 
 export default IsAttendingField

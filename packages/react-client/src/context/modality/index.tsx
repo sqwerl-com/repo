@@ -1,6 +1,6 @@
 import React from 'react'
 
-type Props = {
+interface Props {
   children: React.ReactNode | React.ReactNode[],
   value?: boolean
 }
@@ -13,9 +13,9 @@ const ModalityContext = React.createContext(false)
  * @param props
  * @constructor
  */
-function ModalityProvider (props: Props) {
+const ModalityProvider = (props: Props): React.JSX.Element => {
   const [isModalVisible] = React.useState(false)
-  return <ModalityContext.Provider value={isModalVisible} {...props} />
+  return (<ModalityContext.Provider value={isModalVisible} {...props} />)
 }
 
 export { ModalityContext, ModalityProvider }

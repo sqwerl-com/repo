@@ -19,6 +19,7 @@ interface Props {
 const SubteamsField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const { subteams, state } = props
+
   return (
     <Field
       collection={subteams}
@@ -26,7 +27,8 @@ const SubteamsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'subteams.field.label' }, { count: subteams.totalCount })}
       property='subteams'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -38,6 +40,7 @@ const SubteamsField = (props: Props): React.JSX.Element => {
 const subteamsLink = (_intl: IntlShape, subteam: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type } = subteam
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

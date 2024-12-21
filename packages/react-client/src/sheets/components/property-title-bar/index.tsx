@@ -36,6 +36,7 @@ const PropertyTitleBar = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const formattedMessage = intl.formatMessage({ id: titleTextId }, { ...titleTextValues })
   const text = formattedMessage ? formattedMessage.toString() : ''
+
   return (
     <header className='sqwerl-properties-title-bar'>
       <div className='sqwerl-properties-title-bar-title'>
@@ -54,6 +55,7 @@ const PropertyTitleBar = (props: Props): React.JSX.Element => {
 
 const goBack = (navigate: NavigateFunction, props: Props) => {
   const { setAnimationState } = props.state
+
   navigate(-1)
   setAnimationState('slide-right')
   setTimeout(() => {

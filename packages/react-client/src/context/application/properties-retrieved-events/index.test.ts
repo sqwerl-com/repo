@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import PropertiesRetrievedEvents, { RecordType, SetThingType } from '@/context/application/properties-retrieved-events'
+import { PropertiesRetrievedEvents, RecordType, SetThingType } from '@/context/application/properties-retrieved-events'
 
 it('Add and remove callbacks', () => {
   const TEST_VALUE = { id: 'value', properties: { type: 'string' }}

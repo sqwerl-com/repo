@@ -31,7 +31,7 @@ interface Props {
   items: Item[]
 
   /** The height of this list's items, in pixels. */
-  listItemHeightInPixels: number,
+  listItemHeightInPixels: number
 
   /** Loads a thing's children as new items in this list. */
   loadChildren: (startIndex: number, stopIndex: number) => (Promise<void> | void)
@@ -82,7 +82,7 @@ interface State {
   setSelectedItemId: (id: string) => void
   setSelectingItemId: (id: string) => void
   showProperties: (hash: string) => void
-  showTypeNames: boolean,
+  showTypeNames: boolean
   startOffset: number
   viewportHeight: number
   viewportWidth: number
@@ -165,23 +165,26 @@ const ListView = (props: Props): JSX.Element => {
     visibleItemCount,
     yOffset
   }
+
   useEffect(() => {
-    if (listViewElement) {
+    if (listViewElement !== null) {
       determineListHeight(listViewElement, listItemHeightInPixels, setListViewHeight)
     }
     const resizeListener = () => determineListHeight(listViewElement, listItemHeightInPixels, setListViewHeight)
     window.addEventListener('resize', resizeListener)
     return () => window.removeEventListener('resize', resizeListener)
   }, [listViewElement, listItemHeightInPixels])
+
   useEffect(() => {
     context.selectThingEvents.register((path: string, hash?: string) =>
-      onSelectThing(path, hash || '', state))
+      onSelectThing(path, hash ?? '', state))
   }, [])
+
   return (
     <div className='sqwerl-list-view' ref={setListViewElement}>
       <InfiniteLoader
         isItemLoaded={(index: number) => !items[index].isLoading}
-        itemCount={items ? items.length : 0}
+        itemCount={items.length}
         loadMoreItems={loadChildren}
       >
         {({ onItemsRendered, ref }) => {
@@ -213,11 +216,28 @@ const ListView = (props: Props): JSX.Element => {
  */
 const determineListHeight = (
   listViewElement: HTMLElement | null,
-  listItemSizeInPixels: number, setListViewHeight: (height: number) => void): void => {
-  if (listViewElement != null) {
+  listItemSizeInPixels: number, setListViewHeight: (height: number) => void
+): void => {
+  if (listViewElement !== null) {
     setListViewHeight(
       listViewElement.clientHeight - listViewElement.getBoundingClientRect().top + listItemSizeInPixels)
   }
+}
+
+/**
+ * Returns a URL href for a leaf list item (an item that represents a thing cannot have children).
+ * @param context This application's context.
+ * @param applicationName This application's name.
+ * @param repositoryName The name of the current repository of things.
+ * @param itemId The id of the thing a leaf item represents.
+ */
+const leafItemLink = (
+  context: ApplicationContextType,
+  applicationName: string,
+  repositoryName: string,
+  itemId: string
+): string => {
+  return (`#/${applicationName}/${repositoryName}${context.encodeUriReplaceStringsWithHyphens(itemId)}`)
 }
 
 /**
@@ -225,9 +245,10 @@ const determineListHeight = (
  * @param event Key down event.
  * @param state This list view's state.
  */
-const onKeyDown = (event: React.KeyboardEvent<HTMLElement>, state: State) => {
+const onKeyDown = (event: React.KeyboardEvent<HTMLElement>, state: State): void => {
   const { logger } = state
   logger.setContext(onKeyDown)
+
   switch (event.key) {
     case 'Tab':
       logger.debug('Tab key pressed')
@@ -237,22 +258,27 @@ const onKeyDown = (event: React.KeyboardEvent<HTMLElement>, state: State) => {
         // TODO - Move focus to next component.
       }
       break
+
     case 'ArrowLeft':
       logger.debug('Cursor left key pressed')
       // TODO - Same action as clicking on the navigator's Back button.
       break
+
     case 'ArrowUp':
       // TODO - Move keyboard input focus to the previous list item.
       logger.debug('Cursor up key pressed')
       break
+
     case 'ArrowRight':
       // TODO - Fire this item's action (just as if the user pressed the Enter key).
       logger.debug('Cursor right key pressed')
       break
+
     case 'ArrowDown':
       // TODO - Move keyboard input focus to the next list item.
       logger.debug('Cursor down key pressed')
       break
+
     default:
       logger.debug('Key pressed: ' + event.key)
   }
@@ -271,13 +297,30 @@ const onSelectThing = (_path: string, hash: string, state: State) => {
 }
 
 /**
+ * Returns a URL href for a parent list item (an item that represents a thing that may have children).
+ * @param context This application's context.
+ * @param repositoryName The name of the current repository of things.
+ * @param hashId The path to the selected thing.
+ * @param itemId The id of a parent thing.
+ */
+const parentItemLink = (
+  context: ApplicationContextType,
+  repositoryName: string,
+  hashId: string,
+  itemId: string
+): string => {
+  return (`/${context.parentThingIdToHref(repositoryName, itemId)}#/${hashId.replace(/%20/g, '-')}`)
+}
+
+/**
  * Renders a navigation item that represents a thing that doesn't have any children.
  * @param item An item that represents a thing.
  * @param index The index of the item within this navigation list.
  * @param state This list view's state.
  */
-const renderLeafItem = (item: Item, index: number, state: State) => {
+const renderLeafItem = (item: Item, index: number, state: State): JSX.Element => {
   const { configuration, context, currentRepositoryName, showTypeNames } = state
+
   return (
     <Link
       className={`sqwerl-navigation-leaf-item ${showTypeNames ? 'double-height' : ''}`}
@@ -285,8 +328,7 @@ const renderLeafItem = (item: Item, index: number, state: State) => {
       data-key={index}
       onKeyDown={event => onKeyDown(event, state)}
       tabIndex={0}
-      to={`#/${configuration.applicationName}/` +
-        `${currentRepositoryName}${context.encodeUriReplaceStringsWithHyphens(item.id)}`}
+      to={leafItemLink(context, configuration.applicationName, currentRepositoryName, item.id)}
     >
       <span className='sqwerl-navigation-item-ordinal'>{index + 1}</span>
       <label className='sqwerl-navigation-item-title ' data-key={index}>
@@ -328,7 +370,7 @@ const renderLoadingItem = (_intl: IntlShape, index: number, style: CSSProperties
  * @param index  The index of the item within this navigation list.
  * @param state  This list view's state.
  */
-const renderParentItem = (item: Item, index: number, state: State) => {
+const renderParentItem = (item: Item, index: number, state: State): JSX.Element => {
   const {
     configuration,
     context,
@@ -349,6 +391,7 @@ const renderParentItem = (item: Item, index: number, state: State) => {
       ? `sqwerl-navigation-parent-item sqwerl-navigation-selected-item ${doubleHeight}`
       : `sqwerl-navigation-parent-item ${doubleHeight}`
   const showBackOrForwardIcon = !!{}.hasOwnProperty.call(item, 'childrenCount') && (item.childrenCount > 0)
+
   return (
     <Link
       className={isSelectedClassName}
@@ -358,8 +401,7 @@ const renderParentItem = (item: Item, index: number, state: State) => {
         logger.debug(`User clicked on navigation item titled "${item.name}"`)
         setAnimationClassName('slide-left')
       }}
-      to={`${context.parentThingIdToHref(currentRepositoryName, item.id)}` +
-        `#/${hashId.replace(/%20/g, '-')}`}
+      to={parentItemLink(context, currentRepositoryName, hashId, item.id)}
     >
       <span className='sqwerl-navigation-item-ordinal'>{index + 1}</span>
       <label className='sqwerl-navigation-item-title' data-key={index}>
@@ -401,12 +443,15 @@ const Row = (props: ListChildComponentProps<ItemData>): JSX.Element => {
   const { configuration, context, currentRepositoryName, intl } = state
   const { applicationName } = configuration
   const item = items[index]
+
   if (item.isLoading) {
     return renderLoadingItem(intl, index, style)
   }
+
   const id = `/${applicationName}/${currentRepositoryName}${context.encodeUriReplaceStringsWithHyphens(item.id)}`
   const isSelectedCssClassName = selectedItemId === id ? 'selected' : ''
   const selectionStateCssClassName = (id === selectingItemId) ? 'selecting' : isSelectedCssClassName
+
   return (
     <div
       className={`sqwerl-navigation-item ${selectionStateCssClassName} ${evenOrOddClassName(index)}`}

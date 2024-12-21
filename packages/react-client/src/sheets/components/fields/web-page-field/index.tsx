@@ -21,6 +21,7 @@ const WebPageField = (props: Props): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type } = webPage
   const intl = useIntl()
+
   return (
     <>
       <div className='sqwerl-properties-read-only-field'>

@@ -17,6 +17,7 @@ interface Props {
 const HasListenedToField = (props: Props): React.JSX.Element => {
   const { hasListenedTo, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={hasListenedTo}
@@ -25,7 +26,8 @@ const HasListenedToField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'hasListenedTo.field.label' }, { count: hasListenedTo.totalCount })}
       property='hasListenedTo'
       state={state}
-    />)
+    />
+  )
 }
 
 export default HasListenedToField

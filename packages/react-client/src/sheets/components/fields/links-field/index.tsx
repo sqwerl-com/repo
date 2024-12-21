@@ -19,6 +19,7 @@ interface Props {
 const LinksField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const { links, state } = props
+
   return (
     <Field
       collection={links}
@@ -26,7 +27,8 @@ const LinksField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'links.field.label' }, { count: links.totalCount })}
       property='links'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -40,6 +42,7 @@ const linkLink = (intl: IntlShape, link: Thing, state: SheetState): React.JSX.El
   const { applicationName } = configuration
   const { id, linksCount, name, type, typeName } = link
   const linkCountText = intl.formatMessage({ id: 'linksCount' }, { count: linksCount })
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

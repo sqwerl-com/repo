@@ -96,7 +96,7 @@ const BooksSheet: React.FC<SheetProps> = (props: Props): React.JSX.Element => {
       />
       <ScrollableContent>
         {archived && <ArchivedField archived={archived} />}
-        {pictures &&
+        {(pictures !== undefined) &&
           <PictureField
             fieldTitle={pictureFieldTitle}
             pictures={pictures}
@@ -104,24 +104,23 @@ const BooksSheet: React.FC<SheetProps> = (props: Props): React.JSX.Element => {
             state={state}
             thumbnailUrl={thumbnailUrl}
           />}
-        {title && <TitleField title={title} />}
-        {authors && <AuthorsField authors={authors} state={state} />}
-        {representations &&
+        {(title !== undefined) && <TitleField title={title} />}
+        {(authors !== undefined) && <AuthorsField authors={authors} state={state} />}
+        {(representations !== undefined) &&
           <RepresentationsField
             fieldTitleId='representations.field.label'
             representations={representations}
             state={state}
-          />
-        }
-        {collections && <CollectionsField collections={collections} state={state} />}
-        {notes && <NotesField notes={notes} state={state} />}
-        {readBy && <ReadByField readBy={readBy} state={state} />}
-        {readers && <ReadersField readers={readers} state={state} />}
-        {recommendedBy && <RecommendedByField recommendedBy={recommendedBy} state={state} />}
-        {recommendations && <RecommendationsField recommendations={recommendations} state={state} />}
-        {tags && <TagsField tags={tags} state={state} />}
-        {webPages && <WebPagesField webPages={webPages} state={state} />}
-        {links && <LinksField links={links} state={state} />}
+          />}
+        {(collections !== undefined) && <CollectionsField collections={collections} state={state} />}
+        {(notes !== undefined) && <NotesField notes={notes} state={state} />}
+        {(readBy !== undefined) && <ReadByField readBy={readBy} state={state} />}
+        {(readers !== undefined) && <ReadersField readers={readers} state={state} />}
+        {(recommendedBy !== undefined) && <RecommendedByField recommendedBy={recommendedBy} state={state} />}
+        {(recommendations !== undefined) && <RecommendationsField recommendations={recommendations} state={state} />}
+        {(tags !== undefined) && <TagsField tags={tags} state={state} />}
+        {(webPages !== undefined) && <WebPagesField webPages={webPages} state={state} />}
+        {(links !== undefined) && <LinksField links={links} state={state} />}
         {addedBy && addedOn && <HistoryField addedBy={addedBy} addedOn={addedOn} state={state} />}
       </ScrollableContent>
     </>

@@ -39,7 +39,7 @@ const NavigationBack = (props: Props): React.JSX.Element => {
       <Link
         className='sqwerl-navigation-back-text'
         onClick={() => {
-          logger.debug(`User requested to go back to "${goBackUrl ? goBackUrl.toString() : ''}"`)
+          logger.debug(`User requested to go back to "${goBackUrl}"`)
           setAnimationClassName('slide-right')
           const hashIndex = goBackUrl.indexOf('#')
           if ((hashIndex > 1) && (hashIndex < (goBackUrl.length - 2))) {

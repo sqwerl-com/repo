@@ -19,6 +19,7 @@ interface Props {
 const PictureOfField = (props: Props): React.JSX.Element => {
   const { state, things } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={things}
@@ -26,7 +27,8 @@ const PictureOfField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'pictureOf.field.label' }, { count: things.totalCount })}
       property='pictureOf'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -38,6 +40,7 @@ const PictureOfField = (props: Props): React.JSX.Element => {
 const thingLink = (intl: IntlShape, thing: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type } = thing
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

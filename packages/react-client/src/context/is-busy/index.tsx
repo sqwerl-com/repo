@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-type Props = {
+interface Props {
   children: React.ReactNode | React.ReactNode[]
 }
 
@@ -12,11 +12,12 @@ const IsBusyContext = React.createContext(false)
  * @params props
  * @constructor
  */
-function IsBusyProvider (props: Props) {
+const IsBusyProvider = (props: Props): React.JSX.Element => {
   const [isBusy, setIsBusy] = React.useState(false)
   const value = React.useMemo(() => [isBusy, setIsBusy], [isBusy])
+
   // @ts-expect-error Value is a boolean or a memo.
-  return <IsBusyContext.Provider value={value} {...props} />
+  return (<IsBusyContext.Provider value={value} {...props} />)
 }
 
 export { IsBusyContext, IsBusyProvider }

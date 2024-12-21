@@ -21,8 +21,9 @@ const FeedUrlField = (props: Props): React.JSX.Element => {
   const logger= Logger(FeedUrlField, FeedUrlField)
   const intl = useIntl()
   const { labelId, url} = props
-  const [ error, setError ] = useState(false)
-  const [ wasClicked, setWasClicked ] = useState(false)
+  const [error, setError] = useState(false)
+  const [wasClicked, setWasClicked] = useState(false)
+
   return (
     <>
       <div className='sqwerl-properties-read-only-field'>
@@ -50,10 +51,12 @@ const copyToClipboard = (logger: LoggerType, text: string, setError: (error: boo
   if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
     return navigator.clipboard.writeText(text)
   }
+
   const errorMessage =
     `Failed to copy the feed url "${text}" to the clipboard.\n` +
     'Perhaps due to an older browser that doesn\'t provide clipboard access.'
   logger.error(errorMessage)
+
   return new Promise((resolve, reject) => {
     setError(true)
     reject();
@@ -62,6 +65,7 @@ const copyToClipboard = (logger: LoggerType, text: string, setError: (error: boo
 
 const renderCopiedToClipboard = (setWasClicked: (wasClicked: boolean) => void) => {
   setInterval(() => setWasClicked(false), 5000)
+
   return (
     <div className='sqwerl-cut-and-paste-status'>
       <CheckSquare/><span className='sqwerl-cut-and-paste-label'>Copied to clipboard</span>
@@ -103,6 +107,7 @@ const renderError = (setError: (error: boolean) => void, setWasClicked: (wasClic
     setError(false)
     setWasClicked(false)
   }, 5000)
+
   return (<span className='sqwerl-cut-and-paste-label'>Copy to clipboard failed</span>)
 }
 

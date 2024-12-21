@@ -16,7 +16,7 @@ export interface EventsType {
  * Returns an event notifier.
  * @constructor
  */
-const Events = (callbacks: CallbackType[]): EventsType => {
+export const Events = (callbacks: CallbackType[]): EventsType => {
   return {
     callbacks,
     register: (callback: CallbackType): CallbackType | null => register(callbacks, callback),
@@ -53,5 +53,3 @@ const unregister = (callbacks: CallbackType[], callback: CallbackType): void => 
     callbacks.splice(index, 1)
   }
 }
-
-export default Events

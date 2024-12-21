@@ -1,6 +1,6 @@
 import { CallbackType } from '@/context/application/events'
 import { expect, it } from 'vitest'
-import NavigateToPropertyEvents from '@/context/application/navigate-to-property-events'
+import { NavigateToPropertyEvents } from '@/context/application/navigate-to-property-events'
 
 it('Firing navigate to property events', () => {
   const PATH_NAME = 'test_path'

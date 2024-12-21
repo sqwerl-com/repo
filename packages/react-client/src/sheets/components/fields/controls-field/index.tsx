@@ -21,6 +21,7 @@ interface Props {
 const ControlsField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const { controls, state } = props
+
   return (
     <Field
       collection={controls}
@@ -28,7 +29,8 @@ const ControlsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'controls.field.label' }, { count: controls.totalCount })}
       property='controls'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -41,6 +43,7 @@ const controlsLink = (_intl: IntlShape, controls: Thing, state: SheetState): Rea
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type, typeName } = controls
   const isType = {}.hasOwnProperty.call(controls, 'isType') && controls.isType
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

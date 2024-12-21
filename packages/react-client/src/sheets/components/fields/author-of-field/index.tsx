@@ -21,6 +21,7 @@ interface Props {
 const AuthorOfField = (props: Props): React.JSX.Element => {
   const { authorOf, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={authorOf}
@@ -28,7 +29,8 @@ const AuthorOfField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'authorOf.field.label' }, { count: authorOf.totalCount })}
       property='authorOf'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -45,6 +47,7 @@ const authorOfLink = (intl: IntlShape, authorOf: Thing, state: SheetState): Reac
   const thumbnails = authorOf.thumbnails
   const thumbnail = retrieveThumbnail(thumbnails)
   const typeMessageKey = `is${typeName}`
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link
@@ -76,6 +79,7 @@ const retrieveThumbnail = (thumbnails?: ThumbnailShape[]): ThumbnailShape | unde
       return thumbnails.find(t => t.name && t.name.includes('medium'))
     }
   }
+
   return undefined
 }
 

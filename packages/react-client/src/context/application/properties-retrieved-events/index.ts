@@ -27,7 +27,7 @@ export interface RecordType {
  * Registers listeners and notifies them when a thing's properties have been retrieved from a server.
  * @constructor
  */
-const PropertiesRetrievedEvents = (callbacks: RecordType[]): PropertiesRetrievedEventGenerator => {
+export const PropertiesRetrievedEvents = (callbacks: RecordType[]): PropertiesRetrievedEventGenerator => {
   return {
     fire: (values: { id: string, properties: { type: string }}) => fire(callbacks, values),
     register: (callback: CallbackType | PropertiesRetrievedCallbackType, setThing: SetThingType) =>
@@ -84,5 +84,3 @@ const unregister = (callbacks: RecordType[], callback: PropertiesRetrievedCallba
     callbacks.splice(recordIndex, 1)
   }
 }
-
-export default PropertiesRetrievedEvents

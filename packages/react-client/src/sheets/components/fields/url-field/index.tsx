@@ -17,6 +17,7 @@ interface Props {
 const UrlField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const { labelId, url } = props
+
   return (
     <>
       <div className='sqwerl-properties-read-only-field'>

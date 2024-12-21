@@ -20,6 +20,7 @@ interface Props {
 const NotesForField = (props: Props): React.JSX.Element => {
   const { notesFor, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={notesFor}
@@ -27,7 +28,8 @@ const NotesForField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'notesFor.field.label' }, { count: notesFor.totalCount })}
       property='notesFor'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const NotesForField = (props: Props): React.JSX.Element => {
 const notesForLink = (intl: IntlShape, notesFor: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type, typeName } = notesFor
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

@@ -14,6 +14,7 @@ interface Props {
 const IsThingOfType = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const { typeName } = props
+
   return (
     <>
       {typeName &&

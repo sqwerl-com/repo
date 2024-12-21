@@ -3,11 +3,11 @@ import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import { mockApplicationConfiguration, mockSheetState, mockThing } from '@/utils/mocks'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 import TitleBar from '@/sheets/components/title-bar'
 
 it('renders without crashing', () => {
-  renderer.create(
+  render(
     <IntlProvider locale='en' messages={messages}>
       <TitleBar
         configuration={mockApplicationConfiguration}

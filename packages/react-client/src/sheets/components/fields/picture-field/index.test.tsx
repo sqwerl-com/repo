@@ -7,10 +7,10 @@ import messages from '@/translations/locales/en.json'
 import { mockThing } from '@/utils/mocks'
 import PictureField from '@/sheets/components/fields/picture-field'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 
-const render = (sizeName: string) => {
-  renderer.create(
+const renderPicture = (sizeName: string) => {
+  render(
     <BrowserRouter>
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
@@ -32,7 +32,7 @@ const render = (sizeName: string) => {
 
 it('renders without crashing', () => {
   // TODO - For each call to render, test the rendered pictures' widths and heights.
-  render('small')
-  render('medium')
-  render('large')
+  renderPicture('small')
+  renderPicture('medium')
+  renderPicture('large')
 })

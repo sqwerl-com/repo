@@ -20,6 +20,7 @@ interface Props {
 const FeedsField = (props: Props): React.JSX.Element => {
   const { feeds, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={feeds}
@@ -27,7 +28,8 @@ const FeedsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'feeds.field.label' }, { count: feeds.totalCount })}
       property='feeds'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -40,6 +42,7 @@ const FeedsField = (props: Props): React.JSX.Element => {
 const feedLink = (_intl: IntlShape, feed: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type } = feed
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

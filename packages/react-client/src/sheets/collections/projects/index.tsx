@@ -50,10 +50,10 @@ const ProjectsSheet = (props: Props): React.JSX.Element => {
       />
       <ScrollableContent>
         {archived && <ArchivedField archived={archived} />}
-        {description && <DescriptionField description={description} state={state} />}
-        {collections && <CollectionsField collections={collections} state={state} />}
-        {tags && <TagsField tags={tags} state={state} />}
-        {links && <LinksField links={links} state={state} />}
+        {(description !== undefined) && <DescriptionField description={description} state={state} />}
+        {(collections !== undefined) && <CollectionsField collections={collections} state={state} />}
+        {(tags !== undefined) && <TagsField tags={tags} state={state} />}
+        {(links !== undefined) && <LinksField links={links} state={state} />}
         {addedBy && addedOn && <HistoryField addedBy={addedBy} addedOn={addedOn} state={state} />}
       </ScrollableContent>
     </>

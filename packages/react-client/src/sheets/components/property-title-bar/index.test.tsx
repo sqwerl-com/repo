@@ -6,10 +6,10 @@ import messages from '@/translations/locales/en.json'
 import { mockApplicationConfiguration, mockThing } from '@/utils/mocks'
 import PropertyTitleBar from '@/sheets/components/property-title-bar'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 
 it('renders without crashing', () => {
-  renderer.create(
+  render(
     <BrowserRouter>
       <IntlProvider locale='en' messages={messages}>
         <PropertyTitleBar

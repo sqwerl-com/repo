@@ -20,6 +20,7 @@ interface Props {
 const EpisodesField = (props: Props): React.JSX.Element => {
   const { episodes, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={episodes}
@@ -27,7 +28,8 @@ const EpisodesField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'episodes.field.label' }, { count: episodes.totalCount })}
       property='episodes'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const EpisodesField = (props: Props): React.JSX.Element => {
 const episodesLink = (intl: IntlShape, episodes: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type, typeName } = episodes
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

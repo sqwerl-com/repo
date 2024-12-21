@@ -14,6 +14,7 @@ interface Props {
 const TeamsField = (props: Props): React.JSX.Element => {
   const { state, teams } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={teams}
@@ -21,12 +22,14 @@ const TeamsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'teams.field.label' }, { count: teams.totalCount })}
       property='teams'
       state={state}
-    />)
+    />
+  )
 }
 
 const teamsLink = (_intl: IntlShape, teams: Thing, state: SheetState) => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type } = teams
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

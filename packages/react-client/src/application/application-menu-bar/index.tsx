@@ -33,7 +33,7 @@ interface Props {
   fetcher: FetcherType
 
   /** Call to hide all of this menu bar's drop-down menus. */
-  hideMenu: () => void,
+  hideMenu: () => void
 
   /** Is the application this menu bar is part of busy fetching search results? */
   isFetchingSearchResults: boolean

@@ -71,6 +71,7 @@ const Field = (props: Props): React.JSX.Element => {
   } = props
   const { members, totalCount } = collection
   const intl = useIntl()
+
   return (
     <>
       {collection && (totalCount === 1) &&
@@ -127,6 +128,7 @@ export const renderFieldValue = (
   const { applicationName } = configuration
   const { id, name, type, typeName } = thing
   const isType = {}.hasOwnProperty.call(fieldLabel, 'isType') && thing.isType
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link
@@ -158,12 +160,14 @@ const renderMultipleInlineFieldValues = (
   fieldLabel: string,
   state: SheetState): React.JSX.Element => {
   const items: React.JSX.Element[] = []
+
   collection.members.forEach((thing, index) => {
     items.push(
       <li className='sqwerl-properties-read-only-field-value-item' key={`multi-field-value-${thing.id}-${index}`}>
         {createLink(intl, thing, state)}
       </li>)
   })
+
   return (
     <div className='sqwerl-properties-read-only-field'>
       <ReadOnlyFieldLabel labelText={fieldLabel} />
@@ -199,6 +203,7 @@ const renderMultiple = (
   if (collection.totalCount > maximumInlineMembers) {
     return renderFieldAsLink(property, fieldLabel, state)
   }
+
   return renderMultipleFieldValues(intl, collection, createLink, fieldLabel, state)
 }
 

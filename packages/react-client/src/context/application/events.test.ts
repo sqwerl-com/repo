@@ -1,4 +1,4 @@
-import Events, { CallbackType } from '@/context/application/events'
+import { CallbackType, Events } from '@/context/application/events'
 import { expect, it, vi } from 'vitest'
 
 it('Add and remove callbacks', () => {

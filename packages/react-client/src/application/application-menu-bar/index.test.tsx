@@ -5,7 +5,7 @@ import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 import { SearcherType } from '@/searcher'
 
 const testConfiguration: ConfigurationType = {
@@ -25,7 +25,7 @@ const testConfiguration: ConfigurationType = {
 it('renders without crashing', () => {
   const testFetcher: FetcherType = {
     postData: (fetchArguments: FetchArgumentsType, data: string) => {
-      console.trace(`fetchArguments: ${fetchArguments}`)
+      console.trace(`fetchArguments: ${JSON.stringify(fetchArguments)}`)
       console.trace(`data: ${data}`)
     },
     requestData: async (fetchArguments: FetchArgumentsType, dataType?: string) => {
@@ -48,7 +48,7 @@ it('renders without crashing', () => {
     total: 0
   }
 
-  renderer.create(
+  render(
     <IntlProvider locale='en' messages={messages}>
       <ApplicationMenuBar
         classNameForSearchResults={() => 'test'}

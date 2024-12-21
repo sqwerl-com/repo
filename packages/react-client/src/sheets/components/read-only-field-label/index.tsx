@@ -11,6 +11,7 @@ interface Props {
  */
 const ReadOnlyFieldLabel = (props: Props): React.JSX.Element => {
   const { labelText } = props
+
   return (
       <div className='sqwerl-properties-read-only-field-label'>
         <div

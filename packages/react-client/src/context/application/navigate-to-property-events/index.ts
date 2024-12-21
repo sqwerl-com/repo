@@ -1,10 +1,10 @@
-import Events, { CallbackType, EventGenerator } from '@/context/application/events'
+import { CallbackType, EventGenerator, Events } from '@/context/application/events'
 
 /**
  * Registers listeners and notifies them when the user has navigated to one of a thing's properties.
  * @constructor
  */
-const NavigateToPropertyEvents = (): EventGenerator => {
+export const NavigateToPropertyEvents = (): EventGenerator => {
   const { callbacks, register, unregister } = Events([])
   return {
     fire: (newPath: string, newHash?: string, newProperty?: string) => fire(callbacks, newPath, newHash, newProperty),
@@ -23,5 +23,3 @@ const NavigateToPropertyEvents = (): EventGenerator => {
 const fire = (callbacks: CallbackType[], newPath: string, newHash?: string, newProperty?: string) => {
   callbacks.forEach(callback => callback(newPath, newHash, newProperty))
 }
-
-export default NavigateToPropertyEvents

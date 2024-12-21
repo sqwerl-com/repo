@@ -21,6 +21,7 @@ const RecommendedByField = (props: Props): React.JSX.Element => {
   const { state } = props
   const intl = useIntl()
   const { recommendedBy } = props
+
   return (
     <Field
       collection={recommendedBy}
@@ -28,7 +29,8 @@ const RecommendedByField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'recommendedBy.field.label' }, { count: recommendedBy.totalCount })}
       property='recommendedBy'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -40,6 +42,7 @@ const RecommendedByField = (props: Props): React.JSX.Element => {
 const recommendedByLink = (intl: IntlShape, recommendedBy: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type, typeName } = recommendedBy
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

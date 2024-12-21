@@ -1,10 +1,10 @@
-import Events, { CallbackType, EventGenerator } from '@/context/application/events'
+import { CallbackType, EventGenerator, Events } from '@/context/application/events'
 
 /**
  * Registers listeners and notifies them when the URL in the browser's address bar changes.
  * @constructor
  */
-const UrlChangedEvents = (): EventGenerator => {
+export const UrlChangedEvents = (): EventGenerator => {
   const { callbacks, register, unregister } = Events([])
 
   return {
@@ -23,5 +23,3 @@ const UrlChangedEvents = (): EventGenerator => {
 const fire = (callbacks: CallbackType[], lastUrl: string, newUrl?: string) => {
   callbacks.forEach(callback => callback(lastUrl, newUrl))
 }
-
-export default UrlChangedEvents

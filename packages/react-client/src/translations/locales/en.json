@@ -118,7 +118,7 @@
   "isProject": "is a {typeName}",
   "isReadable": "is {typeName}",
   "isReading": " is reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}",
-  "isReading.field.label": "Is reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}",
+  "isReading.field.label": "Is currently reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}",
   "isRecommendable": "is a facet",
   "isRepository": "is a {typeName}",
   "isRole": "is a {typeName}",

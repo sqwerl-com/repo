@@ -17,6 +17,7 @@ interface Props {
 const IsReadingField = (props: Props): React.JSX.Element => {
   const { isReading, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={isReading}
@@ -25,7 +26,8 @@ const IsReadingField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'isReading.field.label' }, { count: isReading.totalCount })}
       property='isReading'
       state={state}
-    />)
+    />
+  )
 }
 
 export default IsReadingField

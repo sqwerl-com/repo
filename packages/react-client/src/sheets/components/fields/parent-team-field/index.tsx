@@ -19,6 +19,7 @@ interface Props {
 const ParentTeamField = (props: Props): React.JSX.Element => {
   const { parent, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={{ offset: 0, members: [parent], totalCount: 1 }}
@@ -26,7 +27,8 @@ const ParentTeamField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'parentTeam.field.label' })}
       property='parentTeam'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -38,6 +40,7 @@ const ParentTeamField = (props: Props): React.JSX.Element => {
 const parentTeamLink = (_intl: IntlShape, parent: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type } = parent
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

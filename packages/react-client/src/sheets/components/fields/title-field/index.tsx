@@ -12,6 +12,7 @@ interface Props {
  */
 const TitleField = (props: Props): React.JSX.Element => {
   const { title } = props
+
   return (
     <>
       {title &&

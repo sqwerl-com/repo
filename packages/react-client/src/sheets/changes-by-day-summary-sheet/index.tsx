@@ -34,7 +34,7 @@ const ChangesByDaySummarySheet: React.FC<SheetProps> = (props: SheetProps): Reac
   const changedBy = new Set()
   let changeCount = 0
 
-  if (thing && changes && (changes.length > 0)) {
+  if ((changes !== undefined) && (changes.length > 0)) {
     changes.forEach((change: RepositoryChangeType) => {
       changedBy.add(change.by)
       changeCount += change.totalCount
@@ -52,7 +52,7 @@ const ChangesByDaySummarySheet: React.FC<SheetProps> = (props: SheetProps): Reac
         <div className='sqwerl-properties-title-bar-title'>
           {(authorCount === 1) &&
             renderTitleWithSingleAuthor(
-              changedBy.keys().next().value as string || '',
+              changedBy.keys().next().value as string,
               changeCount,
               date,
               shouldShowRelativeTime,
@@ -108,7 +108,8 @@ const renderChanges = (
   intl: IntlShape, authorCount: number, changes: RepositoryChangeType[], props: SheetProps): React.ReactNode => {
   const changesByDays: React.ReactNode[] = []
   const { configuration, currentRepositoryName } = props.state
-  if (changes) {
+
+  if (changes !== undefined) {
     changes.forEach((recentChange: RepositoryChangeType, index) => {
       const { by, id, totalCount } = recentChange
       const timestamp = parseISO(recentChange.date)

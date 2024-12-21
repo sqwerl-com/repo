@@ -5,11 +5,11 @@ import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 import TypesSheet from '@/sheets/types'
 
 it('renders without crashing without a thing', () => {
-  renderer.create(
+  render(
     <BrowserRouter>
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
@@ -21,7 +21,7 @@ it('renders without crashing without a thing', () => {
 })
 
 it('renders without crashing', () => {
-  renderer.create(
+  render(
     <BrowserRouter>
       <IntlProvider locale='en' messages={messages}>
         <TypesSheet state={{ ...createMockSheetState() }} />
@@ -31,7 +31,7 @@ it('renders without crashing', () => {
 })
 
 it('renders without crashing with no children', () => {
-  renderer.create(
+  render(
     <BrowserRouter>
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>

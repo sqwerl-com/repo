@@ -20,6 +20,7 @@ interface Props {
 const SpokeAtField = (props: Props): React.JSX.Element => {
   const { spokeAt, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={spokeAt}
@@ -27,7 +28,8 @@ const SpokeAtField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'spokeAt.field.label' }, { count: spokeAt.totalCount })}
       property='spokeAt'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const SpokeAtField = (props: Props): React.JSX.Element => {
 const spokeAtLink = (intl: IntlShape, spokeAt: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, type, typeName } = spokeAt
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

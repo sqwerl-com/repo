@@ -19,6 +19,7 @@ interface Props {
 const TagsField = (props: Props): React.JSX.Element => {
   const { tags, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={tags}
@@ -26,7 +27,8 @@ const TagsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'tags.field.label' }, { tagsCount: tags.totalCount })}
       property='tags'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const tagsLink = (intl: IntlShape, tags: Thing, state: SheetState) => {
   const { configuration, context, currentRepositoryName } = state
   const { id, name, taggedCount, type } = tags
   const tagsText = intl.formatMessage({ id: 'hasSameTagCount' }, { taggedCount })
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

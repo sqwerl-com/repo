@@ -1,10 +1,10 @@
-import Events, { EventGenerator } from '@/context/application/events'
+import { EventGenerator, Events } from '@/context/application/events'
 
 /**
  * Registers listeners and notifies them when the user has navigated to a thing.
  * @constructor
  */
-const NavigateToThingEvents = (): EventGenerator => {
+export const NavigateToThingEvents = (): EventGenerator => {
   const { callbacks, register, unregister } = Events([])
 
   return {
@@ -26,5 +26,3 @@ const fire = (
   newHash?: string) => {
   callbacks.forEach(callback => callback(newPath, newHash))
 }
-
-export default NavigateToThingEvents

@@ -1,15 +1,18 @@
 /// <reference types="vitest" />
 import { defineConfig, mergeConfig } from 'vitest/config'
-import viteConfig from './vite.config'
+import viteConfig from './vite.config.js'
 
 export default mergeConfig(viteConfig, defineConfig({
   test: {
     coverage: {
-      include: './src/**/*',
-      provider: 'v8',
+      exclude: [
+        'src/coverage/**',
+        'src/registerServiceWorker.js'
+      ],
+      include: ['src/**/*'],
+      provider: 'istanbul',
       reportsDirectory: './coverage',
-      reporter: ['html', 'json', 'text'],
-      testNamePattern: '*.test.[js|jsx|ts|tsx]'
+      reportOnFailure: true
     }
   }
 }))

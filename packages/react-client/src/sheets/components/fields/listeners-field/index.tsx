@@ -19,6 +19,7 @@ interface Props {
 const ListenersField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const { listeners, state } = props
+
   return (
     <Field
       collection={listeners}
@@ -26,7 +27,8 @@ const ListenersField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'listeners.field.label' }, { count: listeners.totalCount })}
       property='listeners'
       state={state}
-    />)
+    />
+  )
 }
 
 /**

@@ -19,6 +19,7 @@ interface Props {
 const ViewedByField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
   const { state, viewedBy } = props
+
   return (
     <Field
       collection={viewedBy}
@@ -26,7 +27,8 @@ const ViewedByField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'viewedBy.field.label' }, { count: viewedBy.totalCount })}
       property='viewedBy'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const viewedByLink = (intl: IntlShape, viewedBy: Thing, state: SheetState): Reac
   const { configuration, context, currentRepositoryName } = state
   const { hasViewedCount, id, name, type } = viewedBy
   const hasViewedText = intl.formatMessage({ id: 'hasViewedCount' }, { count: hasViewedCount })
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

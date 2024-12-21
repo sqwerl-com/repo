@@ -3,10 +3,10 @@ import IsThingOfType from '@/sheets/components/is-thing-of-type'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 
 it('renders without crashing', () => {
-  renderer.create(
+  render(
     <IntlProvider locale='en' messages={messages}>
       <IsThingOfType typeName='' />
     </IntlProvider>

@@ -20,6 +20,7 @@ interface Props {
 const SubscriptionsField = (props: Props): React.JSX.Element => {
   const { subscriptions, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={subscriptions}
@@ -27,7 +28,8 @@ const SubscriptionsField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'subscriptions.field.label' }, { count: subscriptions.totalCount })}
       property='subscriptions'
       state={state}
-    />)
+    />
+  )
 }
 
 /**

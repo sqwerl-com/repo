@@ -1,10 +1,10 @@
-import Events, { CallbackType, EventGenerator } from '@/context/application/events'
+import { CallbackType, EventGenerator, Events } from '@/context/application/events'
 
 /**
  * Registers listeners and notifies them when the user selects a thing.
  * @constructor
  */
-const SelectThingEvents = (): EventGenerator => {
+export const SelectThingEvents = (): EventGenerator => {
   const { callbacks, register, unregister } = Events([])
 
   return {
@@ -27,5 +27,3 @@ const fire = (callbacks: CallbackType[], newPath: string, newHash?: string) => {
     })
   }
 }
-
-export default SelectThingEvents

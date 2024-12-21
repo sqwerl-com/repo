@@ -77,7 +77,7 @@ const ChangesByDaySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.E
   }, [scrollViewElement, rowHeightInPixels])
 
   useEffect(() => {
-    if (changes && (changes.length > 0)) {
+    if ((changes !== undefined) && (changes.length > 0)) {
       const newItems: ItemType[] = changes[0].members.map((change) => {
         return {
           change,
@@ -106,7 +106,7 @@ const ChangesByDaySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.E
   const { changes, commits, id } = thing
   const changedBy = new Set()
 
-  if (thing && changes && (changes.length > 0)) {
+  if ((changes !== undefined) && (changes.length > 0)) {
     let count = 0
 
     changes.forEach((change, index) => {

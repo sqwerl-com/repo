@@ -1,4 +1,4 @@
-import ApplicationContentArea from './index'
+import ApplicationContentArea from '@/application/application-content-area'
 import { BrowserRouter } from 'react-router-dom'
 import { ConfigurationType } from '@/configuration'
 import createFetchMock from 'vitest-fetch-mock'
@@ -7,7 +7,7 @@ import { IntlProvider } from 'react-intl'
 import { it, vi } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 
 const testConfiguration: ConfigurationType = {
   anonymousContributorId: 'guest@sqwerl.com',
@@ -29,7 +29,7 @@ const testFetcher: FetcherType = {
     console.trace(`data: ${data}`)
   },
   requestData: async (fetchArguments: FetchArgumentsType, dataType?: string) => {
-    console.trace(`fetchArguments: ${fetchArguments}`)
+    console.trace(`fetchArguments: ${JSON.stringify(fetchArguments)}`)
     console.trace(`data: ${dataType}`)
     return await new Promise(() => '')
   }
@@ -37,6 +37,7 @@ const testFetcher: FetcherType = {
 
 it('renders without crashing', () => {
   const fetchMocker = createFetchMock(vi)
+
   fetchMocker.mockResponseOnce(
     JSON.stringify({
       children: {
@@ -70,6 +71,7 @@ it('renders without crashing', () => {
       id: '/types/views/initial'
     })
   )
+
   fetchMocker.mockResponseOnce(
     JSON.stringify({
       description: 'Tom Carroll\'s repository',
@@ -148,7 +150,8 @@ it('renders without crashing', () => {
       id: '/types/repositories/Main'
     })
   )
-  renderer.create(
+
+  render(
     <BrowserRouter>
       <IntlProvider locale='en' messages={messages}>
         <ApplicationContentArea

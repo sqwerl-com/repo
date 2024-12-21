@@ -2,11 +2,11 @@ import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 import ScrollableContent from '@/sheets/components/scrollable-content'
 
 it('renders without crashing', () => {
-  renderer.create(
+  render(
     <IntlProvider locale='en' messages={messages}>
       <ScrollableContent />
     </IntlProvider>

@@ -19,6 +19,7 @@ interface Props {
 const ReadersField = (props: Props): React.JSX.Element => {
   const { readers, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={readers}
@@ -26,7 +27,8 @@ const ReadersField = (props: Props): React.JSX.Element => {
       fieldLabel={intl.formatMessage({ id: 'readers.field.label' }, { count: readers.totalCount })}
       property='readers'
       state={state}
-    />)
+    />
+  )
 }
 
 /**
@@ -39,6 +41,7 @@ const readersLink = (intl: IntlShape, readers: Thing, state: SheetState) => {
   const { configuration, context, currentRepositoryName } = state
   const { isReadingCount, id, name, type } = readers
   const isReadingText = intl.formatMessage({ id: 'isReading' }, { count: isReadingCount })
+
   return (
     <span className='sqwerl-read-only-field-sub-item'>
       <Link

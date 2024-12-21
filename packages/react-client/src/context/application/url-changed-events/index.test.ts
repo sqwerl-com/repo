@@ -1,6 +1,6 @@
 import { CallbackType } from '@/context/application/events'
 import { expect, it } from 'vitest'
-import UrlChangedEvents from '@/context/application/url-changed-events'
+import { UrlChangedEvents } from '@/context/application/url-changed-events'
 
 it('Firing url changed events', () => {
   const PATH_NAME = 'test_path'
