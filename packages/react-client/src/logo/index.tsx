@@ -11,6 +11,9 @@ interface Props {
 
   /** If false, then this logo shouldn't respond to users' actions. */
   isEnabled: boolean
+
+  /** Name of the current user interface theme. */
+  themeName: string
 }
 
 /**
@@ -18,22 +21,22 @@ interface Props {
  * on to go to the site's Home (initial) page.
  */
 const Logo = (props: Props): React.JSX.Element => {
-  const { children, isEnabled } = props
+  const { children, isEnabled, themeName } = props
   const intl = useIntl()
   const [tooltipTimer, setTooltipTimer] = useState<NodeJS.Timeout | null>(null)
+
   return (
     <div
       className={`sqwerl-logo ${isEnabled ? '' : 'disabled'}`}
       onBlur={(event) => onBlur(event, tooltipTimer)}
       onFocus={(event) => onFocus(event, tooltipTimer, setTooltipTimer)}
-      role='banner'
       tabIndex={0}
     >
       {isEnabled && /* TODO - The URL www.sqwerl.com should not be hard-coded. */
         <a href='https://www.sqwerl.com' title={intl.formatMessage({ id: 'sqwerl-logo-tooltip' })}>
-          {renderImage(intl, props)}
+          {renderImage(intl, themeName, props)}
         </a>}
-      {!isEnabled && renderImage(intl, props)}
+      {!isEnabled && renderImage(intl, themeName, props)}
       {children}
     </div>
   )
@@ -88,10 +91,11 @@ const onFocus = (
 
 /**
  * Renders an application's logo.
- * @param {IntlShape} intl  Internalization support.
- * @param {Props} props
+ * @param intl  Internalization support.
+ * @param themeName Identifier for the current user interface theme.
+ * @param props
  */
-const renderImage = (intl: IntlShape, props: Props): React.ReactNode => {
+const renderImage = (intl: IntlShape, themeName: string, props: Props): React.ReactNode => {
   const { basePath } = props
   const label = ariaLabel(intl)
   const text = altText(intl)
@@ -99,7 +103,7 @@ const renderImage = (intl: IntlShape, props: Props): React.ReactNode => {
      that contains the png file.
    */
   return (
-    <img alt={text} aria-label={label} src={`${basePath}small-sqwerl-logo.png`} tabIndex={-1} />
+    <img alt={text} aria-label={label} src={`${basePath}small-sqwerl-logo-${themeName}.png`} tabIndex={-1} />
   )
 }
 

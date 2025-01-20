@@ -2,7 +2,6 @@ import ArchivedField from '@/sheets/components/fields/archived-field'
 import AuthorsField from '@/sheets/components/fields/authors-field'
 import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
-import FeedsField from '@/sheets/components/fields/feeds-field'
 import HasReadField from '@/sheets/components/fields/has-read-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
@@ -16,6 +15,7 @@ import RecommendationsField from '@/sheets/components/fields/recommendations-fie
 import RecommendedByField from '@/sheets/components/fields/recommended-by-field'
 import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetState } from '@/properties'
+import SubscriptionsField from '@/sheets/components/fields/subscriptions-field'
 import TagsField from '@/sheets/components/fields/tags-field'
 import TitleBar from '@/sheets/components/title-bar'
 import TitleField from '@/sheets/components/fields/title-field'
@@ -39,13 +39,13 @@ const WebPagesSheet = (props: Props): React.JSX.Element => {
     'authors',
     'archived',
     'collections',
-    'feeds',
     'links',
     'notes',
     'readBy',
     'readers',
     'recommendations',
     'recommendedBy',
+    'subscriptions',
     'tags'
   ]
   logger = Logger(WebPagesSheet, WebPagesSheet)
@@ -67,7 +67,6 @@ const WebPagesSheet = (props: Props): React.JSX.Element => {
     authors,
     collections,
     description,
-    feeds,
     hasRead,
     links,
     name,
@@ -78,6 +77,7 @@ const WebPagesSheet = (props: Props): React.JSX.Element => {
     readBy,
     readers,
     shortDescription,
+    subscriptions,
     tags,
     title,
     url,
@@ -129,7 +129,7 @@ const WebPagesSheet = (props: Props): React.JSX.Element => {
         {hasRead && <HasReadField hasRead={hasRead} state={state} />}
         {readers && <ReadersField readers={readers} state={state} />}
         {authors && <AuthorsField authors={authors} state={state} />}
-        {feeds && <FeedsField feeds={feeds} state={state} />}
+        {subscriptions && <SubscriptionsField state={state} subscriptions={subscriptions} />}
         {collections && <CollectionsField collections={collections} state={state} />}
         {notes && <NotesField notes={notes} state={state} />}
         {readBy && <ReadByField readBy={readBy} state={state} />}

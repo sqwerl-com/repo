@@ -13,7 +13,6 @@ import ContributorsSheet from '@/sheets/contributors'
 import CoursesSheet from '@/sheets/courses'
 import DocumentsSheet from '@/sheets/documents'
 import FacetsSheet from '@/sheets/facets'
-import FeedsSheet from '@/sheets/feeds'
 import type { FetcherType } from '@/fetcher'
 import HomeSheet from '@/sheets/home-sheet'
 import { IsBusyContext } from '@/context/is-busy'
@@ -28,6 +27,7 @@ import PropertySheet from '@/sheets/property'
 import RepositoriesSheet from '@/sheets/repositories'
 import RolesSheet from '@/sheets/roles'
 import { SetThingType } from '@/context/application/properties-retrieved-events'
+import SubscriptionsSheet from '@/sheets/subscriptions'
 import TagsSheet from '@/sheets/tags'
 import TalksSheet from '@/sheets/talks'
 import TeamsSheet from '@/sheets/teams'
@@ -183,9 +183,6 @@ const typesToPropertySheets: Map<string, (props: Props, state: SheetState) => Re
   ['/types/facets/viewable', (props: Props, state: SheetState) => {
     return (<FacetsSheet state={state} />)
   }],
-  ['/types/feeds', (props: Props, state: SheetState) => {
-    return (<FeedsSheet state={state} />)
-  }],
   ['/types/notes', (props: Props, state: SheetState) => {
     return (<NotesSheet state={state} />)
   }],
@@ -203,6 +200,9 @@ const typesToPropertySheets: Map<string, (props: Props, state: SheetState) => Re
   }],
   ['/types/roles', (props: Props, state: SheetState) => {
     return (<RolesSheet state={state} />)
+  }],
+  ['/types/subscriptions', (props, state) => {
+    return (<SubscriptionsSheet state={state} />)
   }],
   ['/types/tags', (props: Props, state: SheetState) => {
     return (<TagsSheet state={state} />)

@@ -425,7 +425,7 @@ const renderParentItem = (item: Item, index: number, state: State): JSX.Element 
           className={`sqwerl-navigation-item-has-children ${showBackOrForwardIcon ? 'visible' : 'hidden'}`}
           data-key={index}
         >
-          <ChevronRight className='sqwerl-back-or-forward-icon'/>
+          <ChevronRight className='sqwerl-back-or-forward-icon' />
         </div>
       </div>
     </Link>

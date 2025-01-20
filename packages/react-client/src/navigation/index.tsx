@@ -450,9 +450,10 @@ const navigateTo = (context: NavigationContext): void => {
   } else {
     const pathComponents = path.split('/')
     const id = '/' + pathComponents.slice(1, pathComponents.length - 1).join('/')
+
     // If we are navigating to a repository, then set the go back link to the list of repositories
     if (id === `/${currentRepositoryName}/types/repositories`) {
-      setGoBackUrl('')
+      setGoBackUrl('/')
     } else {
       // If we are navigating to a repository's types (<repository>/types) then set the go back link
       // to the repository itself.
@@ -466,7 +467,9 @@ const navigateTo = (context: NavigationContext): void => {
       }
     }
   }
+
   setIsBusy(true)
+
   const url =
     `${(path === basePath)
       ? baseUrl + homeId

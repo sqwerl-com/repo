@@ -143,7 +143,7 @@
   },
   {
     "id": "dateContributorAddedThingPostfix",
-    "defaultMessage": " added {typeNameIsPlural, select, true {these} other {this}} {typeName}"
+    "defaultMessage": " added {typeNameIsPlural, select, true {these} other {the}} {typeName} named {name} to the {repositoryName} repository"
   },
   {
     "id": "dateContributorAddedThingPrefix",
@@ -238,16 +238,8 @@
     "defaultMessage": "{count, plural, one {Feed} other {Feeds {count, number}}}"
   },
   {
-    "id": "feedsSheet.pictureFieldTitle",
-    "defaultMessage": "Picture"
-  },
-  {
     "id": "feedUrl.label",
     "defaultMessage": "Subscription link"
-  },
-  {
-    "id": "feedsSheet.title",
-    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a feed'</span>' {connections}"
   },
   {
     "id": "firstName.field.label",
@@ -335,7 +327,7 @@
   },
   {
     "id": "homeSheet.guestWelcome",
-    "defaultMessage": "'<p>'Welcome to Sqwerl'</p>"
+    "defaultMessage": "Hello guest. Welcome to Sqwerl!"
   },
   {
     "id": "homeSheet.homeViewChanges.collapseTooltip",
@@ -491,6 +483,10 @@
   },
   {
     "id": "isRole",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
+    "id": "isSubscription",
     "defaultMessage": "is a {typeName}"
   },
   {
@@ -934,6 +930,14 @@
     "defaultMessage": "{count, plural, one {Subscription} other {Has subscribed to '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
   },
   {
+    "id": "subscriptionsSheet.pictureFieldTitle",
+    "defaultMessage": "Picture"
+  },
+  {
+    "id": "subscriptionsSheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a subscription'</span>' {connections}"
+  },
+  {
     "id": "subteams.field.label",
     "defaultMessage": "{count, plural, one {Sub-team} other {Sub-teams '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
   },
@@ -996,6 +1000,10 @@
   {
     "id": "typeOfThing",
     "defaultMessage": " type of thing"
+  },
+  {
+    "id": "typeOfThingNamed",
+    "defaultMessage": "type of thing named {typeName}"
   },
   {
     "id": "typesSheet.title",

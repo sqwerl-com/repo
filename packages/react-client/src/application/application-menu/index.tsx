@@ -19,9 +19,9 @@ const ApplicationMenu = (props: Props): React.JSX.Element => {
   const { children, isVisible, name } = props
 
   return (
-    <nav
+    <menu
       className={`sqwerl-application-menu ${name} ${isVisible ? 'visible' : 'hidden'}`}
-      role='menu'
+      data-testid='application-menu'
       tabIndex={-1}
     >
       <div className='sqwerl-application-menu-background'>
@@ -35,7 +35,7 @@ const ApplicationMenu = (props: Props): React.JSX.Element => {
         <div className='sqwerl-application-menu-bottom-right' />
       </div>
       <div className='sqwerl-application-menu-content'>{children}</div>
-    </nav>
+    </menu>
   )
 }
 

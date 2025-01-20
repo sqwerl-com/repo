@@ -221,6 +221,8 @@ ul.sqwerl-home-sheet-list {
   }
 
   & tbody {
+    width: 100%;
+
     & tr {
       border-bottom: 1px solid var(--home-view-changes-row-bottom-border-color);
       cursor: pointer;

@@ -195,6 +195,10 @@ body {
   letter-spacing: $sqwerl-letter-spacing;
   overflow: hidden !important;
   user-select: none;
+
+  & th {
+    font-weight: normal;
+  }
 }
 
 html, body {

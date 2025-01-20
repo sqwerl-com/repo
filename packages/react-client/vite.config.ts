@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import path from 'path'
 import react from '@vitejs/plugin-react-swc'
 
@@ -27,5 +27,24 @@ export default defineConfig({
         target: 'http://localhost:4444'
       }
     }
+  },
+  test: {
+    coverage: {
+      exclude: [
+        './.next/**',
+        './*.js',
+        './*.ts',
+        './build/**',
+        './dist/**',
+        './scripts/**',
+        '**/*.d.ts',
+        '**/*.mjs',
+        '**/*.test.*'
+      ]
+    },
+    globals: true,
+    environment: 'jsdom',
+    exclude: ['.next/**', '**/*d.ts', '**/*.mjs'],
+    setupFiles: "src/vitest.setup.ts"
   }
 })

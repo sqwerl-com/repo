@@ -39,7 +39,7 @@ const renderGuestHome = (_props: Props, intl: IntlShape): React.JSX.Element => {
   return (
     <>
       <div
-        className='sqwerl-property-sheet-title-text'
+        className='sqwerl-property-sheet-home-title-text'
         dangerouslySetInnerHTML={{
           __html: intl.formatMessage({
             id: 'homeSheet.guestWelcome'
@@ -57,7 +57,7 @@ const renderGuestHome = (_props: Props, intl: IntlShape): React.JSX.Element => {
         <li className='sqwerl-home-sheet-list-item'>Books</li>
         <li className='sqwerl-home-sheet-list-item'>Notes</li>
         <li className='sqwerl-home-sheet-list-item'>Web pages</li>
-        <li className='sqwerl-home-sheet-list-item'>Feeds</li>
+        <li className='sqwerl-home-sheet-list-item'>Subscriptions</li>
         <li className='sqwerl-home-sheet-list-item'>Videos</li>
         <li className='sqwerl-home-sheet-list-item'>Documents</li>
         <li className='sqwerl-home-sheet-list-item'>and more</li>
@@ -68,12 +68,13 @@ const renderGuestHome = (_props: Props, intl: IntlShape): React.JSX.Element => {
       </div>
 
       <div className='sqwerl-property-sheet-text'>
+        {/* TODO - Internationalize */}
         To the left, there is a list of repositories you can visit.
       </div>
 
       <div className='sqwerl-property-sheet-text'>
         {/* TODO - Internationalize */}
-        Go ahead, select a repository to view its things,
+        Select a repository to view the things that it contains.
       </div>
     </>
   )

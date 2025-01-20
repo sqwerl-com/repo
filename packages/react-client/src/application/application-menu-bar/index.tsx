@@ -79,6 +79,9 @@ interface Props {
   /** Call to display the Sign In menu. */
   showSignInMenu: () => void
 
+  /** Name of the current user interface theme. */
+  themeName: string
+
   /** Call to toggle the UI theme between light and dark themes. */
   toggleTheme: () => void
 }
@@ -115,15 +118,17 @@ const ApplicationMenuBar = (props: Props): React.JSX.Element => {
     showMoreMenu,
     showSearchMenu,
     showSignInMenu,
+    themeName,
     toggleTheme
   } = props
   const stopSearchCallback = useCallback(() => {
     setIsSearchFieldEditable(false)
     hideMenu()
   }, [])
+
   return (
-    <nav className='sqwerl-application-menu-bar'>
-      <Logo basePath={configuration.basePath} isEnabled={isEnabled}>{children}</Logo>
+    <nav className='sqwerl-application-menu-bar' data-testid='application-menu-bar'>
+      <Logo basePath={configuration.basePath} isEnabled={isEnabled} themeName={themeName}>{children}</Logo>
       <div id='sqwerl-application-bar-spacer' />
       <SearchField
         applicationName={configuration.applicationName}

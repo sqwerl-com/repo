@@ -14,6 +14,7 @@ interface AddedByValueProps {
   addedByName: string
   addedOn: string
   intl: IntlShape
+  repositoryName: string
   thing: Thing | null
   typeNameIsPlural: boolean
 }
@@ -41,21 +42,20 @@ const HistoryField = (props: Props): React.JSX.Element => {
     (thing != null) && {}.hasOwnProperty.call(thing, 'typeNameIsPlural') && thing.typeNameIsPlural
 
   return (
-    <>
-      <div className='sqwerl-properties-read-only-field'>
-        <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'history.field.label' })} />
-        <div className='sqwerl-properties-read-only-field-value sqwerl-history-field-value'>
-          <AddedByValue
-            addedByLink={addedByLink}
-            addedByName={addedBy.name}
-            addedOn={addedOn}
-            intl={intl}
-            thing={thing}
-            typeNameIsPlural={typeNameIsPlural}
-          />
-        </div>
+    <div className='sqwerl-properties-read-only-field'>
+      <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'history.field.label' })} />
+      <div className='sqwerl-properties-read-only-field-value sqwerl-history-field-value'>
+        <AddedByValue
+          addedByLink={addedByLink}
+          addedByName={addedBy.name}
+          addedOn={addedOn}
+          intl={intl}
+          repositoryName={currentRepositoryName}
+          thing={thing}
+          typeNameIsPlural={typeNameIsPlural}
+        />
       </div>
-    </>
+    </div>
   )
 }
 
@@ -70,23 +70,34 @@ const formatTypeName = (intl: IntlShape, thing: Thing | null): string => {
   }
 
   const { isType, typeName } = thing
+
   return isType
     ? intl.formatMessage({ id: 'typeOfThing' })
     : (typeName ? lowerCaseFirstLetter(typeName) : '')
 }
 
+/**
+ * Renders HTML that describes who added a thing to a repository and when the thing was added.
+ * @param props
+ * @constructor
+ */
 const AddedByValue = (props: AddedByValueProps) => {
-  const {addedByLink, addedByName, addedOn, intl, thing, typeNameIsPlural } = props
+  const { addedByLink, addedByName, addedOn, intl, repositoryName, thing, typeNameIsPlural } = props
+
+  // Content that follows the link to the contributor who added a thing to a repository.
   const postfix = intl.formatMessage(
     {
       id: 'dateContributorAddedThingPostfix'
     },
     {
+      name: thing ? thing.name : '',
+      repositoryName,
       typeName: formatTypeName(intl, thing),
       typeNameIsPlural
     }
   )
 
+  // Content that precedes the link to the contributor who added a thing to a repository.
   const prefix = intl.formatMessage(
     {
       id: 'dateContributorAddedThingPrefix'
@@ -97,15 +108,16 @@ const AddedByValue = (props: AddedByValueProps) => {
   )
 
   return (
-    <>
-      <span className='sqwerl-read-only-field-sub-item'>{prefix}</span>
+    <span className='sqwerl-read-only-field-sub-item'>
+      {prefix}
       <Link
         className='sqwerl-hyperlink-underline-on-hover sqwerl-inline-hyperlink sqwerl-single-line'
-        to={addedByLink}>
+        to={addedByLink}
+      >
         {addedByName}
       </Link>
-      <span className='sqwerl-read-only-field-sub-item sqwerl-single-line'>{postfix}</span>
-    </>
+      {postfix}
+    </span>
   )
 }
 

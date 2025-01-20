@@ -10,5 +10,9 @@
   },
   "type": "module",
   "version": "0.0.1",
-  "workspaces": ["packages/*"]
+  "workspaces": ["packages/*"],
+  "trustedDependencies": [
+    "@parcel/watcher",
+    "@swc/core"
+  ]
 }

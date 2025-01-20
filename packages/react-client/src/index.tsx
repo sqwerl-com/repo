@@ -6,7 +6,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { createRoot } from 'react-dom/client'
 import { IntlProvider } from 'react-intl'
 import messages from '@/translations/locales/en.json'
-import registerServiceWorker from '@/registerServiceWorker'
 import '@/index.css'
 import * as React from 'react'
 
@@ -30,5 +29,5 @@ const setLocale = (language: string) => {
     )
   }
 }
-registerServiceWorker()
+
 setLocale(defaultLocale)

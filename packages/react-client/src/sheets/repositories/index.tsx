@@ -25,13 +25,15 @@ const RepositoriesSheet = (props: SheetProps): React.JSX.Element => {
   const intl = useIntl()
   logger.info('Render Repositories property sheet')
   const [changesByDay] = useState((thing != null) ? aggregateToChangesByDay(thing.recentChanges) : [])
+
   if (thing == null) {
     return (<></>)
   }
+
   if (selection && (selection.length > 0)) {
     return renderSelectedDaysChanges(intl, changesByDay, props, state)
   } else {
-    return renderGraphAndChangesByDayLinks(intl, state)
+    return renderGraphAndChangesByDayLinks(intl, props, state)
   }
 }
 
@@ -89,15 +91,14 @@ const renderSelectedDaysChanges = (
   })
   return (
     <div className={`sqwerl-repository-changes-for-day ${animationState}`}>
-      <div className='sqwerl-properties-title-bar'>
-        <Link
-          className='sqwerl-property-sheet-title-bar-back-button'
-          onClick={() => goBack(props, state)}
-          to='/'
-        >
-          <span className='sqwerl-home-details-title-bar-back-icon'>
+      <header className='sqwerl-properties-title-bar'>
+        <div className='sqwerl-properties-title-bar-title'>
+          <button
+            className='sqwerl-property-sheet-title-bar-back-button'
+            onClick={() => goBack(props, state)}
+          >
             <ChevronLeft />
-          </span>
+          </button>
           <svg className='sqwerl-home-view-changes-thumbnail' height='30px' width='60px'>
             {/* TODO - Fix this
             <ThumbnailChangesGraph change={selection} data={thing} width='60px' />
@@ -113,8 +114,8 @@ const renderSelectedDaysChanges = (
               className='sqwerl-home-details-title-bar-title'
               dangerouslySetInnerHTML={{ __html: `${multipleAuthorTitleBarText}` }}
             />}
-        </Link>
-      </div>
+        </div>
+      </header>
       <ScrollableContent>
         {/* TODO
         <ChangesByDayDetails changes={changes} state={state} />
@@ -128,19 +129,21 @@ const renderSelectedDaysChanges = (
  * Renders a graph that depicts the changes people have made to a repository of things over time and a list of links
  * that refer to details about those changes.
  * @param intl Internationalization support.
+ * @param props
  * @param state
  */
-const renderGraphAndChangesByDayLinks = (intl: IntlShape, state: SheetState) => {
+const renderGraphAndChangesByDayLinks = (intl: IntlShape, props: SheetProps, state: SheetState) => {
   const { thing } = state
-  return (<>{(thing != null) ? renderWithData(intl, state) : renderBusy()}</>)
+  return (<>{(thing != null) ? renderWithData(intl, props, state) : renderBusy()}</>)
 }
 
 /**
  * Renders a user's home page once this client application has received data to display within the page.
  * @param intl Internationalization support.
+ * @param props
  * @param state
  */
-const renderWithData = (intl: IntlShape, state: SheetState) => {
+const renderWithData = (intl: IntlShape, props: SheetProps, state: SheetState) => {
   const { thing } = state
   // TODO - Internationalize
   const isLoading = (thing != null) ? '' : 'loading'
@@ -150,12 +153,12 @@ const renderWithData = (intl: IntlShape, state: SheetState) => {
         <div className={`sqwerl-properties-title-bar-title ${isLoading}`}>
           {!isLoading &&
             <>
-              <Link
+              <button
                 className='sqwerl-property-sheet-title-bar-back-button'
-                to=''
+                onClick={() => goBack(props, state)}
               >
                 <ChevronLeft className='sqwerl-back-or-forward-icon' />
-              </Link>
+              </button>
               <div
                 className='sqwerl-properties-title-text'
                 dangerouslySetInnerHTML={{

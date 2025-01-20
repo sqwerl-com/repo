@@ -183,8 +183,7 @@ const ChangesByDaySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.E
                 maxWidth: '900px',
                 minWidth: '500px',
                 position: 'absolute',
-                top: `${(context.rowHeightInPixels * 2) + 2}px`,
-                width: '900px'
+                top: `${(context.rowHeightInPixels * 2) + 2}px`
               }}
             >
               <InfiniteLoader

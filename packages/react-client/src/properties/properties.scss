@@ -102,22 +102,29 @@ $sqwerl-properties-value-max-width: 30rem;
 
   a.sqwerl-properties-read-only-field-label-link {
     align-items: center;
+
+    background: var(--properties-field-background);
+    border: 1px solid var(--properties-value-border-color);
+    border-radius: 0.5rem;
     color: var(--hyperlink-text-color);
     display: flex;
     flex-direction: row;
-    line-height: $sqwerl-row-height;
-    margin: $sqwerl-focus-border-size;
-    padding: 0.2rem 1rem 0.2rem $sqwerl-focus-border-size;
+    /* line-height: $sqwerl-row-height; */
+    margin: 0.5rem 0 0.5rem 2rem;
+    max-width: calc(#{$sqwerl-properties-value-max-width} - (#{$sqwerl-focus-border-size} * 2));
+    padding: 0.5rem 0.2rem 0.7rem $sqwerl-focus-border-size;
     text-decoration: underline;
     text-decoration-color: rgba(255, 255, 255, 0);
     text-decoration-thickness: var(--text-decoration-thickness);
     text-underline-offset: var(--text-underline-offset);
     transition: text-decoration-color 0.3s ease-in;
-    max-width: $sqwerl-properties-value-max-width;
-    width: $sqwerl-properties-value-max-width;
 
     .sqwerl-read-only-field-link-chevron {
       line-height: $sqwerl-row-height;
+    }
+
+    .sqwerl-properties-read-only-label-link-text {
+      margin-left: 0.5rem;
     }
 
     &:hover {
@@ -162,7 +169,7 @@ $sqwerl-properties-value-max-width: 30rem;
     display: flex;
     flex-direction: column;
     max-width: $sqwerl-properties-value-max-width;
-    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    padding: 0.5rem 0.2rem 0.7rem 2rem;
 
     &.hover:hover {
       animation-duration: 0.5s;
@@ -184,10 +191,9 @@ $sqwerl-properties-value-max-width: 30rem;
       border-radius: 0.5rem 0.5rem 0 0;
       color: var(--label-text-color);
       font-family: $sqwerl-font-family;
-      font-weight: var(--properties-read-only-field-font-weight);
       letter-spacing: 0.06rem;
       line-height: calc(#{$sqwerl-row-height} * .2);
-      padding: 0.5rem 0.5rem 5px 0.5rem;
+      padding: 0.5rem 1rem 5px 1rem;
       vertical-align: bottom;
       white-space: nowrap;
     }
@@ -210,7 +216,7 @@ $sqwerl-properties-value-max-width: 30rem;
     display: flex;
     flex-direction: row;
     line-height: calc(#{$sqwerl-row-height} * .3);
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
 
     div {
       margin-bottom: 0.25rem;
@@ -279,7 +285,6 @@ $sqwerl-properties-value-max-width: 30rem;
 
   .sqwerl-properties-title-bar-name {
     align-self: center;
-    font-weight: bolder;
     padding-left: 0.5rem;
     white-space: nowrap;
   }
@@ -289,7 +294,6 @@ $sqwerl-properties-value-max-width: 30rem;
     display: flex;
     flex: 1 1 auto;
     flex-direction: row;
-    /* line-height: $sqwerl-content-heading-height; */
     margin-left: $sqwerl-focus-border-size;
     margin-right: $sqwerl-focus-border-size;
 

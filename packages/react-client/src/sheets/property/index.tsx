@@ -151,8 +151,7 @@ const PropertySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.Eleme
                 maxWidth: '900px',
                 minWidth: '500px',
                 position: 'absolute',
-                top: `${(context.rowHeightInPixels * 2) + 1}px`,
-                width: '900px'
+                top: `${(context.rowHeightInPixels * 2) + 1}px`
               }}
             >
               <InfiniteLoader

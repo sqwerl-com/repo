@@ -125,7 +125,6 @@
   --properties-even-row-background: #202020;
   --properties-field-background: #252525;
   --properties-odd-row-background: #1f1f1f;
-  --properties-read-only-field-font-weight: bold;
   --properties-table-heading-background-color: #222929;
   --properties-table-heading-color: #f0f0f0;
   --properties-title-name-text-shadow: none;
@@ -176,7 +175,7 @@
 }
 
 .sqwerl-application.light {
-  --application-menu-bar-background: linear-gradient(132deg, rgba(29, 45, 39, 1) 0%, rgba(16, 139, 94, 1) 100%);
+  --application-menu-bar-background: #f3f3f3;
   --application-menu-box-shadow: 0.5rem 1rem 1rem #a0a0a0;
   --application-menu-button-hover: sqwerl-menu-button-hover;
   --application-menu-left-border: 1px solid #ddd;
@@ -238,11 +237,11 @@
   --loading-content-gradient-color2: #eaeaea;
   --loading-content-gradient-color3: #fafafa;
   --menu-background-color: #fdfdfd;
-  --menu-bar-bottom-border-color: none;
+  --menu-bar-bottom-border-color: #606060;
   --menu-bar-search-field-editable-text-color: #202020;
   --menu-button-background-color: transparent;
-  --menu-button-hover-background-color: #01711c;
-  --menu-button-text-color: #e0ece0;
+  --menu-button-hover-background-color: rgba(51, 152, 254, 0.2); /* #01711c; */
+  --menu-button-text-color: var(--hyperlink-text-color);
   --menu-item-border-color: rgba(255, 255, 255, 0);
   --menu-item-hover-background-color: rgba(51, 152, 254, 0.2);
   --menu-item-hover-border-color: #e0e0e0;
@@ -254,7 +253,6 @@
   --properties-even-row-background: #fafafa;
   --properties-field-background: #fff;
   --properties-odd-row-background: #f0f0f0;
-  --properties-read-only-field-font-weight: normal;
   --properties-table-heading-background-color: #ececec;
   --properties-table-heading-color: #5b5b5b;
   --properties-title-name-text-shadow: 1px 0 var(--application-text-color);

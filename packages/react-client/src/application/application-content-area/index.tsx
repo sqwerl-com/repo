@@ -119,7 +119,7 @@ const ApplicationContentArea = (props: Props): React.JSX.Element => {
   }
 
   return (
-    <section className='sqwerl-application-content-area'>
+    <section className='sqwerl-application-content-area' data-testid='application-content-area'>
       <HorizontalDivider percentage={dividerPercentage} width={dividerWidthInPixels}>
         <Navigation
           configuration={configuration}

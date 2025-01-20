@@ -2,17 +2,17 @@ import ArchivedField from '@/sheets/components/fields/archived-field'
 import AuthorsField from '@/sheets/components/fields/authors-field'
 import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
-import FeedUrlField from '@/sheets/components/fields/feed-url-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
 import Logger, { LoggerType } from '@/logger'
 import PictureField from '@/sheets/components/fields/picture-field'
 import PostsField from '@/sheets/components/fields/posts-field'
-import ScrollableContent from '@/sheets/components/scrollable-content'
 import RecommendationsField from '@/sheets/components/fields/recommendations-field'
 import RecommendedByField from '@/sheets/components/fields/recommended-by-field'
+import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetState } from '@/properties'
 import SubscribersField from '@/sheets/components/fields/subscribers-field'
+import SubscriptionUrlField from '@/sheets/components/fields/subscription-url-field'
 import TagsField from '@/sheets/components/fields/tags-field'
 import TitleBar from '@/sheets/components/title-bar'
 import { useIntl } from 'react-intl'
@@ -26,28 +26,28 @@ interface Props {
 }
 
 /**
- * Renders a read-only form that displays information about an RSS feed.
+ * Renders a read-only form that displays information about information sources that people can subscribe to.
  * @param props
  * @constructor
  */
-const FeedsSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(FeedsSheet, FeedsSheet)
+const SubscriptionsSheet = (props: Props): React.JSX.Element => {
+  logger = Logger(SubscriptionsSheet, SubscriptionsSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
     'authors',
     'collections',
-    'feedUrl',
     'links',
     'posts',
     'recommendations',
     'recommendedBy',
     'subscribers',
+    'subscriptionUrl',
     'tags',
     'webPage'
   ]
 
-  logger.info('Render Feeds property sheet')
+  logger.info('Render Subscriptions property sheet')
 
   const { state } = props
   const { configuration, thing } = state
@@ -64,7 +64,6 @@ const FeedsSheet = (props: Props): React.JSX.Element => {
     authors,
     collections,
     description,
-    feedUrl,
     links,
     name,
     pictures,
@@ -72,11 +71,13 @@ const FeedsSheet = (props: Props): React.JSX.Element => {
     recommendations,
     recommendedBy,
     subscribers,
+    subscriptionUrl,
     tags,
     thumbnailUrl,
     webPage
   } = thing
-  const pictureFieldTitle = intl.formatMessage({ id: 'feedsSheet.pictureFieldTitle' })
+  const pictureFieldTitle = intl.formatMessage({ id: 'subscriptionsSheet.pictureFieldTitle' })
+
   return (
     <>
       <TitleBar
@@ -86,7 +87,7 @@ const FeedsSheet = (props: Props): React.JSX.Element => {
         iconDescription=''
         state={state}
         thing={thing}
-        titleTextId='feedsSheet.title'
+        titleTextId='subscriptionsSheet.title'
         titleTextValues={{ name }}
       />
       <ScrollableContent>
@@ -109,11 +110,11 @@ const FeedsSheet = (props: Props): React.JSX.Element => {
         {tags && <TagsField tags={tags} state={state} />}
         {links && <LinksField links={links} state={state} />}
         {subscribers && <SubscribersField state={state} subscribers={subscribers} />}
-        {feedUrl && <FeedUrlField labelId='feedUrl.label' url={feedUrl} state={state} />}
+        {subscriptionUrl && <SubscriptionUrlField labelId='subscriptionUrl.label' url={subscriptionUrl} state={state} />}
         {addedBy && addedOn && <HistoryField addedBy={addedBy} addedOn={addedOn} state={state} />}
       </ScrollableContent>
     </>
   )
 }
 
-export default FeedsSheet
+export default SubscriptionsSheet

@@ -27,7 +27,7 @@ const BusyPane = (props: Props): React.JSX.Element => {
   logger = Logger(BusyPane, BusyPane)
   logger.debug(`isVisible = ${isVisible.toString()}`)
   const isVisibleClassName = isVisible ? 'visible' : 'hidden'
-  return (<div className={`sqwerl-busy-pane ${name} ${isVisibleClassName}`}>{children}</div>)
+  return (<div className={`sqwerl-busy-pane ${name} ${isVisibleClassName}`} data-testid='busy-pane'>{children}</div>)
 }
 
 export default BusyPane

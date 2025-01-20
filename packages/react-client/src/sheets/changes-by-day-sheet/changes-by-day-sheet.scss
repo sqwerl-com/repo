@@ -38,6 +38,8 @@
   }
 
   & tbody {
+    width: 100%;
+
     & tr {
       &.sqwerl-table-row-link:hover {
         td.sqwerl-repository-changes-by-day-table-name-column {

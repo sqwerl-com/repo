@@ -13,7 +13,8 @@ interface Props {
 }
 
 /**
- * Renders a read-only field that displays feeds that a user has subscribed to.
+ * Renders a read-only field that displays information about data sources that individuals subscribe to in order
+ * to be notified when new content is posted.
  * @param props
  * @constructor
  */

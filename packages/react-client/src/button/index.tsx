@@ -1,5 +1,7 @@
 import { IntlShape, useIntl } from 'react-intl'
 import React, { MouseEventHandler } from 'react'
+import { expect } from 'vitest'
+import { screen } from '@testing-library/react'
 
 interface Props {
   /** Unique identifier for this button's Accessible Rich Internet Application (ARIA) label. */
@@ -49,6 +51,7 @@ const Button = (props: Props): React.JSX.Element => {
     <button
       aria-label={ariaLabelId !== '' ? localizedText(intl, ariaLabelId) : ''}
       className={`sqwerl-button ${className}`}
+      data-testid='button'
       onClick={onClick}
       role={role !== '' ? 'button' : ''}
       title={tooltipTextId !== '' ? localizedText(intl, tooltipTextId) : ''}

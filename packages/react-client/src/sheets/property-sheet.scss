@@ -125,12 +125,13 @@
     width: 10rem;
   }
 
-  .sqwerl-property-sheet-title-text {
+  .sqwerl-property-sheet-home-title-text {
     font-family: $sqwerl-font-family;
     font-size: larger;
-    font-weight: bold;
+    height: $sqwerl-row-height;
     letter-spacing: $sqwerl-letter-spacing;
-    line-height: $sqwerl-property-sheet-line-height;
+    /* line-height: $sqwerl-property-sheet-line-height; */
+    line-height: $sqwerl-row-height;
     max-width: 30rem;
     padding-left: 1rem;
   }
@@ -183,7 +184,6 @@
     color: var(--read-only-field-label-count-color);
     /* TODO - font size should be a variable for all inline count numbers */
     font-size: 85%;
-    font-weight: bold;
     margin: 0.5rem 0.2rem;
     padding: 0.25rem 0;
     text-align: center;

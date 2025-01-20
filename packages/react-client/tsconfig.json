@@ -3,7 +3,7 @@
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "src",
+    "baseUrl": "../..",
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,27 +15,37 @@
       "esnext"
     ],
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "paths": {
-      "@/*": ["./*"],
-      "react": ["./node_modules/@types/react"]
+      "@/*": ["packages/react-client/src/*"],
+      "react": ["packages/react-client/node_modules/@types/react"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "es5",
+    "target": "es2019",
+    "types": ["vitest/globals", "@testing-library/jest-dom", "@testing-library/jest-dom/vitest"],
     "sourceMap": true,
   },
   "exclude": [
     "dist",
+    "jest.config.ts",
     "node_modules"
   ],
-  "include": [
-    "src/**/*.ts[x]",
-    "src/**/*.test.ts[x]"
+  "extends": [
+    "../../tsconfig.base.json"
   ],
+  "include": [
+    "src/vitest.setup.ts",
+    "src/**/*.{ts|tsx}",
+    "src/**/*.test.{ts|tsx}"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "__dirname"
+  },
   "references": [{ "path": "./tsconfig.node.json" }]
 }

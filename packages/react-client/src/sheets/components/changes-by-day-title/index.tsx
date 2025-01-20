@@ -17,7 +17,8 @@ export const renderTitleWithMultipleAuthors = (
   date: Date,
   shouldShowRelativeTime: boolean,
   distanceInTimeText: string,
-  intl: IntlShape): React.ReactNode => {
+  intl: IntlShape
+): React.ReactNode => {
   return (
     <div
       className='sqwerl-properties-title-text'
@@ -49,7 +50,8 @@ export const renderTitleWithSingleAuthor = (
   date: Date,
   shouldShowRelativeTime: boolean,
   distanceInTimeText: string,
-  intl: IntlShape): React.ReactNode => {
+  intl: IntlShape
+): React.ReactNode => {
   return (
     <div
       className='sqwerl-properties-title-text'

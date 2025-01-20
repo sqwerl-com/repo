@@ -24,11 +24,10 @@
 .sqwerl-logo {
   border: none;
   cursor: pointer;
-  margin: $sqwerl-focus-border-size;
 
   & a {
     & img {
-      margin: auto;
+      margin: $sqwerl-focus-border-size;
       position: relative;
       /* TODO - Find a better way to vertically align the logo image */
       top: 15%;

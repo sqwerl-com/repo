@@ -109,7 +109,7 @@ const renderFieldAsLink = (property: string, fieldLabel: string, state: SheetSta
       onClick={() => slideLeft(state)}
       to={`${window.location}.${property}`}
     >
-      <span dangerouslySetInnerHTML={{ __html: fieldLabel }} />
+      <span className='sqwerl-properties-read-only-label-link-text' dangerouslySetInnerHTML={{ __html: fieldLabel }} />
       <ChevronRight className='sqwerl-back-or-forward-icon sqwerl-read-only-field-link-chevron' />
     </Link>
   )

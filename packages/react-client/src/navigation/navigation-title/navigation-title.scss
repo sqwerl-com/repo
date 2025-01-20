@@ -20,7 +20,6 @@ $sqwerl-title-home-icon-height: 1rem;
   & .sqwerl-navigation-title-item-count,
   & .sqwerl-navigation-title-home-item-count {
     color: var(--application-text-color);
-    font-weight: bold;
     margin: 0.5rem 0.2rem;
     padding: 0.25rem 0;
     text-align: center;
@@ -28,7 +27,6 @@ $sqwerl-title-home-icon-height: 1rem;
   }
 
   & .sqwerl-navigation-title-text {
-    font-weight: bold;
     line-height: $sqwerl-content-heading-height;
     margin-left: 5px;
     overflow-x: clip;

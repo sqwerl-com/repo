@@ -234,6 +234,7 @@ const Application = (props: Props): React.JSX.Element => {
                   showMoreMenu={() => showMoreMenu(state)}
                   showSearchMenu={() => showSearchMenu(state)}
                   showSignInMenu={() => showSignInMenu(state)}
+                  themeName={autoTheme}
                   toggleTheme={() => toggleTheme(state)}
                 >
                   {children}

@@ -111,7 +111,6 @@
 
     & th {
       background: var(--properties-table-heading-background-color);
-      font-weight: bold;
       position: sticky;
       text-align: left;
       top: 0;
@@ -119,6 +118,8 @@
   }
 
   & tbody {
+    width: 100%;
+
     border-right: 1px solid var(--home-view-changes-row-bottom-border-color);
 
     & tr {

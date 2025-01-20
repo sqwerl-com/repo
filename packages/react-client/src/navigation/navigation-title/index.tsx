@@ -23,13 +23,13 @@ const NavigationTitle = (props: Props): React.JSX.Element => {
     intl.formatMessage({ id: 'navigationTitleBarText.count' }, { itemCount: isNaN(itemCount) ? '' : itemCount })
 
   return (
-    <div className='sqwerl-navigation-title' role='columnheader'>
+    <div className='sqwerl-navigation-title'>
       {(isHome !== undefined) &&
         <>
           <Home className='sqwerl-navigation-title-home-icon' />
           <span className='sqwerl-navigation-title-text'>{title || ''}</span>
           <span className='sqwerl-navigation-title-item-count'>
-            <span className='sqwerl-read-only-field-label-count'>{!isNaN(itemCount) ? itemCount : ''}</span>
+            <span className='sqwerl-read-only-field-label-count'>{numberOfItems}</span>
           </span>
         </>}
       {(isHome === undefined) &&

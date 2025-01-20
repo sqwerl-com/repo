@@ -13,12 +13,12 @@ interface Props {
 }
 
 /**
- * Renders a read-only field whose value is an RSS feed's URL.
+ * Renders a read-only field whose value is the URL for an RSS feed that people can subscribe to.
  * @param props
  * @constructor
  */
-const FeedUrlField = (props: Props): React.JSX.Element => {
-  const logger= Logger(FeedUrlField, FeedUrlField)
+const SubscriptionUrlField = (props: Props): React.JSX.Element => {
+  const logger= Logger(SubscriptionUrlField, SubscriptionUrlField)
   const intl = useIntl()
   const { labelId, url} = props
   const [error, setError] = useState(false)
@@ -53,7 +53,7 @@ const copyToClipboard = (logger: LoggerType, text: string, setError: (error: boo
   }
 
   const errorMessage =
-    `Failed to copy the feed url "${text}" to the clipboard.\n` +
+    `Failed to copy the subscription url "${text}" to the clipboard.\n` +
     'Perhaps due to an older browser that doesn\'t provide clipboard access.'
   logger.error(errorMessage)
 
@@ -97,7 +97,7 @@ const renderCopyToClipboard = (
       })
     }}
     >
-      <Copy/><span className='sqwerl-cut-and-paste-label'>Copy to clipboard</span>
+      <Copy /><span className='sqwerl-cut-and-paste-label'>Copy to clipboard</span>
     </button>
   )
 }
@@ -111,4 +111,4 @@ const renderError = (setError: (error: boolean) => void, setWasClicked: (wasClic
   return (<span className='sqwerl-cut-and-paste-label'>Copy to clipboard failed</span>)
 }
 
-export default FeedUrlField
+export default SubscriptionUrlField

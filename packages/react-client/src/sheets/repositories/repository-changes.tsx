@@ -31,6 +31,7 @@ const RepositoryChanges = (props: Props): React.JSX.Element => {
   logger.setContext(RepositoryChanges.name)
   logger.info('Render Repository properties')
   const [selectedChangesByDay] = useState(null)
+
   if (selectedChangesByDay) {
     return renderChangesForSelectedDay(
       intl, state, aggregateToChangesByDay(repository.recentChanges), selectedChangesByDay)
@@ -40,11 +41,12 @@ const RepositoryChanges = (props: Props): React.JSX.Element => {
 }
 
 /**
- * Renders this home sheet's contents when this application is waiting to receive the data to display within
- * this home sheet.
+ * Renders this sheet's contents when this application is waiting to receive the data to display within
+ * this sheet.
  */
 const renderBusy = () => {
   const changes = []
+
   for (let i = 0; i < Math.floor(Math.random() * 5) + 1; i++) {
     changes.push(
       <a className='sqwerl-home-view-changes loading'>
@@ -53,6 +55,7 @@ const renderBusy = () => {
       </a>
     )
   }
+
   return (
     <div className='sqwerl-repository-changes-sheet'>
       <div className='sqwerl-property-sheet-text'>
@@ -85,6 +88,7 @@ const renderChanges = (
   changes: AggregatedRepositoryChange[]) => {
   const { repository } = props
   const changesByDays: React.ReactNode[] = []
+
   if (changes) {
     changes.forEach((recentChange, index) => {
       const authorCount = recentChange.by ? recentChange.by.length : 0
@@ -103,6 +107,7 @@ const renderChanges = (
       )
     })
   }
+
   return (
     <>
       <div
@@ -128,22 +133,24 @@ const renderChanges = (
 }
 
 /**
- *
- * @param intl
+ * Renders changes made to a repository of things during a selected day.
+ * @param intl Internationalization support.
  * @param state
- * @param changes
- * @param selectedChangesByDay
+ * @param changes Changes made to a repository of things.
+ * @param selectedChangesByDay Changes made to a repository of things during a selected day.
  */
 const renderChangesForSelectedDay = (
   intl: IntlShape,
   state: SheetState,
   changes: AggregatedRepositoryChange[],
-  selectedChangesByDay: RepositoryChangesShape[] | null): React.JSX.Element => {
+  selectedChangesByDay: RepositoryChangesShape[] | null
+): React.JSX.Element => {
   const { animationState } = state
   const sumAuthors = (total: number, change: AggregatedRepositoryChange) => total + (change.by ? change.by.length : 0)
   const sumChanges = (total: number, changes: RepositoryChangesShape) => total + changes.changesCount
   const authorCount = changes.reduce(sumAuthors, 0)
   const totalNumberOfChanges = (selectedChangesByDay === null) ? 0 : selectedChangesByDay.reduce(sumChanges, 0)
+
   return (
     <div className={`sqwerl-repository-changes-for-day ${animationState}`}>
       <div className='sqwerl-properties-title-bar'>
@@ -176,13 +183,14 @@ const renderChangesForSelectedDay = (
 
 /**
  * Renders a graph that shows the amount of changes people have made to a repository of things over time.
- * @param intl
+ * @param intl Internationalization support.
  * @param props
- * @param changes
+ * @param changes Changes made to a repository of things.
  */
 const renderChangesGraph = (intl: IntlShape, props: Props, changes: AggregatedRepositoryChange[]) => {
   const { repository } = props
   const { description, name } = repository
+
   return (
     <>
       <div
@@ -204,7 +212,7 @@ const renderChangesGraph = (intl: IntlShape, props: Props, changes: AggregatedRe
           id: 'changes-per-day-graph-axis-label-text'
         })}
     </div>
-  </div>
+    </div>
         <RepositoryChangesGraph
           data={changes}
           height={230}
@@ -218,10 +226,10 @@ const renderChangesGraph = (intl: IntlShape, props: Props, changes: AggregatedRe
 
 /**
  * Renders a list of links to changes made to a repository. Each link refers to changes made on the same day.
- * @param intl
+ * @param intl Internationalization support.
  * @param props
  * @param state
- * @param changes
+ * @param changes Changes made to a repository of things.
  */
 const renderGraphAndChangesByDayLinks = (
   intl: IntlShape,
@@ -229,21 +237,23 @@ const renderGraphAndChangesByDayLinks = (
   state: SheetState,
   changes: AggregatedRepositoryChange[]): React.JSX.Element => {
   const { repository } = props
+
   return (<>{repository ? renderWithData(intl, props, state, changes) : renderBusy()}</>)
 }
 
 /**
  * Renders a contributor's home page once this client application has received data to display within the page.
- * @param intl
+ * @param intl Internationalization support.
  * @param props
  * @param state
- * @param changes
+ * @param changes Changes made to a repository of things.
  */
 const renderWithData = (
   intl: IntlShape,
   props: Props,
   state: SheetState,
   changes: AggregatedRepositoryChange[]) => {
+
   return (
     <>
       {renderChangesGraph(intl, props, changes)}
@@ -253,12 +263,15 @@ const renderWithData = (
 }
 
 /**
- * @param intl
- * @param totalNumberOfChanges
- * @param date
- * @param by
+ * Renders a title for a single change made to a repository of things.
+ * @param intl Internationalization support.
+ * @param totalNumberOfChanges Number of things within a repository of things that were changed.
+ * @param date A day expressed as a string.
+ * @param by The name of the contributor who made changes to a repository of things.
  */
-const singleAuthorAndTime = (intl: IntlShape, totalNumberOfChanges: number, date: string, by: string[]): ReactNode => {
+const singleAuthorAndTime = (
+  intl: IntlShape, totalNumberOfChanges: number, date: string, by: string[]
+): ReactNode => {
   return (
     intl.formatMessage({
       id: 'homeSheet.changesDetailsTitleSingleAuthorAndTime'
@@ -272,13 +285,15 @@ const singleAuthorAndTime = (intl: IntlShape, totalNumberOfChanges: number, date
 }
 
 /**
- *
- * @param intl
- * @param totalNumberOfChanges
- * @param date
- * @param by
+ * Renders a title for multiple changes made to a repository of things.
+ * @param intl Internationalization support.
+ * @param totalNumberOfChanges Number of changes made to a repository of things.
+ * @param date A day expressed as a string.
+ * @param by The name of the contributor who made changes to a repository of things.
  */
-const singleAuthorMultipleTimes = (intl: IntlShape, totalNumberOfChanges: number, date: string, by: string[]): ReactNode => {
+const singleAuthorMultipleTimes = (
+  intl: IntlShape, totalNumberOfChanges: number, date: string, by: string[]
+): ReactNode => {
   return (
     intl.formatMessage({ id: 'homeSheet.changesDetailsTitleSingleAuthorMultipleTimes' }, {
       changeCount: totalNumberOfChanges,

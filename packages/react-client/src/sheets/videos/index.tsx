@@ -2,7 +2,6 @@ import ArchivedField from '@/sheets/components/fields/archived-field'
 import AuthorsField from '@/sheets/components/fields/authors-field'
 import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
-import FeedsField from '@/sheets/components/fields/feeds-field'
 import HasViewedField from '@/sheets/components/fields/has-viewed-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import Logger, { LoggerType } from '@/logger'
@@ -12,6 +11,7 @@ import RecommendationsField from '@/sheets/components/fields/recommendations-fie
 import RecommendedByField from '@/sheets/components/fields/recommended-by-field'
 import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetState } from '@/properties'
+import SubscriptionsField from '@/sheets/components/fields/subscriptions-field'
 import TitleBar from '@/sheets/components/title-bar'
 import TitleField from '@/sheets/components/fields/title-field'
 import TagsField from '@/sheets/components/fields/tags-field'
@@ -42,6 +42,7 @@ const VideosSheet = (props: Props): React.JSX.Element => {
     'tags',
     'recommendations',
     'recommendedBy',
+    "subscriptions",
     'viewedBy'
   ]
 
@@ -68,6 +69,7 @@ const VideosSheet = (props: Props): React.JSX.Element => {
     notes,
     recommendations,
     recommendedBy,
+    subscriptions,
     tags,
     title,
     url,
@@ -105,7 +107,7 @@ const VideosSheet = (props: Props): React.JSX.Element => {
         {hasViewed && <HasViewedField hasViewed={hasViewed} state={state} />}
         {authors && <AuthorsField authors={authors} state={state} />}
         {collections && <CollectionsField collections={collections} state={state} />}
-        {feeds && <FeedsField feeds={feeds} state={state} />}
+        {subscriptions && <SubscriptionsField state={state} subscriptions={subscriptions} />}
         {notes && <NotesField notes={notes} state={state} />}
         {viewedBy && <ViewedByField state={state} viewedBy={viewedBy} />}
         {recommendedBy && <RecommendedByField recommendedBy={recommendedBy} state={state} />}
