@@ -9,7 +9,7 @@ import HistoryField from '@/sheets/components/fields/history-field'
 import IsAttendingField from '@/sheets/components/fields/is-attending-field'
 import IsReadingField from '@/sheets/components/fields/is-reading-field'
 import LastNameField from '@/sheets/components/fields/last-name-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import MiddleNameOrInitialField from '@/sheets/components/fields/middle-name-or-initial-field'
 import RecommendationsField from '@/sheets/components/fields/recommendations-field'
 import ScrollableContent from '@/sheets/components/scrollable-content'
@@ -19,22 +19,19 @@ import TeamsField from '@/sheets/components/fields/teams-field'
 import TitleBar from '@/sheets/components/title-bar'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information that describes a contributor.
  * @param props
- * @constructor
  */
 const ContributorsSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(ContributorsSheet, ContributorsSheet)
   const connectionProperties = [
     'addedBy', 'archived', 'controls', 'hasAttended', 'hasListenedTo', 'hasRead', 'hasViewed', 'teams'
   ]
+  const logger = loggerFactory.create(ContributorsSheet)
 
   logger.info('Rendering Contributors property sheet')
 
@@ -97,5 +94,7 @@ const ContributorsSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(ContributorsSheet)
 
 export default ContributorsSheet

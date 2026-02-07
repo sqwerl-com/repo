@@ -4,8 +4,16 @@
     "defaultMessage": "Yes"
   },
   {
+    "id": "archived.field.description",
+    "defaultMessage": "Things marked as archived may be irrelevant or obsolete"
+  },
+  {
     "id": "archived.field.label",
     "defaultMessage": "Archived"
+  },
+  {
+    "id": "articlesSheet.pictureFieldDescription",
+    "defaultMessage": "A picture of an article"
   },
   {
     "id": "articlesSheet.pictureFieldTitle",
@@ -25,15 +33,19 @@
   },
   {
     "id": "author.field.label",
-    "defaultMessage": "{count, plural, one {Author} other {Authors '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+    "defaultMessage": "{count, plural, one {Authored by} other {Has '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' authors}}"
   },
   {
     "id": "authorOf.field.label",
-    "defaultMessage": "Author of {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+    "defaultMessage": "Is the author of {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
   },
   {
     "id": "authorOf",
-    "defaultMessage": " is the author of '<span class=\"sqwerl-read-only-field-label-count-inline\">'{authorOfCount, number}'</span>' {authorOfCount, plural, one {thing} other {things}}"
+    "defaultMessage": " {authorOfCount, plural, one {} other {has authored '<span class=\"sqwerl-read-only-field-label-count-inline\">'{authorOfCount, number}'</span>' other things}}"
+  },
+  {
+    "id": "authorsSheet.pictureFieldDescription",
+    "defaultMessage": "A photograph of an author"
   },
   {
     "id": "authorsSheet.pictureFieldTitle",
@@ -44,12 +56,20 @@
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is an author'</span>' {connections}"
   },
   {
+    "id": "booksSheet.pictureFieldDescription",
+    "defaultMessage": "A picture of a book's cover. Don't judge!"
+  },
+  {
     "id": "booksSheet.pictureFieldTitle",
     "defaultMessage": "Cover"
   },
   {
     "id": "booksSheet.title",
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a book'</span>' {connections}"
+  },
+  {
+    "id": "booksSheet.titleFieldDescription",
+    "defaultMessage": "A books' complete title"
   },
   {
     "id": "button.text",
@@ -85,7 +105,7 @@
   },
   {
     "id": "changes-per-day-graph-axis-label-text",
-    "defaultMessage": "Number of Changes per Day"
+    "defaultMessage": "Number of Repository Changes per Day"
   },
   {
     "id": "childrenCount",
@@ -93,11 +113,19 @@
   },
   {
     "id": "collection.field.label",
-    "defaultMessage": "{count, plural, one {Collection} other {Collections '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+    "defaultMessage": "{count, plural, one {Added to the collection} other {Added to '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' collections}}"
+  },
+  {
+    "id": "collections.shortDescriptionField.description",
+    "defaultMessage": "Brief description of a collection"
   },
   {
     "id": "collectionsSheet.title",
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a collection of things'</span>'"
+  },
+  {
+    "id": "completed.field.description",
+    "defaultMessage": "Has a thing has been completed or finished and therefore requires no more work?"
   },
   {
     "id": "completed.field.label",
@@ -106,6 +134,14 @@
   {
     "id": "connectionsCount",
     "defaultMessage": " {count, plural, one {'<span class=\"sqwerl-properties-title-content\">'with'</span>' '<span class=\"sqwerl-properties-title-count\">'1'</span>' '<span class=\"sqwerl-properties-title-content\">'connection'</span>'} other {'<span class=\"sqwerl-properties-title-content\">'with'</span>' '<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' '<span class=\"sqwerl-properties-title-content\">'connections'</span>'}}"
+  },
+  {
+    "id": "contents.field.description",
+    "defaultMessage": "Changes made to a repository of things"
+  },
+  {
+    "id": "contents.field.label",
+    "defaultMessage": "Content changes"
   },
   {
     "id": "contributors.field.label",
@@ -120,7 +156,10 @@
     "id": "contentSheet.title",
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is content'</span>'"
   },
-
+  {
+    "id": "contentSheet.titleFieldDescription",
+    "defaultMessage": "Content's full title"
+  },
   {
     "id": "controls.field.label",
     "defaultMessage": "Controls access to {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
@@ -128,6 +167,14 @@
   {
     "id": "count",
     "defaultMessage": "{value, number}"
+  },
+  {
+    "id": "coursesSheet.pictureFieldDescription",
+    "defaultMessage": "Image of a course"
+  },
+  {
+    "id": "coursesSheet.pictureFieldTitle",
+    "defaultMessage": "Picture"
   },
   {
     "id": "coursesSheet.title",
@@ -150,12 +197,28 @@
     "defaultMessage": "On {addedOn}, the contributor named "
   },
   {
+    "id": "description.field.description",
+    "defaultMessage": "Text that describes a thing"
+  },
+  {
     "id": "description.field.label",
     "defaultMessage": "Description"
   },
   {
+    "id": "documentsSheet.pictureFieldDescription",
+    "defaultMessage": "Image of a document"
+  },
+  {
+    "id": "documentsSheet.pictureFieldTitle",
+    "defaultMessage": "Image"
+  },
+  {
     "id": "documentsSheet.title",
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a document'</span>' {connections}"
+  },
+  {
+    "id": "documentsSheet.titleFieldDescription",
+    "defaultMessage": "A document's complete title"
   },
   {
     "id": "emailField.ariaLabel",
@@ -242,6 +305,10 @@
     "defaultMessage": "Subscription link"
   },
   {
+    "id": "firstName.field.description",
+    "defaultMessage": "A person's first (given) name"
+  },
+  {
     "id": "firstName.field.label",
     "defaultMessage": "First name"
   },
@@ -255,7 +322,7 @@
   },
   {
     "id": "hasChildren",
-    "defaultMessage": " contains {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' thing} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}"
+    "defaultMessage": " that contains {count, plural, one {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' thing} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}"
   },
   {
     "id": "hasListenedTo.field.label",
@@ -267,7 +334,7 @@
   },
   {
     "id": "hasReadCount",
-    "defaultMessage": " has read '<span class=\"sqwerl-read-only-field-label-count-inline\">'{hasReadCount, number}'</span>' {hasReadCount, plural, one {thing} other {things}}"
+    "defaultMessage": " who has read '<span class=\"sqwerl-read-only-field-label-count-inline\">'{hasReadCount, number}'</span>' {hasReadCount, plural, one {thing} other {things}}"
   },
   {
     "id": "hasSameTagCount",
@@ -302,6 +369,10 @@
     "defaultMessage": "Type the text you want to search for in {searchDomainName}"
   },
   {
+    "id": "history.field.description",
+    "defaultMessage": "Changes people have made to a thing over time"
+  },
+  {
     "id": "history.field.label",
     "defaultMessage": "History"
   },
@@ -327,7 +398,7 @@
   },
   {
     "id": "homeSheet.guestWelcome",
-    "defaultMessage": "Hello guest. Welcome to Sqwerl!"
+    "defaultMessage": "Welcome to Sqwerl"
   },
   {
     "id": "homeSheet.homeViewChanges.collapseTooltip",
@@ -411,7 +482,7 @@
   },
   {
     "id": "isCollection",
-    "defaultMessage": "is a {typeName}"
+    "defaultMessage": "is a {typeName} of things"
   },
   {
     "id": "isContributor",
@@ -454,6 +525,10 @@
     "defaultMessage": "is a {typeName}"
   },
   {
+    "id": "isPicture",
+    "defaultMessage": "is a {typeName}"
+  },
+  {
     "id": "isPodcast",
     "defaultMessage": "is a {typeName}"
   },
@@ -467,7 +542,7 @@
   },
   {
     "id": "isReading",
-    "defaultMessage": " is reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}"
+    "defaultMessage": " is currently reading {count, plural, one {one thing} other {'<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' things}}"
   },
   {
     "id": "isReading.field.label",
@@ -510,6 +585,10 @@
     "defaultMessage": "is a facet"
   },
   {
+    "id": "isType of thing",
+    "defaultMessage": "is a collection of things"
+  },
+  {
     "id": "isTypeOfThing",
     "defaultMessage": "is a type of thing"
   },
@@ -530,12 +609,20 @@
     "defaultMessage": "is a {typeName}"
   },
   {
+    "id": "large",
+    "defaultMessage": "Large"
+  },
+  {
+    "id": "lastName.field.description",
+    "defaultMessage": "A person's last name (surname or family name)"
+  },
+  {
     "id": "lastName.field.label",
     "defaultMessage": "Last name"
   },
   {
     "id": "links.field.label",
-    "defaultMessage": "Linked to {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+    "defaultMessage": "{count, plural, one {Linked to} other {Linked to '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
   },
   {
     "id": "linksCount",
@@ -548,6 +635,14 @@
   {
     "id": "loading",
     "defaultMessage": "loading"
+  },
+  {
+    "id": "medium",
+    "defaultMessage": "Medium"
+  },
+  {
+    "id": "middleNameOrInitial.field.description",
+    "defaultMessage": "A person's middle name or an initial for their middle name"
   },
   {
     "id": "middleNameOrInitial.field.label",
@@ -575,7 +670,7 @@
   },
   {
     "id": "notes.field.label",
-    "defaultMessage": "{notesCount, plural, one {Notes} other {Notes}}"
+    "defaultMessage": "{count, plural, one {Has notes} other {Has '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' notes}}"
   },
   {
     "id": "notesFor.field.label",
@@ -586,12 +681,20 @@
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'are notes'</span>' {connections}"
   },
   {
+    "id": "papersSheet.pictureFieldDescription",
+    "defaultMessage": "A picture of a written work submitted for publication in an academic journal"
+  },
+  {
     "id": "papersSheet.pictureFieldTitle",
     "defaultMessage": "Picture"
   },
   {
     "id": "papersSheet.title",
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a paper'</span>' {connections}"
+  },
+  {
+    "id": "papersSheet.titleFieldDescription",
+    "defaultMessage": "An academic paper's full title"
   },
   {
     "id": "parentTeam.field.label",
@@ -610,6 +713,10 @@
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a podcast'</span>' {connections}"
   },
   {
+    "id": "podcastsSheet.webPageFieldDescription",
+    "defaultMessage": "Web address for subscribing to a podcast"
+  },
+  {
     "id": "posts.field.label",
     "defaultMessage": "{count, plural, one {Post} other {Posts '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
   },
@@ -622,16 +729,48 @@
     "defaultMessage": "Type"
   },
   {
+    "id": "preview",
+    "defaultMessage": "Preview"
+  },
+  {
     "id": "projectsSheet.title",
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a project'</span>' {connections}"
   },
   {
+    "id": "projectStatus.field.description",
+    "defaultMessage": "A project's current state"
+  },
+  {
+    "id": "projectStatus.field.label",
+    "defaultMessage": "Project status"
+  },
+  {
+    "id": "projectStatus.active",
+    "defaultMessage": "Active - project is currently being worked on"
+  },
+  {
+    "id": "projectStatus.cancelled",
+    "defaultMessage": "Cancelled - project has been cancelled and is no longer being worked on)"
+  },
+  {
+    "id": "projectStatus.completed",
+    "defaultMessage": "Completed - project was finished and is no longer being worked on"
+  },
+  {
+    "id": "projectStatus.suspended",
+    "defaultMessage": "Suspended - project is on hold, currently not being worked on"
+  },
+  {
     "id": "propertySheet.authorOf.title",
-    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} is the author of '<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' {count, plural, one {thing} other {things}}'</span>'"
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} has authored '<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' {count, plural, one {thing} other {things}}'</span>'"
   },
   {
     "id": "propertySheet.authors.title",
-    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} has '<span class=\"sqwerl-properties-title-count\">'{count, plural, one {author} other {{count, number} authors}}'</span>''</span>'"
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} has '<span class=\"sqwerl-properties-title-count\">'{count, plural, one {author} other {{count, number}'</span>' authors}}'</span>'"
+  },
+  {
+    "id": "propertySheet.collections.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} is a member of '<span class=\"sqwerl-properties-title-count\">'{count, plural, one {collection of things} other {{count, number}'</span>' collections of things}}'</span>'"
   },
   {
     "id": "propertySheet.controls.title",
@@ -674,6 +813,10 @@
     "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} recommends {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>'"
   },
   {
+    "id": "propertySheet.recommendedBy.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{count, plural, one {One thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}} recommend {name}"
+  },
+  {
     "id": "propertySheet.subscriptions.title",
     "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} subscribes to {count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}}'</span>'"
   },
@@ -682,12 +825,16 @@
     "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{count, plural, one {thing} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' things}} have been tagged with {name}'</span>"
   },
   {
+    "id": "propertySheet.teams.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-content\">'{name} is a member of {count, plural, one {team} other {'<span class=\"sqwerl-properties-title-count\">'{count, number}'</span>' teams}}'</span>'"
+  },
+  {
     "id": "readBy.field.label",
     "defaultMessage": "Read by {count, plural, one {} other {{count, number} contributors}}"
   },
   {
     "id": "readers.field.label",
-    "defaultMessage": "{count, plural, one {Reader} other {Readers {count, number}}}"
+    "defaultMessage": "{count, plural, one {Currently being read by} other {Currently being read by {count, number} readers}}"
   },
   {
     "id": "recommendations.field.label",
@@ -696,6 +843,10 @@
   {
     "id": "recommendedBy.field.label",
     "defaultMessage": "Recommended by {count, plural, one {} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
+  },
+  {
+    "id": "repositories",
+    "defaultMessage": "Repositories"
   },
   {
     "id": "repositoriesSheet.detailsTable.nameColumn.text",
@@ -751,11 +902,7 @@
   },
   {
     "id": "repositorySheet.repositoryChangesListSubtitle",
-    "defaultMessage": "'<span class=\"sqwerl-repository-changes-details-subtitle\">' There {count, plural, one {is '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' day} other {are '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' days}} when contributors changed things'</span>'"
-  },
-  {
-    "id": "repositorySheet.repositoryChangesListTitle",
-    "defaultMessage": "Details:"
+    "defaultMessage": "'<span class=\"sqwerl-repository-changes-details-subtitle\">' Contributors updated the {repositoryName} repository on{count, plural, one {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' day} other {'<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'days}} during the past'<span class=\"sqwerl-read-only-field-label-count\">'30'</span>'days'</span>'"
   },
   {
     "id": "repositorySheet.repositoryChangesMultipleAuthorsTitle",
@@ -774,6 +921,10 @@
     "defaultMessage": "'<span class=\"sqwerl-repository-change-ordinal\">'{index}'</span>' On {on}, {when} ago, {who} changed '<span class=\"sqwerl-read-only-field-label-count-inline\">'{count, number}'</span>' {things}"
   },
   {
+    "id": "repositorySheet.title",
+    "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a repository that contains '<span class=\"sqwerl-navigation-title-item-count\">'{thingCount, number}'</span>' things'</span>'"
+  },
+  {
     "id": "roles.field.label",
     "defaultMessage": "{count, plural, one {Role} other {Roles {count, number}}}"
   },
@@ -783,7 +934,7 @@
   },
   {
     "id": "representations.field.label",
-    "defaultMessage": "{count, plural, one {Digital copy} other {Digital copies '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
+    "defaultMessage": "{count, plural, one {Has a digital copy} other {Has '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' digital copies}}"
   },
   {
     "id": "searchField.defaultText",
@@ -858,6 +1009,10 @@
     "defaultMessage": "Search {searchDomainName}"
   },
   {
+    "id": "shortDescription.field.description",
+    "defaultMessage": "Brief text that describes a thing"
+  },
+  {
     "id": "shortDescription.field.label",
     "defaultMessage": "Short description"
   },
@@ -902,6 +1057,10 @@
     "defaultMessage": "Sign in to your existing Sqwerl account\nto see the things that make you smart"
   },
   {
+    "id": "small",
+    "defaultMessage": "Small"
+  },
+  {
     "id": "speakers.field.label",
     "defaultMessage": "{count, plural, one {Speaker} other {Speakers '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>'}}"
   },
@@ -930,12 +1089,28 @@
     "defaultMessage": "{count, plural, one {Subscription} other {Has subscribed to '<span class=\"sqwerl-read-only-field-label-count\">'{count, number}'</span>' things}}"
   },
   {
+    "id": "subscriptionsSheet.pictureFieldDescription",
+    "defaultMessage": "Image that represents an information channel to subscribe to"
+  },
+  {
+    "id": "subscriptionsSheet.webPageFieldDescription",
+    "defaultMessage": "Web address for subscribing to be notified about updates"
+  },
+  {
     "id": "subscriptionsSheet.pictureFieldTitle",
     "defaultMessage": "Picture"
   },
   {
     "id": "subscriptionsSheet.title",
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a subscription'</span>' {connections}"
+  },
+  {
+    "id": "subscriptionUrl.description",
+    "defaultMessage": "Web address that new content is posted to"
+  },
+  {
+    "id": "subscriptionUrl.label",
+    "defaultMessage": "Subscription link"
   },
   {
     "id": "subteams.field.label",
@@ -947,7 +1122,7 @@
   },
   {
     "id": "tags.field.label",
-    "defaultMessage": "{tagsCount, plural, one {Tag} other {Tags '<span class=\"sqwerl-read-only-field-label-count\">'{tagsCount, number}'</span>'}}"
+    "defaultMessage": "{tagsCount, plural, one {Tagged with} other {Tagged with '<span class=\"sqwerl-read-only-field-label-count\">'{tagsCount, number}'</span>' tags}}"
   },
   {
     "id": "tagsSheet.title",
@@ -966,6 +1141,10 @@
     "defaultMessage": "'<span class=\"sqwerl-properties-title-bar-name\">'{name}'</span>' '<span class=\"sqwerl-properties-title-content\">'is a team of contributors'</span>' {connections}"
   },
   {
+    "id": "testId",
+    "defaultMessage": "Test"
+  },
+  {
     "id": "thingPlural",
     "defaultMessage": "things"
   },
@@ -974,8 +1153,12 @@
     "defaultMessage": "thing"
   },
   {
+    "id": "title.label",
+    "defaultMessage": "Title"
+  },
+  {
     "id": "toggleThemeMenuItem.subtitle",
-    "defaultMessage": "Change colors to light or dark"
+    "defaultMessage": "Switch to dark or light colors"
   },
   {
     "id": "toggleThemeMenuItem.title",
@@ -983,19 +1166,19 @@
   },
   {
     "id": "typeOfChange.added",
-    "defaultMessage": "Added"
+    "defaultMessage": "that was added"
   },
   {
     "id": "typeOfChange.deleted",
-    "defaultMessage": "Removed"
+    "defaultMessage": "that was removed"
   },
   {
     "id": "typeOfChange.modified",
-    "defaultMessage": "Modified"
+    "defaultMessage": "that was modified"
   },
   {
     "id": "typeOfChange.unknown",
-    "defaultMessage": "Unknown"
+    "defaultMessage": ""
   },
   {
     "id": "typeOfThing",
@@ -1014,8 +1197,20 @@
     "defaultMessage": "{name} '<span class=\"sqwerl-properties-title-content\">'is a video'</span>' {connections}"
   },
   {
+    "id": "videosSheet.pictureFieldDescription",
+    "defaultMessage": "A picture of a video"
+  },
+  {
+    "id": "videosSheet.pictureFieldTitle",
+    "defaultMessage": "Picture"
+  },
+  {
     "id": "videosSheet.title",
     "defaultMessage": "'<a class=\"sqwerl-properties-title-inline-link\" href=\"url\">'{name}'</a>' {linkIcon} '<span class=\"sqwerl-properties-title-content\">'is a video'</span>' {connections}"
+  },
+  {
+    "id": "videosSheet.titleFieldDescription",
+    "defaultMessage": "A video's title"
   },
   {
     "id": "viewedBy.field.label",
@@ -1031,18 +1226,30 @@
   },
   {
     "id": "webPages.field.label",
-    "defaultMessage": "{count, plural, one {Web Page} other {Web pages {count, number}}}"
+    "defaultMessage": "Has {count, plural, one {a web page} other {{count, number} web pages}}"
   },
   {
     "id": "webPagesSheet.noUrl.title",
     "defaultMessage": "{name} '<span class=\"sqwerl-properties-title-content\">'is a web page'</span>' {connections}"
   },
   {
+    "id": "webPagesSheet.pictureFieldDescription",
+    "defaultMessage": "Picture of a web page"
+  },
+  {
     "id": "webPagesSheet.pictureFieldTitle",
     "defaultMessage": "Picture"
   },
   {
+    "id": "webPagesSheet.shortDescriptionField.description",
+    "defaultMessage": "Brief description of a web page"
+  },
+  {
     "id": "webPagesSheet.title",
     "defaultMessage": "'<a class=\"sqwerl-properties-title-inline-link\" href=\"url\">'{name}'</a>' {linkIcon} '<span class=\"sqwerl-properties-title-content\">'is a web page'</span>' {connections}"
+  },
+  {
+    "id": "webPagesSheet.titleFieldDescription",
+    "defaultMessage": "A web page's title"
   }
 ]

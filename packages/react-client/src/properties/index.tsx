@@ -16,7 +16,7 @@ import FacetsSheet from '@/sheets/facets'
 import type { FetcherType } from '@/fetcher'
 import HomeSheet from '@/sheets/home-sheet'
 import { IsBusyContext } from '@/context/is-busy'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import { NavigateFunction } from 'react-router-dom'
 import NotesSheet from '@/sheets/notes'
 import PapersSheet from '@/sheets/papers'
@@ -31,7 +31,7 @@ import SubscriptionsSheet from '@/sheets/subscriptions'
 import TagsSheet from '@/sheets/tags'
 import TalksSheet from '@/sheets/talks'
 import TeamsSheet from '@/sheets/teams'
-import { Thing } from '@/utils/types'
+import { Thing } from '@/utilities/types'
 import TypesSheet from '@/sheets/types'
 import { useCallback, useContext, useEffect, useState } from 'react'
 import VideosSheet from '@/sheets/videos'
@@ -40,12 +40,9 @@ import WebPagesSheet from '@/sheets/web-pages'
 import * as React from 'react'
 import '@/properties/properties.css'
 
-let logger: LoggerType
-
 export interface SheetState {
   animationState: string
   configuration: ConfigurationType
-  context: ApplicationContextType
   contributorLastSignedInDateTime: string
   contributorName: string
 
@@ -58,7 +55,6 @@ export interface SheetState {
   isContributorSignedIn: boolean
   isHome: boolean
   isShowingProperty: boolean
-  logger: LoggerType
   navigate: NavigateFunction
 
   /** The name of a thing's property whose values are being displayed to users. */
@@ -230,7 +226,6 @@ const typesToPropertySheets: Map<string, (props: Props, state: SheetState) => Re
  * @param props
  */
 const Properties = (props: Props): React.JSX.Element => {
-  logger = Logger(Properties, Properties)
   const [animationState, setAnimationState] = useState('')
   const context = useContext(ApplicationContext)
   const isBusy = useContext(IsBusyContext)
@@ -255,7 +250,6 @@ const Properties = (props: Props): React.JSX.Element => {
   const state: SheetState = {
     animationState,
     configuration,
-    context,
     contributorLastSignedInDateTime,
     contributorName,
     currentRepositoryName,
@@ -265,7 +259,6 @@ const Properties = (props: Props): React.JSX.Element => {
     isContributorSignedIn,
     isHome,
     isShowingProperty,
-    logger,
     navigate,
     property,
     recentUrl,
@@ -293,7 +286,6 @@ const Properties = (props: Props): React.JSX.Element => {
         newHash ?? '',
         newProperty ?? '',
         fetcher,
-        logger,
         setAnimationState,
         setIsShowingProperty,
         setProperty,
@@ -373,12 +365,12 @@ const onNavigateToProperty = (
   newHash: string,
   newProperty: string,
   fetcher: FetcherType,
-  logger: LoggerType,
   setAnimationState: (animationState: string) => void,
   setIsShowingProperty: (isShowingProperty: boolean) => void,
   setProperty: (propertyName: string) => void,
   setThing: SetThingType): void => {
-  logger.setContext(onNavigateToProperty)
+  const logger = loggerFactory.create(onNavigateToProperty)
+
   setProperty(newProperty)
   fetcher.requestData({ url: `${newHash}/summary?properties=${newProperty}&offset=0` }
   ).then((response: Response) => {
@@ -497,5 +489,7 @@ const renderBusyProperties = (): React.JSX.Element => {
     </div>
   )
 }
+
+const loggerFactory = LoggerFactory(Properties)
 
 export default Properties

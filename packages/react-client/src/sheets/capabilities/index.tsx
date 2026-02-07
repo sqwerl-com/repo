@@ -1,13 +1,11 @@
 import ArchivedField from '@/sheets/components/fields/archived-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetState } from '@/properties'
 import TitleBar from '@/sheets/components/title-bar'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
@@ -15,15 +13,14 @@ interface Props {
  * Renders a read-only form that displays information about a security capability granted to individual contributors
  * or teams of contributors.
  * @param props
- * @constructor
  */
 const CapabilitiesSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(CapabilitiesSheet, CapabilitiesSheet)
-  logger.info('Rendering Capabilities property sheet')
-
   const connectionProperties = ['addedBy', 'archived', 'roles']
+  const logger = loggerFactory.create(CapabilitiesSheet)
   const { state } = props
   const { configuration, thing } = state
+
+  logger.info('Rendering Capabilities property sheet')
 
   if (thing == null) {
     return (<></>)
@@ -51,5 +48,7 @@ const CapabilitiesSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(CapabilitiesSheet)
 
 export default CapabilitiesSheet

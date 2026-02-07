@@ -8,7 +8,7 @@ import { render } from '@testing-library/react'
 it('renders without crashing', () => {
   render(
     <IntlProvider locale='en' messages={messages}>
-      <Logo basePath='/path' isEnabled themeName='dark' />
+      <Logo basePath='/path' isEnabled />
     </IntlProvider>
   )
 })

@@ -1,10 +1,9 @@
-import { mockApplicationConfiguration, mockApplicationContext, mockLogger, mockThing } from '@/utils/mocks'
+import { mockApplicationConfiguration, mockLogger, mockThing } from '@/utilities/mocks'
 import { SheetState } from '@/properties'
 
 export const mockSheetState = {
   animationState: '',
   configuration: mockApplicationConfiguration,
-  context: mockApplicationContext,
   contributorLastSignedInDateTime: '',
   contributorName: '',
   currentRepositoryName: 'test',
@@ -36,7 +35,6 @@ export const mockSheetState = {
 export const mockSheetStateWithMissingThing = {
   animationState: '',
   configuration: mockApplicationConfiguration,
-  context: mockApplicationContext,
   contributorLastSignedInDateTime: '',
   contributorName: '',
   currentRepositoryName: 'test',

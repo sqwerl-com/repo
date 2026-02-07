@@ -4,28 +4,22 @@ import ApplicationContext, { ApplicationContextType } from '@/context/applicatio
 import ApplicationMenuBar from '@/application/application-menu-bar'
 import BusyPane from '@/busy-pane'
 import Configuration from '@/configuration'
+import { CurrentThemeProvider } from '@/context/current-theme'
 import Fetcher, { FetcherType } from '@/fetcher'
-import { HasPictureData } from '@/utils/types'
+import { HasPictureData } from '@/utilities/types'
 import { IsBusyProvider } from '@/context/is-busy'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import { ModalityProvider } from '@/context/modality'
 import ModalPane from '@/modal-pane'
 import React, { useContext, useState } from 'react'
 import { RouteChangeHandler } from '@/route-change-handler'
 import Searcher from '@/searcher'
-import useAutoTheme from '@/utils/hooks/use-auto-theme'
-import useDerivedTheme from '@/utils/hooks/use-derived-theme'
+import useAutoTheme from '@/utilities/hooks/use-auto-theme'
+import useDerivedTheme from '@/utilities/hooks/use-derived-theme'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   /** This application's child components. */
   children?: React.JSX.Element
-}
-
-export interface ThumbnailType {
-  name: string
-  href: string
 }
 
 export interface SearchItemType extends HasPictureData {
@@ -53,7 +47,6 @@ export interface State {
   context: ApplicationContextType
   doesClickingOnModalPaneHideModals: boolean
   fetcher: FetcherType
-  logger: LoggerType
   overrideAutoTheme: (theme: string) => void
   path: Array<{ name: string, id: string }>
   setDoesClickingOnModalPaneHideModals: (value: (((prevState: boolean) => boolean) | boolean)) => void
@@ -80,7 +73,7 @@ export const EMPTY_SEARCH_RESULTS = {
  * @param props
  */
 const Application = (props: Props): React.JSX.Element => {
-  logger = Logger(Application, Application)
+  const logger = loggerFactory.create(Application)
   const [autoTheme, overrideAutoTheme] = useAutoTheme()
   const [derivedTheme] = useDerivedTheme(autoTheme, 'light')
   logger.info('Rendering the application')
@@ -162,7 +155,6 @@ const Application = (props: Props): React.JSX.Element => {
     context,
     doesClickingOnModalPaneHideModals,
     fetcher,
-    logger,
     overrideAutoTheme,
     path,
     setDoesClickingOnModalPaneHideModals,
@@ -188,6 +180,7 @@ const Application = (props: Props): React.JSX.Element => {
     >
       <main
         className={`sqwerl-application ${derivedTheme.toString()}`}
+        data-testid='application'
         onKeyDown={e => {
           if (isMenuModalPaneVisible && (e.key === 'Escape')) {
             logger.info('Escape key pressed')
@@ -195,6 +188,7 @@ const Application = (props: Props): React.JSX.Element => {
           }
         }}
       >
+        <CurrentThemeProvider themeName={autoTheme}>
         <IsBusyProvider>
           <BusyPane isVisible={isBusy} name='busyPane'><div /></BusyPane>
           <ModalPane
@@ -234,7 +228,6 @@ const Application = (props: Props): React.JSX.Element => {
                   showMoreMenu={() => showMoreMenu(state)}
                   showSearchMenu={() => showSearchMenu(state)}
                   showSignInMenu={() => showSignInMenu(state)}
-                  themeName={autoTheme}
                   toggleTheme={() => toggleTheme(state)}
                 >
                   {children}
@@ -258,6 +251,7 @@ const Application = (props: Props): React.JSX.Element => {
             />
           </div>
         </IsBusyProvider>
+        </CurrentThemeProvider>
       </main>
     </RouteChangeHandler>
   )
@@ -299,14 +293,14 @@ const classNameForSearchResults = (searchResults: SearchResults | null): string 
  */
 const hideModals = (state: State): void => {
   const {
-    logger,
     setIsMenuModalPaneVisible,
     setIsMoreMenuVisible,
     setIsSearchMenuVisible,
     setIsSignInMenuVisible
   } = state
 
-  logger.setContext(hideModals).debug('Hiding all of the application\'s modal windows')
+  const logger = loggerFactory.create(hideModals)
+  logger.debug('Hiding all of the application\'s modal windows')
 
   const setVisibilityFunctions = [
     setIsMenuModalPaneVisible,
@@ -376,9 +370,9 @@ const popPath = (state: State): void => {
  * @param state
  */
 const selectThing = (newPath: string, newHash: string, state: State): void => {
-  const { context, logger } = state
-
-  logger.setContext(selectThing).info(`Notifying listeners that the application is selecting the thing "${newHash}"`)
+  const { context } = state
+  const logger = loggerFactory.create(selectThing)
+  logger.info(`Notifying listeners that the application is selecting the thing "${newHash}"`)
   context.selectThingEvents.fire(newPath, newHash)
 }
 
@@ -388,7 +382,6 @@ const selectThing = (newPath: string, newHash: string, state: State): void => {
  */
 const showMoreMenu = (state: State): void => {
   const {
-    logger,
     setDoesClickingOnModalPaneHideModals,
     setIsMenuModalPaneVisible,
     setIsMoreMenuVisible,
@@ -396,7 +389,8 @@ const showMoreMenu = (state: State): void => {
     setIsSignInMenuVisible
   } = state
 
-  logger.setContext(showMoreMenu).debug('Requested to show More menu')
+  const logger = loggerFactory.create(showMoreMenu)
+  logger.debug('Requested to show More menu')
   setDoesClickingOnModalPaneHideModals(true)
   setIsMenuModalPaneVisible(true)
   setIsMoreMenuVisible(true)
@@ -410,13 +404,14 @@ const showMoreMenu = (state: State): void => {
  * @param state
  */
 const showProperties = (id: string, state: State): void => {
-  const { configuration, context, fetcher, logger } = state
-  logger.setContext(showProperties).info(`Requested to show the properties of the thing with the id "${id}"`)
+  const { configuration, context, fetcher } = state
+  const logger = loggerFactory.create(showProperties)
+  logger.info(`Requested to show the properties of the thing with the id "${id}"`)
 
   if (id.length > 0) {
     if (id === (configuration as { basePath: string }).basePath) {
       // TODO
-      console.log('Requested to go home')
+      logger.info('Requested to go home')
     } else {
       // TODO - Show contributors that we are fetching a thing's properties.
       fetcher.requestData({
@@ -453,7 +448,6 @@ const showProperties = (id: string, state: State): void => {
  */
 const showSearchMenu = (state: State): void => {
   const {
-    logger,
     setDoesClickingOnModalPaneHideModals,
     setIsMenuModalPaneVisible,
     setIsMoreMenuVisible,
@@ -461,7 +455,8 @@ const showSearchMenu = (state: State): void => {
     setIsSignInMenuVisible
   } = state
 
-  logger.setContext(showSearchMenu).debug('Requested to show Search menu')
+  const logger = loggerFactory.create(showSearchMenu)
+  logger.debug('Requested to show Search menu')
   setDoesClickingOnModalPaneHideModals(false)
   setIsMenuModalPaneVisible(true)
   setIsMoreMenuVisible(false)
@@ -475,7 +470,6 @@ const showSearchMenu = (state: State): void => {
  */
 const showSignInMenu = (state: State): void => {
   const {
-    logger,
     setDoesClickingOnModalPaneHideModals,
     setIsMenuModalPaneVisible,
     setIsMoreMenuVisible,
@@ -483,7 +477,8 @@ const showSignInMenu = (state: State): void => {
     setIsSignInMenuVisible
   } = state
 
-  logger.setContext(showSignInMenu).debug('Requested to show Sign In menu')
+  const logger = loggerFactory.create(showSignInMenu)
+  logger.debug('Requested to show Sign In menu')
   setDoesClickingOnModalPaneHideModals(true)
   setIsMenuModalPaneVisible(true)
   setIsMoreMenuVisible(false)
@@ -496,12 +491,15 @@ const showSignInMenu = (state: State): void => {
  * @param state
  */
 const toggleTheme = (state: State): void => {
-  const { autoTheme, logger, overrideAutoTheme, setIsMenuModalPaneVisible, setIsMoreMenuVisible } = state
+  const { autoTheme, overrideAutoTheme, setIsMenuModalPaneVisible, setIsMoreMenuVisible } = state
+  const logger = loggerFactory.create(toggleTheme)
 
-  logger.setContext(toggleTheme).info('Toggling the user interface theme between light and dark')
+  logger.info('Toggling the user interface theme between light and dark')
   setIsMenuModalPaneVisible(false)
   setIsMoreMenuVisible(false)
   overrideAutoTheme(autoTheme === 'dark' ? 'light' : 'dark')
 }
+
+const loggerFactory = LoggerFactory(Application)
 
 export default Application

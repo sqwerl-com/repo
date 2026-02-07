@@ -1,12 +1,13 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   capabilities: CollectionType<Thing>
   state: SheetState
 }
@@ -14,7 +15,6 @@ interface Props {
 /**
  * Renders a read-only field that lists the capabilities granted to users.
  * @param props
- * @constructor
  */
 const CapabilitiesField = (props: Props): React.JSX.Element => {
   const { capabilities, state } = props
@@ -38,7 +38,8 @@ const CapabilitiesField = (props: Props): React.JSX.Element => {
  * @param state
  */
 const capabilitiesLink = (_intl: IntlShape, capabilities: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { id, name, type } = capabilities
 
   return (

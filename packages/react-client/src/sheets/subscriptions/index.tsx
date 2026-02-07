@@ -4,7 +4,7 @@ import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import PictureField from '@/sheets/components/fields/picture-field'
 import PostsField from '@/sheets/components/fields/posts-field'
 import RecommendationsField from '@/sheets/components/fields/recommendations-field'
@@ -19,19 +19,15 @@ import { useIntl } from 'react-intl'
 import WebPageField from '@/sheets/components/fields/web-page-field'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information about information sources that people can subscribe to.
  * @param props
- * @constructor
  */
 const SubscriptionsSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(SubscriptionsSheet, SubscriptionsSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
@@ -46,6 +42,7 @@ const SubscriptionsSheet = (props: Props): React.JSX.Element => {
     'tags',
     'webPage'
   ]
+  const logger = loggerFactory.create(SubscriptionsSheet)
 
   logger.info('Render Subscriptions property sheet')
 
@@ -76,7 +73,9 @@ const SubscriptionsSheet = (props: Props): React.JSX.Element => {
     thumbnailUrl,
     webPage
   } = thing
+  const pictureFieldDescription = intl.formatMessage({ id: 'subscriptionsSheet.pictureFieldDescription' })
   const pictureFieldTitle = intl.formatMessage({ id: 'subscriptionsSheet.pictureFieldTitle' })
+  const webPageFieldDescription = intl.formatMessage({ id: 'subscriptionsSheet.webPageFieldDescription' })
 
   return (
     <>
@@ -94,6 +93,7 @@ const SubscriptionsSheet = (props: Props): React.JSX.Element => {
         {archived && <ArchivedField archived={archived} />}
         {pictures &&
           <PictureField
+            fieldDescription={pictureFieldDescription}
             fieldTitle={pictureFieldTitle}
             pictures={pictures}
             size='medium'
@@ -104,17 +104,26 @@ const SubscriptionsSheet = (props: Props): React.JSX.Element => {
         {authors && <AuthorsField authors={authors} state={state} />}
         {collections && <CollectionsField collections={collections} state={state} />}
         {posts && <PostsField posts={posts} state={state} />}
-        {webPage && <WebPageField webPage={webPage} state={state} />}
+        {webPage && <WebPageField description={webPageFieldDescription} webPage={webPage} state={state} />}
         {recommendedBy && <RecommendedByField recommendedBy={recommendedBy} state={state} />}
         {recommendations && <RecommendationsField recommendations={recommendations} state={state} />}
         {tags && <TagsField tags={tags} state={state} />}
         {links && <LinksField links={links} state={state} />}
         {subscribers && <SubscribersField state={state} subscribers={subscribers} />}
-        {subscriptionUrl && <SubscriptionUrlField labelId='subscriptionUrl.label' url={subscriptionUrl} state={state} />}
+        {subscriptionUrl &&
+          <SubscriptionUrlField
+            descriptionId='subscriptionUrl.description'
+            labelId='subscriptionUrl.label'
+            state={state}
+            url={subscriptionUrl}
+          />
+        }
         {addedBy && addedOn && <HistoryField addedBy={addedBy} addedOn={addedOn} state={state} />}
       </ScrollableContent>
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(SubscriptionsSheet)
 
 export default SubscriptionsSheet

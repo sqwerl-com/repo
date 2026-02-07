@@ -4,7 +4,7 @@ import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import React from 'react'
 import { render } from '@testing-library/react'
-import { RepositoryShape, Thing } from '@/utils/types'
+import { RepositoryShape, Thing } from '@/utilities/types'
 
 it('renders without crashing', () => {
   const recentChanges = []

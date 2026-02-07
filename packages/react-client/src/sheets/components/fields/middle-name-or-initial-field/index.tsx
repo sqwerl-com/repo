@@ -3,7 +3,7 @@ import { SheetState } from '@/properties'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   middleNameOrInitial: string
   state: SheetState
 }
@@ -11,7 +11,6 @@ interface Props {
 /**
  * Renders a read-only field that displays a person's middle name or middle name initial.
  * @param props
- * @constructor
  */
 const MiddleNameOrInitialField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
@@ -21,7 +20,10 @@ const MiddleNameOrInitialField = (props: Props): React.JSX.Element => {
     <>
       {middleNameOrInitial &&
         <div className='sqwerl-properties-read-only-field'>
-          <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'middleNameOrInitial.field.label' })} />
+          <ReadOnlyFieldLabel
+            description={intl.formatMessage({ id: 'middleNameOrInitial.field.description' })}
+            labelText={intl.formatMessage({ id: 'middleNameOrInitial.field.label' })}
+          />
           <div
             className='sqwerl-properties-read-only-field-value'
             // TODO - Scrub the value to make sure its secured against XSS attacks.

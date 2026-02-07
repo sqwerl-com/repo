@@ -8,6 +8,7 @@ export interface ConfigurationType {
   defaultRepositoryId: string
   defaultRepositoryName: string
   homeId: string
+  propertiesRowHeightInPixels: number
   rowHeightInPixels: number
   VERSION: string
 }
@@ -70,10 +71,15 @@ const Configuration = {
   homeId: '/types/views/initial',
 
   /**
+   * Default height, in pixels, for rows within property sheets.
+   */
+  propertiesRowHeightInPixels: 110,
+
+  /**
    * This is the default height, in pixels, for rows within infinite scrollers. This value needs to be in sync
    * with its corresponding CSS variable.
    */
-  rowHeightInPixels: 80,
+  rowHeightInPixels: 110,
 
   /**
    * The version number of the protocol that this client application uses to communicate to its server application.

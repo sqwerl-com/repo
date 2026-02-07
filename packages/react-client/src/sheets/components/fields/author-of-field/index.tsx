@@ -1,31 +1,32 @@
-import { CollectionType, Thing, ThumbnailShape } from '@/utils/types'
+import ApplicationContext from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
-import lowerCaseFirstLetter from '@/utils/formatters/lower-case-first-letter'
+import lowerCaseFirstLetter from '@/utilities/formatters/lower-case-first-letter'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   authorOf: CollectionType<Thing>
+  fieldDescription?: string
   state: SheetState
 }
 
 /**
  * Renders a read-only field that displays links to the things an author has authored.
- * @param {Props} props
- * @returns {JSX.Element}
- * @constructor
+ * @param props
  */
 const AuthorOfField = (props: Props): React.JSX.Element => {
-  const { authorOf, state } = props
+  const { authorOf, fieldDescription, state } = props
   const intl = useIntl()
 
   return (
     <Field
       collection={authorOf}
       createLink={authorOfLink}
+      fieldDescription={fieldDescription}
       fieldLabel={intl.formatMessage({ id: 'authorOf.field.label' }, { count: authorOf.totalCount })}
       property='authorOf'
       state={state}
@@ -35,17 +36,15 @@ const AuthorOfField = (props: Props): React.JSX.Element => {
 
 /**
  * Renders a hyperlink to an authored thing.
- * @param {IntlShape} intl
- * @param {BasicThing} authorOf
- * @param {SheetState} state
- * @returns {React.ReactNode}
+ * @param intl
+ * @param authorOf
+ * @param state
  */
 const authorOfLink = (intl: IntlShape, authorOf: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { id, name, type, typeName } = authorOf
   const lowerCaseTypeName = lowerCaseFirstLetter(typeName)
-  const thumbnails = authorOf.thumbnails
-  const thumbnail = retrieveThumbnail(thumbnails)
   const typeMessageKey = `is${typeName}`
 
   return (
@@ -54,10 +53,6 @@ const authorOfLink = (intl: IntlShape, authorOf: Thing, state: SheetState): Reac
         className='sqwerl-hyperlink-underline-on-hover'
         to={LinkUrlBuilder(context, configuration.applicationName, currentRepositoryName, id, type)}
       >
-        {(!!thumbnail) &&
-          <span className='sqwerl-read-only-field-value-thumbnail'>
-            <img data-testid='sqwerl-thumbnail' src={thumbnail.href} />
-          </span>}
         <span className='sqwerl-read-only-field-label-text'>{name}</span>
       </Link>
       <span className='sqwerl-read-only-field-sub-item-type-name'>
@@ -69,18 +64,6 @@ const authorOfLink = (intl: IntlShape, authorOf: Thing, state: SheetState): Reac
       </span>
     </span>
   )
-}
-
-const retrieveThumbnail = (thumbnails?: ThumbnailShape[]): ThumbnailShape | undefined => {
-  if (thumbnails) {
-    if (thumbnails.length === 1) {
-      return thumbnails[0]
-    } else {
-      return thumbnails.find(t => t.name && t.name.includes('medium'))
-    }
-  }
-
-  return undefined
 }
 
 export default AuthorOfField

@@ -7,7 +7,6 @@ import { ApplicationContextType } from '@/context/application'
  * @param repositoryName The name of the repository of things that the referenced thing is contained within.
  * @param id A thing's unique identifier (unique within a repository of things).
  * @param type The unique identifier of the referenced thing's type.
- * @constructor
  */
 const LinkUrlBuilder = (
   context: ApplicationContextType,

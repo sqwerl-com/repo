@@ -7,16 +7,15 @@ import { EMPTY_SEARCH_RESULTS, SearchItemType, SearchResults } from '@/applicati
 import type { FetcherType } from '@/fetcher'
 import { FormattedMessage, IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import SearchContext from '@/search-context'
-import SmallThumbnailImage from '@/utils/components/small-thumbnail-image'
 import type { SearcherType } from '@/searcher'
+import ThumbnailImage, { SIZES } from '@/utilities/components/thumbnail-image'
 import { useContext, useEffect, useState } from 'react'
 import * as React from 'react'
+import { evenOrOddClassName } from '@/utilities/css/even-or-odd-class-name.ts'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   children: React.ReactNode
 
   configuration: ConfigurationType
@@ -50,7 +49,6 @@ interface State {
   context: ApplicationContextType
   currentRepositoryName: string
   intl: IntlShape
-  logger: LoggerType
   setSortByPropertyName: (propertyName: string | null) => void
   setSortDirection: (direction: number) => void
 
@@ -71,25 +69,21 @@ interface State {
  * @param props
  */
 const SearchMenu = (props: Props): React.JSX.Element => {
-  logger = Logger(SearchMenu, SearchMenu)
+  const { currentRepositoryName, isVisible, searchResults, stopSearch } = props
   const intl = useIntl()
   const [sortByPropertyName, setSortByPropertyName] = useState<(string | null)>(null)
   const [sortDirection, setSortDirection] = useState<number>(0)
-  /* TODO - Do we need this? Can we delete it?
-  const closeCallback = React.useCallback(() => close(state), [])
-  */
-  const { currentRepositoryName, isVisible, searchResults, stopSearch } = props
   const state: State = {
     context: useContext<ApplicationContextType>(ApplicationContext),
     currentRepositoryName,
     intl,
-    logger,
     setSortByPropertyName,
     setSortDirection,
     sortByPropertyName,
     sortDirection,
     stopSearch
   }
+
   // Close this menu when the user presses the Escape key.
   useEffect(() => {
     const handleEscapeKey = (event: KeyboardEvent): void => {
@@ -100,6 +94,7 @@ const SearchMenu = (props: Props): React.JSX.Element => {
     window.addEventListener('keydown', handleEscapeKey)
     return () => window.removeEventListener('keydown', handleEscapeKey)
   })
+
   // Reset the table column sort order when this menu becomes visible.
   useEffect(() => {
     if (isVisible) {
@@ -123,8 +118,9 @@ const SearchMenu = (props: Props): React.JSX.Element => {
  * @param state
  */
 const close = (state: State): void => {
-  const { logger, stopSearch } = state
-  logger.setContext(close).debug('Closing (hiding) search menu')
+  const logger = loggerFactory.create(close)
+  const { stopSearch } = state
+  logger.debug('Closing (hiding) search menu')
   stopSearch()
 }
 
@@ -164,10 +160,13 @@ const cycleSortDirection = (props: Props, state: State): number => {
  */
 const highlightSearchTextWithinText = (props: Props, text: string): React.JSX.Element => {
   const { currentSearchText } = props
+
   if ((currentSearchText !== '') && (text !== '')) {
     const i = text.toLowerCase().indexOf(currentSearchText.toLowerCase())
+
     if (i !== -1) {
       const endOfSearchTextIndex = i + currentSearchText.length
+
       return (
         <>
           <span className='sqwerl-search-text'>
@@ -181,6 +180,7 @@ const highlightSearchTextWithinText = (props: Props, text: string): React.JSX.El
       return <span className='sqwerl-search-text'>{text}</span>
     }
   }
+
   return (<></>)
 }
 
@@ -197,29 +197,38 @@ const renderFoundThings = (intl: IntlShape, props: Props, state: State): React.J
   const { sortByPropertyName, sortDirection } = state
   const items = []
   let sortOrderIcon
+
   switch (sortDirection) {
     case -1:
       sortOrderIcon = <ChevronUp />
       break
+
     case 0:
       sortOrderIcon = ''
       break
+
     case 1:
       sortOrderIcon = <ChevronDown />
       break
+
     default:
       sortOrderIcon = ''
       break
   }
+
+  const indexColumnWidth = `columns-${Math.min(6, Math.round(Math.log10(searchItems.length)) + 1)}`
   let maxIndex = 0
+
   searchItems.forEach(item => {
-    items[item.index] = renderSearchItemResult(props, item, state)
+    items[item.index] = renderSearchItemResult(props, item, indexColumnWidth, state)
     maxIndex = item.index > maxIndex ? item.index : maxIndex
   })
+  
   // Let the user know if we're still loading search results.
   items[maxIndex + 1] = isFetchingSearchResults ? renderLoadingSearchItemResult(intl, props, maxIndex) : null
   const nameColumnSortIcon = (sortByPropertyName === 'name') ? sortOrderIcon : ''
   const typeColumnSortIcon = (sortByPropertyName === 'type') ? sortOrderIcon : ''
+
   return (
     <div className='sqwerl-search-menu-found-things'>
       <div className='sqwerl-search-results-table-headings'>
@@ -272,7 +281,7 @@ const renderFoundThings = (intl: IntlShape, props: Props, state: State): React.J
         </div>
       */}
       <div className='sqwerl-search-results-scrollable'>
-        <div className='sqwerl-search-results-table'>
+        <div className='sqwerl-list-view'>
           {items}
         </div>
       </div>
@@ -289,6 +298,7 @@ const renderFoundThings = (intl: IntlShape, props: Props, state: State): React.J
  */
 const renderFoundTooMany = (intl: IntlShape, props: Props, state: State): React.JSX.Element => {
   const { currentSearchText } = props
+
   return (
     <div className='sqwerl-search-nothing-found'>
       <div className='sqwerl-search-nothing-found-title'>
@@ -327,6 +337,7 @@ const renderFoundTooMany = (intl: IntlShape, props: Props, state: State): React.
  */
 const renderLoadingSearchItemResult = (intl: IntlShape, props: Props, index: number): React.JSX.Element => {
   const loadingText = intl.formatMessage({ id: 'loading' })
+
   return (
     <tr className='sqwerl-search-result-loading-item' key={index}>
       <td className='sqwerl-search-results-loading-cell' colSpan={3}>
@@ -350,6 +361,7 @@ const renderLoadingSearchItemResult = (intl: IntlShape, props: Props, index: num
  */
 const renderNothingFound = (intl: IntlShape, props: Props, state: State): React.JSX.Element => {
   const { currentSearchText } = props
+
   return (
     <div className='sqwerl-search-nothing-found'>
       <div className='sqwerl-search-nothing-found-title'>
@@ -387,13 +399,17 @@ const renderNothingFound = (intl: IntlShape, props: Props, state: State): React.
  */
 const renderSearchItemFoundInProperties = (props: Props, item: SearchItemType): React.ReactNode => {
   const result: React.JSX.Element[] = []
+
   if ({}.hasOwnProperty.call(item, 'foundInProperties')) {
     const foundInPropertyCount = item.foundInProperties !== undefined ? item.foundInProperties.length : 0
+
     if (foundInPropertyCount > 1) {
       const propertyDescriptions: React.ReactNode[] = []
+
       if (item.foundInProperties !== undefined) {
         item.foundInProperties.forEach((foundInProperty, index) => {
           const { name, value } = foundInProperty
+
           propertyDescriptions.push(
             <li key={index++}>
               <span className='sqwerl-found-in-property-name-list-item'>{name}</span>
@@ -405,6 +421,7 @@ const renderSearchItemFoundInProperties = (props: Props, item: SearchItemType): 
           )
         })
       }
+
       return (
         <>
           <p className='sqwerl-found-in-properties-title'>
@@ -420,6 +437,7 @@ const renderSearchItemFoundInProperties = (props: Props, item: SearchItemType): 
       )
     } else if ((foundInPropertyCount === 1) && (item.foundInProperties !== undefined)) {
       const foundInProperty = item.foundInProperties[0]
+
       return (
         <div className='sqwerl-search-results-found-in'>
           <FormattedMessage id='searchMenu.searchResults.foundOneMatchingPropertyPrefix' />
@@ -432,6 +450,7 @@ const renderSearchItemFoundInProperties = (props: Props, item: SearchItemType): 
       )
     }
   }
+
   return result
 }
 
@@ -439,40 +458,82 @@ const renderSearchItemFoundInProperties = (props: Props, item: SearchItemType): 
  * Renders a description of a thing that matched search text that a user requested to search for.
  * @param props
  * @param item Describes a thing that matches text to search for.
+ * @param indexColumnWidth CSS width style for the search item's index number.
  * @param state State information.
  */
-const renderSearchItemResult = (props: Props, item: SearchItemType, state: State): React.JSX.Element => {
+const renderSearchItemResult = (
+  props: Props,
+  item: SearchItemType,
+  indexColumnWidth: string,
+  state: State
+): React.JSX.Element => {
   const { configuration } = props
   const { applicationName } = configuration
-  const { context, currentRepositoryName } = state
+  const { context, currentRepositoryName, intl } = state
   const { id, index, typeName } = item
   const { parentThingIdToHref } = context
   const linkTarget = `${parentThingIdToHref(currentRepositoryName, id)}#/` +
     `${applicationName}/${currentRepositoryName}${context.encodeUriReplaceStringsWithHyphens(id)}`
+
   return (
-    <Link
-      className={`sqwerl-search-results-item-link ${index % 2 === 0 ? 'even' : 'odd'}`}
-      onClick={() => close(state)}
-      key={id}
-      to={linkTarget}
-    >
-      <div className='sqwerl-search-results-index-cell' onClick={() => { location.href = linkTarget }}>
-        <span className='sqwerl-search-results-description-index'>{index + 1}.</span>
-      </div>
-      <div className='sqwerl-search-results-description-cell'>
-        <div className='sqwerl-search-results-description-cell-content'>
-          <div className='sqwerl-search-results-description-cell-content-text'>
-            <span className='sqwerl-search-results-link'>{highlightSearchTextWithinText(props, item.name)}</span>
-            {renderSearchItemFoundInProperties(props, item)}
+    <div className={`sqwerl-navigation-item ${evenOrOddClassName(index)}`}>
+      <Link
+        className='sqwerl-navigation-parent-item double-height'
+        data-id={id}
+        data-key={index}
+        key={id}
+        to={linkTarget}
+      >
+        <span className={`sqwerl-navigation-item-ordinal ${indexColumnWidth}`}>
+          {intl.formatNumber(index + 1)}
+        </span>
+        <div className='sqwerl-navigation-item-content'>
+          <div className='sqwerl-parent-item-heading'>
+            <div className='sqwerl-navigation-title'>
+              <div className='sqwerl-search-results-description-cell-content'>
+                <div className='sqwerl-search-results-description-cell-content-text'>
+                  <span className='sqwerl-search-results-link'>{highlightSearchTextWithinText(props, item.name)}</span>
+                  <span className='sqwerl-navigation-item-type-name'>
+                    {context.typeNameToTypeDescription(intl, item.typeName)}
+                  </span>
+                  {renderSearchItemFoundInProperties(props, item)}
+                </div>
+              </div>
+            </div>
           </div>
-          <SmallThumbnailImage depictable={item} />
+          <div className='sqwrel-parent-item-details'>
+            <div className='sqwerl-navigation-item-icon' data-key={index}>
+              <ThumbnailImage depictable={item} size={SIZES.small} typeId={item.typeId} />
+            </div>
+          </div>
         </div>
-      </div>
-      {/* TODO - Internationalize the type name - Use the typeId to find a message format, if no format
-          exists, then fall back to the type name.
+      {/*
+      <Link
+        className={`sqwerl-search-results-item-link ${index % 2 === 0 ? 'even' : 'odd'}`}
+        onClick={() => close(state)}
+        key={id}
+        to={linkTarget}
+      >
+        <div className='sqwerl-search-results-index-cell' onClick={() => { location.href = linkTarget }}>
+          <span className='sqwerl-search-results-description-index'>{index + 1}.</span>
+        </div>
+        <div className='sqwerl-search-results-description-cell'>
+          <div className='sqwerl-search-results-description-cell-content'>
+            <div className='sqwerl-search-results-description-cell-content-text'>
+              <span className='sqwerl-search-results-link'>{highlightSearchTextWithinText(props, item.name)}</span>
+              {renderSearchItemFoundInProperties(props, item)}
+            </div>
+            <ThumbnailImage depictable={item} size={SIZES.small} typeId={item.typeId} />
+          </div>
+        </div>
+        * TODO - Internationalize the type name - Use the typeId to find a message format, if no format
+            exists, then fall back to the type name.
+        *
+        <div className='sqwerl-search-results-type-cell'>{typeName}</div>
+      </Link>
       */}
-      <div className='sqwerl-search-results-type-cell'>{typeName}</div>
-    </Link>
+      </Link>
+    </div>
   )
 }
 
@@ -501,13 +562,13 @@ const sortBy = (props: Props, propertyName: string, state: State): void => {
   const { configuration, currentSearchText, fetcher, searcher, setSearchResults } = props
   const { applicationName } = configuration
   const {
-    logger,
     setSortByPropertyName,
     setSortDirection,
     sortByPropertyName
   } = state
-  logger.setContext(sortBy)
+  const logger = loggerFactory.create(sortBy)
   let newSortDirection
+
   if (sortByPropertyName === propertyName) {
     newSortDirection = cycleSortDirection(props, state)
   } else {
@@ -515,6 +576,7 @@ const sortBy = (props: Props, propertyName: string, state: State): void => {
     newSortDirection = 1
     setSortDirection(newSortDirection)
   }
+
   // setIsFetchingSearchResults(true)
   setSearchResults(EMPTY_SEARCH_RESULTS)
   searcher.search(
@@ -545,8 +607,7 @@ const sortBy = (props: Props, propertyName: string, state: State): void => {
  * @param state
  */
 const sortByName = (props: Props, state: State): void => {
-  const { logger } = state
-  logger.setContext(sortByName)
+  const logger = loggerFactory.create(sortByName)
   logger.info('Requested to sort search results by names of things')
   sortBy(props, 'name', state)
 }
@@ -557,10 +618,11 @@ const sortByName = (props: Props, state: State): void => {
  * @param state
  */
 const sortByType = (props: Props, state: State): void => {
-  const { logger } = state
-  logger.setContext(sortByType)
+  const logger = loggerFactory.create(sortByType)
   logger.info('Requested to sort search results by names of the types of things')
   sortBy(props, 'type', state)
 }
+
+const loggerFactory = LoggerFactory(SearchMenu)
 
 export default SearchMenu

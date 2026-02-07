@@ -4,10 +4,10 @@ import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
-import { Picture } from '@/utils/types'
+import LoggerFactory from '@/logger'
+import { Picture } from '@/utilities/types'
 import PictureOfField from '@/sheets/components/fields/picture-of-field'
-import RepresentationsField from '@/sheets/components/fields/representations-field'
+import PicturesRepresentationsField from '@/sheets/components/fields/pictures-representations-field'
 import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetState } from '@/properties'
 import ShortDescriptionField from '@/sheets/components/fields/short-description-field'
@@ -15,25 +15,21 @@ import TagsField from '@/sheets/components/fields/tags-field'
 import TitleBar from '@/sheets/components/title-bar'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information about pictures of things.
  * @param props
- * @constructor
  */
 const PicturesSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(PicturesSheet, PicturesSheet)
   const connectionProperties = ['addedBy', 'archived', 'authors', 'collections', 'links', 'pictureOf', 'tags']
-
-  logger.info('Rendering Pictures property sheet')
-
+  const logger = loggerFactory.create(PicturesSheet)
   const { state } = props
   const { configuration, thing } = state
+
+  logger.info('Rendering Pictures property sheet')
 
   if (thing == null) {
     return (<></>)
@@ -73,11 +69,12 @@ const PicturesSheet = (props: Props): React.JSX.Element => {
         {authors && <AuthorsField authors={authors} state={state} />}
         {description && <DescriptionField description={description} state={state} />}
         {representations &&
-          <RepresentationsField
+          <PicturesRepresentationsField
             fieldTitleId='representations.field.label'
             representations={representations}
             state={state}
-          />}
+          />
+        }
         {collections && <CollectionsField collections={collections} state={state} />}
         {tags && <TagsField tags={tags} state={state} />}
         {links && <LinksField links={links} state={state} />}
@@ -86,5 +83,7 @@ const PicturesSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(PicturesSheet)
 
 export default PicturesSheet

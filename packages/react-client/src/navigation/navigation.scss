@@ -1,4 +1,4 @@
-@import "../index.scss";
+@use "../index.scss" as application;
 
 .sqwerl-button-bar {
   align-self: end;
@@ -20,26 +20,26 @@
     z-index: var(--horizontal-divider-split-left-child-z-index);
 
     &.slide-left {
-      transition: left 0.2s $sqwerl-slide-transition-function;
+      transition: left 0.2s application.$sqwerl-slide-transition-function;
       left: calc(-100%);
       z-index: var(--horizontal-divider-split-child-animated-z-index);
     }
 
     &.slide-right {
-      transition: left 0.2s $sqwerl-slide-transition-function;
+      transition: left 0.2s application.$sqwerl-slide-transition-function;
       left: calc(100%);
       z-index: var(--horizontal-divider-split-child-animated-z-index);
     }
 
     .sqwerl-navigation-back {
       cursor: default;
-      font-family: $sqwerl-font-family;
+      font-family: application.$sqwerl-font-family;
       font-size: 1rem;
       font-weight: normal;
       flex: 1 1 auto;
       justify-content: flex-start;
-      letter-spacing: $sqwerl-letter-spacing;
-      line-height: $sqwerl-content-heading-height;
+      letter-spacing: application.$sqwerl-letter-spacing;
+      line-height: application.$sqwerl-content-heading-height;
 
       & a {
         cursor: pointer;
@@ -48,7 +48,7 @@
     }
 
     & .sqwerl-navigation-title-text {
-      line-height: $sqwerl-row-height;
+      line-height: application.$sqwerl-row-height;
     }
   }
 
@@ -66,11 +66,11 @@
       flex: 1 1 auto;
       height: 100%;
       position: absolute;
-      top: $sqwerl-content-heading-height;
+      top: application.$sqwerl-content-heading-height;
       width: 100%;
 
       & .sqwerl-navigation-item {
-        height: $sqwerl-list-row-height-pixels;
+        height: application.$sqwerl-list-row-height-pixels;
       }
     }
 
@@ -80,11 +80,11 @@
     .sqwerl-navigation-bar-busy {
       background: var(--content-heading-background);
       border-bottom: 1px solid var(--content-heading-border-bottom-color);
-      box-shadow: 0 $sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
+      box-shadow: 0 application.$sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
       display: flex;
-      max-height: $sqwerl-content-heading-height;
-      min-height: $sqwerl-content-heading-height;
-      height: $sqwerl-content-heading-height;
+      max-height: application.$sqwerl-content-heading-height;
+      min-height: application.$sqwerl-content-heading-height;
+      height: application.$sqwerl-content-heading-height;
       position: absolute;
       width: 100%;
       z-index: var(--navigation-bar-z-index);
@@ -99,7 +99,7 @@
         background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
         cursor: default;
         flex: 1 1 auto;
-        height: calc(#{$sqwerl-row-height} / 2);
+        height: calc(#{application.$sqwerl-row-height} / 2);
         margin-left: 0.5rem;
         margin-right: 0.5rem;
         vertical-align: middle;
@@ -111,7 +111,7 @@
       background: var(--list-item-background);
       border-bottom: 1px solid var(--list-item-bottom-border-color);
       display: flex;
-      height: calc(#{$sqwerl-navigation-items-height} + #{$sqwerl-focus-border-size} * 2);
+      height: calc(#{application.$sqwerl-navigation-items-height} + #{application.$sqwerl-focus-border-size} * 2);
       left: 0;
 
       &.even {
@@ -129,7 +129,7 @@
         background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
         cursor: default;
         flex: 1 1 auto;
-        height: calc(#{$sqwerl-row-height} / 2);
+        height: application.$sqwerl-navigation-items-height;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
         vertical-align: middle;

@@ -5,30 +5,26 @@ import DescriptionField from '@/sheets/components/fields/description-field'
 import EpisodesField from '@/sheets/components/fields/episodes-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import RecommendationsField from '@/sheets/components/fields/recommendations-field'
 import RecommendedByField from '@/sheets/components/fields/recommended-by-field'
 import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetState } from '@/properties'
 import TagsField from '@/sheets/components/fields/tags-field'
 import TitleBar from '@/sheets/components/title-bar'
+import { useIntl } from 'react-intl'
 import WebPageField from '@/sheets/components/fields/web-page-field'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information about a podcast.
- * @param {Props} props
- * @returns {JSX.Element}
- * @constructor
+ * @param props
  */
 const PodcastsSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(PodcastsSheet, PodcastsSheet)
   /* TODO - If the podcast has a web page add one to the connection count. */
   const connectionProperties = [
     'addedBy',
@@ -42,11 +38,12 @@ const PodcastsSheet = (props: Props): React.JSX.Element => {
     'recommendedBy',
     'tags'
   ]
-
-  logger.info('Render Podcasts property sheet')
-
+  const intl = useIntl()
+  const logger = loggerFactory.create(PodcastsSheet)
   const { state } = props
   const { configuration, thing } = state
+
+  logger.info('Render Podcasts property sheet')
 
   if (thing == null) {
     return (<></>)
@@ -67,6 +64,7 @@ const PodcastsSheet = (props: Props): React.JSX.Element => {
     tags,
     webPage
   } = thing
+  const webPageFieldDescription = intl.formatMessage({ id: 'podcastsSheet.webPageFieldDescription' })
 
   return (
     <>
@@ -86,7 +84,7 @@ const PodcastsSheet = (props: Props): React.JSX.Element => {
         {authors && <AuthorsField authors={authors} state={state} />}
         {collections && <CollectionsField collections={collections} state={state} />}
         {episodes && <EpisodesField episodes={episodes} state={state} />}
-        {webPage && <WebPageField state={state} webPage={webPage} />}
+        {webPage && <WebPageField description={webPageFieldDescription} state={state} webPage={webPage} />}
         {recommendedBy && <RecommendedByField recommendedBy={recommendedBy} state={state} />}
         {recommendations && <RecommendationsField recommendations={recommendations} state={state} />}
         {links && <LinksField links={links} state={state} />}
@@ -96,5 +94,7 @@ const PodcastsSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(PodcastsSheet)
 
 export default PodcastsSheet

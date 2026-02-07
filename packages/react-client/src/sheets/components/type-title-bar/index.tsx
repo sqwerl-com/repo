@@ -1,10 +1,10 @@
 import ChildrenCount from '@/sheets/components/children-count'
 import { ConfigurationType } from '@/configuration'
-import { Thing } from '@/utils/types'
+import { Thing } from '@/utilities/types'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   configuration: ConfigurationType
 
   /** Number of children a type of thing has. */

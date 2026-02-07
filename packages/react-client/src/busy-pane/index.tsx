@@ -1,9 +1,7 @@
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   children?: React.ReactNode
 
   /** Should this busy pane be visible? */
@@ -23,11 +21,13 @@ interface Props {
  */
 const BusyPane = (props: Props): React.JSX.Element => {
   const { children, isVisible, name } = props
+  const logger = loggerFactory.create(BusyPane)
 
-  logger = Logger(BusyPane, BusyPane)
   logger.debug(`isVisible = ${isVisible.toString()}`)
   const isVisibleClassName = isVisible ? 'visible' : 'hidden'
   return (<div className={`sqwerl-busy-pane ${name} ${isVisibleClassName}`} data-testid='busy-pane'>{children}</div>)
 }
+
+const loggerFactory = LoggerFactory(BusyPane)
 
 export default BusyPane

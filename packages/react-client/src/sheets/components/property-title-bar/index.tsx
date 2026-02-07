@@ -2,11 +2,11 @@ import { ChevronLeft } from 'react-feather'
 import { ConfigurationType } from '@/configuration'
 import { NavigateFunction, useNavigate } from 'react-router-dom'
 import type { SheetState } from '@/properties'
-import { Thing } from '@/utils/types'
+import { Thing } from '@/utilities/types'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   configuration: ConfigurationType
 
   count: number

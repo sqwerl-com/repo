@@ -1,13 +1,12 @@
 import React from 'react'
 
-type Props = {
+export interface Props {
   url: string
 }
 
 /**
  * Renders an icon that is an HTML anchor (link) to a URL that will open in a new browser tab or window.
  * @param props
- * @constructor
  */
 const Index = (props: Props) => {
   const { url } = props

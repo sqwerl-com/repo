@@ -1,29 +1,27 @@
 /* global HTMLDivElement, HTMLElement */
 
-import { ApplicationContextType } from '@/context/application'
-import ChangeLabel from '@/sheets/components/change-label'
+import ApplicationContext, { ApplicationContextType } from '@/context/application'
 import { ChevronLeft, Edit3, HelpCircle, PlusSquare, Trash2 } from 'react-feather'
 import { ConfigurationType } from '@/configuration'
-import { evenOrOddClassName } from '@/utils/css/even-or-odd-class-name'
+import { evenOrOddClassName } from '@/utilities/css/even-or-odd-class-name'
 import { FetcherType } from '@/fetcher'
-import { FormattedMessage, IntlShape, useIntl } from 'react-intl'
+import { HasPictureData, RepositoryChangeDescription, RepositoryChangeType } from '@/utilities/types'
 import InfiniteLoader from 'react-window-infinite-loader'
-import { linkTargetToCollection, linkTargetToLeaf } from '@/utils/formatters/link-target'
+import { IntlShape, useIntl } from 'react-intl'
+import { linkTargetToCollection, linkTargetToLeaf } from '@/utilities/formatters/link-target'
 import { ListChildComponentProps, VariableSizeList } from 'react-window'
-import Logger, { LoggerType } from '@/logger'
-import { NavigateFunction, useNavigate } from 'react-router-dom'
+import LoggerFactory from '@/logger'
+import { Link, NavigateFunction, useNavigate } from 'react-router-dom'
 import React, { useEffect, useState } from 'react'
 import { renderTitleWithMultipleAuthors, renderTitleWithSingleAuthor } from '@/sheets/components/changes-by-day-title'
-import { RepositoryChangeDescription, RepositoryChangeType } from '@/utils/types'
-import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetProps, SheetState } from '@/properties'
-
-let logger: LoggerType
+import ThumbnailImage, { SIZES } from '@/utilities/components/thumbnail-image.tsx'
+import { useContext } from 'react'
 
 /**
  * Item within a list of changes made to a repository of things.
  */
-interface ItemType {
+interface ItemType extends HasPictureData {
   change: RepositoryChangeDescription | null
   isLoading: boolean
 }
@@ -37,17 +35,16 @@ interface LoadingState {
   href: string
   isLoadingChanges: boolean
   items: ItemType[]
-  list: VariableSizeList<RowType>
+  list: VariableSizeList<RowData>
   loadingOffsets: Map<string, string>
-  logger: LoggerType
   setIsLoadingChanges: (isLoading: boolean) => void
   setItems: (items: ItemType[]) => void
 }
 
 /**
- * Data required in order to render rows within a table of changes made to a repository of things.
+ * Data required in order to render a list of changes made to a repository of things.
  */
-interface RowType {
+interface RowData {
   configuration: ConfigurationType
   context: ApplicationContextType
   currentRepositoryName: string
@@ -62,19 +59,22 @@ interface RowType {
  * Renders a read-only form that displays information about changes made to a repository of things at the same time.
  * Renders a read-only property sheet with hyperlinks to the things that were changed in a single commit.
  * @param props
- * @constructor
  */
-const ChangesByDaySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.Element => {
-  logger = Logger(ChangesByDaySheet, ChangesByDaySheet)
+const ChangesByDaySheet: (props: SheetProps) => React.JSX.Element = (props: SheetProps): React.JSX.Element => {
+  const context = useContext(ApplicationContext)
   const { state } = props
-  const { configuration, context, currentRepositoryName, fetcher, thing } = state
-  const [rowHeightInPixels] = useState(configuration.rowHeightInPixels)
+  const { configuration, currentRepositoryName, fetcher, thing } = state
+  const logger = loggerFactory.create(ChangesByDaySheet)
+  const [rowHeightInPixels] = useState(context.rowHeightInPixels)
   const [scrollAreaHeight, setScrollAreaHeight] = useState(100)
   const [scrollViewElement, setScrollViewElement] = useState<HTMLDivElement | null>(null)
 
   useEffect(() => {
     determineScrollAreaHeight(scrollViewElement, rowHeightInPixels, setScrollAreaHeight)
-  }, [scrollViewElement, rowHeightInPixels])
+    const resizeListener = () => determineScrollAreaHeight(scrollViewElement, rowHeightInPixels, setScrollAreaHeight)
+    window.addEventListener('resize', resizeListener)
+    return () => window.removeEventListener('resize', resizeListener)
+  }, [rowHeightInPixels, scrollViewElement])
 
   useEffect(() => {
     if ((changes !== undefined) && (changes.length > 0)) {
@@ -84,29 +84,31 @@ const ChangesByDaySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.E
           isLoading: false
         }
       })
+
       for (let i = changes[0].members.length; i < changes[0].totalCount; i++) {
         newItems.push({ change: null, isLoading: true })
       }
+
       setItems(newItems)
     }
   }, [])
 
   const navigate = useNavigate()
   const intl = useIntl()
-  const [loadingOffsets] = useState<Map<string, string>>(new Map<string, string>())
   const [isLoadingChanges, setIsLoadingChanges] = useState<boolean>(true)
   const [items, setItems] = useState<ItemType[]>([])
+  const [loadingOffsets] = useState<Map<string, string>>(new Map<string, string>())
 
   logger.info('Render Changes by Day property sheet')
 
-  if ((thing == null)) {
+  if ((thing === null)) {
     return (<></>)
   }
 
   const { changes, commits, id } = thing
   const changedBy = new Set()
 
-  if ((changes !== undefined) && (changes.length > 0)) {
+  if (changes.length > 0) {
     let count = 0
 
     changes.forEach((change, index) => {
@@ -117,8 +119,7 @@ const ChangesByDaySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.E
     const date = new Date(changes[0].date)
     const shouldShowRelativeTime = context.shouldShowRelativeTime(date)
     const distanceInTimeText = shouldShowRelativeTime ? context.distanceInTimeText(date) : ''
-    const indexColumnWidth = `columns-${Math.min(6, Math.round(Math.log10(items.length)) + 1)}`
-    let list: VariableSizeList<RowType>
+    let list: VariableSizeList<RowData>
 
     return (
       <>
@@ -143,110 +144,61 @@ const ChangesByDaySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.E
                 changedBy.size, changes[0].totalCount, date, shouldShowRelativeTime, distanceInTimeText, intl)}
           </div>
         </header>
-        <table className='sqwerl-properties-table sqwerl-repository-changes-by-day-table'>
-          <thead>
-            <tr className='sqwerl-properties-table-heading sqwerl-repository-changes-by-day-table-heading'>
-              <th className={`sqwerl-repository-changes-by-day-index-column ${indexColumnWidth}`} />
-              <th
-                className='sqwerl-repository-changes-by-day-table-name-column'
-                title={intl.formatMessage({ id: 'repositoriesSheet.detailsTable.nameColumn.tooltip' })}
-              >
-                <span className='sqwerl-repository-changes-by-day-table-name-column-text'>
-                  <FormattedMessage id='repositoriesSheet.detailsTable.nameColumn.text' />
-                </span>
-              </th>
-              <th
-                className='sqwerl-repository-changes-by-day-thing-type-column'
-                title={intl.formatMessage({ id: 'repositoriesSheet.detailsTable.typeColumn.tooltip' })}
-              >
-                <span className='sqwerl-repository-changes-by-day-table-thing-type-column-text'>
-                  <FormattedMessage id='repositoriesSheet.detailsTable.typeColumn.text' />
-                </span>
-              </th>
-              <th
-                className='sqwerl-repository-changes-by-day-change-type-column'
-                title={intl.formatMessage({ id: 'repositoriesSheet.detailsTable.typeOfChangeColumn.tooltip' })}
-              >
-                <span className='sqwerl-repository-changes-by-day-table-change-type-column-text'>
-                  <FormattedMessage id='repositoriesSheet.detailsTable.typeOfChangeColumn.text' />
-                </span>
-              </th>
-            </tr>
-          </thead>
-          <ScrollableContent>
-            {/* TODO - Style contains 'magic numbers'. Can we insert these numbers rather than hard-code them? */}
-            <tbody
-              ref={setScrollViewElement}
-              style={{
-                bottom: '-2.5rem',
-                left: '0',
-                maxWidth: '900px',
-                minWidth: '500px',
-                position: 'absolute',
-                top: `${(context.rowHeightInPixels * 2) + 2}px`
-              }}
-            >
-              <InfiniteLoader
-                isItemLoaded={(index: number) => !items[index]?.isLoading}
+        <div className='sqwerl-list-view' ref={setScrollViewElement}>
+          <InfiniteLoader
+            isItemLoaded={(index: number) => !items[index]?.isLoading}
+            itemCount={items ? items.length : 0}
+            loadMoreItems={(startIndex: number, stopIndex: number): Promise<void> | void =>
+              loadMoreChanges(
+                startIndex,
+                stopIndex, {
+                  fetcher,
+                  changeIds: commits || '',
+                  href: configuration.baseUrl + id,
+                  isLoadingChanges,
+                  items,
+                  list,
+                  loadingOffsets,
+                  setIsLoadingChanges,
+                  setItems
+                }
+              )
+            }
+          >
+            {({ onItemsRendered, ref }) => {
+            return (
+              <VariableSizeList
+                className='sqwerl-repository-changes-by-day-list'
+                estimatedItemSize={rowHeightInPixels}
+                height={scrollAreaHeight}
                 itemCount={items ? items.length : 0}
-                loadMoreItems={(startIndex: number, stopIndex: number): Promise<void> | void =>
-                  loadMoreChanges(
-                    startIndex,
-                    stopIndex,
-                    {
-                      fetcher,
-                      changeIds: commits || '',
-                      href: configuration.baseUrl + id,
-                      isLoadingChanges,
-                      items,
-                      list,
-                      loadingOffsets,
-                      logger,
-                      setIsLoadingChanges,
-                      setItems
-                    })}
-              >
-                {({ onItemsRendered, ref }) => {
-                  return (
-                    <VariableSizeList
-                      estimatedItemSize={rowHeightInPixels}
-                      height={scrollAreaHeight}
-                      itemCount={items ? items.length : 0}
-                      itemData={{
-                        configuration,
-                        context,
-                        currentRepositoryName,
-                        intl,
-                        isLoadingChanges,
-                        items,
-                        navigate,
-                        offset: 0
-                      }}
-                      itemSize={itemIndex =>
-                        itemHeight(
-                          items,
-                          itemIndex,
-                          context.shouldShowPath(items[itemIndex].change?.id || ''),
-                          rowHeightInPixels
-                        )}
-                      onItemsRendered={onItemsRendered}
-                      overscanCount={Math.floor(scrollAreaHeight / 50)}
-                      ref={(variableSizeList: VariableSizeList<RowType>) => {
-                        if (typeof ref === 'function') {
-                          ref(variableSizeList)
-                        }
-                        list = variableSizeList
-                      }}
-                      width='100%'
-                    >
-                      {Row}
-                    </VariableSizeList>
-                  )
+                itemData={{
+                  configuration,
+                  context,
+                  currentRepositoryName,
+                  intl,
+                  isLoadingChanges,
+                  items,
+                  navigate,
+                  offset: 0
                 }}
-              </InfiniteLoader>
-            </tbody>
-          </ScrollableContent>
-        </table>
+                itemSize={itemIndex => rowHeightInPixels}
+                onItemsRendered={onItemsRendered}
+                overscanCount={Math.floor(scrollAreaHeight / 50)}
+                ref={(variableSizeList: VariableSizeList<RowData>) => {
+                  if (typeof ref === 'function') {
+                    ref(variableSizeList)
+                  }
+                  list = variableSizeList
+                }}
+                width='100%'
+              >
+                {Row}
+              </VariableSizeList>
+            )
+          }}
+          </InfiniteLoader>
+        </div>
       </>
     )
   } else {
@@ -254,10 +206,23 @@ const ChangesByDaySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.E
   }
 }
 
+/**
+ * Invokes the given state setter function to set the scroll area's height (in pixels).
+ * @param element  A scroll area HTML element.
+ * @param itemSizeInPixels Default height, in pixels, for rows within the scroll area.
+ * @param setScrollViewHeight Sets the scroll area's height (in pixels).
+ */
 const determineScrollAreaHeight = (
-  element: HTMLElement | null, itemSizeInPixels: number, setScrollViewHeight: (height: number) => void): void => {
+  element: HTMLElement | null,
+  itemSizeInPixels: number,
+  setScrollViewHeight: (height: number) => void
+): void => {
   if (element != null) {
-    setScrollViewHeight(element.clientHeight - element.getBoundingClientRect().top + itemSizeInPixels)
+    setScrollViewHeight(
+      element.clientHeight -
+        element.getBoundingClientRect()?.top +
+          (element.parentElement?.getBoundingClientRect().top ?? 0)
+    )
   }
 }
 
@@ -272,31 +237,6 @@ const goBack = (navigate: NavigateFunction, state: SheetState) => {
   }, 300)
 }
 
-/**
- * Returns the height (in pixels) for the change description item at the given index.
- * @param items Description of changes made to a repository of things.
- * @param itemIndex Index of an item within the array.
- * @param showPath Should we show the path to the item that was changed?
- * @param rowHeightInPixels Default height (in pixels) for rows.
- */
-const itemHeight = (items: ItemType[], itemIndex: number, showPath: boolean, rowHeightInPixels: number) => {
-  if (items && items[itemIndex]) {
-    const item = items[itemIndex]
-
-    if (item.isLoading) {
-      return rowHeightInPixels
-    } else {
-      if ((item.change != null) && showPath) {
-        return Math.round(rowHeightInPixels * 1.67)
-      } else {
-        return rowHeightInPixels
-      }
-    }
-  }
-
-  return rowHeightInPixels
-}
-
 let pending: number
 
 const loadMoreChanges = (startIndex: number, stopIndex: number, state: LoadingState): Promise<void> | void => {
@@ -307,12 +247,9 @@ const loadMoreChanges = (startIndex: number, stopIndex: number, state: LoadingSt
     items,
     list,
     loadingOffsets,
-    logger,
     setIsLoadingChanges,
     setItems
   } = state
-
-  logger.setContext(loadMoreChanges)
   setIsLoadingChanges(true)
 
   if (pending) {
@@ -320,7 +257,7 @@ const loadMoreChanges = (startIndex: number, stopIndex: number, state: LoadingSt
   }
 
   pending = window.setTimeout(async () => {
-    /// setIsLoadingChanges(true)
+    setIsLoadingChanges(true)
     const url = `${href}?ids=${changeIds}&limit=${stopIndex - startIndex}&offset=${startIndex}`
 
     if (loadingOffsets.has(url)) {
@@ -372,7 +309,7 @@ const onFetchingChangesFailed = (response: Response, state: LoadingState) => {
 }
 
 /**
- * Renders a table row for that describes a change made to a repository of things the change information is
+ * Renders a list item that describes a change made to a repository of things the change information is
  * currently being retrieved from a server.
  * @param intl Internationalization support.
  * @param index The row's index.
@@ -381,27 +318,9 @@ const onFetchingChangesFailed = (response: Response, state: LoadingState) => {
  */
 const renderLoadingItem = (intl: IntlShape, index: number, indexColumnWidth: string, style: object) => {
   return (
-    <tr className={`${evenOrOddClassName(index)}`} key={index} style={style}>
-      <td className={`sqwerl-repository-changes-by-day-index-column ${indexColumnWidth}`}>
-        <span className="sqwerl-repository-changes-by-day-index-column-text">
-          {intl.formatNumber(index + 1)}
-        </span>
-      </td>
-      <td className="sqwerl-repository-changes-by-day-table-name-column busy" />
-      <td className="sqwerl-repository-changes-by-day-thing-type-column busy" />
-      <td className="sqwerl-repository-changes-by-day-change-type-column busy" />
-    </tr>
-  )
-}
-
-/**
- * Renders the name for a type of thing.
- * @param typeName
- */
-const renderThingType = (typeName: string) => {
-  return (
-    <div className="sqwerl-type-name-cell">
-      <span className="sqwerl-type-name">{typeName}</span>
+    <div className={`sqwerl-navigation-loading-item ${evenOrOddClassName(index)}`} key={index} style={style}>
+      <span className="sqwerl-navigation-item-ordinal">{intl.formatNumber(index + 1)}</span>
+      <span className='sqwerl-navigation-loading-item-title' data-key={index} />
     </div>
   )
 }
@@ -414,12 +333,7 @@ const renderThingType = (typeName: string) => {
  */
 const renderTypeOfChange = (intl: IntlShape, typeOfChangeId: string) => {
   const render = (text: string, icon: () => React.JSX.Element) => {
-    return (
-      <div className="sqwerl-type-of-change-name-cell">
-        <span className="sqwerl-type-of-change-text">{text}</span>
-        <span className="sqwerl-type-of-change-icon">{icon()}</span>
-      </div>
-    )
+    return (<>&nbsp;{text}</>)
   }
 
   switch (typeOfChangeId.toLowerCase()) {
@@ -438,12 +352,7 @@ const renderTypeOfChange = (intl: IntlShape, typeOfChangeId: string) => {
   }
 }
 
-/**
- * Renders a row within a table showing changes made to a repository of things.
- * @param props
- * @constructor
- */
-const Row = (props: ListChildComponentProps<RowType>): React.JSX.Element => {
+const Row = (props: ListChildComponentProps<RowData>): React.JSX.Element => {
   const { index, style } = props
   const {
     configuration, context, currentRepositoryName, intl, isLoadingChanges, items, navigate, offset
@@ -451,7 +360,7 @@ const Row = (props: ListChildComponentProps<RowType>): React.JSX.Element => {
   const item = items[index]
   const indexColumnWidth = `columns-${Math.min(6, Math.round(Math.log10(items.length)) + 1)}`
 
-  if (!item || (item.change == null) || item.isLoading) {
+  if ((item?.change == null) || item?.isLoading) {
     return (renderLoadingItem(intl, index, indexColumnWidth, style))
   }
 
@@ -465,62 +374,53 @@ const Row = (props: ListChildComponentProps<RowType>): React.JSX.Element => {
         : linkTargetToLeaf(id, configuration, context, currentRepositoryName)
   const multiline = isCollection && context.shouldShowPath(id) ? 'multiline' : ''
 
-  if (wasRemoved) {
-    return (
-      <tr key={index} style={style}>
-        <td className={`sqwerl-repository-changes-by-day-index-column ${indexColumnWidth} ${multiline}`}>
-          <span className='sqwerl-repository-changes-by-day-index-column-text'>
-            {intl.formatNumber(index + 1)}
-          </span>
-        </td>
-        <ChangeLabel
-          change={item.change}
-          index={index}
-          isLinkToCollection={isCollection}
-          linkTarget={linkTarget}
-          showPath={isCollection && context.shouldShowPath(id)}
-        />
-        <td className={`sqwerl-repository-changes-by-day-thing-type-column ${isCollection ? 'multiline' : ''}`}>
-          {renderThingType(context.typeIdToTypeName(typeId))}
-        </td>
-        <td className={`sqwerl-repository-changes-by-day-change-type-column ${isCollection ? 'multiline' : ''}`}>
-          {renderTypeOfChange(intl, typeOfChange)}
-        </td>
-      </tr>
-    )
-  } else {
-    return (
-      <tr
-        className={`sqwerl-table-row-link ${evenOrOddClassName(index)}`}
-        key={index + offset}
-        onClick={() => {
-          console.log(`Row clicked: ${linkTarget}`)
-          navigate(linkTarget || '')
-          // location.href = linkTarget || ''
-        }}
-        style={style}
+  return (
+    <div
+      className={`sqwerl-navigation-item ${evenOrOddClassName(index)}`}
+      style={style}
+    >
+      <Link
+        className='sqwerl-navigation-parent-item double-height'
+        data-id={item.change.id}
+        data-key={index}
+        to={linkTarget ?? ''}
       >
-        <td className={`sqwerl-repository-changes-by-day-index-column ${indexColumnWidth} ${multiline}`}>
-          <span className='sqwerl-repository-changes-by-day-index-column-text'>
-            {intl.formatNumber(offset + index + 1)}
-          </span>
-        </td>
-        <ChangeLabel
-          change={item.change}
-          index={index}
-          isLinkToCollection={isCollection}
-          linkTarget={linkTarget}
-          showPath={isCollection && context.shouldShowPath(id)}
-        />
-        <td className={`sqwerl-repository-changes-by-day-thing-type-column ${isCollection ? 'multiline' : ''}`}>
-          {renderThingType(context.typeIdToTypeName(typeId))}
-        </td>
-        <td className={`sqwerl-repository-changes-by-day-change-type-column ${isCollection ? 'multiline' : ''}`}>
-          {renderTypeOfChange(intl, typeOfChange)}
-        </td>
-      </tr>
-    )
-  }
+        <span className={`sqwerl-navigation-item-ordinal ${indexColumnWidth}`}>
+          {intl.formatNumber(index + 1)}
+        </span>
+        <div className='sqwerl-navigation-item-content'>
+          <div className='sqwerl-parent-item-heading'>
+            <label className='sqwerl-navigation-item-title ' data-key={index}>
+              <div
+                className='sqwerl-navigation-item-text'
+                data-key={index}>
+                <div
+                  className='sqwerl-navigation-item-title-text'
+                  data-key={index}>
+                  {item.change.name ?? ''}
+                </div>
+              </div>
+              <span className='sqwerl-navigation-item-type-name'>
+                {context.typeNameToTypeDescription(intl, context.typeIdToTypeName(item.change.typeId ?? ''))}
+                {renderTypeOfChange(intl, typeOfChange)}
+              </span>
+            </label>
+          </div>
+          <div className='sqwerl-parent-item-details'>
+            <div className='sqwerl-navigation-item-icon' data-key={index}>
+              <ThumbnailImage depictable={item.change} size={SIZES.medium} typeId={item.change.typeId} />
+            </div>
+          </div>
+        </div>
+      </Link>
+    </div>
+  )
 }
+
+const typeOfChangeText = (intl: IntlShape, typeOfChange: string) => {
+  return intl.formatMessage({ id: `typeOfChange.${typeOfChange}.description` }) ?? ''
+}
+
+const loggerFactory = LoggerFactory(ChangesByDaySheet)
 
 export default ChangesByDaySheet

@@ -1,12 +1,13 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext, { ApplicationContextType } from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
-import lowerCaseFirstLetter from '@/utils/formatters/lower-case-first-letter'
+import lowerCaseFirstLetter from '@/utilities/formatters/lower-case-first-letter'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   links: CollectionType<Thing>
   state: SheetState
 }
@@ -14,16 +15,16 @@ interface Props {
 /**
  * Renders a read-only field with hyperlinks to things a thing is liked to.
  * @param props
- * @constructor
  */
 const LinksField = (props: Props): React.JSX.Element => {
+  const context = useContext(ApplicationContext)
   const intl = useIntl()
   const { links, state } = props
 
   return (
     <Field
       collection={links}
-      createLink={linkLink}
+      createLink={(intl, link, state) => linkLink(context, intl, link, state)}
       fieldLabel={intl.formatMessage({ id: 'links.field.label' }, { count: links.totalCount })}
       property='links'
       state={state}
@@ -33,11 +34,12 @@ const LinksField = (props: Props): React.JSX.Element => {
 
 /**
  * Renders hyperlinks to things.
+ * @pqarm context
  * @param intl
  * @param link
  * @param state
  */
-const linkLink = (intl: IntlShape, link: Thing, state: SheetState): React.JSX.Element => {
+const linkLink = (context: ApplicationContextType, intl: IntlShape, link: Thing, state: SheetState): React.JSX.Element => {
   const { configuration, currentRepositoryName } = state
   const { applicationName } = configuration
   const { id, linksCount, name, type, typeName } = link
@@ -47,8 +49,8 @@ const linkLink = (intl: IntlShape, link: Thing, state: SheetState): React.JSX.El
     <span className='sqwerl-read-only-field-sub-item'>
       <Link
         className='sqwerl-hyperlink-underline-on-hover'
-        to={`${state.context.parentThingIdToHref(currentRepositoryName, type)}#/${applicationName}/` +
-          `${currentRepositoryName}${state.context.encodeUriReplaceStringsWithHyphens(id)}`}
+        to={`${context.parentThingIdToHref(currentRepositoryName, type)}#/${applicationName}/` +
+          `${currentRepositoryName}${context.encodeUriReplaceStringsWithHyphens(id)}`}
       >
         {name}
       </Link>

@@ -1,4 +1,4 @@
-import { CollectionType, HasPictureData, Thing } from '@/utils/types'
+import { CollectionType, HasPictureData, Thing } from '@/utilities/types'
 
 /**
  * Implemented by items within a navigation list where the items represent things within a repository.
@@ -33,6 +33,9 @@ export interface Item extends HasPictureData {
 
   /** The offset (zero-based) of the location of a thing within the collection the user is currently navigating. */
   startOffset: number,
+
+  /** Unique identifier for a thing's type. */
+  type: string
 
   /** The name of a thing's type. */
   typeName?: string

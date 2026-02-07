@@ -2,12 +2,13 @@ import ApplicationContext, { ApplicationContextType } from '@/context/applicatio
 import { CallbackType } from '@/context/application/events'
 import { ConfigurationType } from '@/configuration'
 import type { FetcherType } from '@/fetcher'
+import { IntlShape, useIntl } from 'react-intl'
 import { Item } from '@/navigation/item'
 import ListView from '@/navigation/list-view'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NavigationBar from '@/navigation/navigation-bar'
 import { State as ApplicationState } from '@/application'
-import { Thing } from '@/utils/types'
+import { Thing } from '@/utilities/types'
 import { useContext, useEffect, useState } from 'react'
 import * as React from 'react'
 
@@ -25,17 +26,15 @@ interface DataType {
   path: string
 }
 
-let logger: LoggerType
-
 interface NavigationContext {
   configuration: ConfigurationType
   currentRepositoryName: string
   fetcher: FetcherType
   homeId: string
+  intl: IntlShape
   items: Item[]
   listItemHeightInPixels: number
   loadingOffsets: Map<string, string>
-  logger: LoggerType
   path: string
   setAnimationClassName: (name: string) => void
   setCurrentName: (name: string | string[]) => void
@@ -52,7 +51,7 @@ interface NavigationContext {
   setShowTypeNames: (showTypeNames: boolean) => void
 }
 
-interface Props {
+export interface Props {
   /** Application configuration information. */
   configuration: ConfigurationType
 
@@ -123,8 +122,6 @@ interface State {
    */
   loadingOffsets: Map<string, string>
 
-  logger: LoggerType
-
   /** Unique identifier for the thing that is the parent of the thing we are currently navigating from. */
   parentId: string | null
 
@@ -178,7 +175,6 @@ let lastPath: string | null = null
  * @param props
  */
 const Navigation = (props: Props): React.JSX.Element => {
-  logger = Logger(Navigation, Navigation)
   const {
     configuration,
     currentRepositoryName,
@@ -195,6 +191,7 @@ const Navigation = (props: Props): React.JSX.Element => {
   const [currentName, setCurrentName] = useState<string | string[]>('')
   const [currentPath, setCurrentPath] = useState('')
   const [goBackUrl, setGoBackUrl] = useState('')
+  const intl = useIntl()
   const [isBusy, setIsBusy] = useState(false)
   const [isHome, setIsHome] = useState(true)
   const [isLoadingChildren, setIsLoadingChildren] = useState<boolean>(false)
@@ -221,7 +218,6 @@ const Navigation = (props: Props): React.JSX.Element => {
     isLoadingChildren,
     items,
     loadingOffsets,
-    logger,
     parentId,
     parentName,
     selectedItemId,
@@ -252,10 +248,10 @@ const Navigation = (props: Props): React.JSX.Element => {
         currentRepositoryName,
         fetcher,
         homeId,
+        intl,
         items,
         listItemHeightInPixels,
         loadingOffsets,
-        logger,
         setAnimationClassName,
         setCurrentName,
         setGoBackUrl,
@@ -272,7 +268,7 @@ const Navigation = (props: Props): React.JSX.Element => {
       })
     }
     const onSelectThing: CallbackType = (_path: string, hash?: string): void =>
-      onSelectedThingChanged(hash ?? '', logger, setSelectedItemId, setSelectingItemId)
+      onSelectedThingChanged(hash ?? '', setSelectedItemId, setSelectingItemId)
     context.navigateToThingEvents.register(onNavigateToThing)
     context.selectThingEvents.register(onSelectThing)
     return () => {
@@ -382,9 +378,10 @@ let pending: number
 
 const loadMoreChildren = (startIndex: number, stopIndex: number, state: State): void => {
   const {
-    configuration, fetcher, items, loadingOffsets, logger, parentId, setIsLoadingChildren, setItems
+    configuration, fetcher, items, loadingOffsets, parentId, setIsLoadingChildren, setItems
   } = state
-  logger.setContext(loadMoreChildren)
+  const logger = loggerFactory.create(loadMoreChildren)
+
   // End the pending request, and create a new pending request.
   clearTimeout(pending)
   pending = window.setTimeout(() => {
@@ -400,6 +397,7 @@ const loadMoreChildren = (startIndex: number, stopIndex: number, state: State): 
     }).then((response) => {
       setIsLoadingChildren(false)
       loadingOffsets.delete(url)
+
       if (response.status === 200) {
         response.json().then(
           (data: { children?: { members?: Thing[] } }): void => {
@@ -416,11 +414,11 @@ const loadMoreChildren = (startIndex: number, stopIndex: number, state: State): 
           })
       } else {
         loadingOffsets.delete(url)
-        onFetchingChildrenFailed(logger, response, state)
+        onFetchingChildrenFailed(response, state)
       }
     }).catch((reason) => {
       loadingOffsets.delete(url)
-      onFetchingChildrenFailed(logger, reason, state)
+      onFetchingChildrenFailed(reason, state)
     })
   }, 500)
 }
@@ -438,12 +436,13 @@ const navigateTo = (context: NavigationContext): void => {
     fetcher,
     homeId,
     loadingOffsets,
-    logger,
     setGoBackUrl,
     setIsBusy,
     setThing
   } = context
   const { applicationName, basePath, baseUrl } = configuration
+  const logger = loggerFactory.create(navigateTo)
+
   loadingOffsets.clear()
   if (path === basePath) {
     setThing(null)
@@ -499,14 +498,13 @@ const navigateTo = (context: NavigationContext): void => {
 
 /**
  * Called when an error occurs while trying to fetch information about a thing's children from a server.
- * @param logger
  * @param response A response from an HTTP request.
  * @param state
  * @private
  */
-const onFetchingChildrenFailed = (logger: LoggerType, response: Response, state: State): void => {
+const onFetchingChildrenFailed = (response: Response, state: State): void => {
   const { setIsBusy } = state
-  logger.setContext(onFetchingChildrenFailed)
+  const logger = loggerFactory.create(onFetchingChildrenFailed)
   logger.warn(`Unable to fetch children: response=${JSON.stringify(response)}`)
   setIsBusy(false)
 }
@@ -518,9 +516,10 @@ const onFetchingChildrenFailed = (logger: LoggerType, response: Response, state:
  * @private
  */
 const onFetchingThingFailed = (response: Response, context: NavigationContext): void => {
-  const { logger, setAnimationClassName, setIsBusy } = context
-  logger.setContext(onFetchingThingFailed)
+  const { setAnimationClassName, setIsBusy } = context
+  const logger = loggerFactory.create(onFetchingThingFailed)
   setIsBusy(false)
+
   if (response.status === 440) {
     logger.error('Invalid contributor token. Contributor is not signed in')
     document.cookie = 'sqwerl-session=0;expires=Thu 01 Jan 1970 00:00:00 GMT'
@@ -542,6 +541,7 @@ const onDataRetrieved = (url: string, data: DataType, context: NavigationContext
   const {
     currentRepositoryName,
     homeId,
+    intl,
     listItemHeightInPixels,
     setAnimationClassName,
     setCurrentName,
@@ -553,16 +553,17 @@ const onDataRetrieved = (url: string, data: DataType, context: NavigationContext
     setShowTypeNames,
     showProperties
   } = context
-  logger.setContext(onDataRetrieved)
+  const logger = loggerFactory.create(onDataRetrieved)
   logger.info(`Successfully loaded navigation items from "${url}"`)
   const isHome = data.id === homeId
   const newItems = []
+
   if ({}.hasOwnProperty.call(data, 'children')) {
     onInternalNodeDataRetrieved(
       currentRepositoryName,
       data,
       homeId,
-      logger,
+      intl,
       setCurrentName,
       setParentId,
       setParentName
@@ -590,6 +591,7 @@ const onDataRetrieved = (url: string, data: DataType, context: NavigationContext
             path: '',
             shortDescription: '',
             startOffset: Math.round(i / 25) * 25,
+            type: '',
             typeName: ''
           }
         } else {
@@ -602,6 +604,7 @@ const onDataRetrieved = (url: string, data: DataType, context: NavigationContext
         }
         newItems.push(item)
       }
+      scrollNavigationListToTop()
       setItems(newItems)
     }
 
@@ -629,7 +632,7 @@ const onDataRetrieved = (url: string, data: DataType, context: NavigationContext
  * @param currentRepositoryName The name of the repository of things that this application is displaying.
  * @param data Results returned from a server.
  * @param homeId
- * @param logger
+ * @param intl
  * @param setCurrentName
  * @param setParentId
  * @param setParentName
@@ -639,21 +642,22 @@ const onInternalNodeDataRetrieved = (
   currentRepositoryName: string,
   data: DataType,
   homeId: string,
-  logger: LoggerType,
+  intl: IntlShape,
   setCurrentName: (name: string | string[]) => void,
   setParentId: (parentId: string | null) => void,
   setParentName: (name: string) => void): void => {
-  logger.setContext(onInternalNodeDataRetrieved)
   let currentName: string | string[]
   let parentId: string | null = null
   let parentName = ''
+
   if (data.id === homeId) {
-    currentName = 'Home'
+    currentName = intl.formatMessage({ id: 'repositories' })
   } else {
     const idComponents = data.id.split('/')
     const idLength = idComponents.length
     const pathComponents = data.path.split('/')
     const pathLength = pathComponents.length
+
     // If the path is longer than '${currentRepository}/types'...
     if (pathLength >= 3) {
       currentName = pathComponents.slice(pathLength - 1)
@@ -666,9 +670,11 @@ const onInternalNodeDataRetrieved = (
     }
     // TODO Show the properties with the given data we've retrieved. showProperties(data.id)
   }
+
   if (document.location.hash !== '') {
     // TODO - Select the item that matches the hash.
   }
+
   setCurrentName(currentName)
   setParentId(parentId)
   setParentName(parentName)
@@ -679,25 +685,25 @@ const onInternalNodeDataRetrieved = (
  * @param context
  */
 const onNavigateTo = (context: NavigationContext): void => {
+  const logger = loggerFactory.create(onNavigateTo)
   const { path } = context
-  logger.setContext(onNavigateTo).info(`Navigating to the thing at the path: "${path}"`)
+  logger.info(`Navigating to the thing at the path: "${path}"`)
   navigateTo(context)
 }
 
 /**
  * Called when the contributor selects a thing.
  * @param hash
- * @param logger
  * @param setSelectedItemId
  * @param setSelectingItemId
  */
 const onSelectedThingChanged = (
   hash: string,
-  logger: LoggerType,
   setSelectedItemId: (hash: string) => void,
   setSelectingItemId: (hash: string) => void
 ): void => {
-  logger.setContext(onSelectedThingChanged).info(`Selecting the thing with the id "${hash}"`)
+  const logger = loggerFactory.create(onSelectedThingChanged)
+  logger.info(`Selecting the thing with the id "${hash}"`)
   selectThing(hash, setSelectedItemId, setSelectingItemId)
 }
 
@@ -726,7 +732,7 @@ const renderListItems = (context: ApplicationContextType, state: State): React.J
   return (
     <>
       <ListView
-        averageItemHeight={51}
+        averageItemHeight={200 /* TODO - This value needs to come from CSS so that it is defined in one place. */}
         configuration={configuration}
         currentRepositoryName={currentRepositoryName}
         hasChildren={hasChildren}
@@ -768,6 +774,17 @@ const renderNoItemsToShow = (parentId: string): React.JSX.Element => {
 }
 
 /**
+ * Scrolls the navigation list to the top so that its first item is visible.
+ */
+const scrollNavigationListToTop = () => {
+  const elements = document.getElementsByClassName('sqwerl-list-view')
+
+  if ((elements.length) > 0 && (elements[0].children.length > 0)) {
+    elements[0].children[0].scrollTo(0, 0)
+  }
+}
+
+/**
  * Selects the list item that represents the thing with the given unique id.
  * @param hash A thing's unique identifier.
  * @param setSelectedItemId Call to set the thing that the contributor is selecting.
@@ -783,5 +800,7 @@ const selectThing = (
     setSelectedItemId(hash)
   }, 300)
 }
+
+const loggerFactory = LoggerFactory(Navigation)
 
 export default Navigation

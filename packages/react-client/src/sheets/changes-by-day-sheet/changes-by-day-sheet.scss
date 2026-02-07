@@ -1,4 +1,78 @@
-@import '../../index.scss';
+@use "../../index.scss" as application;
+
+.sqwerl-list-view {
+  & .sqwerl-repository-changes-by-day-list {
+    & .sqwerl-repository-changes-by-day-item {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      margin-left: calc(#{application.$sqwerl-focus-border-size} / 2);
+      text-decoration: none;
+      width: calc(100% - #{application.$sqwerl-focus-border-size});
+
+      & .sqwerl-navigation-item-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-left: 0.5rem;
+        width: 100%;
+
+        & .sqwerl-navigation-details {
+          padding-left: 0.5rem;
+          padding-top: 1rem;
+
+          & .sqwerl-changes-by-day-item-type-description {
+            color: var(--secondary-text-color);
+            display: flex;
+            flex-direction: row;
+            font-size: 95%;
+            width: 100%;
+          }
+
+          & .sqwerl-repository-changes-by-day-item-text a {
+            width: 100%;
+
+            &:focus {
+              z-index: var(--focused-navigation-item-z-index);
+            }
+          }
+        }
+      }
+
+      & .sqwerl-navigation-item-ordinal {
+        height: calc(100% - calc(#{application.$sqwerl-list-row-height-pixels} * 0.25));
+        line-height: normal;
+        margin-top: calc(#{application.$sqwerl-list-row-height-pixels} * 0.25);
+      }
+    }
+  }
+}
+
+/*
+.sqwerl-repository-changes-by-day-list {
+  & .sqwerl-navigation-item {
+    &.even {
+      background: --var(--navigation-list-even-row-background);
+    }
+
+    & .sqwerl-navigation-leaf-item {
+      display: flex;
+      flex-direction:row;
+      height: 100%;
+      margin-left: calc(#{application.$sqwerl-focus-border-size} / 2);
+      width: 100%;
+    }
+  }
+}
+.sqwerl-repository-changes-by-day-row {
+  display: flex;
+  flex-direction: row;
+
+  .sqwerl-repository-changes-by-day-item-text {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 .sqwerl-repository-changes-by-day-table {
   table-layout: auto;
@@ -6,9 +80,9 @@
   & thead {
     & tr.sqwerl-repository-changes-by-day-table-heading {
       color: var(--properties-table-heading-color);
-      height: $sqwerl-list-row-height-pixels;
-      max-height: $sqwerl-list-row-height-pixels;
-      min-height: $sqwerl-list-row-height-pixels;
+      height: application.$sqwerl-properties-table-heading-height-in-pixels;
+      max-height: application.$sqwerl-list-row-height-pixels;
+      min-height: application.$sqwerl-list-row-height-pixels;
     }
 
     & th {
@@ -21,7 +95,7 @@
       }
 
       &.sqwerl-repository-changes-by-day-table-name-column {
-        margin-left: $sqwerl-focus-border-size;
+        margin-left: application.$sqwerl-focus-border-size;
         width: 100%;
 
         & .sqwerl-repository-changes-by-day-table-name-column-text {
@@ -96,18 +170,22 @@
 
           & .sqwerl-repository-changes-by-day-table-name-text {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
 
             & .sqwerl-repository-changes-by-day-table-name-link {
               flex: 1 1 auto;
+            }
+
+            & .sqwerl-small-thumbnail-image {
+              padding: 0.5rem;
             }
           }
 
           & a.sqwerl-repository-changes-by-day-table-name-title {
             box-decoration-break: clone;
             color: var(--hyperlink-text-color);
-            font-family: $sqwerl-hyperlink-font-family;
-            font-size: $sqwerl-hyperlink-font-size;
+            font-family: application.$sqwerl-hyperlink-font-family;
+            font-size: application.$sqwerl-hyperlink-font-size;
             max-width: 20rem;
             min-width: 20rem;
             padding: 0.5rem;
@@ -123,26 +201,26 @@
             }
 
             & .sqwerl-changes-by-day-details-name-text {
-              padding-left: $sqwerl-focus-border-size;
+              padding-left: application.$sqwerl-focus-border-size;
             }
           }
 
           .sqwerl-changes-by-day-details-title {
             color: var(--application-text-color);
-            font-family: $sqwerl-font-family;
+            font-family: application.$sqwerl-font-family;
             font-size: var(--label-font-size);
             font-weight: normal;
 
             & .sqwerl-changes-by-day-details-name-text {
-              padding-left: $sqwerl-focus-border-size;
+              padding-left: application.$sqwerl-focus-border-size;
             }
           }
 
           .sqwerl-changes-by-day-collection-path {
             color: var(--secondary-text-color);
-            font-size: $sqwerl-secondary-text-font-size;
-            margin-left: $sqwerl-focus-border-size;
-            margin-top: $sqwerl-focus-border-size;
+            font-size: application.$sqwerl-secondary-text-font-size;
+            margin-left: application.$sqwerl-focus-border-size;
+            margin-top: application.$sqwerl-focus-border-size;
             padding: 0.2rem;
           }
         }
@@ -150,7 +228,7 @@
         &.sqwerl-repository-changes-by-day-change-type-column,
         &.sqwerl-repository-changes-by-day-thing-type-column {
           color: var(--secondary-text-color);
-          font-size: $sqwerl-secondary-text-font-size;
+          font-size: application.$sqwerl-secondary-text-font-size;
         }
 
         & .sqwerl-repository-changes-by-day-table-name-title-removed {
@@ -236,7 +314,8 @@
     }
 
     & .sqwerl-changes-by-day-details-name-text {
-      padding-left: $sqwerl-focus-border-size;
+      padding-left: application.$sqwerl-focus-border-size;
     }
   }
 }
+ */

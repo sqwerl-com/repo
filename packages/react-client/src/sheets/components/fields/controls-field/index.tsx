@@ -1,4 +1,5 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import IsThingOfType from '@/sheets/components/is-thing-of-type'
@@ -6,9 +7,9 @@ import IsTypeOfThing from '@/sheets/components/is-type-of-thing'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   controls: CollectionType<Thing>
   state: SheetState
 }
@@ -16,7 +17,6 @@ interface Props {
 /**
  * Renders a read-only field that lists the data about things that contributors control access to.
  * @param props
- * @constructor
  */
 const ControlsField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
@@ -40,7 +40,8 @@ const ControlsField = (props: Props): React.JSX.Element => {
  * @param state
  */
 const controlsLink = (_intl: IntlShape, controls: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { id, name, type, typeName } = controls
   const isType = {}.hasOwnProperty.call(controls, 'isType') && controls.isType
 

@@ -1,4 +1,4 @@
-@import '../index.scss';
+@use "../index.scss" as application;
 
 /* Maximum horizontal width for property values (if they are wider than this, then wrap to next line). */
 $sqwerl-properties-value-max-width: 30rem;
@@ -16,12 +16,12 @@ $sqwerl-properties-value-max-width: 30rem;
   & .sqwerl-properties-title-bar-busy {
     background: var(--content-heading-background);
     border-bottom: 1px solid var(--content-heading-border-bottom-color);
-    box-shadow: 0 $sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
+    box-shadow: 0 application.$sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
     display: flex;
     flex: 0 0 auto;
-    height: $sqwerl-row-height;
+    height: application.$sqwerl-row-height;
     left: 0;
-    min-height: $sqwerl-row-height;
+    min-height: application.$sqwerl-row-height;
     right: 0;
     z-index: var(--navigation-bar-z-index);
 
@@ -35,7 +35,7 @@ $sqwerl-properties-value-max-width: 30rem;
       background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
       cursor: default;
       flex: 1 1 auto;
-      height: calc(#{$sqwerl-row-height} / 2);
+      height: calc(#{application.$sqwerl-row-height} / 2);
       margin-left: 0.5rem;
       margin-right: 0.5rem;
       vertical-align: middle;
@@ -47,7 +47,7 @@ $sqwerl-properties-value-max-width: 30rem;
     background: var(--list-item-background);
     border-bottom: 1px solid var(--list-item-bottom-border-color);
     display: flex;
-    height: calc(#{$sqwerl-navigation-items-height} + #{$sqwerl-focus-border-size} * 2);
+    height: calc(#{application.$sqwerl-navigation-items-height} + #{application.$sqwerl-focus-border-size} * 2);
     left: 0;
   }
 
@@ -66,7 +66,7 @@ $sqwerl-properties-value-max-width: 30rem;
     background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
     cursor: default;
     flex: 1 1 auto;
-    height: calc(#{$sqwerl-row-height} / 2);
+    height: application.$sqwerl-navigation-items-height;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     vertical-align: middle;
@@ -84,13 +84,13 @@ $sqwerl-properties-value-max-width: 30rem;
   }
 
   &.slide-left {
-    transition: left 0.3s $sqwerl-slide-transition-function;
+    transition: left 0.3s application.$sqwerl-slide-transition-function;
     left: calc(-100%);
     z-index: var(--horizontal-divider-split-child-animated-z-index);
   }
 
   &.slide-right {
-    transition: left 0.3s $sqwerl-slide-transition-function;
+    transition: left 0.3s application.$sqwerl-slide-transition-function;
     left: calc(100%);
     z-index: var(--horizontal-divider-split-child-animated-z-index);
   }
@@ -109,10 +109,9 @@ $sqwerl-properties-value-max-width: 30rem;
     color: var(--hyperlink-text-color);
     display: flex;
     flex-direction: row;
-    /* line-height: $sqwerl-row-height; */
-    margin: 0.5rem 0 0.5rem 2rem;
-    max-width: calc(#{$sqwerl-properties-value-max-width} - (#{$sqwerl-focus-border-size} * 2));
-    padding: 0.5rem 0.2rem 0.7rem $sqwerl-focus-border-size;
+    margin: 0.5rem 0 1rem 2rem;
+    max-width: calc(#{$sqwerl-properties-value-max-width} - (#{application.$sqwerl-focus-border-size} * 2));
+    padding: 1rem 0.2rem 1rem application.$sqwerl-focus-border-size;
     text-decoration: underline;
     text-decoration-color: rgba(255, 255, 255, 0);
     text-decoration-thickness: var(--text-decoration-thickness);
@@ -120,7 +119,7 @@ $sqwerl-properties-value-max-width: 30rem;
     transition: text-decoration-color 0.3s ease-in;
 
     .sqwerl-read-only-field-link-chevron {
-      line-height: $sqwerl-row-height;
+      line-height: application.$sqwerl-row-height;
     }
 
     .sqwerl-properties-read-only-label-link-text {
@@ -151,11 +150,16 @@ $sqwerl-properties-value-max-width: 30rem;
     color: var(--secondary-text-color);
     content: counter(item) ".";
     display: table-cell;
-    font-size: $sqwerl-secondary-text-font-size;
+    font-size: application.$sqwerl-secondary-text-font-size;
     font-variant: small-caps;
     letter-spacing: 0;
     padding-right: 0.3rem;
     text-align: right;
+  }
+
+  .sqwerl-medium-thumbnail-image {
+    max-height: 180px;
+    max-width: 260px;
   }
 
   .sqwerl-properties-container {
@@ -169,7 +173,7 @@ $sqwerl-properties-value-max-width: 30rem;
     display: flex;
     flex-direction: column;
     max-width: $sqwerl-properties-value-max-width;
-    padding: 0.5rem 0.2rem 0.7rem 2rem;
+    padding: 0.5rem 0.2rem 1rem 2rem;
 
     &.hover:hover {
       animation-duration: 0.5s;
@@ -190,9 +194,9 @@ $sqwerl-properties-value-max-width: 30rem;
       border-right: 1px solid var(--properties-value-border-color);
       border-radius: 0.5rem 0.5rem 0 0;
       color: var(--label-text-color);
-      font-family: $sqwerl-font-family;
+      font-family: application.$sqwerl-font-family;
       letter-spacing: 0.06rem;
-      line-height: calc(#{$sqwerl-row-height} * .2);
+      line-height: calc(#{application.$sqwerl-row-height} * .4);
       padding: 0.5rem 1rem 5px 1rem;
       vertical-align: bottom;
       white-space: nowrap;
@@ -214,8 +218,8 @@ $sqwerl-properties-value-max-width: 30rem;
     border-top-right-radius: 0.5rem;
     color: var(--secondary-text-color);
     display: flex;
-    flex-direction: row;
-    line-height: calc(#{$sqwerl-row-height} * .3);
+    flex-direction: column;
+    line-height: calc(#{application.$sqwerl-row-height} * .3);
     padding: 0.5rem 0.5rem 0.5rem 1rem;
 
     div {
@@ -223,9 +227,12 @@ $sqwerl-properties-value-max-width: 30rem;
     }
 
     & .sqwerl-read-only-field-sub-item {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem;
+
       & a.sqwerl-hyperlink-underline-on-hover {
-        margin: $sqwerl-focus-border-size $sqwerl-focus-border-size $sqwerl-focus-border-size 0;
-        font-size: $sqwerl-hyperlink-font-size;
+        margin: application.$sqwerl-focus-border-size application.$sqwerl-focus-border-size application.$sqwerl-focus-border-size 0;
+        font-size: application.$sqwerl-hyperlink-font-size;
         padding: 0.2rem 0.2rem 0.2rem 0;
       }
     }
@@ -252,17 +259,17 @@ $sqwerl-properties-value-max-width: 30rem;
 
   .sqwerl-properties-read-only-form-section-heading {
     font-weight: bold;
-    height: $sqwerl-row-height;
+    height: application.$sqwerl-row-height;
     max-width: $sqwerl-properties-value-max-width;
   }
 
   .sqwerl-properties-scrollable-content {
-    bottom: $sqwerl-row-height;
+    bottom: application.$sqwerl-row-height;
     display: flex;
     flex-direction: column;
     left: 0;
     overflow-y: scroll;
-    padding-bottom: $sqwerl-row-height;
+    padding-bottom: application.$sqwerl-row-height;
     width: 100%;
   }
 
@@ -273,12 +280,12 @@ $sqwerl-properties-value-max-width: 30rem;
   .sqwerl-properties-title-bar {
     background: var(--content-heading-background);
     border-bottom: 1px solid var(--content-heading-border-bottom-color);
-    box-shadow: 0 $sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
+    box-shadow: 0 application.$sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
     display: flex;
     flex: 0 0 auto;
-    height: $sqwerl-row-height;
+    height: application.$sqwerl-row-height;
     left: 0;
-    min-height: $sqwerl-row-height;
+    min-height: application.$sqwerl-row-height;
     right: 0;
     z-index: var(--navigation-bar-z-index);
   }
@@ -294,8 +301,8 @@ $sqwerl-properties-value-max-width: 30rem;
     display: flex;
     flex: 1 1 auto;
     flex-direction: row;
-    margin-left: $sqwerl-focus-border-size;
-    margin-right: $sqwerl-focus-border-size;
+    margin-left: application.$sqwerl-focus-border-size;
+    margin-right: application.$sqwerl-focus-border-size;
 
     & > * {
       text-overflow: ellipsis;
@@ -303,14 +310,13 @@ $sqwerl-properties-value-max-width: 30rem;
     }
 
     & a {
-      font-family: $sqwerl-hyperlink-font-family;
+      font-family: application.$sqwerl-hyperlink-font-family;
       text-decoration: none;
     }
   }
 
   a.sqwerl-properties-open-in-new-tab-or-window-link {
-    /* line-height: $sqwerl-row-height; */
-    margin: $sqwerl-focus-border-size;
+    margin: application.$sqwerl-focus-border-size;
     vertical-align: middle;
 
     .icon {
@@ -321,11 +327,10 @@ $sqwerl-properties-value-max-width: 30rem;
   }
 
   a.sqwerl-properties-title-inline-link {
-    font-size: $sqwerl-hyperlink-font-size;
-    /* line-height: $sqwerl-content-heading-height; */
-    margin: $sqwerl-focus-border-size;
+    font-size: application.$sqwerl-hyperlink-font-size;
+    margin: application.$sqwerl-focus-border-size;
     padding-left: 0.35rem;
-    padding-right: calc(#{$sqwerl-focus-border-size} * 2);
+    padding-right: calc(#{application.$sqwerl-focus-border-size} * 2);
     transition: text-decoration-color 0.3s ease-in;
 
     &:hover {
@@ -345,7 +350,7 @@ $sqwerl-properties-value-max-width: 30rem;
 
     & .sqwerl-properties-title-content {
       align-self: center;
-      padding: $sqwerl-focus-border-size 0 $sqwerl-focus-border-size $sqwerl-focus-border-size;
+      padding: application.$sqwerl-focus-border-size 0 application.$sqwerl-focus-border-size application.$sqwerl-focus-border-size;
       white-space: nowrap;
     }
 

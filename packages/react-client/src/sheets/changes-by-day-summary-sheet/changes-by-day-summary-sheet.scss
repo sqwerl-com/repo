@@ -1,27 +1,26 @@
-@import "../../index.scss";
+@use "../../index.scss" as application;
 
 .sqwerl-repository-changes-on-day-item {
   border-bottom: 1px solid var(--list-item-bottom-border-color);
   display: flex;
-  /* height: calc($sqwerl-row-height + ($sqwerl-focus-border-size * 2)); */
-  height: $sqwerl-row-height;
+  height: application.$sqwerl-row-height;
   left: 0;
-  letter-spacing: $sqwerl-letter-spacing;
-  line-height: $sqwerl-row-height;
-  max-height: $sqwerl-row-height;
+  letter-spacing: application.$sqwerl-letter-spacing;
+  line-height: application.$sqwerl-row-height;
+  max-height: application.$sqwerl-row-height;
   max-width: 40rem;
 
   a.sqwerl-repository-changes-on-day-link {
     display: flex;
     flex-direction: row;
     height: calc(#{sqwerl-row-height} - (#{sqwerl-focus-border-size} * 2));
-    margin: $sqwerl-focus-border-size;
+    margin: application.$sqwerl-focus-border-size;
     text-decoration: none;
     width: calc(100% - 1.5rem);
 
     &:hover {
       animation: sqwerl-list-item-hover 0.3s ease-in;
-      background: $sqwerl-list-item-hover-background;
+      background: application.$sqwerl-list-item-hover-background;
 
       & .sqwerl-change-summary-link-text {
         text-decoration-color: var(--list-item-hover-text-shadow);

@@ -22,7 +22,6 @@ it('renders without crashing', () => {
       <ChangeLabel
         change={mockChangeDescription}
         index={0}
-        isLinkToCollection={false}
         showPath
       />
     </IntlProvider>

@@ -4,17 +4,18 @@ import ApplicationContext, { ApplicationContextType } from '@/context/applicatio
 import { ChevronRight } from 'react-feather'
 import { ConfigurationType } from '@/configuration'
 import { CSSProperties, JSX, useContext, useEffect, useState } from 'react'
-import { evenOrOddClassName } from '@/utils/css/even-or-odd-class-name'
+import { evenOrOddClassName } from '@/utilities/css/even-or-odd-class-name'
 import { FixedSizeList, ListChildComponentProps } from 'react-window'
 import InfiniteLoader from 'react-window-infinite-loader'
 import { IntlShape, useIntl } from 'react-intl'
 import { Item } from '@/navigation/item'
 import { Link } from 'react-router-dom'
-import Logger, { LoggerType } from '@/logger'
-import SmallThumbnailImage from '@/utils/components/small-thumbnail-image'
+import LoggerFactory from '@/logger'
+import lowerCaseFirstLetter from '@/utilities/formatters/lower-case-first-letter'
+import ThumbnailImage, { SIZES } from '@/utilities/components/thumbnail-image'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   /** The average height, in pixels, for this list view's items. */
   averageItemHeight: number
 
@@ -72,7 +73,6 @@ interface State {
   listItemHeightInPixels: number
   listViewHeight: number
   loadChildren: (startIndex: number, stopIndex: number) => Promise<void> | void
-  logger: LoggerType
   scrollerThumbHeight: number
   scrollerThumbLocation: number
   selectedItemId?: string
@@ -98,8 +98,6 @@ interface ItemData {
   state: State
 }
 
-let logger: LoggerType
-
 /**
  * List view user interface component. A user interface component that displays an infinite list of items, where
  * each item represents things. The items displayed by this list may be levels in a hierarchy of things that the
@@ -107,7 +105,6 @@ let logger: LoggerType
  * @param props
  */
 const ListView = (props: Props): JSX.Element => {
-  logger = Logger(ListView, ListView)
   const context = useContext(ApplicationContext)
   const intl = useIntl()
   const [isDraggingScrollThumb] = useState(false)
@@ -142,7 +139,6 @@ const ListView = (props: Props): JSX.Element => {
     context,
     currentRepositoryName,
     intl,
-    logger,
     hasChildren,
     isDraggingScrollThumb,
     isScrollerVisible,
@@ -167,9 +163,7 @@ const ListView = (props: Props): JSX.Element => {
   }
 
   useEffect(() => {
-    if (listViewElement !== null) {
-      determineListHeight(listViewElement, listItemHeightInPixels, setListViewHeight)
-    }
+    determineListHeight(listViewElement, listItemHeightInPixels, setListViewHeight)
     const resizeListener = () => determineListHeight(listViewElement, listItemHeightInPixels, setListViewHeight)
     window.addEventListener('resize', resizeListener)
     return () => window.removeEventListener('resize', resizeListener)
@@ -216,11 +210,15 @@ const ListView = (props: Props): JSX.Element => {
  */
 const determineListHeight = (
   listViewElement: HTMLElement | null,
-  listItemSizeInPixels: number, setListViewHeight: (height: number) => void
+  listItemSizeInPixels: number,
+  setListViewHeight: (height: number) => void
 ): void => {
   if (listViewElement !== null) {
     setListViewHeight(
-      listViewElement.clientHeight - listViewElement.getBoundingClientRect().top + listItemSizeInPixels)
+      listViewElement.clientHeight -
+        listViewElement.getBoundingClientRect().top +
+        (listViewElement.parentElement?.getBoundingClientRect().top ?? 0)
+    )
   }
 }
 
@@ -246,8 +244,7 @@ const leafItemLink = (
  * @param state This list view's state.
  */
 const onKeyDown = (event: React.KeyboardEvent<HTMLElement>, state: State): void => {
-  const { logger } = state
-  logger.setContext(onKeyDown)
+  const logger = loggerFactory.create(onKeyDown)
 
   switch (event.key) {
     case 'Tab':
@@ -291,8 +288,9 @@ const onKeyDown = (event: React.KeyboardEvent<HTMLElement>, state: State): void 
  * @param state This list view's state.
  */
 const onSelectThing = (_path: string, hash: string, state: State) => {
-  const { logger, showProperties } = state
-  logger.setContext(onSelectThing).debug(`Showing properties for the thing with the id "${hash}"`)
+  const { showProperties } = state
+  const logger = loggerFactory.create(onSelectThing)
+  logger.debug(`Showing properties for the thing with the id "${hash}"`)
   showProperties(hash)
 }
 
@@ -320,6 +318,8 @@ const parentItemLink = (
  */
 const renderLeafItem = (item: Item, index: number, state: State): JSX.Element => {
   const { configuration, context, currentRepositoryName, showTypeNames } = state
+  const description = item.shortDescription || item.description || undefined;
+  const { intl } = state
 
   return (
     <Link
@@ -330,20 +330,31 @@ const renderLeafItem = (item: Item, index: number, state: State): JSX.Element =>
       tabIndex={0}
       to={leafItemLink(context, configuration.applicationName, currentRepositoryName, item.id)}
     >
-      <span className='sqwerl-navigation-item-ordinal'>{index + 1}</span>
-      <label className='sqwerl-navigation-item-title ' data-key={index}>
-        <div className='sqwerl-navigation-item-text'>
-          <div
-            className='sqwerl-navigation-item-title-text'
-            data-key={index}
-          >
-            {item.name}
+      <span className='sqwerl-navigation-item-ordinal'>{intl.formatNumber(index + 1)}</span>
+      <div className='sqwerl-navigation-item-content'>
+        <div className='sqwerl-navigation-item-details'>
+          <label className='sqwerl-navigation-item-title ' data-key={index}>
+            <div className='sqwerl-navigation-item-text'>
+              <div
+                className='sqwerl-navigation-item-title-text'
+                data-key={index}
+              >
+                {item.name}
+              </div>
+              {showTypeNames && <div className='sqwerl-navigation-item-type-name'>{context.typeNameToTypeDescription(intl, item.typeName)}</div>}
+            </div>
+          </label>
+          <div className='sqwerl-parent-item-details'>
+            <div className="sqwerl-navigation-item-icon" data-key={index}>
+              <ThumbnailImage depictable={item} size={SIZES.medium} typeId={item.type} />
+            </div>
+            {description &&
+              <div className='sqwerl-parent-item-description'>
+                <span className='sqwerl-parent-item-description-text'>{description}</span>
+              </div>
+            }
           </div>
-          {showTypeNames && <div className='sqwerl-navigation-item-type-name'>{item.typeName}</div>}
         </div>
-      </label>
-      <div className='sqwerl-navigation-item-icon' data-key={index}>
-        <SmallThumbnailImage depictable={item} />
       </div>
     </Link>
   )
@@ -376,13 +387,13 @@ const renderParentItem = (item: Item, index: number, state: State): JSX.Element 
     context,
     currentRepositoryName,
     intl,
-    logger,
     selectedItemId,
     setAnimationClassName,
     showTypeNames
   } = state
   const { applicationName } = configuration
-  logger.setContext(renderParentItem)
+  const description = item.shortDescription || item.description || undefined;
+  const logger = loggerFactory.create(renderParentItem)
   const hashId = encodeURI(`${configuration.applicationName}/${currentRepositoryName}${item.id}`)
   const id = `/${applicationName}/${currentRepositoryName}${context.encodeUriReplaceStringsWithHyphens(item.id)}`
   const doubleHeight = showTypeNames ? 'double-height' : ''
@@ -404,29 +415,41 @@ const renderParentItem = (item: Item, index: number, state: State): JSX.Element 
       to={parentItemLink(context, currentRepositoryName, hashId, item.id)}
     >
       <span className='sqwerl-navigation-item-ordinal'>{index + 1}</span>
-      <label className='sqwerl-navigation-item-title' data-key={index}>
-        <div
-          className='sqwerl-navigation-item-title-text sqwerl-hyperlink-underline-on-hover'
-          data-key={index}
-        >
-          {item.name}
-        </div>
-        {showTypeNames && <div className='sqwerl-navigation-item-type-name'>{item.typeName}</div>}
-      </label>
-      <div className='sqwerl-navigation-parent-item-point'>
-        <div className='sqwerl-navigation-item-child-count' data-key={index}>
-          {item.childrenCount > 0
-              && <span className='sqwerl-navigation-item-child-count-number'>
+      <div className='sqwerl-navigation-item-content'>
+        <div className='sqwerl-parent-item-heading'>
+          <label className="sqwerl-navigation-item-title" data-key={index}>
+            <div
+              className="sqwerl-navigation-item-title-text sqwerl-hyperlink-underline-on-hover"
+              data-key={index}
+            >
+              {item.name}
+            </div>
+            {showTypeNames && <div className="sqwerl-navigation-item-type-name">{context.typeNameToTypeDescription(intl, item.typeName)}</div>}
+          </label>
+          <div className="sqwerl-navigation-parent-item-point">
+            <div className="sqwerl-navigation-item-child-count" data-key={index}>
+              {item.childrenCount > 0
+                && <span className="sqwerl-navigation-item-child-count-number">
                   {intl.formatMessage({ id: 'count' }, { value: item.childrenCount })}
               </span>
-          }
+              }
+            </div>
+            <div
+              className={`sqwerl-navigation-item-has-children ${showBackOrForwardIcon ? 'visible' : 'hidden'}`}
+              data-key={index}
+            >
+              <ChevronRight className="sqwerl-back-or-forward-icon"/>
+            </div>
+          </div>
         </div>
-        <div
-          className={`sqwerl-navigation-item-has-children ${showBackOrForwardIcon ? 'visible' : 'hidden'}`}
-          data-key={index}
-        >
-          <ChevronRight className='sqwerl-back-or-forward-icon' />
-        </div>
+        {description &&
+          <div className='sqwerl-parent-item-details'>
+            <div className="sqwerl-navigation-item-icon" data-key={index}>
+              <ThumbnailImage depictable={item} size={SIZES.medium} typeId={item.type} />
+            </div>
+            <span className='sqwerl-parent-item-description'>{description}</span>
+          </div>
+        }
       </div>
     </Link>
   )
@@ -464,5 +487,7 @@ const Row = (props: ListChildComponentProps<ItemData>): JSX.Element => {
     </div>
   )
 }
+
+const loggerFactory = LoggerFactory(ListView)
 
 export default ListView

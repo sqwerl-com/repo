@@ -1,6 +1,6 @@
+import { ChangesShape, Thing } from '@/utilities/types'
 import { JSX, SVGProps } from 'react'
 import React from 'react'
-import { Thing } from 'utils/types'
 import { timeDay } from 'd3-time'
 
 interface DataPoint {
@@ -8,7 +8,7 @@ interface DataPoint {
   time: number
 }
 
-interface ChangesThumbnailGraphProps {
+export interface ChangesThumbnailGraphProps {
   change: Thing
   index: number
   timestamp: string
@@ -19,7 +19,6 @@ interface ChangesThumbnailGraphProps {
  * A small graph (<a href="https://en.wikipedia.org/wiki/Sparkline">sparkline</a>) that depicts the number of
  * changes made to a repository of things each day.
  * @param props
- * @constructor
  */
 const ChangesThumbnailGraph = (props: ChangesThumbnailGraphProps): JSX.Element => {
   const { change, index, timestamp } = props
@@ -29,7 +28,7 @@ const ChangesThumbnailGraph = (props: ChangesThumbnailGraphProps): JSX.Element =
   }
 
   const bins: number[] = Array.from({ length: 30 })
-  const changesByDay: DataPoint[] = change.recentChanges.map(d => {
+  const changesByDay: DataPoint[] = change.recentChanges.map((d: ChangesShape) => {
     return { changeCount: d.changesCount, time: new Date(d.date).getTime() }
   })
 
@@ -38,11 +37,13 @@ const ChangesThumbnailGraph = (props: ChangesThumbnailGraphProps): JSX.Element =
   for (let i = 0; i < 31; i++) {
     bins[i] = 0
     const startTime = timeDay.offset(endTime, -1).getTime()
+
     changesByDay.forEach(change => {
       if ((change.time >= startTime) && (change.time <= endTime.getTime())) {
         bins[i] += change.changeCount
       }
     })
+
     endTime = timeDay.offset(endTime, -1)
   }
 
@@ -80,6 +81,7 @@ const renderBars = (
       const currentBar = daysWithChangesIndex === changeIndex
       const currentClass = currentBar ? 'current' : ''
       const x = index * 2
+
       content.push(
         <rect
           className={`sqwerl-repository-changes-thumbnail-bar ${currentClass}`}
@@ -90,6 +92,7 @@ const renderBars = (
           y={`${30 - ((count / maximumNumberOfChangesPerDay) * 30)}`}
         />
       )
+
       if (currentBar) {
         content.push(
           <circle
@@ -101,6 +104,7 @@ const renderBars = (
           />
         )
       }
+
       daysWithChangesIndex += 1
     }
   })

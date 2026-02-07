@@ -1,4 +1,4 @@
-@import "../index.scss";
+@use "../index.scss" as application;
 
 $sqwerl-search-results-index-column-width: 1.5rem;
 $sqwerl-search-results-table-type-cell-width: 6rem;
@@ -91,7 +91,7 @@ $sqwerl-search-secondary-text-font-size: 85%;
   .sqwerl-application-menu.sqwerl-search-menu {
     &.hidden {
       opacity: 0.4;
-      height: calc(#{$sqwerl-row-height});
+      height: calc(#{application.$sqwerl-row-height});
       visibility: hidden;
       z-index: 0;
     }
@@ -130,8 +130,8 @@ $sqwerl-search-secondary-text-font-size: 85%;
   }
 
   .sqwerl-found-in-properties-title {
-    height: $sqwerl-row-height;
-    line-height: $sqwerl-row-height;
+    height: application.$sqwerl-row-height;
+    line-height: application.$sqwerl-row-height;
     margin-block-end: 0.1rem;
     margin-block-start: 0;
   }
@@ -171,26 +171,26 @@ $sqwerl-search-secondary-text-font-size: 85%;
     background: var(--search-close-button-background);
     border: var(--search-close-button-border);
     border-radius: 0.45rem;
-    box-shadow: 0.2rem 0.2rem $sqwerl-content-heading-shadow-offset var(--search-close-button-shadow-color);
+    box-shadow: 0.2rem 0.2rem application.$sqwerl-content-heading-shadow-offset var(--search-close-button-shadow-color);
     color: var(--hyperlink-text-color);
     cursor: pointer;
     display: flex;
     justify-content: center;
-    min-height: calc(#{$sqwerl-row-height} * 1.2);
+    min-height: calc(#{application.$sqwerl-row-height} * 1.2);
     width: 100%;
 
     & .sqwerl-search-close-button-icon {
       color: var(--hyperlink-text-color);
       height: 1.5rem;
-      padding-right: $sqwerl-content-heading-shadow-offset;
+      padding-right: application.$sqwerl-content-heading-shadow-offset;
       stroke: var(--hyperlink-text-color);
       stroke-width: 1px;
-      top: calc(#{$sqwerl-row-height} / 2);
+      top: calc(#{application.$sqwerl-row-height} / 2);
     }
 
     & .sqwerl-search-close-button-text {
       color: var(--hyperlink-text-color);
-      font-family: $sqwerl-font-family;
+      font-family: application.$sqwerl-font-family;
       margin-top: 0.25rem;
       text-decoration: underline;
       text-decoration-color: rgba(255, 255, 255, 0);
@@ -201,7 +201,7 @@ $sqwerl-search-secondary-text-font-size: 85%;
 
     &:hover {
       animation: sqwerl-list-item-hover 0.3s ease-in;
-      background: $sqwerl-list-item-hover-background;
+      background: application.$sqwerl-list-item-hover-background;
 
       & .sqwerl-search-close-button-text {
         text-decoration: underline;
@@ -254,7 +254,7 @@ $sqwerl-search-secondary-text-font-size: 85%;
 
       & .sqwerl-small-thumbnail-image {
         align-self: center;
-        margin: 0 $sqwerl-focus-border-size $sqwerl-focus-border-size $sqwerl-focus-border-size;
+        margin: 0 application.$sqwerl-focus-border-size application.$sqwerl-focus-border-size application.$sqwerl-focus-border-size;
       }
 
       & .sqwerl-search-results-description-cell-content-text {
@@ -310,11 +310,11 @@ $sqwerl-search-secondary-text-font-size: 85%;
 
       & .sqwerl-search-results-table {
         height: auto;
-        margin: $sqwerl-focus-border-size;
-        width: calc(100% - (#{$sqwerl-focus-border-size} * 2));
+        margin: application.$sqwerl-focus-border-size;
+        width: calc(100% - (#{application.$sqwerl-focus-border-size} * 2));
 
         & .sqwerl-search-results-item-link {
-          height: $sqwerl-list-row-height-pixels;
+          height: application.$sqwerl-list-row-height-pixels;
 
           &:hover {
             animation: sqwerl-list-item-hover 0.3s ease-in;
@@ -322,7 +322,6 @@ $sqwerl-search-secondary-text-font-size: 85%;
             & .sqwerl-search-text,
             & .sqwerl-highlighted-search-text {
               text-decoration: underline;
-              /* text-shadow: var(--hyperlink-text-shadow); */
             }
           }
 
@@ -333,9 +332,9 @@ $sqwerl-search-secondary-text-font-size: 85%;
 
         & .sqwerl-search-results-description-cell {
           margin: 0.5rem 0.5rem 0 0;
-          max-width: calc(100% - #{$sqwerl-search-results-table-type-cell-width} - #{$sqwerl-search-results-index-column-width} - #{$sqwerl-focus-border-size * 2} - 0.5rem);
-          min-width: calc(100% - #{$sqwerl-search-results-table-type-cell-width} - #{$sqwerl-search-results-index-column-width} - #{$sqwerl-focus-border-size * 2} - 0.5rem);
-          width: calc(100% - #{$sqwerl-search-results-table-type-cell-width} - #{$sqwerl-search-results-index-column-width} - #{$sqwerl-focus-border-size * 2} - 0.5rem);
+          max-width: calc(100% - #{$sqwerl-search-results-table-type-cell-width} - #{$sqwerl-search-results-index-column-width} - #{application.$sqwerl-focus-border-size * 2} - 0.5rem);
+          min-width: calc(100% - #{$sqwerl-search-results-table-type-cell-width} - #{$sqwerl-search-results-index-column-width} - #{application.$sqwerl-focus-border-size * 2} - 0.5rem);
+          width: calc(100% - #{$sqwerl-search-results-table-type-cell-width} - #{$sqwerl-search-results-index-column-width} - #{application.$sqwerl-focus-border-size * 2} - 0.5rem);
           vertical-align: top;
           word-wrap: break-word;
 
@@ -437,6 +436,7 @@ $sqwerl-search-secondary-text-font-size: 85%;
     flex-direction: row;
 
     .sqwerl-search-results-link {
+      /* TODO */
     }
   }
 
@@ -456,7 +456,7 @@ $sqwerl-search-secondary-text-font-size: 85%;
 
     & .sqwerl-search-property-value {
       color: var(--secondary-text-color);
-      line-height: calc(#{$sqwerl-row-height} * 0.6);
+      line-height: calc(#{application.$sqwerl-row-height} * 0.6);
     }
   }
 
@@ -467,7 +467,7 @@ $sqwerl-search-secondary-text-font-size: 85%;
 
   .sqwerl-search-results-link {
     display: flex;
-    font-family: $sqwerl-hyperlink-font-family;
+    font-family: application.$sqwerl-hyperlink-font-family;
     font-size: 95%;
   }
 
@@ -490,9 +490,9 @@ $sqwerl-search-secondary-text-font-size: 85%;
   }
 
   .sqwerl-search-results-loading-text {
-    font-family: $sqwerl-font-family;
+    font-family: application.$sqwerl-font-family;
     font-style: italic;
-    letter-spacing: $sqwerl-letter-spacing;
+    letter-spacing: application.$sqwerl-letter-spacing;
     margin-left: 1.8rem;
   }
 
@@ -501,14 +501,14 @@ $sqwerl-search-secondary-text-font-size: 85%;
     border-left: none;
     border-right: none;
     border-top: none;
-    box-shadow: 0 $sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
+    box-shadow: 0 application.$sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
     display: flex;
     flex-direction: row;
-    line-height: $sqwerl-row-height;
+    line-height: application.$sqwerl-row-height;
     z-index: 102;
 
     & .sqwerl-search-results-description-column-header {
-      font-family: $sqwerl-hyperlink-font-family;
+      font-family: application.$sqwerl-hyperlink-font-family;
       /* The 1rem is for the borders around the Type column */
       max-width: calc(100% - #{$sqwerl-search-results-table-type-cell-width} - 1rem);
       min-width: calc(100% - #{$sqwerl-search-results-table-type-cell-width} - 1rem);
@@ -521,9 +521,9 @@ $sqwerl-search-secondary-text-font-size: 85%;
       background: var(--search-results-column-header-background-color);
       color: var(--hyperlink-text-color);
       display: flex;
-      font-family: $sqwerl-hyperlink-font-family;
+      font-family: application.$sqwerl-hyperlink-font-family;
       justify-content: flex-start;
-      line-height: $sqwerl-row-height;
+      line-height: application.$sqwerl-row-height;
       text-align: left;
 
       &:hover {
@@ -542,7 +542,7 @@ $sqwerl-search-secondary-text-font-size: 85%;
     }
 
     & .sqwerl-search-results-type-column-header {
-      font-family: $sqwerl-hyperlink-font-family;
+      font-family: application.$sqwerl-hyperlink-font-family;
       padding-left: 0.5rem;
       text-align: left;
       width: 100%;

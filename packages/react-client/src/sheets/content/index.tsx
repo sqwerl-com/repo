@@ -4,7 +4,7 @@ import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NotesField from '@/sheets/components/fields/notes-field'
 import ReadersField from '@/sheets/components/fields/readers-field'
 import ReadByField from '@/sheets/components/fields/read-by-field'
@@ -16,22 +16,18 @@ import type { SheetState } from '@/properties'
 import TagsField from '@/sheets/components/fields/tags-field'
 import TitleBar from '@/sheets/components/title-bar'
 import TitleField from '@/sheets/components/fields/title-field'
-import UrlField from '@/sheets/components/fields/url-field'
+import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information about dynamically-generated, and possibly interactive, content.
  * @param props
- * @constructor
  */
 const ContentSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(ContentSheet, ContentSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
@@ -46,11 +42,14 @@ const ContentSheet = (props: Props): React.JSX.Element => {
     'representations',
     'tags'
   ]
+  const logger = loggerFactory.create(ContentSheet)
 
   logger.info('Render Content property sheet')
 
+  const intl = useIntl()
   const { state } = props
   const { configuration, thing } = state
+  const titleFieldDescription = intl.formatMessage({ id: 'contentSheet.titleFieldDescription' })
 
   if (thing == null) {
     return (<></>)
@@ -72,8 +71,7 @@ const ContentSheet = (props: Props): React.JSX.Element => {
     recommendedBy,
     representations,
     tags,
-    title,
-    url
+    title
   } = thing
 
   return (
@@ -89,10 +87,9 @@ const ContentSheet = (props: Props): React.JSX.Element => {
         titleTextValues={{ name }}
       />
       <ScrollableContent>
-        {title && <TitleField title={title} />}
+        {title && <TitleField description={titleFieldDescription} title={title} />}
         {archived && <ArchivedField archived={archived} />}
         {description && <DescriptionField description={description} state={state} />}
-        {url && <UrlField labelId='webPage.label' url={url} state={state} />}
         {authors && <AuthorsField authors={authors} state={state} />}
         {representations &&
           <RepresentationsField
@@ -114,5 +111,7 @@ const ContentSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(ContentSheet)
 
 export default ContentSheet

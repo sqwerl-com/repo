@@ -1,7 +1,7 @@
 import ArchivedField from '@/sheets/components/fields/archived-field'
 import CompletedField from '@/sheets/components/fields/completed-field'
 import HistoryField from '@/sheets/components/fields/history-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NotesForField from '@/sheets/components/fields/notes-for-field'
 import RepresentationsField from '@/sheets/components/fields/representations-field'
 import ScrollableContent from '@/sheets/components/scrollable-content'
@@ -9,25 +9,21 @@ import type { SheetState } from '@/properties'
 import TitleBar from '@/sheets/components/title-bar'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only field that displays information about text notes about a thing.
  * @param props
- * @constructor
  */
 const NotesSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(NotesSheet, NotesSheet)
   const connectionProperties = ['addedBy', 'archived', 'notesFor']
-
-  logger.info('Rendering Notes property sheet')
-
+  const logger = loggerFactory.create(NotesSheet)
   const { state } = props
   const { configuration, thing } = state
+
+  logger.info('Rendering Notes property sheet')
 
   if (thing == null) {
     return (<></>)
@@ -63,5 +59,7 @@ const NotesSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(NotesSheet)
 
 export default NotesSheet

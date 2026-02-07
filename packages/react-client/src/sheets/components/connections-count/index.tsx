@@ -1,8 +1,8 @@
-import { CollectionType, Thing } from '@/utils/types'
+import { CollectionType, Thing } from '@/utilities/types'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   /** Names of a thing's properties that refer to other things. */
   connectionProperties: string[]
 

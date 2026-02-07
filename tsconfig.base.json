@@ -3,7 +3,6 @@
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -28,10 +27,5 @@
   "exclude": [
     "dist",
     "node_modules"
-  ],
-  "include": [
-    "src/**/*.ts[x]",
-    "src/**/*.test.ts[x]"
-  ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  ]
 }

@@ -1,7 +1,7 @@
 import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
-import { mockApplicationConfiguration, mockThing } from '@/utils/mocks'
+import { mockApplicationConfiguration, mockThing } from '@/utilities/mocks'
 import Properties from '@/properties'
 import React from 'react'
 import { render } from '@testing-library/react'

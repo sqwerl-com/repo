@@ -1,9 +1,9 @@
 import ApplicationContext from '@/context/application'
-import { BasicThing, Thing } from '@/utils/types'
+import { BasicThing, Thing } from '@/utilities/types'
 import { format, parseISO } from 'date-fns'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
-import lowerCaseFirstLetter from '@/utils/formatters/lower-case-first-letter'
+import lowerCaseFirstLetter from '@/utilities/formatters/lower-case-first-letter'
 import ReadOnlyFieldLabel from '@/sheets/components/read-only-field-label'
 import { SheetState } from '@/properties'
 import { useContext } from 'react'
@@ -19,7 +19,7 @@ interface AddedByValueProps {
   typeNameIsPlural: boolean
 }
 
-interface Props {
+export interface Props {
   addedBy: BasicThing
   addedOn: string
   state: SheetState
@@ -43,7 +43,10 @@ const HistoryField = (props: Props): React.JSX.Element => {
 
   return (
     <div className='sqwerl-properties-read-only-field'>
-      <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'history.field.label' })} />
+      <ReadOnlyFieldLabel
+        description={intl.formatMessage({ id: 'history.field.description' })}
+        labelText={intl.formatMessage({ id: 'history.field.label' })}
+      />
       <div className='sqwerl-properties-read-only-field-value sqwerl-history-field-value'>
         <AddedByValue
           addedByLink={addedByLink}
@@ -79,7 +82,6 @@ const formatTypeName = (intl: IntlShape, thing: Thing | null): string => {
 /**
  * Renders HTML that describes who added a thing to a repository and when the thing was added.
  * @param props
- * @constructor
  */
 const AddedByValue = (props: AddedByValueProps) => {
   const { addedByLink, addedByName, addedOn, intl, repositoryName, thing, typeNameIsPlural } = props

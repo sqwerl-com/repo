@@ -1,12 +1,13 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   notes: CollectionType<Thing>
   state: SheetState
 }
@@ -14,7 +15,6 @@ interface Props {
 /**
  * Renders a read-only field that contains links to notes about a thing.
  * @param props
- * @constructor
  */
 const NotesField = (props: Props): React.JSX.Element => {
   const { notes, state } = props
@@ -24,7 +24,7 @@ const NotesField = (props: Props): React.JSX.Element => {
     <Field
       collection={notes}
       createLink={notesLink}
-      fieldLabel={intl.formatMessage({ id: 'notes.field.label' }, { notesCount: notes.totalCount })}
+      fieldLabel={intl.formatMessage({ id: 'notes.field.label' }, { count: notes.totalCount })}
       property='notes'
       state={state}
     />
@@ -38,7 +38,8 @@ const NotesField = (props: Props): React.JSX.Element => {
  * @param state
  */
 const notesLink = (_intl: IntlShape, notes: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { id, name, type } = notes
 
   return (

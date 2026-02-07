@@ -1,4 +1,4 @@
-@import '../index.scss';
+@use '../index.scss' as application;
 
 @keyframes sqwerl-logo-hover {
   from {
@@ -27,7 +27,7 @@
 
   & a {
     & img {
-      margin: $sqwerl-focus-border-size;
+      margin: application.$sqwerl-focus-border-size;
       position: relative;
       /* TODO - Find a better way to vertically align the logo image */
       top: 15%;

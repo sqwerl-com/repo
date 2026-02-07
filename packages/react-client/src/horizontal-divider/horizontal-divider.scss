@@ -1,4 +1,4 @@
-@import "../index.scss";
+@use "../index.scss" as application;
 
 .sqwerl-horizontal-divider {
   border-left: 1px solid var(--horizontal-divider-color);
@@ -39,7 +39,6 @@
   background: var(--list-background-color);
   position: absolute;
   height: 100%;
-  /* z-index: var(--horizontal-divider-split-left-child-z-index); */
 }
 
 .sqwerl-horizontal-split-overlay {
@@ -59,5 +58,4 @@
   display: flex;
   margin-left: 1px;
   position: absolute;
-  /* z-index: var(--horizontal-divider-split-right-child-z-index); */
 }

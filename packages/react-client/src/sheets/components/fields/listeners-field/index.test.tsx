@@ -5,7 +5,7 @@ import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import ListenersField from '@/sheets/components/fields/listeners-field'
 import messages from '@/translations/locales/en.json'
-import { mockThing } from '@/utils/mocks'
+import { mockThing } from '@/utilities/mocks'
 import React from 'react'
 import { render } from '@testing-library/react'
 

@@ -1,10 +1,10 @@
-@import "../../index.scss";
+@use "../../index.scss" as application;
 
 .sqwerl-repository-sheet {
   background: var(--background);
   display: flex;
   flex-direction: column;
-  height: calc(100% - (#{$sqwerl-row-height} * 2));
+  height: calc(100% - (#{application.$sqwerl-row-height} * 2));
   overflow-y: scroll;
   width: 100%;
 
@@ -17,11 +17,11 @@
       cursor: pointer;
       display: flex;
       flex-direction: row;
-      height: $sqwerl-row-height;
+      height: application.$sqwerl-row-height;
       left: 0.5rem;
-      min-height: $sqwerl-row-height;
+      min-height: application.$sqwerl-row-height;
       max-width: 36rem;
-      padding: $sqwerl-focus-border-size $sqwerl-focus-border-size $sqwerl-focus-border-size calc(1rem - #{$sqwerl-focus-border-size});
+      padding: application.$sqwerl-focus-border-size application.$sqwerl-focus-border-size application.$sqwerl-focus-border-size calc(1rem - #{application.$sqwerl-focus-border-size});
       position: relative;
       right: 0.5rem;
       text-decoration: none;
@@ -52,7 +52,7 @@
             }
 
             & .sqwerl-repository-changes-thumbnail-point {
-              fill: var(--background);
+              /* TODO - Remove fill: white;  */
               stroke: var(--repository-changes-thumbnail-bar-fill-hover-color);
             }
 
@@ -118,7 +118,7 @@
 
       & .sqwerl-repository-changes-thumbnail {
         border: 1px solid var(--repository-changes-thumbnail-border-color);
-        line-height: $sqwerl-row-height;
+        line-height: application.$sqwerl-row-height;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
 
@@ -131,13 +131,14 @@
         }
 
         & .sqwerl-repository-changes-thumbnail-point {
-          fill: var(--background);
+          fill: var(--application-text-color);
           stroke: var(--repository-changes-thumbnail-current-bar-fill-color);
         }
       }
 
       & .sqwerl-repository-changes-title {
         align-self: center;
+        line-height: 1.5rem;
         max-width: 30rem;
         /* TOOD - the padding-left and text-indent are used to create hanging-indents on lines that
                   overflow. These values should increase when the number of days with changes increases
@@ -166,8 +167,7 @@
       }
     }
   }
-
-
+  
   & .sqwerl-repository-changes-details-subtitle {
     color: var(--secondary-text-color);
     font-weight: normal;
@@ -175,12 +175,11 @@
 
   & .sqwerl-repository-changes-details-title {
     background: var(--content-heading-background);
-    border-bottom: 1px solid var(--content-heading-border-bottom-color);
     box-shadow: 0 0.1rem var(--content-heading-shadow-color);
 
-    height: $sqwerl-row-height;
-    line-height: calc(#{$sqwerl-row-height} / 2);
-    margin-left: $sqwerl-focus-border-size;
+    height: application.$sqwerl-row-height;
+    line-height: calc(#{application.$sqwerl-row-height} * .3);
+    margin-left: application.$sqwerl-focus-border-size;
     max-width: 36rem;
     min-width: 36rem;
     vertical-align: middle;

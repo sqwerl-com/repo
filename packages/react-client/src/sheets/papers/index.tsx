@@ -3,7 +3,7 @@ import AuthorsField from '@/sheets/components/fields/authors-field'
 import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
 import HistoryField from '@/sheets/components/fields/history-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import LinksField from '@/sheets/components/fields/links-field'
 import NotesField from '@/sheets/components/fields/notes-field'
 import PictureField from '@/sheets/components/fields/picture-field'
@@ -20,23 +20,15 @@ import TitleField from '@/sheets/components/fields/title-field'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only field that displays information about a scientific research paper.
- * @param {Props} props
- * @returns {JSX.Element}
- * @constructor
+ * @param props
  */
 const PapersSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(PapersSheet, PapersSheet)
-
-  logger.info('Render Papers property sheet')
-
   const { state } = props
   const { configuration, thing } = state
   const connectionProperties = [
@@ -54,6 +46,9 @@ const PapersSheet = (props: Props): React.JSX.Element => {
     'tags'
   ]
   const intl = useIntl()
+  const logger = loggerFactory.create(PapersSheet)
+
+  logger.info('Render Papers property sheet')
 
   if (thing == null) {
     return (<></>)
@@ -79,7 +74,9 @@ const PapersSheet = (props: Props): React.JSX.Element => {
     thumbnailUrl,
     title
   } = thing
+  const pictureFieldDescription = intl.formatMessage({ id: 'papersSheet.pictureFieldDescription' })
   const pictureFieldTitle = intl.formatMessage({ id: 'papersSheet.pictureFieldTitle' })
+  const titleFieldDescription = intl.formatMessage({ id: 'papersSheet.titleFieldDescription' })
 
   return (
     <>
@@ -94,10 +91,11 @@ const PapersSheet = (props: Props): React.JSX.Element => {
         titleTextValues={{ name }}
       />
       <ScrollableContent>
-        {title && <TitleField title={title} />}
+        {title && <TitleField description={titleFieldDescription} title={title} />}
         {archived && <ArchivedField archived={archived} />}
         {pictures &&
           <PictureField
+            fieldDescription={pictureFieldDescription}
             fieldTitle={pictureFieldTitle}
             pictures={pictures}
             size='medium'
@@ -125,5 +123,7 @@ const PapersSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(PapersSheet)
 
 export default PapersSheet

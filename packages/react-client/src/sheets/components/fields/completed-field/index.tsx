@@ -3,15 +3,14 @@ import type { SheetState } from '@/properties'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   done: boolean
   state: SheetState
 }
 
 /**
- * Renders a read-only field that specifies whether a thing, like notes, is complete.
+ * Renders a read-only field that specifies whether a thing, like notes, are complete.
  * @param props
- * @constructor
  */
 const CompletedField = (props: Props): React.JSX.Element => {
   const { done } = props
@@ -21,7 +20,9 @@ const CompletedField = (props: Props): React.JSX.Element => {
   return (
     <>
       <div className='sqwerl-properties-read-only-field'>
-        <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'completed.field.label' })} />
+        <ReadOnlyFieldLabel
+          description={intl.formatMessage({ id: 'completed.field.description' })}
+          labelText={intl.formatMessage({ id: 'completed.field.label' })} />
         <div className='sqwerl-properties-read-only-field-value'>
           <span className='sqwerl-read-only-field-sub-item-type-name'>
             {intl.formatMessage({ id: textId })}

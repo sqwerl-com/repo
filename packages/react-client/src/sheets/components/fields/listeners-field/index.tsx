@@ -1,12 +1,13 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
+import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import type { SheetState } from '@/properties'
-import { IntlShape, useIntl } from 'react-intl'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   listeners: CollectionType<Thing>
   state: SheetState
 }
@@ -14,7 +15,6 @@ interface Props {
 /**
  * Renders a read-only field with links to people how have listened to things (like talks, podcasts, etc.)
  * @param props
- * @constructor
  */
 const ListenersField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
@@ -38,7 +38,8 @@ const ListenersField = (props: Props): React.JSX.Element => {
  * @param state
  */
 const listenersLink = (_intl: IntlShape, listener: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { id, name, type } = listener
   return (
     <span className='sqwerl-read-only-field-sub-item'>

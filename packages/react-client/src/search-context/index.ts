@@ -1,8 +1,8 @@
 /* globals Response */
 
 import type { FetcherType } from '@/fetcher'
+import LoggerFactory from '@/logger'
 import { SearchResults } from '@/application'
-import Logger from '@/logger'
 
 /**
  * Specifies which property to sort search results by, and the sort order (ascending or descending).
@@ -39,7 +39,6 @@ export interface SearchContextType {
  * @param onSuccess Called when a search is successful.
  * @param searchText The text to search for.
  * @param sortByProperties Which property to sort search results in and in what order.
- * @constructor
  */
 const SearchContext = (
   applicationName: string,
@@ -51,10 +50,11 @@ const SearchContext = (
   searchText: string,
   sortByProperties?: SortByProperties
 ): SearchContextType => {
-  const logger = Logger(SearchContext, SearchContext)
+  const logger = loggerFactory.create(SearchContext)
   logger.assert(!!fetcher, 'A data fetcher is required')
   logger.assert(!!onFailure, 'A failure callback function is required')
   logger.assert(!!onSuccess, 'A success callback function is required')
+
   return {
     applicationName,
     fetcher,
@@ -66,5 +66,7 @@ const SearchContext = (
     sortByProperties
   }
 }
+
+const loggerFactory = LoggerFactory(SearchContext)
 
 export default SearchContext

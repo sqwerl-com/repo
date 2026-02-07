@@ -4,7 +4,7 @@ import NavigationToolbar from '@/navigation/navigation-toolbar'
 import { State as ApplicationState } from '@/application'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   currentName: string | string[]
   goBackUrl: string
   isHome: boolean

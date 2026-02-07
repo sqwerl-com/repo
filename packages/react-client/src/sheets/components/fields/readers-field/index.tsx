@@ -1,12 +1,13 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   readers: CollectionType<Thing>
   state: SheetState
 }
@@ -14,7 +15,6 @@ interface Props {
 /**
  * Renders a read-only field that lists the users who are currently reading a thing.
  * @param props
- * @constructor
  */
 const ReadersField = (props: Props): React.JSX.Element => {
   const { readers, state } = props
@@ -38,7 +38,8 @@ const ReadersField = (props: Props): React.JSX.Element => {
  * @param state
  */
 const readersLink = (intl: IntlShape, readers: Thing, state: SheetState) => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { isReadingCount, id, name, type } = readers
   const isReadingText = intl.formatMessage({ id: 'isReading' }, { count: isReadingCount })
 

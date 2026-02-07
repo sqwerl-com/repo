@@ -1,14 +1,16 @@
+import ApplicationContext from '@/context/application'
+import { BasicThing, CollectionType, HasPictureData, PictureData } from '@/utilities/types'
 import { ChevronRight } from 'react-feather'
-import { BasicThing, CollectionType } from '@/utils/types'
-import { encodeUriReplaceStringsWithHyphens } from '@/utils/formatters/ids.ts'
+import { encodeUriReplaceStringsWithHyphens } from '@/utilities/formatters/ids.ts'
 import { IntlShape, useIntl } from 'react-intl'
 import IsThingOfType from '@/sheets/components/is-thing-of-type'
 import IsTypeOfThing from '@/sheets/components/is-type-of-thing'
 import { Link } from 'react-router-dom'
 import ReadOnlyFieldLabel from '@/sheets/components/read-only-field-label'
 import type { SheetState } from '@/properties'
-import type { Thing } from '@/utils/types'
-import * as React from 'react'
+import type { Thing } from '@/utilities/types'
+import ThumbnailImage, { SIZES } from '@/utilities/components/thumbnail-image.tsx'
+import { useContext } from 'react'
 
 export type CreateLinkType =
   (intl: IntlShape, thing: Thing, state: SheetState, linkCount?: number) => React.JSX.Element
@@ -18,12 +20,17 @@ export type CreateLinkType =
  */
 const MAXIMUM_INLINE_MEMBERS = 5
 
-type Props = {
+export interface Props {
   /** A collection of things. */
   collection: CollectionType<Thing>
 
   /** A function to call to render an HTML link to a thing. */
   createLink: CreateLinkType,
+
+  /**
+   * Text that describes a field (often displayed within a tooltip).
+   */
+  fieldDescription?: string,
 
   /** HTML to label a field's value. */
   fieldLabel: string
@@ -39,6 +46,7 @@ type Props = {
     intl: IntlShape,
     collection: CollectionType<Thing>,
     createLink: CreateLinkType,
+    fieldDescription: string | undefined,
     fieldLabel: string,
     state: SheetState
   ) => React.JSX.Element,
@@ -62,6 +70,7 @@ const Field = (props: Props): React.JSX.Element => {
   const {
     collection,
     createLink,
+    fieldDescription,
     fieldLabel,
     maximumInlineMembers,
     property,
@@ -76,7 +85,10 @@ const Field = (props: Props): React.JSX.Element => {
     <>
       {collection && (totalCount === 1) &&
         <div className='sqwerl-properties-read-only-field'>
-          <ReadOnlyFieldLabel labelText={fieldLabel} />
+          <ReadOnlyFieldLabel
+            description={fieldDescription}
+            labelText={fieldLabel}
+          />
           {renderSingleFieldValue(intl, members[0], createLink, state)}
         </div>
       }
@@ -84,8 +96,9 @@ const Field = (props: Props): React.JSX.Element => {
         renderMultiple(
           intl,
           collection,
-          maximumInlineMembers,
+          maximumInlineMembers ?? 0,
           property,
+          fieldDescription,
           fieldLabel,
           createLink,
           renderMultipleFieldValues,
@@ -109,7 +122,11 @@ const renderFieldAsLink = (property: string, fieldLabel: string, state: SheetSta
       onClick={() => slideLeft(state)}
       to={`${window.location}.${property}`}
     >
-      <span className='sqwerl-properties-read-only-label-link-text' dangerouslySetInnerHTML={{ __html: fieldLabel }} />
+      <span
+        className='sqwerl-properties-read-only-label-link-text'
+        dangerouslySetInnerHTML={{ __html: fieldLabel }}
+        title='This is a title'
+      />
       <ChevronRight className='sqwerl-back-or-forward-icon sqwerl-read-only-field-link-chevron' />
     </Link>
   )
@@ -124,7 +141,8 @@ const renderFieldAsLink = (property: string, fieldLabel: string, state: SheetSta
  */
 export const renderFieldValue = (
   _intl: IntlShape, fieldLabel: string, thing: BasicThing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { applicationName } = configuration
   const { id, name, type, typeName } = thing
   const isType = {}.hasOwnProperty.call(fieldLabel, 'isType') && thing.isType
@@ -137,6 +155,9 @@ export const renderFieldValue = (
           `#/${applicationName}/${currentRepositoryName}${encodeUriReplaceStringsWithHyphens(id)}`}
       >
         {name}
+        {Object.hasOwn(thing, 'thumbnails') &&
+          <ThumbnailImage depictable={thing.thumbnails as HasPictureData} size={SIZES.medium} typeId={thing.type} />
+        }
       </Link>
       <span className='sqwerl-read-only-field-sub-item-type-name'>
         {isType ? <IsTypeOfThing /> : <IsThingOfType typeName={typeName} />}
@@ -157,6 +178,7 @@ const renderMultipleInlineFieldValues = (
   intl: IntlShape,
   collection: CollectionType<Thing>,
   createLink: CreateLinkType,
+  fieldDescription: string | undefined,
   fieldLabel: string,
   state: SheetState): React.JSX.Element => {
   const items: React.JSX.Element[] = []
@@ -165,12 +187,19 @@ const renderMultipleInlineFieldValues = (
     items.push(
       <li className='sqwerl-properties-read-only-field-value-item' key={`multi-field-value-${thing.id}-${index}`}>
         {createLink(intl, thing, state)}
+        {Object.hasOwn(thing, 'thumbnails') &&
+          <ThumbnailImage
+            depictable={{ pictureData: thing.thumbnails } as HasPictureData}
+            size={SIZES.medium}
+            typeId={thing.typeId}
+          />
+        }
       </li>)
   })
 
   return (
     <div className='sqwerl-properties-read-only-field'>
-      <ReadOnlyFieldLabel labelText={fieldLabel} />
+      <ReadOnlyFieldLabel description={fieldDescription} labelText={fieldLabel} />
       <div className='sqwerl-properties-read-only-field-value'>
         <ol className='sqwerl-properties-read-only-field-value-list'>
           {items}
@@ -186,6 +215,7 @@ const renderMultipleInlineFieldValues = (
  * @param collection A collection of things.
  * @param maximumInlineMembers The number of items to display as inline links rather than as a link to a list.
  * @param property The name of the property whose value this component displays.
+ * @param fieldDescription Text displayed--typically within a tooltip--to describe a field.
  * @param fieldLabel HTML to label a field's value.
  * @param createLink A function to call to render an HTML link to a thing.
  * @param renderMultipleFieldValues Renders multiple values as inline links.
@@ -196,6 +226,7 @@ const renderMultiple = (
   collection: CollectionType<Thing>,
   maximumInlineMembers = MAXIMUM_INLINE_MEMBERS,
   property: string,
+  fieldDescription: string | undefined,
   fieldLabel: string,
   createLink: CreateLinkType,
   renderMultipleFieldValues = renderMultipleInlineFieldValues,
@@ -204,19 +235,24 @@ const renderMultiple = (
     return renderFieldAsLink(property, fieldLabel, state)
   }
 
-  return renderMultipleFieldValues(intl, collection, createLink, fieldLabel, state)
+  return renderMultipleFieldValues(intl, collection, createLink, fieldDescription, fieldLabel, state)
 }
 
 /**
  *
  * @param intl Internationalization support.
- * @param value
+ * @param thing
  * @param createLink
  * @param state
  */
-const renderSingle = (intl: IntlShape, value: Thing, createLink: CreateLinkType, state:SheetState) => {
+const renderSingle = (intl: IntlShape, thing: Thing, createLink: CreateLinkType, state:SheetState) => {
   return (
-    <div className="sqwerl-properties-read-only-field-value">{createLink(intl, value, state)}</div>
+    <div className="sqwerl-properties-read-only-field-value">
+      {createLink(intl, thing, state)}
+      <div>
+        <ThumbnailImage depictable={{ pictureData: thing.thumbnails } as HasPictureData} size={SIZES.medium} typeId={thing.typeId} />
+      </div>
+    </div>
   )
 }
 

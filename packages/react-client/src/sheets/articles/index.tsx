@@ -3,7 +3,7 @@ import AuthorsField from '@/sheets/components/fields/authors-field'
 import CollectionsField from '@/sheets/components/fields/collections-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NotesField from '@/sheets/components/fields/notes-field'
 import PictureField from '@/sheets/components/fields/picture-field'
 import ReadByField from '@/sheets/components/fields/read-by-field'
@@ -18,20 +18,16 @@ import TitleBar from '@/sheets/components/title-bar'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information about an article.
- * @param {Props} props
- * @returns {JSX.Element}
- * @constructor
+ * @param props
  */
 const ArticlesSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(ArticlesSheet, ArticlesSheet)
+  const logger = loggerFactory.create(ArticlesSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
@@ -76,6 +72,7 @@ const ArticlesSheet = (props: Props): React.JSX.Element => {
     tags,
     thumbnailUrl
   } = thing
+  const pictureFieldDescription = intl.formatMessage({ id: 'articlesSheet.pictureFieldDescription' })
   const pictureFieldTitle = intl.formatMessage({ id: 'articlesSheet.pictureFieldTitle' })
 
   return (
@@ -94,6 +91,7 @@ const ArticlesSheet = (props: Props): React.JSX.Element => {
         {archived && <ArchivedField archived={archived} />}
         {(pictures !== undefined) &&
           <PictureField
+            fieldDescription={pictureFieldDescription}
             fieldTitle={pictureFieldTitle}
             pictures={pictures}
             size='medium'
@@ -123,5 +121,7 @@ const ArticlesSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(ArticlesSheet)
 
 export default ArticlesSheet

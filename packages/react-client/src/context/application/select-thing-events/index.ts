@@ -2,7 +2,6 @@ import { CallbackType, EventGenerator, Events } from '@/context/application/even
 
 /**
  * Registers listeners and notifies them when the user selects a thing.
- * @constructor
  */
 export const SelectThingEvents = (): EventGenerator => {
   const { callbacks, register, unregister } = Events([])

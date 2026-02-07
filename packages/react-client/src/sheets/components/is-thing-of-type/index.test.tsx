@@ -8,7 +8,7 @@ import { render } from '@testing-library/react'
 it('renders without crashing', () => {
   render(
     <IntlProvider locale='en' messages={messages}>
-      <IsThingOfType typeName='' />
+      <IsThingOfType typeName='Type of thing' />
     </IntlProvider>
   )
 })

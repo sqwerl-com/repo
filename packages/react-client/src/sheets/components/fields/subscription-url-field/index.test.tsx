@@ -14,7 +14,10 @@ it('renders without crashing', () => {
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
           <SubscriptionUrlField
-            labelId='webPage.label' url='https://www.sqwerl.com' state={{ ...createMockSheetState() }}
+            descriptionId='subscriptionUrl.description'
+            labelId='webPage.label'
+            url='https://www.sqwerl.com'
+            state={{ ...createMockSheetState() }}
           />
         </IntlProvider>
       </ApplicationContextProvider>

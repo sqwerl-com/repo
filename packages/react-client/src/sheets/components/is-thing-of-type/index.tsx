@@ -1,15 +1,14 @@
-import lowerCaseFirstLetter from '@/utils/formatters/lower-case-first-letter'
+import lowerCaseFirstLetter from '@/utilities/formatters/lower-case-first-letter'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   typeName: string
 }
 
 /**
  * Renders text that describes a thing's type.
  * @param props
- * @constructor
  */
 const IsThingOfType = (props: Props): React.JSX.Element => {
   const intl = useIntl()

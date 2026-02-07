@@ -6,8 +6,9 @@ import DescriptionField from '@/sheets/components/fields/description-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import InstructorsField from '@/sheets/components/fields/instructors-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NotesField from '@/sheets/components/fields/notes-field'
+import PictureField from '@/sheets/components/fields/picture-field'
 import RecommendationsField from '@/sheets/components/fields/recommendations-field'
 import RecommendedByField from '@/sheets/components/fields/recommended-by-field'
 import RepresentationsField from '@/sheets/components/fields/representations-field'
@@ -15,17 +16,14 @@ import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetProps } from '@/properties'
 import TagsField from '@/sheets/components/fields/tags-field'
 import TitleBar from '@/sheets/components/title-bar'
+import { useIntl } from 'react-intl'
 import * as React from 'react'
-
-let logger: LoggerType
 
 /**
  * Renders a read-only form that displays information about an academic course.
  * @param props
- * @constructor
  */
 const CoursesSheet = (props: SheetProps): React.JSX.Element => {
-  logger = Logger(CoursesSheet, CoursesSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
@@ -40,6 +38,8 @@ const CoursesSheet = (props: SheetProps): React.JSX.Element => {
     'representations',
     'tags'
   ]
+  const intl = useIntl()
+  const logger = loggerFactory.create(CoursesSheet)
 
   logger.info('Rendering Courses property sheet')
 
@@ -62,11 +62,16 @@ const CoursesSheet = (props: SheetProps): React.JSX.Element => {
     links,
     name,
     notes,
+    pictures,
     recommendations,
     recommendedBy,
     representations,
-    tags
+    tags,
+    thumbnailUrl
   } = thing
+  const pictureFieldDescription = intl.formatMessage({ id: 'coursesSheet.pictureFieldDescription' })
+  const pictureFieldTitle = intl.formatMessage({ id: 'coursesSheet.pictureFieldTitle' })
+
   return (
     <>
       <TitleBar
@@ -81,6 +86,16 @@ const CoursesSheet = (props: SheetProps): React.JSX.Element => {
       />
       <ScrollableContent>
         {archived && <ArchivedField archived={archived} />}
+        {pictures && pictures.totalCount > 0 &&
+          <PictureField
+            fieldDescription={pictureFieldDescription}
+            fieldTitle={pictureFieldTitle}
+            pictures={pictures}
+            size='medium'
+            state={state}
+            thumbnailUrl={thumbnailUrl}
+          />
+        }
         {description && <DescriptionField description={description} state={state} />}
         {instructors && <InstructorsField instructors={instructors} state={state} />}
         {collections && <CollectionsField collections={collections} state={state} />}
@@ -103,5 +118,7 @@ const CoursesSheet = (props: SheetProps): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(CoursesSheet)
 
 export default CoursesSheet

@@ -4,8 +4,9 @@ import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NotesField from '@/sheets/components/fields/notes-field'
+import PictureField from '@/sheets/components/fields/picture-field'
 import ReadersField from '@/sheets/components/fields/readers-field'
 import ReadByField from '@/sheets/components/fields/read-by-field'
 import RecommendationsField from '@/sheets/components/fields/recommendations-field'
@@ -16,22 +17,18 @@ import type { SheetState } from '@/properties'
 import TagsField from '@/sheets/components/fields/tags-field'
 import TitleBar from '@/sheets/components/title-bar'
 import TitleField from '@/sheets/components/fields/title-field'
-import UrlField from '@/sheets/components/fields/url-field'
+import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information about a document.
  * @param props
- * @constructor
  */
 const DocumentsSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(DocumentsSheet, DocumentsSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
@@ -46,11 +43,13 @@ const DocumentsSheet = (props: Props): React.JSX.Element => {
     'representations',
     'tags'
   ]
+  const logger = loggerFactory.create(DocumentsSheet)
 
   logger.info('Render Documents property sheet')
 
   const { state } = props
   const { configuration, thing } = state
+  const intl = useIntl()
 
   if (thing == null) {
     return (<></>)
@@ -66,15 +65,19 @@ const DocumentsSheet = (props: Props): React.JSX.Element => {
     links,
     name,
     notes,
+    pictures,
     readBy,
     readers,
     recommendations,
     recommendedBy,
     representations,
     tags,
-    title,
-    url
+    thumbnailUrl,
+    title
   } = thing
+  const pictureFieldDescription = intl.formatMessage({ id: 'documentsSheet.pictureFieldDescription' })
+  const pictureFieldTitle = intl.formatMessage({ id: 'documentsSheet.pictureFieldTitle' })
+  const titleFieldDescription = intl.formatMessage({ id: 'documentsSheet.titleFieldDescription' })
 
   return (
     <>
@@ -89,10 +92,18 @@ const DocumentsSheet = (props: Props): React.JSX.Element => {
         titleTextValues={{ name }}
       />
       <ScrollableContent>
-        {title && <TitleField title={title} />}
+        {title && <TitleField description={titleFieldDescription} title={title} />}
         {archived && <ArchivedField archived={archived} />}
+        {pictures && pictures.totalCount > 0 &&
+          <PictureField
+            fieldDescription={pictureFieldDescription}
+            fieldTitle={pictureFieldTitle}
+            pictures={pictures}
+            size='medium'
+            state={state}
+            thumbnailUrl={thumbnailUrl}
+          />}
         {description && <DescriptionField description={description} state={state} />}
-        {url && <UrlField labelId='webPage.label' url={url} state={state} />}
         {authors && <AuthorsField authors={authors} state={state} />}
         {representations &&
           <RepresentationsField
@@ -114,5 +125,7 @@ const DocumentsSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(DocumentsSheet)
 
 export default DocumentsSheet

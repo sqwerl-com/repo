@@ -1,13 +1,11 @@
 import { ChevronLeft } from 'react-feather'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import { State as ApplicationState } from '@/application'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   /** Path that consists of names of things to traverse to go back to a previously visited thing. */
   goBackUrl: string
 
@@ -31,7 +29,7 @@ interface Props {
  * @param props
  */
 const NavigationBack = (props: Props): React.JSX.Element => {
-  logger = Logger(NavigationBack, NavigationBack)
+  const logger = loggerFactory.create(NavigationBack)
   const { goBackUrl, setAnimationClassName, setSelectedItemId, title } = props
   const intl = useIntl()
   return (
@@ -63,5 +61,7 @@ const NavigationBack = (props: Props): React.JSX.Element => {
 const defaultText = (intl: IntlShape) => {
   return intl.formatMessage({ id: 'navigationBack.defaultText' })
 }
+
+let loggerFactory = LoggerFactory(NavigationBack)
 
 export default NavigationBack

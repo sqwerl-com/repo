@@ -1,23 +1,21 @@
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import type { SheetProps, SheetState } from '@/properties'
 import { IntlShape, useIntl } from 'react-intl'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information that describes this application.
  * @param props
- * @constructor
  */
 const HomeSheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.Element => {
-  logger = Logger(HomeSheet, HomeSheet)
+  const logger = loggerFactory.create(HomeSheet)
   const { isContributorSignedIn } = props.state
   const intl = useIntl()
+
   logger.info('Render Home property sheet')
   return isContributorSignedIn ? renderSignedInContributorsHome(/* TODO props */) : renderGuestHome(props, intl)
 }
@@ -50,7 +48,8 @@ const renderGuestHome = (_props: Props, intl: IntlShape): React.JSX.Element => {
       />
 
       <div className='sqwerl-property-sheet-text'>
-        Sqwerl allows you to manage and share the things that make you smart. Things like:
+        {/* TODO - Internationalize this */}
+        Sqwerl allows you to manage and share the things that make you smart, things like:
       </div>
 
       <ul className='sqwerl-home-sheet-list'>
@@ -69,12 +68,12 @@ const renderGuestHome = (_props: Props, intl: IntlShape): React.JSX.Element => {
 
       <div className='sqwerl-property-sheet-text'>
         {/* TODO - Internationalize */}
-        To the left, there is a list of repositories you can visit.
+        To the left, there are a list of repositories you can view.
       </div>
 
       <div className='sqwerl-property-sheet-text'>
         {/* TODO - Internationalize */}
-        Select a repository to view the things that it contains.
+        Select a repository to see the things it contains.
       </div>
     </>
   )
@@ -86,5 +85,8 @@ const renderSignedInContributorsHome = (/* TODO props: Props */): React.JSX.Elem
     <div>Welcome back signed-in contributor</div>
   )
 }
+
+
+const loggerFactory = LoggerFactory(HomeSheet)
 
 export default HomeSheet

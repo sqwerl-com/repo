@@ -1,28 +1,24 @@
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetState } from '@/properties'
 import TitleBar from '@/sheets/components/title-bar'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information about a facet: information that is common to types of things.
  * @param props
- * @constructor
  */
 const FacetsSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(FacetsSheet, FacetsSheet)
-
-  logger.info('Render Facets property sheet')
-
   const connectionProperties = ['addedBy']
   const { state } = props
   const { configuration, thing } = props.state
+  const logger = loggerFactory.create(FacetsSheet)
+
+  logger.info('Render Facets property sheet')
 
   if (thing == null) {
     return (<></>)
@@ -47,5 +43,7 @@ const FacetsSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(FacetsSheet)
 
 export default FacetsSheet

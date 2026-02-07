@@ -25,6 +25,7 @@ describe('Button', async () => {
       </BrowserRouter>
     )
 
-    expect(screen.getByTestId('button')).toBeInTheDocument()
+    const element = screen.getByTestId('button')
+    expect(element.classList).toContain('sqwerl-button')
   })
 })

@@ -3,7 +3,7 @@ import { SheetState } from '@/properties'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   firstName: string
   state: SheetState
 }
@@ -16,7 +16,10 @@ const FirstNameField = (props: Props): React.JSX.Element => {
     <>
       {firstName &&
         <div className='sqwerl-properties-read-only-field'>
-          <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'firstName.field.label' })} />
+          <ReadOnlyFieldLabel
+            description={intl.formatMessage({ id: 'firstName.field.description' })}
+            labelText={intl.formatMessage({ id: 'firstName.field.label' })}
+          />
           <div
             className='sqwerl-properties-read-only-field-value'
             dangerouslySetInnerHTML={{ __html: firstName }}

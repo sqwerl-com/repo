@@ -1,5 +1,5 @@
 import { CallbackType } from '@/context/application/events'
-import { Thing } from '@/utils/types'
+import { Thing } from '@/utilities/types'
 
 export type PropertiesRetrievedCallbackType =
   (value: { id: string, properties: { type: string }}, setThing: SetThingType) => void
@@ -25,7 +25,6 @@ export interface RecordType {
 
 /**
  * Registers listeners and notifies them when a thing's properties have been retrieved from a server.
- * @constructor
  */
 export const PropertiesRetrievedEvents = (callbacks: RecordType[]): PropertiesRetrievedEventGenerator => {
   return {

@@ -1,6 +1,7 @@
-@import '../index.scss';
+@use '../index.scss' as application;
 
 .sqwerl-menu-item {
+  align-items: flex-start;
   background: var(--menu-background-color);
   border: 1px solid var(--menu-item-border-color);
   cursor: pointer;
@@ -22,8 +23,8 @@
 
   & .sqwerl-menu-item-title {
     color: var(--hyperlink-text-color);
-    font-family: $sqwerl-hyperlink-font-family;
-    font-size: $sqwerl-hyperlink-font-size;
+    font-family: application.$sqwerl-hyperlink-font-family;
+    font-size: application.$sqwerl-hyperlink-font-size;
     padding: 0.2rem 0.2rem 0.2rem 0;
   }
 

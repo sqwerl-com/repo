@@ -1,12 +1,10 @@
 /* global HTMLElement */
 
 import { Children, isValidElement, MouseEvent, ReactNode, useEffect, useState } from 'react'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   children?: ReactNode
   percentage: number
   width: number
@@ -16,7 +14,6 @@ interface State {
   dragOriginX: number
   isArmed: boolean
   isDragging: boolean
-  logger: LoggerType
   setDragOriginX: (dragOriginX: number) => void
   setIsArmed: (isArmed: boolean) => void
   setIsDragging: (isDragging: boolean) => void
@@ -30,7 +27,7 @@ interface State {
  * left and right of the split bar.
  */
 const HorizontalDivider = (props: Props): React.JSX.Element => {
-  logger = Logger(HorizontalDivider, HorizontalDivider)
+  const logger = loggerFactory.create(HorizontalDivider)
   const { children } = props
   const [dragOriginX, setDragOriginX] = useState(0)
   const [isArmed, setIsArmed] = useState(false)
@@ -117,8 +114,8 @@ const HorizontalDivider = (props: Props): React.JSX.Element => {
  * @param state
  */
 const handleOnMouseDown = (event: MouseEvent<HTMLElement>, state: State): void => {
-  const { dragOriginX, isArmed, isDragging, logger, setDragOriginX, setIsArmed } = state
-  logger.setContext(handleOnMouseDown)
+  const { dragOriginX, isArmed, isDragging, setDragOriginX, setIsArmed } = state
+  const logger = loggerFactory.create(handleOnMouseDown)
 
   if (!(isArmed || isDragging)) {
     // @ts-expect-error type of offsetLeft is any
@@ -143,8 +140,8 @@ const handleOnMouseLeave = (state: State): void => {
  * @param state
  */
 const handleOnMouseMove = (event: MouseEvent<HTMLElement>, state: State): void => {
-  const { dragOriginX, isArmed, isDragging, logger, setIsArmed, setIsDragging, setPercentage } = state
-  logger.setContext(handleOnMouseMove)
+  const { dragOriginX, isArmed, isDragging, setIsArmed, setIsDragging, setPercentage } = state
+  const logger = loggerFactory.create(handleOnMouseMove)
   const currentTarget = event.currentTarget
 
   if (currentTarget.parentElement !== null) {
@@ -181,8 +178,9 @@ const handleOnMouseUp = (state: State): void => {
  * Stops dragging this divider's split bar.
  */
 const stopDragging = (state: State): void => {
-  const { isDragging, logger, setIsDragging } = state
-  logger.setContext(stopDragging).info('Stopped dragging')
+  const { isDragging, setIsDragging } = state
+  const logger = loggerFactory.create(stopDragging)
+  logger.info('Stopped dragging')
 
   if (isDragging) {
     setIsDragging(false)
@@ -200,5 +198,7 @@ const updateWidth = (setWidth: (width: number) => void): void => {
     setWidth(body.clientWidth)
   }
 }
+
+const loggerFactory = LoggerFactory(HorizontalDivider)
 
 export default HorizontalDivider

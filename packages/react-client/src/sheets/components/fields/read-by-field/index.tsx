@@ -1,12 +1,13 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext, { ApplicationContextType } from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext} from 'react'
 
-interface Props {
+export interface Props {
   readBy: CollectionType<Thing>
   state: SheetState
 }
@@ -14,16 +15,16 @@ interface Props {
 /**
  * Renders a read-only field that lists who have read a thing (like a book or a web page).
  * @param props
- * @constructor
  */
 const ReadByField = (props: Props): React.JSX.Element => {
+  const context = useContext(ApplicationContext)
   const { readBy, state } = props
   const intl = useIntl()
 
   return (
     <Field
       collection={readBy}
-      createLink={readByLink}
+      createLink={(intl, readBy, state) => readByLink(context, intl, readBy, state)}
       fieldLabel={intl.formatMessage({ id: 'readBy.field.label' }, { count: readBy.totalCount })}
       property='readBy'
       state={state}
@@ -33,12 +34,13 @@ const ReadByField = (props: Props): React.JSX.Element => {
 
 /**
  * Renders hyperlinks to things that have been read.
+ * @param context
  * @param intl
  * @param readBy
  * @param state
  */
-const readByLink = (intl: IntlShape, readBy: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+const readByLink = (context: ApplicationContextType, intl: IntlShape, readBy: Thing, state: SheetState): React.JSX.Element => {
+  const { configuration, currentRepositoryName } = state
   const { hasReadCount, id, name, type } = readBy
   const hasReadText = intl.formatMessage({ id: 'hasReadCount' }, { hasReadCount })
 

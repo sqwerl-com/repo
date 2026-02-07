@@ -1,12 +1,13 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   state: SheetState
   viewedBy: CollectionType<Thing>
 }
@@ -14,7 +15,6 @@ interface Props {
 /**
  * Renders read-only fields that list who has viewed a thing.
  * @param props
- * @constructor
  */
 const ViewedByField = (props: Props): React.JSX.Element => {
   const intl = useIntl()
@@ -38,7 +38,8 @@ const ViewedByField = (props: Props): React.JSX.Element => {
  * @param state
  */
 const viewedByLink = (intl: IntlShape, viewedBy: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { hasViewedCount, id, name, type } = viewedBy
   const hasViewedText = intl.formatMessage({ id: 'hasViewedCount' }, { count: hasViewedCount })
 

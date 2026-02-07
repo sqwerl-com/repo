@@ -1,5 +1,5 @@
 import { ApplicationContextProvider, ApplicationState } from '@/context/application'
-import { beforeEach, describe, test, vi } from 'vitest'
+import { describe, test } from 'vitest'
 import { BrowserRouter } from 'react-router-dom'
 import { createMockSheetState } from '@/sheets/mocks'
 import { IntlProvider } from 'react-intl'
@@ -9,6 +9,7 @@ import RepositoriesSheet from '@/sheets/repositories'
 import { render } from '@testing-library/react'
 
 describe('Repository property sheet', () => {
+  /*
   beforeEach(() => {
     global.ResizeObserver = vi.fn().mockImplementation(() => ({
       observe: vi.fn(),
@@ -16,8 +17,11 @@ describe('Repository property sheet', () => {
       disconnect: vi.fn(),
     }))
   })
+   */
 
   test('renders without crashing', () => {
+    const state = createMockSheetState()
+
     render(
       <BrowserRouter>
         <ApplicationContextProvider value={ApplicationState}>

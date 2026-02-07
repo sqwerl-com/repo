@@ -5,7 +5,7 @@ import DescriptionField from '@/sheets/components/fields/description-field'
 import HasReadField from '@/sheets/components/fields/has-read-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NotesField from '@/sheets/components/fields/notes-field'
 import PictureField from '@/sheets/components/fields/picture-field'
 import ReadByField from '@/sheets/components/fields/read-by-field'
@@ -22,16 +22,13 @@ import TitleField from '@/sheets/components/fields/title-field'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
- *
+ * Renders a read-only form that displays information about a web page.
  * @param props
- * @constructor
  */
 const WebPagesSheet = (props: Props): React.JSX.Element => {
   const connectionProperties = [
@@ -48,7 +45,7 @@ const WebPagesSheet = (props: Props): React.JSX.Element => {
     'subscriptions',
     'tags'
   ]
-  logger = Logger(WebPagesSheet, WebPagesSheet)
+  const logger = loggerFactory.create(WebPagesSheet)
 
   logger.info('Render Web Pages property sheet')
 
@@ -83,7 +80,9 @@ const WebPagesSheet = (props: Props): React.JSX.Element => {
     url,
     thumbnailUrl
   } = thing
+  const pictureFieldDescription = intl.formatMessage({ id: 'webPagesSheet.pictureFieldDescription' })
   const pictureFieldTitle = intl.formatMessage({ id: 'webPagesSheet.pictureFieldTitle' })
+  const titleFieldDescription = intl.formatMessage({ id: 'webPagesSheet.titleFieldDescription' })
 
   return (
     <>
@@ -113,19 +112,23 @@ const WebPagesSheet = (props: Props): React.JSX.Element => {
         {archived && <ArchivedField archived={archived} />}
         {pictures &&
           <PictureField
+            fieldDescription={pictureFieldDescription}
             fieldTitle={pictureFieldTitle}
             pictures={pictures}
             size='medium'
             state={state}
             thumbnailUrl={thumbnailUrl}
           />}
-        {title && <TitleField title={title} />}
-        {description && <DescriptionField description={description} state={state} />}
+        {title && <TitleField description={titleFieldDescription} title={title} />}
         {shortDescription &&
           <div className='sqwerl-properties-read-only-field'>
-            <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'shortDescription.field.label' } )} />
+            <ReadOnlyFieldLabel
+              description={intl.formatMessage({ id: 'webPagesSheet.shortDescriptionField.description' })}
+              labelText={intl.formatMessage({ id: 'shortDescription.field.label' } )}
+            />
             <div className='sqwerl-properties-read-only-field-value'>{shortDescription}</div>
           </div>}
+        {description && <DescriptionField description={description} state={state} />}
         {hasRead && <HasReadField hasRead={hasRead} state={state} />}
         {readers && <ReadersField readers={readers} state={state} />}
         {authors && <AuthorsField authors={authors} state={state} />}
@@ -142,5 +145,7 @@ const WebPagesSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(WebPagesSheet)
 
 export default WebPagesSheet

@@ -1,22 +1,20 @@
 import ApplicationContext from '@/context/application'
-import { BasicThing, HasPictureData } from '@/utils/types'
+import { BasicThing, HasPictureData } from '@/utilities/types'
 import { ConfigurationType } from '@/configuration'
-import { encodeUriReplaceStringsWithHyphens } from '@/utils/formatters/ids'
-import { evenOrOddClassName } from '@/utils/css/even-or-odd-class-name'
+import { encodeUriReplaceStringsWithHyphens } from '@/utilities/formatters/ids'
+import { evenOrOddClassName } from '@/utilities/css/even-or-odd-class-name'
 import { FetcherType } from '@/fetcher'
-import { FixedSizeList, ListChildComponentProps } from 'react-window'
 import InfiniteLoader from 'react-window-infinite-loader'
+import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
-import { linkTargetToCollection, linkTargetToLeaf } from '@/utils/formatters/link-target'
-import Logger, { LoggerType } from '@/logger'
+import { linkTargetToCollection, linkTargetToLeaf } from '@/utilities/formatters/link-target'
+import { ListChildComponentProps, VariableSizeList } from 'react-window'
+import LoggerFactory from '@/logger'
 import PropertyTitleBar from '@/sheets/components/property-title-bar'
-import ScrollableContent from '@/sheets/components/scrollable-content'
+import { ReactNode } from 'react'
+import { RefObject, useContext, useEffect, useRef, useState } from 'react'
 import type { SheetProps, SheetState } from '@/properties'
-import SmallThumbnailImage from '@/utils/components/small-thumbnail-image.tsx'
-import { useContext, useEffect, useState } from 'react'
-import * as React from 'react'
-
-let logger: LoggerType
+import ThumbnailImage, { SIZES } from '@/utilities/components/thumbnail-image.tsx'
 
 /**
  * Item that represents a thing.
@@ -31,74 +29,46 @@ interface ItemType extends HasPictureData {
   typeName: string
 }
 
+interface ItemData {
+  indexColumnWidth: string
+  intl: IntlShape
+  items: ItemType[]
+  state: SheetState
+}
+
 /**
- * State to keep track of while loading information about things.
+ * Data required to keep track of while loading information about things.
  */
 interface LoadingState {
   configuration: ConfigurationType
   fetcher: FetcherType
   items: ItemType[]
   loadingOffsets: Map<string, string>
-  logger: LoggerType
   property: string
   setIsLoading: (isLoading: boolean) => void
   setItems: (items: ItemType[]) => void
   thing: BasicThing | null
 }
 
-interface ItemData {
-  indexColumnWidth: string
-  items: ItemType[]
-  state: SheetState
-}
-
 /**
  * Renders a read-only form that displays the values of one of a thing's properties.
  * @param props
- * @constructor
  */
-const PropertySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.Element => {
-  logger = Logger(PropertySheet, PropertySheet)
+const PropertySheet: React.FC<SheetProps> = (props: SheetProps): ReactNode => {
   const context = useContext(ApplicationContext)
-  const [loadingOffsets, setLoadingOffsets] = useState<Map<string, string>>(new Map<string, string>())
-  const [scrollAreaHeight, setScrollAreaHeight] = useState(100)
-  const [scrollViewElement, setScrollViewElement] = useState<HTMLDivElement | null>(null)
-  const [isLoading, setIsLoading] = useState<boolean>(false)
   const { state } = props
   const { configuration, fetcher, property, thing } = state
-  const newItems: ItemType[] = []
-  const members = ((thing != null) &&
-    Object.prototype.hasOwnProperty.call(thing, 'members') && thing.members) ? thing.members : []
-  const [rowHeightInPixels] = useState(configuration.rowHeightInPixels)
-  const totalCount = ((thing != null) &&
-    Object.prototype.hasOwnProperty.call(thing, 'totalCount') ? thing.totalCount : 0)
-  members.forEach((item, index) => {
-    newItems.push({
-      id: item.id,
-      isLoaded: true,
-      name: item.name,
-      offset: index,
-      pictureData: item.pictureData,
-      type: item.type,
-      typeId: item.typeId,
-      typeName: item.typeName
-    })
-  })
-  for (let i = members.length; i < totalCount; i++) {
-    newItems.push({
-      id: '',
-      isLoaded: false,
-      name: '',
-      offset: i,
-      type: '',
-      typeId: '',
-      typeName: ''
-    })
-  }
-  const [items, setItems] = useState<ItemType[]>(newItems)
+  const [rowHeightInPixels] = useState(context.rowHeightInPixels)
+  const [scrollAreaHeight, setScrollAreaHeight] = useState(100)
+  const [scrollViewElement, setScrollViewElement] = useState<HTMLDivElement | null>(null)
+
   useEffect(() => {
     determineScrollAreaHeight(scrollViewElement, rowHeightInPixels, setScrollAreaHeight)
+    const resizeListener = () => determineScrollAreaHeight(scrollViewElement, rowHeightInPixels, setScrollAreaHeight)
+    window.addEventListener('resize', resizeListener)
+    return () => window.removeEventListener('resize', resizeListener)
   }, [rowHeightInPixels, scrollViewElement])
+
   useEffect(() => {
     if (members) {
       const newItems = [...items]
@@ -113,119 +83,159 @@ const PropertySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.Eleme
           typeName: member.typeName
         }
       })
+
       loadedItems.forEach(item => {
         newItems[item.offset] = item
       })
+
       setItems(newItems)
     }
   }, [])
-  if (thing != null) {
-    const indexColumnWidth = `columns-${Math.min(6, Math.round(Math.log10(thing.totalCount) + 1))}`
-    return (
-      <>
-        <PropertyTitleBar
-          configuration={configuration}
-          count={thing.totalCount}
-          state={state}
-          thing={thing}
-          thingName={thing.name}
-          titleTextId={`propertySheet.${property}.title`}
-          titleTextValues={{ count: thing.totalCount, name: thing.name }}
-        />
-        <table className='sqwerl-properties-table'>
-          <thead>
-            <tr className='sqwerl-properties-table-heading'>
-              <th className={`sqwerl-properties-table-index-column ${indexColumnWidth}`} />
-              {/* TODO - Internationalize */}
-              <th className='sqwerl-properties-table-name-table-heading'>Name</th>
-              {/* TODO - Internationalize */}
-              <th className='sqwerl-properties-table-type-table-heading'>Type</th>
-            </tr>
-          </thead>
-          <ScrollableContent>
-            <tbody
-              ref={setScrollViewElement}
-              style={{
-                bottom: '-2.5rem',
-                left: '0',
-                maxWidth: '900px',
-                minWidth: '500px',
-                position: 'absolute',
-                top: `${(context.rowHeightInPixels * 2) + 1}px`
-              }}
-            >
-              <InfiniteLoader
-                isItemLoaded={(index: number) => !!(items[index]?.isLoaded)}
-                itemCount={items ? items.length : 0}
-                loadMoreItems={(startIndex: number, stopIndex: number): Promise<void> | void =>
-                  loadMoreItems(startIndex, stopIndex, {
-                    configuration,
-                    fetcher,
-                    items,
-                    loadingOffsets,
-                    logger,
-                    property,
-                    setIsLoading,
-                    setItems,
-                    thing
-                  })
-                }
-              >
-                {({ onItemsRendered, ref }) => {
-                  return (
-                    <FixedSizeList
-                      height={scrollAreaHeight}
-                      itemCount={items ? items.length : 0}
-                      itemData={{ indexColumnWidth, items, state }}
-                      itemSize={rowHeightInPixels}
-                      onItemsRendered={onItemsRendered}
-                      overscanCount={Math.floor(scrollAreaHeight / rowHeightInPixels)}
-                      ref={ref}
-                      width='100%'
-                    >
-                      {Row}
-                    </FixedSizeList>
-                  )
-                }}
-              </InfiniteLoader>
-            </tbody>
-          </ScrollableContent>
-        </table>
-      </>
-    )
-  } else {
+
+  const intl = useIntl()
+  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const [loadingOffsets, setLoadingOffsets] = useState<Map<string, string>>(new Map<string, string>())
+  const newItems: ItemType[] = []
+  const members = ((thing != null) &&
+    Object.prototype.hasOwnProperty.call(thing, 'members') && thing.members) ? thing.members : []
+  const [items, setItems] = useState<ItemType[]>(newItems)
+  const totalCount = ((thing != null) &&
+    Object.prototype.hasOwnProperty.call(thing, 'totalCount') ? thing.totalCount : 0)
+
+  members.forEach((item, index) => {
+    newItems.push({
+      id: item.id,
+      isLoaded: true,
+      name: item.name,
+      offset: index,
+      pictureData: item.pictureData,
+      type: item.type,
+      typeId: item.typeId,
+      typeName: item.typeName
+    })
+  })
+
+  for (let i = members.length; i < totalCount; i++) {
+    newItems.push({
+      id: '',
+      isLoaded: false,
+      name: '',
+      offset: i,
+      type: '',
+      typeId: '',
+      typeName: ''
+    })
+  }
+
+  if (thing === null) {
     return (<></>)
   }
+
+  const indexColumnWidth = `columns-${Math.min(6, Math.round(Math.log10(thing.totalCount) + 1))}`
+  let list: VariableSizeList<ItemData>
+
+  return (
+    <>
+      <PropertyTitleBar
+        configuration={configuration}
+        count={thing.totalCount}
+        state={state}
+        thing={thing}
+        thingName={thing.name}
+        titleTextId={`propertySheet.${property}.title`}
+        titleTextValues={{ count: thing.totalCount, name: thing.name }}
+      />
+      <div className='sqwerl-list-view' ref={setScrollViewElement}>
+        <InfiniteLoader
+          isItemLoaded={(index: number) => !!(items[index]?.isLoaded)}
+          itemCount={items ? items.length : 0}
+          loadMoreItems={(startIndex: number, stopIndex: number): Promise<void> | void =>
+            loadMoreItems(startIndex, stopIndex, {
+              configuration,
+              fetcher,
+              items,
+              loadingOffsets,
+              property,
+              setIsLoading,
+              setItems,
+              thing
+            })
+          }
+        >
+          {({ onItemsRendered, ref }) => {
+            return (
+              <VariableSizeList
+                estimatedItemSize={rowHeightInPixels}
+                height={scrollAreaHeight}
+                itemCount={items ? items.length : 0}
+                itemData={{ indexColumnWidth, intl, items, state }}
+                itemSize={itemIndex => rowHeightInPixels}
+                onItemsRendered={onItemsRendered}
+                overscanCount={Math.floor(scrollAreaHeight / 50 )}
+                ref={(variableSizeList: VariableSizeList<ItemData>) => {
+                  if (typeof ref === 'function') {
+                    ref(variableSizeList)
+                  }
+                  list = variableSizeList
+                }}
+                width='100%'
+              >
+                {Row}
+              </VariableSizeList>
+            )
+          }}
+        </InfiniteLoader>
+      </div>
+    </>
+  )
 }
 
+/**
+ * Invokes the given state setter function to set the scroll area's height (in pixels).
+ * @param element  A scroll area HTML element.
+ * @param itemSizeInPixels Default height, in pixels, for rows within the scroll area.
+ * @param setScrollViewHeight Sets the scroll area's height (in pixels).
+ */
 const determineScrollAreaHeight = (
-  element: HTMLElement | null, itemSizeInPixels: number, setScrollViewHeight: (height: number) => void): void => {
+  element: HTMLElement | null,
+  itemSizeInPixels: number,
+  setScrollViewHeight: (height: number) => void
+): void => {
   if (element != null) {
-    setScrollViewHeight(element.clientHeight - element.getBoundingClientRect().top + itemSizeInPixels)
+    setScrollViewHeight(
+      element.clientHeight -
+      element.getBoundingClientRect()?.top +
+      (element.parentElement?.getBoundingClientRect().top ?? 0)
+    )
   }
 }
 
 let pending: number
 
 const loadMoreItems = (startIndex: number, stopIndex: number, state: LoadingState): Promise<void> | void => {
-  const { configuration, fetcher, items, loadingOffsets, logger, property, setIsLoading, setItems, thing } = state
+  const { configuration, fetcher, items, loadingOffsets, property, setIsLoading, setItems, thing } = state
   const baseUrl = configuration.baseUrl || ''
-  logger.setContext(loadMoreItems)
+
   if (thing == null) {
     return
   }
+
   if (pending) {
     clearTimeout(pending)
   }
+
   pending = window.setTimeout(async () => {
     setIsLoading(true)
     const url =
       `${baseUrl}${encodeUriReplaceStringsWithHyphens(thing.id)}` +
         `/summary?properties=${property}&limit=20&offset=${startIndex}`
+
     if (loadingOffsets.has(url)) {
       return await new Promise<void>(() => [])
     }
+
     loadingOffsets.set(url, '')
+
     return await new Promise<void>((resolve) => {
       fetcher.requestData({
         dontSetBusy: true,
@@ -233,12 +243,14 @@ const loadMoreItems = (startIndex: number, stopIndex: number, state: LoadingStat
       }).then((response: Response) => {
         setIsLoading(false)
         loadingOffsets.delete(url)
+
         if (response.status === 200) {
           response.json().then((data) => {
             if (data) {
               const members = data[property].members
               const offset = data[property].offset
               const newItems = [...items]
+
               members.forEach((item: ItemType, index: number) => {
                 newItems[offset + index] = {
                   id: item.id,
@@ -251,36 +263,40 @@ const loadMoreItems = (startIndex: number, stopIndex: number, state: LoadingStat
                   typeName: item.typeName
                 }
               })
+
               setItems(newItems)
               resolve()
             }
           })
         } else {
           loadingOffsets.delete(url)
-          onFetchingItemsFailed(logger, response)
+          onFetchingItemsFailed(response)
         }
       }), (response: Response) => {
         loadingOffsets.delete(url)
-        onFetchingItemsFailed(logger, response)
+        onFetchingItemsFailed(response)
       }
     })
   }, 500)
 }
 
-const onFetchingItemsFailed = (logger: LoggerType, response: Response) => {
+const onFetchingItemsFailed = (response: Response) => {
+  const logger = loggerFactory.create(onFetchingItemsFailed)
   logger.error(`Unable to fetch items. response=${JSON.stringify(response)}`)
 }
 
 const Row = (props: ListChildComponentProps<ItemData>): React.JSX.Element => {
   const { data, index, style } = props
-  const { indexColumnWidth, items, state } = data
-  const { configuration, context, currentRepositoryName } = state
+  const { indexColumnWidth, intl, items, state } = data
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const item = items[index]
   const id = item.id
   const isCollection = item.typeId === '/types/collections'
   const link = isCollection
     ? linkTargetToCollection(id, configuration, context, currentRepositoryName)
     : linkTargetToLeaf(id, configuration, context, currentRepositoryName)
+ /*
   return (
     <tr
       className={`sqwerl-table-row-link ${evenOrOddClassName((index))}`}
@@ -296,17 +312,60 @@ const Row = (props: ListChildComponentProps<ItemData>): React.JSX.Element => {
           <span className='sqwerl-properties-table-name-link' key={index}>
             <Link className='sqwerl-properties-table-name-title' to={link}>
               <span className='sqwerl-properties-name-text'>
-                {/* TODO - The ... string below needs to be removed: Use the CSS loading content animation. */}
+                {* TODO - The ... string below needs to be removed: Use the CSS loading content animation. *}
                 {item.isLoaded ? item.name : '...'}
               </span>
             </Link>
           </span>
-          <SmallThumbnailImage depictable={item} />
+          <ThumbnailImage depictable={item} size={SIZES.small} />
         </div>
       </td>
       <td className='sqwerl-properties-table-type-column'>{item.typeName}</td>
     </tr>
   )
+*/
+  return (
+    <div
+      className={`sqwerl-navigation-item ${evenOrOddClassName(index)}`}
+      style={style}
+    >
+      <Link
+        className='sqwerl-navigation-parent-item double-height'
+        data-id={item.id}
+        data-key={index}
+        to={link ?? ''}
+      >
+        <span className={`sqwerl-navigation-item-ordinal ${indexColumnWidth}`}>
+          {intl.formatNumber(index + 1)}
+        </span>
+        <div className='sqwerl-navigation-item-content'>
+          <div className='sqwerl-parent-item-heading'>
+            <label className='sqwerl-navigation-item-title ' data-key={index}>
+              <div
+                className='sqwerl-navigation-item-text'
+                data-key={index}>
+                <div
+                  className='sqwerl-navigation-item-title-text'
+                  data-key={index}>
+                  {item.name ?? ''}
+                </div>
+              </div>
+              <span className='sqwerl-navigation-item-type-name'>
+                {context.typeNameToTypeDescription(intl, item.typeName ?? '')}
+              </span>
+            </label>
+          </div>
+          <div className='sqwerl-parent-item-details'>
+            <div className='sqwerl-navigation-item-icon' data-key={index}>
+              <ThumbnailImage depictable={item} size={SIZES.medium} typeId={item.typeId} />
+            </div>
+          </div>
+        </div>
+      </Link>
+    </div>
+  )
 }
+
+const loggerFactory = LoggerFactory(PropertySheet)
 
 export default PropertySheet

@@ -12,11 +12,14 @@ describe('Busy pane', async () => {
       <BrowserRouter>
         <IntlProvider locale='en' messages={messages}>
           <BusyPane
-            isVisible={true}
+            isVisible
             name='testBusyPane'
           />
         </IntlProvider>
       </BrowserRouter>
     )
+
+    const element = screen.getByTestId('busy-pane')
+    expect(element.classList).toContain('sqwerl-busy-pane')
   })
 })

@@ -1,4 +1,4 @@
-@import '../../index.scss';
+@use '../../index.scss' as application;
 
 .sqwerl-application-content-area {
   flex: 1 0;

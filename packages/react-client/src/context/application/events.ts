@@ -14,7 +14,6 @@ export interface EventsType {
 
 /**
  * Returns an event notifier.
- * @constructor
  */
 export const Events = (callbacks: CallbackType[]): EventsType => {
   return {

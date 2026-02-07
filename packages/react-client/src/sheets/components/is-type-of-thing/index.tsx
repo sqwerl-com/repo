@@ -3,7 +3,6 @@ import * as React from 'react'
 
 /**
  * Renders text that specifies that a thing is a definition of a type of thing.
- * @constructor
  */
 const IsTypeOfThing = (): React.JSX.Element => {
   const intl = useIntl()

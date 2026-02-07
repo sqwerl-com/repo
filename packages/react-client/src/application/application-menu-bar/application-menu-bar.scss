@@ -1,5 +1,5 @@
-@import '../../menu-button/menu-button.scss';
-@import '../../index.scss';
+@use '../../menu-button/menu-button.scss';
+@use '../../index.scss' as application;
 
 $sqwerl-dark-search-text-placeholder-text-color: #707070;
 $sqwerl-menu-bar-search-field-width: 26rem;
@@ -11,8 +11,8 @@ $sqwerl-menu-bar-search-field-edit-animation-duration: 0.3s;
   border-bottom: 1px solid var(--menu-bar-bottom-border-color);
   display: flex;
   flex: 1 1 auto;
-  height: $sqwerl-row-height;
-  min-height: $sqwerl-row-height;
+  height: application.$sqwerl-row-height;
+  min-height: application.$sqwerl-row-height;
   padding: 3px 15px 3px 3px;
 
   button.sqwerl-search-field-default {
@@ -64,7 +64,7 @@ $sqwerl-menu-bar-search-field-edit-animation-duration: 0.3s;
 
     &.searching {
       & .sqwerl-search-field-searching {
-        background: $sqwerl-dark-application-menu-bar-background;
+        background: application.$sqwerl-dark-application-menu-bar-background;
         border: 1px solid #505050;
       }
     }
@@ -73,7 +73,7 @@ $sqwerl-menu-bar-search-field-edit-animation-duration: 0.3s;
   .sqwerl-search-default-text {
     align-self: center;
     color: var(--menu-button-text-color);
-    font-family: $sqwerl-hyperlink-font-family;
+    font-family: application.$sqwerl-hyperlink-font-family;
   }
 
   .sqwerl-search-field-form {
@@ -104,11 +104,11 @@ $sqwerl-menu-bar-search-field-edit-animation-duration: 0.3s;
   }
 
   .sqwerl-search-field-finished-searching {
-    background: $sqwerl-dark-application-menu-bar-background;
+    background: application.$sqwerl-dark-application-menu-bar-background;
   }
 
   .sqwerl-search-field-searching {
-    background: $sqwerl-dark-application-menu-bar-background;
+    background: application.$sqwerl-dark-application-menu-bar-background;
 
     & .sqwerl-searching-message {
       color: $sqwerl-dark-search-text-placeholder-text-color;
@@ -124,12 +124,12 @@ $sqwerl-menu-bar-search-field-edit-animation-duration: 0.3s;
     transition: opacity $sqwerl-menu-bar-search-field-edit-animation-duration ease-in, width $sqwerl-menu-bar-search-field-edit-animation-duration cubic-bezier(0, 0.58, 0.71, 1.13);
 
     & .sqwerl-search-field-finished-searching {
-      padding: $sqwerl-content-heading-shadow-offset;
+      padding: application.$sqwerl-content-heading-shadow-offset;
       width: 100%;
     }
 
     & .sqwerl-search-field-searching {
-      padding: $sqwerl-content-heading-shadow-offset;
+      padding: application.$sqwerl-content-heading-shadow-offset;
     }
 
     &.default {

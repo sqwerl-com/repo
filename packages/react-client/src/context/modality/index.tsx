@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface Props {
+export interface Props {
   children: React.ReactNode | React.ReactNode[],
   value?: boolean
 }
@@ -11,7 +11,6 @@ const ModalityContext = React.createContext(false)
 /**
  * Injects a context for determining if a modal component is visible.
  * @param props
- * @constructor
  */
 const ModalityProvider = (props: Props): React.JSX.Element => {
   const [isModalVisible] = React.useState(false)

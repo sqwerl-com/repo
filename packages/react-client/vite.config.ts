@@ -1,16 +1,17 @@
-import { defineConfig } from 'vitest/config'
+import { defineConfig } from 'vite'
 import path from 'path'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react'
+import tsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
     outDir: 'build'
   },
-  define: {
-    'process': null
-  },
-  plugins: [react()],
+  plugins: [
+    react(),
+    tsconfigPaths()
+  ],
   resolve: {
     "alias": {
       '@': path.resolve(__dirname, './src')
@@ -30,6 +31,7 @@ export default defineConfig({
   },
   test: {
     coverage: {
+      enabled: true,
       exclude: [
         './.next/**',
         './*.js',
@@ -40,7 +42,9 @@ export default defineConfig({
         '**/*.d.ts',
         '**/*.mjs',
         '**/*.test.*'
-      ]
+      ],
+      provider: 'v8',
+      reportsDirectory: 'coverage'
     },
     globals: true,
     environment: 'jsdom',

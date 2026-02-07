@@ -1,17 +1,18 @@
-import { AggregatedRepositoryChange } from '@/utils/repository-change-aggregator'
+import { AggregatedChange } from '@/utilities/change-aggregator'
+import ApplicationContext, { ApplicationContextType } from '@/context/application'
 import ChangesThumbnailGraph from '@/repository-changes-graph/changes-thumbnail-graph'
 import { ChevronRight } from 'react-feather'
-import { evenOrOddClassName } from '@/utils/css/even-or-odd-class-name'
+import { evenOrOddClassName } from '@/utilities/css/even-or-odd-class-name'
 import { format } from 'date-fns'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import { SheetState } from '@/properties'
-import * as React from 'react'
-import { ApplicationContextType } from '@/context/application'
+import { Thing } from '@/utilities/types'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   authorCount: number
-  change: AggregatedRepositoryChange
+  change: AggregatedChange
   index: number
   repositoryName: string
   state: SheetState
@@ -24,33 +25,26 @@ interface Props {
  */
 const ChangesByDay = (props: Props): React.JSX.Element => {
   const { authorCount, change, repositoryName, index, state, timestamp } = props
-  const { configuration, context, thing } = state
+  const { configuration, thing } = state
+  const context = useContext(ApplicationContext)
   const intl = useIntl()
-  console.log(`ChangesByDay: index=${index}`)
+
   return (
-    <Link
-      className={`sqwerl-repository-changes ${evenOrOddClassName(index)}`}
-      key={`change-${timestamp}-${index}`}
-      onClick={() => slideLeft(state)}
-      to={`#/${configuration.applicationName}/${repositoryName}/types/changes?ids=${change.idsAsList}&index=0&limit=10`}
-    >
-      {(authorCount === 1) && renderChangeTitleWithSingleAuthor(intl, context, change, timestamp, index)}
-      {(authorCount > 1) && renderChangeTitleWithMultipleAuthors(intl, context, change, timestamp, index)}
-      <svg className='sqwerl-repository-changes-thumbnail' height='30px' key={`svg-${index}`} width='64px'>
-        {(thing != null) &&
-          <ChangesThumbnailGraph
-            change={thing}
-            index={index}
-            key={`thumbnail-${index}-${thing.id}`}
-            timestamp={timestamp.toISOString()}
-            width='60px'
-          />
-        }
-      </svg>
-      <span className='sqwerl-repository-changes-title-details-icon'>
-        <ChevronRight className='sqwerl-back-or-forward-icon' />
-      </span>
-    </Link>
+    <div className='sqwerl-navigation-item'>
+      <Link
+        className='sqwerl-navigation-parent-item double-height'
+        key={`change-${timestamp}-${index}`}
+        onClick={() => slideLeft(state)}
+        to={`#/${configuration.applicationName}/${repositoryName}/types/changes?ids=${change.idsAsList}&index=0&limit=10`}
+      >
+        {/* TODO - render the ordinal number, then the thumbnail graph, then the title text */}
+        {(authorCount === 1) && renderChangeTitleWithSingleAuthor(thing, intl, context, change, timestamp, index)}
+        {(authorCount > 1) && renderChangeTitleWithMultipleAuthors(intl, context, change, timestamp, index)}
+        <span className='sqwerl-repository-changes-title-details-icon'>
+          <ChevronRight className='sqwerl-back-or-forward-icon' />
+        </span>
+      </Link>
+    </div>
   )
 }
 
@@ -63,8 +57,9 @@ const ChangesByDay = (props: Props): React.JSX.Element => {
  * @param index The index of the change within a list of changes.
  */
 const renderChangeTitleWithMultipleAuthors = (
-  intl: IntlShape, context: ApplicationContextType, change: AggregatedRepositoryChange, date: Date, index: number) => {
+  intl: IntlShape, context: ApplicationContextType, change: AggregatedChange, date: Date, index: number) => {
   const thingTextId = change.changesCount === 1 ? 'thingSingular' : 'thingPlural'
+
   return (
     <span
       className='sqwerl-repository-changes-title'
@@ -97,28 +92,60 @@ const renderChangeTitleWithMultipleAuthors = (
  * @param index The index of the change within a list of changes.
  */
 const renderChangeTitleWithSingleAuthor = (
-  intl: IntlShape, context: ApplicationContextType, change: AggregatedRepositoryChange, date: Date, index: number) => {
+  thing: Thing | null,
+  intl: IntlShape,
+  context: ApplicationContextType,
+  change: AggregatedChange,
+  date: Date,
+  index: number
+) => {
   const thingTextId = change.changesCount === 1 ? 'thingSingular' : 'thingPlural'
+
   return (
-    <span
-      className='sqwerl-repository-changes-title'
-      dangerouslySetInnerHTML={{
-        __html: intl.formatMessage({
-          id: `repositorySheet.repositoryChangesSingleAuthorTitle${context.shouldShowRelativeTime(date) ? 'RelativeTime' : ''}`
-        },
-        {
-          at: format(date, 'h:mma'),
-          count: change.changesCount,
-          countEndTag: "'</span>'",
-          countStartTag: "'<span class=\"sqwerl-repository-changes-count\">'",
-          index: index + 1,
-          on: format(date, 'MMM do'),
-          things: intl.formatMessage({ id: thingTextId }),
-          when: context.distanceInTimeText(date),
-          who: change.by[0]
-        })
-      }}
-    />
+    <>
+      <span className='sqwerl-navigation-item-ordinal'>{index + 1}</span>
+      <div className='sqwerl-repository-changes-description'>
+        <svg className='sqwerl-repository-changes-thumbnail' height='30px' key={`svg-${index}`} width='64px'>
+          {(thing != null) &&
+            <ChangesThumbnailGraph
+              change={thing}
+              index={index}
+              key={`thumbnail-${index}-${thing.id}`}
+              timestamp={date.toISOString()}
+              width='60px'
+            />
+          }
+        </svg>
+        <div className='sqwerl-parent-item-heading'>
+          <label className='sqwerl-navigation-item-title' data-key={index}>
+            <div
+              className='sqwerl-navigation-item-title-text sqwerl-hyperlink-underline-on-hover'
+              data-key={index}
+            >
+              <span
+                className='sqwerl-repository-changes-title'
+                dangerouslySetInnerHTML={{
+                 __html: intl.formatMessage({
+                     id: `repositorySheet.repositoryChangesSingleAuthorTitle${context.shouldShowRelativeTime(date) ? 'RelativeTime' : ''}`
+                   },
+                   {
+                     at: format(date, 'h:mma'),
+                     count: change.changesCount,
+                     countEndTag: "'</span>'",
+                     countStartTag: "'<span class=\"sqwerl-repository-changes-count\">'",
+                     index: index + 1,
+                     on: format(date, 'MMM do'),
+                     things: intl.formatMessage({ id: thingTextId }),
+                     when: context.distanceInTimeText(date),
+                     who: change.by[0]
+                   })
+                }}
+              />
+            </div>
+          </label>
+        </div>
+      </div>
+    </>
   )
 }
 

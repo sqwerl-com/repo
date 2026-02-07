@@ -1,8 +1,7 @@
 /* global Response */
 
 import type { FetcherType } from '@/fetcher'
-import Logger from '@/logger'
-import type { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import { SearchContextType, SortByProperties } from '@/search-context'
 import { SearchResults } from "@/application"
 import { ServerDataTypes } from '@/fetcher'
@@ -15,13 +14,11 @@ export interface SearcherType {
  * Searches for data stored on remote servers.
  */
 const Searcher = (): SearcherType => {
-  const logger = Logger(Searcher, Searcher)
   return {
     search: (context: SearchContextType) => {
       const { applicationName, fetcher, onFailure, limit, offset, onSuccess, searchText, sortByProperties } = context
       search(
         applicationName,
-        logger,
         fetcher,
         searchText,
         sortByProperties,
@@ -37,7 +34,6 @@ const Searcher = (): SearcherType => {
 /**
  * Searches for data stored on a remote server.
  * @param applicationName Name of the server application to use as prefix to search request URL.
- * @param logger Logs messages.
  * @param fetcher Fetches data from remote servers.
  * @param searchText Text to search for.
  * @param sortByProperties Which properties should the results be sorted by?
@@ -48,7 +44,6 @@ const Searcher = (): SearcherType => {
  */
 const search = (
   applicationName: string,
-  logger: LoggerType,
   fetcher: FetcherType,
   searchText: string,
   sortByProperties: SortByProperties | undefined,
@@ -56,7 +51,7 @@ const search = (
   onSuccess: (url: string, data: object) => void,
   offset: number = 0,
   limit: number = 20) => {
-  logger.setContext(search)
+  const logger = loggerFactory.create(search)
   logger.info(`Searching for "${searchText}"`)
   logger.debug(`Search item starting index: ${offset}, Search item limit: ${limit}`)
   const sortBy = (sortByProperties && sortByProperties.sortBy) ? `&sortBy=${sortByProperties.sortBy}` : ''
@@ -79,5 +74,7 @@ const search = (
     onFailure(new Error(`Received HTTP status: ${response.status}`), response)
   })
 }
+
+const loggerFactory = LoggerFactory(Searcher)
 
 export default Searcher

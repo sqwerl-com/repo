@@ -2,14 +2,14 @@
   font-family: 'Avenir Next LT Pro Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Avenir Next LT Pro Regular'), url('assets/fonts/AvenirNextLTPro-Regular.woff') format('woff');
+  src: local('Avenir Next LT Pro Regular'), url('@/assets/fonts/AvenirNextLTPro-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Avenir Next LT Pro Bold';
   font-style: normal;
   font-weight: bold;
-  src: local('Avenir Next LT Pro Bold'), url('assets/fonts/AvenirNextLTPro-Bold.woff') format('woff');
+  src: local('Avenir Next LT Pro Bold'), url('@/assets/fonts/AvenirNextLTPro-Bold.woff') format('woff');
 }
 
 @keyframes sqwerl-loading-indicator {
@@ -23,10 +23,13 @@
 }
 
 /* Default height for all HTML elements */
-$sqwerl-row-height: 80px;
+$sqwerl-row-height: 4.5rem;
 
 /* Default height for all HTML elements in pixels. This value is hard-coded in the navigation list. */
 $sqwerl-list-row-height-pixels: 75px;
+
+$sqwerl-properties-table-heading-height-in-pixels: 90px;
+
 $sqwerl-application-menu-background-color: #fdfdfd;
 $sqwerl-application-menu-bar-background: linear-gradient(132deg, rgb(29, 45, 39) 0%, rgb(16, 139, 94) 100%);
 $sqwerl-application-menu-bar-bottom-border-color: none;
@@ -127,7 +130,8 @@ $sqwerl-modal-pane-background-color: rgba(0, 0, 0, 30%);
 $sqwerl-navigation-item-ordinal-top-margin: 3px;
 
 /* Default height for items in the navigation list */
-$sqwerl-navigation-items-height: 80px;
+$sqwerl-navigation-items-height: 180px;
+
 $sqwerl-navigation-list-background: #fafffa;
 $sqwerl-navigation-scroll-view-background: #dee6e0;
 $sqwerl-odd-list-item-background: #fbfdff;

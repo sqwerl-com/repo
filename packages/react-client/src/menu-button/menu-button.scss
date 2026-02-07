@@ -1,7 +1,4 @@
-@import '../index.scss';
-
-/* $sqwerl-menu-button-border-color: #3b5a4f; */
-$sqwerl-menu-button-text-color: #e0ece0;
+@use "../index.scss" as application;
 
 @keyframes sqwerl-menu-button-hover {
   from {
@@ -32,7 +29,7 @@ $sqwerl-menu-button-text-color: #e0ece0;
     border: 5px solid transparent;
     cursor: pointer;
     display: flex;
-    font-size: $sqwerl-hyperlink-font-size;
+    font-size: application.$sqwerl-hyperlink-font-size;
     height: 100%;
     text-align: center;
     text-shadow: none;
@@ -47,7 +44,7 @@ $sqwerl-menu-button-text-color: #e0ece0;
       align-self: center;
       color: var(--menu-button-text-color);
       cursor: pointer;
-      font-family: $sqwerl-hyperlink-font-family;
+      font-family: application.$sqwerl-hyperlink-font-family;
       letter-spacing: 0.02em;
       text-decoration: none;
 
@@ -62,7 +59,7 @@ $sqwerl-menu-button-text-color: #e0ece0;
   .sqwerl-menu-button {
     .sqwerl-menu-button-text {
       cursor: pointer;
-      font-family: $sqwerl-hyperlink-font-family;
+      font-family: application.$sqwerl-hyperlink-font-family;
       letter-spacing: 0.02em;
       text-decoration: none;
 

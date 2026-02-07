@@ -1,10 +1,9 @@
 import { JSX } from 'react'
-import Logger from '@/logger'
-import type { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 
-interface Props {
+export interface Props {
   basePath: string,
 
   children: JSX.Element
@@ -22,6 +21,8 @@ interface Props {
   handleSelectionChange: (pathName: string, hash: string) => void
 }
 
+const loggerFactory = LoggerFactory('RouteChangeHandler')
+
 /**
  * Handles when the web browser's location--the URL of the page the web browser displays--changes.
  * @param props
@@ -29,7 +30,6 @@ interface Props {
 export const RouteChangeHandler = (props: Props) => {
   const { children } = props
   const [isShowingProperty, setIsShowingProperty] = useState(false)
-  const [logger] = useState(Logger(RouteChangeHandler, RouteChangeHandler))
   const [lastHash, setLastHash] = useState('')
   const [lastHref, setLastHref] = useState('')
   const [lastPath, setLastPath] = useState('')
@@ -39,7 +39,6 @@ export const RouteChangeHandler = (props: Props) => {
   // Handle the initial route change when this application loads.
   useEffect(() => {
     handleRouteChange(
-      logger,
       pathname,
       hash,
       '',
@@ -56,7 +55,6 @@ export const RouteChangeHandler = (props: Props) => {
   // Handle all subsequent route changes.
   useEffect(() => {
     handleRouteChange(
-      logger,
       pathname,
       hash,
       lastPath,
@@ -74,7 +72,6 @@ export const RouteChangeHandler = (props: Props) => {
 
 /**
  * Executes callback functions to notify that the route (the URL in the browser's address bar) has changed.
- * @param logger The route change handler's message logger.
  * @param pathname The path part of the URL--the part before any # (hash) character.
  * @param hash The hash part of the URL--the part after a # (hash) character.
  * @param lastPath The previous path.
@@ -88,7 +85,6 @@ export const RouteChangeHandler = (props: Props) => {
  * @param props
  */
 const handleRouteChange = (
-  logger: LoggerType,
   pathname: string,
   hash: string,
   lastPath: string,
@@ -100,7 +96,7 @@ const handleRouteChange = (
   setLastHref: (lastHref: string) => void,
   setLastPath: (lastPath: string) => void,
   props: Props) => {
-  logger.debug(`Handle path change, pathname="${pathname}`)
+  const logger = loggerFactory.create('handleRouteChange')
   const { handleHrefChange, handlePathChange, handlePropertyChange, handleSelectionChange } = props
   const periodIndex = hash.indexOf('.')
   if ((periodIndex > 1) && (periodIndex < Math.max(0, (hash.length - 2)))) {

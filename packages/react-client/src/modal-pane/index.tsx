@@ -1,9 +1,7 @@
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   children?: React.JSX.Element
 
   /** If true, then indicate to users that clicking on this modal pane performs an action. */
@@ -25,7 +23,7 @@ interface Props {
  * @param props
  */
 const ModalPane = (props: Props): React.JSX.Element => {
-  logger = Logger(ModalPane, ModalPane)
+  const logger = loggerFactory.create(ModalPane)
   const { children, isClickable, isVisible, name, onClick } = props
   const onClickCallback =
     (typeof onClick === 'function')
@@ -38,6 +36,7 @@ const ModalPane = (props: Props): React.JSX.Element => {
         }
   const isClickableClassName = isClickable ? 'is-clickable' : ''
   const isVisibleClassName = isVisible ? 'visible' : 'hidden'
+
   return (
     <div
       className={`sqwerl-modal-pane ${name} ${isClickableClassName} ${isVisibleClassName}`}
@@ -51,5 +50,7 @@ const ModalPane = (props: Props): React.JSX.Element => {
     </div>
   )
 }
+
+const loggerFactory = LoggerFactory(ModalPane)
 
 export default ModalPane

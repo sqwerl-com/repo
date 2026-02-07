@@ -5,7 +5,7 @@ import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
 import { mockSheetState } from '@/sheets/mocks'
-import { mockThing } from '@/utils/mocks'
+import { mockThing } from '@/utilities/mocks'
 import React from 'react'
 import { render } from '@testing-library/react'
 

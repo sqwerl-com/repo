@@ -1,4 +1,5 @@
-@import "../index.scss";
+@use "../index.scss" as application;
+@use "./components/fields/title-field";
 
 @keyframes loading-placeholder {
   0% {
@@ -9,7 +10,30 @@
   }
 }
 
+.sqwerl-application.light {
+  .sqwerl-picture {
+    &.loaded {
+      filter: brightness(97%);
+    }
+  }
+}
+  
 .sqwerl-properties-container {
+  & .sqwerl-properties-read-only-field-value {
+    & ol.sqwerl-properties-read-only-field-value-list {
+      & li.sqwerl-properties-read-only-field-value-item {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        
+        & img.sqwerl-small-thumbnail-image {
+          padding-bottom: 0.5rem;
+          padding-left: 1rem;
+          padding-top: 0.5rem;
+        }
+      }
+    }
+  }
+
   & .sqwerl-cut-and-paste {
     align-items: center;
     background: none;
@@ -17,7 +41,7 @@
     color: var(--hyperlink-text-color);
     cursor: pointer;
     display: flex;
-    padding: $sqwerl-focus-border-size;
+    padding: application.$sqwerl-focus-border-size;
     text-decoration: underline;
     text-decoration-color: rgba(255, 255, 255, 0);
     text-decoration-thickness: var(--text-decoration-thickness);
@@ -25,11 +49,11 @@
 
     &:hover {
       animation: sqwerl-list-item-hover 0.3s ease-in;
-      background: $sqwerl-list-item-hover-background;
+      background: application.$sqwerl-list-item-hover-background;
     }
 
     .sqwerl-cut-and-paste-label {
-      font-size: $sqwerl-secondary-text-font-size;
+      font-size: application.$sqwerl-secondary-text-font-size;
       margin-left: 5px;
     }
   }
@@ -39,11 +63,11 @@
     background: none;
     border: none;
     display: flex;
-    font-size: $sqwerl-secondary-text-font-size;
-    padding: $sqwerl-focus-border-size;
+    font-size: application.$sqwerl-secondary-text-font-size;
+    padding: application.$sqwerl-focus-border-size;
 
     & .sqwerl-cut-and-paste-label {
-      color: $sqwerl-secondary-text-color;
+      color: application.$sqwerl-secondary-text-color;
     }
   }
 
@@ -59,7 +83,7 @@
     animation-timing-function: linear;
     background: linear-gradient(to right, var(--loading-content-gradient-color1) 10%, var(--loading-content-gradient-color2) 18%, var(--loading-content-gradient-color3) 33%);
     background-size: 800px 300px;
-    border: 1px solid var(--application-menu-right-border);
+    border: 1px solid var(--list-item-border-color);
     bottom: 0;
     left: 0;
     right: 0;
@@ -70,6 +94,7 @@
     position: relative;
 
     .sqwerl-loading-picture-preview {
+      border: 1px solid var(--list-item-border-color);
       height: 100%;
       position: absolute;
       width: 100%;
@@ -107,7 +132,7 @@
 
     .sqwerl-picture {
       &.loaded {
-        box-shadow: var(--picture-shadow-color) 0 0.5rem 1rem;
+        border: 1px solid var(--list-item-bottom-border-color);
         opacity: 1;
         transition: opacity 0.3ms ease-in-out;
       }
@@ -126,20 +151,19 @@
   }
 
   .sqwerl-property-sheet-home-title-text {
-    font-family: $sqwerl-font-family;
+    font-family: application.$sqwerl-font-family;
     font-size: larger;
-    height: $sqwerl-row-height;
-    letter-spacing: $sqwerl-letter-spacing;
-    /* line-height: $sqwerl-property-sheet-line-height; */
-    line-height: $sqwerl-row-height;
+    height: application.$sqwerl-row-height;
+    letter-spacing: application.$sqwerl-letter-spacing;
+    line-height: application.$sqwerl-row-height;
     max-width: 30rem;
     padding-left: 1rem;
   }
 
   .sqwerl-property-sheet-text {
-    font-family: $sqwerl-font-family;
-    letter-spacing: $sqwerl-letter-spacing;
-    line-height: $sqwerl-property-sheet-line-height;
+    font-family: application.$sqwerl-font-family;
+    letter-spacing: application.$sqwerl-letter-spacing;
+    line-height: application.$sqwerl-property-sheet-line-height;
     max-width: 30rem;
     padding: 0.7rem 0.5rem 0.35rem 1rem;
 
@@ -156,7 +180,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: row;
-    padding: $sqwerl-focus-border-size;
+    padding: application.$sqwerl-focus-border-size;
     text-align: left;
 
     &:hover {
@@ -166,22 +190,21 @@
     }
 
     & .sqwerl-home-details-title-bar-back-icon {
-      line-height: $sqwerl-row-height;
+      line-height: application.$sqwerl-row-height;
       padding-right: 0.5rem;
     }
 
     & .sqwerl-home-details-title-bar-title {
-      line-height: $sqwerl-row-height;
+      line-height: application.$sqwerl-row-height;
       padding: 0 0.5rem;
     }
   }
 
   .sqwerl-read-only-field-sub-item a {
-    font-family: $sqwerl-hyperlink-font-family;
+    font-family: application.$sqwerl-hyperlink-font-family;
   }
 
   .sqwerl-read-only-field-label-count {
-    color: var(--read-only-field-label-count-color);
     /* TODO - font size should be a variable for all inline count numbers */
     font-size: 85%;
     margin: 0.5rem 0.2rem;

@@ -1,4 +1,4 @@
-@import '../../index.scss';
+@use "../../index.scss" as application;
 
 .sqwerl-properties-table {
   border-collapse: separate;
@@ -105,9 +105,9 @@
   }
 
   & thead {
-    height: $sqwerl-row-height;
-    min-height: $sqwerl-row-height;
-    max-height: $sqwerl-row-height;
+    height: application.$sqwerl-row-height;
+    min-height: application.$sqwerl-row-height;
+    max-height: application.$sqwerl-row-height;
 
     & th {
       background: var(--properties-table-heading-background-color);

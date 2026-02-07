@@ -2,7 +2,6 @@ import { EventGenerator, Events } from '@/context/application/events'
 
 /**
  * Registers listeners and notifies them when the user has navigated to a thing.
- * @constructor
  */
 export const NavigateToThingEvents = (): EventGenerator => {
   const { callbacks, register, unregister } = Events([])

@@ -5,7 +5,7 @@ import Description from '@/sheets/components/fields/description-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
 import ListenersField from '@/sheets/components/fields/listeners-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NotesField from '@/sheets/components/fields/notes-field'
 import RecommendationsField from '@/sheets/components/fields/recommendations-field'
 import RecommendedByField from '@/sheets/components/fields/recommended-by-field'
@@ -17,19 +17,15 @@ import TagsField from '@/sheets/components/fields/tags-field'
 import TitleBar from '@/sheets/components/title-bar'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information describing a talk given to an audience.
  * @param props
- * @constructor
  */
 const TalksSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(TalksSheet, TalksSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
@@ -44,6 +40,7 @@ const TalksSheet = (props: Props): React.JSX.Element => {
     'speakers',
     'tags'
   ]
+  const logger = loggerFactory.create(TalksSheet)
 
   logger.info('Render Talks property sheet')
 
@@ -107,5 +104,7 @@ const TalksSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(TalksSheet)
 
 export default TalksSheet

@@ -1,19 +1,23 @@
-import Logger from '@/logger'
-import * as React from 'react'
+import LoggerFactory from '@/logger'
+import React from 'react'
 
-interface Props {
+export interface Props {
   isVisible: boolean
 }
 
 const SignInMenu = (props: Props): React.JSX.Element => {
-  const logger = Logger(SignInMenu, SignInMenu)
-  logger.info('Rendering sign in menu')
   const { isVisible } = props
+  const logger = loggerFactory.create(SignInMenu)
+
+  logger.info('Rendering sign in menu')
+
   return (
     <div className='sqwerl-sign-in-menu-content'>
       {isVisible && <span>TODO</span>}
     </div>
   )
 }
+
+const loggerFactory = LoggerFactory(SignInMenu)
 
 export default SignInMenu

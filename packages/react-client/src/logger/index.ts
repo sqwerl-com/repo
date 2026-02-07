@@ -1,5 +1,21 @@
 /* globals process */
 
+// Unicode characters to use as icons for different types of log messages.
+const MESSAGE_ICONS = {
+  debug: '\u2713',
+  error: '\u274C',
+  info: '\u24D8',
+  warn: '\u26A0'
+}
+
+// Names for the types of log messages.
+enum MessageType {
+  debug = 'debug',
+  error = 'error',
+  info = 'info',
+  warn = 'warn'
+}
+
 /**
  * Objects passed to this logger that we can derive a name for. This includes modules,
  * classes, and functions.
@@ -9,148 +25,171 @@ export interface Named {
   toString: () => string
 }
 
-interface State {
-  context: string
-  isTesting?: boolean
-  moduleContext: Named | string
+/**
+ * Type for additional context information, like a function name, that indicates where a log message was published.
+ */
+type ContextType = Named | string | undefined
+
+/**
+ * This logger factory's public interface.
+ */
+export interface LoggerFactoryType {
+  create: (context: ContextType) => LoggerType,
+  readonly _moduleName: string
 }
 
 /**
- * This logger's public interface.
+ * Message logger public interface.
  */
 export interface LoggerType {
   assert: (condition: boolean, message: string) => LoggerType,
-  debug: (message: string) => LoggerType,
-  error: (message: string) => LoggerType,
-  info: (message: string) => LoggerType,
-  setContext: (context: Named | string ) => LoggerType,
-  warn: (message: string) => LoggerType
-  _context: () => string
-  _isTesting: () => boolean | undefined
+  debug: (message: string, context?: ContextType) => LoggerType,
+  error: (message: string, context?: ContextType ) => LoggerType,
+  info: (message: string, context?: ContextType) => LoggerType,
+  warn: (message: string, context?: ContextType) => LoggerType,
+  readonly _moduleName: string
 }
 
 /**
- * Returns a message logger. A message logger outputs messages to the console by type (info, debug, error, or message)
- * prepended with information indicating where a message was logged at.
+ * Returns a message logger factory. A message logger outputs messages by type (info, debug, error, or message)
+ * prepended with information indicating where in an application's code a message was logged at.
  *
  * @param module Constructor function for a module or a component's render function. Used to provide
  *               the name for the module, class, or component to log messages for.
- * @param f      Function within a module or component. Used to provide the name of the
- *               function of a module, class, or component that is logging a message.
- * @param isTesting Is the application running this logger being unit tested?
+ * @constructor
  */
-const Logger = (module: Named, f: Named, isTesting?: boolean | undefined): LoggerType => {
+const LoggerFactory = (module: Named): LoggerFactoryType => {
   let isRunningInTest = false
+  const moduleName = _buildContext(module)
 
-  if ((isTesting === undefined) && (!!process))  {
-    isRunningInTest = process.env && (process.env['NODE_ENV'] === 'test')
+  const factory: LoggerFactoryType = {
+    create: (context: ContextType): LoggerType => {
+      return _createLogger(factory, context)
+    },
+
+    _moduleName: moduleName
   }
 
-  const context = buildContext(f || module)
-  const state = {
-    context,
-    isTesting,
-    moduleContext: buildContext(module)
-  }
-  const logger: LoggerType = {
-    assert: (condition: boolean, assertionFailedMessage: string): LoggerType => {
-      assert(state, condition, assertionFailedMessage)
-      return logger
-    },
-    debug: (message: string): LoggerType => {
-      debug(state, message)
-      return logger
-    },
-    error: (message: string): LoggerType => {
-      error(state, message)
-      return logger
-    },
-    info: (message: string): LoggerType => {
-      info(state, message)
-      return logger
-    },
-    setContext: (context: Named | string): LoggerType => {
-      state.context = buildContext(context)
-      return logger
-    },
-    warn: (message: string): LoggerType => {
-      warn(state, message)
-      return logger
-    },
-    _context: () => state.context,
-    _isTesting: () => isRunningInTest
-  }
-
-  return logger
+  return factory
 }
 
 /**
  * Asserts that a given condition is true, otherwise report an error.
- * @param state  A logger's state information.
+ * @param module The name of the module that the code that is making an assertion belongs to.
  * @param condition Evaluates to true or false.
  * @param assertionFailedMessage Text message to output when the given condition is false.
+ * @param context The context, like the name of the function, where an assertion was made at.
  * @private
  */
-const assert = (state: State, condition: boolean, assertionFailedMessage: string) => {
-  const { context, isTesting, moduleContext } = state
-
-  if ((!isTesting) && condition) {
-    _log('error', moduleContext.toString(), context, `Assertion failed: ${assertionFailedMessage}`)
+const _assert = (module: string, condition: boolean, assertionFailedMessage: string, context?: ContextType) => {
+  if (condition) {
+    _log(MessageType.error, module, context, `Assertion failed: ${assertionFailedMessage}`)
   }
 }
 
 /**
- * Sets this logger's context: a string that indicates where a message was logged at.
+ * Returns a string that indicates the location where a message was logged at.
  * @param context A function to call to get the context name or the name itself.
+ * @private
  */
-const buildContext = (context: Named | string): string => {
+const _buildContext = (context: Named | string): string => {
   const name =
     context && {}.hasOwnProperty.call(context, 'name') ? (context as Named)['name'] : context.toString()
   return name || ''
 }
 
 /**
+ * Creates and returns a new logger for a given local context, like for use within a function.
+ * @param factory A logger factory.
+ * @param context Additional contextual information like the name of function where logging occurs.
+ * @return A new logger.
+ * @constructor
+ * @private
+ */
+const _createLogger = (factory: LoggerFactoryType, context: ContextType): LoggerType => {
+  const logger: LoggerType = {
+    assert: (condition: boolean, message: string): LoggerType => {
+      _assert(factory._moduleName, condition, message, context)
+      return logger
+    },
+
+    debug: (message: string): LoggerType => {
+      _debug(factory._moduleName, message, context)
+      return logger
+    },
+
+    error: (message: string): LoggerType => {
+      _error(factory._moduleName, message, context)
+      return logger
+    },
+
+    info: (message: string): LoggerType => {
+      _info(factory._moduleName, message, context)
+      return logger
+    },
+
+    warn: (message: string): LoggerType => {
+      _warn(factory._moduleName, message, context)
+      return logger
+    },
+
+    _moduleName: factory._moduleName
+  }
+
+  return logger
+}
+
+/**
+ * Returns a string representation of a logging context that indicates where a log message was generated at.
+ * @param context The context, like the name of the function, where a log message was generated at.
+ */
+const _contextToString = (context: ContextType | undefined): string | undefined => {
+  if (context) {
+    if (context.hasOwnProperty('name')) {
+      return (context as Named).name
+    }
+
+    return context.toString()
+  }
+
+  return undefined
+}
+
+/**
  * Logs a debug message. Debug messages describe, at a low level, what an object is doing in a way that should be
  * useful when trying to debug issues. For example, debug messages should display input values and results, or
  * otherwise indicate what an object is doing.
- * @param state  A logger's state information.
+ * @param module The name of the module that is logging a debug message.
  * @param message A text message that contains information that is useful when debugging an application.
+ * @context The context, like the name of the function, where a debug log message was generated at.
+ * @private
  */
-const debug = (state: State, message: string) => {
-  const { context, isTesting, moduleContext } = state
-
-  if (!isTesting) {
-    console.debug(_log('debug', moduleContext.toString(), context, message))
-  }
+const _debug = (module: string, message: string, context: ContextType) => {
+  console.debug(_log(MessageType.debug, module, context, message), "color: blue")
 }
 
 /**
  * Logs an error message. Error messages describe problems that, when they occur, may prevent code from functioning
  * correctly. Use error log messages to indicate situations that must not be ignored.
- * @param state  A logger's state information.
+ * @param module The name of the module that is logging an error message.
  * @param message A text message that describes an error.
+ * @context The context, like the name of the function, where an error log message was generated at.
+ * @private
  */
-const error = (state: State, message: string) => {
-  const { context, isTesting, moduleContext } = state
-
-  if (!isTesting) {
-    console.error(_log('error', moduleContext.toString(), context, message))
-  }
+const _error = (module: string, message: string, context: ContextType) => {
+  console.error(_log(MessageType.error, module, context, message), "color: red")
 }
 
 /**
  * Logs an information message. Information messages describe, at a high-level, what an object is doing. Information
  * messages should indicate that an object is functioning properly. Information messages that an application
  * generates are like a heartbeat monitor that shows that an application is functioning properly.
- * @param state  A logger's state information.
+ * @param module The name of the module that is logging an information message.
  * @param message An informational text message.
+ * @context The context, like the name of the function, where an informational log message was generated at.
  */
-const info = (state: State, message: string) => {
-  const { context, isTesting, moduleContext } = state
-
-  if (!isTesting) {
-    console.info(_log('info', moduleContext.toString(), context, message))
-  }
+const _info = (module: string, message: string, context?: ContextType) => {
+  console.info(_log(MessageType.info, module, context, message), 'color: green')
 }
 
 /**
@@ -158,15 +197,13 @@ const info = (state: State, message: string) => {
  * are not unexpected. Warning messages indicate non-fatal situations that may be relevant to diagnose issues.
  * For example, a warning message might indicate that an expected file does not exist when there is a fallback
  * so that an application is able to continue without error despite the fact that the file wasn't found.
+ * @param module The name of the module that is logging a warning message.
  * @param state  A logger's state information.
  * @param message A warning text message.
+ * @context The context, like the name of the function, where a warning log message was generated at.
  */
-const warn = (state: State, message: string) => {
-  const { context, isTesting, moduleContext } = state
-
-  if (!isTesting) {
-    console.warn(_log('warn', moduleContext.toString(), context, message))
-  }
+const _warn = (module: string, message: string, context?: ContextType) => {
+  console.warn(_log(MessageType.warn, module, context, message), 'color: yellow')
 }
 
 /**
@@ -178,17 +215,19 @@ const warn = (state: State, message: string) => {
  * @param message A message to log.
  * @returns A text message to place into a message log.
  */
-const _log = (messageType: string, moduleName: string, context: string, message: string): string => {
-  let entry = `${messageType} `
+const _log = (messageType: MessageType, moduleName: string, context: Named | string | undefined, message: string): string => {
+  let entry = `%c${MESSAGE_ICONS[messageType]} `;
   const hasModuleName = !!(moduleName && moduleName.length > 0)
 
   if (hasModuleName) {
     entry += moduleName
   }
 
-  // Add the context only if the context isn't the same as the module name.
-  if (context && (moduleName !== context)) {
-    entry += entry.length === 0 ? context : `${hasModuleName ? '.' : ''}${context}`
+
+  const contextName = _contextToString(context)
+
+  if (contextName) {
+    entry += entry.length === 0 ? contextName : `${hasModuleName ? '.' : ''}${contextName}`
   }
 
   if (message) {
@@ -198,4 +237,4 @@ const _log = (messageType: string, moduleName: string, context: string, message:
   return entry
 }
 
-export default Logger
+export default LoggerFactory

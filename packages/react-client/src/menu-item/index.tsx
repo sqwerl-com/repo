@@ -1,10 +1,8 @@
 import { FormattedMessage } from 'react-intl'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   /** This menu item's child components. */
   children?: React.JSX.Element
 
@@ -12,7 +10,7 @@ interface Props {
   hideMenu: () => void
 
   /** Called when the user clicks on this menu item. */
-  onClick: (props: Props, logger: LoggerType) => void
+  onClick: (props: Props) => void
 
   /** Unique identifier for text to display as this menu item's subtitle. */
   subtitleId: string
@@ -28,12 +26,12 @@ interface Props {
  * @param props
  */
 const MenuItem = (props: Props): React.JSX.Element => {
-  logger = Logger(MenuItem, MenuItem)
   const { children, subtitleId, titleId } = props
+
   return (
     <button
       className='sqwerl-menu-item'
-      onClick={() => onClick(props, logger)}
+      onClick={() => onClick(props)}
       role='menuitem'
       tabIndex={0}
     >
@@ -51,10 +49,10 @@ const MenuItem = (props: Props): React.JSX.Element => {
 /**
  * Hides the menu that contains a menu item.
  * @param props
- * @param logger
  */
-const hideMenu = (props: Props, logger: LoggerType): void => {
-  logger.setContext('hideMenu').info('Menu item is requesting to close its menu')
+const hideMenu = (props: Props): void => {
+  const logger = loggerFactory.create('hideMenu')
+  logger.info('Menu item is requesting to close its menu')
   const { hideMenu } = props
   hideMenu()
 }
@@ -63,13 +61,15 @@ const hideMenu = (props: Props, logger: LoggerType): void => {
  * Called when the user clicks on a menu item. Hides the menu that contains the menu item and calls the menu item's
  * click handler.
  * @param props
- * @param logger
  */
-const onClick = (props: Props, logger: LoggerType): void => {
+const onClick = (props: Props): void => {
   const { onClick } = props
-  logger.setContext('onClick').info('Menu item clicked on')
-  hideMenu(props, logger)
-  onClick(props, logger)
+  const logger = loggerFactory.create('onClick')
+  logger.info('Menu item clicked on')
+  hideMenu(props)
+  onClick(props)
 }
+
+const loggerFactory = LoggerFactory(MenuItem)
 
 export default MenuItem

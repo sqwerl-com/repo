@@ -4,7 +4,7 @@ import { createMockSheetState } from '@/sheets/mocks'
 import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
-import { mockThing } from '@/utils/mocks'
+import { mockThing } from '@/utilities/mocks'
 import PictureField from '@/sheets/components/fields/picture-field'
 import React from 'react'
 import { render } from '@testing-library/react'
@@ -15,6 +15,7 @@ const renderPicture = (sizeName: string) => {
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
           <PictureField
+            fieldDescription='textFieldDescription'
             fieldTitle='testFieldTitle'
             pictures={{
               members: [mockThing],

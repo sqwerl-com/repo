@@ -4,9 +4,10 @@ import CollectionsField from '@/sheets/components/fields/collections-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
 import HasViewedField from '@/sheets/components/fields/has-viewed-field'
 import HistoryField from '@/sheets/components/fields/history-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import LinksField from '@/sheets/components/fields/links-field'
 import NotesField from '@/sheets/components/fields/notes-field'
+import PictureField from '@/sheets/components/fields/picture-field'
 import RecommendationsField from '@/sheets/components/fields/recommendations-field'
 import RecommendedByField from '@/sheets/components/fields/recommended-by-field'
 import ScrollableContent from '@/sheets/components/scrollable-content'
@@ -15,28 +16,24 @@ import SubscriptionsField from '@/sheets/components/fields/subscriptions-field'
 import TitleBar from '@/sheets/components/title-bar'
 import TitleField from '@/sheets/components/fields/title-field'
 import TagsField from '@/sheets/components/fields/tags-field'
+import { useIntl } from 'react-intl'
 import ViewedByField from '@/sheets/components/fields/viewed-by-field'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only form that displays information that describes a video.
  * @param props
- * @constructor
  */
 const VideosSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(VideosSheet, VideosSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
     'authors',
     'collections',
-    'feeds',
     'links',
     'notes',
     'tags',
@@ -45,6 +42,8 @@ const VideosSheet = (props: Props): React.JSX.Element => {
     "subscriptions",
     'viewedBy'
   ]
+  const intl = useIntl()
+  const logger = loggerFactory.create(VideosSheet)
 
   logger.info('Render Videos property sheet')
 
@@ -62,19 +61,23 @@ const VideosSheet = (props: Props): React.JSX.Element => {
     authors,
     collections,
     description,
-    feeds,
     hasViewed,
     links,
     name,
     notes,
+    pictures,
     recommendations,
     recommendedBy,
     subscriptions,
     tags,
+    thumbnailUrl,
     title,
     url,
     viewedBy
   } = thing
+  const pictureFieldDescription = intl.formatMessage({ id: 'videosSheet.pictureFieldDescription' })
+  const pictureFieldTitle = intl.formatMessage({ id: 'videosSheet.pictureFieldTitle' })
+  const titleFieldDescription = intl.formatMessage({ id: 'videosSheet.titleFieldDescription' })
 
   return (
     <>
@@ -101,9 +104,19 @@ const VideosSheet = (props: Props): React.JSX.Element => {
           titleTextValues={{ name, url }}
         />}
       <ScrollableContent>
-        {title && <TitleField title={title} />}
+        {title && <TitleField description={titleFieldDescription} title={title} />}
         {archived && <ArchivedField archived={archived} />}
         {description && <DescriptionField description={description} state={state} />}
+        {pictures && pictures.totalCount > 0 &&
+          <PictureField
+            fieldDescription={pictureFieldDescription}
+            fieldTitle={pictureFieldTitle}
+            pictures={pictures}
+            size='medium'
+            state={state}
+            thumbnailUrl={thumbnailUrl}
+          />
+        }
         {hasViewed && <HasViewedField hasViewed={hasViewed} state={state} />}
         {authors && <AuthorsField authors={authors} state={state} />}
         {collections && <CollectionsField collections={collections} state={state} />}
@@ -119,5 +132,7 @@ const VideosSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(VideosSheet)
 
 export default VideosSheet

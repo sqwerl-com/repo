@@ -1,4 +1,4 @@
-@import "../../index.scss";
+@use "../../index.scss" as application;
 
 $sqwerl-title-home-icon-height: 1rem;
 
@@ -6,12 +6,12 @@ $sqwerl-title-home-icon-height: 1rem;
   align-items: center;
   display: flex;
   margin-right: 0.5rem;
-  padding-top: calc(#{$sqwerl-focus-border-size} / 2);
-  width: calc(66% - #{$sqwerl-focus-border-size} * 2);
+  padding-top: calc(#{application.$sqwerl-focus-border-size} / 2);
+  width: calc(66% - #{application.$sqwerl-focus-border-size} * 2);
 
   & .sqwerl-navigation-title-home-icon {
     margin-bottom: 0.2rem;
-    margin-left: calc(#{$sqwerl-focus-border-size} + 0.35rem);
+    margin-left: calc(#{application.$sqwerl-focus-border-size} + 0.35rem);
     margin-right: 0.4rem;
     height: 1rem;
     width: 1rem;
@@ -27,7 +27,7 @@ $sqwerl-title-home-icon-height: 1rem;
   }
 
   & .sqwerl-navigation-title-text {
-    line-height: $sqwerl-content-heading-height;
+    line-height: application.$sqwerl-content-heading-height;
     margin-left: 5px;
     overflow-x: clip;
     text-overflow: ellipsis;

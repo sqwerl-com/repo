@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import Logger from '@/logger'
+import LoggerFactory from '@/logger'
 
 const module = () => {
   return {
@@ -7,40 +7,30 @@ const module = () => {
   }
 }
 
+const loggerFactory = LoggerFactory(module)
+
 it('Test assertions', () => {
-  const logger = Logger(module, module().testFunction, false)
+  const logger = loggerFactory.create('Test assertions')
   logger.assert(true, 'assertion is true')
   logger.assert(false, 'assertion is false')
 })
 
 it('Test debug', () => {
-  const logger = Logger(module, module().testFunction)
+  const logger = loggerFactory.create('Test debug')
   logger.debug('Debug message')
 })
 
 it('Test info', () => {
-  const logger = Logger(module, module().testFunction)
+  const logger = loggerFactory.create('Test info')
   logger.info('This is an informative message')
 })
 
 it('Test error', () => {
-  const logger = Logger(module, module().testFunction)
+  const logger = loggerFactory.create('Test error')
   logger.error('Error message')
 })
 
 it('Test warning', () => {
-  const logger = Logger(module, module().testFunction)
+  const logger = loggerFactory.create('Test warning')
   logger.warn('This is a warning')
-})
-
-it('Test isTesting default', () => {
-  const logger = Logger(module, module().testFunction)
-  expect(logger._isTesting()).eq(true)
-})
-
-it('Test set context', () => {
-  const logger = Logger(module, module().testFunction)
-  const context = 'test'
-  logger.setContext(context)
-  expect(logger._context()).eq(context)
 })

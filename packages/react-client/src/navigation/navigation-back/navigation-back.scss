@@ -1,4 +1,4 @@
-@import '../../index.scss';
+@use "../../index.scss" as application;
 
 .sqwerl-navigation-bar {
   a.sqwerl-navigation-back-text {
@@ -7,19 +7,19 @@
     color: var(--hyperlink-text-color);
     display: flex;
     flex-direction: row;
-    margin: $sqwerl-focus-border-size;
+    margin: application.$sqwerl-focus-border-size;
     max-width: 10rem;
     padding-left: 0.35rem;
-    padding-right: calc(#{$sqwerl-focus-border-size} * 2);
+    padding-right: calc(#{application.$sqwerl-focus-border-size} * 2);
     text-decoration: underline;
     text-decoration-color: rgba(255, 255, 255, 0);
-    text-decoration-thickness: var(--text-decoration-thickness);;
+    text-decoration-thickness: var(--text-decoration-thickness);
     transition: text-decoration-color 0.3s ease-in;
     width: 100%;
 
     &:hover {
       animation: sqwerl-list-item-hover 0.3s ease-in;
-      background: $sqwerl-list-item-hover-background;
+      background: application.$sqwerl-list-item-hover-background;
 
       .sqwerl-navigation-back-text {
         text-decoration-color: var(--list-item-hover-text-shadow);
@@ -29,7 +29,7 @@
 
     & .sqwerl-navigation-back-label {
       display: block;
-      font-family: $sqwerl-hyperlink-font-family;
+      font-family: application.$sqwerl-hyperlink-font-family;
       font-size: 95%;
       overflow: hidden;
       text-align: left;

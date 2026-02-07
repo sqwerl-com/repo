@@ -19,7 +19,8 @@ const testConfiguration: ConfigurationType = {
   defaultRepositoryId: '/types/repositories/Main',
   defaultRepositoryName: 'Main',
   homeId: '/types/views/initial',
-  rowHeightInPixels: 80,
+  propertiesRowHeightInPixels: 110,
+  rowHeightInPixels: 110,
   VERSION: '0.1.2'
 }
 
@@ -75,13 +76,13 @@ describe('Application menu bar', async () => {
             showMoreMenu={() => {}}
             showSearchMenu={() => {}}
             showSignInMenu={() => {}}
-            themeName='dark'
             toggleTheme={() => {}}
           />
         </IntlProvider>
       </BrowserRouter>
     )
 
-    expect(screen.getByTestId('application-menu-bar')).toBeInTheDocument()
+    const element = screen.getByTestId('application-menu-bar')
+    expect(element.classList).toContain('sqwerl-application-menu-bar')
   })
 })

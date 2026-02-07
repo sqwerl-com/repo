@@ -1,6 +1,6 @@
 /* global fetch, Headers, Response */
 
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import { useState } from 'react'
 
 /** API version number sent in each HTTP request. */
@@ -44,26 +44,22 @@ export enum ServerDataTypes {
  * @param setIsBusy Function that toggles a flag that indicates when an application is busy.
  */
 const Fetcher = (setIsBusy: (isBusy: boolean) => void): FetcherType => {
-  const [logger] = useState(Logger(Fetcher, Fetcher))
-
   return {
-    postData: (fetchArguments: FetchArgumentsType, data: string) => postData(logger, setIsBusy, fetchArguments, data),
+    postData: (fetchArguments: FetchArgumentsType, data: string) => postData(setIsBusy, fetchArguments, data),
     requestData: (fetchArguments: FetchArgumentsType, dataType?: string) =>
-      requestData(logger, setIsBusy, fetchArguments, dataType)
+      requestData(setIsBusy, fetchArguments, dataType)
   }
 }
 
 /**
  * Uses HTTP to post (send) data to a server.
- * @param logger  Logs messages.
  * @param setIsBusy Function that toggles a flag that indicates when an application is busy.
  * @param fetchArguments  What to post and what to call when the post is successful or fails.
  * @param data Data to send to a server.
  */
-const postData = (
-  logger: LoggerType, setIsBusy: (isBusy: boolean) => void, fetchArguments: FetchArgumentsType, data: string) => {
+const postData = (setIsBusy: (isBusy: boolean) => void, fetchArguments: FetchArgumentsType, data: string) => {
+  const logger = loggerFactory.create(postData)
   const { onFailure, onSuccess, url } = fetchArguments
-  logger.setContext(postData)
   const maximumSizeInBytes = 3000
   logger.assert(!!url, 'A URL to post data to is required')
   logger.debug(`Posting data to "${url}"`)
@@ -112,18 +108,17 @@ const postData = (
 
 /**
  * Sends an HTTP request for data.
- * @param logger  Logs messages.
  * @param setIsBusy Function that toggles a flag that indicates when an application is busy.
  * @param fetchArguments  What to fetch and what to call when fetch is successful or fails.
  * @param dataType  Unique identifier for a type of data the server returns.
  */
 const requestData = async (
-  logger: LoggerType,
   setIsBusy: (isBusy: boolean) => void,
   fetchArguments: FetchArgumentsType,
   dataType?: string): Promise<Response> => {
+  const logger = loggerFactory.create(requestData)
   const { dontSetBusy, url } = fetchArguments
-  logger.setContext(requestData)
+  logger
     .assert(!!url, 'A URL to fetch data from is required')
     .debug(`Fetching data from "${url}"`)
   const headers = new Headers()
@@ -141,5 +136,7 @@ const requestData = async (
     }
   })
 }
+
+const loggerFactory = LoggerFactory(Fetcher)
 
 export default Fetcher

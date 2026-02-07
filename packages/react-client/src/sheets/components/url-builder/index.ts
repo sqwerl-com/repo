@@ -1,4 +1,4 @@
-type PathComponent = {
+export interface PathComponent {
   id: string
   name: string
 }
@@ -7,7 +7,6 @@ type PathComponent = {
  * Builds a URL from a path to a thing within a repository.
  * @param path A path to where a thing is located within a repository.
  * @param setPath Sets a thing's path as a list of the path's components (positions within a repository).
- * @constructor
  */
 const UrlBuilder = (path: string, setPath: (components: Array<PathComponent>) => void): void => {
   // TODO - Traverse to the given path.

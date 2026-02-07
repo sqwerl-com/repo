@@ -1,9 +1,7 @@
 import { IntlShape, useIntl } from 'react-intl'
 import React, { MouseEventHandler } from 'react'
-import { expect } from 'vitest'
-import { screen } from '@testing-library/react'
 
-interface Props {
+export interface Props {
   /** Unique identifier for this button's Accessible Rich Internet Application (ARIA) label. */
   ariaLabelId: string
 

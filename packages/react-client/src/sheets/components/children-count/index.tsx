@@ -1,8 +1,8 @@
-import { Thing } from '@/utils/types'
+import { Thing } from '@/utilities/types'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   /** Number of children. */
   count: number
 

@@ -1,15 +1,15 @@
-@import '../../index.scss';
+@use "../../index.scss" as application;
 
 .sqwerl-navigation-bar {
   align-self: flex-start;
   background: var(--content-heading-background);
   border-bottom: 1px solid var(--content-heading-border-bottom-color);
-  box-shadow: 0 $sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
+  box-shadow: 0 application.$sqwerl-content-heading-shadow-offset var(--content-heading-shadow-color);
   display: flex;
   flex: 0 0 auto;
-  height: $sqwerl-row-height;
-  max-height: $sqwerl-row-height;
-  min-height: $sqwerl-row-height;
+  height: application.$sqwerl-row-height;
+  max-height: application.$sqwerl-row-height;
+  min-height: application.$sqwerl-row-height;
   width: 100%;
   z-index: var(--navigation-bar-z-index);
 

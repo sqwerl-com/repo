@@ -1,28 +1,31 @@
-import { CollectionType, Thing } from '@/utils/types'
+import ApplicationContext from '@/context/application'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   attendedBy: CollectionType<Thing>
+  fieldDescription?: string,
   state: SheetState
 }
 
 /**
  * Renders a read-only field that contains links to things, like talks or courses, that a user has attended.
  * @param props
- * @constructor
  */
 const AttendedByField = (props: Props): React.JSX.Element => {
-  const { attendedBy, state } = props
+  const { attendedBy, fieldDescription, state } = props
   const intl = useIntl()
+
   return (
     <Field
       collection={attendedBy}
       createLink={attendedByLink}
+      fieldDescription={fieldDescription}
       fieldLabel={
         intl.formatMessage({ id: 'attendedBy.field.label' }, { count: attendedBy.totalCount })
       }
@@ -38,7 +41,8 @@ const AttendedByField = (props: Props): React.JSX.Element => {
  * @param state
  */
 const attendedByLink = (intl: IntlShape, attendedBy: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
+  const { configuration, currentRepositoryName } = state
   const { hasAttendedCount, id, name, type } = attendedBy
   const hasReadText = intl.formatMessage({ id: 'hasAttendedCount' }, { count: hasAttendedCount })
   return (

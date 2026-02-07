@@ -1,8 +1,9 @@
+import { CurrentThemeContext } from '@/context/current-theme'
 import { IntlShape, useIntl } from 'react-intl'
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   /** Base (starting) path within the URL that points to the application that contains this logo. */
   basePath: string
 
@@ -11,9 +12,6 @@ interface Props {
 
   /** If false, then this logo shouldn't respond to users' actions. */
   isEnabled: boolean
-
-  /** Name of the current user interface theme. */
-  themeName: string
 }
 
 /**
@@ -21,9 +19,10 @@ interface Props {
  * on to go to the site's Home (initial) page.
  */
 const Logo = (props: Props): React.JSX.Element => {
-  const { children, isEnabled, themeName } = props
+  const { children, isEnabled } = props
   const intl = useIntl()
-  const [tooltipTimer, setTooltipTimer] = useState<NodeJS.Timeout | null>(null)
+  const themeName = useContext(CurrentThemeContext).valueOf()
+  const [tooltipTimer, setTooltipTimer] = useState(0)
 
   return (
     <div
@@ -65,7 +64,7 @@ const ariaLabel = (intl: IntlShape): string => {
  * @param event The event that caused this function to be called.
  * @param tooltipTimer  ID for a previously set timer.
  */
-const onBlur = (event: object, tooltipTimer: NodeJS.Timeout | null): void => {
+const onBlur = (event: object, tooltipTimer: number): void => {
   if (tooltipTimer !== null) {
     clearTimeout(tooltipTimer)
   }
@@ -79,11 +78,9 @@ const onBlur = (event: object, tooltipTimer: NodeJS.Timeout | null): void => {
  */
 const onFocus = (
   event: object,
-  tooltipTimer: NodeJS.Timeout | null,
-  setTooltipTimer: (timeout: NodeJS.Timeout) => void): void => {
-  if (tooltipTimer !== null) {
-    clearTimeout(tooltipTimer)
-  }
+  tooltipTimer: number,
+  setTooltipTimer: (timeout: number) => void): void => {
+  clearTimeout(tooltipTimer)
   setTooltipTimer(setTimeout(() => {
     console.log('Show tooltip')
   }, 300))

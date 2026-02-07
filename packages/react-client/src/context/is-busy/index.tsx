@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   children: React.ReactNode | React.ReactNode[]
 }
 
@@ -9,8 +9,7 @@ const IsBusyContext = React.createContext(false)
 
 /**
  * Injects a context for determining that the application is busy processing server responses.
- * @params props
- * @constructor
+ * @param props
  */
 const IsBusyProvider = (props: Props): React.JSX.Element => {
   const [isBusy, setIsBusy] = React.useState(false)

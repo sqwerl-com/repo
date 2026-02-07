@@ -1,29 +1,32 @@
+import ApplicationContext, { ApplicationContextType } from '@/context/application'
 import { ChevronRight } from 'react-feather'
-import { CollectionType, Thing } from '@/utils/types'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import type { SheetState } from '@/properties'
-import * as React from 'react'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   collections: CollectionType<Thing>
+  fieldDescription?: string,
   state: SheetState
 }
 
 /**
  * Renders a read-only field that shows the collections of things that a thing is a member of.
  * @param props
- * @constructor
  */
 const CollectionsField = (props: Props): React.JSX.Element => {
-  const { collections, state } = props
+  const { collections, fieldDescription, state } = props
+  const context = useContext(ApplicationContext)
   const intl = useIntl()
 
   return (
     <Field
       collection={collections}
-      createLink={collectionLink}
+      createLink={(intlShape, collection, state) => collectionLink(context, intl, collection, state)}
+      fieldDescription={fieldDescription}
       fieldLabel={intl.formatMessage({ id: 'collection.field.label' }, { count: collections.totalCount })}
       property='collections'
       state={state}
@@ -33,11 +36,12 @@ const CollectionsField = (props: Props): React.JSX.Element => {
 
 /**
  * Renders links to collections of things.
+ * @param context
  * @param intl
  * @param collection
  * @param state
  */
-const collectionLink = (intl: IntlShape, collection: Thing, state: SheetState): React.JSX.Element => {
+const collectionLink = (context: ApplicationContextType, intl: IntlShape, collection: Thing, state: SheetState): React.JSX.Element => {
   const { childrenCount, id } = collection
   const collectionCount = intl.formatMessage({ id: 'hasChildren' }, { count: childrenCount })
   const { configuration, currentRepositoryName } = state
@@ -48,8 +52,8 @@ const collectionLink = (intl: IntlShape, collection: Thing, state: SheetState): 
       <Link
         className='sqwerl-hyperlink-underline-on-hover'
         key={`collection-link-${id}`}
-        to={`${state.context.parentThingIdToHref(currentRepositoryName, id)}` +
-          `#/${applicationName}/${currentRepositoryName}${state.context.encodeUriReplaceStringsWithHyphens(id)}`}
+        to={`${context.parentThingIdToHref(currentRepositoryName, id)}` +
+          `#/${applicationName}/${currentRepositoryName}${context.encodeUriReplaceStringsWithHyphens(id)}`}
       >
         {collectionLinkAnchorText(collection)}
       </Link>

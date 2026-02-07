@@ -2,7 +2,7 @@ import ArchivedField from '@/sheets/components/fields/archived-field'
 import ContributorsField from '@/sheets/components/fields/contributors-field'
 import DescriptionField from '@/sheets/components/fields/description-field'
 import HistoryField from '@/sheets/components/fields/history-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import ParentTeamField from '@/sheets/components/fields/parent-team-field'
 import RolesField from '@/sheets/components/fields/roles-field'
 import ScrollableContent from '@/sheets/components/scrollable-content'
@@ -11,27 +11,21 @@ import SubteamsField from '@/sheets/components/fields/subteams-field'
 import TitleBar from '@/sheets/components/title-bar'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only field that displays information about a team of contributors.
- * @param {Props} props
- * @returns {JSX.Element}
- * @constructor
+ * @param props
  */
 const TeamsSheet = (props: Props): React.JSX.Element => {
-  logger = Logger(TeamsSheet, TeamsSheet)
   const connectionProperties = ['addedBy', 'archived', 'contributors', 'roles', 'subteams']
-  logger.setContext(TeamsSheet.name)
-
-  logger.info('Render Teams property sheet')
-
+  const logger = loggerFactory.create(TeamsSheet)
   const { state } = props
   const { configuration, thing } = state
+
+  logger.info('Render Teams property sheet')
 
   if (thing == null) {
     return (<></>)
@@ -63,5 +57,7 @@ const TeamsSheet = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(TeamsSheet)
 
 export default TeamsSheet

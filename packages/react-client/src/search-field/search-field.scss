@@ -1,5 +1,5 @@
-@import '../index.scss';
-@import '../menu-button/menu-button.scss';
+@use "../index.scss" as application;
+@use "../menu-button/menu-button.scss";
 
 $sqwerl-search-text-placeholder-text-color: #a8a8a8;
 $sqwerl-search-text-placeholder-text-font-style: italic;
@@ -46,7 +46,7 @@ $sqwerl-search-text-placeholder-text-font-style: italic;
       & .sqwerl-searching-message {
         align-self: center;
         flex: 1 1 auto;
-        font-size: $sqwerl-hyperlink-font-size;
+        font-size: application.$sqwerl-hyperlink-font-size;
         text-indent: 0.6rem;
       }
     }
@@ -55,9 +55,9 @@ $sqwerl-search-text-placeholder-text-font-style: italic;
   & .sqwerl-search-field-default {
     background: transparent;
     border: 2px solid transparent;
-    color: $sqwerl-menu-button-text-color;
+    color: application.$sqwerl-menu-button-text-color;
     cursor: pointer;
-    font-size: $sqwerl-hyperlink-font-size;
+    font-size: application.$sqwerl-hyperlink-font-size;
     letter-spacing: 0.02em;
     vertical-align: middle;
 
@@ -113,7 +113,7 @@ $sqwerl-search-text-placeholder-text-font-style: italic;
     & input.sqwerl-search-field-text {
       border: none;
       flex: 1 1 auto;
-      font-size: $sqwerl-hyperlink-font-size;
+      font-size: application.$sqwerl-hyperlink-font-size;
 
       &::-ms-input-placeholder {
         color: $sqwerl-search-text-placeholder-text-color;

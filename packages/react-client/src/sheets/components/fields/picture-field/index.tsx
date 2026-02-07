@@ -1,11 +1,13 @@
-import { BasicThing, CollectionType, Thing } from '@/utils/types'
-import defaultImageSize from '@/utils/default-image-size'
+import { BasicThing, CollectionType, Thing } from '@/utilities/types'
+import defaultImageSize from '@/utilities/default-image-size'
+import LoggerFactory from '@/logger'
 import ReadOnlyFieldLabel from '@/sheets/components/read-only-field-label'
 import type { SheetState } from '@/properties'
 import { useEffect, useState } from 'react'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
+  fieldDescription: string
   fieldTitle: string
   pictures: CollectionType<BasicThing>
   size: string
@@ -16,12 +18,9 @@ interface Props {
 /**
  * Renders a read-only field that displays a picture of a thing.
  * @param props
- * @constructor
  */
 const PictureField = (props: Props): React.JSX.Element => {
-  const { fieldTitle, pictures, size, state, thumbnailUrl } = props
-  const { logger } = state
-  logger.setContext(PictureField)
+  const { fieldDescription, fieldTitle, pictures, size, state, thumbnailUrl } = props
   const [picture, setPicture] = useState<BasicThing | null>(null)
   const [isImageLoaded, setIsImageLoaded] = useState(false)
   const [isThumbnailLoaded, setIsThumbnailLoaded] = useState(false)
@@ -78,7 +77,10 @@ const PictureField = (props: Props): React.JSX.Element => {
 
   return (
       <div className='sqwerl-properties-read-only-field'>
-        <ReadOnlyFieldLabel labelText={fieldTitle} />
+        <ReadOnlyFieldLabel
+          description={fieldDescription}
+          labelText={fieldTitle}
+        />
         <div className='sqwerl-properties-read-only-field-value'>
           {render(
             picture, size, isImageLoaded, isThumbnailLoaded, setIsImageLoaded, setIsThumbnailLoaded, thumbnailUrl)
@@ -94,9 +96,8 @@ const PictureField = (props: Props): React.JSX.Element => {
  */
 const fetchRepresentations = async (props: Props) => {
   const { pictures, state } = props
-  const { configuration, fetcher, logger } = state
-
-  logger.setContext(fetchRepresentations)
+  const { configuration, fetcher } = state
+  const logger = loggerFactory.create(fetchRepresentations)
 
   if (pictures && pictures.totalCount > 0) {
     const response = await fetcher.requestData({
@@ -153,6 +154,7 @@ const render = (
             setIsThumbnailLoaded(true)
           }}
           src={thumbnailUrl}
+          style={{ maxHeight: `${height}px`, width: `${width}px` }}
         />
       }
       {!thumbnailUrl &&
@@ -169,7 +171,7 @@ const render = (
           setIsImageLoaded(true)
         }
         src={picture?.href || ''}
-        style={{ height: `${height}px`, width: `${width}px` }}
+        style={{ maxHeight: `${height}px`, width: `${width}px` }}
       />
       <div
         className={`sqwerl-loading-picture-animation ${hideLoadingAnimation ? 'hidden' : 'visible'}`}
@@ -177,5 +179,7 @@ const render = (
     </div>
   )
 }
+
+const loggerFactory = LoggerFactory(PictureField)
 
 export default PictureField

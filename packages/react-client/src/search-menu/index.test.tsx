@@ -4,7 +4,7 @@ import { EMPTY_SEARCH_RESULTS } from '@/application'
 import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
-import { mockFetcher } from '@/utils/mocks'
+import { mockFetcher } from '@/utilities/mocks'
 import React from 'react'
 import { render } from '@testing-library/react'
 import { SearcherType } from '@/searcher'
@@ -20,6 +20,7 @@ const testConfiguration: ConfigurationType = {
   defaultRepositoryId: '/types/repositories/Main',
   defaultRepositoryName: 'Main',
   homeId: '/types/views/initial',
+  propertiesRowHeightInPixels: 110,
   rowHeightInPixels: 80,
   VERSION: '0.1.2'
 }

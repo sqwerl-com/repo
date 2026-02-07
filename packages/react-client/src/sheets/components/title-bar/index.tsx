@@ -4,12 +4,12 @@ import { NavigateFunction } from 'react-router-dom'
 import OpenInNewTabOrWindowLink from '@/sheets/components/open-in-new-tab-or-window-link'
 import ReactDOMServer from 'react-dom/server'
 import type { SheetState } from '@/properties'
-import { Thing } from '@/utils/types'
+import { Thing } from '@/utilities/types'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 import { ChevronLeft } from 'react-feather'
 
-interface Props {
+export interface Props {
   /** Application configuration. */
   configuration: ConfigurationType
 
@@ -31,7 +31,7 @@ interface Props {
   titleTextId: string
 
   /** Map of value names to values for the values to insert into the title format to form the title text. */
-  titleTextValues: { [key: string]: string }
+  titleTextValues: { [key: string]: string | number }
 }
 
 /**
@@ -56,16 +56,17 @@ const TitleBar = (props: Props): React.JSX.Element => {
     },
     { count: connectionCount({ connectionProperties, thing }) }
   )
+  const url = titleTextValues.hasOwnProperty('url') && titleTextValues.url ? titleTextValues.url.toString() : ''
   const linkText = intl.formatMessage(
     { id: titleTextId },
     {
       connections: connectionsText,
       count: titleTextValues.count,
-      linkIcon: ReactDOMServer.renderToString(<OpenInNewTabOrWindowLink url={titleTextValues.url} />),
+      linkIcon: ReactDOMServer.renderToString(<OpenInNewTabOrWindowLink url={url} />),
       name: titleTextValues.name,
       thingCount: titleTextValues.thingCount,
       url: titleTextValues.url
-    }).replace(/url/, titleTextValues.url)
+    }).replace(/url/, url)
 
   return (
     <header className='sqwerl-properties-title-bar'>

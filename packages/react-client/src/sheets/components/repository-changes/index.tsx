@@ -4,13 +4,13 @@ import ApplicationContext, { ApplicationContextType } from '@/context/applicatio
 import ChangeLabel from '@/sheets/components/change-label'
 import { Edit3, HelpCircle, PlusSquare, Trash2 } from 'react-feather'
 import { IntlShape, useIntl } from 'react-intl'
-import { linkTargetToCollection, linkTargetToLeaf } from '@/utils/formatters/link-target'
+import { linkTargetToCollection, linkTargetToLeaf } from '@/utilities/formatters/link-target'
 import { ReactNode, useContext } from 'react'
-import { RepositoryChangeDescription } from '@/utils/types'
+import { RepositoryChangeDescription } from '@/utilities/types'
 import { SheetState } from '@/properties'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   changes: RepositoryChangeDescription[]
   offset: number
   state: SheetState
@@ -33,7 +33,6 @@ interface RenderContext {
 /**
  * Renders table rows where each row represents a change someone made to a repository of things.
  * @param props
- * @constructor
  */
 const RepositoryChanges = (props: Props): React.JSX.Element => {
   const { changes, offset, state } = props
@@ -106,7 +105,6 @@ const renderChangeRow = (renderContext: RenderContext) => {
         <ChangeLabel
           change={change}
           index={index}
-          isLinkToCollection={isCollection}
           linkTarget={linkTarget}
           showPath={showPath}
         />
@@ -146,7 +144,6 @@ const renderRemovedItem = (renderContext: RenderContext) => {
       <ChangeLabel
         change={change}
         index={index}
-        isLinkToCollection={isCollection}
         linkTarget={linkTarget}
         showPath={isCollection && context.shouldShowPath(change.id)}
       />

@@ -1,12 +1,13 @@
+import ApplicationContext from '@/context/application'
 import Field from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import { Link } from 'react-router-dom'
 import LinkUrlBuilder from '@/sheets/components/link-url-builder'
 import type { SheetState } from '@/properties'
-import { Thing } from '@/utils/types'
-import * as React from 'react'
+import { Thing } from '@/utilities/types'
+import { useContext } from 'react'
 
-interface Props {
+export interface Props {
   parent: Thing
   state: SheetState
 }
@@ -14,7 +15,6 @@ interface Props {
 /**
  * Renders a read-only field that points to a team of contributors parent team of contributors.
  * @param props
- * @constructor
  */
 const ParentTeamField = (props: Props): React.JSX.Element => {
   const { parent, state } = props
@@ -38,7 +38,8 @@ const ParentTeamField = (props: Props): React.JSX.Element => {
  * @param state
  */
 const parentTeamLink = (_intl: IntlShape, parent: Thing, state: SheetState): React.JSX.Element => {
-  const { configuration, context, currentRepositoryName } = state
+  const { configuration, currentRepositoryName } = state
+  const context = useContext(ApplicationContext)
   const { id, name, type } = parent
 
   return (

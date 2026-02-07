@@ -1,4 +1,4 @@
-@import '../../index.scss';
+@use '../../index.scss' as application;
 
 $sqwerl-application-menu-corner-border-radius: 0.4rem;
 $sqwerl-application-menu-left-border-width: 0.5rem;
@@ -13,13 +13,13 @@ $sqwerl-dark-application-menu-bottom-shadow-color: black;
 
   &.hidden {
     opacity: 0.4;
-    height: calc(#{$sqwerl-row-height} * 2);
+    height: calc(#{application.$sqwerl-row-height} * 2);
     visibility: hidden;
     z-index: 0;
   }
 
   &.visible {
-    height: calc(#{$sqwerl-row-height} * 6);
+    height: calc(#{application.$sqwerl-row-height} * 6);
     opacity: 1;
     visibility: visible;
     z-index: 100;
@@ -47,7 +47,7 @@ $sqwerl-dark-application-menu-bottom-shadow-color: black;
       background: var(--menu-background-color);
       border-radius: $sqwerl-application-menu-corner-border-radius;
       bottom: 1rem;
-      height: $sqwerl-row-height;
+      height: application.$sqwerl-row-height;
       position: absolute;
       right: 0.5rem;
       width: 1.2rem;
@@ -147,7 +147,7 @@ $sqwerl-dark-application-menu-bottom-shadow-color: black;
 
     &.hidden {
       & > .sqwerl-application-menu-content {
-        height: calc(#{$sqwerl-row-height} * 2);
+        height: calc(#{application.$sqwerl-row-height} * 2);
         opacity: 0;
       }
     }
@@ -181,7 +181,7 @@ $sqwerl-dark-application-menu-bottom-shadow-color: black;
     --sqwerlSearchFieldWidth: var(--sqwerl-editable-search-field-width);
     --sqwerlSearchMenuWidth: 40rem;
 
-    height: calc(#{$sqwerl-row-height} * 8);
+    height: calc(#{application.$sqwerl-row-height} * 8);
     margin-left: calc(-1 * ((var(--sqwerlSearchMenuWidth) - var(--sqwerlSearchFieldWidth)) / 2));
     width: var(--sqwerlSearchMenuWidth);
 
@@ -208,7 +208,7 @@ $sqwerl-dark-application-menu-bottom-shadow-color: black;
     --sqwerlSearchFieldWidth: var(--sqwerl-editable-search-field-width);
     --sqwerlSearchMenuWidth: 40rem;
 
-    height: calc(#{$sqwerl-row-height} * 8);
+    height: calc(#{application.$sqwerl-row-height} * 8);
     margin-left: calc(-1 * ((var(--sqwerlSearchMenuWidth) - var(--sqwerlSearchFieldWidth)) / 2));
     width: var(--sqwerlSearchMenuWidth);
 
@@ -226,7 +226,6 @@ $sqwerl-dark-application-menu-bottom-shadow-color: black;
     width: var(--sqwerlSignInMenuWidth);
 
     & > .sqwerl-application-menu-background > .sqwerl-application-menu-top {
-      /* left: calc((var(--sqwerlSignInMenuWidth) + var(--sqwerlApplicationMenuTopArrowWidth)) / 2); */
       left: 70%;
     }
   }

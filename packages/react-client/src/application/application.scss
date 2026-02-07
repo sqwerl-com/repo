@@ -1,30 +1,29 @@
-@import "../index.scss";
-@import "./application-content-area/application-content-area.scss";
-@import "./application-menu/application-menu.scss";
-@import "./application-menu-bar/application-menu-bar.scss";
-@import "../busy-pane/busy-pane.scss";
-@import "../horizontal-divider/horizontal-divider.scss";
-@import "../logo/logo.scss";
-@import "../navigation/list-view/list-view.scss";
-@import "../menu-button/menu-button.scss";
-@import "../menu-item/menu-item.scss";
-@import "../modal-pane/modal-pane.scss";
-@import "../navigation/navigation.scss";
-@import "../navigation/navigation-back/navigation-back.scss";
-@import "../navigation/navigation-bar/navigation-bar.scss";
-@import "../navigation/navigation-title/navigation-title.scss";
-@import "../repository-changes-graph/repository-changes-graph";
-@import "../search-field/search-field.scss";
-@import "../search-menu/search-menu.scss";
-@import "../sheets/changes-by-day-sheet/changes-by-day-sheet.scss";
-@import "../sheets/changes-by-day-summary-sheet/changes-by-day-summary-sheet.scss";
-@import "../sheets/components/changes-by-day-title/changes-by-day-title.scss";
-@import "../sheets/components/fields/table-field/table-field.scss";
-@import "../sheets/home-sheet.scss";
-@import "../sheets/property/property";
-@import "../sheets/properties-table.sheet";
-@import "../sheets/property-sheet.scss";
-@import "../sheets/repositories/repositories-sheet.scss";
+@use "../index.scss" as application;
+@use "application-content-area/application-content-area.scss";
+@use "application-menu/application-menu.scss";
+@use "application-menu-bar/application-menu-bar.scss";
+@use "../busy-pane/busy-pane.scss";
+@use "../horizontal-divider/horizontal-divider.scss";
+@use "../logo/logo.scss";
+@use "../navigation/list-view/list-view.scss";
+@use "../menu-button/menu-button.scss";
+@use "../menu-item/menu-item.scss";
+@use "../modal-pane/modal-pane.scss";
+@use "../navigation/navigation.scss";
+@use "../navigation/navigation-back/navigation-back.scss";
+@use "../navigation/navigation-bar/navigation-bar.scss";
+@use "../navigation/navigation-title/navigation-title.scss";
+@use "../repository-changes-graph/repository-changes-graph";
+@use "../search-field/search-field.scss";
+@use "../search-menu/search-menu.scss";
+@use "../sheets/changes-by-day-sheet/changes-by-day-sheet.scss";
+@use "../sheets/changes-by-day-summary-sheet/changes-by-day-summary-sheet.scss";
+@use "../sheets/components/changes-by-day-title/changes-by-day-title.scss";
+@use "../sheets/home-sheet.scss";
+@use "../sheets/property/property";
+@use "../sheets/properties-table.sheet";
+@use "../sheets/property-sheet.scss";
+@use "../sheets/repositories/repositories-sheet.scss";
 
 :root {
   --focused-navigation-item-z-index: 2;
@@ -37,11 +36,13 @@
   --modal-dialog-z-index: 101;
   --modal-dialog-left-z-index: 102;
   --modal-pane-z-index: 100;
+  --navigation-item-icon-max-height: 110px;
+  --navigation-item-icon-max-width: 110px;
   --no-z-index: 0;
   --text-decoration-thickness: 0.05em;
   --text-underline-offset: 0.1em;
   --sqwerl-editable-search-field-width: 25rem;
-
+  --sqwerl-navigation-items-height: 200;
   overflow: hidden;
   transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 }
@@ -91,15 +92,15 @@
   --hyperlink-border-bottom: 1px solid #70b1d1;
   --hyperlink-box-shadow: inset 0 -0.12em 0 0 rgba(124, 212, 255, 0.29), inset 0 -0.05em 0 0 rgba(124, 212, 255, 0.37);
   --hyperlink-hover-box-shadow: 0.05em 0 rgb(0, 0, 0), -0.05em 0 rgb(0, 0, 0), 1.5px 0 rgb(0, 0, 0), -1.5px 0 rgb(0, 0, 0);
-  --hyperlink-text-color: #77b9e1;
+  --hyperlink-text-color: #a7deff;
   --hyperlink-text-shadow: 0.05em 0 rgb(0, 0, 0), -0.05em 0 rgb(0, 0, 0), 1.5px 0 rgb(0, 0, 0), -1.5px 0 rgb(0, 0, 0);
-  --hyperlink-text-visited-color: #9097ea;
+  --hyperlink-text-visited-color: #abb5ff;
   --label-font-family: 'Avenir Next LT Pro', Nunito, calibri, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --left-shadow-color: #808080;
   --label-text-color: #e0e0e0;
   --list-background-color: #202020;
   --list-item-background: rgba(64, 64, 64, 0.09);
-  --list-item-bottom-border-color: rgba(48, 48, 48, 0.75);
+  --list-item-bottom-border-color: #050505; /* rgba(48, 48, 48, 0.75); */
   --list-item-hover-background: rgba(51, 152, 254, 0.2);
   --list-item-hover-text-shadow: 0.05em 0 rgb(0, 0, 0), -0.05em 0 rgb(0, 0, 0), 1.5px 0 rgb(0, 0, 0), -1.5px 0 rgb(0, 0, 0);
   --list-item-ordinal-text-color: #b6b6b6;
@@ -134,7 +135,7 @@
   --read-only-field-label-count-color: #f0f0f0;
   --read-only-field-label-count-inline-background: #101010;
   --read-only-field-label-count-inline-border-color: #050505;
-  --repository-changes-thumbnail-bar-fill-color: #3a3a3a;
+  --repository-changes-thumbnail-bar-fill-color: #215122;
   --repository-changes-thumbnail-bar-fill-hover-color: #4c4c4c;
   --repository-changes-thumbnail-bar-stroke-color: #2c2c2c;
   --repository-changes-thumbnail-border-color: #303030;
@@ -247,7 +248,7 @@
   --menu-item-hover-border-color: #e0e0e0;
   --menu-item-subtitle-text-color: #78818c;
   --modal-pane-background-color: rgba(0, 0, 0, 0.3);
-  --navigation-list-even-row-background: #fafafa;
+  --navigation-list-even-row-background: rgba(235, 235, 235, 0.09);
   --navigation-loading-item-color: #656565;
   --picture-shadow-color: rgba(0, 0, 0, 0.95);
   --properties-even-row-background: #fafafa;
@@ -353,7 +354,7 @@
   }
 
   & a.sqwerl-hyperlink-underline-on-hover {
-    margin: $sqwerl-focus-border-size;
+    margin: application.$sqwerl-focus-border-size;
     color: var(--hyperlink-text-color);
     padding: 0.2em;
     text-decoration: underline;
@@ -378,17 +379,13 @@
     width: 100%;
   }
 
-  .sqwerl-back-or-forward-icon {
-    height: 100%;
-  }
-
   .sqwerl-breadcrumbs {
     display: none;
   }
 
   .sqwerl-button-bar {
     display: flex;
-    height: $sqwerl-row-height;
+    height: application.$sqwerl-row-height;
   }
 
   .sqwerl-graph {
@@ -399,27 +396,27 @@
   }
 
   .sqwerl-hyperlink {
-    font-family: $sqwerl-hyperlink-font-family;
+    font-family: application.$sqwerl-hyperlink-font-family;
   }
 
   .sqwerl-hyperlink-inline {
-    font-family: $sqwerl-hyperlink-font-family;
+    font-family: application.$sqwerl-hyperlink-font-family;
   }
 
   .sqwerl-hyperlink-not-underlined {
     cursor: pointer;
-    font-family: $sqwerl-hyperlink-font-family;
-    font-size: $sqwerl-hyperlink-font-size;
-    letter-spacing: $sqwerl-letter-spacing;
+    font-family: application.$sqwerl-hyperlink-font-family;
+    font-size: application.$sqwerl-hyperlink-font-size;
+    letter-spacing: application.$sqwerl-letter-spacing;
     text-decoration: none;
   }
 
   .sqwerl-hyperlink-underline-on-hover {
-    font-family: $sqwerl-hyperlink-font-family;
+    font-family: application.$sqwerl-hyperlink-font-family;
   }
 
   .sqwerl-menu-bar {
-    background: $sqwerl-menu-bar-background;
+    background: application.$sqwerl-menu-bar-background;
     display: none;
   }
 
@@ -430,8 +427,8 @@
   }
 
   .sqwerl-question-mark-svg {
-    height: $sqwerl-question-mark-icon-height;
-    width: $sqwerl-question-mark-icon-width;
+    height: application.$sqwerl-question-mark-icon-height;
+    width: application.$sqwerl-question-mark-icon-width;
   }
 
   .sqwerl-question-mark-svg-circle {
@@ -523,7 +520,7 @@
 @media screen and (min-width: 768px) {
   .sqwerl-application .sqwerl-breadcrumbs {
     display: flex;
-    height: $sqwerl-breadcrumbs-height;
+    height: application.$sqwerl-breadcrumbs-height;
   }
 
   .sqwerl-application .sqwerl-button-bar {

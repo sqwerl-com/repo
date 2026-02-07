@@ -12,7 +12,7 @@ it('renders without crashing', () => {
     <BrowserRouter>
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
-          <ReadOnlyFieldLabel labelText='test' />
+          <ReadOnlyFieldLabel description="This is a test" labelText='test' />
         </IntlProvider>
       </ApplicationContextProvider>
     </BrowserRouter>

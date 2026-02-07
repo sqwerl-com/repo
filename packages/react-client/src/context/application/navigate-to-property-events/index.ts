@@ -2,7 +2,6 @@ import { CallbackType, EventGenerator, Events } from '@/context/application/even
 
 /**
  * Registers listeners and notifies them when the user has navigated to one of a thing's properties.
- * @constructor
  */
 export const NavigateToPropertyEvents = (): EventGenerator => {
   const { callbacks, register, unregister } = Events([])

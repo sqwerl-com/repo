@@ -1,12 +1,12 @@
 import { CheckSquare, Copy } from 'react-feather'
-import Logger, { LoggerType } from '@/logger'
-import React from 'react'
+import LoggerFactory from '@/logger'
 import ReadOnlyFieldLabel from '@/sheets/components/read-only-field-label'
+import React, { useState } from 'react'
 import { SheetState } from '@/properties'
 import { useIntl } from 'react-intl'
-import { useState } from 'react'
 
-interface Props {
+export interface Props {
+  descriptionId: string,
   labelId: string,
   state: SheetState
   url: string
@@ -15,40 +15,40 @@ interface Props {
 /**
  * Renders a read-only field whose value is the URL for an RSS feed that people can subscribe to.
  * @param props
- * @constructor
  */
 const SubscriptionUrlField = (props: Props): React.JSX.Element => {
-  const logger= Logger(SubscriptionUrlField, SubscriptionUrlField)
-  const intl = useIntl()
-  const { labelId, url} = props
+  const { descriptionId, labelId, url } = props
   const [error, setError] = useState(false)
+  const intl = useIntl()
   const [wasClicked, setWasClicked] = useState(false)
 
   return (
-    <>
-      <div className='sqwerl-properties-read-only-field'>
-        <details>
-          <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: labelId })} />
-          <div className='sqwerl-read-only-field-sub-item'>
-            <span className='sqwerl-properties-read-only-field-value sqwerl-overflow-wrap-anywhere'>{url}</span>
-              {error && renderError(setError, setWasClicked)}
-              {wasClicked && renderCopiedToClipboard(setWasClicked)}
-              {!error && !wasClicked && renderCopyToClipboard(logger, setError, setWasClicked, url)}
-          </div>
-        </details>
-      </div>
-    </>
+    <div className='sqwerl-properties-read-only-field'>
+      <details>
+        <ReadOnlyFieldLabel
+          description={intl.formatMessage({ id: descriptionId })}
+          labelText={intl.formatMessage({ id: labelId })}
+        />
+        <div className='sqwerl-read-only-field-sub-item'>
+          <span className='sqwerl-properties-read-only-field-value sqwerl-overflow-wrap-anywhere'>{url}</span>
+            {error && renderError(setError, setWasClicked)}
+            {wasClicked && renderCopiedToClipboard(setWasClicked)}
+            {!error && !wasClicked && renderCopyToClipboard(setError, setWasClicked, url)}
+        </div>
+      </details>
+    </div>
   )
 }
 
 /**
  * Copies the given text to the cut-and-paste clipboard.
- * @param logger    A logger
  * @param text      The text to put in the clipboard.
  * @param setError  Call with true to indicate an error has occurred while copying to the clipboard.
  */
-const copyToClipboard = (logger: LoggerType, text: string, setError: (error: boolean) => void): Promise<void> => {
-  if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
+const copyToClipboard = (text: string, setError: (error: boolean) => void): Promise<void> => {
+  const logger = loggerFactory.create(copyToClipboard)
+
+  if (navigator?.clipboard.writeText) {
     return navigator.clipboard.writeText(text)
   }
 
@@ -74,14 +74,14 @@ const renderCopiedToClipboard = (setWasClicked: (wasClicked: boolean) => void) =
 }
 
 const renderCopyToClipboard = (
-  logger: LoggerType,
   setError: (error: boolean) => void,
   setWasClicked: (wasClicked: boolean) => void,
   url: string) => {
+
   return (
     <button className='sqwerl-cut-and-paste' onClick={() => {
       setWasClicked(true)
-      copyToClipboard(logger, url, setError)
+      copyToClipboard( url, setError)
       .then(() => {
         const timeout = setTimeout(() => {
           setWasClicked(false)
@@ -110,5 +110,7 @@ const renderError = (setError: (error: boolean) => void, setWasClicked: (wasClic
 
   return (<span className='sqwerl-cut-and-paste-label'>Copy to clipboard failed</span>)
 }
+
+const loggerFactory = LoggerFactory(SubscriptionUrlField)
 
 export default SubscriptionUrlField

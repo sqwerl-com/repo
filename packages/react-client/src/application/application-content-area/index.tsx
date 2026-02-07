@@ -4,17 +4,16 @@ import { ConfigurationType } from '@/configuration'
 import type { FetcherType } from '@/fetcher'
 import HorizontalDivider from '@/horizontal-divider'
 import { IsBusyContext } from '@/context/is-busy'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import Navigation from '@/navigation'
 import Properties, { SheetState } from '@/properties'
-import React, { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import { State as ApplicationState } from '@/application'
-import { Thing } from '@/utils/types'
+import { Thing } from '@/utilities/types'
 import { useNavigate } from 'react-router-dom'
+import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   /** Application configuration information. */
   configuration: ConfigurationType
 
@@ -65,7 +64,7 @@ interface Props {
  * @param props
  */
 const ApplicationContentArea = (props: Props): React.JSX.Element => {
-  logger = Logger(ApplicationContentArea, ApplicationContentArea)
+  const logger = loggerFactory.create(ApplicationContentArea)
   const navigate = useNavigate()
   const [thing, setThing] = useState<Thing | null>(null)
   logger.info('Rendering an application content area')
@@ -94,7 +93,6 @@ const ApplicationContentArea = (props: Props): React.JSX.Element => {
   const sheetState: SheetState = {
     animationState,
     configuration,
-    context,
     contributorLastSignedInDateTime,
     contributorName,
     currentRepositoryName,
@@ -104,7 +102,6 @@ const ApplicationContentArea = (props: Props): React.JSX.Element => {
     isHome,
     isShowingProperty,
     isContributorSignedIn,
-    logger,
     navigate,
     property,
     recentUrl,
@@ -119,7 +116,7 @@ const ApplicationContentArea = (props: Props): React.JSX.Element => {
   }
 
   return (
-    <section className='sqwerl-application-content-area' data-testid='application-content-area'>
+    <section className='sqwerl-application-content-area' id='application-content-area'>
       <HorizontalDivider percentage={dividerPercentage} width={dividerWidthInPixels}>
         <Navigation
           configuration={configuration}
@@ -151,5 +148,7 @@ const ApplicationContentArea = (props: Props): React.JSX.Element => {
     </section>
   )
 }
+
+const loggerFactory = LoggerFactory(ApplicationContentArea)
 
 export default ApplicationContentArea

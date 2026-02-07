@@ -2,7 +2,7 @@ import { FormattedMessage, IntlShape, useIntl } from 'react-intl'
 import { MouseEventHandler } from 'react'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   children?: React.JSX.Element
   className: string
   isEnabled: boolean

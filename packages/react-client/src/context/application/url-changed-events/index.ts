@@ -2,7 +2,6 @@ import { CallbackType, EventGenerator, Events } from '@/context/application/even
 
 /**
  * Registers listeners and notifies them when the URL in the browser's address bar changes.
- * @constructor
  */
 export const UrlChangedEvents = (): EventGenerator => {
   const { callbacks, register, unregister } = Events([])

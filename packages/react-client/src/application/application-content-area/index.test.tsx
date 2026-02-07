@@ -6,8 +6,7 @@ import { describe, expect, it, vi } from 'vitest'
 import { FetchArgumentsType, FetcherType } from '@/fetcher'
 import { IntlProvider } from 'react-intl'
 import messages from '@/translations/locales/en.json'
-import React from 'react'
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 
 const testConfiguration: ConfigurationType = {
   anonymousContributorId: 'guest@sqwerl.com',
@@ -19,13 +18,14 @@ const testConfiguration: ConfigurationType = {
   defaultRepositoryId: '/types/repositories/Main',
   defaultRepositoryName: 'Main',
   homeId: '/types/views/initial',
+  propertiesRowHeightInPixels: 110,
   rowHeightInPixels: 80,
   VERSION: '0.1.2'
 }
 
 const testFetcher: FetcherType = {
   postData: (fetchArguments: FetchArgumentsType, data: string): void => {
-    console.trace(`fetchArguments: ${fetchArguments}`)
+    console.trace(`fetchArguments: ${fetchArguments.toString()}`)
     console.trace(`data: ${data}`)
   },
   requestData: async (fetchArguments: FetchArgumentsType, dataType?: string) => {
@@ -173,6 +173,7 @@ describe('Application content area', () => {
         </IntlProvider>
       </BrowserRouter>)
 
-    expect(screen.getByTestId('application-content-area')).toBeInTheDocument()
+    const element = document.querySelector('#application-content-area')
+    expect(element?.classList).toContain('sqwerl-application-content-area')
   })
 })

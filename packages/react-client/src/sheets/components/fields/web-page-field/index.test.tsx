@@ -4,7 +4,7 @@ import { createMockSheetState } from '@/sheets/mocks'
 import { IntlProvider } from 'react-intl'
 import { it } from 'vitest'
 import messages from '@/translations/locales/en.json'
-import { mockThing } from '@/utils/mocks'
+import { mockThing } from '@/utilities/mocks'
 import React from 'react'
 import { render } from '@testing-library/react'
 import WebPageField from '@/sheets/components/fields/web-page-field'
@@ -15,6 +15,7 @@ it('renders without crashing', () => {
       <ApplicationContextProvider value={ApplicationState}>
         <IntlProvider locale='en' messages={messages}>
           <WebPageField
+            description='This is a description'
             state={{ ...createMockSheetState() }}
             webPage={mockThing}
           />

@@ -1,7 +1,7 @@
 import ApplicationMenu from '@/application/application-menu'
 import type { ConfigurationType } from '@/configuration'
 import type { FetcherType } from '@/fetcher'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import Logo from '@/logo'
 import MenuButton from '@/menu-button'
 import MenuItem from '@/menu-item'
@@ -14,9 +14,7 @@ import SignInMenu from '@/sign-in-menu'
 import { useCallback, useContext, useState } from 'react'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   /** This component's child components. */
   children?: React.JSX.Element
 
@@ -79,9 +77,6 @@ interface Props {
   /** Call to display the Sign In menu. */
   showSignInMenu: () => void
 
-  /** Name of the current user interface theme. */
-  themeName: string
-
   /** Call to toggle the UI theme between light and dark themes. */
   toggleTheme: () => void
 }
@@ -91,7 +86,7 @@ interface Props {
  * @param props
  */
 const ApplicationMenuBar = (props: Props): React.JSX.Element => {
-  logger = Logger(ApplicationMenuBar, ApplicationMenuBar)
+  const logger = loggerFactory.create(ApplicationMenuBar)
   logger.info('Rendering application menu bar')
   const [isSearchFieldEditable, setIsSearchFieldEditable] = useState(false)
   const isEnabled = !useContext(ModalityContext)
@@ -118,7 +113,6 @@ const ApplicationMenuBar = (props: Props): React.JSX.Element => {
     showMoreMenu,
     showSearchMenu,
     showSignInMenu,
-    themeName,
     toggleTheme
   } = props
   const stopSearchCallback = useCallback(() => {
@@ -128,7 +122,7 @@ const ApplicationMenuBar = (props: Props): React.JSX.Element => {
 
   return (
     <nav className='sqwerl-application-menu-bar' data-testid='application-menu-bar'>
-      <Logo basePath={configuration.basePath} isEnabled={isEnabled} themeName={themeName}>{children}</Logo>
+      <Logo basePath={configuration.basePath} isEnabled={isEnabled}>{children}</Logo>
       <div id='sqwerl-application-bar-spacer' />
       <SearchField
         applicationName={configuration.applicationName}
@@ -212,5 +206,7 @@ const ApplicationMenuBar = (props: Props): React.JSX.Element => {
     </nav>
   )
 }
+
+const loggerFactory = LoggerFactory(ApplicationMenuBar)
 
 export default ApplicationMenuBar

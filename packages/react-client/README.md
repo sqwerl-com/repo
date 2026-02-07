@@ -50,7 +50,11 @@ the thing's properties and the values of those properties.
 
 This project provides the following scripts that you can run.
 
-Using Yarn, you can run a script the following command.
+Using Bun, you can run a script with the following command.
+
+    bun <script-name>
+
+Using Yarn, you can run a script with the following command.
 
     yarn <script-name>
 
@@ -60,35 +64,19 @@ Or with NPM, you can run a script with the following command.
 
 where <script-name> can be one of the following:
 
-* analyze-bundle
 * build
-* build:ci
-* build:production
 * build-css
 * build-doc
 * build-translations
-* lint
-* lint-code
-* lint-styles
-* prepare
-* start
+* dev
+* lint (TODO - not working)
+* lint-code (TODO - not working)
+* lint-styles (TODO - not working)
 * test
-* test-all
-* watch-css
-
-### analyze-bundle
-Shows where code in this project's bundle comes from. Runs the
-[source map explorer](https://www.npmjs.com/package/source-map-explorer)
-against this project's code.  
+* watch-css 
 
 ### build
 Builds this project for execution during development.
-
-### build:ci
-Builds this project within a continuous integration environment. 
-
-### build:production
-Creates an optimized build of this project targeted to a production execution environment.
 
 ### build-css
 Builds this project's CSS style sheets.
@@ -100,6 +88,13 @@ Generates documentation of this project's code.
 Generates mapping between language- and locale-independent identifiers
 to locale- and language-specific text.
 
+### coverage
+Run this project's automated unit and integration test, collection code coverage information, and
+generate code-coverage reports.
+
+### dev
+Run the Sqwerl React client application.
+
 ### lint
 Evaluates this project's code and CSS styles by performing the lint-code and lint-style scripts.
 
@@ -110,20 +105,8 @@ Evaluates this project's code against the
 ### lint-styles
 Uses [stylelint](https://stylelint.io/) to evaluate this project's CSS styles.
 
-### prepare
-Uses the [Husky library](https://typicode.github.io/husky/) to install
-[Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
-Which allows us to execute code when interacting with Git. For example, running scripts
-that validate code before committing it to a Git repository.
-
-### start
-Runs the Sqwerl Web Client application.
-
 ### test
 Runs this project's automated unit and integration tests.
-
-### test-all
-Evaluates this project's source code before running unit and integration tests.
 
 ### watch-css
 Runs an application that rebuilds CSS stylesheets whenever style rules change.
@@ -131,13 +114,6 @@ Runs an application that rebuilds CSS stylesheets whenever style rules change.
 # Developer Guidelines
 The following subsections provide guidelines for developers who want to better
 understand or contribute to this project.
-
-## Package Management Guidelines
-We use the [Yarn Package Manager](https://yarnpkg.com/) to manage this project's dependencies.
-
-You can use the [Node Package Manager](https://www.npmjs.com/) (NPM) instead. Please tell us if you have any issues
-using NPM--Preferably by sending [pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-for any fixes you have made.
 
 ## Coding Style Guidelines
 
@@ -148,30 +124,14 @@ This project's **package.json** file contains scripts that allow developers to
 evaluate this project's code compliance to JavaScript Standard Style.
 
 To test this project's compliance to the JavaScript Standard Style, you can run the
-following commands:
-
-* For Yarn:
-        
-        yarn standard
-
-* For NPM:
-     
-        npm run standard  
+``lint-code`` script.
 
 ### CSS
 
-We use [SASS](https://sass-lang.com/) to construct the Sqwerl client application's CSS style sheets.
+This project uses [SASS](https://sass-lang.com/) to construct the Sqwerl client application's CSS style sheets.
 
 This project's **package.json** file contains scripts to build CSS stylesheets from SASS content.
-To generate CSS stylesheets, you can run the following commands:
-
-* To build using Yarn: 
-
-        yarn build-css
-
-* To build using NPM:
-
-        npm run build-css
+To generate CSS stylesheets, run the ``build-css`` script.
 
 This project stores a component's source code within individual folders. A component's
 folder may contain that component's TypeScript code (stored within files whose names end with a **.ts** or **.tsx**).

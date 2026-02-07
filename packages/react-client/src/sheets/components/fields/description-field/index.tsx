@@ -3,7 +3,7 @@ import { SheetState } from '@/properties'
 import { useIntl } from 'react-intl'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   description: string
   state: SheetState
 }
@@ -11,7 +11,6 @@ interface Props {
 /**
  * Renders a read-only field that shows a textual description of a thing.
  * @param props
- * @constructor
  */
 const DescriptionField = (props: Props): React.JSX.Element => {
   const { description } = props
@@ -21,7 +20,9 @@ const DescriptionField = (props: Props): React.JSX.Element => {
     <>
       {description &&
         <div className='sqwerl-properties-read-only-field'>
-          <ReadOnlyFieldLabel labelText={intl.formatMessage({ id: 'description.field.label' })} />
+          <ReadOnlyFieldLabel
+            description={intl.formatMessage({ id: 'description.field.description' })}
+            labelText={intl.formatMessage({ id: 'description.field.label' })} />
           <div
             className='sqwerl-properties-read-only-field-value'
             dangerouslySetInnerHTML={{ __html: description }}

@@ -3,7 +3,7 @@
 import { EMPTY_SEARCH_RESULTS, SearchResults } from '@/application'
 import type { FetcherType } from '@/fetcher'
 import { IntlShape, useIntl } from 'react-intl'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import type { SearcherType } from '@/searcher'
 import { Search, X } from 'react-feather'
 import SearchContext from '@/search-context'
@@ -11,9 +11,7 @@ import { Transition } from 'react-transition-group'
 import { useEffect, useState } from 'react'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   /** Name of the server-side application. */
   applicationName: string
 
@@ -89,7 +87,6 @@ interface State {
   input: HTMLInputElement | null
   intl: IntlShape
   isEditable: boolean
-  logger: LoggerType
   searcher: SearcherType
 
   /**
@@ -114,7 +111,6 @@ interface State {
  * @param props
  */
 const SearchField = (props: Props): React.JSX.Element => {
-  logger = Logger(SearchField, SearchField)
   const {
     applicationName,
     className,
@@ -163,7 +159,6 @@ const SearchField = (props: Props): React.JSX.Element => {
     input,
     intl,
     isEditable,
-    logger,
     searcher,
     searchText,
     setCurrentSearchText,
@@ -229,6 +224,7 @@ const SearchField = (props: Props): React.JSX.Element => {
           </>
         )}
       </Transition>
+      {/* TODO - The following is commented out because it it causing a runtime error.
       <Transition in={isSearching} timeout={milliseconds} unmountOnExit>
         {status => (
           <>
@@ -244,10 +240,11 @@ const SearchField = (props: Props): React.JSX.Element => {
                     <Search className='sqwerl-search-results-visible-icon' />
                     <span className='sqwerl-searching-message'>{searchText}</span>
                   </>}
-              </div>}
-          </>)}
+              </div>
+            }
+          </>
+        )}
       </Transition>
-      {/*
       <Transition in={isFinishedSearching} timeout={milliseconds} unmountOnExit>
         {status => (
           <>
@@ -311,8 +308,10 @@ const onFocusGained = (event: React.FocusEvent<HTMLInputElement>): void => {
  * @param response A response to an HTTP request sent to a server.
  */
 const onSearchFailure = (state: State, error: Error, response?: Response): void => {
-  const { logger, searchText, setIsFinishedSearching, setIsSearching, setSearchResults, showMenu } = state
-  logger.setContext(onSearchFailure).error(`Search failed. ${JSON.stringify(error)}`)
+  const logger = loggerFactory.create(onSearchFailure)
+  const { searchText, setIsFinishedSearching, setIsSearching, setSearchResults, showMenu } = state
+  logger.error(`Search failed. ${JSON.stringify(error)}`)
+
   if ((response !== undefined) && (response.status >= 400)) {
     if (typeof setSearchResults === 'function') {
       setSearchResults({
@@ -338,9 +337,10 @@ const onSearchFailure = (state: State, error: Error, response?: Response): void 
  * @param event The event that caused this function to be called.
  */
 const onSearchFieldKeyDown = (state: State, event: React.KeyboardEvent<HTMLInputElement>): void => {
-  const { logger, searchText, stopSearch } = state
+  const { searchText, stopSearch } = state
   const key = event.key
-  logger.setContext('onSearchFieldKeyDown').debug(`key="${key}"`)
+  const logger = loggerFactory.create(onSearchFieldKeyDown)
+  logger.debug(`key="${key}"`)
   const { isEditable } = state
   if ((key === 'Escape') && isEditable) {
     stopSearch()
@@ -359,26 +359,31 @@ const onSearchFieldKeyDown = (state: State, event: React.KeyboardEvent<HTMLInput
  */
 const onSearchSuccess = (state: State, url: string, searchResults: SearchResults): void => {
   const {
-    logger,
     setIsFetchingSearchResults,
     setIsFinishedSearching,
     setIsSearching,
     setSearchResults,
     showMenu
   } = state
-  logger.setContext('onSearchSuccess').info('Search completed successfully')
+  const logger = loggerFactory.create(onSearchSuccess)
+  logger.info('Search completed successfully')
   let isFetching = false
+
   if (typeof setSearchResults === 'function') {
     setSearchResults(searchResults)
+
     // If we haven't retrieved all available search results, retrieve next batch of search results.
     const { limit, offset, total } = searchResults
+
     // If there are more search results to display, then retrieve more search results.
     isFetching = (offset + limit) < total
     setIsFetchingSearchResults(isFetching)
   }
+
   if (typeof showMenu === 'function') {
     showMenu()
   }
+
   setIsFinishedSearching(true)
   setIsSearching(false)
 }
@@ -389,9 +394,11 @@ const onSearchSuccess = (state: State, url: string, searchResults: SearchResults
  * @param event The event that caused this function to be called.
  */
 const onSearchTextChanged = (state: State, event: React.ChangeEvent<HTMLInputElement>): void => {
-  const { logger, setSearchText } = state
+  const logger = loggerFactory.create(onSearchTextChanged)
+  const { setSearchText } = state
   const searchText = event.target.value
-  logger.setContext('onSearchTextChanged').debug(`Search text: "${searchText}"`)
+  logger.debug(`Search text: "${searchText}"`)
+
   if (typeof setSearchText === 'function') {
     setSearchText(searchText)
   }
@@ -404,8 +411,9 @@ const onSearchTextChanged = (state: State, event: React.ChangeEvent<HTMLInputEle
  * @param state
  *
 const onStopEditing = (state: State): void => {
-  const { logger, setIsEditable } = state
-  logger.setContext(onStopEditing).debug('Stop editing')
+  const { setIsEditable } = state
+  const logger = loggerFactory.create(onStopEditing)
+  logger.debug('Stop editing')
   setIsEditable(false)
 }
  */
@@ -420,7 +428,6 @@ const search = (state: State, offset = 0, limit = 20): void => {
   const {
     applicationName,
     fetcher,
-    logger,
     searcher,
     searchText,
     setCurrentSearchText,
@@ -428,12 +435,15 @@ const search = (state: State, offset = 0, limit = 20): void => {
     setIsSearching,
     setSearchResults
   } = state
-  logger.setContext('search').debug(`Searching for text: "${searchText}"`)
+  const logger = loggerFactory.create(search)
+  logger.debug(`Searching for text: "${searchText}"`)
   setIsFinishedSearching(false)
   setIsSearching(true)
+
   if (typeof setSearchResults === 'function') {
     setSearchResults(EMPTY_SEARCH_RESULTS)
   }
+
   setCurrentSearchText(searchText)
   searcher.search(
     SearchContext(
@@ -488,5 +498,7 @@ const tooltipText = (intl: IntlShape, tooltipTextId: string, searchDomainName: s
   // TODO - Add default message.
   return intl.formatMessage({ id: tooltipTextId }, { searchDomainName })
 }
+
+const loggerFactory = LoggerFactory(SearchField)
 
 export default SearchField

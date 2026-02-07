@@ -1,10 +1,10 @@
 import ArchivedField from '@/sheets/components/fields/archived-field'
 import AuthorsField from '@/sheets/components/fields/authors-field'
-import { Book } from '@/utils/types'
+import { Book } from '@/utilities/types'
 import CollectionsField from '@/sheets/components/fields/collections-field'
 import HistoryField from '@/sheets/components/fields/history-field'
 import LinksField from '@/sheets/components/fields/links-field'
-import Logger, { LoggerType } from '@/logger'
+import LoggerFactory from '@/logger'
 import NotesField from '@/sheets/components/fields/notes-field'
 import PictureField from '@/sheets/components/fields/picture-field'
 import ReadByField from '@/sheets/components/fields/read-by-field'
@@ -21,19 +21,15 @@ import { useIntl } from 'react-intl'
 import WebPagesField from '@/sheets/components/fields/web-pages-field'
 import * as React from 'react'
 
-let logger: LoggerType
-
-interface Props {
+export interface Props {
   state: SheetState
 }
 
 /**
  * Renders a read-only field that displays information about a book.
  * @param props
- * @constructor
  */
 const BooksSheet: React.FC<SheetProps> = (props: Props): React.JSX.Element => {
-  logger = Logger(BooksSheet, BooksSheet)
   const connectionProperties = [
     'addedBy',
     'archived',
@@ -49,6 +45,7 @@ const BooksSheet: React.FC<SheetProps> = (props: Props): React.JSX.Element => {
     'representations',
     'tags'
   ]
+  const logger = loggerFactory.create(BooksSheet)
 
   logger.info('Rendering Books property sheet')
 
@@ -80,7 +77,9 @@ const BooksSheet: React.FC<SheetProps> = (props: Props): React.JSX.Element => {
     title,
     webPages
   }: Book = thing
+  const pictureFieldDescription = intl.formatMessage({ id: 'booksSheet.pictureFieldDescription' })
   const pictureFieldTitle = intl.formatMessage({ id: 'booksSheet.pictureFieldTitle' })
+  const titleFieldDescription = intl.formatMessage({ id: 'booksSheet.titleFieldDescription' })
 
   return (
     <>
@@ -96,15 +95,17 @@ const BooksSheet: React.FC<SheetProps> = (props: Props): React.JSX.Element => {
       />
       <ScrollableContent>
         {archived && <ArchivedField archived={archived} />}
-        {(pictures !== undefined) &&
+        {pictures && pictures.totalCount > 0 &&
           <PictureField
+            fieldDescription={pictureFieldDescription}
             fieldTitle={pictureFieldTitle}
             pictures={pictures}
             size='medium'
             state={state}
             thumbnailUrl={thumbnailUrl}
-          />}
-        {(title !== undefined) && <TitleField title={title} />}
+          />
+        }
+        {(title !== undefined) && <TitleField description={titleFieldDescription} title={title} />}
         {(authors !== undefined) && <AuthorsField authors={authors} state={state} />}
         {(representations !== undefined) &&
           <RepresentationsField
@@ -126,5 +127,7 @@ const BooksSheet: React.FC<SheetProps> = (props: Props): React.JSX.Element => {
     </>
   )
 }
+
+const loggerFactory = LoggerFactory(BooksSheet)
 
 export default BooksSheet

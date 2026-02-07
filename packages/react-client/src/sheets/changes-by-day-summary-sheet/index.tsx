@@ -1,30 +1,29 @@
+import ApplicationContext from '@/context/application'
 import { ChevronRight } from 'react-feather'
 import { format, parseISO } from 'date-fns'
 import { IntlShape, useIntl } from 'react-intl'
-import Logger, { LoggerType } from '@/logger'
+import { Link } from 'react-router-dom'
+import LoggerFactory from '@/logger'
 import { renderTitleWithMultipleAuthors, renderTitleWithSingleAuthor } from '@/sheets/components/changes-by-day-title'
-import { RepositoryChangeType } from '@/utils/types'
+import { RepositoryChangeType } from '@/utilities/types'
 import ScrollableContent from '@/sheets/components/scrollable-content'
 import type { SheetProps } from '@/properties'
-import { Link } from 'react-router-dom'
-import * as React from 'react'
-
-let logger: LoggerType
+import { useContext } from 'react'
 
 /**
  * Renders a read-only form that displays summarized information that describes changes made to a repository of
  * things during multiple times on the same day. Renders a read-only property sheet with links to multiple commits
  * made to a repository of things.
  * @param props
- * @constructor
  */
 const ChangesByDaySummarySheet: React.FC<SheetProps> = (props: SheetProps): React.JSX.Element => {
-  logger = Logger(ChangesByDaySummarySheet, ChangesByDaySummarySheet)
-  logger.info('Render Changes by Day Summary properties sheet')
-
+  const context = useContext(ApplicationContext)
   const intl = useIntl()
+  const logger = loggerFactory.create(ChangesByDaySummarySheet)
   const { state } = props
-  const { context, thing } = state
+  const { thing } = state
+
+  logger.info('Render Changes by Day Summary properties sheet')
 
   if (thing == null) {
     return (<></>)
@@ -150,5 +149,7 @@ const renderChanges = (
     </div>
   )
 }
+
+const loggerFactory = LoggerFactory(ChangesByDaySummarySheet)
 
 export default ChangesByDaySummarySheet

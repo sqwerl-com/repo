@@ -1,4 +1,4 @@
-@import "../index.scss";
+@use "../index.scss" as application;
 
 .sqwerl-modal-pane {
   background: var(--modal-pane-background-color);

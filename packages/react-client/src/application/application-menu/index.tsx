@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   /** This menu's child components. */
   children?: React.ReactNode
 

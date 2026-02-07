@@ -1,10 +1,10 @@
-import { CollectionType, Thing } from '@/utils/types'
+import { CollectionType, Thing } from '@/utilities/types'
 import Field, { renderFieldValue } from '@/sheets/components/fields/field'
 import { IntlShape, useIntl } from 'react-intl'
 import type { SheetState } from '@/properties'
 import * as React from 'react'
 
-interface Props {
+export interface Props {
   hasListenedTo: CollectionType<Thing>
   state: SheetState
 }
@@ -12,7 +12,6 @@ interface Props {
 /**
  * Renders a read-only field that specifies the things a user has listened to.
  * @param props
- * @constructor
  */
 const HasListenedToField = (props: Props): React.JSX.Element => {
   const { hasListenedTo, state } = props

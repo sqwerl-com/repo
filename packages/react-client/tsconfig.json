@@ -20,6 +20,7 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "paths": {
+      "@/assets": ["packages/react-client/src/assets"],
       "@/*": ["packages/react-client/src/*"],
       "react": ["packages/react-client/node_modules/@types/react"]
     },
@@ -40,12 +41,7 @@
   ],
   "include": [
     "src/vitest.setup.ts",
-    "src/**/*.{ts|tsx}",
-    "src/**/*.test.{ts|tsx}"
-  ],
-  "parserOptions": {
-    "project": "./tsconfig.json",
-    "tsconfigRootDir": "__dirname"
-  },
-  "references": [{ "path": "./tsconfig.node.json" }]
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
 }
